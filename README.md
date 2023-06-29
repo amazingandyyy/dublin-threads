@@ -2,8 +2,8 @@
 
 ## Dublin Developement Projects frontend
 
-- OLD https://dublin-development.icitywork.com/
-- NEW https://amazingandyyy.com/dublin-data/
+- OLD https://dublin-development.icitywork.com
+- NEW https://amazingandyyy.com/dublin-ca
 
 ## JSON API
 
