@@ -7,7 +7,7 @@
 
 ## JSON API
 
-https://raw.githubusercontent.com/amazingandyyy/dublin-data/main/data.json
+- list of development projects: https://raw.githubusercontent.com/amazingandyyy/dublin-ca/main/api/development.json
 
 ## citydocs
 
