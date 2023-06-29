@@ -1,0 +1,45 @@
+name: update developments data
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: "0 6 * * *" # “At 6:00 everyday”
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    permissions:
+      contents: write
+    name: fetch
+    runs-on: ubuntu-latest
+    steps:
+      - name: use node 17
+        uses: actions/setup-node@v1
+        with:
+          node-version: 17.x
+
+      - uses: actions/checkout@v3
+
+      - name: list files
+        run: tree -L 2 .
+
+      - name: install node dependencies
+        working-directory: ./worker
+        run: npm install
+
+      - name: generate
+        working-directory: ./worker
+        run: node index.js
+
+      - name: check for modified files
+        id: git-check
+        run: echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ]; then echo "true"; else echo "false"; fi)
+      - name: commit to main branch
+        if: steps.git-check.outputs.modified == 'true'
+        run:  |
+          git config --global user.name 'bot'
+          git config --global user.email 'dublin-ca@amazingandyyy.com'
+          git add -A
+          git commit -m 'feat(data): update api/developments.json'
+          git push
