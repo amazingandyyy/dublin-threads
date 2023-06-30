@@ -2,16 +2,22 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const path = require('path');
 const fs = require('fs');
+const rdiff = require('recursive-diff');
+
 const existingJson = require('../api/developments/latest.json')
 
-const prefix = "DUBLIN"
 axios.get("https://dublin-development.icitywork.com")
   .then(res=>{
-      const HTML = fs.readFileSync(path.join(__dirname, '..','docs/index.html'));
-      // const HTML = res.data;
-      const data = build(HTML)
+      const inputPath = path.join(__dirname, '..','docs/index.html');
+      // const input = fs.readFileSync(inputPath)
+      const input = res.data;
+      const [data, diff] = build(input)
       // console.log(JSON.stringify(data, null, 2))
-      fs.writeFileSync(path.join(__dirname, '../api/', 'developments/latest.json'), JSON.stringify(data, null, 2))
+      const outputPath = path.join(__dirname, '../api/', 'developments/latest.json')
+      fs.writeFileSync(outputPath, JSON.stringify(data, null, 2))
+      
+      const outputDiffPath = path.join(__dirname, '../api/', 'developments/diff.json')
+      fs.writeFileSync(outputDiffPath, JSON.stringify(diff, null, 2))
   })
   .catch(console.error)
 
@@ -64,6 +70,7 @@ function build(HTML) {
   })
 
   const data = existingJson;
+  const diff = [];
   projectIDs.forEach((id) => {
     $(`#${id}`).each((i, el) => {
       const d={};
@@ -86,7 +93,15 @@ function build(HTML) {
       d.location = normalize(findBlockByTitle('Address')?.nextSibling.nodeValue);
       const docs = $(el).find('h4.dublin-green')[3];
       function cleanUpCityDocsUrl(url) {
-        return url.replace('http://citydocs.ci.dublin.ca.us/', 'https://citydocs.dublin.ca.gov/')
+        return url
+          .replace('http://citydocs.ci.dublin.ca.us/', 'https://citydocs.dublin.ca.gov/')
+          .replace('https://dublin-development.icitywork.com/', '')
+          .replace('wp-content/', 'https://dublin-development.icitywork.com/wp-content/')
+      }
+      function cleanUpImagesUrl(url) {
+        return url
+          .replace('https://dublin-development.icitywork.com/', '')
+          .replace('wp-content/', 'https://dublin-development.icitywork.com/wp-content/')
       }
       function traverseSiblings(el, acc=[]) {
         if ($(el).next().find('a').attr('href') !== undefined) {
@@ -103,16 +118,23 @@ function build(HTML) {
       d.description = normalize($(findBlockByTitle('Project Description')).next().text());
       const images = findBlockByTitle('Project Images').nextSibling
       d.images = $(images).next().find('li').map((i, el) => ({
-        original: $(el).find('a').attr('href'),
-        thumbnail: $(el).find('img').attr('src')
+        original: cleanUpImagesUrl($(el).find('a').attr('href')),
+        thumbnail: cleanUpImagesUrl($(el).find('img').attr('src'))
       })).get()
-      d.createdAt = new Date().toISOString().split('T')[0];
       if(data[d.id] !== undefined) {
-        
+        // it exists, find the diff and put the activity into the feed
+        const localDiff = rdiff.getDiff(data[d.id], d)
+        console.log(localDiff)
+        diff.push(localDiff)
+
+        data[d.id] = d;
+        d.updatedAt = new Date().toISOString().split('T')[0];
       }else{
+        d.createdAt = new Date().toISOString().split('T')[0];
+        d.updatedAt = new Date().toISOString().split('T')[0];
         data[d.id] = d;
       }
     })
   })
-  return data;
+  return [data, diff];
 }
