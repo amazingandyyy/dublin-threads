@@ -18,7 +18,9 @@ axios.get("https://dublin-development.icitywork.com")
       fs.writeFileSync(outputPath, JSON.stringify(data, null, 2))
       
       const outputDiffPath = path.join(__dirname, '../api/', 'developments/diff.json')
-      if(diff.length>0) fs.writeFileSync(outputDiffPath, JSON.stringify([...existingDiff, ...diff], null, 2))
+      if(process.env.ENABLE_DIFF === 'true' && diff.length>0){
+        fs.writeFileSync(outputDiffPath, JSON.stringify([...existingDiff, ...diff], null, 2))
+      }
   })
   .catch(console.error)
 
@@ -45,11 +47,13 @@ function build(HTML) {
           // is address
           r = {
             name: i[0],
-            address: i[1]
+            address: i[1],
+            phone: 'n/a'
           }
         } else{
           r = {
             name: i[0],
+            address: 'n/a',
             phone: i[1]
           }
         }
@@ -70,6 +74,34 @@ function build(HTML) {
     projectIDs.push(el.attribs.id)
   })
 
+  function parseGeo() {
+    const data = {};
+    $('script[type="text/javascript"]').each((index, element) => {
+      const scriptContent = $(element).html();
+      const latMatch = scriptContent.match(/var lat = (.*?);/);
+      const lonMatch = scriptContent.match(/var lon = (.*?);/);
+      const postidMatch = scriptContent.match(/var postid =(.*?);/);
+      const iconNameMatch = scriptContent.match(/var iconName = "(.*?)";/);
+
+      if (latMatch && lonMatch && postidMatch) {
+        const lat = parseFloat(latMatch[1]);
+        const lon = parseFloat(lonMatch[1]);
+        const postid = parseInt(postidMatch[1]);
+        const iconName = iconNameMatch[1];
+
+        const item = {
+          lat,
+          lon,
+          iconName,
+        };
+        data[`projectDetail${postid}`] = item //)
+      }
+    });
+
+    return data
+  }
+
+  const geoLocations = parseGeo();
   const data = existingJson;
   const diff = [];
   projectIDs.forEach((id) => {
@@ -122,6 +154,12 @@ function build(HTML) {
         original: cleanUpImagesUrl($(el).find('a').attr('href')),
         thumbnail: cleanUpImagesUrl($(el).find('img').attr('src'))
       })).get()
+
+      d.geolocation = {
+        lat: null, lon: null, iconName: 'dot', title: d.title,
+        ...geoLocations[d.id]
+      }
+
       if(data[d.id] !== undefined) {
         // it exists, find the diff and put the activity into the feed
         const localDiff = rdiff.getDiff(data[d.id], d, true)

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Dublin.kml</name>
+	<Schema name="cb_2013_06_place_500k" id="kml_schema_ft_cb_2013_06_place_500k10">
+		<SimpleField type="xsd:string" name="STATEFP"><displayName>STATEFP</displayName>
+</SimpleField>
+		<SimpleField type="xsd:string" name="PLACEFP"><displayName>PLACEFP</displayName>
+</SimpleField>
+		<SimpleField type="xsd:string" name="PLACENS"><displayName>PLACENS</displayName>
+</SimpleField>
+		<SimpleField type="xsd:string" name="AFFGEOID"><displayName>AFFGEOID</displayName>
+</SimpleField>
+		<SimpleField type="xsd:string" name="GEOID"><displayName>GEOID</displayName>
+</SimpleField>
+		<SimpleField type="xsd:string" name="NAME"><displayName>NAME</displayName>
+</SimpleField>
+		<SimpleField type="xsd:string" name="LSAD"><displayName>LSAD</displayName>
+</SimpleField>
+		<SimpleField type="xsd:double" name="ALAND"><displayName>ALAND</displayName>
+</SimpleField>
+		<SimpleField type="xsd:double" name="AWATER"><displayName>AWATER</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="KMLStyler6010">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>0.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d249142</color>
+		</PolyStyle>
+	</Style>
+	<Style id="KMLStyler2500">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>0.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d249142</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="KMLStyler2012">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#KMLStyler2500</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#KMLStyler6010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="kml_419">
+		<name>Dublin</name>
+		<open>1</open>
+		<description><![CDATA[<h3>City of Dublin</h3>
+<p>Incorporated: <b>February 1, 1982</b></p>
+<p>Area: <b>14.912 sq mi</b></p>
+<p>Population: <b>52,105</b> (2013)</p>
+
+<a href="http://dublin-developer.icitywork.com/">Development Projects</a><br />
+<a href="http://dublin-cip.icitywork.com/">Capital Improvement Projects</a>]]></description>
+		<styleUrl>#KMLStyler2012</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#kml_schema_ft_cb_2013_06_place_500k10">
+				<SimpleData name="STATEFP">06</SimpleData>
+				<SimpleData name="PLACEFP">20018</SimpleData>
+				<SimpleData name="PLACENS">02410362</SimpleData>
+				<SimpleData name="AFFGEOID">1600000US0620018</SimpleData>
+				<SimpleData name="GEOID">0620018</SimpleData>
+				<SimpleData name="NAME">Dublin</SimpleData>
+				<SimpleData name="LSAD">25</SimpleData>
+				<SimpleData name="ALAND">39452165</SimpleData>
+				<SimpleData name="AWATER">0</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-121.987797,37.709318,0 -121.977776,37.709371,0 -121.969487,37.709422,0 -121.968619,37.709677,0 -121.963541,37.70841,0 -121.960275,37.708899,0 -121.960231,37.710596,0 -121.9593,37.709884,0 -121.952924,37.707648,0 -121.952492,37.709361,0 -121.954255,37.710793,0 -121.950952,37.712578,0 -121.953554,37.714209,0 -121.952875,37.716021,0 -121.95096,37.715574,0 -121.950737,37.717035,0 -121.955261,37.719857,0 -121.949041,37.721278,0 -121.943695,37.722722,0 -121.942383,37.722946,0 -121.940195,37.723484,0 -121.937003,37.724247,0 -121.932825,37.725436,0 -121.929372,37.726078,0 -121.929385,37.726199,0 -121.925909,37.726944,0 -121.917372,37.728955,0 -121.911147,37.730318,0 -121.910459,37.730393,0 -121.910138,37.73046,0 -121.881567,37.737328,0 -121.873542,37.739317,0 -121.870733,37.740086,0 -121.850727,37.744942,0 -121.850608,37.734061,0 -121.850637,37.732064,0 -121.850653,37.73096,0 -121.849943,37.730956,0 -121.841613,37.730956,0 -121.841603,37.72377,0 -121.832547,37.723743,0 -121.833381,37.701209,0 -121.849501,37.701354,0 -121.849667,37.701585,0 -121.853192,37.701546,0 -121.855044,37.70141,0 -121.865179,37.701506,0 -121.869544,37.701778,0 -121.872187,37.70257,0 -121.872265,37.701817,0 -121.878823,37.701841,0 -121.898803,37.702011,0 -121.906606,37.702327,0 -121.907178,37.7021,0 -121.920518,37.701999,0 -121.923303,37.702837,0 -121.925123,37.70101,0 -121.93281,37.699265,0 -121.935454,37.700535,0 -121.9354,37.700297,0 -121.93813,37.698628,0 -121.940096,37.698806,0 -121.956217,37.698699,0 -121.964297,37.69863,0 -121.965163,37.697964,0 -121.968514,37.698307,0 -121.971307,37.697853,0 -121.977692,37.699873,0 -121.979312,37.698996,0 -121.983211,37.699919,0 -121.987587,37.700512,0 -121.987797,37.709318,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

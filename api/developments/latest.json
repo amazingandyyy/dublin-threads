@@ -38,7 +38,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Site-Plan.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Site-Plan-150x150.jpg"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.70851,
+      "lon": -121.931,
+      "iconName": "dot",
+      "title": "Downtown Hines North"
+    }
   },
   "projectDetail1656": {
     "id": "projectDetail1656",
@@ -79,7 +85,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/All-Tentative-Tract-Maps_Page_2-scaled.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/All-Tentative-Tract-Maps_Page_2-150x150.jpg"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.70771,
+      "lon": -121.847664,
+      "iconName": "dot",
+      "title": "Dublin Fallon 580"
+    }
   },
   "projectDetail1513": {
     "id": "projectDetail1513",
@@ -129,7 +141,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Site-Plan.png",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Site-Plan-150x150.png"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.70268,
+      "lon": -121.93042,
+      "iconName": "dot",
+      "title": "H Mart Supermarket"
+    }
   },
   "projectDetail1509": {
     "id": "projectDetail1509",
@@ -178,7 +196,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations-3.png",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations-3-150x150.png"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.7028251,
+      "lon": -121.8837703,
+      "iconName": "dot",
+      "title": "Hacienda Crossings Drive-Through Restaurant (Chick-fil-A)"
+    }
   },
   "projectDetail1508": {
     "id": "projectDetail1508",
@@ -231,7 +255,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape-2.png",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape-2-150x150.png"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.70004,
+      "lon": -121.94023,
+      "iconName": "dot",
+      "title": "Hexcel Redevelopment"
+    }
   },
   "projectDetail1470": {
     "id": "projectDetail1470",
@@ -249,6 +279,7 @@
       "Stories/Height": "1 story / 30 feet",
       "Applicant": {
         "name": "Guy Houston",
+        "address": "n/a",
         "phone": "925-4678-5839"
       },
       "Project Planner": {
@@ -291,7 +322,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/04/site-plan_Page_2-scaled.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/04/site-plan_Page_2-150x150.jpg"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.704131,
+      "lon": -121.860405,
+      "iconName": "dot",
+      "title": "Nissan Commercial Car Wash"
+    }
   },
   "projectDetail1464": {
     "id": "projectDetail1464",
@@ -385,7 +422,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Preferred-Plan-cover.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Preferred-Plan-cover-150x150.jpg"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.7080747,
+      "lon": -121.8699708,
+      "iconName": "dot",
+      "title": "The Dublin Center “The DC”"
+    }
   },
   "projectDetail1461": {
     "id": "projectDetail1461",
@@ -421,7 +464,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/8-Photosim.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/8-Photosim-150x150.jpg"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.7061459,
+      "lon": -121.9244778,
+      "iconName": "dot",
+      "title": "McDonald’s SDR"
+    }
   },
   "projectDetail1426": {
     "id": "projectDetail1426",
@@ -475,7 +524,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/11/Massing-Diagrams.png",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/11/Massing-Diagrams-150x150.png"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.7265572,
+      "lon": -121.8710929,
+      "iconName": "dot",
+      "title": "Quarry Lane School – Performing Arts Center"
+    }
   },
   "projectDetail1421": {
     "id": "projectDetail1421",
@@ -557,7 +612,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/landscape.png",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/landscape-150x150.png"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.7122092,
+      "lon": -121.8920144,
+      "iconName": "dot",
+      "title": "The Whitford of Dublin (Dublin Senior Living)"
+    }
   },
   "projectDetail1402": {
     "id": "projectDetail1402",
@@ -615,7 +676,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/09/12_Regional-St_Entitlements-Set-23-scaled.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/09/12_Regional-St_Entitlements-Set-23-150x150.jpg"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.7007095,
+      "lon": -121.9318894,
+      "iconName": "home",
+      "title": "Regional Street Senior Affordable Housing"
+    }
   },
   "projectDetail1387": {
     "id": "projectDetail1387",
@@ -660,7 +727,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/05/Dublin-Parking-Case-Study-1_Page_2.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/05/Dublin-Parking-Case-Study-1_Page_2-150x150.jpg"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.70377,
+      "lon": -121.896196,
+      "iconName": "dot",
+      "title": "Dublin Transit Center Parking Garage"
+    }
   },
   "projectDetail1380": {
     "id": "projectDetail1380",
@@ -725,7 +798,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/05/elelvation1-scaled.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/05/elelvation1-150x150.jpg"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.700799,
+      "lon": -121.928611,
+      "iconName": "building",
+      "title": "Amador Station"
+    }
   },
   "projectDetail1378": {
     "id": "projectDetail1378",
@@ -763,7 +842,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/site-plan.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/site-plan-150x150.jpg"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.704195,
+      "lon": -121.837434,
+      "iconName": "dot",
+      "title": "Righetti Property"
+    }
   },
   "projectDetail1376": {
     "id": "projectDetail1376",
@@ -778,7 +863,8 @@
       "Project Area": "40.16 acres",
       "Applicant": {
         "name": "Randy Branaugh",
-        "address": "19077 Madison Ave, Castro Valley CA 94546"
+        "address": "19077 Madison Ave, Castro Valley CA 94546",
+        "phone": "n/a"
       },
       "Project Planner": {
         "name": "Amy Million - Principal Planner",
@@ -812,7 +898,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/site-plan-image.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/site-plan-image-150x150.jpg"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.7034114,
+      "lon": -121.834104,
+      "iconName": "dot",
+      "title": "Branaugh Property"
+    }
   },
   "projectDetail1372": {
     "id": "projectDetail1372",
@@ -869,7 +961,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Infiniti-Dublin-Elevations-scaled.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Infiniti-Dublin-Elevations-150x150.jpg"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.702228,
+      "lon": -121.861764,
+      "iconName": "car",
+      "title": "Infiniti Dealership"
+    }
   },
   "projectDetail1348": {
     "id": "projectDetail1348",
@@ -974,7 +1072,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Parcel-3-Location.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Parcel-3-Location-150x150.jpg"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.699389,
+      "lon": -121.953694,
+      "iconName": "dot",
+      "title": "Inspiration Drive Assisted Living"
+    }
   },
   "projectDetail1340": {
     "id": "projectDetail1340",
@@ -1084,7 +1188,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Parcel-2.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Parcel-2-150x150.jpg"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.699203,
+      "lon": -121.955455,
+      "iconName": "dot",
+      "title": "Inspiration Drive Memory Care"
+    }
   },
   "projectDetail1189": {
     "id": "projectDetail1189",
@@ -1190,7 +1300,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/N6-3-story.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/N6-3-story-150x150.jpg"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.712896,
+      "lon": -121.836068,
+      "iconName": "building",
+      "title": "Francis Ranch (East Ranch)"
+    }
   },
   "projectDetail1087": {
     "id": "projectDetail1087",
@@ -1246,7 +1362,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/overall-layout.png",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/overall-layout-150x150.png"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.702382,
+      "lon": -121.86118,
+      "iconName": "car",
+      "title": "Kaiser Commercial – Nissan"
+    }
   },
   "projectDetail1075": {
     "id": "projectDetail1075",
@@ -1310,7 +1432,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Rendering-2.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Rendering-2-150x150.jpg"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.70304,
+      "lon": -121.89506,
+      "iconName": "hotel",
+      "title": "Westin Hotel"
+    }
   },
   "projectDetail1068": {
     "id": "projectDetail1068",
@@ -1380,7 +1508,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_2-scaled.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_2-150x150.jpg"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.701316,
+      "lon": -121.935041,
+      "iconName": "building",
+      "title": "BASIS Independent School (Corrie Center)"
+    }
   },
   "projectDetail998": {
     "id": "projectDetail998",
@@ -1448,7 +1582,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/site-plan.png",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/site-plan-150x150.png"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.7043064,
+      "lon": -121.8998893,
+      "iconName": "building",
+      "title": "Ashton at Dublin Station"
+    }
   },
   "projectDetail971": {
     "id": "projectDetail971",
@@ -1513,7 +1653,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_22.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_22-150x150.jpg"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.70445,
+      "lon": -121.86474,
+      "iconName": "child",
+      "title": "Tivoli Plaza (Grafton Plaza Daycare & Retail)"
+    }
   },
   "projectDetail572": {
     "id": "projectDetail572",
@@ -1557,7 +1703,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Single-Image_Page_1.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Single-Image_Page_1-150x150.jpg"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.7011193,
+      "lon": -121.9306746,
+      "iconName": "building",
+      "title": "Avalon West (St. Patrick Way)"
+    }
   },
   "projectDetail515": {
     "id": "projectDetail515",
@@ -1599,7 +1751,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan-150x150.jpg"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.711036,
+      "lon": -121.905749,
+      "iconName": "building",
+      "title": "Boulevard (Dublin Crossing) – Phase 4 & 5"
+    }
   },
   "projectDetail506": {
     "id": "projectDetail506",
@@ -1657,7 +1815,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631-150x150.jpg"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.706516,
+      "lon": -121.898762,
+      "iconName": "building",
+      "title": "Boulevard (Dublin Crossing) – Phase 1"
+    }
   },
   "projectDetail486": {
     "id": "projectDetail486",
@@ -1723,7 +1887,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/rec-center-e1491496119223.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/rec-center-e1491496119223-150x150.jpg"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.707185,
+      "lon": -121.902171,
+      "iconName": "building",
+      "title": "Boulevard (Dublin Crossing) Phase 2 & 3"
+    }
   },
   "projectDetail150": {
     "id": "projectDetail150",
@@ -1767,7 +1937,13 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Schaefer-Ranch-Unit-3-VTPM.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Schaefer-Ranch-Unit-3-VTPM-150x150.jpg"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.704676,
+      "lon": -121.983341,
+      "iconName": "home",
+      "title": "Schaefer Ranch Unit 3"
+    }
   },
   "projectDetail140": {
     "id": "projectDetail140",
@@ -1827,6 +2003,12 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/6861_Tassajara_Rd_Moller_Ranch.png",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/6861_Tassajara_Rd_Moller_Ranch-150x150.png"
       }
-    ]
+    ],
+    "geolocation": {
+      "lat": 37.739338,
+      "lon": -121.865494,
+      "iconName": "building",
+      "title": "Moller Ranch/Tassajara Hills"
+    }
   }
 }
