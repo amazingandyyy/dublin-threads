@@ -4,7 +4,8 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: "0 6 * * *" # “At 6:00 everyday”
+    # - cron: "0 6 * * *" # “At 6:00 everyday”
+    - cron: "0 * * * *" # every hour
   workflow_dispatch:
 
 jobs:
