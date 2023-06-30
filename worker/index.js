@@ -2,16 +2,16 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const path = require('path');
 const fs = require('fs');
-const existingJson = require('../api/development.json')
+const existingJson = require('../api/developments/latest.json')
 
 const prefix = "DUBLIN"
 axios.get("https://dublin-development.icitywork.com")
   .then(res=>{
-      // const HTML = fs.readFileSync(path.join(__dirname, '..','docs/index.html'));
-      const HTML = res.data;
+      const HTML = fs.readFileSync(path.join(__dirname, '..','docs/index.html'));
+      // const HTML = res.data;
       const data = build(HTML)
       // console.log(JSON.stringify(data, null, 2))
-      fs.writeFileSync(path.join(__dirname, '../api/', 'development.json'), JSON.stringify(data, null, 2))
+      fs.writeFileSync(path.join(__dirname, '../api/', 'developments/latest.json'), JSON.stringify(data, null, 2))
   })
   .catch(console.error)
 
@@ -106,7 +106,12 @@ function build(HTML) {
         original: $(el).find('a').attr('href'),
         thumbnail: $(el).find('img').attr('src')
       })).get()
-      data[d.id] = d;
+      d.createdAt = new Date().toISOString().split('T')[0];
+      if(data[d.id] !== undefined) {
+        
+      }else{
+        data[d.id] = d;
+      }
     })
   })
   return data;

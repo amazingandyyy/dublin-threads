@@ -1,8 +1,7 @@
 {
-  "name": "raw",
+  "name": "dublin-ca",
   "version": "1.0.0",
   "description": "",
-  "main": "express.js",
   "scripts": {
     "watch": "nodemon express.js -w docs -e '*'"
   },
@@ -15,7 +14,6 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "@parcel/transformer-xml": "^2.8.0",
     "nodemon": "^2.0.22"
   }
 }

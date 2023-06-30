@@ -1,4 +1,139 @@
 {
+  "projectDetail1661": {
+    "id": "projectDetail1661",
+    "title": "Downtown Hines North",
+    "details": {
+      "Planning Application #": "PLPA-2023-00018",
+      "Application Type": "Site Development Review Permit",
+      "Application Submittal Date": "05/16/2023",
+      "General Plan Land Use": "Downtown Dublin Retail",
+      "Specific Plan Area": "Downtown Dublin",
+      "Zoning": "Downtown Dublin Retail",
+      "Project Area": "3.8 acres",
+      "Building Area": "34,995 square feet",
+      "Foor Area Ratio": ".20 FAR",
+      "Stories/Height": "1 story / 26.5 feet",
+      "Parking Provided": "161 parking spaces",
+      "Applicant": {
+        "name": "Mario Tjia, Hines Interests LP",
+        "address": "101 California Street, Ste. 1000, San Francisco, CA 94111",
+        "phone": "4159826200"
+      },
+      "Project Planner": {
+        "name": "Amy Million - Principal Planner",
+        "phone": "(925) 833-6610",
+        "email": "amy.million@dublin.ca.gov"
+      }
+    },
+    "location": "7200 Amador Plaza Road",
+    "docs": [],
+    "status": "Application Under Review",
+    "description": "Demolition of the two existing commercial buildings totaling 35,427 square feet and construction of a new 34,995 square foot multi-tenant commercial building.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Pages-from-230421_Dublin-Place-North-Parcel-Package-scaled.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Pages-from-230421_Dublin-Place-North-Parcel-Package-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Site-Plan.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Site-Plan-150x150.jpg"
+      }
+    ],
+    "createdAt": "2023-06-30"
+  },
+  "projectDetail1656": {
+    "id": "projectDetail1656",
+    "title": "Dublin Fallon 580",
+    "details": {
+      "Planning Application #": "PLPA-2022-000028",
+      "Application Type": "Planned Development Rezone, Vesting Tentative Tract Maps and Development Agreement",
+      "Application Submittal Date": "08/18/2022",
+      "General Plan Land Use": "General Commercial/ Campus Office (GC/CO), Open Space (OS), Community Park (CP), Public/Semi-Public (P/SP), and Medium High Density Residential (MH)",
+      "Specific Plan Area": "Eastern Dublin Specific Plan",
+      "Zoning": "Ordinance No. 32-05 and Ordinance No. 13-08",
+      "Project Area": "192 acres",
+      "Applicant": {
+        "name": "Wooi See, GH PacVest, Inc",
+        "address": "2800 Post Oak Blvd, Ste 5115, Houston TX 77056",
+        "phone": "832-397-6506"
+      },
+      "Project Planner": {
+        "name": "Amy Million - Principal Planner",
+        "phone": "(925) 833-6610",
+        "email": "amy.million@dublin.ca.gov"
+      }
+    },
+    "location": "Croak Road",
+    "docs": [],
+    "status": "Application Under Review",
+    "description": "Dublin Fallon 580 project consists of a Large Lot Vesting Tentative Tract Map (VTTM) to subdivide the approximately 192-acre parcel into ten parcels that generally coincide with the existing land use designations, two Small Lot VTTMs for the 6.5-acre and 7.12-acre Medium High Density Residential parcels, Planned Development Rezone with a Stage 2 Development Plan and Development Agreement.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Pages-from-All-Tentative-Tract-Maps-scaled.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Pages-from-All-Tentative-Tract-Maps-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/All-Tentative-Tract-Maps_Page_3-scaled.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/All-Tentative-Tract-Maps_Page_3-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/All-Tentative-Tract-Maps_Page_2-scaled.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/All-Tentative-Tract-Maps_Page_2-150x150.jpg"
+      }
+    ],
+    "createdAt": "2023-06-30"
+  },
+  "projectDetail1513": {
+    "id": "projectDetail1513",
+    "title": "H Mart Supermarket",
+    "details": {
+      "Planning Application #": "PLPA-2022-00033",
+      "Application Type": "Site Development Review Permit",
+      "Application Submittal Date": "09/26/2022",
+      "General Plan Land Use": "Downtown Dublin - Transit-Oriented District",
+      "Specific Plan Area": "Downtown Dublin - Transit-Oriented District",
+      "Zoning": "Downtown Dublin Zoning District",
+      "Project Area": "10.51 acres",
+      "Building Area": "143,329 square feet",
+      "Foor Area Ratio": "0.31 FAR",
+      "Stories/Height": "1 story / 32 feet",
+      "Parking Provided": "484 parking spaces",
+      "Applicant": {
+        "name": "Jae Yong Kwak",
+        "address": "11966 Washington Boulevard, Whittier, CA 90606",
+        "phone": "(562) 318-3977"
+      },
+      "Project Planner": {
+        "name": "Gaspare Annibale - Associate Planner",
+        "phone": "(925) 833-6610",
+        "email": "gaspare.annibale@dublin.ca.gov"
+      }
+    },
+    "location": "7884 Dublin Boulevard",
+    "docs": [
+      {
+        "name": "Planning Commission December 13, 2022 Agenda and Staff Report",
+        "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/f345a8ac673614b016fb57471cd7c5af0.pdf"
+      }
+    ],
+    "status": "Final Action",
+    "description": "H Mart proposes an expansion to an existing 27,237 square foot commercial tenant space to construct an 8,552 square foot addition for a food hall, 3,187 square foot outdoor seating area with play area, façade modifications, new trash enclosure and related site improvements at 7884 Dublin Boulevard, and repaint the existing warehouse building at 6600 Golden Gate Drive for additional cold storage.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations.png",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations-150x150.png"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-144.png",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-144-150x150.png"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Site-Plan.png",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Site-Plan-150x150.png"
+      }
+    ],
+    "createdAt": "2023-06-30"
+  },
   "projectDetail1509": {
     "id": "projectDetail1509",
     "title": "Hacienda Crossings Drive-Through Restaurant (Chick-fil-A)",
@@ -46,7 +181,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations-3.png",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations-3-150x150.png"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail1508": {
     "id": "projectDetail1508",
@@ -99,7 +235,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape-2.png",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape-2-150x150.png"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail1470": {
     "id": "projectDetail1470",
@@ -159,7 +296,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/04/site-plan_Page_2-scaled.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/04/site-plan_Page_2-150x150.jpg"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail1464": {
     "id": "projectDetail1464",
@@ -253,7 +391,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Preferred-Plan-cover.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Preferred-Plan-cover-150x150.jpg"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail1461": {
     "id": "projectDetail1461",
@@ -289,7 +428,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/8-Photosim.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/8-Photosim-150x150.jpg"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail1426": {
     "id": "projectDetail1426",
@@ -343,7 +483,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/11/Massing-Diagrams.png",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/11/Massing-Diagrams-150x150.png"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail1421": {
     "id": "projectDetail1421",
@@ -425,7 +566,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/landscape.png",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/landscape-150x150.png"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail1402": {
     "id": "projectDetail1402",
@@ -483,7 +625,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/09/12_Regional-St_Entitlements-Set-23-scaled.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/09/12_Regional-St_Entitlements-Set-23-150x150.jpg"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail1387": {
     "id": "projectDetail1387",
@@ -528,7 +671,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/05/Dublin-Parking-Case-Study-1_Page_2.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/05/Dublin-Parking-Case-Study-1_Page_2-150x150.jpg"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail1380": {
     "id": "projectDetail1380",
@@ -593,7 +737,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/05/elelvation1-scaled.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/05/elelvation1-150x150.jpg"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail1378": {
     "id": "projectDetail1378",
@@ -631,7 +776,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/site-plan.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/site-plan-150x150.jpg"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail1376": {
     "id": "projectDetail1376",
@@ -680,7 +826,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/site-plan-image.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/site-plan-image-150x150.jpg"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail1372": {
     "id": "projectDetail1372",
@@ -737,7 +884,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Infiniti-Dublin-Elevations-scaled.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Infiniti-Dublin-Elevations-150x150.jpg"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail1348": {
     "id": "projectDetail1348",
@@ -842,7 +990,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Parcel-3-Location.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Parcel-3-Location-150x150.jpg"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail1340": {
     "id": "projectDetail1340",
@@ -952,7 +1101,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Parcel-2.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Parcel-2-150x150.jpg"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail1189": {
     "id": "projectDetail1189",
@@ -1058,7 +1208,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/N6-3-story.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/N6-3-story-150x150.jpg"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail1087": {
     "id": "projectDetail1087",
@@ -1114,7 +1265,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/overall-layout.png",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/overall-layout-150x150.png"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail1075": {
     "id": "projectDetail1075",
@@ -1178,7 +1330,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Rendering-2.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Rendering-2-150x150.jpg"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail1068": {
     "id": "projectDetail1068",
@@ -1248,7 +1401,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_2-scaled.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_2-150x150.jpg"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail998": {
     "id": "projectDetail998",
@@ -1316,7 +1470,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/site-plan.png",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/site-plan-150x150.png"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail971": {
     "id": "projectDetail971",
@@ -1381,7 +1536,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_22.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_22-150x150.jpg"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail572": {
     "id": "projectDetail572",
@@ -1425,7 +1581,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Single-Image_Page_1.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Single-Image_Page_1-150x150.jpg"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail515": {
     "id": "projectDetail515",
@@ -1467,7 +1624,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan-150x150.jpg"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail506": {
     "id": "projectDetail506",
@@ -1525,7 +1683,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631-150x150.jpg"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail486": {
     "id": "projectDetail486",
@@ -1591,7 +1750,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/rec-center-e1491496119223.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/rec-center-e1491496119223-150x150.jpg"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail150": {
     "id": "projectDetail150",
@@ -1635,7 +1795,8 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Schaefer-Ranch-Unit-3-VTPM.jpg",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Schaefer-Ranch-Unit-3-VTPM-150x150.jpg"
       }
-    ]
+    ],
+    "createdAt": "2023-06-30"
   },
   "projectDetail140": {
     "id": "projectDetail140",
@@ -1695,138 +1856,7 @@
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/6861_Tassajara_Rd_Moller_Ranch.png",
         "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/6861_Tassajara_Rd_Moller_Ranch-150x150.png"
       }
-    ]
-  },
-  "projectDetail1661": {
-    "id": "projectDetail1661",
-    "title": "Downtown Hines North",
-    "details": {
-      "Planning Application #": "PLPA-2023-00018",
-      "Application Type": "Site Development Review Permit",
-      "Application Submittal Date": "05/16/2023",
-      "General Plan Land Use": "Downtown Dublin Retail",
-      "Specific Plan Area": "Downtown Dublin",
-      "Zoning": "Downtown Dublin Retail",
-      "Project Area": "3.8 acres",
-      "Building Area": "34,995 square feet",
-      "Foor Area Ratio": ".20 FAR",
-      "Stories/Height": "1 story / 26.5 feet",
-      "Parking Provided": "161 parking spaces",
-      "Applicant": {
-        "name": "Mario Tjia, Hines Interests LP",
-        "address": "101 California Street, Ste. 1000, San Francisco, CA 94111",
-        "phone": "4159826200"
-      },
-      "Project Planner": {
-        "name": "Amy Million - Principal Planner",
-        "phone": "(925) 833-6610",
-        "email": "amy.million@dublin.ca.gov"
-      }
-    },
-    "location": "7200 Amador Plaza Road",
-    "docs": [],
-    "status": "Application Under Review",
-    "description": "Demolition of the two existing commercial buildings totaling 35,427 square feet and construction of a new 34,995 square foot multi-tenant commercial building.",
-    "images": [
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Pages-from-230421_Dublin-Place-North-Parcel-Package-scaled.jpg",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Pages-from-230421_Dublin-Place-North-Parcel-Package-150x150.jpg"
-      },
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Site-Plan.jpg",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Site-Plan-150x150.jpg"
-      }
-    ]
-  },
-  "projectDetail1656": {
-    "id": "projectDetail1656",
-    "title": "Dublin Fallon 580",
-    "details": {
-      "Planning Application #": "PLPA-2022-000028",
-      "Application Type": "Planned Development Rezone, Vesting Tentative Tract Maps and Development Agreement",
-      "Application Submittal Date": "08/18/2022",
-      "General Plan Land Use": "General Commercial/ Campus Office (GC/CO), Open Space (OS), Community Park (CP), Public/Semi-Public (P/SP), and Medium High Density Residential (MH)",
-      "Specific Plan Area": "Eastern Dublin Specific Plan",
-      "Zoning": "Ordinance No. 32-05 and Ordinance No. 13-08",
-      "Project Area": "192 acres",
-      "Applicant": {
-        "name": "Wooi See, GH PacVest, Inc",
-        "address": "2800 Post Oak Blvd, Ste 5115, Houston TX 77056",
-        "phone": "832-397-6506"
-      },
-      "Project Planner": {
-        "name": "Amy Million - Principal Planner",
-        "phone": "(925) 833-6610",
-        "email": "amy.million@dublin.ca.gov"
-      }
-    },
-    "location": "Croak Road",
-    "docs": [],
-    "status": "Application Under Review",
-    "description": "Dublin Fallon 580 project consists of a Large Lot Vesting Tentative Tract Map (VTTM) to subdivide the approximately 192-acre parcel into ten parcels that generally coincide with the existing land use designations, two Small Lot VTTMs for the 6.5-acre and 7.12-acre Medium High Density Residential parcels, Planned Development Rezone with a Stage 2 Development Plan and Development Agreement.",
-    "images": [
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Pages-from-All-Tentative-Tract-Maps-scaled.jpg",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Pages-from-All-Tentative-Tract-Maps-150x150.jpg"
-      },
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/All-Tentative-Tract-Maps_Page_3-scaled.jpg",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/All-Tentative-Tract-Maps_Page_3-150x150.jpg"
-      },
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/All-Tentative-Tract-Maps_Page_2-scaled.jpg",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/All-Tentative-Tract-Maps_Page_2-150x150.jpg"
-      }
-    ]
-  },
-  "projectDetail1513": {
-    "id": "projectDetail1513",
-    "title": "H Mart Supermarket",
-    "details": {
-      "Planning Application #": "PLPA-2022-00033",
-      "Application Type": "Site Development Review Permit",
-      "Application Submittal Date": "09/26/2022",
-      "General Plan Land Use": "Downtown Dublin - Transit-Oriented District",
-      "Specific Plan Area": "Downtown Dublin - Transit-Oriented District",
-      "Zoning": "Downtown Dublin Zoning District",
-      "Project Area": "10.51 acres",
-      "Building Area": "143,329 square feet",
-      "Foor Area Ratio": "0.31 FAR",
-      "Stories/Height": "1 story / 32 feet",
-      "Parking Provided": "484 parking spaces",
-      "Applicant": {
-        "name": "Jae Yong Kwak",
-        "address": "11966 Washington Boulevard, Whittier, CA 90606",
-        "phone": "(562) 318-3977"
-      },
-      "Project Planner": {
-        "name": "Gaspare Annibale - Associate Planner",
-        "phone": "(925) 833-6610",
-        "email": "gaspare.annibale@dublin.ca.gov"
-      }
-    },
-    "location": "7884 Dublin Boulevard",
-    "docs": [
-      {
-        "name": "Planning Commission December 13, 2022 Agenda and Staff Report",
-        "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/f345a8ac673614b016fb57471cd7c5af0.pdf"
-      }
     ],
-    "status": "Final Action",
-    "description": "H Mart proposes an expansion to an existing 27,237 square foot commercial tenant space to construct an 8,552 square foot addition for a food hall, 3,187 square foot outdoor seating area with play area, façade modifications, new trash enclosure and related site improvements at 7884 Dublin Boulevard, and repaint the existing warehouse building at 6600 Golden Gate Drive for additional cold storage.",
-    "images": [
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations.png",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations-150x150.png"
-      },
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-144.png",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-144-150x150.png"
-      },
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Site-Plan.png",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Site-Plan-150x150.png"
-      }
-    ]
+    "createdAt": "2023-06-30"
   }
 }
