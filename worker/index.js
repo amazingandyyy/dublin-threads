@@ -5,19 +5,20 @@ const fs = require('fs');
 const rdiff = require('recursive-diff');
 
 const existingJson = require('../api/developments/latest.json')
+const existingDiff = require('../api/developments/diff.json')
 
 axios.get("https://dublin-development.icitywork.com")
   .then(res=>{
-      const inputPath = path.join(__dirname, '..','docs/index.html');
-      const input = fs.readFileSync(inputPath)
-      // const input = res.data;
+      // const input = fs.readFileSync(path.join(__dirname, '..','docs/index-2.html'))
+
+      const input = res.data;
       const [data, diff] = build(input)
       // console.log(JSON.stringify(data, null, 2))
       const outputPath = path.join(__dirname, '../api/', 'developments/latest.json')
       fs.writeFileSync(outputPath, JSON.stringify(data, null, 2))
       
       const outputDiffPath = path.join(__dirname, '../api/', 'developments/diff.json')
-      fs.writeFileSync(outputDiffPath, JSON.stringify(diff, null, 2))
+      if(diff.length>0) fs.writeFileSync(outputDiffPath, JSON.stringify([...existingDiff, ...diff], null, 2))
   })
   .catch(console.error)
 
@@ -123,8 +124,17 @@ function build(HTML) {
       })).get()
       if(data[d.id] !== undefined) {
         // it exists, find the diff and put the activity into the feed
-        const localDiff = rdiff.getDiff(data[d.id], d)
-        if(localDiff.length > 0) diff.push(localDiff)
+        const localDiff = rdiff.getDiff(data[d.id], d, true)
+        function cleanUpDiff(diff) {
+          return diff.map(dif=>{
+            return {
+              ...dif,
+              projectId: d.id,
+              timestamp: Date.now(),
+            }
+          })
+        }
+        if(localDiff.length > 0) diff.push(...cleanUpDiff(localDiff))
 
         data[d.id] = d;
       }else{
