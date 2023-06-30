@@ -9,8 +9,8 @@ const existingJson = require('../api/developments/latest.json')
 axios.get("https://dublin-development.icitywork.com")
   .then(res=>{
       const inputPath = path.join(__dirname, '..','docs/index.html');
-      // const input = fs.readFileSync(inputPath)
-      const input = res.data;
+      const input = fs.readFileSync(inputPath)
+      // const input = res.data;
       const [data, diff] = build(input)
       // console.log(JSON.stringify(data, null, 2))
       const outputPath = path.join(__dirname, '../api/', 'developments/latest.json')
@@ -124,14 +124,11 @@ function build(HTML) {
       if(data[d.id] !== undefined) {
         // it exists, find the diff and put the activity into the feed
         const localDiff = rdiff.getDiff(data[d.id], d)
-        console.log(localDiff)
-        diff.push(localDiff)
+        if(localDiff.length > 0) diff.push(localDiff)
 
         data[d.id] = d;
-        d.updatedAt = new Date().toISOString().split('T')[0];
       }else{
         d.createdAt = new Date().toISOString().split('T')[0];
-        d.updatedAt = new Date().toISOString().split('T')[0];
         data[d.id] = d;
       }
     })
