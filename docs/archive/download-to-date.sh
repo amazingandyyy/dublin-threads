@@ -1,3 +1,4 @@
+from_year=2017
 current_year=$(date +"%Y")
 target_url=dublin-development.icitywork.com
 
@@ -8,5 +9,5 @@ mkdir -p $OUTPUT_DIR
 
 # https://github.com/jsvine/waybackpack
 # pip install waybackpack tqdm
-waybackpack --no-clobber --follow-redirects --progress https://$target_url -d $OUTPUT_DIR --from-date 2019 --to-date 2024
-# waybackpack --no-clobber --follow-redirects --progress https://$target_url --list
+waybackpack --no-clobber --follow-redirects --progress https://$target_url --list
+waybackpack --no-clobber --follow-redirects --progress https://$target_url -d $OUTPUT_DIR --from-date $from_year --to-date $current_year
