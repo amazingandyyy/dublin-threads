@@ -31,7 +31,7 @@ jobs:
 
       - name: generate
         working-directory: ./worker
-        run: npm run start-diff
+        run: npm run start:with-logs
 
       - name: check for modified files
         id: git-check

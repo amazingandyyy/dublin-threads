@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start-diff": "ENABLE_DIFF=true node index.js",
-    "start": "node index.js"
+    "start:with-logs": "ENABLE_LOGS=true node index.js",
+    "start": "node index.js",
+    "start:from-archive": "ENABLE_LOGS=true TARGET= node index.js"
   },
   "keywords": [],
   "author": "",

@@ -4,22 +4,24 @@ const path = require('path');
 const fs = require('fs');
 const rdiff = require('recursive-diff');
 
-const existingJson = require('../api/developments/latest.json')
-const existingDiff = require('../api/developments/diff.json')
+const existingSnapshot = require('../api/developments/snapshot.json')
+const existingLogs = require('../api/developments/logs.json')
 
-axios.get("https://dublin-development.icitywork.com")
+const site_url = process.env.TARGET || 'https://dublin-development.icitywork.com'
+const latest_output_path = process.env.LATEST_OUTPUT || path.join(__dirname, '../api/', 'developments/snapshot.json')
+const logs_output_path = process.env.LOGS_OUTPUT || path.join(__dirname, '../api/', 'developments/logs.json')
+
+axios.get(site_url)
   .then(res=>{
       // const input = fs.readFileSync(path.join(__dirname, '..','docs/index-2.html'))
 
       const input = res.data;
       const [data, diff] = build(input)
       // console.log(JSON.stringify(data, null, 2))
-      const outputPath = path.join(__dirname, '../api/', 'developments/latest.json')
-      fs.writeFileSync(outputPath, JSON.stringify(data, null, 2))
+      fs.writeFileSync(latest_output_path, JSON.stringify(data, null, 2))
       
-      const outputDiffPath = path.join(__dirname, '../api/', 'developments/diff.json')
-      if(process.env.ENABLE_DIFF === 'true' && diff.length>0){
-        fs.writeFileSync(outputDiffPath, JSON.stringify([...existingDiff, ...diff], null, 2))
+      if(process.env.ENABLE_LOGS === 'true' && diff.length>0){
+        fs.writeFileSync(logs_output_path, JSON.stringify([...existingLogs, ...diff], null, 2))
       }
   })
   .catch(console.error)
@@ -102,7 +104,7 @@ function build(HTML) {
   }
 
   const geoLocations = parseGeo();
-  const data = existingJson;
+  const data = existingSnapshot;
   const diff = [];
   projectIDs.forEach((id) => {
     $(`#${id}`).each((i, el) => {
