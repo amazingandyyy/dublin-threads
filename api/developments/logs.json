@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "op": "update",
+    "path": [
+      "docs",
+      0,
+      "name"
+    ],
+    "val": "CEQA Initial Study Mitigated Neg.7.5.23",
+    "oldVal": "QuarryLn_PubRev Draft IS_NOI 7.5.23",
+    "projectId": "projectDetail1426",
+    "timestamp": 1688742390586
+  },
+  {
+    "op": "update",
+    "path": [
+      "docs",
+      0,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2021/11/CEQA-Initial-Study-Mitigated-Neg.7.5.23.pdf",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2021/11/QuarryLn_PubRev-Draft-IS_NOI-7.5.23.pdf",
+    "projectId": "projectDetail1426",
+    "timestamp": 1688742390586
+  }
+]
