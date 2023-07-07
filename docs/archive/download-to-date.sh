@@ -2,7 +2,7 @@ current_year=$(date +"%Y")
 target_url=dublin-development.icitywork.com
 
 CURRNT_DIR="$(dirname "$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )")"
-OUTPUT_DIR=$CURRNT_DIR/archive.org/$target_url
+OUTPUT_DIR=$CURRNT_DIR/archive.org
 
 mkdir -p $OUTPUT_DIR
 
