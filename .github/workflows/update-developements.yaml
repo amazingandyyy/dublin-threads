@@ -31,7 +31,7 @@ jobs:
 
       - name: generate
         working-directory: ./worker
-        run: node index.js
+        run: npm run start-diff
 
       - name: check for modified files
         id: git-check
