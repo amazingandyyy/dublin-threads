@@ -28,12 +28,7 @@ async function main ({
   timeStamp,
   enableLogs
 }) {
-  timeStamp = timeStamp || Date.now()
-  siteUrl = siteUrl || 'https://dublin-development.icitywork.com'
-  snapshotPath = snapshotPath || path.join(__dirname, '../api/', 'developments/snapshot.json')
-  logsPath = logsPath || path.join(__dirname, '../api/', 'developments/logs.json')
-  enableLogs = process.env.ENABLE_LOGS === 'true' || enableLogs || false
-  console.log('worker started', {siteUrl, snapshotPath, logsPath, timeStamp, enableLogs})
+  console.log('worker started', { siteUrl, snapshotPath, logsPath, timeStamp, enableLogs })
 
   const existingSnapshot = require(snapshotPath)
   const existingLogs = require(logsPath)
@@ -50,7 +45,7 @@ async function main ({
         if (enableLogs && diff.length > 0) {
           writeToFileForce(logsPath, JSON.stringify([...existingLogs, ...diff], null, 2))
         }
-        console.log('worker finished', {siteUrl, snapshotPath, logsPath, timeStamp, enableLogs})
+        console.log('worker finished', { siteUrl, snapshotPath, logsPath, timeStamp, enableLogs })
         return resolve()
       })
       .catch(reject)
@@ -216,7 +211,16 @@ async function main ({
 }
 
 if (require.main === module) {
-  main()
+  main(
+    {
+      siteUrl: 'https://dublin-development.icitywork.com',
+      snapshotPath: path.join(__dirname, '../api/', 'developments/snapshot.json'),
+      logsPath: path.join(__dirname, '../api/', 'developments/logs.json'),
+      timeStamp: Date.now(),
+      enableLogs: process.env.ENABLE_LOGS === 'true'
+    }
+
+  )
 }
 
 module.exports = main
