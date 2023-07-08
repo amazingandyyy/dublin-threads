@@ -182,7 +182,6 @@ async function main ({
           original: cleanUpImagesUrl($(el).find('a').attr('href')),
           thumbnail: cleanUpImagesUrl($(el).find('img').attr('src'))
         })).get()
-
         d.geolocation = {
           lat: null,
           lon: null,
@@ -190,6 +189,7 @@ async function main ({
           title: d.title,
           ...geoLocations[d.id]
         }
+        d.createdAt = timeStamp
         function cleanUpDiff (diff = []) {
           return diff.map(dif => {
             return {
@@ -200,23 +200,13 @@ async function main ({
           })
         }
         if (data[d.id] !== undefined) {
-        // it exists, find the diff and put the activity into the feed
+          // it exists, find the diff and put the activity into the feed
           const localDiff = rdiff.getDiff(data[d.id], d, true)
           if (localDiff.length > 0) {
             diff.push(...cleanUpDiff(localDiff))
           }
-
           data[d.id] = d
         } else {
-          d.createdAt = new Date().toISOString().split('T')[0]
-          // diff.push(...cleanUpDiff([{
-          //   op: 'add',
-          //   path: [
-          //     '/'
-          //   ],
-          //   val: d,
-          //   oldVal: {}
-          // }]))
           data[d.id] = d
         }
       })
