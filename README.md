@@ -15,4 +15,6 @@
 - https://citydocs.dublin.ca.gov/WebLink/DocView.aspx?dbid=0&id=563268&page=1
 
 ## Special thanks
+
 - [waybackpack](https://github.com/jsvine/waybackpack)
+- [recursive-diff](https://www.npmjs.com/package/recursive-diff)
