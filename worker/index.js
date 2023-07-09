@@ -26,13 +26,13 @@ async function worker ({
         // const html = fs.readFileSync(path.join(__dirname, '..','docs/index.html'))
         const html = res.data
         const data = await snapshot(html)
-        const attachCreatedAt = (data) => {
-          Object.keys(data).forEach(k => {
-            const d = data[k]
-            d.createdAt = existingSnapshot[d.id]?.createdAt ? existingSnapshot[d.id]?.createdAt : timeStamp
-          })
-          return data;
-        }
+        // const attachCreatedAt = (data) => {
+        //   Object.keys(data).forEach(k => {
+        //     const d = data[k]
+        //     d.createdAt = existingSnapshot[d.id]?.createdAt ? existingSnapshot[d.id]?.createdAt : timeStamp
+        //   })
+        //   return data;
+        // }
         writeJsonToFileForce(snapshotPath, mergeObject(existingSnapshot, data))
 
         const logs = generateLogs({oldData: existingSnapshot, newData: data, timeStamp})
