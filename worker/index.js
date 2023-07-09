@@ -1,34 +1,11 @@
 const axios = require('axios')
 const cheerio = require('cheerio')
 const path = require('path')
-const fs = require('fs')
 const rdiff = require('recursive-diff')
+const { writeJsonToFileForce, normalize, transformLogs, mergeObject } = require('./utils')
 
-function writeToFileForce (path, data) {
-  fs.open(path, 'r', function (err, fd) {
-    if (err) {
-      fs.appendFile(path, '', function (err) {
-        if (err) console.error(err)
-        fs.writeFileSync(path, data)
-      })
-    } else {
-      fs.writeFileSync(path, data)
-    }
-  })
-}
-
-const normalize = (str) => {
-  return str.replace(/\s+/g, ' ').trim()
-}
-
-const cleanUpDiff = (diff = [], timestamp) => {
-  return diff.map(dif => {
-    return {
-      ...dif,
-      projectId: dif.path[0],
-      timestamp
-    }
-  })
+const generateLogs = (existingSnapshot, data, timeStamp) => {
+  return transformLogs(rdiff.getDiff(existingSnapshot, data, true), timeStamp)
 }
 
 async function main ({
@@ -46,24 +23,22 @@ async function main ({
   return new Promise((resolve, reject) => {
     axios.get(siteUrl)
       .then(res => {
-        // const input = fs.readFileSync(path.join(__dirname, '..','docs/index.html'))
-        const input = res.data
-        const data = build(input)
-        // merge two new data with existing snapshot
-        writeToFileForce(snapshotPath, JSON.stringify({...existingSnapshot, ...data}, null, 2))
-        const diff = cleanUpDiff(rdiff.getDiff(existingSnapshot, data, true), timeStamp)
+        // const html = fs.readFileSync(path.join(__dirname, '..','docs/index.html'))
+        const html = res.data
+        const data = snapshot(html)
+        writeJsonToFileForce(snapshotPath, mergeObject(existingSnapshot, data))
 
-        if (enableLogs && diff.length > 0) {
-          writeToFileForce(logsPath, JSON.stringify([...existingLogs, ...diff], null, 2))
-        }
+        const logs = generateLogs(existingSnapshot, data, timeStamp)
+        if (enableLogs && logs.length > 0) writeJsonToFileForce(logsPath, [...existingLogs, ...logs])
+
         console.log('worker finished', { siteUrl, snapshotPath, logsPath, timeStamp, enableLogs })
         return resolve()
       })
       .catch(reject)
   })
 
-  function build (rawHtml) {
-    const $ = cheerio.load(rawHtml)
+  function snapshot (html) {
+    const $ = cheerio.load(html)
     const projectIDs = []
 
     const detailsFns = {
@@ -109,7 +84,7 @@ async function main ({
     })
 
     function parseGeo () {
-      const data = {}
+      const dict = {}
       $('script[type="text/javascript"]').each((index, element) => {
         const scriptContent = $(element).html()
         const latMatch = scriptContent.match(/var lat = (.*?);/)
@@ -128,14 +103,15 @@ async function main ({
             lon,
             iconName
           }
-          data[`projectDetail${postid}`] = item // )
+          dict[`projectDetail${postid}`] = item
         }
       })
 
-      return data
+      return dict
     }
-    const geoLocations = parseGeo()
-    const data = {}
+
+    const geoDict = parseGeo()
+    const result = {}
     projectIDs.forEach((id) => {
       $(`#${id}`).each((i, el) => {
         const d = {}
@@ -151,54 +127,55 @@ async function main ({
           }
         })
 
-        function findBlockByTitle (title) {
+        function findSessionByTitle (title) {
           return $(el).find('h4.dublin-green').filter((i, el) => $(el).text() === title)[0]
         }
 
-        d.location = normalize(findBlockByTitle('Address')?.nextSibling.nodeValue)
+        d.location = normalize(findSessionByTitle('Address')?.nextSibling.nodeValue)
         const docs = $(el).find('h4.dublin-green')[3]
-        function cleanUpCityDocsUrl (url) {
+        function transformCityDocsUrl (url) {
           return url
             .replace('http://citydocs.ci.dublin.ca.us/', 'https://citydocs.dublin.ca.gov/')
             .replace('https://dublin-development.icitywork.com/', '')
             .replace('wp-content/', 'https://dublin-development.icitywork.com/wp-content/')
         }
-        function cleanUpImagesUrl (url) {
+        function transformImagesUrl (url) {
           return url
             .replace('https://dublin-development.icitywork.com/', '')
             .replace('wp-content/', 'https://dublin-development.icitywork.com/wp-content/')
         }
-        function traverseSiblings (el, acc = []) {
+        function traverseDocsSiblings (el, acc = []) {
           if ($(el).next().find('a').attr('href') !== undefined) {
-            return traverseSiblings($(el).next(), [...acc, {
+            return traverseDocsSiblings($(el).next(), [...acc, {
               name: normalize($(el).next().text()),
-              url: cleanUpCityDocsUrl($(el).next().find('a').attr('href'))
+              url: transformCityDocsUrl($(el).next().find('a').attr('href'))
             }])
           } else {
             return acc
           }
         }
-        d.docs = traverseSiblings(docs.nextSibling)
-        d.status = $(findBlockByTitle('Status')).next().attr('alt')
-        d.description = normalize($(findBlockByTitle('Project Description')).next().text())
-        const images = findBlockByTitle('Project Images').nextSibling
+        d.docs = traverseDocsSiblings(docs.nextSibling)
+        d.status = $(findSessionByTitle('Status')).next().attr('alt')
+        d.description = normalize($(findSessionByTitle('Project Description')).next().text())
+        const images = findSessionByTitle('Project Images').nextSibling
         d.images = $(images).next().find('li').map((i, el) => ({
-          original: cleanUpImagesUrl($(el).find('a').attr('href')),
-          thumbnail: cleanUpImagesUrl($(el).find('img').attr('src'))
+          original: transformImagesUrl($(el).find('a').attr('href')),
+          thumbnail: transformImagesUrl($(el).find('img').attr('src'))
         })).get()
         d.geolocation = {
           lat: null,
           lon: null,
           iconName: 'dot',
           title: d.title,
-          ...geoLocations[d.id]
+          ...geoDict[d.id]
         }
 
+        // only add createdAt if it doesn't exist, don't overwrite the existing timestamp
         d.createdAt = existingSnapshot[d.id]?.createdAt ? existingSnapshot[d.id]?.createdAt : timeStamp
-        data[d.id] = d
+        result[d.id] = d
       })
     })
-    return data
+    return result
   }
 }
 

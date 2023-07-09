@@ -9,7 +9,7 @@ const asyncTimes = Object.keys(times).map((k) => {
       snapshotPath: path.join(__dirname, '../docs/', 'archive/' + k + '/dublin-development.icitywork.com/snapshot.json'),
       logsPath: path.join(__dirname, '../docs/', 'archive/logs.json'),
       timeStamp: times[k],
-      uid: k,
+      archiveuUid: k,
       enableLogs: true
     })
   } catch (err) {
