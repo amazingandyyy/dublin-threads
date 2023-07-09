@@ -26,7 +26,7 @@ exports.transformLogs = (diff = [], timestamp) => {
   return diff.map(dif => {
     return {
       ...dif,
-      projectId: dif.path[0],
+      projectId: dif.path? dif.path[0]: null,
       timestamp
     }
   })

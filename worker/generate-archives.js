@@ -5,8 +5,8 @@ const times = require(path.join(__dirname, '../docs', 'archive/list2unix.json'))
 const asyncTimes = Object.keys(times).map((k) => {
   try {
     return worker.bind(null, {
-      siteUrl: 'https://raw.githubusercontent.com/amazingandyyy/dublin-ca/main/docs/archive/' + k + '/dublin-development.icitywork.com/index.html',
-      snapshotPath: path.join(__dirname, '../docs/', 'archive/' + k + '/dublin-development.icitywork.com/snapshot.json'),
+      siteUrl: `https://raw.githubusercontent.com/amazingandyyy/dublin-ca/main/docs/archive/${k}/dublin-development.icitywork.com/index.html`,
+      snapshotPath: path.join(__dirname, '../docs/', `archive/${k}/dublin-development.icitywork.com/snapshot.json`),
       logsPath: path.join(__dirname, '../docs/', 'archive/logs.json'),
       timeStamp: times[k],
       archiveuUid: k,
