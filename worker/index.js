@@ -126,7 +126,6 @@ async function main ({
 
     const geoLocations = parseGeo()
     const data = existingSnapshot
-    const diff = []
     projectIDs.forEach((id) => {
       $(`#${id}`).each((i, el) => {
         const d = {}
@@ -184,7 +183,7 @@ async function main ({
           title: d.title,
           ...geoLocations[d.id]
         }
-        d.createdAt = timeStamp
+        d.createdAt = existingSnapshot[d.id]?.createdAt ? existingSnapshot[d.id]?.createdAt : timeStamp
         function cleanUpDiff (diff = []) {
           return diff.map(dif => {
             return {
@@ -194,19 +193,20 @@ async function main ({
             }
           })
         }
-        if (data[d.id] !== undefined) {
-          // it exists, find the diff and put the activity into the feed
-          const localDiff = rdiff.getDiff(data[d.id], d, true)
-          if (localDiff.length > 0) {
-            diff.push(...cleanUpDiff(localDiff))
-          }
-          data[d.id] = d
-        } else {
-          data[d.id] = d
-        }
+        // if (data[d.id] !== undefined) {
+        //   // it exists, find the diff and put the activity into the feed
+        //   const localDiff = rdiff.getDiff(data[d.id], d, true)
+        //   if (localDiff.length > 0) {
+        //     diff.push(...cleanUpDiff(localDiff))
+        //   }
+        //   data[d.id] = d
+        // } else {
+        data[d.id] = d
+        // }
       })
     })
-    return [data, diff]
+    const localDiff = rdiff.getDiff(existingSnapshot, data, true) || []
+    return [data, localDiff]
   }
 }
 
