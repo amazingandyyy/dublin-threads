@@ -12,7 +12,7 @@ const asyncTimes = Object.keys(times).map((k) => {
       logsPath: path.join(__dirname, '../docs/', 'archive/logs.json'),
       timeStamp: times[k],
       archiveuUid: k,
-      enableLogs: false
+      enableLogs: false // generate logs in another generateArchiveLogs step
     })
   } catch (err) {
     console.error(err)

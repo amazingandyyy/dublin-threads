@@ -12,6 +12,7 @@
     "async": "^3.2.4",
     "axios": "^1.4.0",
     "cheerio": "^1.0.0-rc.12",
+    "lodash": "^4.17.21",
     "recursive-diff": "^1.0.9"
   }
 }

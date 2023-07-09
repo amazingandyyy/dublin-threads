@@ -33,7 +33,7 @@ async function worker ({
           })
           return data;
         }
-        writeJsonToFileForce(snapshotPath, mergeObject(existingSnapshot, attachCreatedAt(data)))
+        writeJsonToFileForce(snapshotPath, mergeObject(existingSnapshot, data))
 
         const logs = generateLogs({oldData: existingSnapshot, newData: data, timeStamp})
         if (enableLogs && logs.length > 0) writeJsonToFileForce(logsPath, [...existingLogs, ...logs])
