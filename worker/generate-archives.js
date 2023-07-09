@@ -20,6 +20,7 @@ const asyncTimes = Object.keys(times).map((k) => {
 })
 
 const generateArchiveLogs = () => {
+  console.log('generateArchiveLogs started')
   const reverseDict = {}
   Object.keys(times).map((k, index) => {
     reverseDict[index] = k
@@ -40,6 +41,7 @@ const generateArchiveLogs = () => {
     }
   }
   writeJsonToFileForce(path.join(__dirname, '../docs/', 'archive/logs.json'), result)
+  console.log('generateArchiveLogs finished')
 }
 
 async function main () {
