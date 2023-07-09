@@ -4,11 +4,11 @@ const path = require('path')
 const rdiff = require('recursive-diff')
 const { writeJsonToFileForce, normalize, transformLogs, mergeObject } = require('./utils')
 
-const generateLogs = (existingSnapshot, data, timeStamp) => {
-  return transformLogs(rdiff.getDiff(existingSnapshot, data, true), timeStamp)
+const generateLogs = ({oldData={}, newData, timeStamp}) => {
+  return transformLogs(rdiff.getDiff(oldData, newData, true), timeStamp)
 }
 
-async function main ({
+async function worker ({
   siteUrl,
   snapshotPath,
   logsPath,
@@ -35,7 +35,7 @@ async function main ({
         }
         writeJsonToFileForce(snapshotPath, mergeObject(existingSnapshot, attachCreatedAt(data)))
 
-        const logs = generateLogs(existingSnapshot, data, timeStamp)
+        const logs = generateLogs({oldData: existingSnapshot, newData: data, timeStamp})
         if (enableLogs && logs.length > 0) writeJsonToFileForce(logsPath, [...existingLogs, ...logs])
 
         console.log('worker finished', { siteUrl, snapshotPath, logsPath, timeStamp, enableLogs })
@@ -185,7 +185,7 @@ const snapshot = async (html) => {
 }
 
 if (require.main === module) {
-  main(
+  worker(
     {
       siteUrl: 'https://dublin-development.icitywork.com',
       snapshotPath: path.join(__dirname, '../api/', 'developments/snapshot.json'),
@@ -197,5 +197,6 @@ if (require.main === module) {
   )
 }
 
+exports.worker = worker
 exports.snapshot = snapshot
 exports.generateLogs = generateLogs
