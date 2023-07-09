@@ -21,6 +21,16 @@ const normalize = (str) => {
   return str.replace(/\s+/g, ' ').trim()
 }
 
+const cleanUpDiff = (diff = [], timestamp) => {
+  return diff.map(dif => {
+    return {
+      ...dif,
+      projectId: dif.path[0],
+      timestamp
+    }
+  })
+}
+
 async function main ({
   siteUrl,
   snapshotPath,
@@ -32,15 +42,16 @@ async function main ({
 
   const existingSnapshot = require(snapshotPath)
   const existingLogs = require(logsPath)
-
+  
   return new Promise((resolve, reject) => {
     axios.get(siteUrl)
       .then(res => {
-        // const input = fs.readFileSync(path.join(__dirname, '..','docs/index-2.html'))
+        // const input = fs.readFileSync(path.join(__dirname, '..','docs/index.html'))
         const input = res.data
-        const [data, diff] = build(input)
-        // console.log(JSON.stringify(data, null, 2))
-        writeToFileForce(snapshotPath, JSON.stringify(data, null, 2))
+        const data = build(input)
+        // merge two new data with existing snapshot
+        writeToFileForce(snapshotPath, JSON.stringify({...existingSnapshot, ...data}, null, 2))
+        const diff = cleanUpDiff(rdiff.getDiff(existingSnapshot, data, true), timeStamp)
 
         if (enableLogs && diff.length > 0) {
           writeToFileForce(logsPath, JSON.stringify([...existingLogs, ...diff], null, 2))
@@ -123,9 +134,8 @@ async function main ({
 
       return data
     }
-
     const geoLocations = parseGeo()
-    const data = existingSnapshot
+    const data = {}
     projectIDs.forEach((id) => {
       $(`#${id}`).each((i, el) => {
         const d = {}
@@ -183,30 +193,12 @@ async function main ({
           title: d.title,
           ...geoLocations[d.id]
         }
+
         d.createdAt = existingSnapshot[d.id]?.createdAt ? existingSnapshot[d.id]?.createdAt : timeStamp
-        function cleanUpDiff (diff = []) {
-          return diff.map(dif => {
-            return {
-              ...dif,
-              projectId: d.id,
-              timestamp: timeStamp
-            }
-          })
-        }
-        // if (data[d.id] !== undefined) {
-        //   // it exists, find the diff and put the activity into the feed
-        //   const localDiff = rdiff.getDiff(data[d.id], d, true)
-        //   if (localDiff.length > 0) {
-        //     diff.push(...cleanUpDiff(localDiff))
-        //   }
-        //   data[d.id] = d
-        // } else {
         data[d.id] = d
-        // }
       })
     })
-    const localDiff = rdiff.getDiff(existingSnapshot, data, true) || []
-    return [data, localDiff]
+    return data
   }
 }
 
