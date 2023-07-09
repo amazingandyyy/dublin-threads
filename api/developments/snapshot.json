@@ -485,11 +485,11 @@
     "title": "Quarry Lane School – Performing Arts Center",
     "details": {
       "Planning Application #": "PLPA-2021-00041",
-      "Application Type": "Conditional Use Permit and Site Development Review",
+      "Application Type": "Planned Development Amendment, Conditional Use Permit and Site Development Review",
       "Application Submittal Date": "10/04/2021",
       "General Plan Land Use": "Medium Density Residential",
       "Specific Plan Area": "Eastern Dublin Specific Plan",
-      "Zoning": "Planned Development (Ordinance Nos. 12-14 and 24-00)",
+      "Zoning": "Planned Development (Ordinance 12-14)",
       "Project Area": "12.6 acres",
       "Stories/Height": "2 stories",
       "Applicant": {
@@ -504,14 +504,9 @@
       }
     },
     "location": "6237 Tassajara Road",
-    "docs": [
-      {
-        "name": "CEQA Initial Study Mitigated Neg.7.5.23",
-        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/11/CEQA-Initial-Study-Mitigated-Neg.7.5.23.pdf"
-      }
-    ],
+    "docs": [],
     "status": "Application Under Review",
-    "description": "Application for a Conditional Use Permit for a minor amendment to the Stage 1 and Stage 2 Development Plan for the Quarry Lane School (Ordinance No. 12-14) and a Site Development Review Permit to construct a new 13,800-square foot building comprised of a performing arts center and other support spaces, including a new parking lot, within the newly acquired southern portion of the school property, which was formerly used as a landscaping supply business and currently contains a single-family home and associated outbuildings.",
+    "description": "Application for a Planned Development Amendment, Conditional Use Permit, and Site Development Review Permit to construct a new 13,800-square foot building comprised of a performing arts center and other support spaces, including a new parking lot, immediately south of the existing Quarry Lane School facilities.",
     "images": [
       {
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/11/Rendering.png",
