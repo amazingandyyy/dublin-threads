@@ -193,20 +193,20 @@ async function main ({
             }
           })
         }
-        if (data[d.id] !== undefined) {
-          // it exists, find the diff and put the activity into the feed
-          const localDiff = rdiff.getDiff(data[d.id], d, true)
-          if (localDiff.length > 0) {
-            diff.push(...cleanUpDiff(localDiff))
-          }
-          data[d.id] = d
-        } else {
-          data[d.id] = d
-        }
+        // if (data[d.id] !== undefined) {
+        //   // it exists, find the diff and put the activity into the feed
+        //   const localDiff = rdiff.getDiff(data[d.id], d, true)
+        //   if (localDiff.length > 0) {
+        //     diff.push(...cleanUpDiff(localDiff))
+        //   }
+        //   data[d.id] = d
+        // } else {
+        data[d.id] = d
+        // }
       })
     })
-    
-    return [data, diff]
+    const localDiff = rdiff.getDiff(existingSnapshot, data, true) || []
+    return [data, localDiff]
   }
 }
 
