@@ -10,15 +10,18 @@ const generateLogs = ({oldData={}, newData, timeStamp}) => {
 
 async function worker ({
   siteUrl,
-  snapshotPath,
+  latestPath,
+  allPath,
   logsPath,
   timeStamp,
+  enableAll,
   enableLogs
 }) {
-  console.log('worker started', { siteUrl, snapshotPath, logsPath, timeStamp, enableLogs })
+  console.log('worker started', { siteUrl, latestPath, logsPath, timeStamp, enableLogs })
 
-  const existingSnapshot = require(snapshotPath)
+  const existingSnapshot = require(latestPath)
   const existingLogs = require(logsPath)
+  const existingAll = require(allPath)
   
   return new Promise((resolve, reject) => {
     axios.get(siteUrl)
@@ -33,12 +36,16 @@ async function worker ({
         //   })
         //   return data;
         // }
-        writeJsonToFileForce(snapshotPath, mergeObject(existingSnapshot, data))
 
+        writeJsonToFileForce(path.join(__dirname, '../api/', 'developments', 'latest.json'), data)
+        
         const logs = generateLogs({oldData: existingSnapshot, newData: data, timeStamp})
-        if (enableLogs && logs.length > 0) writeJsonToFileForce(logsPath, [...existingLogs, ...logs])
+        if (enableLogs && logs.length > 0) {
+          writeJsonToFileForce(logsPath, [...existingLogs, ...logs])
+          if (enableAll) writeJsonToFileForce(path.join(__dirname, '../api/', 'developments/all.json'), mergeObject(existingAll, data))
+        }
 
-        console.log('worker finished', { siteUrl, snapshotPath, logsPath, timeStamp, enableLogs })
+        console.log('worker finished', { siteUrl, latestPath, logsPath, timeStamp, enableLogs })
         return resolve()
       })
       .catch(reject)
@@ -185,15 +192,21 @@ const snapshot = async (html) => {
 }
 
 if (require.main === module) {
+  // const y = new Date().getFullYear();
+  // const m = new Date().getMonth() + 1;
+  // const d = new Date().getDate();
+  // const fullDate = String(`${y}${m}${d}`);
+
   worker(
     {
       siteUrl: 'https://dublin-development.icitywork.com',
-      snapshotPath: path.join(__dirname, '../api/', 'developments/snapshot.json'),
+      latestPath: path.join(__dirname, '../api/', 'developments/latest.json'),
       logsPath: path.join(__dirname, '../api/', 'developments/logs.json'),
+      allPath: path.join(__dirname, '../api/', 'developments/all.json'),
       timeStamp: Date.now(),
+      enableAll: process.env.ENABLE_ALL === 'true',
       enableLogs: process.env.ENABLE_LOGS === 'true'
     }
-
   )
 }
 

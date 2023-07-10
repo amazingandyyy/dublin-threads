@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:with-logs": "ENABLE_LOGS=true node index.js",
+    "start:with-logs": "ENABLE_LOGS=true ENABLE_ALL=true node index.js",
     "start": "node index.js",
     "start:archives": "node generate-archives.js"
   },

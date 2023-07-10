@@ -10,7 +10,8 @@ Useful Data API for Dublin, CA
 
 ### JSON API
 
-- list of development projects: https://raw.githubusercontent.com/amazingandyyy/dublin-ca/main/api/developments/snapshot.json
+- list of all development projects (including those dislisted): https://raw.githubusercontent.com/amazingandyyy/dublin-ca/main/api/developments/all.json
+- list of current public development projects: https://raw.githubusercontent.com/amazingandyyy/dublin-ca/main/api/developments/latest.json
 - list of development projects changelog: https://raw.githubusercontent.com/amazingandyyy/dublin-ca/main/api/developments/logs.json
 
 ### citydocs usage
