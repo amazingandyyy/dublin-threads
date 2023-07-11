@@ -27,10 +27,12 @@ const generateHtml = async (datekey) => {
 
 const generateDateKeys = async () => {
   let datakeys = await globSync(absolutePath('docs/archive/*'));
-  datakeys = datakeys.filter(k=>!k.includes('json'))
+  datakeys = datakeys.filter(k=>!k.includes('json') && !k.includes('txt'))
                      .map(k=>k.replace(absolutePath('docs/archive/'), ''))
                      .sort((a, b)=> a-b)
+  datekeysLatest = datakeys[datakeys.length-1]
   writeJsonToFileForce(absolutePath('docs/archive/datekeys.json'), datakeys)
+  writeToFileForce(absolutePath('docs/archive/datekeys-latest.txt'), datekeysLatest)
 }
 
 main()

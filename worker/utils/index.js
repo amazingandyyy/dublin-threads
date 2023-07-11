@@ -1,16 +1,16 @@
 const fs = require('fs')
 const path = require('path')
-const winston = require('winston');
+const winston = require('winston')
 
 const logger = winston.createLogger({
   level: 'info',
   format: winston.format.combine(
-    winston.format.cli(),
+    winston.format.cli()
   ),
   transports: [
     new winston.transports.Console()
   ]
-});
+})
 
 const writeToFileForce = (path, data) => {
   logger.info(`writeToFile: ${path}`)
@@ -27,7 +27,7 @@ const writeToFileForce = (path, data) => {
         fs.writeFileSync(path, data)
       }
     })
-  });
+  })
 }
 
 exports.writeToFileForce = writeToFileForce
@@ -60,16 +60,16 @@ exports.absolutePath = (p) => {
 }
 
 exports.generateValidDatekey = () => {
-  const t = new Date();
-  let y = t.getFullYear();
-  let m = t.getMonth() + 1;
-  let d = t.getDate();
-  let h = t.getHours();
-  m = m < 10 ? `0${m}` : m;
-  d = d < 10 ? `0${d}` : d;
-  h = h < 10 ? `0${h}` : h;
-  const fullDate = String(`${y}${m}${d}${h}0000`);
-  return fullDate;
+  const t = new Date()
+  const y = t.getFullYear()
+  let m = t.getMonth() + 1
+  let d = t.getDate()
+  let h = t.getHours()
+  m = m < 10 ? `0${m}` : m
+  d = d < 10 ? `0${d}` : d
+  h = h < 10 ? `0${h}` : h
+  const fullDate = String(`${y}${m}${d}${h}0000`)
+  return fullDate
 }
 
 exports.logger = logger

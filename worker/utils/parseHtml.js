@@ -8,82 +8,82 @@ const replaceProjectDetail = (data) => {
 const parseHtml = async (html) => {
   return new Promise((resolve, reject) => {
     html = replaceProjectDetail(html)
-  const $ = cheerio.load(html)
-  const projectIDs = []
+    const $ = cheerio.load(html)
+    const projectIDs = []
 
-  const detailsFns = {
-    Applicant: (el) => {
-      const i = $(el).find('.table-right').html().trim().split('<br>').map(normalize)
-      let r = {}
-      if (i.length === 3) {
-        r = {
-          name: i[0],
-          address: i[1],
-          phone: i[2]
-        }
-      } else {
-        if (i[1].length > 15) {
-        // is address
+    const detailsFns = {
+      Applicant: (el) => {
+        const i = $(el).find('.table-right').html().trim().split('<br>').map(normalize)
+        let r = {}
+        if (i.length === 3) {
           r = {
             name: i[0],
             address: i[1],
-            phone: 'n/a'
+            phone: i[2]
           }
         } else {
-          r = {
-            name: i[0],
-            address: 'n/a',
-            phone: i[1]
+          if (i[1].length > 15) {
+            // is address
+            r = {
+              name: i[0],
+              address: i[1],
+              phone: 'n/a'
+            }
+          } else {
+            r = {
+              name: i[0],
+              address: 'n/a',
+              phone: i[1]
+            }
           }
         }
-      }
-      return r
-    },
-    'Project Planner': (el) => {
-      const i = $(el).find('.table-right').html().trim().split('<br>').map(normalize)
-      return {
-        name: i[0],
-        phone: i[1],
-        email: normalize($(el).find('.table-right').find('a').text())
+        return r
+      },
+      'Project Planner': (el) => {
+        const i = $(el).find('.table-right').html().trim().split('<br>').map(normalize)
+        return {
+          name: i[0],
+          phone: i[1],
+          email: normalize($(el).find('.table-right').find('a').text())
+        }
       }
     }
-  }
 
-  $('.modal.fade').each((i, el) => {
-    projectIDs.push(el.attribs.id)
-  })
-
-  function parseGeo () {
-    const dict = {}
-    $('script[type="text/javascript"]').each((index, element) => {
-      const scriptContent = $(element).html()
-      const latMatch = scriptContent.match(/var lat = (.*?);/)
-      const lonMatch = scriptContent.match(/var lon = (.*?);/)
-      const postidMatch = scriptContent.match(/var postid =(.*?);/)
-      const iconNameMatch = scriptContent.match(/var iconName = "(.*?)";/)
-
-      if (latMatch && lonMatch && postidMatch) {
-        const lat = parseFloat(latMatch[1])
-        const lon = parseFloat(lonMatch[1])
-        const postid = parseInt(postidMatch[1])
-        const iconName = iconNameMatch ? iconNameMatch[1] : 'dot'
-
-        const item = {
-          lat,
-          lon,
-          iconName
-        }
-        dict[`projectdetail${postid}`] = item
-      }
+    $('.modal.fade').each((i, el) => {
+      projectIDs.push(el.attribs.id)
     })
 
-    return dict
-  }
+    function parseGeo () {
+      const dict = {}
+      $('script[type="text/javascript"]').each((index, element) => {
+        const scriptContent = $(element).html()
+        const latMatch = scriptContent.match(/var lat = (.*?);/)
+        const lonMatch = scriptContent.match(/var lon = (.*?);/)
+        const postidMatch = scriptContent.match(/var postid =(.*?);/)
+        const iconNameMatch = scriptContent.match(/var iconName = "(.*?)";/)
 
-  const geoDict = parseGeo()
-  const result = {}
-  projectIDs.forEach((id) => {
-    const el = $(`#${id}`)[0];
+        if (latMatch && lonMatch && postidMatch) {
+          const lat = parseFloat(latMatch[1])
+          const lon = parseFloat(lonMatch[1])
+          const postid = parseInt(postidMatch[1])
+          const iconName = iconNameMatch ? iconNameMatch[1] : 'dot'
+
+          const item = {
+            lat,
+            lon,
+            iconName
+          }
+          dict[`projectdetail${postid}`] = item
+        }
+      })
+
+      return dict
+    }
+
+    const geoDict = parseGeo()
+    const result = {}
+    projectIDs.forEach((id) => {
+      const el = $(`#${id}`)[0]
       const d = {}
       d.id = id
       d.title = $(el).find('#myModalLabel').text()
@@ -140,8 +140,8 @@ const parseHtml = async (html) => {
         ...geoDict[d.id]
       }
       result[d.id] = d
-  })
-  return resolve(result)
+    })
+    return resolve(result)
   })
 }
 
