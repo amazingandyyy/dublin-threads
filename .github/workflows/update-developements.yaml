@@ -1,15 +1,15 @@
-name: take current snapshot
+name: take snapshot and generat JSON
 
 on:
   # push:
   #   branches: [ main ]
   schedule:
-    # - cron: "0 6 * * *" # “At 6:00 everyday”
-    - cron: "0 */12 * * *" # every 12 hour
+    - cron: "0 9 * * *" #  “At 9:00 everyday”
+    - cron: "0 17 * * *" #  “At 17:00 everyday”
   workflow_dispatch:
 
 jobs:
-  fetch:
+  snapshot-json:
     permissions:
       contents: write
     name: fetch
@@ -29,18 +29,30 @@ jobs:
         working-directory: ./worker
         run: npm install
 
-      - name: generate
+      - name: take a snapshot
         working-directory: ./worker
-        run: npm run start:today
+        run: npm run start:snapshot
 
       - name: check for modified files
         id: git-check
         run: echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ]; then echo "true"; else echo "false"; fi)
-      - name: commit to main branch
+      - name: commit
         if: steps.git-check.outputs.modified == 'true'
         run:  |
           git config --global user.name 'bot'
           git config --global user.email 'dublin-ca@amazingandyyy.com'
           git add -A
           git commit -m 'feat(data): snapshot today'
+      - name: generate json
+        working-directory: ./worker
+        run: npm run start:json
+      - name: check for modified files
+        id: git-check
+        run: echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ]; then echo "true"; else echo "false"; fi)
+      - name: commit to main branch
+        if: steps.git-check.outputs.modified == 'true'
+        run:  |
+          git add -A
+          git commit -m 'feat(data): generate json base on snapshots'
           git push
+  

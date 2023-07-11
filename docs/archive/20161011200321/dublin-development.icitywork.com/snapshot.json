@@ -67,8 +67,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.70358,
+      "lon": -121.85688,
       "iconName": "dot",
       "title": "Kaiser Medical Center"
     }
@@ -122,8 +122,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7105908,
+      "lon": -121.8634079,
       "iconName": "dot",
       "title": "Grafton Plaza – Residential"
     }
@@ -165,8 +165,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7105908,
+      "lon": -121.8634079,
       "iconName": "dot",
       "title": "Grafton Plaza – Commercial"
     }
@@ -216,8 +216,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7105462,
+      "lon": -121.8635268,
       "iconName": "dot",
       "title": "Grafton Plaza – Aloft Hotel"
     }
@@ -281,8 +281,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7087662,
+      "lon": -121.853924,
       "iconName": "dot",
       "title": "Irongate (Subarea 3)"
     }
@@ -339,8 +339,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7005278,
+      "lon": -121.9371665,
       "iconName": "dot",
       "title": "Heritage Park"
     }
@@ -388,8 +388,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7023874,
+      "lon": -121.9812868,
       "iconName": "dot",
       "title": "Schaefer Ranch – Unit 2"
     }
@@ -434,8 +434,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7032957,
+      "lon": -121.9012096,
       "iconName": "dot",
       "title": "B&S Hacienda"
     }
@@ -484,8 +484,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7128547,
+      "lon": -121.940522,
       "iconName": "dot",
       "title": "St. Raymond’s Church"
     }
@@ -540,8 +540,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7339491,
+      "lon": -121.8622866,
       "iconName": "dot",
       "title": "Dublin Ranch North (Redgewick)"
     }
@@ -588,8 +588,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7066552,
+      "lon": -121.9116242,
       "iconName": "dot",
       "title": "Sierra Business Center Rezone"
     }
@@ -646,8 +646,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.700928,
+      "lon": -121.978227,
       "iconName": "dot",
       "title": "Schaefer Ranch Unit 3"
     }
@@ -701,8 +701,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.70312,
+      "lon": -121.8537362,
       "iconName": "dot",
       "title": "Fallon Gateway Shopping Center"
     }
@@ -743,8 +743,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7024496,
+      "lon": -121.8773923,
       "iconName": "dot",
       "title": "Dublin Infiniti"
     }
@@ -830,8 +830,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7036335,
+      "lon": -121.9352966,
       "iconName": "dot",
       "title": "Trumark-Regional Street"
     }
@@ -876,8 +876,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7015059,
+      "lon": -121.9364103,
       "iconName": "dot",
       "title": "Shell Gas Station Remodel"
     }
@@ -925,8 +925,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7054863,
+      "lon": -121.8589039,
       "iconName": "dot",
       "title": "Westport – Dublin Ranch (Lot 3)"
     }
@@ -976,8 +976,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.701844,
+      "lon": -121.925486,
       "iconName": "dot",
       "title": "Fountainhead Montessori"
     }
@@ -1031,8 +1031,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7060145,
+      "lon": -121.9344996,
       "iconName": "dot",
       "title": "Valero Service Station Expansion"
     }
@@ -1074,8 +1074,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.701757,
+      "lon": -121.9359468,
       "iconName": "dot",
       "title": "Sutter Retail Development"
     }
@@ -1144,8 +1144,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7349134,
+      "lon": -121.8677859,
       "iconName": "dot",
       "title": "Moller Ranch/Tassajara Hills"
     }
@@ -1194,8 +1194,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7265718,
+      "lon": -121.871117,
       "iconName": "dot",
       "title": "Wanmei Properties, Inc."
     }
@@ -1245,8 +1245,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.70312,
+      "lon": -121.8537362,
       "iconName": "dot",
       "title": "Guitar Center"
     }
@@ -1293,8 +1293,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7047196,
+      "lon": -121.8892569,
       "iconName": "dot",
       "title": "IKEA Retail Center"
     }

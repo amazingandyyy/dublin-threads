@@ -44,8 +44,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.735513,
+      "lon": -121.873446,
       "iconName": "dot",
       "title": "Wallis Ranch Neighborhood 8 (Fielding)"
     }
@@ -99,8 +99,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7352633,
+      "lon": -121.8730481,
       "iconName": "dot",
       "title": "Wallis Ranch Neighborhood 7 (Driftsong)"
     }
@@ -150,8 +150,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7356239,
+      "lon": -121.8715824,
       "iconName": "dot",
       "title": "Wallis Ranch Neighborhood 6 (Riverton)"
     }
@@ -201,8 +201,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.733663,
+      "lon": -121.87398,
       "iconName": "dot",
       "title": "Wallis Ranch Neighborhood 5 (Trestle)"
     }
@@ -244,8 +244,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7374091,
+      "lon": -121.8762986,
       "iconName": "dot",
       "title": "Wallis Ranch Neighborhood 4 (Citron)"
     }
@@ -287,8 +287,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7372,
+      "lon": -121.874942,
       "iconName": "dot",
       "title": "Wallis Ranch Neighborhood 3 (Ivy Oak)"
     }
@@ -330,8 +330,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.734357,
+      "lon": -121.874872,
       "iconName": "dot",
       "title": "Wallis Ranch Neighborhood 2 (Barnwell)"
     }
@@ -373,8 +373,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.736733,
+      "lon": -121.878449,
       "iconName": "dot",
       "title": "Wallis Ranch Neighborhood 1 (Bridgecroft)"
     }
@@ -422,8 +422,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7351979,
+      "lon": -121.868785,
       "iconName": "dot",
       "title": "Tassajara Highlands"
     }
@@ -462,8 +462,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7140589,
+      "lon": -121.8926589,
       "iconName": "dot",
       "title": "East County Hall of Justice (Alameda County Courthouse)"
     }
@@ -500,8 +500,8 @@
     "description": "Senior Care Facility comprised of apartments, assisted living and memory care units with associated communal eating and living areas.",
     "images": [],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7083931,
+      "lon": -121.9332742,
       "iconName": "dot",
       "title": "Avesta Senior Care Facility"
     }
@@ -547,8 +547,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7097901,
+      "lon": -121.8676244,
       "iconName": "dot",
       "title": "Jordan Ranch – Parcel H"
     }
@@ -594,8 +594,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7097901,
+      "lon": -121.8676244,
       "iconName": "dot",
       "title": "Jordan Ranch – Neighborhood 6 (Kingswood)"
     }
@@ -641,8 +641,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7123947,
+      "lon": -121.845873,
       "iconName": "dot",
       "title": "Jordan Ranch – Neighborhood 3 (Capri)"
     }
@@ -688,8 +688,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7123947,
+      "lon": -121.845873,
       "iconName": "dot",
       "title": "Jordan Ranch Neighborhood 2 (Altmore)"
     }
@@ -829,8 +829,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7123947,
+      "lon": -121.845873,
       "iconName": "dot",
       "title": "Jordan Ranch Neighborhood 4 (Trio)"
     }
@@ -863,8 +863,8 @@
     "description": "The Eden Housing Veteran’s Project is comprised of 66-units of affordable housing with preference for military veterans on a 1.37 net acre site within the Downtown Dublin Specific Plan area. The project incorporates related site improvements including a multi-level parking structure, frontage improvements along all public rights of way, and amenities for the project residents. The project will implement one of the City Council’s key strategic initiatives, which is to provide affordable housing for veterans of the U.S Armed Forces.",
     "images": [],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7034154,
+      "lon": -121.9283302,
       "iconName": "dot",
       "title": "Eden Housing Veteran’s Project"
     }
@@ -903,8 +903,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.70253,
+      "lon": -121.927787,
       "iconName": "dot",
       "title": "Bay West Mixed Use Project"
     }
@@ -977,8 +977,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.70358,
+      "lon": -121.85688,
       "iconName": "dot",
       "title": "Kaiser Medical Center"
     }
@@ -1032,8 +1032,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7105908,
+      "lon": -121.8634079,
       "iconName": "dot",
       "title": "Grafton Plaza – Residential"
     }
@@ -1075,8 +1075,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7105908,
+      "lon": -121.8634079,
       "iconName": "dot",
       "title": "Grafton Plaza – Commercial"
     }
@@ -1126,8 +1126,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7105462,
+      "lon": -121.8635268,
       "iconName": "dot",
       "title": "Grafton Plaza – Aloft Hotel"
     }
@@ -1191,8 +1191,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7087662,
+      "lon": -121.853924,
       "iconName": "dot",
       "title": "Irongate (Subarea 3)"
     }
@@ -1249,8 +1249,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7005278,
+      "lon": -121.9371665,
       "iconName": "dot",
       "title": "Heritage Park"
     }
@@ -1298,8 +1298,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7023874,
+      "lon": -121.9812868,
       "iconName": "dot",
       "title": "Schaefer Ranch – Unit 2"
     }
@@ -1344,8 +1344,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7032957,
+      "lon": -121.9012096,
       "iconName": "dot",
       "title": "B&S Hacienda"
     }
@@ -1394,8 +1394,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7128547,
+      "lon": -121.940522,
       "iconName": "dot",
       "title": "St. Raymond’s Church"
     }
@@ -1450,8 +1450,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7339491,
+      "lon": -121.8622866,
       "iconName": "dot",
       "title": "Dublin Ranch North (Redgewick)"
     }
@@ -1498,8 +1498,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7066552,
+      "lon": -121.9116242,
       "iconName": "dot",
       "title": "Sierra Business Center Rezone"
     }
@@ -1556,8 +1556,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.700928,
+      "lon": -121.978227,
       "iconName": "dot",
       "title": "Schaefer Ranch Unit 3"
     }
@@ -1611,8 +1611,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.70312,
+      "lon": -121.8537362,
       "iconName": "dot",
       "title": "Fallon Gateway Shopping Center"
     }
@@ -1653,8 +1653,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7024496,
+      "lon": -121.8773923,
       "iconName": "dot",
       "title": "Dublin Infiniti"
     }
@@ -1740,8 +1740,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7036335,
+      "lon": -121.9352966,
       "iconName": "dot",
       "title": "Trumark-Regional Street"
     }
@@ -1786,8 +1786,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7015059,
+      "lon": -121.9364103,
       "iconName": "dot",
       "title": "Shell Gas Station Remodel"
     }
@@ -1835,8 +1835,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7054863,
+      "lon": -121.8589039,
       "iconName": "dot",
       "title": "Westport – Dublin Ranch (Lot 3)"
     }
@@ -1886,8 +1886,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.701844,
+      "lon": -121.925486,
       "iconName": "dot",
       "title": "Fountainhead Montessori"
     }
@@ -1941,8 +1941,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7060145,
+      "lon": -121.9344996,
       "iconName": "dot",
       "title": "Valero Service Station Expansion"
     }
@@ -1996,8 +1996,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.703086,
+      "lon": -121.93525,
       "iconName": "dot",
       "title": "Dublin Retail LLC"
     }
@@ -2066,8 +2066,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7349134,
+      "lon": -121.8677859,
       "iconName": "dot",
       "title": "Moller Ranch/Tassajara Hills"
     }
@@ -2125,8 +2125,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7265718,
+      "lon": -121.871117,
       "iconName": "dot",
       "title": "Wanmei Properties, Inc."
     }
@@ -2176,8 +2176,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.70312,
+      "lon": -121.8537362,
       "iconName": "dot",
       "title": "Guitar Center"
     }
@@ -2224,8 +2224,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7047196,
+      "lon": -121.8892569,
       "iconName": "dot",
       "title": "IKEA Retail Center"
     }

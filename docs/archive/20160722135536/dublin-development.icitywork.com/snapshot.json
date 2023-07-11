@@ -43,8 +43,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.70312,
+      "lon": -121.8537362,
       "iconName": "dot",
       "title": "Guitar Center"
     }
@@ -91,8 +91,8 @@
       }
     ],
     "geolocation": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.7047196,
+      "lon": -121.8892569,
       "iconName": "dot",
       "title": "IKEA Retail Center"
     }

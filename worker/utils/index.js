@@ -16,7 +16,9 @@ const writeToFileForce = (path, data) => {
   logger.info(`writeToFile: ${path}`)
   const directory = path.split('/').slice(0, -1).join('/')
   fs.mkdir(directory, { recursive: true }, (err) => {
-    if (err) {};
+    if (err) {
+      logger.error(err)
+    };
     fs.open(path, 'r', function (err, fd) {
       if (err) {
         fs.appendFile(path, '', function (err) {
