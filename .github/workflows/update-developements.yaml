@@ -1,11 +1,11 @@
-name: update today's data (hourly)
+name: take current snapshot
 
 on:
-  push:
-    branches: [ main ]
+  # push:
+  #   branches: [ main ]
   schedule:
     # - cron: "0 6 * * *" # “At 6:00 everyday”
-    - cron: "0 * * * *" # every hour
+    - cron: "0 */12 * * *" # every 12 hour
   workflow_dispatch:
 
 jobs:
@@ -42,5 +42,5 @@ jobs:
           git config --global user.name 'bot'
           git config --global user.email 'dublin-ca@amazingandyyy.com'
           git add -A
-          git commit -m 'feat(data): update api/developments.json'
+          git commit -m 'feat(data): snapshot today'
           git push
