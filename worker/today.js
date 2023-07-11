@@ -19,7 +19,7 @@ const generateJson = async (datekey, html) => {
 
 const generateHtml = async (datekey) => {
   let html = await axios.get(source)
-  html = html.data
+  html = html.data.replace(/\?wordfence_lh=1&hid=.*/i, '')
   const p = absolutePath(`docs/archive/${datekey}/dublin-development.icitywork.com/index.html`);
   writeToFileForce(p, html)
   return html
