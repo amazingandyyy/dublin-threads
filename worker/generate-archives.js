@@ -1,18 +1,13 @@
 const { worker, generateLogs } = require('./index')
-const path = require('path')
-const { writeJsonToFileForce } = require('./utils')
+const { writeJsonToFileForce, absolutePath } = require('./utils')
 
-const times = require(path.join(__dirname, '../docs', 'archive/list2unix.json'))
+const times = require(absolutePath('docs/archive/datekeys.json'))
 
 const asyncTimes = Object.keys(times).map((k) => {
   try {
     return worker.bind(null, {
-      siteUrl: `https://raw.githubusercontent.com/amazingandyyy/dublin-ca/main/docs/archive/${k}/dublin-development.icitywork.com/index.html`,
-      snapshotPath: path.join(__dirname, '../docs/', `archive/${k}/dublin-development.icitywork.com/snapshot.json`),
-      logsPath: path.join(__dirname, '../docs/', 'archive/logs.json'),
+      source: absolutePath(`docs/archive/${k}/dublin-development.icitywork.com/index.html`),
       timeStamp: times[k],
-      archiveuUid: k,
-      enableLogs: false // generate logs in another generateArchiveLogs step
     })
   } catch (err) {
     console.error(err)
@@ -30,8 +25,8 @@ const generateArchiveLogs = () => {
   for (let counter=0; counter<Object.keys(reverseDict).length; counter++) {
     let current = reverseDict[counter]
     let previous = reverseDict[counter-1]
-    let currentPath = path.join(__dirname, '../docs/', `archive/${current}/dublin-development.icitywork.com/snapshot.json`)
-    let previousPath = path.join(__dirname, '../docs/', `archive/${previous}/dublin-development.icitywork.com/snapshot.json`)
+    let currentPath = absolutePath(`docs/archive/${current}/dublin-development.icitywork.com/snapshot.json`)
+    let previousPath = absolutePath(`docs/archive/${previous}/dublin-development.icitywork.com/snapshot.json`)
     let currentData = require(currentPath)
     let previousData = (counter === 0) ? {} : require(previousPath)
 
@@ -40,7 +35,7 @@ const generateArchiveLogs = () => {
       result.push(...logs)
     }
   }
-  writeJsonToFileForce(path.join(__dirname, '../docs/', 'archive/logs.json'), result)
+  writeJsonToFileForce(absolutePath(`docs/archive/logs.json`), result)
   console.log('generateArchiveLogs finished')
 }
 

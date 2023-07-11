@@ -4,15 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:with-logs": "ENABLE_LOGS=true ENABLE_ALL=true node index.js",
+    "start:today": "node today.js",
     "start": "node index.js",
-    "start:archives": "node generate-archives.js"
+    "start:archives": "node --trace-warnings generate-archives.js",
+    "start:api-v2": "node generate-api.js"
   },
   "dependencies": {
     "async": "^3.2.4",
     "axios": "^1.4.0",
     "cheerio": "^1.0.0-rc.12",
+    "glob": "^10.3.3",
     "lodash": "^4.17.21",
     "recursive-diff": "^1.0.9"
+  },
+  "devDependencies": {
+    "winston": "^3.10.0"
   }
 }

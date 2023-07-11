@@ -1,7 +1,7 @@
-const path = require('path')
 const _ = require('lodash')
+const { absolutePath } = require('./utils')
 
-const data = require(path.join(__dirname, '../docs/', 'archive/logs.json'))
+const data = absolutePath('docs/archive/logs.json')
 
 const projectdetail = _.filter(data, {projectId: "projectdetail63"})
 

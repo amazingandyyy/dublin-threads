@@ -231,16 +231,7 @@
       }
     },
     "location": "11711 Dublin Boulevard",
-    "docs": [
-      {
-        "name": "Notice of Preparation (NOP)",
-        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Notice-of-Preparation-NOP.pdf"
-      },
-      {
-        "name": "Notice of Scoping Meeting",
-        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Notice-of-Scoping-Meeting.pdf"
-      }
-    ],
+    "docs": [],
     "status": "Application Under Review",
     "description": "Overton Moore Properties proposes to redevelop a 8.81 acre site located at 11711 Dublin Boulevard. The project would demolish an existing 62,715 square-foot research and development building and construct a new 125,304 square-foot light industrial, advanced manufacturing and life sciences building with 217 parking stalls and related site improvements. Requested approvals include a Planned Development Rezone with a related Stage 1 and Stage 2 Development Plan, Site Development Review Permit and Heritage Tree Removal Permit.",
     "images": [
@@ -486,11 +477,11 @@
     "title": "Quarry Lane School – Performing Arts Center",
     "details": {
       "Planning Application #": "PLPA-2021-00041",
-      "Application Type": "Planned Development Amendment, Conditional Use Permit and Site Development Review",
+      "Application Type": "Conditional Use Permit and Site Development Review",
       "Application Submittal Date": "10/04/2021",
       "General Plan Land Use": "Medium Density Residential",
       "Specific Plan Area": "Eastern Dublin Specific Plan",
-      "Zoning": "Planned Development (Ordinance 12-14)",
+      "Zoning": "Planned Development (Ordinance Nos. 12-14 and 24-00)",
       "Project Area": "12.6 acres",
       "Stories/Height": "2 stories",
       "Applicant": {
@@ -505,9 +496,14 @@
       }
     },
     "location": "6237 Tassajara Road",
-    "docs": [],
+    "docs": [
+      {
+        "name": "CEQA Initial Study Mitigated Neg.7.5.23",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/11/CEQA-Initial-Study-Mitigated-Neg.7.5.23.pdf"
+      }
+    ],
     "status": "Application Under Review",
-    "description": "Application for a Planned Development Amendment, Conditional Use Permit, and Site Development Review Permit to construct a new 13,800-square foot building comprised of a performing arts center and other support spaces, including a new parking lot, immediately south of the existing Quarry Lane School facilities.",
+    "description": "Application for a Conditional Use Permit for a minor amendment to the Stage 1 and Stage 2 Development Plan for the Quarry Lane School (Ordinance No. 12-14) and a Site Development Review Permit to construct a new 13,800-square foot building comprised of a performing arts center and other support spaces, including a new parking lot, within the newly acquired southern portion of the school property, which was formerly used as a landscaping supply business and currently contains a single-family home and associated outbuildings.",
     "images": [
       {
         "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/11/Rendering.png",
@@ -838,7 +834,12 @@
       }
     },
     "location": "Collier Canyon Road",
-    "docs": [],
+    "docs": [
+      {
+        "name": "Righetti Community Meeting Presentation June 21 and 22, 2023",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Righetti-Community-Meeting-Presentation.pdf"
+      }
+    ],
     "status": "Application Under Review",
     "description": "The proposed project would establish zoning regulations and development standard for future development of up to 96 homes, approximately 372,350 square feet of industrial uses and approximately 321,125 square feet of campus office/light industrial uses. The proposed project would also subdivide the 49.6-acre site into four parcels to accommodate proposed residential and industrial development.",
     "images": [
@@ -1265,8 +1266,12 @@
         "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/b5fd52e531bac3e85e83c15545413b0d0.pdf"
       },
       {
-        "name": "April 18, 2023 City Council Meeting",
+        "name": "April 18, 2023 City Council Agenda and Staff Report",
         "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/c0ab37cef79b321e146659fb4ded926c0.pdf"
+      },
+      {
+        "name": "June 20, 2023 City Council Agenda and Staff Report",
+        "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/38568ea44223cc13e6b89451a203dd810.pdf"
       }
     ],
     "status": "Final Action",
@@ -1370,76 +1375,6 @@
       "title": "Kaiser Commercial – Nissan"
     }
   },
-  "projectdetail1075": {
-    "id": "projectdetail1075",
-    "title": "Westin Hotel",
-    "details": {
-      "Planning Application #": "PLPA-2019-00006",
-      "Application Type": "TMAP, SDR, Stage 2 PD",
-      "Application Submittal Date": "02/08/2019",
-      "General Plan Land Use": "CO-Campus Office",
-      "Specific Plan Area": "CO-Campus Office",
-      "Zoning": "PD-Planned Development",
-      "Project Area": "5.88 acres",
-      "Building Area": "163,133 square feet",
-      "Stories/Height": "6 stories",
-      "Applicant": {
-        "name": "Charles Patel",
-        "address": "3657 Old Santa Rita Rd, Pleasanton, CA 94588",
-        "phone": "(650) 826-1954"
-      },
-      "Project Planner": {
-        "name": "Amy Million - Principal Planner",
-        "phone": "(925) 833-6610",
-        "email": "amy.million@dublin.ca.gov"
-      }
-    },
-    "location": "100 Civic Plaza",
-    "docs": [
-      {
-        "name": "Planning Commission Staff Report 9-24-19",
-        "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1453&Inline=True"
-      },
-      {
-        "name": "City Council Staff Report 10-15-19",
-        "url": "https://dublin.ca.gov/ArchiveCenter/ViewFile/Item/981"
-      },
-      {
-        "name": "City Council Staff Report 11-5-19",
-        "url": "https://citydocs.dublin.ca.gov/WebLink/DocView.aspx?id=770129&cr=1"
-      }
-    ],
-    "status": "Final Action",
-    "description": "The Westin Hotel project is a proposal for a Tentative Parcel Map, Site Development Review Permit, and a Stage 2 Development Plan for a 163,133 square foot, 6-story hotel. The site consists of a 5.88-acre parcel located at the southeast corner of Campus Drive and Altamirano Avenue, adjacent to the existing East Dublin BART Station. The hotel will include a 5,254 square foot restaurant, a ballroom, 2 large meeting rooms, and 198 hotel rooms.",
-    "images": [
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Westin-Hotel_Rendering.jpg",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Westin-Hotel_Rendering-150x150.jpg"
-      },
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Floor-Plan.jpg",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Floor-Plan-150x150.jpg"
-      },
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/North-Elevation.jpg",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/North-Elevation-150x150.jpg"
-      },
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Site-Plan.jpg",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Site-Plan-150x150.jpg"
-      },
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Rendering-2.jpg",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Rendering-2-150x150.jpg"
-      }
-    ],
-    "geolocation": {
-      "lat": 37.70304,
-      "lon": -121.89506,
-      "iconName": "hotel",
-      "title": "Westin Hotel"
-    }
-  },
   "projectdetail1068": {
     "id": "projectdetail1068",
     "title": "BASIS Independent School (Corrie Center)",
@@ -1463,8 +1398,25 @@
       }
     },
     "location": "7950 Dublin Boulevard",
-    "docs": [],
-    "status": "Pubic Hearing",
+    "docs": [
+      {
+        "name": "PC Staff Report – Basis School",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/PC-Staff-Report-Basis-School.pdf"
+      },
+      {
+        "name": "Attachment 1 – Resolution BASIS Independent School PLPA2023-00011",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Attachment-1-Resolution-BASIS-Independent-School-PLPA2023-00011.pdf"
+      },
+      {
+        "name": "Attachment – 4 Traffic Impact Study prepared by W-Trans, dated March 21, 2023",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Attachment-4-Traffic-Impact-Study-prepared-by-W-Trans-dated-March-21-2023.pdf"
+      },
+      {
+        "name": "Attachment 3 – BASIS Independent School Traffic and Parking Management Plan",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Attachment-3-BASIS-Independent-School-Traffic-and-Parking-Management-Plan.pdf"
+      }
+    ],
+    "status": "Final Action",
     "description": "The property owner, Jerry Hunt of VP RPG Dublin, LLC, submitted an application on behalf of BASIS Independent School to operate a private school serving up to 800 middle and high school students, construct façade improvements to the existing 81,985 square foot office building which will be converted to a school, and construct a 9,134 square foot gymnasium building, outdoor recreational play field, trash enclosure, and associated site improvements. Requested approvals include a Conditional Use Permit and Site Development Review Permit.",
     "images": [
       {
@@ -1497,151 +1449,6 @@
       "lon": -121.935041,
       "iconName": "building",
       "title": "BASIS Independent School (Corrie Center)"
-    }
-  },
-  "projectdetail998": {
-    "id": "projectdetail998",
-    "title": "Ashton at Dublin Station",
-    "details": {
-      "Planning Application #": "PLPA-2017-00036",
-      "Application Type": "Stage 2 Development Plan, Site Development Review, Tentative Map and Development Agreement",
-      "Application Submittal Date": "05/24/2017",
-      "General Plan Land Use": "High Density Residential",
-      "Specific Plan Area": "Eastern Dublin Specific Plan",
-      "Zoning": "PD (Planned Development)",
-      "Project Area": "2.36 acres",
-      "Stories/Height": "7 stories / 83 feet",
-      "Parking Provided": "331 parking spaces",
-      "Applicant": {
-        "name": "UDR, Inc.",
-        "address": "1745 Shea Center Drive, Suite 200, Highlands Ranch, CO 80129",
-        "phone": "720-348-7604"
-      },
-      "Project Planner": {
-        "name": "Gaspare Annibale - Associate Planner",
-        "phone": "(925) 833-6610",
-        "email": "gaspare.annibale@dublin.ca.gov"
-      }
-    },
-    "location": "DeMarcus Boulevard",
-    "docs": [
-      {
-        "name": "Settlement agreement information: Ashton at Dublin Station v. City of Dublin Settlement FAQ",
-        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Ashton-at-Dublin-Station-v.-City-of-Dublin-Settlement-FAQ.pdf"
-      },
-      {
-        "name": "Planning Commission Staff Report November 14, 2017",
-        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Planning-Commission-Staff-Report-November-14-2017.doc"
-      },
-      {
-        "name": "City Council Staff Report dated 3.6.18",
-        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/City-Council-Staff-Report-dated-3.6.18.doc"
-      },
-      {
-        "name": "Ashton @ Dublin Station July 17, 2018 City Council Staff Report",
-        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Ashton-@-Dublin-Station-July-17-2018-City-Council-Staff-Report.doc"
-      }
-    ],
-    "status": "Final Action",
-    "description": "The proposed Ashton at Dublin Station project is located at the northwest corner of DeMarcus Boulevard and Campbell Lane within the Transit Center. The site has a General Plan and Eastern Dublin Specific Plan land use designation of High Density Residential (25+ units per acre) and Planned Development Zoning with a Stage 1 Development Plan that permits a high density residential development.",
-    "images": [
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Capture1.png",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Capture1-150x150.png"
-      },
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Northeast-corner-DeMarcus-Blvd..png",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Northeast-corner-DeMarcus-Blvd.-150x150.png"
-      },
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Southeast-entry-lobby.png",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Southeast-entry-lobby-150x150.png"
-      },
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Aerial-at-the-SE-corner.png",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Aerial-at-the-SE-corner-150x150.png"
-      },
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/site-plan.png",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/site-plan-150x150.png"
-      }
-    ],
-    "geolocation": {
-      "lat": 37.7043064,
-      "lon": -121.8998893,
-      "iconName": "building",
-      "title": "Ashton at Dublin Station"
-    }
-  },
-  "projectdetail971": {
-    "id": "projectdetail971",
-    "title": "Grafton Plaza Daycare & Retail (Tivoli Plaza)",
-    "details": {
-      "Planning Application #": "PLPA-2018-00010",
-      "Application Type": "Planned Development Amendment; Site Development Review; and Minor Use Permit",
-      "Application Submittal Date": "05/01/2018",
-      "General Plan Land Use": "Mixed Use 2/Campus Office",
-      "Specific Plan Area": "Mixed Use 2/Campus Office",
-      "Zoning": "Planned Development (PD)",
-      "Project Area": "3.68 acres",
-      "Building Area": "31,860 square feet",
-      "Stories/Height": "2 stories / 50 feet",
-      "Parking Provided": "146 parking spaces",
-      "Applicant": {
-        "name": "Eddy Li",
-        "address": "432 Bridle Ct., San Ramon, CA 94582",
-        "phone": "(510) 817-8892"
-      },
-      "Project Planner": {
-        "name": "Gaspare Annibale - Associate Planner",
-        "phone": "(925) 833-6610",
-        "email": "gaspare.annibale@dublin.ca.gov"
-      }
-    },
-    "location": "1000 Dublin Boulevard",
-    "docs": [
-      {
-        "name": "Planning Commission December 10, 2019 Staff Report",
-        "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1488&Inline=True"
-      },
-      {
-        "name": "City Council February 4, 2020 Staff Report",
-        "url": "https://citydocs.dublin.ca.gov/WebLink/DocView.aspx?id=786763&cr=1"
-      }
-    ],
-    "status": "Final Action",
-    "description": "The Applicant, Eddie Li, requested approval to construct three commercial buildings with a total of 31,860 square feet (sf), including two retail buildings (16,038 sf and 6,055 sf) and one daycare building (9,767 sf) on a 3.68-acre site located at the southeast corner of Dublin Boulevard and Grafton Street. The application included amendments to the existing Planned Development Zoning Stage 1 and Stage 2 Development Plans, a Site Development Review Permit for the proposed improvements, and a Minor Use Permit for a parking reduction for shared parking.",
-    "images": [
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_28.jpg",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_28-150x150.jpg"
-      },
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_27.jpg",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_27-150x150.jpg"
-      },
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_16.jpg",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_16-150x150.jpg"
-      },
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_23.jpg",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_23-150x150.jpg"
-      },
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_24.jpg",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_24-150x150.jpg"
-      },
-      {
-        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_22.jpg",
-        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_22-150x150.jpg"
-      }
-    ],
-    "geolocation": {
-      "lat": 37.70445,
-      "lon": -121.86474,
-      "iconName": "child",
-      "title": "Grafton Plaza Daycare & Retail (Tivoli Plaza)"
     }
   },
   "projectdetail572": {

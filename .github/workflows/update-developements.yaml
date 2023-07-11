@@ -1,4 +1,4 @@
-name: update developments data
+name: update today's data (hourly)
 
 on:
   push:
@@ -31,7 +31,7 @@ jobs:
 
       - name: generate
         working-directory: ./worker
-        run: npm run start:with-logs
+        run: npm run start:today
 
       - name: check for modified files
         id: git-check

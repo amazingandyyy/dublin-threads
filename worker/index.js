@@ -1,208 +1,67 @@
 const axios = require('axios')
-const cheerio = require('cheerio')
-const path = require('path')
+const fs = require('fs')
 const rdiff = require('recursive-diff')
-const { writeJsonToFileForce, normalize, transformLogs, mergeObject } = require('./utils')
+const { parseHtml, writeToFileForce, generateValidDatekey, writeJsonToFileForce, normalize, transformLogs, mergeObject, absolutePath } = require('./utils')
 
 const generateLogs = ({oldData={}, newData, timeStamp}) => {
   return transformLogs(rdiff.getDiff(oldData, newData, true), timeStamp)
 }
 
 async function worker ({
-  siteUrl,
-  latestPath,
-  allPath,
+  source,
+  snapshotPath,
+  allPath="",
   logsPath,
   timeStamp,
   enableAll,
   enableLogs
 }) {
-  console.log('worker started', { siteUrl, latestPath, logsPath, timeStamp, enableLogs })
+  console.log('worker started', { source, snapshotPath, allPath, logsPath, timeStamp, enableAll, enableLogs })
 
-  const existingSnapshot = require(latestPath)
+  const existingSnapshot = require(snapshotPath)
   const existingLogs = require(logsPath)
-  const existingAll = require(allPath)
   
-  return new Promise((resolve, reject) => {
-    axios.get(siteUrl)
-      .then(async res => {
-        // const html = fs.readFileSync(path.join(__dirname, '..','docs/index.html'))
-        const html = res.data
-        const data = await snapshot(html)
-        // const attachCreatedAt = (data) => {
-        //   Object.keys(data).forEach(k => {
-        //     const d = data[k]
-        //     d.createdAt = existingSnapshot[d.id]?.createdAt ? existingSnapshot[d.id]?.createdAt : timeStamp
-        //   })
-        //   return data;
-        // }
+  return new Promise(async (resolve, reject) => {
+    const isRemote = source.includes('https');
+    let html = ""
+    html = isRemote ? await axios.get(source) : fs.readFileSync(source)
+    html = isRemote ? html.data : html
+    const jsonData = await parseHtml(html)
+    const fullDate = new Date(Number(timeStamp)).toISOString().split('T')[0]
+    const unix = new Date(fullDate).getTime();
+    const fullDatePath = generateValidDatekey(new Date())
+    
+    // store records in archive
+    writeJsonToFileForce(absolutePath(`docs/archive/${fullDatePath}/dublin-development.icitywork.com/snapshot.json`), jsonData)
+    writeToFileForce(absolutePath(`docs/archive/${fullDatePath}/dublin-development.icitywork.com/index.html`), html)
+    const currentDateKeys = require(absolutePath('docs/archive/datekeys.json'))
+    writeJsonToFileForce(absolutePath(`docs/archive/datekeys.json`), {...currentDateKeys, [fullDatePath]: String(unix)})
+    //////////////////////////
 
-        writeJsonToFileForce(path.join(__dirname, '../api/', 'developments', 'latest.json'), data)
-        
-        const logs = generateLogs({oldData: existingSnapshot, newData: data, timeStamp})
-        if (enableLogs && logs.length > 0) {
-          writeJsonToFileForce(logsPath, [...existingLogs, ...logs])
-          if (enableAll) writeJsonToFileForce(path.join(__dirname, '../api/', 'developments/all.json'), mergeObject(existingAll, data))
-        }
-
-        console.log('worker finished', { siteUrl, latestPath, logsPath, timeStamp, enableLogs })
-        return resolve()
-      })
-      .catch(reject)
-  })
-}
-
-const snapshot = async (html) => {
-  return new Promise((resolve, reject) => {
-  const $ = cheerio.load(html)
-  const projectIDs = []
-
-  const detailsFns = {
-    Applicant: (el) => {
-      const i = $(el).find('.table-right').html().trim().split('<br>').map(normalize)
-      let r = {}
-      if (i.length === 3) {
-        r = {
-          name: i[0],
-          address: i[1],
-          phone: i[2]
-        }
-      } else {
-        if (i[1].length > 15) {
-        // is address
-          r = {
-            name: i[0],
-            address: i[1],
-            phone: 'n/a'
-          }
-        } else {
-          r = {
-            name: i[0],
-            address: 'n/a',
-            phone: i[1]
-          }
-        }
-      }
-      return r
-    },
-    'Project Planner': (el) => {
-      const i = $(el).find('.table-right').html().trim().split('<br>').map(normalize)
-      return {
-        name: i[0],
-        phone: i[1],
-        email: normalize($(el).find('.table-right').find('a').text())
-      }
+    writeJsonToFileForce(absolutePath('api/developments/latest.json'), jsonData)
+    
+    const logs = generateLogs({oldData: existingSnapshot, newData: jsonData, timeStamp})
+    if (enableLogs && logs.length > 0) {
+      writeJsonToFileForce(logsPath, [...existingLogs, ...logs])
     }
-  }
+    if (enableAll) {
+      const existingAll = require(allPath)
+      console.log(existingAll, jsonData)
+      writeJsonToFileForce(absolutePath('api/developments/all.json'), mergeObject(existingAll, jsonData))
+    }
 
-  $('.modal.fade').each((i, el) => {
-    projectIDs.push(el.attribs.id)
-  })
-
-  function parseGeo () {
-    const dict = {}
-    $('script[type="text/javascript"]').each((index, element) => {
-      const scriptContent = $(element).html()
-      const latMatch = scriptContent.match(/var lat = (.*?);/)
-      const lonMatch = scriptContent.match(/var lon = (.*?);/)
-      const postidMatch = scriptContent.match(/var postid =(.*?);/)
-      const iconNameMatch = scriptContent.match(/var iconName = "(.*?)";/)
-
-      if (latMatch && lonMatch && postidMatch) {
-        const lat = parseFloat(latMatch[1])
-        const lon = parseFloat(lonMatch[1])
-        const postid = parseInt(postidMatch[1])
-        const iconName = iconNameMatch ? iconNameMatch[1] : 'dot'
-
-        const item = {
-          lat,
-          lon,
-          iconName
-        }
-        dict[`projectDetail${postid}`] = item
-      }
-    })
-
-    return dict
-  }
-
-  const geoDict = parseGeo()
-  const result = {}
-  projectIDs.forEach((id) => {
-    const el = $(`#${id}`)[0];
-      const d = {}
-      d.id = id
-      d.title = $(el).find('#myModalLabel').text()
-      d.details = {}
-      $(el).find('table').find('tr').each((i, el) => {
-        const key = normalize($(el).find('.table-left').find('strong').text())
-        const val = normalize($(el).find('.table-right').text())
-        d.details[key] = val
-        if (detailsFns[key] !== undefined) {
-          d.details[key] = detailsFns[key](el)
-        }
-      })
-
-      function findSessionByTitle (title) {
-        return $(el).find('h4.dublin-green').filter((i, el) => $(el).text() === title)[0]
-      }
-
-      d.location = normalize(findSessionByTitle('Address')?.nextSibling.nodeValue)
-      const docs = $(el).find('h4.dublin-green')[3]
-      function transformCityDocsUrl (url) {
-        return url
-          .replace('http://citydocs.ci.dublin.ca.us/', 'https://citydocs.dublin.ca.gov/')
-          .replace('https://dublin-development.icitywork.com/', '')
-          .replace('wp-content/', 'https://dublin-development.icitywork.com/wp-content/')
-      }
-      function transformImagesUrl (url) {
-        return url
-          .replace('https://dublin-development.icitywork.com/', '')
-          .replace('wp-content/', 'https://dublin-development.icitywork.com/wp-content/')
-      }
-      function traverseDocsSiblings (el, acc = []) {
-        if ($(el).next().find('a').attr('href') !== undefined) {
-          return traverseDocsSiblings($(el).next(), [...acc, {
-            name: normalize($(el).next().text()),
-            url: transformCityDocsUrl($(el).next().find('a').attr('href'))
-          }])
-        } else {
-          return acc
-        }
-      }
-      d.docs = traverseDocsSiblings(docs.nextSibling)
-      d.status = $(findSessionByTitle('Status')).next().attr('alt')
-      d.description = normalize($(findSessionByTitle('Project Description')).next().text())
-      const images = findSessionByTitle('Project Images').nextSibling
-      d.images = $(images).next().find('li').map((i, el) => ({
-        original: transformImagesUrl($(el).find('a').attr('href')),
-        thumbnail: transformImagesUrl($(el).find('img').attr('src'))
-      })).get()
-      d.geolocation = {
-        lat: null,
-        lon: null,
-        iconName: 'dot',
-        title: d.title,
-        ...geoDict[d.id]
-      }
-      result[d.id] = d
-  })
-  return resolve(result)
+    console.log('worker finished', { source, snapshotPath, allPath, logsPath, timeStamp, enableAll, enableLogs })
+    return resolve()
   })
 }
 
 if (require.main === module) {
-  // const y = new Date().getFullYear();
-  // const m = new Date().getMonth() + 1;
-  // const d = new Date().getDate();
-  // const fullDate = String(`${y}${m}${d}`);
-
   worker(
     {
-      siteUrl: 'https://dublin-development.icitywork.com',
-      latestPath: path.join(__dirname, '../api/', 'developments/latest.json'),
-      logsPath: path.join(__dirname, '../api/', 'developments/logs.json'),
-      allPath: path.join(__dirname, '../api/', 'developments/all.json'),
+      source: 'https://dublin-development.icitywork.com',
+      snapshotPath: absolutePath('api/developments/latest.json'),
+      logsPath: absolutePath('api/developments/logs.json'),
+      allPath: absolutePath('api/developments/all.json'),
       timeStamp: Date.now(),
       enableAll: process.env.ENABLE_ALL === 'true',
       enableLogs: process.env.ENABLE_LOGS === 'true'
@@ -211,5 +70,5 @@ if (require.main === module) {
 }
 
 exports.worker = worker
-exports.snapshot = snapshot
+exports.parseHtml = parseHtml
 exports.generateLogs = generateLogs
