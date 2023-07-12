@@ -1,8 +1,8 @@
 name: take snapshot and generat JSON
 
 on:
-  # push:
-  #   branches: [ main ]
+  push:
+    branches: [ main ]
   schedule:
     - cron: "0 9 * * *" #  “At 9:00 everyday”
     - cron: "0 17 * * *" #  “At 17:00 everyday”
@@ -27,37 +27,32 @@ jobs:
           timezoneLinux: "America/Los_Angeles"
           timezoneMacos: "America/Los_Angeles"
       - name: list files
-        run: tree -L 2 .
+        run: tree -L 3 .
 
       - name: install node dependencies
         working-directory: ./worker
         run: npm install
 
-      - name: take a snapshot
+      - name: take a snapshot&json
         working-directory: ./worker
-        run: npm run pipeline:snapshot
+        run: |
+          npm run pipeline:snapshot
+          npm run pipeline:datekeys
+          npm run pipeline:json
 
       - name: check for modified files
         id: git-check
         run: echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ]; then echo "true"; else echo "false"; fi)
+
       - name: commit
         if: steps.git-check.outputs.modified == 'true'
         run:  |
+          current=$(date)
           git config --global user.name 'bot'
           git config --global user.email 'dublin-ca@amazingandyyy.com'
+          git status
           git add -A
-          git commit -m 'feat(data): snapshot today'
-          git push
-      - name: generate json
-        working-directory: ./worker
-        run: npm run pipeline:json
-      - name: check for modified files
-        id: git-check-2
-        run: echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ]; then echo "true"; else echo "false"; fi)
-      - name: commit to main branch
-        if: steps.git-check-2.outputs.modified == 'true'
-        run:  |
-          git add -A
-          git commit -m 'feat(data): generate json from snapshots'
+          echo $current
+          git commit -m 'feat(data): snapshot and json' -m "$current"
           git push
   
