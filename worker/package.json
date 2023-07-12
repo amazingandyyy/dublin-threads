@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:snapshot": "node snapshot-html.js",
-    "start:json": "node generate-json.js",
-    "start:api": "node generate-api.js"
+    "pipeline:snapshot": "node pipelines/snapshot.js",
+    "pipeline:json": "node pipelines/generate-json.js",
+    "pipeline:api": "node pipelines/generate-api.js"
   },
   "dependencies": {
     "async": "^3.2.4",

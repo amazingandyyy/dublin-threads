@@ -1,6 +1,6 @@
 const fs = require('fs')
-const { absolutePath } = require('./utils')
-const { generateJson } = require('./utils/generator')
+const { absolutePath } = require('../utils')
+const { generateJson } = require('../utils/generator')
 
 async function main() {
   const datekeys = require(absolutePath('docs/archive/datekeys.json'))

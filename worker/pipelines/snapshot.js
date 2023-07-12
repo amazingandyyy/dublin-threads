@@ -1,7 +1,7 @@
 const axios = require('axios')
 
-const { writeToFileForce, generateValidDatekey, absolutePath } = require('./utils');
-const { generateDateKeys } = require('./utils/generator');
+const { writeToFileForce, generateValidDatekey, absolutePath } = require('../utils');
+const { generateDateKeys } = require('../utils/generator');
 
 const target = 'https://dublin-development.icitywork.com/'
 

@@ -12,7 +12,7 @@ jobs:
   snapshot-json:
     permissions:
       contents: write
-    name: fetch
+    name: snapshot&json
     runs-on: ubuntu-latest
     steps:
       - name: use node 17
@@ -31,7 +31,7 @@ jobs:
 
       - name: take a snapshot
         working-directory: ./worker
-        run: npm run start:snapshot
+        run: npm run pipeline:snapshot
 
       - name: check for modified files
         id: git-check
@@ -45,14 +45,14 @@ jobs:
           git commit -m 'feat(data): snapshot today'
       - name: generate json
         working-directory: ./worker
-        run: npm run start:json
+        run: npm run pipeline:json
       - name: check for modified files
-        id: git-check
+        id: git-check-2
         run: echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ]; then echo "true"; else echo "false"; fi)
       - name: commit to main branch
-        if: steps.git-check.outputs.modified == 'true'
+        if: steps.git-check-2.outputs.modified == 'true'
         run:  |
           git add -A
-          git commit -m 'feat(data): generate json base on snapshots'
+          git commit -m 'feat(data): generate json from snapshots'
           git push
   
