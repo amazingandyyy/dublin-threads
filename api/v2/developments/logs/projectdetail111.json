@@ -1,0 +1,324 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail111"
+    ],
+    "val": {
+      "id": "projectdetail111",
+      "title": "Grafton Plaza – Aloft Hotel",
+      "details": {
+        "Planning Application #": "PLPA-2015-00048",
+        "Application Type": "PD Rezone with related Stage 2 Development Plan, Vesting Tentative Parcel Map, Site Development Review for Hotel",
+        "Application Submittal Date": "09/23/2015",
+        "General Plan Land Use": "Campus Office/Mixed-Use",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD - Planned Development Ord 10-10",
+        "Project Area": "2 acres",
+        "Building Area": "63,298 square feet",
+        "Foor Area Ratio": ".73 FAR",
+        "Stories/Height": "4 stories / 50 feet",
+        "Parking Provided": "140 parking spaces",
+        "Applicant": {
+          "name": "Rupesh Patel, Zenique Hotels",
+          "address": "433 Airport Blvd. #100, Burlingame, CA 94010",
+          "phone": "650-483-9968"
+        },
+        "Project Planner": {
+          "name": "Martha Aja - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.aja@dublin.ca.gov"
+        }
+      },
+      "location": "4075 Grafton Street",
+      "docs": [],
+      "status": "Final Action",
+      "description": "The Grafton Plaza project site has a General Plan/Eastern Dublin Specific Plan land use designation of Mixed Use 2/Campus Office and related Planned Development Zoning. This zoning allows office uses or a combination of residential, retail commercial and office uses.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-2.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-2-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-plaza-site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-plaza-site-plan-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Grafton Plaza – Aloft Hotel"
+      }
+    },
+    "projectId": "projectdetail111",
+    "timestamp": "1476241401000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail111",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Martha Battaglia - Associate Planner",
+    "oldVal": "Martha Aja - Associate Planner",
+    "projectId": "projectdetail111",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail111",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "martha.Battaglia@dublin.ca.gov",
+    "oldVal": "martha.aja@dublin.ca.gov",
+    "projectId": "projectdetail111",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail111",
+      "title"
+    ],
+    "val": "Grafton Plaza - Aloft Hotel",
+    "oldVal": "Grafton Plaza – Aloft Hotel",
+    "projectId": "projectdetail111",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail111",
+      "location"
+    ],
+    "val": "Grafton Street",
+    "oldVal": "4075 Grafton Street",
+    "projectId": "projectdetail111",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail111",
+      "docs",
+      0
+    ],
+    "val": {
+      "name": "City Council Staff Report, Item 6.2 4/5/16",
+      "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=580910&dbid=0"
+    },
+    "projectId": "projectdetail111",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail111",
+      "docs",
+      1
+    ],
+    "val": {
+      "name": "City Council Staff Report, Item 6.3 4/5/16",
+      "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=580911&dbid=0"
+    },
+    "projectId": "projectdetail111",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail111",
+      "docs",
+      2
+    ],
+    "val": {
+      "name": "City Council Staff Report, Item 4.12 4/19/16",
+      "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=582019&dbid=0"
+    },
+    "projectId": "projectdetail111",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail111",
+      "description"
+    ],
+    "val": "The land use designation for the Grafton Plaza project site allows office uses or a combination of residential, retail commercial and office uses. The Applicant has chosen to proceed with an integrated mixed use project. The mixed use project consists of 115 residential townhomes, 127 room hotel, and up to 55,000 square feet of future retail commercial.",
+    "oldVal": "The Grafton Plaza project site has a General Plan/Eastern Dublin Specific Plan land use designation of Mixed Use 2/Campus Office and related Planned Development Zoning. This zoning allows office uses or a combination of residential, retail commercial and office uses.",
+    "projectId": "projectdetail111",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail111",
+      "geolocation",
+      "title"
+    ],
+    "val": "Grafton Plaza - Aloft Hotel",
+    "oldVal": "Grafton Plaza – Aloft Hotel",
+    "projectId": "projectdetail111",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail111",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel.jpg",
+    "projectId": "projectdetail111",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail111",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-150x150.jpg",
+    "projectId": "projectdetail111",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail111",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-2.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-2.jpg",
+    "projectId": "projectdetail111",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail111",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-2-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-2-150x150.jpg",
+    "projectId": "projectdetail111",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail111",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-plaza-site-plan.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-plaza-site-plan.jpg",
+    "projectId": "projectdetail111",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail111",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-plaza-site-plan-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-plaza-site-plan-150x150.jpg",
+    "projectId": "projectdetail111",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail111"
+    ],
+    "oldVal": {
+      "id": "projectdetail111",
+      "title": "Grafton Plaza - Aloft Hotel",
+      "details": {
+        "Planning Application #": "PLPA-2015-00048",
+        "Application Type": "PD Rezone with related Stage 2 Development Plan, Vesting Tentative Parcel Map, Site Development Review for Hotel",
+        "Application Submittal Date": "09/23/2015",
+        "General Plan Land Use": "Campus Office/Mixed-Use",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD - Planned Development Ord 10-10",
+        "Project Area": "2 acres",
+        "Building Area": "63,298 square feet",
+        "Foor Area Ratio": ".73 FAR",
+        "Stories/Height": "4 stories / 50 feet",
+        "Parking Provided": "140 parking spaces",
+        "Applicant": {
+          "name": "Rupesh Patel, Zenique Hotels",
+          "address": "433 Airport Blvd. #100, Burlingame, CA 94010",
+          "phone": "650-483-9968"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.Battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "Grafton Street",
+      "docs": [
+        {
+          "name": "City Council Staff Report, Item 6.2 4/5/16",
+          "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=580910&dbid=0"
+        },
+        {
+          "name": "City Council Staff Report, Item 6.3 4/5/16",
+          "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=580911&dbid=0"
+        },
+        {
+          "name": "City Council Staff Report, Item 4.12 4/19/16",
+          "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=582019&dbid=0"
+        }
+      ],
+      "status": "Final Action",
+      "description": "The land use designation for the Grafton Plaza project site allows office uses or a combination of residential, retail commercial and office uses. The Applicant has chosen to proceed with an integrated mixed use project. The mixed use project consists of 115 residential townhomes, 127 room hotel, and up to 55,000 square feet of future retail commercial.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-2.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-plaza-site-plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-plaza-site-plan-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Grafton Plaza - Aloft Hotel"
+      }
+    },
+    "projectId": "projectdetail111",
+    "timestamp": "1596943340000"
+  }
+]

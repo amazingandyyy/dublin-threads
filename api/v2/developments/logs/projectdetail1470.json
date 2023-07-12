@@ -1,0 +1,77 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1470"
+    ],
+    "val": {
+      "id": "projectdetail1470",
+      "title": "Nissan Commercial Car Wash",
+      "details": {
+        "Planning Application #": "PLPA-2022-00003",
+        "Application Type": "Planned Development Amendment, Site Development Review Permit and Conditional Use Permit",
+        "Application Submittal Date": "02/18/2022",
+        "General Plan Land Use": "Medical Campus/Commercial",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development Ordinance No. 03-19",
+        "Project Area": "1 acres",
+        "Building Area": "3574 square feet",
+        "Foor Area Ratio": ".08 FAR",
+        "Stories/Height": "1 story / 30 feet",
+        "Applicant": {
+          "name": "Guy Houston",
+          "address": "n/a",
+          "phone": "925-4678-5839"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "3200 Dublin Boulevard",
+      "docs": [
+        {
+          "name": "City Council May 17, 2022 Special Meeting Agenda & Staff Report",
+          "url": "https://d3n9y02raazwpg.cloudfront.net/dublin/75bf016c-ca4c-11ec-bbb4-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1652304363.pdf"
+        },
+        {
+          "name": "Community Meeting Presentation August 24 & 25, 2022",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/04/Car-Wash-Community-Meeting-Presentation.pdf"
+        },
+        {
+          "name": "Planning Commission September 27, 2022 Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/39bb3853b5361f050b40673f2aad3c270.pdf"
+        },
+        {
+          "name": "City Council October 18, 2022 Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/e1669a28ac2027dd12ec40d757df28d50.pdf"
+        },
+        {
+          "name": "City Council November 1, 2022 Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/d9ece6b16490b798610c458ed92246950.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "A new 3,574 square foot self-service car wash located on the southwest corner of Dublin Boulevard and Kaiser Road. The project requires a Planned Development Stage 1 and Stage 2 amendment, Site Development Review Permit and Conditional Use Permit.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/04/Elevations-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/04/Elevations-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/04/site-plan_Page_2-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/04/site-plan_Page_2-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.704131,
+        "lon": -121.860405,
+        "iconName": "dot",
+        "title": "Nissan Commercial Car Wash"
+      }
+    },
+    "projectId": "projectdetail1470",
+    "timestamp": "1684627200000"
+  }
+]

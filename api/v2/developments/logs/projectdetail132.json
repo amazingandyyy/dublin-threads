@@ -1,0 +1,144 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail132"
+    ],
+    "val": {
+      "id": "projectdetail132",
+      "title": "St. Raymond’s Church",
+      "details": {
+        "Planning Application #": "PLPA-2015-00043",
+        "Application Type": "Site Development Review and Conditional Use Permit",
+        "Application Submittal Date": "09/15/2015",
+        "General Plan Land Use": "Public/Semi-Public",
+        "Specific Plan Area": "Primary Planning Area",
+        "Zoning": "R-1 Single-Family Residential",
+        "Project Area": "9.0 acres",
+        "Building Area": "2,560 square feet",
+        "Stories/Height": "1 story / 15 feet",
+        "Parking Provided": "235 parking spaces",
+        "Applicant": {
+          "name": "Eric Hom, St. Raymond's Parish",
+          "address": "11555 Shannon Avenue, Dublin, CA 04568",
+          "phone": "(925) 574-7408"
+        },
+        "Project Planner": {
+          "name": "Martha Aja - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.aja@dublin.ca.gov"
+        }
+      },
+      "location": "11555 Shannon Avenue",
+      "docs": [],
+      "status": "Final Action",
+      "description": "St. Raymond’s Church received approval of an amendment to the existing Conditional Use Permit to include the operation of a pre-school to allow a total of 345 children. The approved amendment increased the allowable number of children by 30 and incorporated a pre-school to provide care to pre-K children. The project also included a Site Development Review for a new 2,560 square foot classroom building, and associated site improvements including the construction of outdoor play areas, a new entry plaza in front of the existing sanctuary building, landscaping and parking lot modifications.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/St-Raymonds-preschool.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/St-Raymonds-preschool-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/St.-Raymonds-Church-playgrounds.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/St.-Raymonds-Church-playgrounds-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/St.-Raymonds-Church-site.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/St.-Raymonds-Church-site-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "St. Raymond’s Church"
+      }
+    },
+    "projectId": "projectdetail132",
+    "timestamp": "1476241401000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail132",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Martha Battaglia - Associate Planner",
+    "oldVal": "Martha Aja - Associate Planner",
+    "projectId": "projectdetail132",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail132",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "martha.Battaglia@dublin.ca.gov",
+    "oldVal": "martha.aja@dublin.ca.gov",
+    "projectId": "projectdetail132",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail132"
+    ],
+    "oldVal": {
+      "id": "projectdetail132",
+      "title": "St. Raymond’s Church",
+      "details": {
+        "Planning Application #": "PLPA-2015-00043",
+        "Application Type": "Site Development Review and Conditional Use Permit",
+        "Application Submittal Date": "09/15/2015",
+        "General Plan Land Use": "Public/Semi-Public",
+        "Specific Plan Area": "Primary Planning Area",
+        "Zoning": "R-1 Single-Family Residential",
+        "Project Area": "9.0 acres",
+        "Building Area": "2,560 square feet",
+        "Stories/Height": "1 story / 15 feet",
+        "Parking Provided": "235 parking spaces",
+        "Applicant": {
+          "name": "Eric Hom, St. Raymond's Parish",
+          "address": "11555 Shannon Avenue, Dublin, CA 04568",
+          "phone": "(925) 574-7408"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.Battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "11555 Shannon Avenue",
+      "docs": [],
+      "status": "Final Action",
+      "description": "St. Raymond’s Church received approval of an amendment to the existing Conditional Use Permit to include the operation of a pre-school to allow a total of 345 children. The approved amendment increased the allowable number of children by 30 and incorporated a pre-school to provide care to pre-K children. The project also included a Site Development Review for a new 2,560 square foot classroom building, and associated site improvements including the construction of outdoor play areas, a new entry plaza in front of the existing sanctuary building, landscaping and parking lot modifications.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/St-Raymonds-preschool.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/St-Raymonds-preschool-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/St.-Raymonds-Church-playgrounds.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/St.-Raymonds-Church-playgrounds-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/St.-Raymonds-Church-site.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/St.-Raymonds-Church-site-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "St. Raymond’s Church"
+      }
+    },
+    "projectId": "projectdetail132",
+    "timestamp": "1492908897000"
+  }
+]

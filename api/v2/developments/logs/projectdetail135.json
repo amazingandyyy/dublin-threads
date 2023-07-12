@@ -1,0 +1,361 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail135"
+    ],
+    "val": {
+      "id": "projectdetail135",
+      "title": "Dublin Infiniti",
+      "details": {
+        "Planning Application #": "PLPA-2016-00012",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "01/21/2016",
+        "General Plan Land Use": "General Commercial",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD Planned Development Ord 13-00",
+        "Project Area": "3.8 acres",
+        "Building Area": "17,438 square feet",
+        "Stories/Height": "1 story / 28 feet",
+        "Parking Provided": "306 parking spaces",
+        "Applicant": {
+          "name": "Inder Dosanjh, Dublin Real Estate, LLC",
+          "address": "4200 John Monego Ct., Dublin, CA 94568",
+          "phone": "(925) 479-3500"
+        },
+        "Project Planner": {
+          "name": "Martha Aja - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.aja@dublin.ca.gov"
+        }
+      },
+      "location": "4200 John Monego Court",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Site Development Review for a 2,750 square foot addition and façade modification to the existing dealership building.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Infiniti-Dealership.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Infiniti-Dealership-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Dublin Infiniti"
+      }
+    },
+    "projectId": "projectdetail135",
+    "timestamp": "1476241401000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail135",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Martha Battaglia - Associate Planner",
+    "oldVal": "Martha Aja - Associate Planner",
+    "projectId": "projectdetail135",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail135",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "martha.battaglia@dublin.ca.gov",
+    "oldVal": "martha.aja@dublin.ca.gov",
+    "projectId": "projectdetail135",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail135",
+      "details",
+      "Planning Application #"
+    ],
+    "val": "PLPA-2017-00020",
+    "oldVal": "PLPA-2016-00012",
+    "projectId": "projectdetail135",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail135",
+      "details",
+      "Application Submittal Date"
+    ],
+    "val": "03/30/2017",
+    "oldVal": "01/21/2016",
+    "projectId": "projectdetail135",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail135",
+      "details",
+      "Building Area"
+    ],
+    "val": "2,925 square feet",
+    "oldVal": "17,438 square feet",
+    "projectId": "projectdetail135",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail135",
+      "details",
+      "Stories/Height"
+    ],
+    "val": "1 story / 20 feet",
+    "oldVal": "1 story / 28 feet",
+    "projectId": "projectdetail135",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail135",
+      "details",
+      "Parking Provided"
+    ],
+    "val": "302 parking spaces",
+    "oldVal": "306 parking spaces",
+    "projectId": "projectdetail135",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail135",
+      "status"
+    ],
+    "val": "Planning Application Submitted",
+    "oldVal": "Final Action",
+    "projectId": "projectdetail135",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail135",
+      "description"
+    ],
+    "val": "Site Development Review for a stand alone 2,925 pre-engineered metal service shop building at the existing Dublin Infiniti Dealership. The building includes a 975 square foot mezzanine that will be used for storage. The building is located in the southwestern portion of the site and is not visible from the street.",
+    "oldVal": "Site Development Review for a 2,750 square foot addition and façade modification to the existing dealership building.",
+    "projectId": "projectdetail135",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail135",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Front-elevation.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Infiniti-Dealership.jpg",
+    "projectId": "projectdetail135",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail135",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Front-elevation-150x150.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Infiniti-Dealership-150x150.jpg",
+    "projectId": "projectdetail135",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail135",
+      "images",
+      1
+    ],
+    "val": {
+      "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan.png",
+      "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan-150x150.png"
+    },
+    "projectId": "projectdetail135",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail135",
+      "images",
+      2
+    ],
+    "val": {
+      "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/vicinity-map.png",
+      "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/vicinity-map-150x150.png"
+    },
+    "projectId": "projectdetail135",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail135",
+      "status"
+    ],
+    "val": "Final Action",
+    "oldVal": "Planning Application Submitted",
+    "projectId": "projectdetail135",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail135",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Front-elevation.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Front-elevation.png",
+    "projectId": "projectdetail135",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail135",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Front-elevation-150x150.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Front-elevation-150x150.png",
+    "projectId": "projectdetail135",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail135",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan.png",
+    "projectId": "projectdetail135",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail135",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan-150x150.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan-150x150.png",
+    "projectId": "projectdetail135",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail135",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/vicinity-map.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/vicinity-map.png",
+    "projectId": "projectdetail135",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail135",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/vicinity-map-150x150.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/vicinity-map-150x150.png",
+    "projectId": "projectdetail135",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail135"
+    ],
+    "oldVal": {
+      "id": "projectdetail135",
+      "title": "Dublin Infiniti",
+      "details": {
+        "Planning Application #": "PLPA-2017-00020",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "03/30/2017",
+        "General Plan Land Use": "General Commercial",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD Planned Development Ord 13-00",
+        "Project Area": "3.8 acres",
+        "Building Area": "2,925 square feet",
+        "Stories/Height": "1 story / 20 feet",
+        "Parking Provided": "302 parking spaces",
+        "Applicant": {
+          "name": "Inder Dosanjh, Dublin Real Estate, LLC",
+          "address": "4200 John Monego Ct., Dublin, CA 94568",
+          "phone": "(925) 479-3500"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "4200 John Monego Court",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Site Development Review for a stand alone 2,925 pre-engineered metal service shop building at the existing Dublin Infiniti Dealership. The building includes a 975 square foot mezzanine that will be used for storage. The building is located in the southwestern portion of the site and is not visible from the street.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Front-elevation.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Front-elevation-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/vicinity-map.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/vicinity-map-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Dublin Infiniti"
+      }
+    },
+    "projectId": "projectdetail135",
+    "timestamp": "1537002007000"
+  }
+]

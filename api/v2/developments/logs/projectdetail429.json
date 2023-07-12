@@ -1,0 +1,185 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail429"
+    ],
+    "val": {
+      "id": "projectdetail429",
+      "title": "Dublin Station, Site A-3",
+      "details": {
+        "Planning Application #": "PLPA-2017-00001",
+        "Application Type": "Pre-Application",
+        "Application Submittal Date": "01/13/2017",
+        "General Plan Land Use": "High Density Residential",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD (Planned Development)",
+        "Project Area": "2.4 acres",
+        "Stories/Height": "5 stories / 85 feet",
+        "Parking Provided": "335 parking spaces",
+        "Applicant": {
+          "name": "Kirsty Greer, UDR, Inc.",
+          "address": "1745 Shea Center Drive, Suite 200, Highlands Ranch, CO 80129",
+          "phone": "(720) 348-7605"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "5200 DeMarcus Boulevard",
+      "docs": [],
+      "status": "Pre-Application",
+      "description": "Dublin Station Site A-3 is located within the Dublin Transit Center. The proposed Dublin Station apartment complex is comprised of a 218-unit apartment building with structured parking on 2.4 acres. At it’s tallest point, the building is 5 stories over two levels of parking. The project also includes site improvements, landscaping and frontage streetscape improvements along DeMarcus Boulevard and Campbell Lane.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Southeast-Lobby-Entrance.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Southeast-Lobby-Entrance-150x150.png"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/South-Elevation.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/South-Elevation-150x150.png"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/East-Elevation.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/East-Elevation-150x150.png"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/North-elevation.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/North-elevation-150x150.png"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/West-Elevation.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/West-Elevation-150x150.png"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Aerial-view-1.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Aerial-view-1-150x150.png"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Site-Location.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Site-Location-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Dublin Station, Site A-3"
+      }
+    },
+    "projectId": "projectdetail429",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail429",
+      "details",
+      "Applicant",
+      "name"
+    ],
+    "val": "Erik Steiner, UDR, Inc.",
+    "oldVal": "Kirsty Greer, UDR, Inc.",
+    "projectId": "projectdetail429",
+    "timestamp": "1495652949000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail429",
+      "details",
+      "Applicant",
+      "phone"
+    ],
+    "val": "(720) 283-2461",
+    "oldVal": "(720) 348-7605",
+    "projectId": "projectdetail429",
+    "timestamp": "1495652949000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail429",
+      "description"
+    ],
+    "val": "Dublin Station Site A-3 is located within the Dublin Transit Center. The proposed Dublin Station apartment complex is comprised of up to a 225-unit apartment building with structured parking on 2.4 acres. At it’s tallest point, the building is 5 stories over two levels of parking. The project also includes site improvements, landscaping and frontage streetscape improvements along DeMarcus Boulevard and Campbell Lane.",
+    "oldVal": "Dublin Station Site A-3 is located within the Dublin Transit Center. The proposed Dublin Station apartment complex is comprised of a 218-unit apartment building with structured parking on 2.4 acres. At it’s tallest point, the building is 5 stories over two levels of parking. The project also includes site improvements, landscaping and frontage streetscape improvements along DeMarcus Boulevard and Campbell Lane.",
+    "projectId": "projectdetail429",
+    "timestamp": "1495652949000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail429"
+    ],
+    "oldVal": {
+      "id": "projectdetail429",
+      "title": "Dublin Station, Site A-3",
+      "details": {
+        "Planning Application #": "PLPA-2017-00001",
+        "Application Type": "Pre-Application",
+        "Application Submittal Date": "01/13/2017",
+        "General Plan Land Use": "High Density Residential",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD (Planned Development)",
+        "Project Area": "2.4 acres",
+        "Stories/Height": "5 stories / 85 feet",
+        "Parking Provided": "335 parking spaces",
+        "Applicant": {
+          "name": "Erik Steiner, UDR, Inc.",
+          "address": "1745 Shea Center Drive, Suite 200, Highlands Ranch, CO 80129",
+          "phone": "(720) 283-2461"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "5200 DeMarcus Boulevard",
+      "docs": [],
+      "status": "Pre-Application",
+      "description": "Dublin Station Site A-3 is located within the Dublin Transit Center. The proposed Dublin Station apartment complex is comprised of up to a 225-unit apartment building with structured parking on 2.4 acres. At it’s tallest point, the building is 5 stories over two levels of parking. The project also includes site improvements, landscaping and frontage streetscape improvements along DeMarcus Boulevard and Campbell Lane.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Southeast-Lobby-Entrance.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Southeast-Lobby-Entrance-150x150.png"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/South-Elevation.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/South-Elevation-150x150.png"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/East-Elevation.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/East-Elevation-150x150.png"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/North-elevation.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/North-elevation-150x150.png"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/West-Elevation.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/West-Elevation-150x150.png"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Aerial-view-1.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Aerial-view-1-150x150.png"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Site-Location.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Site-Location-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Dublin Station, Site A-3"
+      }
+    },
+    "projectId": "projectdetail429",
+    "timestamp": "1513193626000"
+  }
+]

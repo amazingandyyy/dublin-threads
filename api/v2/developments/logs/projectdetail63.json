@@ -1,0 +1,342 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail63"
+    ],
+    "val": {
+      "id": "projectdetail63",
+      "title": "Kaiser Medical Center",
+      "details": {
+        "Planning Application #": "PA 08-050",
+        "Application Type": "General Plan and Eastern Dublin Specific Plan Amendment, Planned Development Zoning with related Stage 1 and 2 Development Plans, Site Development Review, Development Agreement, and Environmental Impact Report",
+        "Application Submittal Date": "11/04/2014",
+        "General Plan Land Use": "Campus Office",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD Planned Development, PA 98-070 Ord 06-00",
+        "Project Area": "58 acres",
+        "Building Area": "1,200,000 square feet",
+        "Stories/Height": "90 feet",
+        "Applicant": {
+          "name": "Kaiser Foundation Health Plan - Attn. Hollis Harris",
+          "address": "4141 Geary Blvd., Mezzanine Level, San Francisco, CA 94118",
+          "phone": "(415) 833-2828"
+        },
+        "Project Planner": {
+          "name": "Kristi Bascom, AICP - Contract Planner",
+          "phone": "(925) 833-6610",
+          "email": ""
+        }
+      },
+      "location": "Dublin Boulevard",
+      "docs": [
+        {
+          "name": "City Council Staff Report – April 19, 2016",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14322"
+        },
+        {
+          "name": "Planning Commission Study Session Staff Report – May 10, 2016",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14316"
+        },
+        {
+          "name": "Planning Commission Staff Report – August 23, 2016",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14332"
+        },
+        {
+          "name": "Kaiser Draft Environmental Impact Report – January 28, 2016",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14314"
+        },
+        {
+          "name": "Kaiser Final Environmental Impact Report – August 9, 2016",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14315"
+        },
+        {
+          "name": "City Council Staff Report – September 20, 2016",
+          "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=596360&dbid=0"
+        }
+      ],
+      "status": "Pubic Hearing",
+      "description": "The Kaiser Dublin Medical Center project is comprised of 950,000 square feet of medical campus uses in three main buildings, 250,000 square feet of commercial uses, a parking structure, and associated site, roadway frontage, and landscape improvements. Requested land use approvals include a General Plan and Eastern Dublin Specific Plan Amendment to create new land use designations, Planned Development Zoning with related Stage 1 Development Plan for the overall site along with a Stage 2 Development Plan and Site Development Review Permit for the first phase of development – a 220,000 square foot medical office building referred to as Phase 1a. Certification of a Final Environmental Impact Report (FEIR) and approval of a project-specific Development Agreement is also being considered.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-pic-1.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-pic-1-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-2.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-2-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-3.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-3-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Kaiser Medical Center"
+      }
+    },
+    "projectId": "projectdetail63",
+    "timestamp": "1476241401000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail63",
+      "details",
+      "Applicant",
+      "name"
+    ],
+    "val": "Kaiser Permanente - Attn. William Bateman",
+    "oldVal": "Kaiser Foundation Health Plan - Attn. Hollis Harris",
+    "projectId": "projectdetail63",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail63",
+      "details",
+      "Applicant",
+      "address"
+    ],
+    "val": "501 Lennon Lane, Suite 111, Walnut Creek, CA 94596",
+    "oldVal": "4141 Geary Blvd., Mezzanine Level, San Francisco, CA 94118",
+    "projectId": "projectdetail63",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail63",
+      "details",
+      "Applicant",
+      "phone"
+    ],
+    "val": "n/a",
+    "oldVal": "(415) 833-2828",
+    "projectId": "projectdetail63",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail63",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Amy Million - Principal Planner",
+    "oldVal": "Kristi Bascom, AICP - Contract Planner",
+    "projectId": "projectdetail63",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail63",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "amy.million@dublin.ca.gov",
+    "oldVal": "",
+    "projectId": "projectdetail63",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail63",
+      "status"
+    ],
+    "val": "Final Action",
+    "oldVal": "Pubic Hearing",
+    "projectId": "projectdetail63",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail63",
+      "location"
+    ],
+    "val": "3100 Dublin Boulevard",
+    "oldVal": "Dublin Boulevard",
+    "projectId": "projectdetail63",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail63",
+      "description"
+    ],
+    "val": "The Kaiser Dublin Medical Center project is comprised of 950,000 square feet of medical campus uses in three main buildings, 250,000 square feet of commercial uses, a parking structure, and associated site, roadway frontage, and landscape improvements. On September 20, 2016, City Council approved the General Plan and Eastern Dublin Specific Plan Amendments, Planned Development Zoning with related Stage 1 Development Plan for the overall site along with a Stage 2 Development Plan and Site Development Review Permit for the first phase of development – a 220,000 square foot medical office building referred to as Phase 1a.",
+    "oldVal": "The Kaiser Dublin Medical Center project is comprised of 950,000 square feet of medical campus uses in three main buildings, 250,000 square feet of commercial uses, a parking structure, and associated site, roadway frontage, and landscape improvements. Requested land use approvals include a General Plan and Eastern Dublin Specific Plan Amendment to create new land use designations, Planned Development Zoning with related Stage 1 Development Plan for the overall site along with a Stage 2 Development Plan and Site Development Review Permit for the first phase of development – a 220,000 square foot medical office building referred to as Phase 1a. Certification of a Final Environmental Impact Report (FEIR) and approval of a project-specific Development Agreement is also being considered.",
+    "projectId": "projectdetail63",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail63",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-pic-1.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-pic-1.jpg",
+    "projectId": "projectdetail63",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail63",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-pic-1-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-pic-1-150x150.jpg",
+    "projectId": "projectdetail63",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail63",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-2.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-2.jpg",
+    "projectId": "projectdetail63",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail63",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-2-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-2-150x150.jpg",
+    "projectId": "projectdetail63",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail63",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-3.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-3.jpg",
+    "projectId": "projectdetail63",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail63",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-3-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-3-150x150.jpg",
+    "projectId": "projectdetail63",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail63"
+    ],
+    "oldVal": {
+      "id": "projectdetail63",
+      "title": "Kaiser Medical Center",
+      "details": {
+        "Planning Application #": "PA 08-050",
+        "Application Type": "General Plan and Eastern Dublin Specific Plan Amendment, Planned Development Zoning with related Stage 1 and 2 Development Plans, Site Development Review, Development Agreement, and Environmental Impact Report",
+        "Application Submittal Date": "11/04/2014",
+        "General Plan Land Use": "Campus Office",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD Planned Development, PA 98-070 Ord 06-00",
+        "Project Area": "58 acres",
+        "Building Area": "1,200,000 square feet",
+        "Stories/Height": "90 feet",
+        "Applicant": {
+          "name": "Kaiser Permanente - Attn. William Bateman",
+          "address": "501 Lennon Lane, Suite 111, Walnut Creek, CA 94596",
+          "phone": "n/a"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "3100 Dublin Boulevard",
+      "docs": [
+        {
+          "name": "City Council Staff Report – April 19, 2016",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14322"
+        },
+        {
+          "name": "Planning Commission Study Session Staff Report – May 10, 2016",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14316"
+        },
+        {
+          "name": "Planning Commission Staff Report – August 23, 2016",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14332"
+        },
+        {
+          "name": "Kaiser Draft Environmental Impact Report – January 28, 2016",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14314"
+        },
+        {
+          "name": "Kaiser Final Environmental Impact Report – August 9, 2016",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14315"
+        },
+        {
+          "name": "City Council Staff Report – September 20, 2016",
+          "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=596360&dbid=0"
+        }
+      ],
+      "status": "Final Action",
+      "description": "The Kaiser Dublin Medical Center project is comprised of 950,000 square feet of medical campus uses in three main buildings, 250,000 square feet of commercial uses, a parking structure, and associated site, roadway frontage, and landscape improvements. On September 20, 2016, City Council approved the General Plan and Eastern Dublin Specific Plan Amendments, Planned Development Zoning with related Stage 1 Development Plan for the overall site along with a Stage 2 Development Plan and Site Development Review Permit for the first phase of development – a 220,000 square foot medical office building referred to as Phase 1a.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-pic-1.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-pic-1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-2.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-3.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-3-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Kaiser Medical Center"
+      }
+    },
+    "projectId": "projectdetail63",
+    "timestamp": "1596943340000"
+  }
+]

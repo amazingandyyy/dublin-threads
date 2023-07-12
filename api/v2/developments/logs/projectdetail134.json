@@ -1,0 +1,136 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail134"
+    ],
+    "val": {
+      "id": "projectdetail134",
+      "title": "B&S Hacienda",
+      "details": {
+        "Planning Application #": "PLPA-2015-00039",
+        "Application Type": "Minor Use Permit and Site Development Review",
+        "Application Submittal Date": "08/14/2014",
+        "General Plan Land Use": "Business Park/Industrial & Outdoor Storage",
+        "Specific Plan Area": "Primary Planning Area",
+        "Zoning": "Light Industrial (M-1)",
+        "Project Area": "1.8 acres",
+        "Foor Area Ratio": ".17 FAR",
+        "Stories/Height": "1 story / 18 feet",
+        "Parking Provided": "55 parking spaces",
+        "Applicant": {
+          "name": "Roger J. Wilson Architect",
+          "address": "1601 North Main St., Suite 108, Walnut Creek, CA 94596",
+          "phone": "(925) 705-7019"
+        },
+        "Project Planner": {
+          "name": "Martha Aja - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.aja@dublin.ca.gov"
+        }
+      },
+      "location": "5787 Scarlett Court",
+      "docs": [],
+      "status": "Final Action",
+      "description": "B&S Hacienda has been approved for a Minor Use Permit and Site Development Review for a 3,944 square foot addition to an existing 9,540 square foot building. The proposed addition is to expand the current auto body repair business.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Elevations.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Elevations-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Site-plan-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "B&S Hacienda"
+      }
+    },
+    "projectId": "projectdetail134",
+    "timestamp": "1476241401000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail134",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Martha Battaglia - Associate Planner",
+    "oldVal": "Martha Aja - Associate Planner",
+    "projectId": "projectdetail134",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail134",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "martha.Battaglia@dublin.ca.gov",
+    "oldVal": "martha.aja@dublin.ca.gov",
+    "projectId": "projectdetail134",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail134"
+    ],
+    "oldVal": {
+      "id": "projectdetail134",
+      "title": "B&S Hacienda",
+      "details": {
+        "Planning Application #": "PLPA-2015-00039",
+        "Application Type": "Minor Use Permit and Site Development Review",
+        "Application Submittal Date": "08/14/2014",
+        "General Plan Land Use": "Business Park/Industrial & Outdoor Storage",
+        "Specific Plan Area": "Primary Planning Area",
+        "Zoning": "Light Industrial (M-1)",
+        "Project Area": "1.8 acres",
+        "Foor Area Ratio": ".17 FAR",
+        "Stories/Height": "1 story / 18 feet",
+        "Parking Provided": "55 parking spaces",
+        "Applicant": {
+          "name": "Roger J. Wilson Architect",
+          "address": "1601 North Main St., Suite 108, Walnut Creek, CA 94596",
+          "phone": "(925) 705-7019"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.Battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "5787 Scarlett Court",
+      "docs": [],
+      "status": "Final Action",
+      "description": "B&S Hacienda has been approved for a Minor Use Permit and Site Development Review for a 3,944 square foot addition to an existing 9,540 square foot building. The proposed addition is to expand the current auto body repair business.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Elevations.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Elevations-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Site-plan-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "B&S Hacienda"
+      }
+    },
+    "projectId": "projectdetail134",
+    "timestamp": "1513193626000"
+  }
+]

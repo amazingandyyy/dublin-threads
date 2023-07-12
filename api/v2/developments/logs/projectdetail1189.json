@@ -1,0 +1,118 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1189"
+    ],
+    "val": {
+      "id": "projectdetail1189",
+      "title": "Francis Ranch (East Ranch)",
+      "details": {
+        "Planning Application #": "PLPA-2020-00028 and PLPA-2022-00018",
+        "Application Type": "Vesting Tentative Tract Map, Site Development Review Permit and Heritage Tree Permit",
+        "Application Submittal Date": "07/18/2020",
+        "General Plan Land Use": "Low-Density Residential, Medium-Density Residential, Rural Residential/Agriculture, Parks/Public Recreation, Open Space, Semi-Public",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development",
+        "Project Area": "165.5 acres",
+        "Applicant": {
+          "name": "Pam Nieting, Trumark Homes, LLC",
+          "address": "3001 Bishop Drive, Suite 100, San Ramon, CA 94583",
+          "phone": "(925) 999-3975"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "4038 Croak Road",
+      "docs": [
+        {
+          "name": "May 4, 2021 City Council Study Session",
+          "url": "https://legistarweb-production.s3.amazonaws.com/uploads/attachment/pdf/901881/Staff_Report__19___1_.pdf"
+        },
+        {
+          "name": "October 15 2019 City Council Study Session",
+          "url": "https://citydocs.dublin.ca.gov/WebLink/DocView.aspx?id=769661&cr=1"
+        },
+        {
+          "name": "East Ranch – Community Meeting (Presentation)",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/East-Ranch-Development-Community-Mtg1.pdf"
+        },
+        {
+          "name": "November 9, 2021 Planning Commission Meeting",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/0536cdebf8ada0b93207f04f3e20f7ed0.pdf"
+        },
+        {
+          "name": "December 7, 2021 City Council Meeting",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/e0ed22265d30f31df9d4f12ef67a7bd10.pdf"
+        },
+        {
+          "name": "December 21, 2021 City Council Meeting",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/cf7cefe3b9c84e70bfe423c052c0907b0.pdf"
+        },
+        {
+          "name": "March 15, 2022 City Council",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/a8b4ac62e16661653370f225cc2584830.pdf"
+        },
+        {
+          "name": "May 3, 2022 City Council Meeting",
+          "url": "https://d3n9y02raazwpg.cloudfront.net/dublin/c8312853-3ce4-11ec-a798-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1651093308.pdf"
+        },
+        {
+          "name": "February 14, 2023 Planning Commission Study Session Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/77b811760eed31d35dfbf572050421460.pdf"
+        },
+        {
+          "name": "March 14, 2023 Planning Commission Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/b5fd52e531bac3e85e83c15545413b0d0.pdf"
+        },
+        {
+          "name": "April 18, 2023 City Council Meeting",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/c0ab37cef79b321e146659fb4ded926c0.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "The Applicant, Trumark Homes, LLC, filed applications for the development of 165.5-acre site with a 573-unit residential project within six neighborhoods, two neighborhood parks 11.5 acres, and a two-acre Semi-Public Site. The proposed development includes four architecture styles: Traditional Farmhouse, Modern Farmhouse, California Revival, and Contemporary, as shown in the project plans. The design and use of the Semi-Public site has not been determined.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Illustrative-Site-Plan-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Illustrative-Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide3-e1595876557700.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide3-e1595876557700-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/NH-Plan-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/NH-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/bicycle-circulation-plan-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/bicycle-circulation-plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide5-e1595876823559.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide5-e1595876823559-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide6-e1595876941485.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide6-e1595876941485-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/N6-3-story.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/N6-3-story-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.712896,
+        "lon": -121.836068,
+        "iconName": "building",
+        "title": "Francis Ranch (East Ranch)"
+      }
+    },
+    "projectId": "projectdetail1189",
+    "timestamp": "1684627200000"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail856"
+    ],
+    "val": {
+      "id": "projectdetail856",
+      "title": "Dublin Cadillac Dealership",
+      "details": {
+        "Planning Application #": "PLPA-2018-00003",
+        "Application Type": "Site Development Review Permit",
+        "Application Submittal Date": "01/31/2018",
+        "General Plan Land Use": "General Commercial",
+        "Specific Plan Area": "General Commercial",
+        "Zoning": "Planned Development",
+        "Project Area": "5.6 acres",
+        "Building Area": "7,851 square feet",
+        "Stories/Height": "1 story / 28 feet",
+        "Parking Provided": "46 parking spaces",
+        "Applicant": {
+          "name": "Inder Dosanjh, Dublin Car Group",
+          "address": "4200 John Monego Court, Dublin, CA 94568",
+          "phone": "925-479-3500"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "4200 John Monego Court",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Application for Site Development Review for the Dublin Cadillac Dealership located at 4200 John Monego Court. The project includes an approximately 3,200 square foot addition to the existing dealership building and a façade remodel.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/02/Dublin-Cadillac-rendering.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/02/Dublin-Cadillac-rendering-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/02/Caillac-Site-Plan.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/02/Caillac-Site-Plan-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Dublin Cadillac Dealership"
+      }
+    },
+    "projectId": "projectdetail856",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail856"
+    ],
+    "oldVal": {
+      "id": "projectdetail856",
+      "title": "Dublin Cadillac Dealership",
+      "details": {
+        "Planning Application #": "PLPA-2018-00003",
+        "Application Type": "Site Development Review Permit",
+        "Application Submittal Date": "01/31/2018",
+        "General Plan Land Use": "General Commercial",
+        "Specific Plan Area": "General Commercial",
+        "Zoning": "Planned Development",
+        "Project Area": "5.6 acres",
+        "Building Area": "7,851 square feet",
+        "Stories/Height": "1 story / 28 feet",
+        "Parking Provided": "46 parking spaces",
+        "Applicant": {
+          "name": "Inder Dosanjh, Dublin Car Group",
+          "address": "4200 John Monego Court, Dublin, CA 94568",
+          "phone": "925-479-3500"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "4200 John Monego Court",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Application for Site Development Review for the Dublin Cadillac Dealership located at 4200 John Monego Court. The project includes an approximately 3,200 square foot addition to the existing dealership building and a façade remodel.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/02/Dublin-Cadillac-rendering.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/02/Dublin-Cadillac-rendering-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/02/Caillac-Site-Plan.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/02/Caillac-Site-Plan-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Dublin Cadillac Dealership"
+      }
+    },
+    "projectId": "projectdetail856",
+    "timestamp": "1596943340000"
+  }
+]

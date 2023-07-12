@@ -1,0 +1,156 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail142"
+    ],
+    "val": {
+      "id": "projectdetail142",
+      "title": "Dublin Ranch North (Redgewick)",
+      "details": {
+        "Planning Application #": "PA 08-045",
+        "Application Type": "Annexation, General Plan and Specific Plan Amendment, Planned Development Zoning with Stage 1 & 2 Development Plans, Vesting Tentative Tract Map, and Development Agreement",
+        "Application Submittal Date": "10/10/2008",
+        "General Plan Land Use": "Estate Residential and Open Space",
+        "Specific Plan Area": "Eastern Dubln Specific Plan",
+        "Zoning": "PD - Planned Development",
+        "Project Area": "157 acres",
+        "Applicant": {
+          "name": "James Tong, Stanforth Holding Company LLC",
+          "address": "4080 Grafton Street, Suite 200, Dublin CA 94568",
+          "phone": "(925) 463-1666"
+        },
+        "Project Planner": {
+          "name": "Martha Aja - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.aja@dublin.ca.gov"
+        }
+      },
+      "location": "3265 Cydonia Court",
+      "docs": [
+        {
+          "name": "Planning Commission Staff Report – November 10, 2009",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14380"
+        },
+        {
+          "name": "City Council Staff Report – December 1, 2009",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14379"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Dublin Ranch North (formerly known as Redgewick) is 157.7 acres located within the Eastern Dublin Specific Plan Area and originally outside of the City limits. The proposed Project included a request for annexation of the property into the City, General Plan and Eastern Dublin Specific Plan amendments to modify the existing land use designations from Low Density Residential and Rural Residential/Agriculture to 30-acres designated as Estate Residential and 127.3-acres designated as Open Space. The project also included Planned Development Zoning with a related Stage 1 and Stage 2 Development Plan that established development standards and allows construction of four custom estate residential homes (in the future). The area designated as Open Space will be maintained in a permanent conservation easement. The application also included a Development Agreement as required (at the time) by the Eastern Dublin Specific Plan.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/New-1-a.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/New-1-a-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Ranch-North-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Ranch-North-plan-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/DUB-RNCH-NO.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/DUB-RNCH-NO-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Dublin Ranch North (Redgewick)"
+      }
+    },
+    "projectId": "projectdetail142",
+    "timestamp": "1476241401000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail142",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Martha Battaglia - Associate Planner",
+    "oldVal": "Martha Aja - Associate Planner",
+    "projectId": "projectdetail142",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail142",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "martha.Battaglia@dublin.ca.gov",
+    "oldVal": "martha.aja@dublin.ca.gov",
+    "projectId": "projectdetail142",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail142"
+    ],
+    "oldVal": {
+      "id": "projectdetail142",
+      "title": "Dublin Ranch North (Redgewick)",
+      "details": {
+        "Planning Application #": "PA 08-045",
+        "Application Type": "Annexation, General Plan and Specific Plan Amendment, Planned Development Zoning with Stage 1 & 2 Development Plans, Vesting Tentative Tract Map, and Development Agreement",
+        "Application Submittal Date": "10/10/2008",
+        "General Plan Land Use": "Estate Residential and Open Space",
+        "Specific Plan Area": "Eastern Dubln Specific Plan",
+        "Zoning": "PD - Planned Development",
+        "Project Area": "157 acres",
+        "Applicant": {
+          "name": "James Tong, Stanforth Holding Company LLC",
+          "address": "4080 Grafton Street, Suite 200, Dublin CA 94568",
+          "phone": "(925) 463-1666"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.Battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "3265 Cydonia Court",
+      "docs": [
+        {
+          "name": "Planning Commission Staff Report – November 10, 2009",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14380"
+        },
+        {
+          "name": "City Council Staff Report – December 1, 2009",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14379"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Dublin Ranch North (formerly known as Redgewick) is 157.7 acres located within the Eastern Dublin Specific Plan Area and originally outside of the City limits. The proposed Project included a request for annexation of the property into the City, General Plan and Eastern Dublin Specific Plan amendments to modify the existing land use designations from Low Density Residential and Rural Residential/Agriculture to 30-acres designated as Estate Residential and 127.3-acres designated as Open Space. The project also included Planned Development Zoning with a related Stage 1 and Stage 2 Development Plan that established development standards and allows construction of four custom estate residential homes (in the future). The area designated as Open Space will be maintained in a permanent conservation easement. The application also included a Development Agreement as required (at the time) by the Eastern Dublin Specific Plan.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/New-1-a.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/New-1-a-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Ranch-North-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Ranch-North-plan-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/DUB-RNCH-NO.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/DUB-RNCH-NO-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Dublin Ranch North (Redgewick)"
+      }
+    },
+    "projectId": "projectdetail142",
+    "timestamp": "1492908897000"
+  }
+]

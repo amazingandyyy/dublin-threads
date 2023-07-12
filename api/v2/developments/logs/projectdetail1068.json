@@ -1,0 +1,69 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1068"
+    ],
+    "val": {
+      "id": "projectdetail1068",
+      "title": "BASIS Independent School (Corrie Center)",
+      "details": {
+        "Planning Application #": "PLPA-2023-00011",
+        "Application Type": "Conditional Use Permit and Site Development Review",
+        "Application Submittal Date": "08/05/2022",
+        "General Plan Land Use": "Downtown Dublin - Transit Oriented District",
+        "Specific Plan Area": "Downtown Dublin Specific Plan",
+        "Zoning": "Downtown Dublin Zoning District - DDZD",
+        "Project Area": "3.72 acres",
+        "Applicant": {
+          "name": "Jerry Hunt, Rubicon Property Group",
+          "address": "1840 San Miguel Drive, Ste. 206, Walnut Creek, CA 94596",
+          "phone": "925-980-7875"
+        },
+        "Project Planner": {
+          "name": "Linda Ajello - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "linda.ajello@dublin.ca.gov"
+        }
+      },
+      "location": "7950 Dublin Boulevard",
+      "docs": [],
+      "status": "Pubic Hearing",
+      "description": "The property owner, Jerry Hunt of VP RPG Dublin, LLC, submitted an application on behalf of BASIS Independent School to operate a private school serving up to 800 middle and high school students, construct façade improvements to the existing 81,985 square foot office building which will be converted to a school, and construct a 9,134 square foot gymnasium building, outdoor recreational play field, trash enclosure, and associated site improvements. Requested approvals include a Conditional Use Permit and Site Development Review Permit.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Rendering-1-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Rendering-1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Renderings-2-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Renderings-2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Renderings-3_Page_3-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Renderings-3_Page_3-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Site-Plan-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_1-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_2-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_2-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.701316,
+        "lon": -121.935041,
+        "iconName": "building",
+        "title": "BASIS Independent School (Corrie Center)"
+      }
+    },
+    "projectId": "projectdetail1068",
+    "timestamp": "1684627200000"
+  }
+]

@@ -1,0 +1,488 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail86"
+    ],
+    "val": {
+      "id": "projectdetail86",
+      "title": "Trumark-Regional Street",
+      "details": {
+        "Planning Application #": "PLPA-2015-00017",
+        "Application Type": "Site Development Review, Vesting Tentative Map and Conditional Use Permit",
+        "Application Submittal Date": "04/30/2015",
+        "General Plan Land Use": "Downtown Dublin - Retail District",
+        "Specific Plan Area": "Downtown Dublin Specific Plan (Retail District)",
+        "Zoning": "DDZD",
+        "Project Area": "2.7 acres",
+        "Building Area": "1,391 -1,642 square feet",
+        "Stories/Height": "3 stories / 45 feet",
+        "Parking Provided": "156 parking spaces",
+        "Applicant": {
+          "name": "Trumark Homes, LLC, Attn Heide Chapman",
+          "address": "4185 Blackhawk Plaza Circle, #200, Danville, CA 94506",
+          "phone": "(925) 648-8300"
+        },
+        "Project Planner": {
+          "name": "Robert Paley - Assistant Planner",
+          "phone": "(925) 833-6610",
+          "email": "robert.paley@dublin.ca.gov"
+        }
+      },
+      "location": "7144 Regional Street",
+      "docs": [
+        {
+          "name": "Planning Commission Staff Report 10.13.16",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14354"
+        },
+        {
+          "name": "City Council Staff Report 11.17.16",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14353"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Trumark Homes LLC will construct 60 townhomes on a 2.7 acre site at 7144 Regional Street in Downtown Dublin. The project will include the construction of the residential buildings, site circulation and landscape improvements, and street improvements along Regional Street and San Ramon Road along the project frontages. The project was approved by the Planning Commission on October 13, 2015 and includes Site Design Review approval for the architectural design, a Vesting Tentative Map to create condominium units, and a Conditional Use Permit to authorize a reduced guest parking standard.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Perimeter-features.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Perimeter-features-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/7144-regional.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/7144-regional-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Site-Panweb.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Site-Panweb-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Concept-Landscape.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Concept-Landscape-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/LS-amenities.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/LS-amenities-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Eleve-5-plex-rear.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Eleve-5-plex-rear-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-5-plex.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-5-plex-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-6-plex.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-6-plex-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-7-plex.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-7-plex-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-8-plex.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-8-plex-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Trumark-Regional Street"
+      }
+    },
+    "projectId": "projectdetail86",
+    "timestamp": "1476241401000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail86",
+      "title"
+    ],
+    "val": "The Perch at Downtown Dublin",
+    "oldVal": "Trumark-Regional Street",
+    "projectId": "projectdetail86",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail86",
+      "geolocation",
+      "title"
+    ],
+    "val": "The Perch at Downtown Dublin",
+    "oldVal": "Trumark-Regional Street",
+    "projectId": "projectdetail86",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail86",
+      "details",
+      "Applicant",
+      "phone"
+    ],
+    "val": "(925) 999-3950",
+    "oldVal": "(925) 648-8300",
+    "projectId": "projectdetail86",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail86",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Perimeter-features.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Perimeter-features.jpg",
+    "projectId": "projectdetail86",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail86",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Perimeter-features-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Perimeter-features-150x150.jpg",
+    "projectId": "projectdetail86",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail86",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/7144-regional.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/7144-regional.jpg",
+    "projectId": "projectdetail86",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail86",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/7144-regional-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/7144-regional-150x150.jpg",
+    "projectId": "projectdetail86",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail86",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Site-Panweb.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Site-Panweb.jpg",
+    "projectId": "projectdetail86",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail86",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Site-Panweb-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Site-Panweb-150x150.jpg",
+    "projectId": "projectdetail86",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail86",
+      "images",
+      3,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Concept-Landscape.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Concept-Landscape.jpg",
+    "projectId": "projectdetail86",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail86",
+      "images",
+      3,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Concept-Landscape-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Concept-Landscape-150x150.jpg",
+    "projectId": "projectdetail86",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail86",
+      "images",
+      4,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/LS-amenities.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/LS-amenities.jpg",
+    "projectId": "projectdetail86",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail86",
+      "images",
+      4,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/LS-amenities-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/LS-amenities-150x150.jpg",
+    "projectId": "projectdetail86",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail86",
+      "images",
+      5,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Eleve-5-plex-rear.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Eleve-5-plex-rear.jpg",
+    "projectId": "projectdetail86",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail86",
+      "images",
+      5,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Eleve-5-plex-rear-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Eleve-5-plex-rear-150x150.jpg",
+    "projectId": "projectdetail86",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail86",
+      "images",
+      6,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-5-plex.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-5-plex.jpg",
+    "projectId": "projectdetail86",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail86",
+      "images",
+      6,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-5-plex-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-5-plex-150x150.jpg",
+    "projectId": "projectdetail86",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail86",
+      "images",
+      7,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-6-plex.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-6-plex.jpg",
+    "projectId": "projectdetail86",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail86",
+      "images",
+      7,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-6-plex-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-6-plex-150x150.jpg",
+    "projectId": "projectdetail86",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail86",
+      "images",
+      8,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-7-plex.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-7-plex.jpg",
+    "projectId": "projectdetail86",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail86",
+      "images",
+      8,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-7-plex-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-7-plex-150x150.jpg",
+    "projectId": "projectdetail86",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail86",
+      "images",
+      9,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-8-plex.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-8-plex.jpg",
+    "projectId": "projectdetail86",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail86",
+      "images",
+      9,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-8-plex-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-8-plex-150x150.jpg",
+    "projectId": "projectdetail86",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail86"
+    ],
+    "oldVal": {
+      "id": "projectdetail86",
+      "title": "The Perch at Downtown Dublin",
+      "details": {
+        "Planning Application #": "PLPA-2015-00017",
+        "Application Type": "Site Development Review, Vesting Tentative Map and Conditional Use Permit",
+        "Application Submittal Date": "04/30/2015",
+        "General Plan Land Use": "Downtown Dublin - Retail District",
+        "Specific Plan Area": "Downtown Dublin Specific Plan (Retail District)",
+        "Zoning": "DDZD",
+        "Project Area": "2.7 acres",
+        "Building Area": "1,391 -1,642 square feet",
+        "Stories/Height": "3 stories / 45 feet",
+        "Parking Provided": "156 parking spaces",
+        "Applicant": {
+          "name": "Trumark Homes, LLC, Attn Heide Chapman",
+          "address": "4185 Blackhawk Plaza Circle, #200, Danville, CA 94506",
+          "phone": "(925) 999-3950"
+        },
+        "Project Planner": {
+          "name": "Robert Paley - Assistant Planner",
+          "phone": "(925) 833-6610",
+          "email": "robert.paley@dublin.ca.gov"
+        }
+      },
+      "location": "7144 Regional Street",
+      "docs": [
+        {
+          "name": "Planning Commission Staff Report 10.13.16",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14354"
+        },
+        {
+          "name": "City Council Staff Report 11.17.16",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14353"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Trumark Homes LLC will construct 60 townhomes on a 2.7 acre site at 7144 Regional Street in Downtown Dublin. The project will include the construction of the residential buildings, site circulation and landscape improvements, and street improvements along Regional Street and San Ramon Road along the project frontages. The project was approved by the Planning Commission on October 13, 2015 and includes Site Design Review approval for the architectural design, a Vesting Tentative Map to create condominium units, and a Conditional Use Permit to authorize a reduced guest parking standard.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Perimeter-features.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Perimeter-features-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/7144-regional.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/7144-regional-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Site-Panweb.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Site-Panweb-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Concept-Landscape.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Concept-Landscape-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/LS-amenities.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/LS-amenities-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Eleve-5-plex-rear.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Eleve-5-plex-rear-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-5-plex.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-5-plex-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-6-plex.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-6-plex-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-7-plex.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-7-plex-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-8-plex.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-8-plex-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "The Perch at Downtown Dublin"
+      }
+    },
+    "projectId": "projectdetail86",
+    "timestamp": "1596943340000"
+  }
+]

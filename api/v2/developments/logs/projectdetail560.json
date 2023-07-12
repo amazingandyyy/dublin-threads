@@ -1,0 +1,118 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail560"
+    ],
+    "val": {
+      "id": "projectdetail560",
+      "title": "7505 Dublin Boulevard SDR",
+      "details": {
+        "Planning Application #": "PLPA-2017-00048",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "07/24/2017",
+        "General Plan Land Use": "Downtown Dublin Retail District",
+        "Specific Plan Area": "Downtown Dublin Retail District",
+        "Zoning": "Downtown Dublin Zoning District",
+        "Project Area": "1.8 acres",
+        "Building Area": "9,000 square feet",
+        "Stories/Height": "1 story / 24 feet",
+        "Applicant": {
+          "name": "Dave Johnson, Johnson Lyman Architects",
+          "address": "1375 Locust Street #202, Walnut Creek, CA 94596",
+          "phone": "(925) 930-9690 ext 112"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "7505 Dublin Boulevard",
+      "docs": [
+        {
+          "name": "Project Plans",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/07/Dublin-Book-7-17-17.pdf"
+        },
+        {
+          "name": "Planning Commission Agenda & Staff Report 1.23.18",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/07/Planning-Commission-Agenda-Packet-012318.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Site Development Review permit to demolish an existing 5,000 square foot building (formerly Coco’s Bakery Restaurant) and construct a new commercial pad building totaling 9,000 square feet. Includes associated site improvements, outdoor seating areas, parking and landscaping.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/07/picture.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/07/picture-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "7505 Dublin Boulevard SDR"
+      }
+    },
+    "projectId": "projectdetail560",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail560"
+    ],
+    "oldVal": {
+      "id": "projectdetail560",
+      "title": "7505 Dublin Boulevard SDR",
+      "details": {
+        "Planning Application #": "PLPA-2017-00048",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "07/24/2017",
+        "General Plan Land Use": "Downtown Dublin Retail District",
+        "Specific Plan Area": "Downtown Dublin Retail District",
+        "Zoning": "Downtown Dublin Zoning District",
+        "Project Area": "1.8 acres",
+        "Building Area": "9,000 square feet",
+        "Stories/Height": "1 story / 24 feet",
+        "Applicant": {
+          "name": "Dave Johnson, Johnson Lyman Architects",
+          "address": "1375 Locust Street #202, Walnut Creek, CA 94596",
+          "phone": "(925) 930-9690 ext 112"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "7505 Dublin Boulevard",
+      "docs": [
+        {
+          "name": "Project Plans",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/07/Dublin-Book-7-17-17.pdf"
+        },
+        {
+          "name": "Planning Commission Agenda & Staff Report 1.23.18",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/07/Planning-Commission-Agenda-Packet-012318.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Site Development Review permit to demolish an existing 5,000 square foot building (formerly Coco’s Bakery Restaurant) and construct a new commercial pad building totaling 9,000 square feet. Includes associated site improvements, outdoor seating areas, parking and landscaping.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/07/picture.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/07/picture-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "7505 Dublin Boulevard SDR"
+      }
+    },
+    "projectId": "projectdetail560",
+    "timestamp": "1596943340000"
+  }
+]

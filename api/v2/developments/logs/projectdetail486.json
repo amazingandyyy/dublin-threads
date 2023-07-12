@@ -1,0 +1,433 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail486"
+    ],
+    "val": {
+      "id": "projectdetail486",
+      "title": "Boulevard (Dublin Crossing) Phase 2/3",
+      "details": {
+        "Planning Application #": "PA 08-049, PLPA-2016-00057",
+        "Application Type": "Site Development Review, Vesting Tenative Tract Map",
+        "Application Submittal Date": "09/14/2016",
+        "General Plan Land Use": "Dublin Crossing Specific Plan",
+        "Specific Plan Area": "Dublin Crossing Specific Plan",
+        "Zoning": "Dublin Crossing Planned Development",
+        "Project Area": "54.5 acres",
+        "Applicant": {
+          "name": "Joe Guerra, Dublin Crossing LLC/Brookfield Residential",
+          "address": "500 La Gonda Way, Suite 100, Danville, CA 94526",
+          "phone": "(408) 307-7806"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "1 Dublin Boulevard",
+      "docs": [
+        {
+          "name": "Planning Commission Staff Report 04.11.17 Study Session",
+          "url": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-041117-Complete.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report 04.11.17 Attach. 1 (Part 1)",
+          "url": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Attachmet-1-SDR-Booklet-2_3_-Part-ONE.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report 04.11.17 Attach. 1 (Part 2)",
+          "url": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Attachment-1-SDR-Booklet-2_3_Part-TWO.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report 04.11.17 Attach. 1 (Part 3)",
+          "url": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1-SDR-Booklet-2_3_-Part-THREE.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report 04.11.17 Attach. 2",
+          "url": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/2.pdf"
+        }
+      ],
+      "status": "Application Under Review",
+      "description": "Multi-phased development comprised of up to 1,995 residential units, up to 200,000 square feet of commercial uses, 35 acres of public parkland, a 12-acre elementary school site and related infrastructure. The overall project specific plan (Dublin Crossing Specific Plan) was approved in 2013. Together, Phases 2 and 3 propose a total of 791 units in 12 neighborhoods. Phase 2 is comprised of 508 units on approximately 36.25 acres and Phase 3 is comprised of 283 units on approximately 18.22 acres. The Planning Commission will hold two study sessions on April 11 and April 25 to review Phases 2 and 3.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Phase-23-site-plan-2-e1491496490762.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Phase-23-site-plan-2-e1491496490762-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Rendering-e1491495239305.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Rendering-e1491495239305-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/NH-10-e1491496106660.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/NH-10-e1491496106660-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/rec-center-e1491496119223.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/rec-center-e1491496119223-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Boulevard (Dublin Crossing) Phase 2/3"
+      }
+    },
+    "projectId": "projectdetail486",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail486",
+      "status"
+    ],
+    "val": "Final Action",
+    "oldVal": "Application Under Review",
+    "projectId": "projectdetail486",
+    "timestamp": "1495652949000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail486",
+      "description"
+    ],
+    "val": "Multi-phased development comprised of up to 1,995 residential units, up to 200,000 square feet of commercial uses, 35 acres of public parkland, a 12-acre elementary school site and related infrastructure. The overall project specific plan (Dublin Crossing Specific Plan) was approved in 2013. Together, Phases 2 and 3 propose a total of 791 units in 12 neighborhoods. Phase 2 is comprised of 508 units on approximately 36.25 acres and Phase 3 is comprised of 283 units on approximately 18.22 acres. The Planning Commission held two study sessions on April 11 and April 25 to review Phases 2 and 3.",
+    "oldVal": "Multi-phased development comprised of up to 1,995 residential units, up to 200,000 square feet of commercial uses, 35 acres of public parkland, a 12-acre elementary school site and related infrastructure. The overall project specific plan (Dublin Crossing Specific Plan) was approved in 2013. Together, Phases 2 and 3 propose a total of 791 units in 12 neighborhoods. Phase 2 is comprised of 508 units on approximately 36.25 acres and Phase 3 is comprised of 283 units on approximately 18.22 acres. The Planning Commission will hold two study sessions on April 11 and April 25 to review Phases 2 and 3.",
+    "projectId": "projectdetail486",
+    "timestamp": "1495652949000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail486",
+      "docs",
+      0,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-041117-Complete.pdf",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-041117-Complete.pdf",
+    "projectId": "projectdetail486",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail486",
+      "docs",
+      1,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Attachmet-1-SDR-Booklet-2_3_-Part-ONE.pdf",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Attachmet-1-SDR-Booklet-2_3_-Part-ONE.pdf",
+    "projectId": "projectdetail486",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail486",
+      "docs",
+      2,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Attachment-1-SDR-Booklet-2_3_Part-TWO.pdf",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Attachment-1-SDR-Booklet-2_3_Part-TWO.pdf",
+    "projectId": "projectdetail486",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail486",
+      "docs",
+      3,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1-SDR-Booklet-2_3_-Part-THREE.pdf",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1-SDR-Booklet-2_3_-Part-THREE.pdf",
+    "projectId": "projectdetail486",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail486",
+      "docs",
+      4,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/2.pdf",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/2.pdf",
+    "projectId": "projectdetail486",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail486",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Phase-23-site-plan-2-e1491496490762.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Phase-23-site-plan-2-e1491496490762.jpg",
+    "projectId": "projectdetail486",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail486",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Phase-23-site-plan-2-e1491496490762-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Phase-23-site-plan-2-e1491496490762-150x150.jpg",
+    "projectId": "projectdetail486",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail486",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Rendering-e1491495239305.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Rendering-e1491495239305.jpg",
+    "projectId": "projectdetail486",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail486",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Rendering-e1491495239305-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Rendering-e1491495239305-150x150.jpg",
+    "projectId": "projectdetail486",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail486",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/NH-10-e1491496106660.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/NH-10-e1491496106660.jpg",
+    "projectId": "projectdetail486",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail486",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/NH-10-e1491496106660-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/NH-10-e1491496106660-150x150.jpg",
+    "projectId": "projectdetail486",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail486",
+      "images",
+      3,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/rec-center-e1491496119223.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/rec-center-e1491496119223.jpg",
+    "projectId": "projectdetail486",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail486",
+      "images",
+      3,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/rec-center-e1491496119223-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/rec-center-e1491496119223-150x150.jpg",
+    "projectId": "projectdetail486",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail486"
+    ],
+    "oldVal": {
+      "id": "projectdetail486",
+      "title": "Boulevard (Dublin Crossing) Phase 2/3",
+      "details": {
+        "Planning Application #": "PA 08-049, PLPA-2016-00057",
+        "Application Type": "Site Development Review, Vesting Tenative Tract Map",
+        "Application Submittal Date": "09/14/2016",
+        "General Plan Land Use": "Dublin Crossing Specific Plan",
+        "Specific Plan Area": "Dublin Crossing Specific Plan",
+        "Zoning": "Dublin Crossing Planned Development",
+        "Project Area": "54.5 acres",
+        "Applicant": {
+          "name": "Joe Guerra, Dublin Crossing LLC/Brookfield Residential",
+          "address": "500 La Gonda Way, Suite 100, Danville, CA 94526",
+          "phone": "(408) 307-7806"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "1 Dublin Boulevard",
+      "docs": [
+        {
+          "name": "Planning Commission Staff Report 04.11.17 Study Session",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-041117-Complete.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report 04.11.17 Attach. 1 (Part 1)",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Attachmet-1-SDR-Booklet-2_3_-Part-ONE.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report 04.11.17 Attach. 1 (Part 2)",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Attachment-1-SDR-Booklet-2_3_Part-TWO.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report 04.11.17 Attach. 1 (Part 3)",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1-SDR-Booklet-2_3_-Part-THREE.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report 04.11.17 Attach. 2",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/2.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Multi-phased development comprised of up to 1,995 residential units, up to 200,000 square feet of commercial uses, 35 acres of public parkland, a 12-acre elementary school site and related infrastructure. The overall project specific plan (Dublin Crossing Specific Plan) was approved in 2013. Together, Phases 2 and 3 propose a total of 791 units in 12 neighborhoods. Phase 2 is comprised of 508 units on approximately 36.25 acres and Phase 3 is comprised of 283 units on approximately 18.22 acres. The Planning Commission held two study sessions on April 11 and April 25 to review Phases 2 and 3.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Phase-23-site-plan-2-e1491496490762.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Phase-23-site-plan-2-e1491496490762-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Rendering-e1491495239305.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Rendering-e1491495239305-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/NH-10-e1491496106660.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/NH-10-e1491496106660-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/rec-center-e1491496119223.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/rec-center-e1491496119223-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Boulevard (Dublin Crossing) Phase 2/3"
+      }
+    },
+    "projectId": "projectdetail486",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail486"
+    ],
+    "val": {
+      "id": "projectdetail486",
+      "title": "Boulevard (Dublin Crossing) Phase 2 & 3",
+      "details": {
+        "Planning Application #": "PA 08-049, PLPA-2016-00057",
+        "Application Type": "Site Development Review Permit and Vesting Tentative Tract Map",
+        "Application Submittal Date": "09/14/2016",
+        "General Plan Land Use": "Dublin Crossing Specific Plan",
+        "Specific Plan Area": "Dublin Crossing Specific Plan",
+        "Zoning": "Dublin Crossing Planned Development",
+        "Project Area": "54.5 acres",
+        "Applicant": {
+          "name": "Mandi Misasi, Brookfield Residential",
+          "address": "12657 Alcosta Blvd. Ste 250, San Ramon CA 94563",
+          "phone": "925-743-8000"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "1 Dublin Boulevard",
+      "docs": [
+        {
+          "name": "Planning Commission Staff Report 04.11.17 Study Session",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-041117-Complete.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report 04.11.17 Attach. 1 (Part 1)",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Attachmet-1-SDR-Booklet-2_3_-Part-ONE.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report 04.11.17 Attach. 1 (Part 2)",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Attachment-1-SDR-Booklet-2_3_Part-TWO.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report 04.11.17 Attach. 1 (Part 3)",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1-SDR-Booklet-2_3_-Part-THREE.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report 04.11.17 Attach. 2",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/2.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Multi-phased development comprised of up to 1,995 residential units, up to 200,000 square feet of commercial uses, 35 acres of public parkland, a 12-acre elementary school site and related infrastructure. The overall project specific plan (Dublin Crossing Specific Plan) was approved in 2013. Together, Phases 2 and 3 propose a total of 795 units in 12 neighborhoods. Phase 2 is comprised of 508 units on approximately 36.25 acres and Phase 3 is comprised of 283 units on approximately 18.22 acres. The Planning Commission held two study sessions on April 11 and April 25 to review Phases 2 and 3.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Phase-23-site-plan-2-e1491496490762.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Phase-23-site-plan-2-e1491496490762-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Rendering-e1491495239305.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Rendering-e1491495239305-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/NH-10-e1491496106660.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/NH-10-e1491496106660-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/rec-center-e1491496119223.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/rec-center-e1491496119223-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.707185,
+        "lon": -121.902171,
+        "iconName": "building",
+        "title": "Boulevard (Dublin Crossing) Phase 2 & 3"
+      }
+    },
+    "projectId": "projectdetail486",
+    "timestamp": "1684627200000"
+  }
+]

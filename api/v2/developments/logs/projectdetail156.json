@@ -1,0 +1,195 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail156"
+    ],
+    "val": {
+      "id": "projectdetail156",
+      "title": "Jordan Ranch – Neighborhood 6 (Kingswood)",
+      "details": {
+        "Planning Application #": "PLPA-2010-00068",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "12/01/2010",
+        "General Plan Land Use": "Single-Family Residential, Medium Density Residential, Medium High Density Residential, Mixed Use, Semi-Public, Parks/Public Recreation, and Open Space",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD - Planned Development",
+        "Project Area": "6.6 acres",
+        "Applicant": {
+          "name": "Landsea Holdings Corp.",
+          "address": "18881 Von Karman Ave., Suite 1450, Irvine, CA 92612",
+          "phone": "925.683.7782"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "Central Parkway",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Neighborhood 6 (Kingswood) is within the overall Jordan Ranch project and is being developed by Landsea Holding Corp. At buildout, the project will contain 109 units of townhomes and flats.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N6-site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N6-site-plan-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N6-rendering.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N6-rendering-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Jordan Ranch – Neighborhood 6 (Kingswood)"
+      }
+    },
+    "projectId": "projectdetail156",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail156",
+      "title"
+    ],
+    "val": "Jordan Ranch - Neighborhood 6 (Kingswood)",
+    "oldVal": "Jordan Ranch – Neighborhood 6 (Kingswood)",
+    "projectId": "projectdetail156",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail156",
+      "details",
+      "Applicant",
+      "phone"
+    ],
+    "val": "(925) 683-7782",
+    "oldVal": "925.683.7782",
+    "projectId": "projectdetail156",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail156",
+      "details",
+      "Building Area"
+    ],
+    "val": "2,310 - 2,440 square feet",
+    "projectId": "projectdetail156",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail156",
+      "details",
+      "Foor Area Ratio"
+    ],
+    "val": "N/A FAR",
+    "projectId": "projectdetail156",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail156",
+      "details",
+      "Stories/Height"
+    ],
+    "val": "3 stories / 39 feet",
+    "projectId": "projectdetail156",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail156",
+      "description"
+    ],
+    "val": "Neighborhood 6 (Kingswood) is within the overall Jordan Ranch project and is being developed by Landsea Holding Corp. At buildout, the project will contain 109 units of townhomes and flats. The buildings are located on either side of a 2.7 acre Neighborhood Square.",
+    "oldVal": "Neighborhood 6 (Kingswood) is within the overall Jordan Ranch project and is being developed by Landsea Holding Corp. At buildout, the project will contain 109 units of townhomes and flats.",
+    "projectId": "projectdetail156",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail156",
+      "geolocation",
+      "title"
+    ],
+    "val": "Jordan Ranch - Neighborhood 6 (Kingswood)",
+    "oldVal": "Jordan Ranch – Neighborhood 6 (Kingswood)",
+    "projectId": "projectdetail156",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail156"
+    ],
+    "oldVal": {
+      "id": "projectdetail156",
+      "title": "Jordan Ranch - Neighborhood 6 (Kingswood)",
+      "details": {
+        "Planning Application #": "PLPA-2010-00068",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "12/01/2010",
+        "General Plan Land Use": "Single-Family Residential, Medium Density Residential, Medium High Density Residential, Mixed Use, Semi-Public, Parks/Public Recreation, and Open Space",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD - Planned Development",
+        "Project Area": "6.6 acres",
+        "Building Area": "2,310 - 2,440 square feet",
+        "Foor Area Ratio": "N/A FAR",
+        "Stories/Height": "3 stories / 39 feet",
+        "Applicant": {
+          "name": "Landsea Holdings Corp.",
+          "address": "18881 Von Karman Ave., Suite 1450, Irvine, CA 92612",
+          "phone": "(925) 683-7782"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "Central Parkway",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Neighborhood 6 (Kingswood) is within the overall Jordan Ranch project and is being developed by Landsea Holding Corp. At buildout, the project will contain 109 units of townhomes and flats. The buildings are located on either side of a 2.7 acre Neighborhood Square.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N6-site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N6-site-plan-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N6-rendering.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N6-rendering-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Jordan Ranch - Neighborhood 6 (Kingswood)"
+      }
+    },
+    "projectId": "projectdetail156",
+    "timestamp": "1513193626000"
+  }
+]

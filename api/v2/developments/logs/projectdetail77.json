@@ -1,0 +1,128 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail77"
+    ],
+    "val": {
+      "id": "projectdetail77",
+      "title": "Eden Housing Veteran’s Project",
+      "details": {
+        "Planning Application #": "PLPA-2012-00060",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "10/13/2012",
+        "General Plan Land Use": "Downtown Dublin – Transit-Oriented District",
+        "Specific Plan Area": "Downtown Dublin – Transit-Oriented District",
+        "Zoning": "DDZD",
+        "Project Area": "1.37 acres",
+        "Applicant": {
+          "name": "Eden Housing",
+          "address": "22645 Grand Street, Hayward, CA 94541",
+          "phone": "(510) 582-1460"
+        },
+        "Project Planner": {
+          "name": "Robert Paley - Assistant Planner",
+          "phone": "(925) 833-6610",
+          "email": ""
+        }
+      },
+      "location": "7544 Dublin Boulevard",
+      "docs": [],
+      "status": "Final Action",
+      "description": "The Eden Housing Veteran’s Project is comprised of 66-units of affordable housing with preference for military veterans on a 1.37 net acre site within the Downtown Dublin Specific Plan area. The project incorporates related site improvements including a multi-level parking structure, frontage improvements along all public rights of way, and amenities for the project residents. The project will implement one of the City Council’s key strategic initiatives, which is to provide affordable housing for veterans of the U.S Armed Forces.",
+      "images": [],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Eden Housing Veteran’s Project"
+      }
+    },
+    "projectId": "projectdetail77",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail77",
+      "title"
+    ],
+    "val": "Valor (Eden Housing Veteran's Project)",
+    "oldVal": "Eden Housing Veteran’s Project",
+    "projectId": "projectdetail77",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail77",
+      "images",
+      0
+    ],
+    "val": {
+      "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Valor-Crossing-rendering-with-flag.jpg",
+      "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Valor-Crossing-rendering-with-flag-150x150.jpg"
+    },
+    "projectId": "projectdetail77",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail77",
+      "geolocation",
+      "title"
+    ],
+    "val": "Valor (Eden Housing Veteran's Project)",
+    "oldVal": "Eden Housing Veteran’s Project",
+    "projectId": "projectdetail77",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail77"
+    ],
+    "oldVal": {
+      "id": "projectdetail77",
+      "title": "Valor (Eden Housing Veteran's Project)",
+      "details": {
+        "Planning Application #": "PLPA-2012-00060",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "10/13/2012",
+        "General Plan Land Use": "Downtown Dublin – Transit-Oriented District",
+        "Specific Plan Area": "Downtown Dublin – Transit-Oriented District",
+        "Zoning": "DDZD",
+        "Project Area": "1.37 acres",
+        "Applicant": {
+          "name": "Eden Housing",
+          "address": "22645 Grand Street, Hayward, CA 94541",
+          "phone": "(510) 582-1460"
+        },
+        "Project Planner": {
+          "name": "Robert Paley - Assistant Planner",
+          "phone": "(925) 833-6610",
+          "email": ""
+        }
+      },
+      "location": "7544 Dublin Boulevard",
+      "docs": [],
+      "status": "Final Action",
+      "description": "The Eden Housing Veteran’s Project is comprised of 66-units of affordable housing with preference for military veterans on a 1.37 net acre site within the Downtown Dublin Specific Plan area. The project incorporates related site improvements including a multi-level parking structure, frontage improvements along all public rights of way, and amenities for the project residents. The project will implement one of the City Council’s key strategic initiatives, which is to provide affordable housing for veterans of the U.S Armed Forces.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Valor-Crossing-rendering-with-flag.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Valor-Crossing-rendering-with-flag-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Valor (Eden Housing Veteran's Project)"
+      }
+    },
+    "projectId": "projectdetail77",
+    "timestamp": "1513193626000"
+  }
+]

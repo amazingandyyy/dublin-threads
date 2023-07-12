@@ -1,0 +1,195 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail152"
+    ],
+    "val": {
+      "id": "projectdetail152",
+      "title": "Jordan Ranch – Neighborhood 3 (Capri)",
+      "details": {
+        "Planning Application #": "PLPA-2014-00010",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "02/27/2014",
+        "General Plan Land Use": "Single-Family Residential, Medium Density Residential, Medium High Density Residential, Mixed Use, Semi-Public, Parks/Public Recreation and Open Space",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD - Planned Development",
+        "Project Area": "189 acres",
+        "Applicant": {
+          "name": "Brookfield Capri LLC",
+          "address": "500 La Gonda Way, Suite 100, Danville, CA 94526",
+          "phone": "(925) 997-3944"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "Sunset View Drive",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Capri is Neighborhood 3 of the overall Jordan Ranch project and is being developed by Brookfield Homes. The 94 single-family homes are located on Sunset View Drive.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N2-N3-Altmore-Capri-site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N2-N3-Altmore-Capri-site-plan-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N3-Capri-streetscape.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N3-Capri-streetscape-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Jordan Ranch – Neighborhood 3 (Capri)"
+      }
+    },
+    "projectId": "projectdetail152",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail152",
+      "title"
+    ],
+    "val": "Jordan Ranch - Neighborhood 3 (Capri)",
+    "oldVal": "Jordan Ranch – Neighborhood 3 (Capri)",
+    "projectId": "projectdetail152",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail152",
+      "details",
+      "General Plan Land Use"
+    ],
+    "val": "Medium Density Residential",
+    "oldVal": "Single-Family Residential, Medium Density Residential, Medium High Density Residential, Mixed Use, Semi-Public, Parks/Public Recreation and Open Space",
+    "projectId": "projectdetail152",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail152",
+      "details",
+      "Project Area"
+    ],
+    "val": "8 acres",
+    "oldVal": "189 acres",
+    "projectId": "projectdetail152",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail152",
+      "details",
+      "Building Area"
+    ],
+    "val": "1,960 - 2,380 square feet",
+    "projectId": "projectdetail152",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail152",
+      "details",
+      "Foor Area Ratio"
+    ],
+    "val": "N/A FAR",
+    "projectId": "projectdetail152",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail152",
+      "details",
+      "Stories/Height"
+    ],
+    "val": "3 stories / 35 feet",
+    "projectId": "projectdetail152",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail152",
+      "geolocation",
+      "title"
+    ],
+    "val": "Jordan Ranch - Neighborhood 3 (Capri)",
+    "oldVal": "Jordan Ranch – Neighborhood 3 (Capri)",
+    "projectId": "projectdetail152",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail152"
+    ],
+    "oldVal": {
+      "id": "projectdetail152",
+      "title": "Jordan Ranch - Neighborhood 3 (Capri)",
+      "details": {
+        "Planning Application #": "PLPA-2014-00010",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "02/27/2014",
+        "General Plan Land Use": "Medium Density Residential",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD - Planned Development",
+        "Project Area": "8 acres",
+        "Building Area": "1,960 - 2,380 square feet",
+        "Foor Area Ratio": "N/A FAR",
+        "Stories/Height": "3 stories / 35 feet",
+        "Applicant": {
+          "name": "Brookfield Capri LLC",
+          "address": "500 La Gonda Way, Suite 100, Danville, CA 94526",
+          "phone": "(925) 997-3944"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "Sunset View Drive",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Capri is Neighborhood 3 of the overall Jordan Ranch project and is being developed by Brookfield Homes. The 94 single-family homes are located on Sunset View Drive.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N2-N3-Altmore-Capri-site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N2-N3-Altmore-Capri-site-plan-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N3-Capri-streetscape.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N3-Capri-streetscape-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Jordan Ranch - Neighborhood 3 (Capri)"
+      }
+    },
+    "projectId": "projectdetail152",
+    "timestamp": "1513193626000"
+  }
+]

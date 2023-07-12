@@ -1,0 +1,165 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail136"
+    ],
+    "val": {
+      "id": "projectdetail136",
+      "title": "Westport – Dublin Ranch (Lot 3)",
+      "details": {
+        "Planning Application #": "PLPA-2013-00034",
+        "Application Type": "General Plan/Specific Plan Amendment, PD Rezone with Stage 1 and Stage 2 Development Plan, Site Development Review and Vesting Tentative Map 6164",
+        "Application Submittal Date": "06/20/2013",
+        "General Plan Land Use": "Medium-High Density Residential",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD-Medium-High Density Residential",
+        "Project Area": "6.4 acres",
+        "Building Area": "1,900-2,170 square feet",
+        "Stories/Height": "3 stories / 40 feet",
+        "Applicant": {
+          "name": "Don Barnett, Lennar Homes",
+          "address": "6111 Bolinger Canyon Rd., Suite 550, San Ramon, CA 94583",
+          "phone": "925-242-0811"
+        },
+        "Project Planner": {
+          "name": "Martha Aja - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.aja@dublin.ca.gov"
+        }
+      },
+      "location": "4051 Kinsale Street",
+      "docs": [],
+      "status": "Final Action",
+      "description": "General Plan/Eastern Dublin Specific Plan Amendment to change the land use designation from High-Density Residential (25+ units per acre) to Medium-High Density Residential (14.1 to 25.0 units per acre), Planned Development Rezone with related Stage 1 and Stage 2 Development Plan, Site Development Review Permit, and Vesting Tentative Map 8164 to create 122 townhouse/condominium units.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/wESTPORT-LOT-3-2.jpg.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/wESTPORT-LOT-3-2.jpg-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/wESTPORT-LOT-3.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/wESTPORT-LOT-3-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Landscape-Plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Landscape-Plan-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Westport – Dublin Ranch (Lot 3)"
+      }
+    },
+    "projectId": "projectdetail136",
+    "timestamp": "1476241401000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail136",
+      "title"
+    ],
+    "val": "Westport - Dublin Ranch (Lot 3)",
+    "oldVal": "Westport – Dublin Ranch (Lot 3)",
+    "projectId": "projectdetail136",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail136",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Martha Battaglia - Associate Planner",
+    "oldVal": "Martha Aja - Associate Planner",
+    "projectId": "projectdetail136",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail136",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "martha.battaglia@dublin.ca.gov",
+    "oldVal": "martha.aja@dublin.ca.gov",
+    "projectId": "projectdetail136",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail136",
+      "geolocation",
+      "title"
+    ],
+    "val": "Westport - Dublin Ranch (Lot 3)",
+    "oldVal": "Westport – Dublin Ranch (Lot 3)",
+    "projectId": "projectdetail136",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail136"
+    ],
+    "oldVal": {
+      "id": "projectdetail136",
+      "title": "Westport - Dublin Ranch (Lot 3)",
+      "details": {
+        "Planning Application #": "PLPA-2013-00034",
+        "Application Type": "General Plan/Specific Plan Amendment, PD Rezone with Stage 1 and Stage 2 Development Plan, Site Development Review and Vesting Tentative Map 6164",
+        "Application Submittal Date": "06/20/2013",
+        "General Plan Land Use": "Medium-High Density Residential",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD-Medium-High Density Residential",
+        "Project Area": "6.4 acres",
+        "Building Area": "1,900-2,170 square feet",
+        "Stories/Height": "3 stories / 40 feet",
+        "Applicant": {
+          "name": "Don Barnett, Lennar Homes",
+          "address": "6111 Bolinger Canyon Rd., Suite 550, San Ramon, CA 94583",
+          "phone": "925-242-0811"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "4051 Kinsale Street",
+      "docs": [],
+      "status": "Final Action",
+      "description": "General Plan/Eastern Dublin Specific Plan Amendment to change the land use designation from High-Density Residential (25+ units per acre) to Medium-High Density Residential (14.1 to 25.0 units per acre), Planned Development Rezone with related Stage 1 and Stage 2 Development Plan, Site Development Review Permit, and Vesting Tentative Map 8164 to create 122 townhouse/condominium units.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/wESTPORT-LOT-3-2.jpg.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/wESTPORT-LOT-3-2.jpg-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/wESTPORT-LOT-3.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/wESTPORT-LOT-3-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Landscape-Plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Landscape-Plan-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Westport - Dublin Ranch (Lot 3)"
+      }
+    },
+    "projectId": "projectdetail136",
+    "timestamp": "1513193626000"
+  }
+]

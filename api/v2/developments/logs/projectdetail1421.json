@@ -1,0 +1,98 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1421"
+    ],
+    "val": {
+      "id": "projectdetail1421",
+      "title": "The Whitford of Dublin (Dublin Senior Living)",
+      "details": {
+        "Planning Application #": "PLPA-2021-00042",
+        "Application Type": "Planned Development Rezone and Site Development Review Permit",
+        "Application Submittal Date": "10/06/2021",
+        "General Plan Land Use": "Campus Office",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development (RESO. 30-98)",
+        "Project Area": "5.74 acres acres",
+        "Building Area": "155,517 square feet",
+        "Foor Area Ratio": "0.62 FAR",
+        "Stories/Height": "2 stories / 28 feet",
+        "Parking Provided": "89 parking spaces",
+        "Applicant": {
+          "name": "Chuck Hammonds",
+          "address": "4514 Cole Avenue, Suite 1500, Dallas, TX 75205",
+          "phone": "(214) 370-2626"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Associate Planner",
+          "phone": "(925) 833-6620",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "5751 Arnold Road",
+      "docs": [
+        {
+          "name": "Community Meeting Notice – Dublin Senior Living",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/Community-Meeting-Notice-Dublin-Senior-Living.pdf"
+        },
+        {
+          "name": "Community Meeting Presentation",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/Dublin-Senior-Living-Community-Meeting-Presentation.pptx"
+        },
+        {
+          "name": "Planning Commission May 10, 2022 Agenda and Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/37ef30b818fe396c3b93f6750c721caf0.pdf"
+        },
+        {
+          "name": "City Council June 7, 2022 Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/b5276d7d526becf19c1380f0351d6b540.pdf"
+        },
+        {
+          "name": "City Council June 21, 2022 Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/c9ce21fbe42b467c71e4361657ba800d0.pdf"
+        },
+        {
+          "name": "Notice of Determination Filed 06.23.2022",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/NOD-Filed-06.23.2022.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "South Bay Partners proposes to develop a community care facility on a 5.74-acre site located at 5751 Arnold Road. The proposed project consists of a two story 152-unit licensed residential care facility for the elderly, including 114 assisted living units, 38 memory care units and a total of 174 beds. Common space amenity areas, and associated site, frontage and landscape improvements are also proposed. Requested approvals include a Planned Development Rezone with a related Stage 1 and Stage 2 Development Plan and a Site Development Review Permit.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/DSL-1.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/DSL-1-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/floor-plan-1.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/floor-plan-1-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/floor-plan-2.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/floor-plan-2-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/elevation-2.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/elevation-2-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/elevation-1.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/elevation-1-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/landscape.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/landscape-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.7122092,
+        "lon": -121.8920144,
+        "iconName": "dot",
+        "title": "The Whitford of Dublin (Dublin Senior Living)"
+      }
+    },
+    "projectId": "projectdetail1421",
+    "timestamp": "1684627200000"
+  }
+]

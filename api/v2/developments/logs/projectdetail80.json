@@ -1,0 +1,121 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail80"
+    ],
+    "val": {
+      "id": "projectdetail80",
+      "title": "Bay West Mixed Use Project",
+      "details": {
+        "Planning Application #": "PLPA-2012-00060",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "10/23/2012",
+        "General Plan Land Use": "Downtown Dublin Zoning District - Transit-Oriented District",
+        "Specific Plan Area": "Downtown Dublin Zoning District - Transit-Oriented District",
+        "Zoning": "DDZD",
+        "Project Area": "4.9 acres",
+        "Parking Provided": "599 parking spaces",
+        "Applicant": {
+          "name": "Bay West Development",
+          "address": "2 Henry Adams St, #450, San Francisco, CA 94103",
+          "phone": "(415) 680-4938"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "6707 Golden Gate Drive",
+      "docs": [],
+      "status": "Final Action",
+      "description": "The BayWest apartment project is comprised of a 313-unit apartment building with structured parking and 17,000 square feet of ground-floor commercial uses facing Dublin Boulevard on 4.9 acres. The project is on the southeast corner of Dublin Boulevard and Golden Gate Drive. The project also includes site and frontage streetscape improvements along Dublin Boulevard, Golden Gate Drive, and St. Patrick Way.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Kingsmill-corner-daytime.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Kingsmill-corner-daytime-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Bay West Mixed Use Project"
+      }
+    },
+    "projectId": "projectdetail80",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail80",
+      "title"
+    ],
+    "val": "Aster (Bay West Mixed Use Project)",
+    "oldVal": "Bay West Mixed Use Project",
+    "projectId": "projectdetail80",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail80",
+      "geolocation",
+      "title"
+    ],
+    "val": "Aster (Bay West Mixed Use Project)",
+    "oldVal": "Bay West Mixed Use Project",
+    "projectId": "projectdetail80",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail80"
+    ],
+    "oldVal": {
+      "id": "projectdetail80",
+      "title": "Aster (Bay West Mixed Use Project)",
+      "details": {
+        "Planning Application #": "PLPA-2012-00060",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "10/23/2012",
+        "General Plan Land Use": "Downtown Dublin Zoning District - Transit-Oriented District",
+        "Specific Plan Area": "Downtown Dublin Zoning District - Transit-Oriented District",
+        "Zoning": "DDZD",
+        "Project Area": "4.9 acres",
+        "Parking Provided": "599 parking spaces",
+        "Applicant": {
+          "name": "Bay West Development",
+          "address": "2 Henry Adams St, #450, San Francisco, CA 94103",
+          "phone": "(415) 680-4938"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "6707 Golden Gate Drive",
+      "docs": [],
+      "status": "Final Action",
+      "description": "The BayWest apartment project is comprised of a 313-unit apartment building with structured parking and 17,000 square feet of ground-floor commercial uses facing Dublin Boulevard on 4.9 acres. The project is on the southeast corner of Dublin Boulevard and Golden Gate Drive. The project also includes site and frontage streetscape improvements along Dublin Boulevard, Golden Gate Drive, and St. Patrick Way.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Kingsmill-corner-daytime.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Kingsmill-corner-daytime-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Aster (Bay West Mixed Use Project)"
+      }
+    },
+    "projectId": "projectdetail80",
+    "timestamp": "1513193626000"
+  }
+]

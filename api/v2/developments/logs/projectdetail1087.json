@@ -1,0 +1,72 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1087"
+    ],
+    "val": {
+      "id": "projectdetail1087",
+      "title": "Kaiser Commercial – Nissan",
+      "details": {
+        "Planning Application #": "PLPA-2019-00003",
+        "Application Type": "Planned Development Rezoning (Stage 1 and Stage 2 Development Plan) and Site Development Review",
+        "Application Submittal Date": "02/21/2019",
+        "General Plan Land Use": "Medical Campus/Commercial",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development",
+        "Project Area": "14.89 acres",
+        "Building Area": "35,000 square feet",
+        "Stories/Height": "2 stories / 28 feet",
+        "Applicant": {
+          "name": "Jessie Donsanjh",
+          "address": "4200 John Monego Court, Dublin, CA 94568",
+          "phone": "209-765-5840"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "Dublin Boulevard",
+      "docs": [
+        {
+          "name": "Planning Commission March 26, 2019 Staff Report",
+          "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1403&Inline=True"
+        },
+        {
+          "name": "City Council April 16, 2019 Staff Report",
+          "url": "https://citydocs.dublin.ca.gov/WebLink/DocView.aspx?id=661476&cr=1"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Planned Development Rezone with a Stage 1 and Stage 2 Development Plan and a Site Development Review Permit to construct a Nissan auto dealership.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Nissan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Nissan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/elevations.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/elevations-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/landscape.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/landscape-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/overall-layout.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/overall-layout-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.702382,
+        "lon": -121.86118,
+        "iconName": "car",
+        "title": "Kaiser Commercial – Nissan"
+      }
+    },
+    "projectId": "projectdetail1087",
+    "timestamp": "1684627200000"
+  }
+]

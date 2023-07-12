@@ -1,0 +1,350 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail173"
+    ],
+    "val": {
+      "id": "projectdetail173",
+      "title": "Wanmei Properties, Inc.",
+      "details": {
+        "Planning Application #": "PLPA-2015-00023",
+        "Application Type": "Planned Development Zoning, Vesting Tentative Tract Map, Site Development Review",
+        "Application Submittal Date": "05/21/2014",
+        "General Plan Land Use": "Medium Density Residential",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD - Planned Development",
+        "Project Area": "2.6 acres",
+        "Building Area": "2,600 - 3,100 square feet",
+        "Stories/Height": "2 stories / 30 feet",
+        "Parking Provided": "81 parking spaces",
+        "Applicant": {
+          "name": "Tassajara Dublin, LLC Attn: Hayes Shair",
+          "address": "520 Mill Creek Road, Fremont, CA 94539",
+          "phone": "(310) 869-1469"
+        },
+        "Project Planner": {
+          "name": "Marnie R. Delgado - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "marnie.delgado@dublin.ca.gov"
+        }
+      },
+      "location": "6237 Tassajara Road",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "The Applicant, Wanmei Properties, Inc., is requesting approval of a Planned Development Zoning, Vesting Tentative Map and Site Development Review to subdivide the property and construct 19 single family detached homes. The proposed project includes completing the frontage improvements along Tassajara Road as well as demolition of the existing single family home and ceasing operation of the various landscape contracting businesses that currently exist on the site.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/6237-Tassajara-Rezone.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/6237-Tassajara-Rezone-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aerial-Perspective_cropped.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aerial-Perspective_cropped-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Colored-Street-Scene_cropped.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Colored-Street-Scene_cropped-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Wanmei Properties, Inc."
+      }
+    },
+    "projectId": "projectdetail173",
+    "timestamp": "1476241401000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail173",
+      "docs",
+      0
+    ],
+    "val": {
+      "name": "wanmei-is-mnd-03-2016",
+      "url": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Wanmei.IS_.MND_.03.2016.pdf"
+    },
+    "projectId": "projectdetail173",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail173",
+      "docs",
+      1
+    ],
+    "val": {
+      "name": "wanmei-is-mnd-recirculated-10-2016",
+      "url": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Wanmei.IS_.MND_.Recirculated.10.2016.pdf"
+    },
+    "projectId": "projectdetail173",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail173",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Amy Million - Principal Planner",
+    "oldVal": "Marnie R. Delgado - Senior Planner",
+    "projectId": "projectdetail173",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail173",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "amy.million@dublin.ca.gov",
+    "oldVal": "marnie.delgado@dublin.ca.gov",
+    "projectId": "projectdetail173",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail173",
+      "docs",
+      0,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Wanmei.IS_.MND_.03.2016.pdf",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Wanmei.IS_.MND_.03.2016.pdf",
+    "projectId": "projectdetail173",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail173",
+      "docs",
+      1,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Wanmei.IS_.MND_.Recirculated.10.2016.pdf",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Wanmei.IS_.MND_.Recirculated.10.2016.pdf",
+    "projectId": "projectdetail173",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail173",
+      "docs",
+      2
+    ],
+    "val": {
+      "name": "Planning Commission Staff Report 061317",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Wanmei-Complete-SR-061317.pdf"
+    },
+    "projectId": "projectdetail173",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail173",
+      "docs",
+      3
+    ],
+    "val": {
+      "name": "Planning Commission Staff Report 062717 Part 1",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/June-27-SR-Wanmei-Complete-Part-1.pdf"
+    },
+    "projectId": "projectdetail173",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail173",
+      "docs",
+      4
+    ],
+    "val": {
+      "name": "Planning Commission Staff Report 062717 Part 2",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/June-27-SR-Wanmei-Complete-Part-2.pdf"
+    },
+    "projectId": "projectdetail173",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail173",
+      "status"
+    ],
+    "val": "Pubic Hearing",
+    "oldVal": "Application Under Review",
+    "projectId": "projectdetail173",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail173",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aerial-Perspective_cropped.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/6237-Tassajara-Rezone.jpg",
+    "projectId": "projectdetail173",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail173",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aerial-Perspective_cropped-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/6237-Tassajara-Rezone-150x150.jpg",
+    "projectId": "projectdetail173",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail173",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/6237-Tassajara-Rezone.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aerial-Perspective_cropped.jpg",
+    "projectId": "projectdetail173",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail173",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/6237-Tassajara-Rezone-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aerial-Perspective_cropped-150x150.jpg",
+    "projectId": "projectdetail173",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail173",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Colored-Street-Scene_cropped.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Colored-Street-Scene_cropped.jpg",
+    "projectId": "projectdetail173",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail173",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Colored-Street-Scene_cropped-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Colored-Street-Scene_cropped-150x150.jpg",
+    "projectId": "projectdetail173",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail173"
+    ],
+    "oldVal": {
+      "id": "projectdetail173",
+      "title": "Wanmei Properties, Inc.",
+      "details": {
+        "Planning Application #": "PLPA-2015-00023",
+        "Application Type": "Planned Development Zoning, Vesting Tentative Tract Map, Site Development Review",
+        "Application Submittal Date": "05/21/2014",
+        "General Plan Land Use": "Medium Density Residential",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD - Planned Development",
+        "Project Area": "2.6 acres",
+        "Building Area": "2,600 - 3,100 square feet",
+        "Stories/Height": "2 stories / 30 feet",
+        "Parking Provided": "81 parking spaces",
+        "Applicant": {
+          "name": "Tassajara Dublin, LLC Attn: Hayes Shair",
+          "address": "520 Mill Creek Road, Fremont, CA 94539",
+          "phone": "(310) 869-1469"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "6237 Tassajara Road",
+      "docs": [
+        {
+          "name": "wanmei-is-mnd-03-2016",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Wanmei.IS_.MND_.03.2016.pdf"
+        },
+        {
+          "name": "wanmei-is-mnd-recirculated-10-2016",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Wanmei.IS_.MND_.Recirculated.10.2016.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report 061317",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Wanmei-Complete-SR-061317.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report 062717 Part 1",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/June-27-SR-Wanmei-Complete-Part-1.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report 062717 Part 2",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/June-27-SR-Wanmei-Complete-Part-2.pdf"
+        }
+      ],
+      "status": "Pubic Hearing",
+      "description": "The Applicant, Wanmei Properties, Inc., is requesting approval of a Planned Development Zoning, Vesting Tentative Map and Site Development Review to subdivide the property and construct 19 single family detached homes. The proposed project includes completing the frontage improvements along Tassajara Road as well as demolition of the existing single family home and ceasing operation of the various landscape contracting businesses that currently exist on the site.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aerial-Perspective_cropped.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aerial-Perspective_cropped-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/6237-Tassajara-Rezone.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/6237-Tassajara-Rezone-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Colored-Street-Scene_cropped.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Colored-Street-Scene_cropped-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Wanmei Properties, Inc."
+      }
+    },
+    "projectId": "projectdetail173",
+    "timestamp": "1596943340000"
+  }
+]

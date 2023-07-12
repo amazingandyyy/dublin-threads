@@ -1,0 +1,160 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail164"
+    ],
+    "val": {
+      "id": "projectdetail164",
+      "title": "Heritage Park",
+      "details": {
+        "Planning Application #": "PLPA-2013-00002",
+        "Application Type": "General Plan/Dublin Village Historic Area Specific Plan Amendments, Planned Development rezoning with a related Stage 1 and Stage 2 Development Plan, Site Development Review, Parcel Map 10259, Vesting Tentative Subdivision Map-Tract 8160, Environmental Impact Report, and Development Agreement",
+        "Application Submittal Date": "01/25/2013",
+        "General Plan Land Use": "Medium Density Residential and Retail/Office",
+        "Specific Plan Area": "Dublin Village Historic Area Specific Plan",
+        "Zoning": "PD-Medium-High Density Residential, PD-Retail/Office and Historic Overlay",
+        "Project Area": "6.3 acres",
+        "Building Area": "2012-3167 square feet",
+        "Stories/Height": "2 stories / 30 feet",
+        "Applicant": {
+          "name": "Jason Tong, Pulte Homes",
+          "address": "6210 Stonridge Mall Rd., 5th Floor, Pleasanton, CA 94588",
+          "phone": "(925) 2013-00002"
+        },
+        "Project Planner": {
+          "name": "Martha Aja - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.aja@dublin.ca.gov"
+        }
+      },
+      "location": "11875 Dublin Boulevard",
+      "docs": [
+        {
+          "name": "Planning Commission Staff Report 6-10-14",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14351"
+        },
+        {
+          "name": "Heritage Park Project Plans",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14347"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Heritage Park is being developed by Pulte Homes. The development will include 54 single-family homes on 6.3 acres located at the corner of Donlon Way and Dublin Blvd.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/HERITAGE-PARK-STREET-SCENE.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/HERITAGE-PARK-STREET-SCENE-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/HERITAGE-PARK-SITE-PLAN.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/HERITAGE-PARK-SITE-PLAN-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Map-from-App.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Map-from-App-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Heritage Park"
+      }
+    },
+    "projectId": "projectdetail164",
+    "timestamp": "1476241401000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail164",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Martha Battaglia - Associate Planner",
+    "oldVal": "Martha Aja - Associate Planner",
+    "projectId": "projectdetail164",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail164",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "martha.battaglia@dublin.ca.gov",
+    "oldVal": "martha.aja@dublin.ca.gov",
+    "projectId": "projectdetail164",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail164"
+    ],
+    "oldVal": {
+      "id": "projectdetail164",
+      "title": "Heritage Park",
+      "details": {
+        "Planning Application #": "PLPA-2013-00002",
+        "Application Type": "General Plan/Dublin Village Historic Area Specific Plan Amendments, Planned Development rezoning with a related Stage 1 and Stage 2 Development Plan, Site Development Review, Parcel Map 10259, Vesting Tentative Subdivision Map-Tract 8160, Environmental Impact Report, and Development Agreement",
+        "Application Submittal Date": "01/25/2013",
+        "General Plan Land Use": "Medium Density Residential and Retail/Office",
+        "Specific Plan Area": "Dublin Village Historic Area Specific Plan",
+        "Zoning": "PD-Medium-High Density Residential, PD-Retail/Office and Historic Overlay",
+        "Project Area": "6.3 acres",
+        "Building Area": "2012-3167 square feet",
+        "Stories/Height": "2 stories / 30 feet",
+        "Applicant": {
+          "name": "Jason Tong, Pulte Homes",
+          "address": "6210 Stonridge Mall Rd., 5th Floor, Pleasanton, CA 94588",
+          "phone": "(925) 2013-00002"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "11875 Dublin Boulevard",
+      "docs": [
+        {
+          "name": "Planning Commission Staff Report 6-10-14",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14351"
+        },
+        {
+          "name": "Heritage Park Project Plans",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14347"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Heritage Park is being developed by Pulte Homes. The development will include 54 single-family homes on 6.3 acres located at the corner of Donlon Way and Dublin Blvd.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/HERITAGE-PARK-STREET-SCENE.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/HERITAGE-PARK-STREET-SCENE-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/HERITAGE-PARK-SITE-PLAN.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/HERITAGE-PARK-SITE-PLAN-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Map-from-App.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Map-from-App-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Heritage Park"
+      }
+    },
+    "projectId": "projectdetail164",
+    "timestamp": "1513193626000"
+  }
+]

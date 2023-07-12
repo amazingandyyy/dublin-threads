@@ -1,0 +1,74 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1402"
+    ],
+    "val": {
+      "id": "projectdetail1402",
+      "title": "Regional Street Senior Affordable Housing",
+      "details": {
+        "Planning Application #": "PLPA-2021-00035",
+        "Application Type": "Site Development Review Permit",
+        "Application Submittal Date": "08/23/2021",
+        "General Plan Land Use": "Downtown Dublin - Transit-Oriented District",
+        "Specific Plan Area": "Downtown Dublin",
+        "Zoning": "Downtown Dublin - Transit-Oriented District",
+        "Project Area": "1.32 acres",
+        "Applicant": {
+          "name": "Eden Housing",
+          "address": "22645 Grand Street, Hayward, CA 94541",
+          "phone": "(510) 603-1766"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Associate Planner",
+          "phone": "925-833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "6541 Regional Street",
+      "docs": [
+        {
+          "name": "Planning Commission Staff Report 11.23.2021",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/12/Planning-Commission-Staff-Report-11.23.2021.pdf"
+        },
+        {
+          "name": "Planning Commission Resolution No. 21-11",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/12/Planning-Commission-Resolution-No.-21-11.pdf"
+        },
+        {
+          "name": "Approved Project Plans",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/12/Approved-Project-Plans.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Eden Housing proposes to develop a 1.32-acre site located at 6541-6543 Regional Street within the Downtown Dublin Specific Plan Transit-Oriented District and walking distance of the West Dublin/Pleasanton BART Station. The Regional Senior Affordable Housing project consists of 113 units of housing to serve low- and very low-income seniors and includes amenity space and parking.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/09/12_Regional-St_Entitlements-Set-20-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/09/12_Regional-St_Entitlements-Set-20-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/09/12_Regional-St_Entitlements-Set-21-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/09/12_Regional-St_Entitlements-Set-21-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/09/12_Regional-St_Entitlements-Set-16-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/09/12_Regional-St_Entitlements-Set-16-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/09/12_Regional-St_Entitlements-Set-23-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/09/12_Regional-St_Entitlements-Set-23-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.7007095,
+        "lon": -121.9318894,
+        "iconName": "home",
+        "title": "Regional Street Senior Affordable Housing"
+      }
+    },
+    "projectId": "projectdetail1402",
+    "timestamp": "1684627200000"
+  }
+]

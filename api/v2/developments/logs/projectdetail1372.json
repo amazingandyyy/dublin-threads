@@ -1,0 +1,73 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1372"
+    ],
+    "val": {
+      "id": "projectdetail1372",
+      "title": "Infiniti Dealership",
+      "details": {
+        "Planning Application #": "PLPA-2021-00018",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "04/28/2021",
+        "General Plan Land Use": "Medical Campus / Commercial",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD Ordinance No. 03-19",
+        "Project Area": "5.38 acres",
+        "Building Area": "10,461 square feet",
+        "Stories/Height": "1 story / 25 feet",
+        "Parking Provided": "30 parking spaces",
+        "Applicant": {
+          "name": "T. Wayne Bogart",
+          "address": "1725 Sanguinetti Lane, Stockton, CA 95205",
+          "phone": "209-993-7867"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "3200 Dublin Boulevard",
+      "docs": [
+        {
+          "name": "Planning Commission November, 23, 2021 Staff Report",
+          "url": "https://d3n9y02raazwpg.cloudfront.net/dublin/9d75036d-7233-11eb-920e-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1637697104.pdf"
+        },
+        {
+          "name": "Planning Commission July 26, 2022 Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/792955ce8a7ab5aaad4647ea8499732b0.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "A Site Development Review Permit to construct a 10,461 square foot Infiniti automobile showroom and service center adjacent to the upcoming Nissan automobile dealership approved in 2019.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Dublin-Infiniti-Nissan_View-2-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Dublin-Infiniti-Nissan_View-2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Dublin-Infiniti-Nissan_View-1-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Dublin-Infiniti-Nissan_View-1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Infinity-Site-Plan-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Infinity-Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Infiniti-Dublin-Elevations-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Infiniti-Dublin-Elevations-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.702228,
+        "lon": -121.861764,
+        "iconName": "car",
+        "title": "Infiniti Dealership"
+      }
+    },
+    "projectId": "projectdetail1372",
+    "timestamp": "1684627200000"
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1508"
+    ],
+    "val": {
+      "id": "projectdetail1508",
+      "title": "Hexcel Redevelopment",
+      "details": {
+        "Planning Application #": "PLPA-2022-00038",
+        "Application Type": "Planned Development Rezone, Site Development Review Permit and Heritage Tree Removal Permit",
+        "Application Submittal Date": "10/18/2022",
+        "General Plan Land Use": "Business Park/Industrial",
+        "Specific Plan Area": "Dublin Village Historic Area Specific Plan - Business Park/Industrial",
+        "Zoning": "Light Industrial/Planned Development",
+        "Project Area": "8.81 acres",
+        "Building Area": "125,304 square feet",
+        "Foor Area Ratio": "0.33 FAR",
+        "Stories/Height": "40 feet",
+        "Parking Provided": "217 parking spaces",
+        "Applicant": {
+          "name": "Jennifer Freedman",
+          "address": "19700 S. Vermont Avenue, Torrance, CA 90502",
+          "phone": "(310) 354-3460"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "11711 Dublin Boulevard",
+      "docs": [
+        {
+          "name": "Notice of Preparation (NOP)",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Notice-of-Preparation-NOP.pdf"
+        },
+        {
+          "name": "Notice of Scoping Meeting",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Notice-of-Scoping-Meeting.pdf"
+        }
+      ],
+      "status": "Application Under Review",
+      "description": "Overton Moore Properties proposes to redevelop a 8.81 acre site located at 11711 Dublin Boulevard. The project would demolish an existing 62,715 square-foot research and development building and construct a new 125,304 square-foot light industrial, advanced manufacturing and life sciences building with 217 parking stalls and related site improvements. Requested approvals include a Planned Development Rezone with a related Stage 1 and Stage 2 Development Plan, Site Development Review Permit and Heritage Tree Removal Permit.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Front-Rendering.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Front-Rendering-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations-2.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations-2-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-244.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-244-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape-1.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape-1-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape-2.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape-2-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.70004,
+        "lon": -121.94023,
+        "iconName": "dot",
+        "title": "Hexcel Redevelopment"
+      }
+    },
+    "projectId": "projectdetail1508",
+    "timestamp": "1684627200000"
+  }
+]

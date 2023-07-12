@@ -21,7 +21,11 @@ jobs:
           node-version: 17.x
 
       - uses: actions/checkout@v3
-
+      - name: set timezone to America/Los_Angeles
+        uses: szenius/set-timezone@v1.2
+        with:
+          timezoneLinux: "America/Los_Angeles"
+          timezoneMacos: "America/Los_Angeles"
       - name: list files
         run: tree -L 2 .
 
@@ -43,6 +47,7 @@ jobs:
           git config --global user.email 'dublin-ca@amazingandyyy.com'
           git add -A
           git commit -m 'feat(data): snapshot today'
+          git push
       - name: generate json
         working-directory: ./worker
         run: npm run pipeline:json

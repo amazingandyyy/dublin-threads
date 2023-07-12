@@ -1,0 +1,253 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail321"
+    ],
+    "val": {
+      "id": "projectdetail321",
+      "title": "Grafton Plaza – Commercial",
+      "details": {
+        "Planning Application #": "PLPA-2015-00048",
+        "Application Type": "PD Rezone with related Stage 2 Development Plan and Vesting Tentative Parcel Map",
+        "Application Submittal Date": "09/23/2015",
+        "General Plan Land Use": "Campus Office/Mixed Use",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD - Planned Development Ord 10-10",
+        "Project Area": "3.68 acres",
+        "Applicant": {
+          "name": "James Tong, Stanforth Holding Co., LLC",
+          "address": "4080 Grafton Street, Suite #200, Dublin, CA 94568",
+          "phone": "(925) 463-1666"
+        },
+        "Project Planner": {
+          "name": "Martha Aja - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.aja@dublin.ca.gov"
+        }
+      },
+      "location": "4075 Grafton Street",
+      "docs": [],
+      "status": "Final Action",
+      "description": "The Grafton Plaza project site has a General Plan/Eastern Dublin Specific Plan land use designation of Mixed Use 2/Campus Office and related Planned Development Zoning. This zoning allows office uses or a combination of residential, retail commercial and office uses.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Site-Plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Grafton-Plaza-project-150x1501.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Grafton-Plaza-project-150x1501.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Grafton Plaza – Commercial"
+      }
+    },
+    "projectId": "projectdetail321",
+    "timestamp": "1476241401000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail321",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Martha Battaglia - Associate Planner",
+    "oldVal": "Martha Aja - Associate Planner",
+    "projectId": "projectdetail321",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail321",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "martha.Battaglia@dublin.ca.gov",
+    "oldVal": "martha.aja@dublin.ca.gov",
+    "projectId": "projectdetail321",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail321",
+      "title"
+    ],
+    "val": "Grafton Plaza - Commercial",
+    "oldVal": "Grafton Plaza – Commercial",
+    "projectId": "projectdetail321",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail321",
+      "location"
+    ],
+    "val": "Grafton Street",
+    "oldVal": "4075 Grafton Street",
+    "projectId": "projectdetail321",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail321",
+      "docs",
+      0
+    ],
+    "val": {
+      "name": "City Council Staff Report, Item 6.2 4/5/16",
+      "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=580910&dbid=0"
+    },
+    "projectId": "projectdetail321",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail321",
+      "docs",
+      1
+    ],
+    "val": {
+      "name": "City Council Staff Report, Item 4.12 4/19/16",
+      "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=582019&dbid=0"
+    },
+    "projectId": "projectdetail321",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail321",
+      "geolocation",
+      "title"
+    ],
+    "val": "Grafton Plaza - Commercial",
+    "oldVal": "Grafton Plaza – Commercial",
+    "projectId": "projectdetail321",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail321",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Site-Plan.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Site-Plan.jpg",
+    "projectId": "projectdetail321",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail321",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Site-Plan-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Site-Plan-150x150.jpg",
+    "projectId": "projectdetail321",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail321",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Grafton-Plaza-project-150x1501.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Grafton-Plaza-project-150x1501.jpg",
+    "projectId": "projectdetail321",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail321",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Grafton-Plaza-project-150x1501.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Grafton-Plaza-project-150x1501.jpg",
+    "projectId": "projectdetail321",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail321"
+    ],
+    "oldVal": {
+      "id": "projectdetail321",
+      "title": "Grafton Plaza - Commercial",
+      "details": {
+        "Planning Application #": "PLPA-2015-00048",
+        "Application Type": "PD Rezone with related Stage 2 Development Plan and Vesting Tentative Parcel Map",
+        "Application Submittal Date": "09/23/2015",
+        "General Plan Land Use": "Campus Office/Mixed Use",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD - Planned Development Ord 10-10",
+        "Project Area": "3.68 acres",
+        "Applicant": {
+          "name": "James Tong, Stanforth Holding Co., LLC",
+          "address": "4080 Grafton Street, Suite #200, Dublin, CA 94568",
+          "phone": "(925) 463-1666"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.Battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "Grafton Street",
+      "docs": [
+        {
+          "name": "City Council Staff Report, Item 6.2 4/5/16",
+          "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=580910&dbid=0"
+        },
+        {
+          "name": "City Council Staff Report, Item 4.12 4/19/16",
+          "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=582019&dbid=0"
+        }
+      ],
+      "status": "Final Action",
+      "description": "The Grafton Plaza project site has a General Plan/Eastern Dublin Specific Plan land use designation of Mixed Use 2/Campus Office and related Planned Development Zoning. This zoning allows office uses or a combination of residential, retail commercial and office uses.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Site-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Grafton-Plaza-project-150x1501.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Grafton-Plaza-project-150x1501.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Grafton Plaza - Commercial"
+      }
+    },
+    "projectId": "projectdetail321",
+    "timestamp": "1596943340000"
+  }
+]

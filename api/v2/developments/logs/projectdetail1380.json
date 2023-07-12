@@ -1,0 +1,81 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1380"
+    ],
+    "val": {
+      "id": "projectdetail1380",
+      "title": "Amador Station",
+      "details": {
+        "Planning Application #": "PLPA-2021-00019",
+        "Application Type": "Site Development Review Permit, Lot Line Adjustment, Community Benefit Agreement and Affordable Housing Agreement",
+        "Application Submittal Date": "05/05/2021",
+        "General Plan Land Use": "Downtown Dublin - Transit Oriented District",
+        "Specific Plan Area": "Downtown Dublin Specific Plan",
+        "Zoning": "Downtown Dublin Zoning District - DDZD",
+        "Project Area": "3.59 acres",
+        "Building Area": "228,420 square feet",
+        "Stories/Height": "5 stories / 61 feet",
+        "Parking Provided": "245 parking spaces",
+        "Applicant": {
+          "name": "Brad Wiblin, Bridge Housing",
+          "address": "600 California Street, Ste. 900 San Francisco, CA 94108",
+          "phone": "415-321-3565"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "6501 Golden Gate Drive",
+      "docs": [
+        {
+          "name": "Planning Commission Agenda & Staff Report August 10, 2021",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/98837e23cc8392d73e6155bda18f2be10.pdf"
+        },
+        {
+          "name": "City Council Agenda & Staff Report September 21, 2021",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/7fae01514f5d9509435be742c201a26c0.pdf"
+        },
+        {
+          "name": "City Council Staff Agenda & Staff Report February 21, 2023",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/5088c1b9229b307c05b520351afcad9e0.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Development of an affordable housing project consisting of 300 affordable units to be built in two phases1 of 136 units and 164 units, , ground floor retail, amenity space, and parking. The project requires a Site Development Review Permit, Lot Line Adjustment, Community Benefit Agreement and Affordable Housing Agreement.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/05/elelvation-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/05/elelvation-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/05/birds-eye-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/05/birds-eye-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/05/entry-view-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/05/entry-view-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/05/site-plan-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/05/site-plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/05/elelvation1-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/05/elelvation1-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.700799,
+        "lon": -121.928611,
+        "iconName": "building",
+        "title": "Amador Station"
+      }
+    },
+    "projectId": "projectdetail1380",
+    "timestamp": "1684627200000"
+  }
+]

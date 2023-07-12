@@ -67,6 +67,7 @@ exports.generateValidDatekey = () => {
   let m = t.getMonth() + 1
   let d = t.getDate()
   let h = t.getHours()
+  // h = process.env.CI === 'true' ? Number(h) - 3 : h
   m = m < 10 ? `0${m}` : m
   d = d < 10 ? `0${d}` : d
   h = h < 10 ? `0${h}` : h

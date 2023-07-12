@@ -1,0 +1,138 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail935"
+    ],
+    "val": {
+      "id": "projectdetail935",
+      "title": "Grand View Project",
+      "details": {
+        "Planning Application #": "PLPA-2018-00006",
+        "Application Type": "Pre-Application",
+        "Application Submittal Date": "03/07/2018",
+        "General Plan Land Use": "General Commercial, General Commercial/Campus Office, Open Space and Medium/High Density Residential",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development",
+        "Project Area": "122 acres",
+        "Applicant": {
+          "name": "Haiyang He, GH PacVest, LLC",
+          "address": "3000 Executive Pkwy, #375, San Ramon, CA 94583",
+          "phone": "(925) 261-3881"
+        },
+        "Project Planner": {
+          "name": "Mandy Kang - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "mandy.kang@dublin.ca.gov"
+        }
+      },
+      "location": "Fallon Road",
+      "docs": [],
+      "status": "Pre-Application",
+      "description": "The property owner has submitted a Pre-Application for the proposed Grand View Project. The conceptual proposal is for a mixed use project comprised of up to 2,391,668 square feet of retail/commercial and office uses and up to 338 housing units. Preliminary concepts for the project include a pedestrian oriented “main street” that would be supported by retail, office, hotels and recreational uses. The proposed project would include the extension of Dublin Boulevard and improvements to Croak Road in order to accommodate the proposed development. If the project were to move forward, future entitlements may include Planned Development Zoning, Site Development Review for each component of the project, a Tentative Map(s), and environment review in accordance with the California Environmental Quality Act.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/04/Conceptual-Site-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/04/Conceptual-Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/04/Illlustrative-Site-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/04/Illlustrative-Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/04/Vicinity-Map.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/04/Vicinity-Map-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Grand View Project"
+      }
+    },
+    "projectId": "projectdetail935",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail935",
+      "details",
+      "Applicant",
+      "name"
+    ],
+    "val": "Yang Zhang, GH PacVest, LLC",
+    "oldVal": "Haiyang He, GH PacVest, LLC",
+    "projectId": "projectdetail935",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail935",
+      "details",
+      "Applicant",
+      "phone"
+    ],
+    "val": "(925) 997-6812",
+    "oldVal": "(925) 261-3881",
+    "projectId": "projectdetail935",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail935"
+    ],
+    "oldVal": {
+      "id": "projectdetail935",
+      "title": "Grand View Project",
+      "details": {
+        "Planning Application #": "PLPA-2018-00006",
+        "Application Type": "Pre-Application",
+        "Application Submittal Date": "03/07/2018",
+        "General Plan Land Use": "General Commercial, General Commercial/Campus Office, Open Space and Medium/High Density Residential",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development",
+        "Project Area": "122 acres",
+        "Applicant": {
+          "name": "Yang Zhang, GH PacVest, LLC",
+          "address": "3000 Executive Pkwy, #375, San Ramon, CA 94583",
+          "phone": "(925) 997-6812"
+        },
+        "Project Planner": {
+          "name": "Mandy Kang - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "mandy.kang@dublin.ca.gov"
+        }
+      },
+      "location": "Fallon Road",
+      "docs": [],
+      "status": "Pre-Application",
+      "description": "The property owner has submitted a Pre-Application for the proposed Grand View Project. The conceptual proposal is for a mixed use project comprised of up to 2,391,668 square feet of retail/commercial and office uses and up to 338 housing units. Preliminary concepts for the project include a pedestrian oriented “main street” that would be supported by retail, office, hotels and recreational uses. The proposed project would include the extension of Dublin Boulevard and improvements to Croak Road in order to accommodate the proposed development. If the project were to move forward, future entitlements may include Planned Development Zoning, Site Development Review for each component of the project, a Tentative Map(s), and environment review in accordance with the California Environmental Quality Act.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/04/Conceptual-Site-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/04/Conceptual-Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/04/Illlustrative-Site-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/04/Illlustrative-Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/04/Vicinity-Map.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/04/Vicinity-Map-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Grand View Project"
+      }
+    },
+    "projectId": "projectdetail935",
+    "timestamp": "1596943340000"
+  }
+]

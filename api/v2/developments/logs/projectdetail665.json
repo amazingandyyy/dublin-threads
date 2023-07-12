@@ -1,0 +1,405 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail665"
+    ],
+    "val": {
+      "id": "projectdetail665",
+      "title": "At Dublin",
+      "details": {
+        "Planning Application #": "PLPA-2017-00061",
+        "Application Type": "General Plan Amendment, Specific Plan Amendment, Planned Development Rezoning (Stage 1 and Stage 2), Site Development Review, Vesting Tentative Map",
+        "Application Submittal Date": "10/13/2017",
+        "General Plan Land Use": "Neighborhood Commercial, General Commercial, Medium High Density Residential, High Density Residential, and Public/Semi-Public",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development Resolution No. 104-94",
+        "Project Area": "76.1 acres",
+        "Building Area": "Up to 680 residential units and 454,500 square feet",
+        "Applicant": {
+          "name": "Elizabeth Cobb, Shea Properties",
+          "address": "130 Vantis, Suite 200, Aliso Viejo, CA 92656",
+          "phone": "949-389-7286"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "Tassajara Road",
+      "docs": [
+        {
+          "name": "AT Dublin City Council Staff Report GPA Initiation 10.03.17",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/AT-Dublin-CC-SR-101317-Final.pdf"
+        },
+        {
+          "name": "Notice of Preparation and Notice of Scoping Meeting for EIR",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At-Dublin_NOP.pdf"
+        }
+      ],
+      "status": "Application Under Review",
+      "description": "At Dublin project consists of a mix of lifestyle retail and residential uses on the vacant 76.1 acre parcel generally bound by Tassajara Road, Gleason Drive, Brannigan Street and I-580. The preliminary proposal would support up to 454,500 square feet of commercial uses and up to 680 residential units.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/17_1017_Main-Street.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/17_1017_Main-Street-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Site-Plan-At-Dublin.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Site-Plan-At-Dublin-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/AT-Dublin_LUP-1.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/AT-Dublin_LUP-1.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "At Dublin"
+      }
+    },
+    "projectId": "projectdetail665",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail665",
+      "details",
+      "Project Area"
+    ],
+    "val": "77.3 acres",
+    "oldVal": "76.1 acres",
+    "projectId": "projectdetail665",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail665",
+      "details",
+      "Building Area"
+    ],
+    "val": "Up to 665 residential units and 400,500 square feet",
+    "oldVal": "Up to 680 residential units and 454,500 square feet",
+    "projectId": "projectdetail665",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail665",
+      "docs",
+      0,
+      "name"
+    ],
+    "val": "City Council Staff Report GPA Initiation 10.03.17",
+    "oldVal": "AT Dublin City Council Staff Report GPA Initiation 10.03.17",
+    "projectId": "projectdetail665",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail665",
+      "docs",
+      2
+    ],
+    "val": {
+      "name": "At Dublin Draft EIR Notice of Availability",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At-Dublin_NOA.pdf"
+    },
+    "projectId": "projectdetail665",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail665",
+      "docs",
+      3
+    ],
+    "val": {
+      "name": "At Dublin Draft EIR July 2018",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At_Dublin_Public_Review_Draft_EIR_July-2018.pdf"
+    },
+    "projectId": "projectdetail665",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail665",
+      "docs",
+      4
+    ],
+    "val": {
+      "name": "Appendix A NOP and NOP Comments Appendix B AQGHG Data Appendix C-1 Biological Resources Assessment Appendix C-2 Rare Plant Survey Report Appendix C-3 Wetland Delineation Report Appendix D Geotechnical Report Appendix E Phase I ESA Appendix F Preliminary Drainage Study Appendix G Preliminary Storm Water Management Appendix H Noise Data Appendix I Water Supply Assessment Appendix J Traffic Impact Analysis Data",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Appendix_A_NOP-and-NOP-Comments.pdf"
+    },
+    "projectId": "projectdetail665",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail665",
+      "docs",
+      5
+    ],
+    "val": {
+      "name": "At_Dublin Final_EIR",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At_Dublin_Public_Review_Final_EIR_10-23-18.pdf"
+    },
+    "projectId": "projectdetail665",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail665",
+      "docs",
+      6
+    ],
+    "val": {
+      "name": "At Dublin DEIR Public Comment Letters",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At-Dublin-DEIR-Public-Comment-Letters.pdf"
+    },
+    "projectId": "projectdetail665",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail665",
+      "docs",
+      7
+    ],
+    "val": {
+      "name": "Planning Commission Staff Report – Study Session October 3-4, 2018",
+      "url": "https://dublinca.iqm2.com/Citizens/detail_meeting.aspx?ID=1342"
+    },
+    "projectId": "projectdetail665",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail665",
+      "docs",
+      8
+    ],
+    "val": {
+      "name": "Planning Commission Staff Report – Public Hearing October 30, 2018",
+      "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=14&ID=1346&Inline=True"
+    },
+    "projectId": "projectdetail665",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail665",
+      "docs",
+      9
+    ],
+    "val": {
+      "name": "City Council Staff Report – Public Hearing November 20, 2018",
+      "url": "http://www.dublin.ca.gov/ArchiveCenter/ViewFile/Item/917"
+    },
+    "projectId": "projectdetail665",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail665",
+      "status"
+    ],
+    "val": "Pubic Hearing",
+    "oldVal": "Application Under Review",
+    "projectId": "projectdetail665",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail665",
+      "description"
+    ],
+    "val": "At Dublin project consists of a mix of lifestyle retail and residential uses on the vacant 76.1 acre parcel generally bound by Tassajara Road, Gleason Drive, Brannigan Street and I-580. The preliminary proposal would support up to 400,500 square feet of commercial uses and up to 665 residential units.",
+    "oldVal": "At Dublin project consists of a mix of lifestyle retail and residential uses on the vacant 76.1 acre parcel generally bound by Tassajara Road, Gleason Drive, Brannigan Street and I-580. The preliminary proposal would support up to 454,500 square feet of commercial uses and up to 680 residential units.",
+    "projectId": "projectdetail665",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail665",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At-Dublin-Site-Plan-June-2018.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Site-Plan-At-Dublin.jpg",
+    "projectId": "projectdetail665",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail665",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At-Dublin-Site-Plan-June-2018-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Site-Plan-At-Dublin-150x150.jpg",
+    "projectId": "projectdetail665",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail665",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Updated-Land-use-Plan-091018.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/AT-Dublin_LUP-1.jpg",
+    "projectId": "projectdetail665",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail665",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Updated-Land-use-Plan-091018-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/AT-Dublin_LUP-1.jpg",
+    "projectId": "projectdetail665",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail665",
+      "images",
+      3
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/AT-Dublin-Stage-2-Development-Plan.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/AT-Dublin-Stage-2-Development-Plan-150x150.jpg"
+    },
+    "projectId": "projectdetail665",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail665"
+    ],
+    "oldVal": {
+      "id": "projectdetail665",
+      "title": "At Dublin",
+      "details": {
+        "Planning Application #": "PLPA-2017-00061",
+        "Application Type": "General Plan Amendment, Specific Plan Amendment, Planned Development Rezoning (Stage 1 and Stage 2), Site Development Review, Vesting Tentative Map",
+        "Application Submittal Date": "10/13/2017",
+        "General Plan Land Use": "Neighborhood Commercial, General Commercial, Medium High Density Residential, High Density Residential, and Public/Semi-Public",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development Resolution No. 104-94",
+        "Project Area": "77.3 acres",
+        "Building Area": "Up to 665 residential units and 400,500 square feet",
+        "Applicant": {
+          "name": "Elizabeth Cobb, Shea Properties",
+          "address": "130 Vantis, Suite 200, Aliso Viejo, CA 92656",
+          "phone": "949-389-7286"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "Tassajara Road",
+      "docs": [
+        {
+          "name": "City Council Staff Report GPA Initiation 10.03.17",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/AT-Dublin-CC-SR-101317-Final.pdf"
+        },
+        {
+          "name": "Notice of Preparation and Notice of Scoping Meeting for EIR",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At-Dublin_NOP.pdf"
+        },
+        {
+          "name": "At Dublin Draft EIR Notice of Availability",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At-Dublin_NOA.pdf"
+        },
+        {
+          "name": "At Dublin Draft EIR July 2018",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At_Dublin_Public_Review_Draft_EIR_July-2018.pdf"
+        },
+        {
+          "name": "Appendix A NOP and NOP Comments Appendix B AQGHG Data Appendix C-1 Biological Resources Assessment Appendix C-2 Rare Plant Survey Report Appendix C-3 Wetland Delineation Report Appendix D Geotechnical Report Appendix E Phase I ESA Appendix F Preliminary Drainage Study Appendix G Preliminary Storm Water Management Appendix H Noise Data Appendix I Water Supply Assessment Appendix J Traffic Impact Analysis Data",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Appendix_A_NOP-and-NOP-Comments.pdf"
+        },
+        {
+          "name": "At_Dublin Final_EIR",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At_Dublin_Public_Review_Final_EIR_10-23-18.pdf"
+        },
+        {
+          "name": "At Dublin DEIR Public Comment Letters",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At-Dublin-DEIR-Public-Comment-Letters.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report – Study Session October 3-4, 2018",
+          "url": "https://dublinca.iqm2.com/Citizens/detail_meeting.aspx?ID=1342"
+        },
+        {
+          "name": "Planning Commission Staff Report – Public Hearing October 30, 2018",
+          "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=14&ID=1346&Inline=True"
+        },
+        {
+          "name": "City Council Staff Report – Public Hearing November 20, 2018",
+          "url": "http://www.dublin.ca.gov/ArchiveCenter/ViewFile/Item/917"
+        }
+      ],
+      "status": "Pubic Hearing",
+      "description": "At Dublin project consists of a mix of lifestyle retail and residential uses on the vacant 76.1 acre parcel generally bound by Tassajara Road, Gleason Drive, Brannigan Street and I-580. The preliminary proposal would support up to 400,500 square feet of commercial uses and up to 665 residential units.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/17_1017_Main-Street.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/17_1017_Main-Street-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At-Dublin-Site-Plan-June-2018.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At-Dublin-Site-Plan-June-2018-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Updated-Land-use-Plan-091018.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Updated-Land-use-Plan-091018-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/AT-Dublin-Stage-2-Development-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/AT-Dublin-Stage-2-Development-Plan-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "At Dublin"
+      }
+    },
+    "projectId": "projectdetail665",
+    "timestamp": "1596943340000"
+  }
+]

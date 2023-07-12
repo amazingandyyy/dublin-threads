@@ -1,0 +1,49 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1378"
+    ],
+    "val": {
+      "id": "projectdetail1378",
+      "title": "Righetti Property",
+      "details": {
+        "Planning Application #": "PLPA-2021-00017",
+        "Application Type": "Planned Development Rezone, Vesting Tentative Parcel Map and Development Agreement",
+        "Application Submittal Date": "04/28/2021",
+        "General Plan Land Use": "Industrial Park, General Commercial/Campus Office and Medium Density Residential",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD Ordinance No. 32-05",
+        "Project Area": "49.61 acres",
+        "Applicant": {
+          "name": "Milton Righetti",
+          "address": "P.O. Box 11429, Zephyer Cove, NV 89448",
+          "phone": "510-861-1669"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "Collier Canyon Road",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "The proposed project would establish zoning regulations and development standard for future development of up to 96 homes, approximately 372,350 square feet of industrial uses and approximately 321,125 square feet of campus office/light industrial uses. The proposed project would also subdivide the 49.6-acre site into four parcels to accommodate proposed residential and industrial development.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/site-plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/site-plan-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.704195,
+        "lon": -121.837434,
+        "iconName": "dot",
+        "title": "Righetti Property"
+      }
+    },
+    "projectId": "projectdetail1378",
+    "timestamp": "1684627200000"
+  }
+]

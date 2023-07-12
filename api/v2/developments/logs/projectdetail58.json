@@ -1,0 +1,98 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail58"
+    ],
+    "val": {
+      "id": "projectdetail58",
+      "title": "East County Hall of Justice (Alameda County Courthouse)",
+      "details": {
+        "Planning Application #": "PA 02-030",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "07/02/2002",
+        "General Plan Land Use": "Public/Semi-Public",
+        "Specific Plan Area": "Eastern Extended Planning Area",
+        "Zoning": "Planned Development",
+        "Project Area": "22.0 Acres acres",
+        "Building Area": "196,219 square feet",
+        "Applicant": {
+          "name": "Alameda County Surplus Property Authority",
+          "address": "224 W. Winton Avenue, Room 110, Hayward, CA 94544",
+          "phone": "n/a"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "5149 Gleason Drive",
+      "docs": [],
+      "status": "Pre-Application",
+      "description": "The East County Hall of Justice (Alameda County Courthouse) is a 196,219 square foot building comprised of 13 courtrooms, offices, and associated facilities on 22 acres located at 5149 Gleason Drive. The project is under construction and is anticipated to be complete in Spring 2017.",
+      "images": [
+        {
+          "original": "",
+          "thumbnail": ""
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "East County Hall of Justice (Alameda County Courthouse)"
+      }
+    },
+    "projectId": "projectdetail58",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail58"
+    ],
+    "oldVal": {
+      "id": "projectdetail58",
+      "title": "East County Hall of Justice (Alameda County Courthouse)",
+      "details": {
+        "Planning Application #": "PA 02-030",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "07/02/2002",
+        "General Plan Land Use": "Public/Semi-Public",
+        "Specific Plan Area": "Eastern Extended Planning Area",
+        "Zoning": "Planned Development",
+        "Project Area": "22.0 Acres acres",
+        "Building Area": "196,219 square feet",
+        "Applicant": {
+          "name": "Alameda County Surplus Property Authority",
+          "address": "224 W. Winton Avenue, Room 110, Hayward, CA 94544",
+          "phone": "n/a"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "5149 Gleason Drive",
+      "docs": [],
+      "status": "Pre-Application",
+      "description": "The East County Hall of Justice (Alameda County Courthouse) is a 196,219 square foot building comprised of 13 courtrooms, offices, and associated facilities on 22 acres located at 5149 Gleason Drive. The project is under construction and is anticipated to be complete in Spring 2017.",
+      "images": [
+        {
+          "original": "",
+          "thumbnail": ""
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "East County Hall of Justice (Alameda County Courthouse)"
+      }
+    },
+    "projectId": "projectdetail58",
+    "timestamp": "1513193626000"
+  }
+]

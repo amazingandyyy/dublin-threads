@@ -1,0 +1,142 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail144"
+    ],
+    "val": {
+      "id": "projectdetail144",
+      "title": "Schaefer Ranch – Unit 2",
+      "details": {
+        "Planning Application #": "PLPA-2012-00014",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "02/19/2013",
+        "General Plan Land Use": "Single-Family Residential",
+        "Specific Plan Area": "None",
+        "Zoning": "PD - Planned Development",
+        "Project Area": "41.5 acres",
+        "Building Area": "2,753-4007 square feet",
+        "Stories/Height": "2 stories / 32 feet",
+        "Applicant": {
+          "name": "Ben Helber, Toll Brothers",
+          "address": "2000 Crow Canyon Place, Suite #200, San Ramon, CA 94583",
+          "phone": "(925) 855-0260"
+        },
+        "Project Planner": {
+          "name": "Martha Aja - Associate Planner",
+          "phone": "925-833-6610",
+          "email": "martha.aja@dublin.ca.gov"
+        }
+      },
+      "location": "7566 Mindy Mae Lane",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Schaefer Ranch – Unit 2 is a 41.5 acre development for 140 single-family residential units located at the corner of Dublin Blvd. and Schaefer Ranch Road.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Elevations-1.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Elevations-1-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Site-plan-1.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Site-plan-1-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Schaefer-Ranch-Unit-2.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Schaefer-Ranch-Unit-2-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Schaefer Ranch – Unit 2"
+      }
+    },
+    "projectId": "projectdetail144",
+    "timestamp": "1476241401000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail144",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Martha Battaglia - Associate Planner",
+    "oldVal": "Martha Aja - Associate Planner",
+    "projectId": "projectdetail144",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail144",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "martha.Battaglia@dublin.ca.gov",
+    "oldVal": "martha.aja@dublin.ca.gov",
+    "projectId": "projectdetail144",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail144"
+    ],
+    "oldVal": {
+      "id": "projectdetail144",
+      "title": "Schaefer Ranch – Unit 2",
+      "details": {
+        "Planning Application #": "PLPA-2012-00014",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "02/19/2013",
+        "General Plan Land Use": "Single-Family Residential",
+        "Specific Plan Area": "None",
+        "Zoning": "PD - Planned Development",
+        "Project Area": "41.5 acres",
+        "Building Area": "2,753-4007 square feet",
+        "Stories/Height": "2 stories / 32 feet",
+        "Applicant": {
+          "name": "Ben Helber, Toll Brothers",
+          "address": "2000 Crow Canyon Place, Suite #200, San Ramon, CA 94583",
+          "phone": "(925) 855-0260"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "925-833-6610",
+          "email": "martha.Battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "7566 Mindy Mae Lane",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Schaefer Ranch – Unit 2 is a 41.5 acre development for 140 single-family residential units located at the corner of Dublin Blvd. and Schaefer Ranch Road.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Elevations-1.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Elevations-1-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Site-plan-1.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Site-plan-1-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Schaefer-Ranch-Unit-2.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Schaefer-Ranch-Unit-2-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Schaefer Ranch – Unit 2"
+      }
+    },
+    "projectId": "projectdetail144",
+    "timestamp": "1492908897000"
+  }
+]

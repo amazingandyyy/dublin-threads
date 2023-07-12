@@ -1,0 +1,263 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail396"
+    ],
+    "val": {
+      "id": "projectdetail396",
+      "title": "Wallis Ranch Neighborhood 5 (Trestle)",
+      "details": {
+        "Planning Application #": "PLPA-2013-00035",
+        "Application Type": "Planned Development Rezone with Amended Stage 1 and 2 Development Plan, Site Development Review and Vesting Tentative Maps",
+        "Application Submittal Date": "06/25/2013",
+        "General Plan Land Use": "Medium-High Density Residential",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development",
+        "Project Area": "3.3 acres",
+        "Applicant": {
+          "name": "Warmington Homes",
+          "address": "3090 Pullman Street, Costa Mesa, CA 92626",
+          "phone": "(925) 999-0073"
+        },
+        "Project Planner": {
+          "name": "Marnie R. Delgado - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "marnie.delgado@dublin.ca.gov"
+        }
+      },
+      "location": "4191 Wallis Ranch Drive",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Trestle by Warmington Homes is a 3-plex neighborhood of 60 homes.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_1.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_1-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_2.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_2-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_3.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_3-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Wallis Ranch Neighborhood 5 (Trestle)"
+      }
+    },
+    "projectId": "projectdetail396",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail396",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Mandy Kang - Senior Planner",
+    "oldVal": "Marnie R. Delgado - Senior Planner",
+    "projectId": "projectdetail396",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail396",
+      "details",
+      "Project Planner",
+      "phone"
+    ],
+    "val": "(925) 833-6613",
+    "oldVal": "(925) 833-6610",
+    "projectId": "projectdetail396",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail396",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "mandy.kang@dublin.ca.gov",
+    "oldVal": "marnie.delgado@dublin.ca.gov",
+    "projectId": "projectdetail396",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail396",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2.jpg",
+    "projectId": "projectdetail396",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail396",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2-150x150.jpg",
+    "projectId": "projectdetail396",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail396",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_1.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_1.jpg",
+    "projectId": "projectdetail396",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail396",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_1-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_1-150x150.jpg",
+    "projectId": "projectdetail396",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail396",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_2.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_2.jpg",
+    "projectId": "projectdetail396",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail396",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_2-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_2-150x150.jpg",
+    "projectId": "projectdetail396",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail396",
+      "images",
+      3,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_3.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_3.jpg",
+    "projectId": "projectdetail396",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail396",
+      "images",
+      3,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_3-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_3-150x150.jpg",
+    "projectId": "projectdetail396",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail396"
+    ],
+    "oldVal": {
+      "id": "projectdetail396",
+      "title": "Wallis Ranch Neighborhood 5 (Trestle)",
+      "details": {
+        "Planning Application #": "PLPA-2013-00035",
+        "Application Type": "Planned Development Rezone with Amended Stage 1 and 2 Development Plan, Site Development Review and Vesting Tentative Maps",
+        "Application Submittal Date": "06/25/2013",
+        "General Plan Land Use": "Medium-High Density Residential",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development",
+        "Project Area": "3.3 acres",
+        "Applicant": {
+          "name": "Warmington Homes",
+          "address": "3090 Pullman Street, Costa Mesa, CA 92626",
+          "phone": "(925) 999-0073"
+        },
+        "Project Planner": {
+          "name": "Mandy Kang - Senior Planner",
+          "phone": "(925) 833-6613",
+          "email": "mandy.kang@dublin.ca.gov"
+        }
+      },
+      "location": "4191 Wallis Ranch Drive",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Trestle by Warmington Homes is a 3-plex neighborhood of 60 homes.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_1.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_2.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_3.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N5-SDR-Arch_3-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Wallis Ranch Neighborhood 5 (Trestle)"
+      }
+    },
+    "projectId": "projectdetail396",
+    "timestamp": "1596943340000"
+  }
+]

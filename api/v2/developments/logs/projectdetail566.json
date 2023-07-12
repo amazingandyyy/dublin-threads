@@ -1,0 +1,130 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail566"
+    ],
+    "val": {
+      "id": "projectdetail566",
+      "title": "7400 Amador Valley Boulevard SDR",
+      "details": {
+        "Planning Application #": "PLPA-2018-00007",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "03/16/2018",
+        "General Plan Land Use": "Downtown Dublin - Village Parkway District",
+        "Specific Plan Area": "Downtown Dublin - Village Parkway District",
+        "Zoning": "DDZD",
+        "Project Area": ".25 acres",
+        "Building Area": "3708 square feet",
+        "Foor Area Ratio": ".35 FAR",
+        "Stories/Height": "1 story / 30 feet",
+        "Parking Provided": "12 parking spaces",
+        "Applicant": {
+          "name": "Beaumont and Associates",
+          "address": "4050 Harlan Street, Emeryville, CA 94608",
+          "phone": "510-652-4433"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "7400 Amador Valley Boulevard",
+      "docs": [
+        {
+          "name": "Project Plans",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/7400-Amador-submittal-set-21618.pdf"
+        }
+      ],
+      "status": "Application Under Review",
+      "description": "Site Development Review for a new single story 3,700 square foot commercial building with corresponding site improvements.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Site-Plan.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Site-Plan-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Elevation.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Elevation-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Elevation1.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Elevation1-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "7400 Amador Valley Boulevard SDR"
+      }
+    },
+    "projectId": "projectdetail566",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail566"
+    ],
+    "oldVal": {
+      "id": "projectdetail566",
+      "title": "7400 Amador Valley Boulevard SDR",
+      "details": {
+        "Planning Application #": "PLPA-2018-00007",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "03/16/2018",
+        "General Plan Land Use": "Downtown Dublin - Village Parkway District",
+        "Specific Plan Area": "Downtown Dublin - Village Parkway District",
+        "Zoning": "DDZD",
+        "Project Area": ".25 acres",
+        "Building Area": "3708 square feet",
+        "Foor Area Ratio": ".35 FAR",
+        "Stories/Height": "1 story / 30 feet",
+        "Parking Provided": "12 parking spaces",
+        "Applicant": {
+          "name": "Beaumont and Associates",
+          "address": "4050 Harlan Street, Emeryville, CA 94608",
+          "phone": "510-652-4433"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "7400 Amador Valley Boulevard",
+      "docs": [
+        {
+          "name": "Project Plans",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/7400-Amador-submittal-set-21618.pdf"
+        }
+      ],
+      "status": "Application Under Review",
+      "description": "Site Development Review for a new single story 3,700 square foot commercial building with corresponding site improvements.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Site-Plan.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Site-Plan-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Elevation.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Elevation-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Elevation1.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Elevation1-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "7400 Amador Valley Boulevard SDR"
+      }
+    },
+    "projectId": "projectdetail566",
+    "timestamp": "1596943340000"
+  }
+]

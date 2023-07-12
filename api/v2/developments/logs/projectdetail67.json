@@ -1,0 +1,229 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail67"
+    ],
+    "val": {
+      "id": "projectdetail67",
+      "title": "Tassajara Highlands",
+      "details": {
+        "Planning Application #": "PLPA-2012-00051",
+        "Application Type": "GPA/EDSPA, PD Rezone with Stage 1 and Stage 2 Development Plan, Site Development Review, Vesting Tentative Subdivision Map and CEQA Addendum",
+        "Application Submittal Date": "08/31/2012",
+        "General Plan Land Use": "Medium Density Residential and Open Space",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD-Planned Development",
+        "Project Area": "11.11 acres",
+        "Stories/Height": "2 stories / 30 feet",
+        "Parking Provided": "3 parking spaces",
+        "Applicant": {
+          "name": "Tim Lewis Communities and STL Company LLC",
+          "address": "3300 Douglass Boulevard, Bldg 400, Suite 450, Roseville, CA 94661",
+          "phone": "(916) 783-2300"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "6960 Tassajara Road",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Tassajara Highlands is being developed by Tim Lewis Communities. The development will include 48 single-family detached homes on 11.11 acres located on Tassajara Road.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Project-Entry.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Project-Entry-150x150.png"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Elevations.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Elevations-150x150.png"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Site-Plan.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Site-Plan-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Tassajara Highlands"
+      }
+    },
+    "projectId": "projectdetail67",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail67",
+      "title"
+    ],
+    "val": "Enclave at Tassajara Highlands",
+    "oldVal": "Tassajara Highlands",
+    "projectId": "projectdetail67",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail67",
+      "details",
+      "Application Type"
+    ],
+    "val": "General Plan Amendment, Eastern Dublin Specific Plan Amendment, Planned Development Rezone with Stage 1 and Stage 2 Development Plan, Site Development Review, Vesting Tentative Subdivision Map and CEQA Addendum",
+    "oldVal": "GPA/EDSPA, PD Rezone with Stage 1 and Stage 2 Development Plan, Site Development Review, Vesting Tentative Subdivision Map and CEQA Addendum",
+    "projectId": "projectdetail67",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail67",
+      "geolocation",
+      "title"
+    ],
+    "val": "Enclave at Tassajara Highlands",
+    "oldVal": "Tassajara Highlands",
+    "projectId": "projectdetail67",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail67",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Project-Entry.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Project-Entry.png",
+    "projectId": "projectdetail67",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail67",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Project-Entry-150x150.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Project-Entry-150x150.png",
+    "projectId": "projectdetail67",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail67",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Elevations.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Elevations.png",
+    "projectId": "projectdetail67",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail67",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Elevations-150x150.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Elevations-150x150.png",
+    "projectId": "projectdetail67",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail67",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Site-Plan.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Site-Plan.png",
+    "projectId": "projectdetail67",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail67",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Site-Plan-150x150.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Site-Plan-150x150.png",
+    "projectId": "projectdetail67",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail67"
+    ],
+    "oldVal": {
+      "id": "projectdetail67",
+      "title": "Enclave at Tassajara Highlands",
+      "details": {
+        "Planning Application #": "PLPA-2012-00051",
+        "Application Type": "General Plan Amendment, Eastern Dublin Specific Plan Amendment, Planned Development Rezone with Stage 1 and Stage 2 Development Plan, Site Development Review, Vesting Tentative Subdivision Map and CEQA Addendum",
+        "Application Submittal Date": "08/31/2012",
+        "General Plan Land Use": "Medium Density Residential and Open Space",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD-Planned Development",
+        "Project Area": "11.11 acres",
+        "Stories/Height": "2 stories / 30 feet",
+        "Parking Provided": "3 parking spaces",
+        "Applicant": {
+          "name": "Tim Lewis Communities and STL Company LLC",
+          "address": "3300 Douglass Boulevard, Bldg 400, Suite 450, Roseville, CA 94661",
+          "phone": "(916) 783-2300"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "6960 Tassajara Road",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Tassajara Highlands is being developed by Tim Lewis Communities. The development will include 48 single-family detached homes on 11.11 acres located on Tassajara Road.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Project-Entry.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Project-Entry-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Elevations.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Elevations-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Site-Plan.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Site-Plan-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Enclave at Tassajara Highlands"
+      }
+    },
+    "projectId": "projectdetail67",
+    "timestamp": "1596943340000"
+  }
+]

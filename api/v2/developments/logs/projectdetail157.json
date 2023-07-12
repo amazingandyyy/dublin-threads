@@ -1,0 +1,118 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail157"
+    ],
+    "val": {
+      "id": "projectdetail157",
+      "title": "Tribeca",
+      "details": {
+        "Planning Application #": "PLPA-2013-00046",
+        "Application Type": "General Plan/Eastern Dublin Specific Plan Amendments, Planned Development rezoning with a related Stage 1 and Stage 2 Development Plan, Site Development Review, and Vesting Tentative Map 8167 and a CEQA Addendum",
+        "Application Submittal Date": "08/06/2013",
+        "General Plan Land Use": "Medium-High Density Resdiential",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD - Planned Development",
+        "Project Area": "2.9 acres",
+        "Stories/Height": "3 stories",
+        "Parking Provided": "148 parking spaces",
+        "Applicant": {
+          "name": "Pulte Homes",
+          "address": "6210 Stoneridge Mall Rd., 5th Floor, Pleasanton, CA 94588",
+          "phone": "(925) 249-4327"
+        },
+        "Project Planner": {
+          "name": "Robert Paley - Assistant Planner",
+          "phone": "(925) 833-6610",
+          "email": "robert.paley@dublin.ca.gov"
+        }
+      },
+      "location": "5662 Campbell Lane",
+      "docs": [
+        {
+          "name": "City Council Staff Report 9/2/2014",
+          "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=511913"
+        }
+      ],
+      "status": "Final Action",
+      "description": "52 townhouse condominium units on a 2.86-acre site at the Dublin Transit Center developed by Pulte Homes. The project includes three different floor plans in 9 buildings, with 3 or 4 bedrooms, ranging in size from 1,826 sf to 2,053 sf.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Pulte_Tribeca_8_Plex_03_With_Logo-Middle-.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Pulte_Tribeca_8_Plex_03_With_Logo-Middle--150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Capture.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Capture-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Tribeca"
+      }
+    },
+    "projectId": "projectdetail157",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail157"
+    ],
+    "oldVal": {
+      "id": "projectdetail157",
+      "title": "Tribeca",
+      "details": {
+        "Planning Application #": "PLPA-2013-00046",
+        "Application Type": "General Plan/Eastern Dublin Specific Plan Amendments, Planned Development rezoning with a related Stage 1 and Stage 2 Development Plan, Site Development Review, and Vesting Tentative Map 8167 and a CEQA Addendum",
+        "Application Submittal Date": "08/06/2013",
+        "General Plan Land Use": "Medium-High Density Resdiential",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD - Planned Development",
+        "Project Area": "2.9 acres",
+        "Stories/Height": "3 stories",
+        "Parking Provided": "148 parking spaces",
+        "Applicant": {
+          "name": "Pulte Homes",
+          "address": "6210 Stoneridge Mall Rd., 5th Floor, Pleasanton, CA 94588",
+          "phone": "(925) 249-4327"
+        },
+        "Project Planner": {
+          "name": "Robert Paley - Assistant Planner",
+          "phone": "(925) 833-6610",
+          "email": "robert.paley@dublin.ca.gov"
+        }
+      },
+      "location": "5662 Campbell Lane",
+      "docs": [
+        {
+          "name": "City Council Staff Report 9/2/2014",
+          "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=511913"
+        }
+      ],
+      "status": "Final Action",
+      "description": "52 townhouse condominium units on a 2.86-acre site at the Dublin Transit Center developed by Pulte Homes. The project includes three different floor plans in 9 buildings, with 3 or 4 bedrooms, ranging in size from 1,826 sf to 2,053 sf.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Pulte_Tribeca_8_Plex_03_With_Logo-Middle-.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Pulte_Tribeca_8_Plex_03_With_Logo-Middle--150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Capture.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Capture-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Tribeca"
+      }
+    },
+    "projectId": "projectdetail157",
+    "timestamp": "1513193626000"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1461"
+    ],
+    "val": {
+      "id": "projectdetail1461",
+      "title": "McDonald’s SDR",
+      "details": {
+        "Planning Application #": "PLPA-2022-00006",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "03/02/2022",
+        "General Plan Land Use": "Downtown Dublin - Village Parkway District",
+        "Specific Plan Area": "Downtown Dublin Specific Plan",
+        "Zoning": "DDZD",
+        "Project Area": ".88 acres",
+        "Building Area": "4,394 square feet",
+        "Stories/Height": "1 story / 19.5 feet",
+        "Parking Provided": "16 parking spaces",
+        "Applicant": {
+          "name": "Drew Sanchez, Project Manager for McDonald's",
+          "address": "2999 Oak Road, Suite, 900, Walnut Creek, CA 95497",
+          "phone": "650-350-9471"
+        },
+        "Project Planner": {
+          "name": "Amy MIllion - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "7145 Dublin Boulevard",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "Site Development Review Permit for demolition of existing McDonald’s restaurant, and construction of anew 4,394 sf building, drive thru, trash enclosure and site improvements.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/8-Photosim.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/8-Photosim-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.7061459,
+        "lon": -121.9244778,
+        "iconName": "dot",
+        "title": "McDonald’s SDR"
+      }
+    },
+    "projectId": "projectdetail1461",
+    "timestamp": "1684627200000"
+  }
+]

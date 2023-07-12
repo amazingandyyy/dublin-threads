@@ -1,0 +1,263 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail397"
+    ],
+    "val": {
+      "id": "projectdetail397",
+      "title": "Wallis Ranch Neighborhood 6 (Riverton)",
+      "details": {
+        "Planning Application #": "PLPA-2013-00035",
+        "Application Type": "Planned Development Rezone with Amended Stage 1 and 2 Development Plan, Site Development Review and Vesting Tentative Maps",
+        "Application Submittal Date": "06/25/2013",
+        "General Plan Land Use": "Medium-High Density Residential",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development",
+        "Project Area": "9.8 acres",
+        "Applicant": {
+          "name": "KB Homes",
+          "address": "5000 Executive Parkway, Suite 125, San Ramon, CA 94583",
+          "phone": "(925) 983-4526"
+        },
+        "Project Planner": {
+          "name": "Marnie R. Delgado - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "marnie.delgado@dublin.ca.gov"
+        }
+      },
+      "location": "6996 Stags Lean Lane",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Riverton by KB Homes is a townhouse neighborhood of 125 homes.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_1.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_1-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_2.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_2-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_3.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_3-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Wallis Ranch Neighborhood 6 (Riverton)"
+      }
+    },
+    "projectId": "projectdetail397",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail397",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Mandy Kang - Senior Planner",
+    "oldVal": "Marnie R. Delgado - Senior Planner",
+    "projectId": "projectdetail397",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail397",
+      "details",
+      "Project Planner",
+      "phone"
+    ],
+    "val": "(925) 833-6613",
+    "oldVal": "(925) 833-6610",
+    "projectId": "projectdetail397",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail397",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "mandy.kang@dublin.ca.gov",
+    "oldVal": "marnie.delgado@dublin.ca.gov",
+    "projectId": "projectdetail397",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail397",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2.jpg",
+    "projectId": "projectdetail397",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail397",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2-150x150.jpg",
+    "projectId": "projectdetail397",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail397",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_1.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_1.jpg",
+    "projectId": "projectdetail397",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail397",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_1-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_1-150x150.jpg",
+    "projectId": "projectdetail397",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail397",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_2.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_2.jpg",
+    "projectId": "projectdetail397",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail397",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_2-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_2-150x150.jpg",
+    "projectId": "projectdetail397",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail397",
+      "images",
+      3,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_3.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_3.jpg",
+    "projectId": "projectdetail397",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail397",
+      "images",
+      3,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_3-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_3-150x150.jpg",
+    "projectId": "projectdetail397",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail397"
+    ],
+    "oldVal": {
+      "id": "projectdetail397",
+      "title": "Wallis Ranch Neighborhood 6 (Riverton)",
+      "details": {
+        "Planning Application #": "PLPA-2013-00035",
+        "Application Type": "Planned Development Rezone with Amended Stage 1 and 2 Development Plan, Site Development Review and Vesting Tentative Maps",
+        "Application Submittal Date": "06/25/2013",
+        "General Plan Land Use": "Medium-High Density Residential",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development",
+        "Project Area": "9.8 acres",
+        "Applicant": {
+          "name": "KB Homes",
+          "address": "5000 Executive Parkway, Suite 125, San Ramon, CA 94583",
+          "phone": "(925) 983-4526"
+        },
+        "Project Planner": {
+          "name": "Mandy Kang - Senior Planner",
+          "phone": "(925) 833-6613",
+          "email": "mandy.kang@dublin.ca.gov"
+        }
+      },
+      "location": "6996 Stags Lean Lane",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Riverton by KB Homes is a townhouse neighborhood of 125 homes.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_1.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_2.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_3.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N6-SDR-Arch_3-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Wallis Ranch Neighborhood 6 (Riverton)"
+      }
+    },
+    "projectId": "projectdetail397",
+    "timestamp": "1596943340000"
+  }
+]

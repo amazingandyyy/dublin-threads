@@ -1,0 +1,423 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail160"
+    ],
+    "val": {
+      "id": "projectdetail160",
+      "title": "Irongate (Subarea 3)",
+      "details": {
+        "Planning Application #": "PLPA-2013-00033",
+        "Application Type": "General Plan Amendment, Eastern Dublin Specific Plan Amendment, Planned Development Rezone with related Stage 1 & Stage 2 Development Plan, Site Development Review Permit, and Vesting Tentative Map 8171",
+        "Application Submittal Date": "06/20/2013",
+        "General Plan Land Use": "Medium Density Residential – 38 acres; Medium High Density Residential – 7.5 acres; Rural Residential/Agricultural – 14.5 acres, Stream Corridor – 2 acres; and Neighborhood Park – 2 acres",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD - Planned Development",
+        "Project Area": "64 acres",
+        "Building Area": "1,771-2,853 square feet",
+        "Stories/Height": "3 stories / 35 feet",
+        "Applicant": {
+          "name": "Don Barnett, Lennar Homes",
+          "address": "6111 Bollinger Canyon Rd., Suite 550, San Ramon, cA 94583",
+          "phone": "(925) 242-0811"
+        },
+        "Project Planner": {
+          "name": "Martha Aja - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.aja@dublin.ca.gov"
+        }
+      },
+      "location": "4250 Kelton Street",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Lennar Homes is developing 437 units in 6 neighborhoods, which include 330 detached homes and 107 attached homes.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Subarea-3-vignette.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Subarea-3-vignette-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Neighborhood-Plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Neighborhood-Plan-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Landscape-Plan-1.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Landscape-Plan-1-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Contemporary-Craftsman.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Contemporary-Craftsman-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Modern-Bunglow.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Modern-Bunglow-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/New-Prarie.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/New-Prarie-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Subarea-3.Single-family-dwelling.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Subarea-3.Single-family-dwelling-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Irongate (Subarea 3)"
+      }
+    },
+    "projectId": "projectdetail160",
+    "timestamp": "1476241401000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail160",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Martha Battaglia - Associate Planner",
+    "oldVal": "Martha Aja - Associate Planner",
+    "projectId": "projectdetail160",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail160",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "martha.Battaglia@dublin.ca.gov",
+    "oldVal": "martha.aja@dublin.ca.gov",
+    "projectId": "projectdetail160",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail160",
+      "title"
+    ],
+    "val": "Irongate",
+    "oldVal": "Irongate (Subarea 3)",
+    "projectId": "projectdetail160",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail160",
+      "images",
+      7
+    ],
+    "val": {
+      "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Jordan-Attached.jpg",
+      "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Jordan-Attached-150x150.jpg"
+    },
+    "projectId": "projectdetail160",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail160",
+      "geolocation",
+      "title"
+    ],
+    "val": "Irongate",
+    "oldVal": "Irongate (Subarea 3)",
+    "projectId": "projectdetail160",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail160",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Subarea-3-vignette.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Subarea-3-vignette.jpg",
+    "projectId": "projectdetail160",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail160",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Subarea-3-vignette-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Subarea-3-vignette-150x150.jpg",
+    "projectId": "projectdetail160",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail160",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Neighborhood-Plan.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Neighborhood-Plan.jpg",
+    "projectId": "projectdetail160",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail160",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Neighborhood-Plan-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Neighborhood-Plan-150x150.jpg",
+    "projectId": "projectdetail160",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail160",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Landscape-Plan-1.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Landscape-Plan-1.jpg",
+    "projectId": "projectdetail160",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail160",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Landscape-Plan-1-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Landscape-Plan-1-150x150.jpg",
+    "projectId": "projectdetail160",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail160",
+      "images",
+      3,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Contemporary-Craftsman.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Contemporary-Craftsman.jpg",
+    "projectId": "projectdetail160",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail160",
+      "images",
+      3,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Contemporary-Craftsman-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Contemporary-Craftsman-150x150.jpg",
+    "projectId": "projectdetail160",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail160",
+      "images",
+      4,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Modern-Bunglow.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Modern-Bunglow.jpg",
+    "projectId": "projectdetail160",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail160",
+      "images",
+      4,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Modern-Bunglow-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Modern-Bunglow-150x150.jpg",
+    "projectId": "projectdetail160",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail160",
+      "images",
+      5,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/New-Prarie.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/New-Prarie.jpg",
+    "projectId": "projectdetail160",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail160",
+      "images",
+      5,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/New-Prarie-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/New-Prarie-150x150.jpg",
+    "projectId": "projectdetail160",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail160",
+      "images",
+      6,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Subarea-3.Single-family-dwelling.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Subarea-3.Single-family-dwelling.jpg",
+    "projectId": "projectdetail160",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail160",
+      "images",
+      6,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Subarea-3.Single-family-dwelling-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Subarea-3.Single-family-dwelling-150x150.jpg",
+    "projectId": "projectdetail160",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail160",
+      "images",
+      7,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Jordan-Attached.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Jordan-Attached.jpg",
+    "projectId": "projectdetail160",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail160",
+      "images",
+      7,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Jordan-Attached-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Jordan-Attached-150x150.jpg",
+    "projectId": "projectdetail160",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail160"
+    ],
+    "oldVal": {
+      "id": "projectdetail160",
+      "title": "Irongate",
+      "details": {
+        "Planning Application #": "PLPA-2013-00033",
+        "Application Type": "General Plan Amendment, Eastern Dublin Specific Plan Amendment, Planned Development Rezone with related Stage 1 & Stage 2 Development Plan, Site Development Review Permit, and Vesting Tentative Map 8171",
+        "Application Submittal Date": "06/20/2013",
+        "General Plan Land Use": "Medium Density Residential – 38 acres; Medium High Density Residential – 7.5 acres; Rural Residential/Agricultural – 14.5 acres, Stream Corridor – 2 acres; and Neighborhood Park – 2 acres",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD - Planned Development",
+        "Project Area": "64 acres",
+        "Building Area": "1,771-2,853 square feet",
+        "Stories/Height": "3 stories / 35 feet",
+        "Applicant": {
+          "name": "Don Barnett, Lennar Homes",
+          "address": "6111 Bollinger Canyon Rd., Suite 550, San Ramon, cA 94583",
+          "phone": "(925) 242-0811"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.Battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "4250 Kelton Street",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Lennar Homes is developing 437 units in 6 neighborhoods, which include 330 detached homes and 107 attached homes.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Subarea-3-vignette.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Subarea-3-vignette-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Neighborhood-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Neighborhood-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Landscape-Plan-1.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Landscape-Plan-1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Contemporary-Craftsman.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Contemporary-Craftsman-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Modern-Bunglow.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Modern-Bunglow-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/New-Prarie.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/New-Prarie-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Subarea-3.Single-family-dwelling.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Subarea-3.Single-family-dwelling-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Jordan-Attached.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Jordan-Attached-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Irongate"
+      }
+    },
+    "projectId": "projectdetail160",
+    "timestamp": "1596943340000"
+  }
+]

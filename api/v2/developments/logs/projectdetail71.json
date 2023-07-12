@@ -1,0 +1,212 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail71"
+    ],
+    "val": {
+      "id": "projectdetail71",
+      "title": "Boulevard (Dublin Crossing)",
+      "details": {
+        "Planning Application #": "PA 08-049",
+        "Application Type": "General Plan Amendment, Planned Development Rezone with Stage 1 and 2 Development Plan, Vesting Tentative Tract Map",
+        "Application Submittal Date": "10/01/2008",
+        "General Plan Land Use": "Dublin Crossing Specific Plan",
+        "Specific Plan Area": "Dublin Crossing Specific Plan",
+        "Zoning": "DCPD",
+        "Project Area": "189 acres",
+        "Applicant": {
+          "name": "Joe Guerra, Dublin Crossing LLC/Brookfield Residential",
+          "address": "500 La Gonda Way, Suite 100, Danville, CA 94526",
+          "phone": "(408) 307-7806"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "Dublin Boulevard",
+      "docs": [
+        {
+          "name": "Dublin Crossing Specific Plan",
+          "url": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Dublin-Crossing-SP-2015-3.23.17.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Multi-phased development comprised of up to 1,995 residential units, up to 200,000 square feet of commercial uses, 35 acres of public parkland, a 12-acre elementary school site and related infrastructure. The overall project specific plan (Dublin Crossing Specific Plan) was approved in 2013. Site improvements for the first phase of development is underway. Design review for the first six residential neighborhoods (Phases 1A and 1B) were approved by the Planning Commission on June 14, 2016. Site Development Review for Phases 2/3 and 4/5 are under review.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Boulevard (Dublin Crossing)"
+      }
+    },
+    "projectId": "projectdetail71",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail71",
+      "description"
+    ],
+    "val": "Multi-phased development comprised of up to 1,995 residential units, up to 200,000 square feet of commercial uses, 35 acres of public parkland, a 12-acre elementary school site and related infrastructure. The overall project specific plan (Dublin Crossing Specific Plan) was approved in 2013. Site improvements for the first phase of development is underway. Design review for the first six residential neighborhoods (Phases 1A and 1B) were approved by the Planning Commission on June 14, 2016. On May 9, 2017 the Planning Commission approved the design of the 12 residential neighborhoods in Phases 2 and 3. The Site Development Review for the final Phases (4 and 5) are under review.",
+    "oldVal": "Multi-phased development comprised of up to 1,995 residential units, up to 200,000 square feet of commercial uses, 35 acres of public parkland, a 12-acre elementary school site and related infrastructure. The overall project specific plan (Dublin Crossing Specific Plan) was approved in 2013. Site improvements for the first phase of development is underway. Design review for the first six residential neighborhoods (Phases 1A and 1B) were approved by the Planning Commission on June 14, 2016. Site Development Review for Phases 2/3 and 4/5 are under review.",
+    "projectId": "projectdetail71",
+    "timestamp": "1495652949000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail71",
+      "docs",
+      0,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Dublin-Crossing-SP-2015-3.23.17.pdf",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Dublin-Crossing-SP-2015-3.23.17.pdf",
+    "projectId": "projectdetail71",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail71",
+      "description"
+    ],
+    "val": "Multi-phased development comprised of up to 1,995 residential units, up to 200,000 square feet of commercial uses, 35 acres of public parkland, a 12-acre elementary school site and related infrastructure. The overall project specific plan (Dublin Crossing Specific Plan) was approved in 2013. Site improvements for the first phase of development is underway. Design review for the first six residential neighborhoods (Phases 1A and 1B) were approved by the Planning Commission on June 14, 2016. On May 9, 2017 the Planning Commission approved the design of the 12 residential neighborhoods in Phases 2 and 3. The Site Development Review for the final Phases (4 and 5) will be presented as a study session for discussion at the April 10, 2018 Planning Commission meeting. Included in this discussion is a modification to the design of Neighborhood 15 which is part of the previously approved Phase 2/3.",
+    "oldVal": "Multi-phased development comprised of up to 1,995 residential units, up to 200,000 square feet of commercial uses, 35 acres of public parkland, a 12-acre elementary school site and related infrastructure. The overall project specific plan (Dublin Crossing Specific Plan) was approved in 2013. Site improvements for the first phase of development is underway. Design review for the first six residential neighborhoods (Phases 1A and 1B) were approved by the Planning Commission on June 14, 2016. On May 9, 2017 the Planning Commission approved the design of the 12 residential neighborhoods in Phases 2 and 3. The Site Development Review for the final Phases (4 and 5) are under review.",
+    "projectId": "projectdetail71",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail71",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative.jpg",
+    "projectId": "projectdetail71",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail71",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative-150x150.jpg",
+    "projectId": "projectdetail71",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail71",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan.jpg",
+    "projectId": "projectdetail71",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail71",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan-150x150.jpg",
+    "projectId": "projectdetail71",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail71",
+      "description"
+    ],
+    "val": "Multi-phased development comprised of up to 1,995 residential units, up to 200,000 square feet of commercial uses, 35 acres of public parkland, a 12-acre elementary school site and related infrastructure. The overall project specific plan (Dublin Crossing Specific Plan) was approved in 2013. Site improvements for the first phase of development is underway. Design review for the first six residential neighborhoods (Phases 1A and 1B) were approved by the Planning Commission on June 14, 2016. On May 9, 2017 the Planning Commission approved the design of the 12 residential neighborhoods in Phases 2 and 3 and on May 8, 2018, the Planning Commission approved the design of the remaining six residential neighborhoods in Phases 4 and 5. The project is currently under construction.",
+    "oldVal": "Multi-phased development comprised of up to 1,995 residential units, up to 200,000 square feet of commercial uses, 35 acres of public parkland, a 12-acre elementary school site and related infrastructure. The overall project specific plan (Dublin Crossing Specific Plan) was approved in 2013. Site improvements for the first phase of development is underway. Design review for the first six residential neighborhoods (Phases 1A and 1B) were approved by the Planning Commission on June 14, 2016. On May 9, 2017 the Planning Commission approved the design of the 12 residential neighborhoods in Phases 2 and 3. The Site Development Review for the final Phases (4 and 5) will be presented as a study session for discussion at the April 10, 2018 Planning Commission meeting. Included in this discussion is a modification to the design of Neighborhood 15 which is part of the previously approved Phase 2/3.",
+    "projectId": "projectdetail71",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail71"
+    ],
+    "oldVal": {
+      "id": "projectdetail71",
+      "title": "Boulevard (Dublin Crossing)",
+      "details": {
+        "Planning Application #": "PA 08-049",
+        "Application Type": "General Plan Amendment, Planned Development Rezone with Stage 1 and 2 Development Plan, Vesting Tentative Tract Map",
+        "Application Submittal Date": "10/01/2008",
+        "General Plan Land Use": "Dublin Crossing Specific Plan",
+        "Specific Plan Area": "Dublin Crossing Specific Plan",
+        "Zoning": "DCPD",
+        "Project Area": "189 acres",
+        "Applicant": {
+          "name": "Joe Guerra, Dublin Crossing LLC/Brookfield Residential",
+          "address": "500 La Gonda Way, Suite 100, Danville, CA 94526",
+          "phone": "(408) 307-7806"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "Dublin Boulevard",
+      "docs": [
+        {
+          "name": "Dublin Crossing Specific Plan",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Dublin-Crossing-SP-2015-3.23.17.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Multi-phased development comprised of up to 1,995 residential units, up to 200,000 square feet of commercial uses, 35 acres of public parkland, a 12-acre elementary school site and related infrastructure. The overall project specific plan (Dublin Crossing Specific Plan) was approved in 2013. Site improvements for the first phase of development is underway. Design review for the first six residential neighborhoods (Phases 1A and 1B) were approved by the Planning Commission on June 14, 2016. On May 9, 2017 the Planning Commission approved the design of the 12 residential neighborhoods in Phases 2 and 3 and on May 8, 2018, the Planning Commission approved the design of the remaining six residential neighborhoods in Phases 4 and 5. The project is currently under construction.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Boulevard (Dublin Crossing)"
+      }
+    },
+    "projectId": "projectdetail71",
+    "timestamp": "1596943340000"
+  }
+]

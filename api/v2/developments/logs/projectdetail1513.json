@@ -1,0 +1,66 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1513"
+    ],
+    "val": {
+      "id": "projectdetail1513",
+      "title": "H Mart Supermarket",
+      "details": {
+        "Planning Application #": "PLPA-2022-00033",
+        "Application Type": "Site Development Review Permit",
+        "Application Submittal Date": "09/26/2022",
+        "General Plan Land Use": "Downtown Dublin - Transit-Oriented District",
+        "Specific Plan Area": "Downtown Dublin - Transit-Oriented District",
+        "Zoning": "Downtown Dublin Zoning District",
+        "Project Area": "10.51 acres",
+        "Building Area": "143,329 square feet",
+        "Foor Area Ratio": "0.31 FAR",
+        "Stories/Height": "1 story / 32 feet",
+        "Parking Provided": "484 parking spaces",
+        "Applicant": {
+          "name": "Jae Yong Kwak",
+          "address": "11966 Washington Boulevard, Whittier, CA 90606",
+          "phone": "(562) 318-3977"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "7884 Dublin Boulevard",
+      "docs": [
+        {
+          "name": "Planning Commission December 13, 2022 Agenda and Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/f345a8ac673614b016fb57471cd7c5af0.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "H Mart proposes an expansion to an existing 27,237 square foot commercial tenant space to construct an 8,552 square foot addition for a food hall, 3,187 square foot outdoor seating area with play area, façade modifications, new trash enclosure and related site improvements at 7884 Dublin Boulevard, and repaint the existing warehouse building at 6600 Golden Gate Drive for additional cold storage.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-144.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-144-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Site-Plan.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Site-Plan-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.70268,
+        "lon": -121.93042,
+        "iconName": "dot",
+        "title": "H Mart Supermarket"
+      }
+    },
+    "projectId": "projectdetail1513",
+    "timestamp": "1684627200000"
+  }
+]

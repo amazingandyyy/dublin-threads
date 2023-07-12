@@ -1,0 +1,183 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail154"
+    ],
+    "val": {
+      "id": "projectdetail154",
+      "title": "Jordan Ranch Neighborhood 4 (Trio)",
+      "details": {
+        "Planning Application #": "PLPA-2014-00011",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "02/20/2014",
+        "General Plan Land Use": "Single-Family Residential, Medium Density Residential, Medium High Density Residential, Mixed Use, Semi-Public, Parks/Public Recreation, and Open Space",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD - Planned Development",
+        "Project Area": "189 acres",
+        "Applicant": {
+          "name": "Brookfield Residential",
+          "address": "500 La Gonda Way, Suite 100, Danville, CA 94526",
+          "phone": "(925) 997-3944"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "Sunset View Drive",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Trio is Neighborhood 4 of the overall Jordan Ranch development. It is located at Sunset View Drive and Central Parkway. It is being developed with 126 three-story townhomes.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N4-Trio-site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N4-Trio-site-plan-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N4-Trio-streetscape.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N4-Trio-streetscape-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Jordan Ranch Neighborhood 4 (Trio)"
+      }
+    },
+    "projectId": "projectdetail154",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail154",
+      "details",
+      "General Plan Land Use"
+    ],
+    "val": "Medium Density Residential",
+    "oldVal": "Single-Family Residential, Medium Density Residential, Medium High Density Residential, Mixed Use, Semi-Public, Parks/Public Recreation, and Open Space",
+    "projectId": "projectdetail154",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail154",
+      "details",
+      "Project Area"
+    ],
+    "val": "7 acres",
+    "oldVal": "189 acres",
+    "projectId": "projectdetail154",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail154",
+      "details",
+      "Building Area"
+    ],
+    "val": "2,340 - 2,620 square feet",
+    "projectId": "projectdetail154",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail154",
+      "details",
+      "Foor Area Ratio"
+    ],
+    "val": "N/A FAR",
+    "projectId": "projectdetail154",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail154",
+      "details",
+      "Stories/Height"
+    ],
+    "val": "3 stories / 39 feet",
+    "projectId": "projectdetail154",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail154",
+      "description"
+    ],
+    "val": "Trio is Neighborhood 4 of the overall Jordan Ranch development. It is located at northeast corner of Sunset View Drive and Central Parkway. It is being developed with 126 three-story townhomes, with 3-4 bedrooms.",
+    "oldVal": "Trio is Neighborhood 4 of the overall Jordan Ranch development. It is located at Sunset View Drive and Central Parkway. It is being developed with 126 three-story townhomes.",
+    "projectId": "projectdetail154",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail154"
+    ],
+    "oldVal": {
+      "id": "projectdetail154",
+      "title": "Jordan Ranch Neighborhood 4 (Trio)",
+      "details": {
+        "Planning Application #": "PLPA-2014-00011",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "02/20/2014",
+        "General Plan Land Use": "Medium Density Residential",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD - Planned Development",
+        "Project Area": "7 acres",
+        "Building Area": "2,340 - 2,620 square feet",
+        "Foor Area Ratio": "N/A FAR",
+        "Stories/Height": "3 stories / 39 feet",
+        "Applicant": {
+          "name": "Brookfield Residential",
+          "address": "500 La Gonda Way, Suite 100, Danville, CA 94526",
+          "phone": "(925) 997-3944"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "Sunset View Drive",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Trio is Neighborhood 4 of the overall Jordan Ranch development. It is located at northeast corner of Sunset View Drive and Central Parkway. It is being developed with 126 three-story townhomes, with 3-4 bedrooms.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N4-Trio-site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N4-Trio-site-plan-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N4-Trio-streetscape.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N4-Trio-streetscape-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Jordan Ranch Neighborhood 4 (Trio)"
+      }
+    },
+    "projectId": "projectdetail154",
+    "timestamp": "1513193626000"
+  }
+]

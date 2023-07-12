@@ -5,7 +5,7 @@ const getAllProjectIds = async () => {
   let result = []
   return new Promise((resolve, reject) => {
     const times = require(absolutePath('docs/archive/datekeys.json'))
-    Object.keys(times).forEach((k) => {
+    times.forEach((k) => {
       const snapshot = require(absolutePath(`docs/archive/${k}/dublin-development.icitywork.com/snapshot.json`))
       result.push(...Object.keys(snapshot))
     })

@@ -1,0 +1,237 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail439"
+    ],
+    "val": {
+      "id": "projectdetail439",
+      "title": "Dublin Place SDR",
+      "details": {
+        "Planning Application #": "PLPA-2017-00013",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "02/21/2017",
+        "General Plan Land Use": "Downtown Dublin Specific Plan - Retail District",
+        "Specific Plan Area": "Downtown Dublin Specific Plan",
+        "Zoning": "Downtown Dublin Specific Plan - Retail District",
+        "Project Area": "1.7 acres",
+        "Building Area": "17,000 square feet",
+        "Foor Area Ratio": ".27 FAR",
+        "Stories/Height": "1 story / 24 feet",
+        "Parking Provided": "110 parking spaces",
+        "Applicant": {
+          "name": "Quattro Realty Group / Jerry Hunt",
+          "address": "3201 Danville Blvd., Suite 210, Alamo, CA 94507",
+          "phone": "925-980-7875"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "7300 Amador Plaza Road",
+      "docs": [
+        {
+          "name": "Project Plans",
+          "url": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Project-Plans.pdf"
+        }
+      ],
+      "status": "Application Under Review",
+      "description": "Site Development Review to demolish an existing 13,500 square foot building and construct three new commercial pad buildings totaling 17,000 square feet and associated site improvements including a new plaza on the corner of Amador Valley Boulevard and Amador Plaza Road, new parking layout and landscaping.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Corner-View.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Corner-View-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Site-Plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "",
+          "thumbnail": ""
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Dublin Place SDR"
+      }
+    },
+    "projectId": "projectdetail439",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail439",
+      "docs",
+      0,
+      "name"
+    ],
+    "val": "Planning Commission Staff Report 06.13.17",
+    "oldVal": "Project Plans",
+    "projectId": "projectdetail439",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail439",
+      "docs",
+      0,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/7300-Amador-Complete-SR-061317.pdf",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Project-Plans.pdf",
+    "projectId": "projectdetail439",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail439",
+      "docs",
+      1
+    ],
+    "val": {
+      "name": "Project Plans",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Project-Plans.pdf"
+    },
+    "projectId": "projectdetail439",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail439",
+      "status"
+    ],
+    "val": "Final Action",
+    "oldVal": "Application Under Review",
+    "projectId": "projectdetail439",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail439",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Corner-View.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Corner-View.jpg",
+    "projectId": "projectdetail439",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail439",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Corner-View-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Corner-View-150x150.jpg",
+    "projectId": "projectdetail439",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail439",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Site-Plan.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Site-Plan.jpg",
+    "projectId": "projectdetail439",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail439",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Site-Plan-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Site-Plan-150x150.jpg",
+    "projectId": "projectdetail439",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail439"
+    ],
+    "oldVal": {
+      "id": "projectdetail439",
+      "title": "Dublin Place SDR",
+      "details": {
+        "Planning Application #": "PLPA-2017-00013",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "02/21/2017",
+        "General Plan Land Use": "Downtown Dublin Specific Plan - Retail District",
+        "Specific Plan Area": "Downtown Dublin Specific Plan",
+        "Zoning": "Downtown Dublin Specific Plan - Retail District",
+        "Project Area": "1.7 acres",
+        "Building Area": "17,000 square feet",
+        "Foor Area Ratio": ".27 FAR",
+        "Stories/Height": "1 story / 24 feet",
+        "Parking Provided": "110 parking spaces",
+        "Applicant": {
+          "name": "Quattro Realty Group / Jerry Hunt",
+          "address": "3201 Danville Blvd., Suite 210, Alamo, CA 94507",
+          "phone": "925-980-7875"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "7300 Amador Plaza Road",
+      "docs": [
+        {
+          "name": "Planning Commission Staff Report 06.13.17",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/7300-Amador-Complete-SR-061317.pdf"
+        },
+        {
+          "name": "Project Plans",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Project-Plans.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Site Development Review to demolish an existing 13,500 square foot building and construct three new commercial pad buildings totaling 17,000 square feet and associated site improvements including a new plaza on the corner of Amador Valley Boulevard and Amador Plaza Road, new parking layout and landscaping.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Corner-View.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Corner-View-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Site-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "",
+          "thumbnail": ""
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Dublin Place SDR"
+      }
+    },
+    "projectId": "projectdetail439",
+    "timestamp": "1596943340000"
+  }
+]

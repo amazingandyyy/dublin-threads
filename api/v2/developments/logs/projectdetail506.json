@@ -1,0 +1,374 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail506"
+    ],
+    "val": {
+      "id": "projectdetail506",
+      "title": "Boulevard (Dublin Crossing) - Phase 1",
+      "details": {
+        "Planning Application #": "PLPA 2015-00062",
+        "Application Type": "Site Development Review / Vesting Tenative Tract Map",
+        "Application Submittal Date": "12/16/2015",
+        "General Plan Land Use": "Dublin Crossing Specific Plan",
+        "Specific Plan Area": "Dublin Crossing Specific Plan",
+        "Zoning": "DCPD",
+        "Project Area": "28.34 acres acres",
+        "Applicant": {
+          "name": "Joe Guerra, Dublin Crossing LLC/Brookfield Residential",
+          "address": "500 La Gonda Way, Suite 100, Danville, CA 94526",
+          "phone": "(408) 307-7806"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "Dublin Boulevard",
+      "docs": [
+        {
+          "name": "Planning Commission Staff Report 05.24.16",
+          "url": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-05.24.16-Complete.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report 06.14.16",
+          "url": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-061416-Complete.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Phase1 of the Boulevard project include 453 units and landscape improvements. Design review for the first six residential neighborhoods (Phases 1A and 1B) were approved by the Planning Commission on June 14, 2016.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Boulevard (Dublin Crossing) - Phase 1"
+      }
+    },
+    "projectId": "projectdetail506",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail506",
+      "docs",
+      0,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-05.24.16-Complete.pdf",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-05.24.16-Complete.pdf",
+    "projectId": "projectdetail506",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail506",
+      "docs",
+      1,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-061416-Complete.pdf",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-061416-Complete.pdf",
+    "projectId": "projectdetail506",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail506",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan.jpg",
+    "projectId": "projectdetail506",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail506",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-150x150.jpg",
+    "projectId": "projectdetail506",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail506",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2.jpg",
+    "projectId": "projectdetail506",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail506",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2-150x150.jpg",
+    "projectId": "projectdetail506",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail506",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan.jpg",
+    "projectId": "projectdetail506",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail506",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan-150x150.jpg",
+    "projectId": "projectdetail506",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail506",
+      "images",
+      3,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887.jpg",
+    "projectId": "projectdetail506",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail506",
+      "images",
+      3,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887-150x150.jpg",
+    "projectId": "projectdetail506",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail506",
+      "images",
+      4,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631.jpg",
+    "projectId": "projectdetail506",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail506",
+      "images",
+      4,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631-150x150.jpg",
+    "projectId": "projectdetail506",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail506"
+    ],
+    "oldVal": {
+      "id": "projectdetail506",
+      "title": "Boulevard (Dublin Crossing) - Phase 1",
+      "details": {
+        "Planning Application #": "PLPA 2015-00062",
+        "Application Type": "Site Development Review / Vesting Tenative Tract Map",
+        "Application Submittal Date": "12/16/2015",
+        "General Plan Land Use": "Dublin Crossing Specific Plan",
+        "Specific Plan Area": "Dublin Crossing Specific Plan",
+        "Zoning": "DCPD",
+        "Project Area": "28.34 acres acres",
+        "Applicant": {
+          "name": "Joe Guerra, Dublin Crossing LLC/Brookfield Residential",
+          "address": "500 La Gonda Way, Suite 100, Danville, CA 94526",
+          "phone": "(408) 307-7806"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "Dublin Boulevard",
+      "docs": [
+        {
+          "name": "Planning Commission Staff Report 05.24.16",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-05.24.16-Complete.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report 06.14.16",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-061416-Complete.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Phase1 of the Boulevard project include 453 units and landscape improvements. Design review for the first six residential neighborhoods (Phases 1A and 1B) were approved by the Planning Commission on June 14, 2016.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Boulevard (Dublin Crossing) - Phase 1"
+      }
+    },
+    "projectId": "projectdetail506",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail506"
+    ],
+    "val": {
+      "id": "projectdetail506",
+      "title": "Boulevard (Dublin Crossing) – Phase 1",
+      "details": {
+        "Planning Application #": "PLPA 2015-00062",
+        "Application Type": "Site Development Review Permit / Vesting Tentative Tract Map",
+        "Application Submittal Date": "12/16/2015",
+        "General Plan Land Use": "Dublin Crossing Specific Plan",
+        "Specific Plan Area": "Dublin Crossing Specific Plan",
+        "Zoning": "DCPD",
+        "Project Area": "28.34 acres acres",
+        "Applicant": {
+          "name": "Mandi Misasi, Brookfield Residential",
+          "address": "12657 Alcosta Blvd. Ste 250, San Ramon CA 94563",
+          "phone": "925-743-8000"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "Dublin Boulevard",
+      "docs": [
+        {
+          "name": "Planning Commission Staff Report 05.24.16",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-05.24.16-Complete.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report 06.14.16",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-061416-Complete.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Phase1 of the Boulevard project include 453 units and landscape improvements. Design review for the first six residential neighborhoods (Phases 1A and 1B) were approved by the Planning Commission on June 14, 2016.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.706516,
+        "lon": -121.898762,
+        "iconName": "building",
+        "title": "Boulevard (Dublin Crossing) – Phase 1"
+      }
+    },
+    "projectId": "projectdetail506",
+    "timestamp": "1684627200000"
+  }
+]

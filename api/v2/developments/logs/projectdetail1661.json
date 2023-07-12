@@ -1,0 +1,57 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1661"
+    ],
+    "val": {
+      "id": "projectdetail1661",
+      "title": "Downtown Hines North",
+      "details": {
+        "Planning Application #": "PLPA-2023-00018",
+        "Application Type": "Site Development Review Permit",
+        "Application Submittal Date": "05/16/2023",
+        "General Plan Land Use": "Downtown Dublin Retail",
+        "Specific Plan Area": "Downtown Dublin",
+        "Zoning": "Downtown Dublin Retail",
+        "Project Area": "3.8 acres",
+        "Building Area": "34,995 square feet",
+        "Foor Area Ratio": ".20 FAR",
+        "Stories/Height": "1 story / 26.5 feet",
+        "Parking Provided": "161 parking spaces",
+        "Applicant": {
+          "name": "Mario Tjia, Hines Interests LP",
+          "address": "101 California Street, Ste. 1000, San Francisco, CA 94111",
+          "phone": "4159826200"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "7200 Amador Plaza Road",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "Demolition of the two existing commercial buildings totaling 35,427 square feet and construction of a new 34,995 square foot multi-tenant commercial building.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Pages-from-230421_Dublin-Place-North-Parcel-Package-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Pages-from-230421_Dublin-Place-North-Parcel-Package-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Site-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Site-Plan-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.70851,
+        "lon": -121.931,
+        "iconName": "dot",
+        "title": "Downtown Hines North"
+      }
+    },
+    "projectId": "projectdetail1661",
+    "timestamp": "1684627200000"
+  }
+]

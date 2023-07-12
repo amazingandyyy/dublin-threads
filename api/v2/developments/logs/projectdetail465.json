@@ -1,0 +1,542 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail465"
+    ],
+    "val": {
+      "id": "projectdetail465",
+      "title": "Zeiss Innovation Center",
+      "details": {
+        "Planning Application #": "PLPA-2017-00025",
+        "Application Type": "Stage 1/Stage 2 Development Plan and Site Development Review",
+        "Application Submittal Date": "04/17/2017",
+        "General Plan Land Use": "Campus Office",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD (Planned Development)",
+        "Project Area": "11 acres",
+        "Building Area": "433,090 square feet",
+        "Stories/Height": "3 stories / 68 feet",
+        "Parking Provided": "1396 parking spaces",
+        "Applicant": {
+          "name": "Matthias Ismael",
+          "address": "One Zeiss Drive, Thornwood, NY 10594",
+          "phone": "(914) 681-7500"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "Dublin Boulevard",
+      "docs": [],
+      "status": "Planning Application Submitted",
+      "description": "The Zeiss Innovation Center includes two phases of research & development (R&D) campus development.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-rendering-from-Dublin.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-rendering-from-Dublin-150x150.png"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-rendering.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-rendering-150x150.png"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Plaza.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Plaza-150x150.png"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-aerial.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-aerial-150x150.png"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Phase-1.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Phase-1-150x150.png"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Phase-2.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Phase-2-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Zeiss Innovation Center"
+      }
+    },
+    "projectId": "projectdetail465",
+    "timestamp": "1495652949000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail465",
+      "details",
+      "Project Area"
+    ],
+    "val": "11.36 acres",
+    "oldVal": "11 acres",
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail465",
+      "details",
+      "Stories/Height"
+    ],
+    "val": "5 stories / 82 feet",
+    "oldVal": "3 stories / 68 feet",
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail465",
+      "details",
+      "Applicant",
+      "address"
+    ],
+    "val": "5160 Hacienda Drive, Dublin, CA 94568",
+    "oldVal": "One Zeiss Drive, Thornwood, NY 10594",
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail465",
+      "details",
+      "Applicant",
+      "phone"
+    ],
+    "val": "(925) 557-4362",
+    "oldVal": "(914) 681-7500",
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail465",
+      "docs",
+      0
+    ],
+    "val": {
+      "name": "Planning Commission Staff Report.2.13.18",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Planning-Commission-Staff-Report.2.13.18.pdf"
+    },
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail465",
+      "docs",
+      1
+    ],
+    "val": {
+      "name": "City Council Staff Report 3.6.18",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/City-Council-Staff-Report-3.6.18.pdf"
+    },
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail465",
+      "docs",
+      2
+    ],
+    "val": {
+      "name": "City Council Staff Report 3.20.18",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/City-Council-Staff-Report-3.20.18.pdf"
+    },
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail465",
+      "docs",
+      3
+    ],
+    "val": {
+      "name": "Final Zeiss Innovation Center MND-IS.12.8.17",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Final-Zeiss-Innovation-Center-MND-IS.12.8.17.pdf"
+    },
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail465",
+      "docs",
+      4
+    ],
+    "val": {
+      "name": "Appendix A Biological Resources Assessment Report",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Appendix-A-Biological-Resources-Assessment-Report.pdf"
+    },
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail465",
+      "docs",
+      5
+    ],
+    "val": {
+      "name": "Appendix B Delineation Potential Jurisdictional Wetlands Under Section 404 CWA",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Appendix-B-Delineation-Potential-Jurisdictional-Wetlands-Under-Section-404-CWA.pdf"
+    },
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail465",
+      "docs",
+      6
+    ],
+    "val": {
+      "name": "Appendix C Rare Plant Survey Report",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Appendix-C-Rare-Plant-Survey-Report.pdf"
+    },
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail465",
+      "docs",
+      7
+    ],
+    "val": {
+      "name": "Appendix D Historic Resources Survey",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Appendix-D-Historic-Resources-Survey.pdf"
+    },
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail465",
+      "docs",
+      8
+    ],
+    "val": {
+      "name": "Appendix E Carl Zeiss Traffic Consistency Analysis",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Appendix-E-Carl-Zeiss-Traffic-Consistency-Analysis.pdf"
+    },
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail465",
+      "docs",
+      9
+    ],
+    "val": {
+      "name": "Final Notice of Intent",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Final-Notice-of-Intent.pdf"
+    },
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail465",
+      "docs",
+      10
+    ],
+    "val": {
+      "name": "Notice of Time Extension of Supplemental Mitigated Negative Declaration",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Notice-of-Time-Extension-of-Supplemental-Mitigated-Negative-Declaration.pdf"
+    },
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail465",
+      "status"
+    ],
+    "val": "Final Action",
+    "oldVal": "Planning Application Submitted",
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail465",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.1.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-rendering-from-Dublin.png",
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail465",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.1-150x150.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-rendering-from-Dublin-150x150.png",
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail465",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.2.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-rendering.png",
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail465",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.2-150x150.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-rendering-150x150.png",
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail465",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.Dublin.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Plaza.png",
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail465",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.Dublin-150x150.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Plaza-150x150.png",
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail465",
+      "images",
+      3,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-aerial.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-aerial.png",
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail465",
+      "images",
+      3,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-aerial-150x150.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-aerial-150x150.png",
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail465",
+      "images",
+      4,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Aerial.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Phase-1.png",
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail465",
+      "images",
+      4,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Aerial-150x150.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Phase-1-150x150.png",
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail465",
+      "images",
+      5
+    ],
+    "oldVal": {
+      "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Phase-2.png",
+      "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Phase-2-150x150.png"
+    },
+    "projectId": "projectdetail465",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail465"
+    ],
+    "oldVal": {
+      "id": "projectdetail465",
+      "title": "Zeiss Innovation Center",
+      "details": {
+        "Planning Application #": "PLPA-2017-00025",
+        "Application Type": "Stage 1/Stage 2 Development Plan and Site Development Review",
+        "Application Submittal Date": "04/17/2017",
+        "General Plan Land Use": "Campus Office",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD (Planned Development)",
+        "Project Area": "11.36 acres",
+        "Building Area": "433,090 square feet",
+        "Stories/Height": "5 stories / 82 feet",
+        "Parking Provided": "1396 parking spaces",
+        "Applicant": {
+          "name": "Matthias Ismael",
+          "address": "5160 Hacienda Drive, Dublin, CA 94568",
+          "phone": "(925) 557-4362"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "Dublin Boulevard",
+      "docs": [
+        {
+          "name": "Planning Commission Staff Report.2.13.18",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Planning-Commission-Staff-Report.2.13.18.pdf"
+        },
+        {
+          "name": "City Council Staff Report 3.6.18",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/City-Council-Staff-Report-3.6.18.pdf"
+        },
+        {
+          "name": "City Council Staff Report 3.20.18",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/City-Council-Staff-Report-3.20.18.pdf"
+        },
+        {
+          "name": "Final Zeiss Innovation Center MND-IS.12.8.17",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Final-Zeiss-Innovation-Center-MND-IS.12.8.17.pdf"
+        },
+        {
+          "name": "Appendix A Biological Resources Assessment Report",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Appendix-A-Biological-Resources-Assessment-Report.pdf"
+        },
+        {
+          "name": "Appendix B Delineation Potential Jurisdictional Wetlands Under Section 404 CWA",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Appendix-B-Delineation-Potential-Jurisdictional-Wetlands-Under-Section-404-CWA.pdf"
+        },
+        {
+          "name": "Appendix C Rare Plant Survey Report",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Appendix-C-Rare-Plant-Survey-Report.pdf"
+        },
+        {
+          "name": "Appendix D Historic Resources Survey",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Appendix-D-Historic-Resources-Survey.pdf"
+        },
+        {
+          "name": "Appendix E Carl Zeiss Traffic Consistency Analysis",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Appendix-E-Carl-Zeiss-Traffic-Consistency-Analysis.pdf"
+        },
+        {
+          "name": "Final Notice of Intent",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Final-Notice-of-Intent.pdf"
+        },
+        {
+          "name": "Notice of Time Extension of Supplemental Mitigated Negative Declaration",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Notice-of-Time-Extension-of-Supplemental-Mitigated-Negative-Declaration.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "The Zeiss Innovation Center includes two phases of research & development (R&D) campus development.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.1.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.1-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.2.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.2-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.Dublin.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.Dublin-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-aerial.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-aerial-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Aerial.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Aerial-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Zeiss Innovation Center"
+      }
+    },
+    "projectId": "projectdetail465",
+    "timestamp": "1596943340000"
+  }
+]

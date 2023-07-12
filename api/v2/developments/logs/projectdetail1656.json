@@ -1,0 +1,57 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1656"
+    ],
+    "val": {
+      "id": "projectdetail1656",
+      "title": "Dublin Fallon 580",
+      "details": {
+        "Planning Application #": "PLPA-2022-000028",
+        "Application Type": "Planned Development Rezone, Vesting Tentative Tract Maps and Development Agreement",
+        "Application Submittal Date": "08/18/2022",
+        "General Plan Land Use": "General Commercial/ Campus Office (GC/CO), Open Space (OS), Community Park (CP), Public/Semi-Public (P/SP), and Medium High Density Residential (MH)",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Ordinance No. 32-05 and Ordinance No. 13-08",
+        "Project Area": "192 acres",
+        "Applicant": {
+          "name": "Wooi See, GH PacVest, Inc",
+          "address": "2800 Post Oak Blvd, Ste 5115, Houston TX 77056",
+          "phone": "832-397-6506"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "Croak Road",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "Dublin Fallon 580 project consists of a Large Lot Vesting Tentative Tract Map (VTTM) to subdivide the approximately 192-acre parcel into ten parcels that generally coincide with the existing land use designations, two Small Lot VTTMs for the 6.5-acre and 7.12-acre Medium High Density Residential parcels, Planned Development Rezone with a Stage 2 Development Plan and Development Agreement.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Pages-from-All-Tentative-Tract-Maps-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Pages-from-All-Tentative-Tract-Maps-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/All-Tentative-Tract-Maps_Page_3-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/All-Tentative-Tract-Maps_Page_3-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/All-Tentative-Tract-Maps_Page_2-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/All-Tentative-Tract-Maps_Page_2-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.70771,
+        "lon": -121.847664,
+        "iconName": "dot",
+        "title": "Dublin Fallon 580"
+      }
+    },
+    "projectId": "projectdetail1656",
+    "timestamp": "1684627200000"
+  }
+]

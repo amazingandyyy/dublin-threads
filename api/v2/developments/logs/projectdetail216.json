@@ -1,0 +1,319 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail216"
+    ],
+    "val": {
+      "id": "projectdetail216",
+      "title": "Jordan Ranch Neighborhood 5 (Slate)",
+      "details": {
+        "Planning Application #": "PLPA-2010-00068",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "12/01/2016",
+        "General Plan Land Use": "Medium Density Residential",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development",
+        "Project Area": "7.8 acres",
+        "Applicant": {
+          "name": "TriPointe Homes",
+          "address": "2010 Crow Canyon Place, Suite 380, San Ramon, CA 94583",
+          "phone": "925.804.2230"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "Panorama Circle",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Neighborhood 5 of Jordan Ranch (Slate) is being developed by TriPointe Homes with 56 single family residences on 7.8 acres.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/05/dublin100x100white.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/05/dublin100x100white.png"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-site-plan-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Jordan Ranch Neighborhood 5 (Slate)"
+      }
+    },
+    "projectId": "projectdetail216",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail216",
+      "details",
+      "Application Submittal Date"
+    ],
+    "val": "12/01/2010",
+    "oldVal": "12/01/2016",
+    "projectId": "projectdetail216",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail216",
+      "details",
+      "Applicant",
+      "name"
+    ],
+    "val": "Jason Cole, TRI Pointe Homes",
+    "oldVal": "TriPointe Homes",
+    "projectId": "projectdetail216",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail216",
+      "details",
+      "Applicant",
+      "phone"
+    ],
+    "val": "(925) 804-2230",
+    "oldVal": "925.804.2230",
+    "projectId": "projectdetail216",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail216",
+      "details",
+      "Building Area"
+    ],
+    "val": "1,840 - 2,110 square feet",
+    "projectId": "projectdetail216",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail216",
+      "details",
+      "Foor Area Ratio"
+    ],
+    "val": "N/A FAR",
+    "projectId": "projectdetail216",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail216",
+      "details",
+      "Stories/Height"
+    ],
+    "val": "2 stories / 30 feet",
+    "projectId": "projectdetail216",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail216",
+      "description"
+    ],
+    "val": "Neighborhood 5 of Jordan Ranch (Slate) is being developed by TRI Pointe Homes with 56 single family residences on 7.8 acres. Three floors plans are offered for the “3,200 square foot lots.” All plans are two stories and range in size from 1,840 square feet to 2,110 square feet.",
+    "oldVal": "Neighborhood 5 of Jordan Ranch (Slate) is being developed by TriPointe Homes with 56 single family residences on 7.8 acres.",
+    "projectId": "projectdetail216",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail216",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/05/dublin100x100white.png",
+    "projectId": "projectdetail216",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail216",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/05/dublin100x100white.png",
+    "projectId": "projectdetail216",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail216",
+      "images",
+      3
+    ],
+    "oldVal": {
+      "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering.jpg",
+      "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering-150x150.jpg"
+    },
+    "projectId": "projectdetail216",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail216",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering.jpg",
+    "projectId": "projectdetail216",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail216",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering-150x150.jpg",
+    "projectId": "projectdetail216",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail216",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2.jpg",
+    "projectId": "projectdetail216",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail216",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2-150x150.jpg",
+    "projectId": "projectdetail216",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail216",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-site-plan.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-site-plan.jpg",
+    "projectId": "projectdetail216",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail216",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-site-plan-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-site-plan-150x150.jpg",
+    "projectId": "projectdetail216",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail216"
+    ],
+    "oldVal": {
+      "id": "projectdetail216",
+      "title": "Jordan Ranch Neighborhood 5 (Slate)",
+      "details": {
+        "Planning Application #": "PLPA-2010-00068",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "12/01/2010",
+        "General Plan Land Use": "Medium Density Residential",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development",
+        "Project Area": "7.8 acres",
+        "Building Area": "1,840 - 2,110 square feet",
+        "Foor Area Ratio": "N/A FAR",
+        "Stories/Height": "2 stories / 30 feet",
+        "Applicant": {
+          "name": "Jason Cole, TRI Pointe Homes",
+          "address": "2010 Crow Canyon Place, Suite 380, San Ramon, CA 94583",
+          "phone": "(925) 804-2230"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "Panorama Circle",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Neighborhood 5 of Jordan Ranch (Slate) is being developed by TRI Pointe Homes with 56 single family residences on 7.8 acres. Three floors plans are offered for the “3,200 square foot lots.” All plans are two stories and range in size from 1,840 square feet to 2,110 square feet.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-site-plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-site-plan-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Jordan Ranch Neighborhood 5 (Slate)"
+      }
+    },
+    "projectId": "projectdetail216",
+    "timestamp": "1596943340000"
+  }
+]

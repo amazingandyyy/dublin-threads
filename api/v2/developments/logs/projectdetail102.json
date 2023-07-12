@@ -1,0 +1,140 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail102"
+    ],
+    "val": {
+      "id": "projectdetail102",
+      "title": "Sierra Business Center Rezone",
+      "details": {
+        "Planning Application #": "PLPA-2014-00034",
+        "Application Type": "Planned Development Rezone",
+        "Application Submittal Date": "06/11/2014",
+        "General Plan Land Use": "Business Park Industrial (BPI)",
+        "Specific Plan Area": "None",
+        "Zoning": "M-1",
+        "Project Area": "5.3 acres",
+        "Applicant": {
+          "name": "Edward Pike, Square 1, LLC",
+          "address": "PO Box 458, Orinda, CA 94563",
+          "phone": "(925) 383-9894"
+        },
+        "Project Planner": {
+          "name": "Martha Aja - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "Martha.aja@dublin.ca.gov"
+        }
+      },
+      "location": "6465 Sierra Lane",
+      "docs": [
+        {
+          "name": "Sierra Business Park Initial Study/Negative Declaration",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14361"
+        }
+      ],
+      "status": "Application Under Review",
+      "description": "This proposed project is to rezone the property from Light Industrial (M-1) to Industrial Park (M-P). The proposed rezoning will allow office uses and eliminate some more intense light industrial type uses.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Sierra-Lane-Site-Map.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Sierra-Lane-Site-Map-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan-1.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan-1-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Sierra Business Center Rezone"
+      }
+    },
+    "projectId": "projectdetail102",
+    "timestamp": "1476241401000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail102",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Martha Battaglia - Associate Planner",
+    "oldVal": "Martha Aja - Associate Planner",
+    "projectId": "projectdetail102",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail102",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "Martha.Battaglia@dublin.ca.gov",
+    "oldVal": "Martha.aja@dublin.ca.gov",
+    "projectId": "projectdetail102",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail102"
+    ],
+    "oldVal": {
+      "id": "projectdetail102",
+      "title": "Sierra Business Center Rezone",
+      "details": {
+        "Planning Application #": "PLPA-2014-00034",
+        "Application Type": "Planned Development Rezone",
+        "Application Submittal Date": "06/11/2014",
+        "General Plan Land Use": "Business Park Industrial (BPI)",
+        "Specific Plan Area": "None",
+        "Zoning": "M-1",
+        "Project Area": "5.3 acres",
+        "Applicant": {
+          "name": "Edward Pike, Square 1, LLC",
+          "address": "PO Box 458, Orinda, CA 94563",
+          "phone": "(925) 383-9894"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "Martha.Battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "6465 Sierra Lane",
+      "docs": [
+        {
+          "name": "Sierra Business Park Initial Study/Negative Declaration",
+          "url": "http://www.dublin.ca.gov/DocumentCenter/View/14361"
+        }
+      ],
+      "status": "Application Under Review",
+      "description": "This proposed project is to rezone the property from Light Industrial (M-1) to Industrial Park (M-P). The proposed rezoning will allow office uses and eliminate some more intense light industrial type uses.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Sierra-Lane-Site-Map.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Sierra-Lane-Site-Map-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan-1.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan-1-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Sierra Business Center Rezone"
+      }
+    },
+    "projectId": "projectdetail102",
+    "timestamp": "1492908897000"
+  }
+]

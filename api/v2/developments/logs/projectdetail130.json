@@ -1,0 +1,318 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail130"
+    ],
+    "val": {
+      "id": "projectdetail130",
+      "title": "Sutter Retail Development",
+      "details": {
+        "Planning Application #": "PLPA-2015-00038",
+        "Application Type": "Conditional Use Permit, Site Development Review, Heritage Tree Removal and Tentative Parcel Map",
+        "Application Submittal Date": "04/30/2014",
+        "General Plan Land Use": "Downtown Dublin - Retail District",
+        "Specific Plan Area": "Downtown Dublin Specific Plan - Retail District",
+        "Zoning": "DDZD",
+        "Project Area": "1.19 acres",
+        "Building Area": "8,000 square feet",
+        "Foor Area Ratio": ".15 FAR",
+        "Stories/Height": "1 story / 26 feet",
+        "Parking Provided": "57 parking spaces",
+        "Applicant": {
+          "name": "Aldon Construction Management, LLC Attn: Don Zebrak",
+          "address": "404 Shiveley Ct., Roseville, CA 95747",
+          "phone": "(916) 218-2620"
+        },
+        "Project Planner": {
+          "name": "Marnie R. Delgado - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "marnie.delgado@dublin.ca.gov"
+        }
+      },
+      "location": "7080 San Ramon Road",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "The Applicant, Sutter Retail Development, is requesting approval of a Conditional Use Permit, Site Development Review, Heritage Tree Removal and Tentative Parcel Map to subdivide the site into two parcels, remove two heritage oak trees, construct a 2,600 square foot drive-thru Starbucks and a 5,400 square foot commercial building. The site is currently vacant.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/GIS-Location-Map_cropped.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/GIS-Location-Map_cropped-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Sutter Retail Development"
+      }
+    },
+    "projectId": "projectdetail130",
+    "timestamp": "1476241401000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail130",
+      "title"
+    ],
+    "val": "Dublin Retail LLC",
+    "oldVal": "Sutter Retail Development",
+    "projectId": "projectdetail130",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail130",
+      "details",
+      "Parking Provided"
+    ],
+    "val": "46 parking spaces",
+    "oldVal": "57 parking spaces",
+    "projectId": "projectdetail130",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail130",
+      "description"
+    ],
+    "val": "The Applicant, Dublin Retail LLC, is requesting approval of a Conditional Use Permit, Site Development Review, Heritage Tree Removal and Tentative Parcel Map to subdivide a vacant 1.19 acre site into two parcels, remove one-two heritage oak trees, construct a 2,600 square foot drive-thru coffee shop and construct a 5,400 square foot commercial building. The site is currently vacant and contains two heritage oak trees.",
+    "oldVal": "The Applicant, Sutter Retail Development, is requesting approval of a Conditional Use Permit, Site Development Review, Heritage Tree Removal and Tentative Parcel Map to subdivide the site into two parcels, remove two heritage oak trees, construct a 2,600 square foot drive-thru Starbucks and a 5,400 square foot commercial building. The site is currently vacant.",
+    "projectId": "projectdetail130",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail130",
+      "images",
+      1
+    ],
+    "val": {
+      "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Site-Plan.jpg",
+      "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Site-Plan-150x150.jpg"
+    },
+    "projectId": "projectdetail130",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail130",
+      "images",
+      2
+    ],
+    "val": {
+      "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Coffee-Shop-Elevation.jpg",
+      "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Coffee-Shop-Elevation-150x150.jpg"
+    },
+    "projectId": "projectdetail130",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail130",
+      "images",
+      3
+    ],
+    "val": {
+      "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Pad-Bldg-Elevation.jpg",
+      "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Pad-Bldg-Elevation-150x150.jpg"
+    },
+    "projectId": "projectdetail130",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail130",
+      "geolocation",
+      "title"
+    ],
+    "val": "Dublin Retail LLC",
+    "oldVal": "Sutter Retail Development",
+    "projectId": "projectdetail130",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail130",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Amy Million - Principal Planner",
+    "oldVal": "Marnie R. Delgado - Senior Planner",
+    "projectId": "projectdetail130",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail130",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "amy.million@dublin.ca.gov",
+    "oldVal": "marnie.delgado@dublin.ca.gov",
+    "projectId": "projectdetail130",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail130",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/GIS-Location-Map_cropped.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/GIS-Location-Map_cropped.jpg",
+    "projectId": "projectdetail130",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail130",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/GIS-Location-Map_cropped-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/GIS-Location-Map_cropped-150x150.jpg",
+    "projectId": "projectdetail130",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail130",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Site-Plan.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Site-Plan.jpg",
+    "projectId": "projectdetail130",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail130",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Site-Plan-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Site-Plan-150x150.jpg",
+    "projectId": "projectdetail130",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail130",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Pad-Bldg-Elevation.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Coffee-Shop-Elevation.jpg",
+    "projectId": "projectdetail130",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail130",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Pad-Bldg-Elevation-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Coffee-Shop-Elevation-150x150.jpg",
+    "projectId": "projectdetail130",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail130",
+      "images",
+      3
+    ],
+    "oldVal": {
+      "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Pad-Bldg-Elevation.jpg",
+      "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Pad-Bldg-Elevation-150x150.jpg"
+    },
+    "projectId": "projectdetail130",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail130"
+    ],
+    "oldVal": {
+      "id": "projectdetail130",
+      "title": "Dublin Retail LLC",
+      "details": {
+        "Planning Application #": "PLPA-2015-00038",
+        "Application Type": "Conditional Use Permit, Site Development Review, Heritage Tree Removal and Tentative Parcel Map",
+        "Application Submittal Date": "04/30/2014",
+        "General Plan Land Use": "Downtown Dublin - Retail District",
+        "Specific Plan Area": "Downtown Dublin Specific Plan - Retail District",
+        "Zoning": "DDZD",
+        "Project Area": "1.19 acres",
+        "Building Area": "8,000 square feet",
+        "Foor Area Ratio": ".15 FAR",
+        "Stories/Height": "1 story / 26 feet",
+        "Parking Provided": "46 parking spaces",
+        "Applicant": {
+          "name": "Aldon Construction Management, LLC Attn: Don Zebrak",
+          "address": "404 Shiveley Ct., Roseville, CA 95747",
+          "phone": "(916) 218-2620"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "7080 San Ramon Road",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "The Applicant, Dublin Retail LLC, is requesting approval of a Conditional Use Permit, Site Development Review, Heritage Tree Removal and Tentative Parcel Map to subdivide a vacant 1.19 acre site into two parcels, remove one-two heritage oak trees, construct a 2,600 square foot drive-thru coffee shop and construct a 5,400 square foot commercial building. The site is currently vacant and contains two heritage oak trees.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/GIS-Location-Map_cropped.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/GIS-Location-Map_cropped-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Site-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Pad-Bldg-Elevation.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Pad-Bldg-Elevation-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Dublin Retail LLC"
+      }
+    },
+    "projectId": "projectdetail130",
+    "timestamp": "1596943340000"
+  }
+]

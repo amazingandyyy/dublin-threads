@@ -1,0 +1,136 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail131"
+    ],
+    "val": {
+      "id": "projectdetail131",
+      "title": "Shell Gas Station Remodel",
+      "details": {
+        "Planning Application #": "PLPA-2015-00002",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "01/08/2015",
+        "General Plan Land Use": "Retail/Office",
+        "Specific Plan Area": "Primary Planning Area",
+        "Zoning": "Retail Commercial (C-1)",
+        "Project Area": "0.6 acres",
+        "Building Area": "1,552 square feet",
+        "Stories/Height": "1 story / 17 feet",
+        "Parking Provided": "5 parking spaces",
+        "Applicant": {
+          "name": "Richard Hudson",
+          "address": "11989 Dublin Blvd., Dublin, CA 94568",
+          "phone": "(925) 872-0058"
+        },
+        "Project Planner": {
+          "name": "Martha Aja - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.aja@dublin.ca.gov"
+        }
+      },
+      "location": "11989 Dublin Boulevard",
+      "docs": [],
+      "status": "Final Action",
+      "description": "This project includes a Site Development Review approval for a façade remodel of the existing Mini-Mart building and fuel canopy and site and landscape improvements including an electronic price sign at the existing Shell Gas Station.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SHELL-GAS-STATION.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SHELL-GAS-STATION-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SHELL-GAS-STATION-2.jpg.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SHELL-GAS-STATION-2.jpg-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Shell Gas Station Remodel"
+      }
+    },
+    "projectId": "projectdetail131",
+    "timestamp": "1476241401000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail131",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Martha Battaglia - Associate Planner",
+    "oldVal": "Martha Aja - Associate Planner",
+    "projectId": "projectdetail131",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail131",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "martha.battaglia@dublin.ca.gov",
+    "oldVal": "martha.aja@dublin.ca.gov",
+    "projectId": "projectdetail131",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail131"
+    ],
+    "oldVal": {
+      "id": "projectdetail131",
+      "title": "Shell Gas Station Remodel",
+      "details": {
+        "Planning Application #": "PLPA-2015-00002",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "01/08/2015",
+        "General Plan Land Use": "Retail/Office",
+        "Specific Plan Area": "Primary Planning Area",
+        "Zoning": "Retail Commercial (C-1)",
+        "Project Area": "0.6 acres",
+        "Building Area": "1,552 square feet",
+        "Stories/Height": "1 story / 17 feet",
+        "Parking Provided": "5 parking spaces",
+        "Applicant": {
+          "name": "Richard Hudson",
+          "address": "11989 Dublin Blvd., Dublin, CA 94568",
+          "phone": "(925) 872-0058"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "11989 Dublin Boulevard",
+      "docs": [],
+      "status": "Final Action",
+      "description": "This project includes a Site Development Review approval for a façade remodel of the existing Mini-Mart building and fuel canopy and site and landscape improvements including an electronic price sign at the existing Shell Gas Station.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SHELL-GAS-STATION.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SHELL-GAS-STATION-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SHELL-GAS-STATION-2.jpg.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SHELL-GAS-STATION-2.jpg-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Shell Gas Station Remodel"
+      }
+    },
+    "projectId": "projectdetail131",
+    "timestamp": "1513193626000"
+  }
+]

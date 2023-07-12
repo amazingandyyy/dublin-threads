@@ -1,0 +1,154 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail107"
+    ],
+    "val": {
+      "id": "projectdetail107",
+      "title": "Fallon Gateway Shopping Center",
+      "details": {
+        "Planning Application #": "PA-08-034",
+        "Application Type": "PD Amendment, Site Development Review",
+        "Application Submittal Date": "11/04/2008",
+        "General Plan Land Use": "General Commercial",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD (Planned Development)",
+        "Project Area": "38 acres",
+        "Building Area": "379,000 square feet",
+        "Foor Area Ratio": "26% FAR",
+        "Stories/Height": "1 story",
+        "Parking Provided": "1508 parking spaces",
+        "Applicant": {
+          "name": "James Tong. Stanforth Holdings, LLC",
+          "address": "4080 Grafton St., Suite 200, Dublin, CA 94568",
+          "phone": "(925) 463-1666"
+        },
+        "Project Planner": {
+          "name": "Martha Aja - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.aja@dublin.ca.gov"
+        }
+      },
+      "location": "2880 Dublin Boulevard",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Fallon Gateway Shopping Center is a 379,000 square foot retail center anchored by Target. The project has been approved and construction has been occuring since 2010 in phases.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/FALLON-GATEWAY.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/FALLON-GATEWAY-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/FALLON-GATEWAY-1.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/FALLON-GATEWAY-1-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fallon-Gateway-Site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fallon-Gateway-Site-plan-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Fallon Gateway Shopping Center"
+      }
+    },
+    "projectId": "projectdetail107",
+    "timestamp": "1476241401000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail107",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Martha Battaglia - Associate Planner",
+    "oldVal": "Martha Aja - Associate Planner",
+    "projectId": "projectdetail107",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail107",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "martha.battaglia@dublin.ca.gov",
+    "oldVal": "martha.aja@dublin.ca.gov",
+    "projectId": "projectdetail107",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail107"
+    ],
+    "oldVal": {
+      "id": "projectdetail107",
+      "title": "Fallon Gateway Shopping Center",
+      "details": {
+        "Planning Application #": "PA-08-034",
+        "Application Type": "PD Amendment, Site Development Review",
+        "Application Submittal Date": "11/04/2008",
+        "General Plan Land Use": "General Commercial",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD (Planned Development)",
+        "Project Area": "38 acres",
+        "Building Area": "379,000 square feet",
+        "Foor Area Ratio": "26% FAR",
+        "Stories/Height": "1 story",
+        "Parking Provided": "1508 parking spaces",
+        "Applicant": {
+          "name": "James Tong. Stanforth Holdings, LLC",
+          "address": "4080 Grafton St., Suite 200, Dublin, CA 94568",
+          "phone": "(925) 463-1666"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "2880 Dublin Boulevard",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Fallon Gateway Shopping Center is a 379,000 square foot retail center anchored by Target. The project has been approved and construction has been occuring since 2010 in phases.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/FALLON-GATEWAY.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/FALLON-GATEWAY-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/FALLON-GATEWAY-1.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/FALLON-GATEWAY-1-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fallon-Gateway-Site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fallon-Gateway-Site-plan-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Fallon Gateway Shopping Center"
+      }
+    },
+    "projectId": "projectdetail107",
+    "timestamp": "1513193626000"
+  }
+]

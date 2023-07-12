@@ -1,0 +1,168 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail37"
+    ],
+    "val": {
+      "id": "projectdetail37",
+      "title": "Guitar Center",
+      "details": {
+        "Planning Application #": "PLPA-2015-00061",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "12/14/2016",
+        "General Plan Land Use": "General Commercial",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development",
+        "Project Area": "1.5 acres",
+        "Building Area": "15,000 square feet",
+        "Foor Area Ratio": "0.34 FAR",
+        "Stories/Height": "1 story / 31 feet",
+        "Parking Provided": "68 parking spaces",
+        "Applicant": {
+          "name": "Stanforth Holding Company LLC",
+          "address": "4080 Grafton Street, Suite 200, Dublin, CA 94568",
+          "phone": "925-463-1666"
+        },
+        "Project Planner": {
+          "name": "Martha Aja - Associate Planner",
+          "phone": "925-833-6610",
+          "email": "martha.aja@dublin.ca.gov"
+        }
+      },
+      "location": "2880 Dublin Boulevard",
+      "docs": [],
+      "description": "Site Development Review Permit to allow the construction of Major E within the Fallon Gateway Commercial Center. The project includes the construction of a 15,000 square foot Guitar Center and related site improvements, including parking and landscaping.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/06/east-and-north-elevation.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/06/east-and-north-elevation-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/06/west-and-south-elevation.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/06/west-and-south-elevation-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/06/site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/06/site-plan-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Guitar Center"
+      }
+    },
+    "projectId": "projectdetail37",
+    "timestamp": "1469220936000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail37",
+      "details",
+      "Applicant",
+      "name"
+    ],
+    "val": "James Tong, Stanforth Holding Company LLC",
+    "oldVal": "Stanforth Holding Company LLC",
+    "projectId": "projectdetail37",
+    "timestamp": "1476241401000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail37",
+      "status"
+    ],
+    "val": "Final Action",
+    "projectId": "projectdetail37",
+    "timestamp": "1476241401000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail37",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Martha Battaglia - Associate Planner",
+    "oldVal": "Martha Aja - Associate Planner",
+    "projectId": "projectdetail37",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail37",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "martha.battaglia@dublin.ca.gov",
+    "oldVal": "martha.aja@dublin.ca.gov",
+    "projectId": "projectdetail37",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail37"
+    ],
+    "oldVal": {
+      "id": "projectdetail37",
+      "title": "Guitar Center",
+      "details": {
+        "Planning Application #": "PLPA-2015-00061",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "12/14/2016",
+        "General Plan Land Use": "General Commercial",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development",
+        "Project Area": "1.5 acres",
+        "Building Area": "15,000 square feet",
+        "Foor Area Ratio": "0.34 FAR",
+        "Stories/Height": "1 story / 31 feet",
+        "Parking Provided": "68 parking spaces",
+        "Applicant": {
+          "name": "James Tong, Stanforth Holding Company LLC",
+          "address": "4080 Grafton Street, Suite 200, Dublin, CA 94568",
+          "phone": "925-463-1666"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "925-833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "2880 Dublin Boulevard",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Site Development Review Permit to allow the construction of Major E within the Fallon Gateway Commercial Center. The project includes the construction of a 15,000 square foot Guitar Center and related site improvements, including parking and landscaping.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/06/east-and-north-elevation.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/06/east-and-north-elevation-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/06/west-and-south-elevation.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/06/west-and-south-elevation-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/06/site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/06/site-plan-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Guitar Center"
+      }
+    },
+    "projectId": "projectdetail37",
+    "timestamp": "1492908897000"
+  }
+]

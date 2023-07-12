@@ -1,0 +1,162 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail622"
+    ],
+    "val": {
+      "id": "projectdetail622",
+      "title": "Volvo Cars of Dublin",
+      "details": {
+        "Planning Application #": "PLPA-2017-00053",
+        "Application Type": "Conditional Use Permit & Site Development Review",
+        "Application Submittal Date": "09/11/2017",
+        "General Plan Land Use": "Retail/Office and Automotive",
+        "Specific Plan Area": "N/A",
+        "Zoning": "General Commercial",
+        "Project Area": "2.78 acres",
+        "Building Area": "23,680 square feet",
+        "Foor Area Ratio": ".20 FAR",
+        "Stories/Height": "1 story / 24 feet",
+        "Parking Provided": "152 parking spaces",
+        "Applicant": {
+          "name": "Jeff Qvale",
+          "address": "P.O. Box 667, Ross, CA 94957",
+          "phone": "(415) 244-6663"
+        },
+        "Project Planner": {
+          "name": "Mandy Kang - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "mandy.kang@dublin.ca.gov"
+        }
+      },
+      "location": "6430 Dublin Court",
+      "docs": [
+        {
+          "name": "PC SR 3.13.18 Meeting",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/PC-SR-3.13.18-Meeting.pdf"
+        },
+        {
+          "name": "1. Resolution Approving a Site Development Review Permit",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/1.-Resolution-Approving-a-Site-Development-Review-Permit.pdf"
+        },
+        {
+          "name": "3. Resolution Approving a Conditional Use Permit",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/3.-Resolution-Approving-a-Conditional-Use-Permit.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Application for a Conditional Use Permit to allow Automobile/Vehicle Sales & Service and a Site Development Review for a façade remodel and related site improvements. The proposed project includes the demolition of a small car dealer structure on one of the two lots and the re-use of an existing retail building (formerly Office Depot) on the second lot. The existing retail building will be converted to a new auto dealer (Volvo). The dealership will occupy the entire existing retail structure while also filling the existing truck dock area to provide room for the parts department and the car wash facility. The second parcel will be the primary location for the car inventory. The project includes site modifications, including new landscaping and improved site circulation.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Perspective-1.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Perspective-1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Site-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Perspective-3.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Perspective-3-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Perspective-5.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Perspective-5-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Landscape-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Landscape-Plan-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Volvo Cars of Dublin"
+      }
+    },
+    "projectId": "projectdetail622",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail622"
+    ],
+    "oldVal": {
+      "id": "projectdetail622",
+      "title": "Volvo Cars of Dublin",
+      "details": {
+        "Planning Application #": "PLPA-2017-00053",
+        "Application Type": "Conditional Use Permit & Site Development Review",
+        "Application Submittal Date": "09/11/2017",
+        "General Plan Land Use": "Retail/Office and Automotive",
+        "Specific Plan Area": "N/A",
+        "Zoning": "General Commercial",
+        "Project Area": "2.78 acres",
+        "Building Area": "23,680 square feet",
+        "Foor Area Ratio": ".20 FAR",
+        "Stories/Height": "1 story / 24 feet",
+        "Parking Provided": "152 parking spaces",
+        "Applicant": {
+          "name": "Jeff Qvale",
+          "address": "P.O. Box 667, Ross, CA 94957",
+          "phone": "(415) 244-6663"
+        },
+        "Project Planner": {
+          "name": "Mandy Kang - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "mandy.kang@dublin.ca.gov"
+        }
+      },
+      "location": "6430 Dublin Court",
+      "docs": [
+        {
+          "name": "PC SR 3.13.18 Meeting",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/PC-SR-3.13.18-Meeting.pdf"
+        },
+        {
+          "name": "1. Resolution Approving a Site Development Review Permit",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/1.-Resolution-Approving-a-Site-Development-Review-Permit.pdf"
+        },
+        {
+          "name": "3. Resolution Approving a Conditional Use Permit",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/3.-Resolution-Approving-a-Conditional-Use-Permit.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Application for a Conditional Use Permit to allow Automobile/Vehicle Sales & Service and a Site Development Review for a façade remodel and related site improvements. The proposed project includes the demolition of a small car dealer structure on one of the two lots and the re-use of an existing retail building (formerly Office Depot) on the second lot. The existing retail building will be converted to a new auto dealer (Volvo). The dealership will occupy the entire existing retail structure while also filling the existing truck dock area to provide room for the parts department and the car wash facility. The second parcel will be the primary location for the car inventory. The project includes site modifications, including new landscaping and improved site circulation.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Perspective-1.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Perspective-1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Site-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Perspective-3.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Perspective-3-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Perspective-5.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Perspective-5-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Landscape-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Landscape-Plan-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Volvo Cars of Dublin"
+      }
+    },
+    "projectId": "projectdetail622",
+    "timestamp": "1596943340000"
+  }
+]

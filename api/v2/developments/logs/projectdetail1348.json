@@ -1,0 +1,121 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1348"
+    ],
+    "val": {
+      "id": "projectdetail1348",
+      "title": "Inspiration Drive Assisted Living",
+      "details": {
+        "Planning Application #": "PLPA-2020-00045",
+        "Application Type": "Planned Development Rezoning (Stage 1 Development Plan), Site Development Review Permit, and Tentative Parcel Map",
+        "Application Submittal Date": "10/12/2020",
+        "General Plan Land Use": "Public/Semi-Public",
+        "Specific Plan Area": "n/a",
+        "Zoning": "Planned Development Resolution No. 07-03",
+        "Project Area": "4.68 acres",
+        "Building Area": "75,400 square feet",
+        "Foor Area Ratio": ".37 FAR",
+        "Stories/Height": "2 stories / 39 feet",
+        "Applicant": {
+          "name": "Steven Ring, Fulcrum Real Estate &amp; Development Inc.",
+          "address": "475 Gate 5 Road, Suite 316, Sausalito CA 94965",
+          "phone": "415-985-8606"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "7500 Inspiration Drive",
+      "docs": [
+        {
+          "name": "Valley Christian Center Expansion Program Draft EIR 2002",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/12/Valley-Christian-Center-Expansion-Program-Draft-EIR-2002-1.pdf"
+        },
+        {
+          "name": "Valley Christian Center Expansion Program Final EIR 2003",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/12/Valley-Christian-Center-Expansion-Program-Final-EIR-2003-1.pdf"
+        },
+        {
+          "name": "Valley Christian Center Supplemental MND June 2018",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/12/Valley-Christian-Center-Supplemental-MND-June-2018.pdf"
+        },
+        {
+          "name": "Notice of Intent – Inspiration Drive Memory Care and Assisted Living Projects",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Notice-of-Intent-Inspiration-Drive.pdf"
+        },
+        {
+          "name": "Initial Study and Supplemental Mitigated Negative Declaration – Inspiration Drive Memory Care and Assisted Living Projects",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Inspiration_Public-Review-Draft-Initial-Study.pdf"
+        },
+        {
+          "name": "Community Meeting Notice – December 8 and December 9",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Community-Meeting-Inspiration-Drive.pdf"
+        },
+        {
+          "name": "Community Meeting Presentation",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Inspiration-Drive-Community-Meeting-Presentation.pdf"
+        },
+        {
+          "name": "City Council Study Session April 5, 2022 Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/0303e91067ffe0f0c70146581ce205f80.pdf"
+        },
+        {
+          "name": "Planning Commission Study Session April 12, 2022 Agenda & Staff Report",
+          "url": "https://d3n9y02raazwpg.cloudfront.net/dublin/7c05f30d-6db0-11ec-85e3-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1649198729.pdf"
+        },
+        {
+          "name": "Planning Commission April 26, 2022 Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/4b39f0cc545760a549539b54fc61b7d80.pdf"
+        },
+        {
+          "name": "City Council May 17, 2022 Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/57322b8fe2b004c0f9e0b998fc5f7e090.pdf"
+        },
+        {
+          "name": "City Council June 7, 2022 Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/496a9a3a1a6b1634b5bbb4bcbcc3c8d30.pdf"
+        },
+        {
+          "name": "Notice of Determination Filed 051822",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/NOD-Filed-051822.pdf"
+        },
+        {
+          "name": "Notice of Determination Filed 060822",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/NOD-Filed-060822.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "The proposed project is an assisted living facility of 84 beds on Parcel 3 of the Valley Christian Center property. The requested approvals includes a Planned Development Rezone (Stage 1 Development Plan), Site Development Review Permit, and Tentative Parcel Map.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Pages-from-Parcel-3-Assisted-Living-Project-Plans-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Pages-from-Parcel-3-Assisted-Living-Project-Plans-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Pages-from-Parcel-3-Assisted-Living-Project-Plans-2-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Pages-from-Parcel-3-Assisted-Living-Project-Plans-2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Assisted-Living-Elevation-2-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Assisted-Living-Elevation-2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Parcel-3-Location.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Parcel-3-Location-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.699389,
+        "lon": -121.953694,
+        "iconName": "dot",
+        "title": "Inspiration Drive Assisted Living"
+      }
+    },
+    "projectId": "projectdetail1348",
+    "timestamp": "1684627200000"
+  }
+]

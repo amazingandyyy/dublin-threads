@@ -1,0 +1,112 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail155"
+    ],
+    "val": {
+      "id": "projectdetail155",
+      "title": "Jordan Ranch Neighborhood 2 (Altmore)",
+      "details": {
+        "Planning Application #": "PLPA-2013-00043",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "07/23/2013",
+        "General Plan Land Use": "Single-Family Residential, Medium Density Residential, Medium High Density Residential, Mixed Use, Semi-Public, Parks/Public Recreation, and Open Space",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD - Planned Development",
+        "Project Area": "189 acres",
+        "Applicant": {
+          "name": "Toll Brothers",
+          "address": "2000 Crow Canyon Place, Suite 200, San Ramon, CA 94583",
+          "phone": "(925) 560-9500"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "Sunset View Drive",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Altmore is Neighborhood 2 of the overall Jordan Ranch project and is being developed by Toll Brothers. This neighborhood is comprised of 111 single family homes clustered around common spaces.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N2-N3-Altmore-Capri-site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N2-N3-Altmore-Capri-site-plan-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N2-Altmore-streetscape.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N2-Altmore-streetscape-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Jordan Ranch Neighborhood 2 (Altmore)"
+      }
+    },
+    "projectId": "projectdetail155",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail155"
+    ],
+    "oldVal": {
+      "id": "projectdetail155",
+      "title": "Jordan Ranch Neighborhood 2 (Altmore)",
+      "details": {
+        "Planning Application #": "PLPA-2013-00043",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "07/23/2013",
+        "General Plan Land Use": "Single-Family Residential, Medium Density Residential, Medium High Density Residential, Mixed Use, Semi-Public, Parks/Public Recreation, and Open Space",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD - Planned Development",
+        "Project Area": "189 acres",
+        "Applicant": {
+          "name": "Toll Brothers",
+          "address": "2000 Crow Canyon Place, Suite 200, San Ramon, CA 94583",
+          "phone": "(925) 560-9500"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "Sunset View Drive",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Altmore is Neighborhood 2 of the overall Jordan Ranch project and is being developed by Toll Brothers. This neighborhood is comprised of 111 single family homes clustered around common spaces.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N2-N3-Altmore-Capri-site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N2-N3-Altmore-Capri-site-plan-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N2-Altmore-streetscape.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N2-Altmore-streetscape-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Jordan Ranch Neighborhood 2 (Altmore)"
+      }
+    },
+    "projectId": "projectdetail155",
+    "timestamp": "1492908897000"
+  }
+]

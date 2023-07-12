@@ -1,0 +1,368 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail116"
+    ],
+    "val": {
+      "id": "projectdetail116",
+      "title": "Valley Christian Center",
+      "details": {
+        "Planning Application #": "PLPA-2014-00052",
+        "Application Type": "Planned Development Rezone, Site Development Review",
+        "Application Submittal Date": "10/22/2014",
+        "General Plan Land Use": "Public/Semi-Public, Open Space",
+        "Specific Plan Area": "Western Extended Planning Area Boundary",
+        "Zoning": "PD - Planned Development",
+        "Project Area": "51.1 acres",
+        "Applicant": {
+          "name": "Goring &amp; Straja Architects",
+          "address": "729 Heinz Ave., Berkeley,CA 94710",
+          "phone": "(510) 848-0895"
+        },
+        "Project Planner": {
+          "name": "Marnie Delgado - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "marnie.delgado@dublin.ca.gov"
+        }
+      },
+      "location": "7500 Inspiration Drive",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "Valley Christian Center has submitted an application to update their master plan to include a new multi-purpose sports field.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/7500_Inspiration_Aerial_View.png",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/7500_Inspiration_Aerial_View-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Valley Christian Center"
+      }
+    },
+    "projectId": "projectdetail116",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "details",
+      "Application Type"
+    ],
+    "val": "Planned Development Rezone, Site Development Review, Conditional Use Permit and Minor Use Permit",
+    "oldVal": "Planned Development Rezone, Site Development Review",
+    "projectId": "projectdetail116",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Martha Battaglia - Associate Planner",
+    "oldVal": "Marnie Delgado - Senior Planner",
+    "projectId": "projectdetail116",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "martha.battaglia@dublin.ca.gov",
+    "oldVal": "marnie.delgado@dublin.ca.gov",
+    "projectId": "projectdetail116",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "description"
+    ],
+    "val": "The Valley Christian Center has submitted an application to update their master plan that would include a lighted athletic field for football, soccer, track and other sports, construction of new buildings on the campus, expansion of existing buildings and changes to on-site parking and landscaping.",
+    "oldVal": "Valley Christian Center has submitted an application to update their master plan to include a new multi-purpose sports field.",
+    "projectId": "projectdetail116",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/7500_Inspiration_Aerial_View.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/7500_Inspiration_Aerial_View.png",
+    "projectId": "projectdetail116",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/7500_Inspiration_Aerial_View-150x150.png",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/7500_Inspiration_Aerial_View-150x150.png",
+    "projectId": "projectdetail116",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail116",
+      "details",
+      "Parking Provided"
+    ],
+    "val": "511 parking spaces",
+    "projectId": "projectdetail116",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail116",
+      "docs",
+      0
+    ],
+    "val": {
+      "name": "Valley Christian Planning Commission Staff Report",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Valley-Christian-Planning-Commission-Staff-Report.doc"
+    },
+    "projectId": "projectdetail116",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail116",
+      "docs",
+      1
+    ],
+    "val": {
+      "name": "VCC Notice of Intent",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/VCC-Notice-of-Intent.pdf"
+    },
+    "projectId": "projectdetail116",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail116",
+      "docs",
+      2
+    ],
+    "val": {
+      "name": "VCC Initial Study & Supplemental MND 6.8.18",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/VCC-Initial-Study-Supplemental-MND-6.8.18.pdf"
+    },
+    "projectId": "projectdetail116",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail116",
+      "docs",
+      3
+    ],
+    "val": {
+      "name": "Valley Christian Center Biological Resource Assessment & Update",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Valley-Christian-Center-Biological-Resource-Assessment-Update.pdf"
+    },
+    "projectId": "projectdetail116",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail116",
+      "docs",
+      4
+    ],
+    "val": {
+      "name": "Valley Christian Center Noise Assessment",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Valley-Christian-Center-Noise-Assessment.pdf"
+    },
+    "projectId": "projectdetail116",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail116",
+      "docs",
+      5
+    ],
+    "val": {
+      "name": "Valley Christian Center Final Traffic Report",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Valley-Christian-Center-Final-Traffic-Report.pdf"
+    },
+    "projectId": "projectdetail116",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "status"
+    ],
+    "val": "Pubic Hearing",
+    "oldVal": "Application Under Review",
+    "projectId": "projectdetail116",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "description"
+    ],
+    "val": "The Valley Christian Center is requesting approval to modify the Planned Development Zoning for the campus. The Planned Development Zoning serves as the master plan to build out the campus over time. The proposed amendments include the addition of a lighted athletic field with sound amplification, establishing a parking standard for the field, and re-allocating the square feet associated with the other various buildings/uses on the campus. The request also includes a Site Development Review Permit to construct the athletic field, a concession stand/ticket booth and associated site improvements including a new parking lot, plaza and landscaping.",
+    "oldVal": "The Valley Christian Center has submitted an application to update their master plan that would include a lighted athletic field for football, soccer, track and other sports, construction of new buildings on the campus, expansion of existing buildings and changes to on-site parking and landscaping.",
+    "projectId": "projectdetail116",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail116",
+      "images",
+      1
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/football-field.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/football-field-150x150.png"
+    },
+    "projectId": "projectdetail116",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail116",
+      "images",
+      2
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Central-Plaza.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Central-Plaza-150x150.png"
+    },
+    "projectId": "projectdetail116",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail116",
+      "images",
+      3
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Site-Plan.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Site-Plan-150x150.png"
+    },
+    "projectId": "projectdetail116",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail116"
+    ],
+    "oldVal": {
+      "id": "projectdetail116",
+      "title": "Valley Christian Center",
+      "details": {
+        "Planning Application #": "PLPA-2014-00052",
+        "Application Type": "Planned Development Rezone, Site Development Review, Conditional Use Permit and Minor Use Permit",
+        "Application Submittal Date": "10/22/2014",
+        "General Plan Land Use": "Public/Semi-Public, Open Space",
+        "Specific Plan Area": "Western Extended Planning Area Boundary",
+        "Zoning": "PD - Planned Development",
+        "Project Area": "51.1 acres",
+        "Parking Provided": "511 parking spaces",
+        "Applicant": {
+          "name": "Goring &amp; Straja Architects",
+          "address": "729 Heinz Ave., Berkeley,CA 94710",
+          "phone": "(510) 848-0895"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "7500 Inspiration Drive",
+      "docs": [
+        {
+          "name": "Valley Christian Planning Commission Staff Report",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Valley-Christian-Planning-Commission-Staff-Report.doc"
+        },
+        {
+          "name": "VCC Notice of Intent",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/VCC-Notice-of-Intent.pdf"
+        },
+        {
+          "name": "VCC Initial Study & Supplemental MND 6.8.18",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/VCC-Initial-Study-Supplemental-MND-6.8.18.pdf"
+        },
+        {
+          "name": "Valley Christian Center Biological Resource Assessment & Update",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Valley-Christian-Center-Biological-Resource-Assessment-Update.pdf"
+        },
+        {
+          "name": "Valley Christian Center Noise Assessment",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Valley-Christian-Center-Noise-Assessment.pdf"
+        },
+        {
+          "name": "Valley Christian Center Final Traffic Report",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Valley-Christian-Center-Final-Traffic-Report.pdf"
+        }
+      ],
+      "status": "Pubic Hearing",
+      "description": "The Valley Christian Center is requesting approval to modify the Planned Development Zoning for the campus. The Planned Development Zoning serves as the master plan to build out the campus over time. The proposed amendments include the addition of a lighted athletic field with sound amplification, establishing a parking standard for the field, and re-allocating the square feet associated with the other various buildings/uses on the campus. The request also includes a Site Development Review Permit to construct the athletic field, a concession stand/ticket booth and associated site improvements including a new parking lot, plaza and landscaping.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/7500_Inspiration_Aerial_View.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/7500_Inspiration_Aerial_View-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/football-field.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/football-field-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Central-Plaza.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Central-Plaza-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Site-Plan.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Site-Plan-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Valley Christian Center"
+      }
+    },
+    "projectId": "projectdetail116",
+    "timestamp": "1596943340000"
+  }
+]

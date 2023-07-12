@@ -1,0 +1,253 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail602"
+    ],
+    "val": {
+      "id": "projectdetail602",
+      "title": "Safari Kids Childcare & Community Center",
+      "details": {
+        "Planning Application #": "PLPA-2017-00050",
+        "Application Type": "Conditional Use Permit, Site Development Review & Minor Use Permit",
+        "Application Submittal Date": "08/08/2017",
+        "General Plan Land Use": "Semi-Public",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD (Planned Development)",
+        "Project Area": "2.1 acres",
+        "Building Area": "14,936 square feet",
+        "Foor Area Ratio": ".19 FAR",
+        "Stories/Height": "1 story / 23 feet",
+        "Parking Provided": "90 parking spaces",
+        "Applicant": {
+          "name": "Safari Kids, Chandra Sirapu",
+          "address": "800 Henley Court, San Ramon, CA 94583",
+          "phone": "(510) 585-5541"
+        },
+        "Project Planner": {
+          "name": "Mandy Kang - Senior Planner",
+          "phone": "(925) 833-6613",
+          "email": "mandy.kang@dublin.ca.gov"
+        }
+      },
+      "location": "Positano Parkway",
+      "docs": [
+        {
+          "name": "PC SR 2.13.18",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/PC-SR-2.13.18.pdf"
+        },
+        {
+          "name": "PC SR 4.10.18",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/PC-SR-4.10.18.pdf"
+        },
+        {
+          "name": "Resolution Denying a Site Development Review Permit for a 14,869 Square Foot Builidng",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Resolution-Denying-a-Site-Development-Review-Permit-for-a-14869-Square-Foot-Builidng.pdf"
+        },
+        {
+          "name": "Resolution Denying a Conditional Use Permit for a Minor Amendment to the Planned Development Zoning",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Resolution-Denying-a-Conditional-Use-Permit-for-a-Minor-Amendment-to-the-Planned-Development-Zoning.pdf"
+        },
+        {
+          "name": "Resolution Denying a Minor Use Permit for Shared Parking",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Resolution-Denying-a-Minor-Use-Permit-for-Shared-Parking.pdf"
+        }
+      ],
+      "status": "Pubic Hearing",
+      "description": "Safari Kid is proposing a new daycare facility and community room on the vacant 2.1-acre Semi-Public parcel at the corner of Positano Parkway and West Cantara Drive in Positano. The proposed project includes a 14,936 square foot building comprised of a 10,667 square foot childcare center and a 4,269 square foot multipurpose room that will be open for rent to the community. The project includes an outdoor play area for the childcare center, shared parking for both uses and landscaping throughout the site.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Perspective.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Perspective-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Perspective-2.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Perspective-2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Site-Plan-1.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Site-Plan-1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Landscape-Plan-1.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Landscape-Plan-1-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Safari Kids Childcare & Community Center"
+      }
+    },
+    "projectId": "projectdetail602",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail602",
+      "docs",
+      5
+    ],
+    "val": {
+      "name": "CCSR Appeal 6.19.18",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/CCSR-Appeal-6.19.18.pdf"
+    },
+    "projectId": "projectdetail602",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail602",
+      "docs",
+      6
+    ],
+    "val": {
+      "name": "Reso No. 81-18_Approving Conditional Use Permit",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Reso-No.-81-18_Approving-Conditional-Use-Permit.pdf"
+    },
+    "projectId": "projectdetail602",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail602",
+      "docs",
+      7
+    ],
+    "val": {
+      "name": "Reso No. 82-18_Approving a Site Development Review Permit",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Reso-No.-82-18_Approving-a-Site-Development-Review-Permit.pdf"
+    },
+    "projectId": "projectdetail602",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail602",
+      "docs",
+      8
+    ],
+    "val": {
+      "name": "Reso No. 83-18_Approving a Minor Use Permit",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Reso-No.-83-18_Approving-a-Minor-Use-Permit.pdf"
+    },
+    "projectId": "projectdetail602",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail602",
+      "status"
+    ],
+    "val": "Final Action",
+    "oldVal": "Pubic Hearing",
+    "projectId": "projectdetail602",
+    "timestamp": "1537002007000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail602"
+    ],
+    "oldVal": {
+      "id": "projectdetail602",
+      "title": "Safari Kids Childcare & Community Center",
+      "details": {
+        "Planning Application #": "PLPA-2017-00050",
+        "Application Type": "Conditional Use Permit, Site Development Review & Minor Use Permit",
+        "Application Submittal Date": "08/08/2017",
+        "General Plan Land Use": "Semi-Public",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD (Planned Development)",
+        "Project Area": "2.1 acres",
+        "Building Area": "14,936 square feet",
+        "Foor Area Ratio": ".19 FAR",
+        "Stories/Height": "1 story / 23 feet",
+        "Parking Provided": "90 parking spaces",
+        "Applicant": {
+          "name": "Safari Kids, Chandra Sirapu",
+          "address": "800 Henley Court, San Ramon, CA 94583",
+          "phone": "(510) 585-5541"
+        },
+        "Project Planner": {
+          "name": "Mandy Kang - Senior Planner",
+          "phone": "(925) 833-6613",
+          "email": "mandy.kang@dublin.ca.gov"
+        }
+      },
+      "location": "Positano Parkway",
+      "docs": [
+        {
+          "name": "PC SR 2.13.18",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/PC-SR-2.13.18.pdf"
+        },
+        {
+          "name": "PC SR 4.10.18",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/PC-SR-4.10.18.pdf"
+        },
+        {
+          "name": "Resolution Denying a Site Development Review Permit for a 14,869 Square Foot Builidng",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Resolution-Denying-a-Site-Development-Review-Permit-for-a-14869-Square-Foot-Builidng.pdf"
+        },
+        {
+          "name": "Resolution Denying a Conditional Use Permit for a Minor Amendment to the Planned Development Zoning",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Resolution-Denying-a-Conditional-Use-Permit-for-a-Minor-Amendment-to-the-Planned-Development-Zoning.pdf"
+        },
+        {
+          "name": "Resolution Denying a Minor Use Permit for Shared Parking",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Resolution-Denying-a-Minor-Use-Permit-for-Shared-Parking.pdf"
+        },
+        {
+          "name": "CCSR Appeal 6.19.18",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/CCSR-Appeal-6.19.18.pdf"
+        },
+        {
+          "name": "Reso No. 81-18_Approving Conditional Use Permit",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Reso-No.-81-18_Approving-Conditional-Use-Permit.pdf"
+        },
+        {
+          "name": "Reso No. 82-18_Approving a Site Development Review Permit",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Reso-No.-82-18_Approving-a-Site-Development-Review-Permit.pdf"
+        },
+        {
+          "name": "Reso No. 83-18_Approving a Minor Use Permit",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Reso-No.-83-18_Approving-a-Minor-Use-Permit.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Safari Kid is proposing a new daycare facility and community room on the vacant 2.1-acre Semi-Public parcel at the corner of Positano Parkway and West Cantara Drive in Positano. The proposed project includes a 14,936 square foot building comprised of a 10,667 square foot childcare center and a 4,269 square foot multipurpose room that will be open for rent to the community. The project includes an outdoor play area for the childcare center, shared parking for both uses and landscaping throughout the site.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Perspective.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Perspective-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Perspective-2.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Perspective-2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Site-Plan-1.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Site-Plan-1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Landscape-Plan-1.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Landscape-Plan-1-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Safari Kids Childcare & Community Center"
+      }
+    },
+    "projectId": "projectdetail602",
+    "timestamp": "1596943340000"
+  }
+]

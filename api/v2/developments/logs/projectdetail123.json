@@ -1,0 +1,224 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail123"
+    ],
+    "val": {
+      "id": "projectdetail123",
+      "title": "Fountainhead Montessori",
+      "details": {
+        "Planning Application #": "PLPA-2016-00005",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "01/08/2016",
+        "General Plan Land Use": "Downtown Dublin - Retail District",
+        "Specific Plan Area": "Downtown Dublin Specific Plan - Retail District",
+        "Zoning": "DDZD",
+        "Project Area": "4.5 acres",
+        "Building Area": "62,946 square feet",
+        "Foor Area Ratio": "31% FAR",
+        "Stories/Height": "2 stories",
+        "Parking Provided": "182 parking spaces",
+        "Applicant": {
+          "name": "Shandy Cole, Fountain Head Montessori",
+          "address": "1375 Locust Street, #202, Walnut Creek, CA 94596",
+          "phone": "(925) 930-9690"
+        },
+        "Project Planner": {
+          "name": "Martha Aja - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.aja@dublin.ca.gov"
+        }
+      },
+      "location": "6665 Amador Plaza Road",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Site Development Review was approved for a facade remodel of the three existing buildings, construction of solar carport structures within the parking lot, and construction of outdoor play areas and associated site improvements, including solar shade structures, for use by Fountainhead Montessori.",
+      "images": [
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-elevations-1.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-elevations-1-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-site-plan.jpg.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-site-plan.jpg-150x150.jpg"
+        },
+        {
+          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/solar-arrays.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/solar-arrays-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Fountainhead Montessori"
+      }
+    },
+    "projectId": "projectdetail123",
+    "timestamp": "1476241401000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail123",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Martha Battaglia - Associate Planner",
+    "oldVal": "Martha Aja - Associate Planner",
+    "projectId": "projectdetail123",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail123",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "martha.battaglia@dublin.ca.gov",
+    "oldVal": "martha.aja@dublin.ca.gov",
+    "projectId": "projectdetail123",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail123",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-elevations-1.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-elevations-1.jpg",
+    "projectId": "projectdetail123",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail123",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-elevations-1-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-elevations-1-150x150.jpg",
+    "projectId": "projectdetail123",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail123",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-site-plan.jpg.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-site-plan.jpg.jpg",
+    "projectId": "projectdetail123",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail123",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-site-plan.jpg-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-site-plan.jpg-150x150.jpg",
+    "projectId": "projectdetail123",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail123",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/solar-arrays.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/solar-arrays.jpg",
+    "projectId": "projectdetail123",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail123",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/solar-arrays-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/solar-arrays-150x150.jpg",
+    "projectId": "projectdetail123",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail123"
+    ],
+    "oldVal": {
+      "id": "projectdetail123",
+      "title": "Fountainhead Montessori",
+      "details": {
+        "Planning Application #": "PLPA-2016-00005",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "01/08/2016",
+        "General Plan Land Use": "Downtown Dublin - Retail District",
+        "Specific Plan Area": "Downtown Dublin Specific Plan - Retail District",
+        "Zoning": "DDZD",
+        "Project Area": "4.5 acres",
+        "Building Area": "62,946 square feet",
+        "Foor Area Ratio": "31% FAR",
+        "Stories/Height": "2 stories",
+        "Parking Provided": "182 parking spaces",
+        "Applicant": {
+          "name": "Shandy Cole, Fountain Head Montessori",
+          "address": "1375 Locust Street, #202, Walnut Creek, CA 94596",
+          "phone": "(925) 930-9690"
+        },
+        "Project Planner": {
+          "name": "Martha Battaglia - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "martha.battaglia@dublin.ca.gov"
+        }
+      },
+      "location": "6665 Amador Plaza Road",
+      "docs": [],
+      "status": "Final Action",
+      "description": "Site Development Review was approved for a facade remodel of the three existing buildings, construction of solar carport structures within the parking lot, and construction of outdoor play areas and associated site improvements, including solar shade structures, for use by Fountainhead Montessori.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-elevations-1.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-elevations-1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-site-plan.jpg.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-site-plan.jpg-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/solar-arrays.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/solar-arrays-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Fountainhead Montessori"
+      }
+    },
+    "projectId": "projectdetail123",
+    "timestamp": "1596943340000"
+  }
+]
