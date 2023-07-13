@@ -67,7 +67,7 @@ async function generateAllLogs (datekeys) {
       const log = generateLogs({ oldData: previousSnapshot, newData: currentSnapshot, timestamp: String(timestamp) })
       allLogs.push(...log)
     })
-    allLogs = allLogs.sort((a, b) => Number(a.timestamp) - Number(b.timestamp))
+    allLogs = allLogs.sort((a, b) => Number(b.timestamp) - Number(a.timestamp))
     writeJsonToFileForce(absolutePath(`${apiPath}/developments/logs/global.json`), allLogs)
     return resolve(allLogs)
   })
