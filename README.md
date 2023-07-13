@@ -5,8 +5,9 @@ Data API for Dublin, CA
 ## Dublin Development Projects
 
 ### Frontend webpage
+
 - OLD https://dublin-development.icitywork.com
-- NEW https://amazingandyyy.com/dublin
+- NEW https://dublin-amazingandyyy.vercel.app
 
 ### JSON API
 
