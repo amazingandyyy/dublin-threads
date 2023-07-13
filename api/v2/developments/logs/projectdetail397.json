@@ -49,8 +49,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7356239,
+        "lon": -121.8715824,
         "iconName": "dot",
         "title": "Wallis Ranch Neighborhood 6 (Riverton)"
       }
@@ -202,6 +202,57 @@
     "timestamp": "1513193626000"
   },
   {
+    "op": "update",
+    "path": [
+      "projectdetail397",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Planning Division",
+    "oldVal": "Mandy Kang - Senior Planner",
+    "projectId": "projectdetail397",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail397",
+      "details",
+      "Project Planner",
+      "phone"
+    ],
+    "val": "(925) 833-6610",
+    "oldVal": "(925) 833-6613",
+    "projectId": "projectdetail397",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail397",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "",
+    "oldVal": "mandy.kang@dublin.ca.gov",
+    "projectId": "projectdetail397",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail397",
+      "geolocation",
+      "iconName"
+    ],
+    "val": "building",
+    "oldVal": "dot",
+    "projectId": "projectdetail397",
+    "timestamp": "1596943340000"
+  },
+  {
     "op": "delete",
     "path": [
       "projectdetail397"
@@ -223,9 +274,9 @@
           "phone": "(925) 983-4526"
         },
         "Project Planner": {
-          "name": "Mandy Kang - Senior Planner",
-          "phone": "(925) 833-6613",
-          "email": "mandy.kang@dublin.ca.gov"
+          "name": "Planning Division",
+          "phone": "(925) 833-6610",
+          "email": ""
         }
       },
       "location": "6996 Stags Lean Lane",
@@ -251,13 +302,13 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
-        "iconName": "dot",
+        "lat": 37.7356239,
+        "lon": -121.8715824,
+        "iconName": "building",
         "title": "Wallis Ranch Neighborhood 6 (Riverton)"
       }
     },
     "projectId": "projectdetail397",
-    "timestamp": "1596943340000"
+    "timestamp": "1603056634000"
   }
 ]

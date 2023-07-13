@@ -48,8 +48,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7052192,
+        "lon": -121.9015369,
         "iconName": "dot",
         "title": "Tribeca"
       }
@@ -106,8 +106,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7052192,
+        "lon": -121.9015369,
         "iconName": "dot",
         "title": "Tribeca"
       }

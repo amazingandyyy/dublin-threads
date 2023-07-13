@@ -74,8 +74,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7187619,
+        "lon": -121.8477539,
         "iconName": "dot",
         "title": "Safari Kids Childcare & Community Center"
       }
@@ -151,6 +151,209 @@
     "timestamp": "1537002007000"
   },
   {
+    "op": "update",
+    "path": [
+      "projectdetail602",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Robert Smith - Associate Planner",
+    "oldVal": "Mandy Kang - Senior Planner",
+    "projectId": "projectdetail602",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail602",
+      "details",
+      "Project Planner",
+      "phone"
+    ],
+    "val": "(925) 833-6610",
+    "oldVal": "(925) 833-6613",
+    "projectId": "projectdetail602",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail602",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "robert.smith@dublin.ca.gov",
+    "oldVal": "mandy.kang@dublin.ca.gov",
+    "projectId": "projectdetail602",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail602",
+      "docs",
+      0,
+      "name"
+    ],
+    "val": "Planning Commission Staff Report 2.13.18",
+    "oldVal": "PC SR 2.13.18",
+    "projectId": "projectdetail602",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail602",
+      "docs",
+      1,
+      "name"
+    ],
+    "val": "Planning Commission Staff Report 4.10.18",
+    "oldVal": "PC SR 4.10.18",
+    "projectId": "projectdetail602",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail602",
+      "docs",
+      2,
+      "name"
+    ],
+    "val": "Planning Commission Resolution Denying a Site Development Review Permit",
+    "oldVal": "Resolution Denying a Site Development Review Permit for a 14,869 Square Foot Builidng",
+    "projectId": "projectdetail602",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail602",
+      "docs",
+      3,
+      "name"
+    ],
+    "val": "Planning Commission Resolution Denying a Conditional Use Permit",
+    "oldVal": "Resolution Denying a Conditional Use Permit for a Minor Amendment to the Planned Development Zoning",
+    "projectId": "projectdetail602",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail602",
+      "docs",
+      4,
+      "name"
+    ],
+    "val": "Resolution Denying a Minor Use Permit",
+    "oldVal": "Resolution Denying a Minor Use Permit for Shared Parking",
+    "projectId": "projectdetail602",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail602",
+      "docs",
+      5,
+      "name"
+    ],
+    "val": "City Council Staff Report Appeal 6.19.18",
+    "oldVal": "CCSR Appeal 6.19.18",
+    "projectId": "projectdetail602",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail602",
+      "docs",
+      6,
+      "name"
+    ],
+    "val": "City Council Resolution Approving Conditional Use Permit",
+    "oldVal": "Reso No. 81-18_Approving Conditional Use Permit",
+    "projectId": "projectdetail602",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail602",
+      "docs",
+      7,
+      "name"
+    ],
+    "val": "City Council Resolution Approving a Site Development Review Permit",
+    "oldVal": "Reso No. 82-18_Approving a Site Development Review Permit",
+    "projectId": "projectdetail602",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail602",
+      "docs",
+      8,
+      "name"
+    ],
+    "val": "City Council Resolution Approving a Minor Use Permit",
+    "oldVal": "Reso No. 83-18_Approving a Minor Use Permit",
+    "projectId": "projectdetail602",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail602",
+      "description"
+    ],
+    "val": "Safari Kid will build and operate a new daycare facility and community room on the vacant 2.1-acre Semi-Public parcel at the corner of Positano Parkway and West Cantara Drive in the Positano neighborhood. The project includes a 14,936 square foot building comprised of a 10,667 square foot childcare center and a 4,269 square foot multipurpose room that will be open for rent to the community. The project includes an outdoor play area for the childcare center, shared parking for both uses and landscaping throughout the site.",
+    "oldVal": "Safari Kid is proposing a new daycare facility and community room on the vacant 2.1-acre Semi-Public parcel at the corner of Positano Parkway and West Cantara Drive in Positano. The proposed project includes a 14,936 square foot building comprised of a 10,667 square foot childcare center and a 4,269 square foot multipurpose room that will be open for rent to the community. The project includes an outdoor play area for the childcare center, shared parking for both uses and landscaping throughout the site.",
+    "projectId": "projectdetail602",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail602",
+      "geolocation",
+      "lat"
+    ],
+    "val": 37.71734,
+    "oldVal": 37.7187619,
+    "projectId": "projectdetail602",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail602",
+      "geolocation",
+      "lon"
+    ],
+    "val": -121.84909,
+    "oldVal": -121.8477539,
+    "projectId": "projectdetail602",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail602",
+      "geolocation",
+      "iconName"
+    ],
+    "val": "child",
+    "oldVal": "dot",
+    "projectId": "projectdetail602",
+    "timestamp": "1596943340000"
+  },
+  {
     "op": "delete",
     "path": [
       "projectdetail602"
@@ -176,52 +379,52 @@
           "phone": "(510) 585-5541"
         },
         "Project Planner": {
-          "name": "Mandy Kang - Senior Planner",
-          "phone": "(925) 833-6613",
-          "email": "mandy.kang@dublin.ca.gov"
+          "name": "Robert Smith - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "robert.smith@dublin.ca.gov"
         }
       },
       "location": "Positano Parkway",
       "docs": [
         {
-          "name": "PC SR 2.13.18",
+          "name": "Planning Commission Staff Report 2.13.18",
           "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/PC-SR-2.13.18.pdf"
         },
         {
-          "name": "PC SR 4.10.18",
+          "name": "Planning Commission Staff Report 4.10.18",
           "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/PC-SR-4.10.18.pdf"
         },
         {
-          "name": "Resolution Denying a Site Development Review Permit for a 14,869 Square Foot Builidng",
+          "name": "Planning Commission Resolution Denying a Site Development Review Permit",
           "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Resolution-Denying-a-Site-Development-Review-Permit-for-a-14869-Square-Foot-Builidng.pdf"
         },
         {
-          "name": "Resolution Denying a Conditional Use Permit for a Minor Amendment to the Planned Development Zoning",
+          "name": "Planning Commission Resolution Denying a Conditional Use Permit",
           "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Resolution-Denying-a-Conditional-Use-Permit-for-a-Minor-Amendment-to-the-Planned-Development-Zoning.pdf"
         },
         {
-          "name": "Resolution Denying a Minor Use Permit for Shared Parking",
+          "name": "Resolution Denying a Minor Use Permit",
           "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Resolution-Denying-a-Minor-Use-Permit-for-Shared-Parking.pdf"
         },
         {
-          "name": "CCSR Appeal 6.19.18",
+          "name": "City Council Staff Report Appeal 6.19.18",
           "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/CCSR-Appeal-6.19.18.pdf"
         },
         {
-          "name": "Reso No. 81-18_Approving Conditional Use Permit",
+          "name": "City Council Resolution Approving Conditional Use Permit",
           "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Reso-No.-81-18_Approving-Conditional-Use-Permit.pdf"
         },
         {
-          "name": "Reso No. 82-18_Approving a Site Development Review Permit",
+          "name": "City Council Resolution Approving a Site Development Review Permit",
           "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Reso-No.-82-18_Approving-a-Site-Development-Review-Permit.pdf"
         },
         {
-          "name": "Reso No. 83-18_Approving a Minor Use Permit",
+          "name": "City Council Resolution Approving a Minor Use Permit",
           "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Reso-No.-83-18_Approving-a-Minor-Use-Permit.pdf"
         }
       ],
       "status": "Final Action",
-      "description": "Safari Kid is proposing a new daycare facility and community room on the vacant 2.1-acre Semi-Public parcel at the corner of Positano Parkway and West Cantara Drive in Positano. The proposed project includes a 14,936 square foot building comprised of a 10,667 square foot childcare center and a 4,269 square foot multipurpose room that will be open for rent to the community. The project includes an outdoor play area for the childcare center, shared parking for both uses and landscaping throughout the site.",
+      "description": "Safari Kid will build and operate a new daycare facility and community room on the vacant 2.1-acre Semi-Public parcel at the corner of Positano Parkway and West Cantara Drive in the Positano neighborhood. The project includes a 14,936 square foot building comprised of a 10,667 square foot childcare center and a 4,269 square foot multipurpose room that will be open for rent to the community. The project includes an outdoor play area for the childcare center, shared parking for both uses and landscaping throughout the site.",
       "images": [
         {
           "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/09/Perspective.jpg",
@@ -241,13 +444,13 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
-        "iconName": "dot",
+        "lat": 37.71734,
+        "lon": -121.84909,
+        "iconName": "child",
         "title": "Safari Kids Childcare & Community Center"
       }
     },
     "projectId": "projectdetail602",
-    "timestamp": "1596943340000"
+    "timestamp": "1603056634000"
   }
 ]

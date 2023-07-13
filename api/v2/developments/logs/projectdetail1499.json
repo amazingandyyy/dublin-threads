@@ -1,1 +1,116 @@
-[]
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1499"
+    ],
+    "val": {
+      "id": "projectdetail1499",
+      "title": "San Ramon Road Drive-Through Restaurant (Chick-fil-A)",
+      "details": {
+        "Planning Application #": "PLPA-2021-00038",
+        "Application Type": "Conditional Use Permit and Site Development Review Permit",
+        "Application Submittal Date": "09/27/2021",
+        "General Plan Land Use": "Downtown Dublin - Retail District",
+        "Specific Plan Area": "Downtown Dublin - Retail District",
+        "Zoning": "Downtown Dublin Zoning District",
+        "Project Area": "1.58 acres",
+        "Building Area": "5,000 square feet",
+        "Foor Area Ratio": "0.07 FAR",
+        "Stories/Height": "1 story",
+        "Parking Provided": "60 parking spaces",
+        "Applicant": {
+          "name": "Ryan Shea",
+          "address": "3770 Highland Avenue, Suite 208, Manhattan Beach, CA 90266",
+          "phone": "(310) 545-8360"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "7400 San Ramon Road",
+      "docs": [],
+      "status": "Pre-Application",
+      "description": "Proposed demolition of an existing 8,437-square-foot restaurant building and construction of a new 5,000 square-foot drive-through restaurant building with new parking and site improvements.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-140.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-140-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.70645,
+        "lon": -121.93757,
+        "iconName": "dot",
+        "title": "San Ramon Road Drive-Through Restaurant (Chick-fil-A)"
+      }
+    },
+    "projectId": "projectdetail1499",
+    "timestamp": "1656420658000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1499",
+      "details",
+      "Application Type"
+    ],
+    "val": "Pre-Application",
+    "oldVal": "Conditional Use Permit and Site Development Review Permit",
+    "projectId": "projectdetail1499",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1499"
+    ],
+    "oldVal": {
+      "id": "projectdetail1499",
+      "title": "San Ramon Road Drive-Through Restaurant (Chick-fil-A)",
+      "details": {
+        "Planning Application #": "PLPA-2021-00038",
+        "Application Type": "Pre-Application",
+        "Application Submittal Date": "09/27/2021",
+        "General Plan Land Use": "Downtown Dublin - Retail District",
+        "Specific Plan Area": "Downtown Dublin - Retail District",
+        "Zoning": "Downtown Dublin Zoning District",
+        "Project Area": "1.58 acres",
+        "Building Area": "5,000 square feet",
+        "Foor Area Ratio": "0.07 FAR",
+        "Stories/Height": "1 story",
+        "Parking Provided": "60 parking spaces",
+        "Applicant": {
+          "name": "Ryan Shea",
+          "address": "3770 Highland Avenue, Suite 208, Manhattan Beach, CA 90266",
+          "phone": "(310) 545-8360"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "7400 San Ramon Road",
+      "docs": [],
+      "status": "Pre-Application",
+      "description": "Proposed demolition of an existing 8,437-square-foot restaurant building and construction of a new 5,000 square-foot drive-through restaurant building with new parking and site improvements.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-140.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-140-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.70645,
+        "lon": -121.93757,
+        "iconName": "dot",
+        "title": "San Ramon Road Drive-Through Restaurant (Chick-fil-A)"
+      }
+    },
+    "projectId": "projectdetail1499",
+    "timestamp": "1664716746000"
+  }
+]

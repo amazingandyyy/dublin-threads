@@ -41,8 +41,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.736733,
+        "lon": -121.878449,
         "iconName": "dot",
         "title": "Wallis Ranch Neighborhood 1 (Bridgecroft)"
       }
@@ -183,8 +183,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.736733,
+        "lon": -121.878449,
         "iconName": "dot",
         "title": "Wallis Ranch Neighborhood 1 (Bridgecroft)"
       }

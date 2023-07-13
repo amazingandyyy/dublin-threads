@@ -49,8 +49,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.735513,
+        "lon": -121.873446,
         "iconName": "dot",
         "title": "Wallis Ranch Neighborhood 8 (Fielding)"
       }
@@ -202,6 +202,57 @@
     "timestamp": "1513193626000"
   },
   {
+    "op": "update",
+    "path": [
+      "projectdetail399",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Planning Division",
+    "oldVal": "Mandy Kang - Senior Planner",
+    "projectId": "projectdetail399",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail399",
+      "details",
+      "Project Planner",
+      "phone"
+    ],
+    "val": "(925) 833-6610",
+    "oldVal": "(925) 833-6613",
+    "projectId": "projectdetail399",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail399",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "",
+    "oldVal": "mandy.kang@dublin.ca.gov",
+    "projectId": "projectdetail399",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail399",
+      "geolocation",
+      "iconName"
+    ],
+    "val": "home",
+    "oldVal": "dot",
+    "projectId": "projectdetail399",
+    "timestamp": "1596943340000"
+  },
+  {
     "op": "delete",
     "path": [
       "projectdetail399"
@@ -223,9 +274,9 @@
           "phone": "(925) 648-8300"
         },
         "Project Planner": {
-          "name": "Mandy Kang - Senior Planner",
-          "phone": "(925) 833-6613",
-          "email": "mandy.kang@dublin.ca.gov"
+          "name": "Planning Division",
+          "phone": "(925) 833-6610",
+          "email": ""
         }
       },
       "location": "3995 Windsor Way",
@@ -251,13 +302,13 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
-        "iconName": "dot",
+        "lat": 37.735513,
+        "lon": -121.873446,
+        "iconName": "home",
         "title": "Wallis Ranch Neighborhood 8 (Fielding)"
       }
     },
     "projectId": "projectdetail399",
-    "timestamp": "1596943340000"
+    "timestamp": "1603056634000"
   }
 ]

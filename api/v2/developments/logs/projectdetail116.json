@@ -37,8 +37,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7022343,
+        "lon": -121.9537294,
         "iconName": "dot",
         "title": "Valley Christian Center"
       }
@@ -281,6 +281,267 @@
     "timestamp": "1537002007000"
   },
   {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Amy Million - Principal Planner",
+    "oldVal": "Martha Battaglia - Associate Planner",
+    "projectId": "projectdetail116",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "amy.million@dublin.ca.gov",
+    "oldVal": "martha.battaglia@dublin.ca.gov",
+    "projectId": "projectdetail116",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "docs",
+      0,
+      "name"
+    ],
+    "val": "City Council Staff Report February 19, 2019",
+    "oldVal": "Valley Christian Planning Commission Staff Report",
+    "projectId": "projectdetail116",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "docs",
+      0,
+      "url"
+    ],
+    "val": "http://www.dublin.ca.gov/ArchiveCenter/ViewFile/Item/934",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Valley-Christian-Planning-Commission-Staff-Report.doc",
+    "projectId": "projectdetail116",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "docs",
+      1,
+      "name"
+    ],
+    "val": "City Council Staff Report February 5, 2019",
+    "oldVal": "VCC Notice of Intent",
+    "projectId": "projectdetail116",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "docs",
+      1,
+      "url"
+    ],
+    "val": "http://www.dublin.ca.gov/ArchiveCenter/ViewFile/Item/930",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/VCC-Notice-of-Intent.pdf",
+    "projectId": "projectdetail116",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "docs",
+      2,
+      "name"
+    ],
+    "val": "City Council Staff Report September 4, 2018",
+    "oldVal": "VCC Initial Study & Supplemental MND 6.8.18",
+    "projectId": "projectdetail116",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "docs",
+      2,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/City-Council-Staff-Report-September-4-2018.doc",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/VCC-Initial-Study-Supplemental-MND-6.8.18.pdf",
+    "projectId": "projectdetail116",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "docs",
+      3,
+      "name"
+    ],
+    "val": "City Council Staff Report October 2, 2018",
+    "oldVal": "Valley Christian Center Biological Resource Assessment & Update",
+    "projectId": "projectdetail116",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "docs",
+      3,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/City-Council-Staff-Report-October-2-2018.doc",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Valley-Christian-Center-Biological-Resource-Assessment-Update.pdf",
+    "projectId": "projectdetail116",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "docs",
+      4,
+      "name"
+    ],
+    "val": "Valley Christian Planning Commission Staff Report",
+    "oldVal": "Valley Christian Center Noise Assessment",
+    "projectId": "projectdetail116",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "docs",
+      4,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Valley-Christian-Planning-Commission-Staff-Report.doc",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Valley-Christian-Center-Noise-Assessment.pdf",
+    "projectId": "projectdetail116",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "docs",
+      5,
+      "name"
+    ],
+    "val": "VCC Notice of Intent",
+    "oldVal": "Valley Christian Center Final Traffic Report",
+    "projectId": "projectdetail116",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "docs",
+      5,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/VCC-Notice-of-Intent.pdf",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Valley-Christian-Center-Final-Traffic-Report.pdf",
+    "projectId": "projectdetail116",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail116",
+      "docs",
+      6
+    ],
+    "val": {
+      "name": "VCC Initial Study & Supplemental MND 6.8.18",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/VCC-Initial-Study-Supplemental-MND-6.8.18.pdf"
+    },
+    "projectId": "projectdetail116",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail116",
+      "docs",
+      7
+    ],
+    "val": {
+      "name": "Valley Christian Center Biological Resource Assessment & Update",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Valley-Christian-Center-Biological-Resource-Assessment-Update.pdf"
+    },
+    "projectId": "projectdetail116",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail116",
+      "docs",
+      8
+    ],
+    "val": {
+      "name": "Valley Christian Center Noise Assessment",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Valley-Christian-Center-Noise-Assessment.pdf"
+    },
+    "projectId": "projectdetail116",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail116",
+      "docs",
+      9
+    ],
+    "val": {
+      "name": "Valley Christian Center Final Traffic Report",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Valley-Christian-Center-Final-Traffic-Report.pdf"
+    },
+    "projectId": "projectdetail116",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "status"
+    ],
+    "val": "Final Action",
+    "oldVal": "Pubic Hearing",
+    "projectId": "projectdetail116",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail116",
+      "geolocation",
+      "iconName"
+    ],
+    "val": "institution",
+    "oldVal": "dot",
+    "projectId": "projectdetail116",
+    "timestamp": "1596943340000"
+  },
+  {
     "op": "delete",
     "path": [
       "projectdetail116"
@@ -303,13 +564,29 @@
           "phone": "(510) 848-0895"
         },
         "Project Planner": {
-          "name": "Martha Battaglia - Associate Planner",
+          "name": "Amy Million - Principal Planner",
           "phone": "(925) 833-6610",
-          "email": "martha.battaglia@dublin.ca.gov"
+          "email": "amy.million@dublin.ca.gov"
         }
       },
       "location": "7500 Inspiration Drive",
       "docs": [
+        {
+          "name": "City Council Staff Report February 19, 2019",
+          "url": "http://www.dublin.ca.gov/ArchiveCenter/ViewFile/Item/934"
+        },
+        {
+          "name": "City Council Staff Report February 5, 2019",
+          "url": "http://www.dublin.ca.gov/ArchiveCenter/ViewFile/Item/930"
+        },
+        {
+          "name": "City Council Staff Report September 4, 2018",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/City-Council-Staff-Report-September-4-2018.doc"
+        },
+        {
+          "name": "City Council Staff Report October 2, 2018",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/City-Council-Staff-Report-October-2-2018.doc"
+        },
         {
           "name": "Valley Christian Planning Commission Staff Report",
           "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Valley-Christian-Planning-Commission-Staff-Report.doc"
@@ -335,7 +612,7 @@
           "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Valley-Christian-Center-Final-Traffic-Report.pdf"
         }
       ],
-      "status": "Pubic Hearing",
+      "status": "Final Action",
       "description": "The Valley Christian Center is requesting approval to modify the Planned Development Zoning for the campus. The Planned Development Zoning serves as the master plan to build out the campus over time. The proposed amendments include the addition of a lighted athletic field with sound amplification, establishing a parking standard for the field, and re-allocating the square feet associated with the other various buildings/uses on the campus. The request also includes a Site Development Review Permit to construct the athletic field, a concession stand/ticket booth and associated site improvements including a new parking lot, plaza and landscaping.",
       "images": [
         {
@@ -356,13 +633,13 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
-        "iconName": "dot",
+        "lat": 37.7022343,
+        "lon": -121.9537294,
+        "iconName": "institution",
         "title": "Valley Christian Center"
       }
     },
     "projectId": "projectdetail116",
-    "timestamp": "1596943340000"
+    "timestamp": "1603056634000"
   }
 ]

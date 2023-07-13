@@ -41,8 +41,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7372,
+        "lon": -121.874942,
         "iconName": "dot",
         "title": "Wallis Ranch Neighborhood 3 (Ivy Oak)"
       }
@@ -142,6 +142,57 @@
     "timestamp": "1513193626000"
   },
   {
+    "op": "update",
+    "path": [
+      "projectdetail394",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Planning Division",
+    "oldVal": "Mandy Kang - Senior Planner",
+    "projectId": "projectdetail394",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail394",
+      "details",
+      "Project Planner",
+      "phone"
+    ],
+    "val": "(925) 833-6610",
+    "oldVal": "(925) 833-6613",
+    "projectId": "projectdetail394",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail394",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "",
+    "oldVal": "mandy.kang@dublin.ca.gov",
+    "projectId": "projectdetail394",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail394",
+      "geolocation",
+      "iconName"
+    ],
+    "val": "home",
+    "oldVal": "dot",
+    "projectId": "projectdetail394",
+    "timestamp": "1596943340000"
+  },
+  {
     "op": "delete",
     "path": [
       "projectdetail394"
@@ -163,9 +214,9 @@
           "phone": "(925) 659-8109"
         },
         "Project Planner": {
-          "name": "Mandy Kang - Senior Planner",
-          "phone": "(925) 833-6613",
-          "email": "mandy.kang@dublin.ca.gov"
+          "name": "Planning Division",
+          "phone": "(925) 833-6610",
+          "email": ""
         }
       },
       "location": "7328 Kenwood Road",
@@ -183,13 +234,13 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
-        "iconName": "dot",
+        "lat": 37.7372,
+        "lon": -121.874942,
+        "iconName": "home",
         "title": "Wallis Ranch Neighborhood 3 (Ivy Oak)"
       }
     },
     "projectId": "projectdetail394",
-    "timestamp": "1596943340000"
+    "timestamp": "1603056634000"
   }
 ]

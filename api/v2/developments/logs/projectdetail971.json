@@ -51,8 +51,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.70396,
+        "lon": 121.86516,
         "iconName": "dot",
         "title": "Grafton Plaza Daycare & Retail"
       }
@@ -72,62 +72,112 @@
     "timestamp": "1537002007000"
   },
   {
-    "op": "delete",
+    "op": "update",
     "path": [
-      "projectdetail971"
+      "projectdetail971",
+      "details",
+      "Application Type"
     ],
-    "oldVal": {
-      "id": "projectdetail971",
-      "title": "Grafton Plaza Daycare & Retail",
-      "details": {
-        "Planning Application #": "PLPA-2018-00010",
-        "Application Type": "Major Planned Development Amendment and Site Development Review",
-        "Application Submittal Date": "05/01/2018",
-        "General Plan Land Use": "Mixed Use 2/Campus Office (MU2CO)",
-        "Specific Plan Area": "Mixed Use 2/Campus Office (MU2CO)",
-        "Zoning": "Planned Development (PD)",
-        "Project Area": "3.68 acres",
-        "Building Area": "31,804 square feet",
-        "Parking Provided": "154 parking spaces",
-        "Applicant": {
-          "name": "Eddy Li",
-          "address": "432 Bridle Ct., San Ramon, CA 94582",
-          "phone": "(510) 817-8892"
-        },
-        "Project Planner": {
-          "name": "Mandy Kang - Senior Planner",
-          "phone": "(925) 833-6610",
-          "email": "mandy.kang@dublin.ca.gov"
-        }
-      },
-      "location": "1000 Dublin Boulevard",
-      "docs": [],
-      "status": "Application Under Review",
-      "description": "A Major Planned Development Amendment and Site Development Review for a 15,769 square foot retail building, 6,035 square foot retail building and 10,000 square foot Daycare. The proposed project also includes 154 parking stalls. A Stage 1 and 2 Planned Development has been previously completed for this site.",
-      "images": [
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/Perspective-1.jpg",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/Perspective-1-150x150.jpg"
-        },
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/Perspective-2.jpg",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/Perspective-2-150x150.jpg"
-        },
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/Site-Plan.jpg",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/Site-Plan-150x150.jpg"
-        },
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/Landscape-Plan.jpg",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/Landscape-Plan-150x150.jpg"
-        }
-      ],
-      "geolocation": {
-        "lat": null,
-        "lon": null,
-        "iconName": "dot",
-        "title": "Grafton Plaza Daycare & Retail"
-      }
+    "val": "Planned Development Amendment; Site Development Review; and Minor Use Permit",
+    "oldVal": "Major Planned Development Amendment and Site Development Review",
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "details",
+      "General Plan Land Use"
+    ],
+    "val": "Mixed Use 2/Campus Office",
+    "oldVal": "Mixed Use 2/Campus Office (MU2CO)",
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "details",
+      "Specific Plan Area"
+    ],
+    "val": "Mixed Use 2/Campus Office",
+    "oldVal": "Mixed Use 2/Campus Office (MU2CO)",
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "details",
+      "Building Area"
+    ],
+    "val": "31,860 square feet",
+    "oldVal": "31,804 square feet",
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "details",
+      "Parking Provided"
+    ],
+    "val": "146 parking spaces",
+    "oldVal": "154 parking spaces",
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Robert Smith - Associate Planner - Planning Division",
+    "oldVal": "Mandy Kang - Senior Planner",
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "robert.smith@dublin.ca.gov",
+    "oldVal": "mandy.kang@dublin.ca.gov",
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail971",
+      "details",
+      "Stories/Height"
+    ],
+    "val": "2 stories / 50 feet",
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail971",
+      "docs",
+      0
+    ],
+    "val": {
+      "name": "Planning Commission December 10, 2019 Staff Report",
+      "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1488&Inline=True"
     },
     "projectId": "projectdetail971",
     "timestamp": "1596943340000"
@@ -135,9 +185,299 @@
   {
     "op": "add",
     "path": [
-      "projectdetail971"
+      "projectdetail971",
+      "docs",
+      1
     ],
     "val": {
+      "name": "City Council February 4, 2020 Staff Report",
+      "url": "https://citydocs.dublin.ca.gov/WebLink/DocView.aspx?id=786763&cr=1"
+    },
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "status"
+    ],
+    "val": "Final Action",
+    "oldVal": "Application Under Review",
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "description"
+    ],
+    "val": "Planned Development Amendment with a Stage 1 and Stage 2 Development Plan, Site Development Review Permit, and Minor Use Permit for two new retail buildings and one daycare building.",
+    "oldVal": "A Major Planned Development Amendment and Site Development Review for a 15,769 square foot retail building, 6,035 square foot retail building and 10,000 square foot Daycare. The proposed project also includes 154 parking stalls. A Stage 1 and 2 Planned Development has been previously completed for this site.",
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_28.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/Perspective-1.jpg",
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_28-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/Perspective-1-150x150.jpg",
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_27.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/Perspective-2.jpg",
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_27-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/Perspective-2-150x150.jpg",
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_16.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/Site-Plan.jpg",
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_16-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/Site-Plan-150x150.jpg",
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "images",
+      3,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_23.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/Landscape-Plan.jpg",
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "images",
+      3,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_23-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/Landscape-Plan-150x150.jpg",
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail971",
+      "images",
+      4
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_24.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_24-150x150.jpg"
+    },
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail971",
+      "images",
+      5
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_22.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_22-150x150.jpg"
+    },
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "geolocation",
+      "lat"
+    ],
+    "val": 37.70445,
+    "oldVal": 37.70396,
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "geolocation",
+      "lon"
+    ],
+    "val": -121.86474,
+    "oldVal": 121.86516,
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "geolocation",
+      "iconName"
+    ],
+    "val": "child",
+    "oldVal": "dot",
+    "projectId": "projectdetail971",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Planning Division",
+    "oldVal": "Robert Smith - Associate Planner - Planning Division",
+    "projectId": "projectdetail971",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "planningpermits@dublin.ca.gov",
+    "oldVal": "robert.smith@dublin.ca.gov",
+    "projectId": "projectdetail971",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "description"
+    ],
+    "val": "The Applicant, Eddie Li, requested approval to construct three commercial buildings with a total of 31,860 square feet (sf), including two retail buildings (16,038 sf and 6,055 sf) and one daycare building (9,767 sf) on a 3.68-acre site located at the southeast corner of Dublin Boulevard and Grafton Street. The application included amendments to the existing Planned Development Zoning Stage 1 and Stage 2 Development Plans, a Site Development Review Permit for the proposed improvements, and a Minor Use Permit for a parking reduction for shared parking.",
+    "oldVal": "Planned Development Amendment with a Stage 1 and Stage 2 Development Plan, Site Development Review Permit, and Minor Use Permit for two new retail buildings and one daycare building.",
+    "projectId": "projectdetail971",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "title"
+    ],
+    "val": "Grafton Plaza Daycare & Retail (Tivoli Plaza)",
+    "oldVal": "Grafton Plaza Daycare & Retail",
+    "projectId": "projectdetail971",
+    "timestamp": "1684710307000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Gaspare Annibale - Associate Planner",
+    "oldVal": "Planning Division",
+    "projectId": "projectdetail971",
+    "timestamp": "1684710307000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "gaspare.annibale@dublin.ca.gov",
+    "oldVal": "planningpermits@dublin.ca.gov",
+    "projectId": "projectdetail971",
+    "timestamp": "1684710307000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail971",
+      "geolocation",
+      "title"
+    ],
+    "val": "Grafton Plaza Daycare & Retail (Tivoli Plaza)",
+    "oldVal": "Grafton Plaza Daycare & Retail",
+    "projectId": "projectdetail971",
+    "timestamp": "1684710307000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail971"
+    ],
+    "oldVal": {
       "id": "projectdetail971",
       "title": "Grafton Plaza Daycare & Retail (Tivoli Plaza)",
       "details": {
@@ -209,6 +549,6 @@
       }
     },
     "projectId": "projectdetail971",
-    "timestamp": "1684627200000"
+    "timestamp": "1689109200000"
   }
 ]

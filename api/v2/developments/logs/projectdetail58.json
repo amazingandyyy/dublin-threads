@@ -38,8 +38,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7140589,
+        "lon": -121.8926589,
         "iconName": "dot",
         "title": "East County Hall of Justice (Alameda County Courthouse)"
       }
@@ -86,8 +86,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7140589,
+        "lon": -121.8926589,
         "iconName": "dot",
         "title": "East County Hall of Justice (Alameda County Courthouse)"
       }

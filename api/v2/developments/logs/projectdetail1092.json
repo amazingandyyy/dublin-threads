@@ -1,1 +1,158 @@
-[]
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1092"
+    ],
+    "val": {
+      "id": "projectdetail1092",
+      "title": "Volvo Cars Dublin",
+      "details": {
+        "Planning Application #": "PLPA-2019-00010",
+        "Application Type": "Stage 2 Development Plan Amendment, Site Development Review Permit, Conditional Use Permit",
+        "Application Submittal Date": "03/01/2019",
+        "General Plan Land Use": "General Commercial/Campus Office",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development",
+        "Project Area": "2.08 acres",
+        "Building Area": "23,863 square feet",
+        "Stories/Height": "1 story / 28 feet",
+        "Parking Provided": "149 parking spaces",
+        "Applicant": {
+          "name": "Jeff Qvale &amp; David Meese",
+          "address": "PO Box 667, Ross, CA 94957",
+          "phone": "415-244-8863"
+        },
+        "Project Planner": {
+          "name": "Robert Smith - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "robert.smith@dublin.ca.gov"
+        }
+      },
+      "location": "Grafton Street",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "The Volvo Cars Dublin project is a proposal for a 23,863 square foot car dealership on a 2.08-acre site. The building will consist of a showroom for the cars, service area and office areas. The project application includes a Site Development Review Permit, Stage 2 Development Plan Amendment and Conditional Use Permit.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Showroom-and-Service-Entry.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Showroom-and-Service-Entry-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Site-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Rendering.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Rendering-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Elevations.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Elevations-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Showroom-Night.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Showroom-Night-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Night.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Night-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Day.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Day-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Back-Freeway.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Back-Freeway-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.702602,
+        "lon": -121.865788,
+        "iconName": "car",
+        "title": "Volvo Cars Dublin"
+      }
+    },
+    "projectId": "projectdetail1092",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1092"
+    ],
+    "oldVal": {
+      "id": "projectdetail1092",
+      "title": "Volvo Cars Dublin",
+      "details": {
+        "Planning Application #": "PLPA-2019-00010",
+        "Application Type": "Stage 2 Development Plan Amendment, Site Development Review Permit, Conditional Use Permit",
+        "Application Submittal Date": "03/01/2019",
+        "General Plan Land Use": "General Commercial/Campus Office",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development",
+        "Project Area": "2.08 acres",
+        "Building Area": "23,863 square feet",
+        "Stories/Height": "1 story / 28 feet",
+        "Parking Provided": "149 parking spaces",
+        "Applicant": {
+          "name": "Jeff Qvale &amp; David Meese",
+          "address": "PO Box 667, Ross, CA 94957",
+          "phone": "415-244-8863"
+        },
+        "Project Planner": {
+          "name": "Robert Smith - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "robert.smith@dublin.ca.gov"
+        }
+      },
+      "location": "Grafton Street",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "The Volvo Cars Dublin project is a proposal for a 23,863 square foot car dealership on a 2.08-acre site. The building will consist of a showroom for the cars, service area and office areas. The project application includes a Site Development Review Permit, Stage 2 Development Plan Amendment and Conditional Use Permit.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Showroom-and-Service-Entry.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Showroom-and-Service-Entry-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Site-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Rendering.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Rendering-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Elevations.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Elevations-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Showroom-Night.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Showroom-Night-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Night.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Night-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Day.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Day-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Back-Freeway.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Back-Freeway-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.702602,
+        "lon": -121.865788,
+        "iconName": "car",
+        "title": "Volvo Cars Dublin"
+      }
+    },
+    "projectId": "projectdetail1092",
+    "timestamp": "1620311986000"
+  }
+]

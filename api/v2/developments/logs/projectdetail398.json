@@ -53,8 +53,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7352633,
+        "lon": -121.8730481,
         "iconName": "dot",
         "title": "Wallis Ranch Neighborhood 7 (Driftsong)"
       }
@@ -285,8 +285,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7352633,
+        "lon": -121.8730481,
         "iconName": "dot",
         "title": "Wallis Ranch Neighborhood 7 (Driftsong)"
       }

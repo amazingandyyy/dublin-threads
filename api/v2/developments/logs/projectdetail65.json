@@ -36,8 +36,8 @@
       "description": "Senior Care Facility comprised of apartments, assisted living and memory care units with associated communal eating and living areas.",
       "images": [],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7083931,
+        "lon": -121.9332742,
         "iconName": "dot",
         "title": "Avesta Senior Care Facility"
       }
@@ -180,6 +180,18 @@
     "timestamp": "1513193626000"
   },
   {
+    "op": "update",
+    "path": [
+      "projectdetail65",
+      "geolocation",
+      "iconName"
+    ],
+    "val": "building",
+    "oldVal": "dot",
+    "projectId": "projectdetail65",
+    "timestamp": "1596943340000"
+  },
+  {
     "op": "delete",
     "path": [
       "projectdetail65"
@@ -234,13 +246,13 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
-        "iconName": "dot",
+        "lat": 37.7083931,
+        "lon": -121.9332742,
+        "iconName": "building",
         "title": "Avesta Senior Care Facility"
       }
     },
     "projectId": "projectdetail65",
-    "timestamp": "1596943340000"
+    "timestamp": "1614287575000"
   }
 ]

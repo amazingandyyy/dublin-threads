@@ -46,8 +46,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7059963,
+        "lon": -121.8978641,
         "iconName": "dot",
         "title": "Boulevard (Dublin Crossing)"
       }
@@ -154,6 +154,18 @@
     "timestamp": "1537002007000"
   },
   {
+    "op": "update",
+    "path": [
+      "projectdetail71",
+      "geolocation",
+      "iconName"
+    ],
+    "val": "building",
+    "oldVal": "dot",
+    "projectId": "projectdetail71",
+    "timestamp": "1596943340000"
+  },
+  {
     "op": "delete",
     "path": [
       "projectdetail71"
@@ -200,13 +212,13 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
-        "iconName": "dot",
+        "lat": 37.7059963,
+        "lon": -121.8978641,
+        "iconName": "building",
         "title": "Boulevard (Dublin Crossing)"
       }
     },
     "projectId": "projectdetail71",
-    "timestamp": "1596943340000"
+    "timestamp": "1656420658000"
   }
 ]

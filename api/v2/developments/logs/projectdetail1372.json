@@ -6,7 +6,7 @@
     ],
     "val": {
       "id": "projectdetail1372",
-      "title": "Infiniti Dealership",
+      "title": "Infinity Auto",
       "details": {
         "Planning Application #": "PLPA-2021-00018",
         "Application Type": "Site Development Review",
@@ -24,50 +24,355 @@
           "phone": "209-993-7867"
         },
         "Project Planner": {
-          "name": "Gaspare Annibale - Associate Planner",
+          "name": "Amy Million - Principal Planner",
           "phone": "(925) 833-6610",
-          "email": "gaspare.annibale@dublin.ca.gov"
+          "email": "amy.million@dublin.ca.gov"
         }
       },
       "location": "3200 Dublin Boulevard",
-      "docs": [
-        {
-          "name": "Planning Commission November, 23, 2021 Staff Report",
-          "url": "https://d3n9y02raazwpg.cloudfront.net/dublin/9d75036d-7233-11eb-920e-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1637697104.pdf"
-        },
-        {
-          "name": "Planning Commission July 26, 2022 Staff Report",
-          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/792955ce8a7ab5aaad4647ea8499732b0.pdf"
-        }
-      ],
-      "status": "Final Action",
-      "description": "A Site Development Review Permit to construct a 10,461 square foot Infiniti automobile showroom and service center adjacent to the upcoming Nissan automobile dealership approved in 2019.",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "A Site Development Review Permit to construct a 10,461 square foot Infinity automobile showroom and service center adjacent to the upcoming Nissan automobile dealership approved in 2019.",
       "images": [
         {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Dublin-Infiniti-Nissan_View-2-scaled.jpg",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Dublin-Infiniti-Nissan_View-2-150x150.jpg"
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/elevations-south-and-east-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/elevations-south-and-east-150x150.jpg"
         },
         {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Dublin-Infiniti-Nissan_View-1-scaled.jpg",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Dublin-Infiniti-Nissan_View-1-150x150.jpg"
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/elevations-north-and-west-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/elevations-north-and-west-150x150.jpg"
         },
         {
           "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Infinity-Site-Plan-scaled.jpg",
           "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Infinity-Site-Plan-150x150.jpg"
-        },
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Infiniti-Dublin-Elevations-scaled.jpg",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Infiniti-Dublin-Elevations-150x150.jpg"
         }
       ],
       "geolocation": {
         "lat": 37.702228,
         "lon": -121.861764,
         "iconName": "car",
-        "title": "Infiniti Dealership"
+        "title": "Infinity Auto"
       }
     },
     "projectId": "projectdetail1372",
-    "timestamp": "1684627200000"
+    "timestamp": "1620311986000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1372",
+      "title"
+    ],
+    "val": "Infiniti Auto",
+    "oldVal": "Infinity Auto",
+    "projectId": "projectdetail1372",
+    "timestamp": "1623808635000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1372",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Anne Wong - Assistant Planner",
+    "oldVal": "Amy Million - Principal Planner",
+    "projectId": "projectdetail1372",
+    "timestamp": "1623808635000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1372",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "anne.wong@dublin.ca.gov",
+    "oldVal": "amy.million@dublin.ca.gov",
+    "projectId": "projectdetail1372",
+    "timestamp": "1623808635000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1372",
+      "description"
+    ],
+    "val": "A Site Development Review Permit to construct a 10,461 square foot Infiniti automobile showroom and service center adjacent to the upcoming Nissan automobile dealership approved in 2019.",
+    "oldVal": "A Site Development Review Permit to construct a 10,461 square foot Infinity automobile showroom and service center adjacent to the upcoming Nissan automobile dealership approved in 2019.",
+    "projectId": "projectdetail1372",
+    "timestamp": "1623808635000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1372",
+      "geolocation",
+      "title"
+    ],
+    "val": "Infiniti Auto",
+    "oldVal": "Infinity Auto",
+    "projectId": "projectdetail1372",
+    "timestamp": "1623808635000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1372",
+      "title"
+    ],
+    "val": "Infiniti Dealership",
+    "oldVal": "Infiniti Auto",
+    "projectId": "projectdetail1372",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1372",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Amy Million - Principal Planner",
+    "oldVal": "Anne Wong - Assistant Planner",
+    "projectId": "projectdetail1372",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1372",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "amy.million@dublin.ca.gov",
+    "oldVal": "anne.wong@dublin.ca.gov",
+    "projectId": "projectdetail1372",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1372",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/facade-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/elevations-south-and-east-scaled.jpg",
+    "projectId": "projectdetail1372",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1372",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/facade-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/elevations-south-and-east-150x150.jpg",
+    "projectId": "projectdetail1372",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1372",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/elevations-south-and-east-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/elevations-north-and-west-scaled.jpg",
+    "projectId": "projectdetail1372",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1372",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/elevations-south-and-east-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/elevations-north-and-west-150x150.jpg",
+    "projectId": "projectdetail1372",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1372",
+      "images",
+      3
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/elevations-north-and-west-scaled.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/elevations-north-and-west-150x150.jpg"
+    },
+    "projectId": "projectdetail1372",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1372",
+      "geolocation",
+      "title"
+    ],
+    "val": "Infiniti Dealership",
+    "oldVal": "Infiniti Auto",
+    "projectId": "projectdetail1372",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1372",
+      "docs",
+      0
+    ],
+    "val": {
+      "name": "Planning Commission November, 23, 2021 Staff Report",
+      "url": "https://d3n9y02raazwpg.cloudfront.net/dublin/9d75036d-7233-11eb-920e-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1637697104.pdf"
+    },
+    "projectId": "projectdetail1372",
+    "timestamp": "1638896136000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1372",
+      "status"
+    ],
+    "val": "Final Action",
+    "oldVal": "Application Under Review",
+    "projectId": "projectdetail1372",
+    "timestamp": "1638896136000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1372",
+      "docs",
+      1
+    ],
+    "val": {
+      "name": "Planning Commission July 26, 2022 Staff Report",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/792955ce8a7ab5aaad4647ea8499732b0.pdf"
+    },
+    "projectId": "projectdetail1372",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1372",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Dublin-Infiniti-Nissan_View-2-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/facade-scaled.jpg",
+    "projectId": "projectdetail1372",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1372",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Dublin-Infiniti-Nissan_View-2-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/facade-150x150.jpg",
+    "projectId": "projectdetail1372",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1372",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Dublin-Infiniti-Nissan_View-1-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/elevations-south-and-east-scaled.jpg",
+    "projectId": "projectdetail1372",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1372",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Dublin-Infiniti-Nissan_View-1-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/elevations-south-and-east-150x150.jpg",
+    "projectId": "projectdetail1372",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1372",
+      "images",
+      3,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Infiniti-Dublin-Elevations-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/elevations-north-and-west-scaled.jpg",
+    "projectId": "projectdetail1372",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1372",
+      "images",
+      3,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Infiniti-Dublin-Elevations-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/elevations-north-and-west-150x150.jpg",
+    "projectId": "projectdetail1372",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1372",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Gaspare Annibale - Associate Planner",
+    "oldVal": "Amy Million - Principal Planner",
+    "projectId": "projectdetail1372",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1372",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "gaspare.annibale@dublin.ca.gov",
+    "oldVal": "amy.million@dublin.ca.gov",
+    "projectId": "projectdetail1372",
+    "timestamp": "1679857046000"
   }
 ]

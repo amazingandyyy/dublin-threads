@@ -41,8 +41,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.701757,
+        "lon": -121.9359468,
         "iconName": "dot",
         "title": "Sutter Retail Development"
       }
@@ -123,6 +123,30 @@
       "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Pad-Bldg-Elevation.jpg",
       "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Pad-Bldg-Elevation-150x150.jpg"
     },
+    "projectId": "projectdetail130",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail130",
+      "geolocation",
+      "lat"
+    ],
+    "val": 37.703086,
+    "oldVal": 37.701757,
+    "projectId": "projectdetail130",
+    "timestamp": "1482508704000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail130",
+      "geolocation",
+      "lon"
+    ],
+    "val": -121.93525,
+    "oldVal": -121.9359468,
     "projectId": "projectdetail130",
     "timestamp": "1482508704000"
   },
@@ -306,8 +330,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.703086,
+        "lon": -121.93525,
         "iconName": "dot",
         "title": "Dublin Retail LLC"
       }

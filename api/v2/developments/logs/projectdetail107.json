@@ -53,8 +53,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.70312,
+        "lon": -121.8537362,
         "iconName": "dot",
         "title": "Fallon Gateway Shopping Center"
       }
@@ -142,8 +142,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.70312,
+        "lon": -121.8537362,
         "iconName": "dot",
         "title": "Fallon Gateway Shopping Center"
       }

@@ -73,8 +73,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7043064,
+        "lon": -121.8998893,
         "iconName": "dot",
         "title": "Ashton at Dublin Station"
       }
@@ -83,94 +83,112 @@
     "timestamp": "1537002007000"
   },
   {
+    "op": "update",
+    "path": [
+      "projectdetail998",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Robert Smith - Associate Planner",
+    "oldVal": "Martha Battaglia - Associate Planner",
+    "projectId": "projectdetail998",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail998",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "robert.smith@dublin.ca.gov",
+    "oldVal": "martha.battaglia@dublin.ca.gov",
+    "projectId": "projectdetail998",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail998",
+      "details",
+      ""
+    ],
+    "oldVal": "",
+    "projectId": "projectdetail998",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail998",
+      "geolocation",
+      "iconName"
+    ],
+    "val": "building",
+    "oldVal": "dot",
+    "projectId": "projectdetail998",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail998",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Planning Division",
+    "oldVal": "Robert Smith - Associate Planner",
+    "projectId": "projectdetail998",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail998",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "planningpermits@dublin.ca.gov",
+    "oldVal": "robert.smith@dublin.ca.gov",
+    "projectId": "projectdetail998",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail998",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Gaspare Annibale - Associate Planner",
+    "oldVal": "Planning Division",
+    "projectId": "projectdetail998",
+    "timestamp": "1684710307000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail998",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "gaspare.annibale@dublin.ca.gov",
+    "oldVal": "planningpermits@dublin.ca.gov",
+    "projectId": "projectdetail998",
+    "timestamp": "1684710307000"
+  },
+  {
     "op": "delete",
     "path": [
       "projectdetail998"
     ],
     "oldVal": {
-      "id": "projectdetail998",
-      "title": "Ashton at Dublin Station",
-      "details": {
-        "Planning Application #": "PLPA-2017-00036",
-        "Application Type": "Stage 2 Development Plan, Site Development Review, Tentative Map and Development Agreement",
-        "Application Submittal Date": "05/24/2017",
-        "General Plan Land Use": "High Density Residential",
-        "Specific Plan Area": "Eastern Dublin Specific Plan",
-        "Zoning": "PD (Planned Development)",
-        "Project Area": "2.36 acres",
-        "Stories/Height": "7 stories / 83 feet",
-        "Parking Provided": "331 parking spaces",
-        "Applicant": {
-          "name": "UDR, Inc.",
-          "address": "1745 Shea Center Drive, Suite 200, Highlands Ranch, CO 80129",
-          "phone": "720-348-7604"
-        },
-        "Project Planner": {
-          "name": "Martha Battaglia - Associate Planner",
-          "phone": "(925) 833-6610",
-          "email": "martha.battaglia@dublin.ca.gov"
-        },
-        "": ""
-      },
-      "location": "DeMarcus Boulevard",
-      "docs": [
-        {
-          "name": "Settlement agreement information: Ashton at Dublin Station v. City of Dublin Settlement FAQ",
-          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Ashton-at-Dublin-Station-v.-City-of-Dublin-Settlement-FAQ.pdf"
-        },
-        {
-          "name": "Planning Commission Staff Report November 14, 2017",
-          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Planning-Commission-Staff-Report-November-14-2017.doc"
-        },
-        {
-          "name": "City Council Staff Report dated 3.6.18",
-          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/City-Council-Staff-Report-dated-3.6.18.doc"
-        },
-        {
-          "name": "Ashton @ Dublin Station July 17, 2018 City Council Staff Report",
-          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Ashton-@-Dublin-Station-July-17-2018-City-Council-Staff-Report.doc"
-        }
-      ],
-      "status": "Final Action",
-      "description": "The proposed Ashton at Dublin Station project is located at the northwest corner of DeMarcus Boulevard and Campbell Lane within the Transit Center. The site has a General Plan and Eastern Dublin Specific Plan land use designation of High Density Residential (25+ units per acre) and Planned Development Zoning with a Stage 1 Development Plan that permits a high density residential development.",
-      "images": [
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Capture1.png",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Capture1-150x150.png"
-        },
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Northeast-corner-DeMarcus-Blvd..png",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Northeast-corner-DeMarcus-Blvd.-150x150.png"
-        },
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Southeast-entry-lobby.png",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Southeast-entry-lobby-150x150.png"
-        },
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Aerial-at-the-SE-corner.png",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Aerial-at-the-SE-corner-150x150.png"
-        },
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/site-plan.png",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/site-plan-150x150.png"
-        }
-      ],
-      "geolocation": {
-        "lat": null,
-        "lon": null,
-        "iconName": "dot",
-        "title": "Ashton at Dublin Station"
-      }
-    },
-    "projectId": "projectdetail998",
-    "timestamp": "1596943340000"
-  },
-  {
-    "op": "add",
-    "path": [
-      "projectdetail998"
-    ],
-    "val": {
       "id": "projectdetail998",
       "title": "Ashton at Dublin Station",
       "details": {
@@ -245,6 +263,6 @@
       }
     },
     "projectId": "projectdetail998",
-    "timestamp": "1684627200000"
+    "timestamp": "1689109200000"
   }
 ]

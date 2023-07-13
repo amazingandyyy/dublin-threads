@@ -1,1 +1,154 @@
-[]
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1525"
+    ],
+    "val": {
+      "id": "projectdetail1525",
+      "title": "Dublin Family Affordable Apartments",
+      "details": {
+        "Planning Application #": "PLPA-2021-00047",
+        "Application Type": "Pre-Application",
+        "Application Submittal Date": "12/01/2021",
+        "General Plan Land Use": "Downtown Dublin - Transit Oriented District",
+        "Specific Plan Area": "Downtown Dublin Specific Plan",
+        "Zoning": "Downtown Dublin Zoning District - DDZD",
+        "Project Area": "1.65 acres",
+        "Building Area": "179,216 square feet",
+        "Foor Area Ratio": "2.5 FAR",
+        "Stories/Height": "6 stories / 90 feet",
+        "Parking Provided": "120 parking spaces",
+        "Applicant": {
+          "name": "Jim Campbell, ROEM Development",
+          "address": "1650 Lafayette Street, Santa Clara, CA 95050",
+          "phone": "(408) 709-1355"
+        },
+        "Project Planner": {
+          "name": "Michael P. Cass - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "michael.cass@dublin.ca.gov"
+        }
+      },
+      "location": "6513 Regional Street",
+      "docs": [],
+      "status": "Pre-Application",
+      "description": "Development of an affordable rental housing project consisting of 176 units.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/3_Project-Plans_Page_1-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/3_Project-Plans_Page_1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Project-Plans-Reduced_Page_3-EDIT.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Project-Plans-Reduced_Page_3-EDIT-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Project-Plans-Reduced_Page_4-EDIT.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Project-Plans-Reduced_Page_4-EDIT-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Project-Plans-Reduced_Page_8-EDIT.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Project-Plans-Reduced_Page_8-EDIT-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.7002802,
+        "lon": -121.9318223,
+        "iconName": "building",
+        "title": "Dublin Family Affordable Apartments"
+      }
+    },
+    "projectId": "projectdetail1525",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1525",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Linda Ajello - Senior Planner",
+    "oldVal": "Michael P. Cass - Principal Planner",
+    "projectId": "projectdetail1525",
+    "timestamp": "1664716746000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1525",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "linda.ajello@dublin.ca.gov",
+    "oldVal": "michael.cass@dublin.ca.gov",
+    "projectId": "projectdetail1525",
+    "timestamp": "1664716746000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1525"
+    ],
+    "oldVal": {
+      "id": "projectdetail1525",
+      "title": "Dublin Family Affordable Apartments",
+      "details": {
+        "Planning Application #": "PLPA-2021-00047",
+        "Application Type": "Pre-Application",
+        "Application Submittal Date": "12/01/2021",
+        "General Plan Land Use": "Downtown Dublin - Transit Oriented District",
+        "Specific Plan Area": "Downtown Dublin Specific Plan",
+        "Zoning": "Downtown Dublin Zoning District - DDZD",
+        "Project Area": "1.65 acres",
+        "Building Area": "179,216 square feet",
+        "Foor Area Ratio": "2.5 FAR",
+        "Stories/Height": "6 stories / 90 feet",
+        "Parking Provided": "120 parking spaces",
+        "Applicant": {
+          "name": "Jim Campbell, ROEM Development",
+          "address": "1650 Lafayette Street, Santa Clara, CA 95050",
+          "phone": "(408) 709-1355"
+        },
+        "Project Planner": {
+          "name": "Linda Ajello - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "linda.ajello@dublin.ca.gov"
+        }
+      },
+      "location": "6513 Regional Street",
+      "docs": [],
+      "status": "Pre-Application",
+      "description": "Development of an affordable rental housing project consisting of 176 units.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/3_Project-Plans_Page_1-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/3_Project-Plans_Page_1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Project-Plans-Reduced_Page_3-EDIT.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Project-Plans-Reduced_Page_3-EDIT-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Project-Plans-Reduced_Page_4-EDIT.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Project-Plans-Reduced_Page_4-EDIT-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Project-Plans-Reduced_Page_8-EDIT.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Project-Plans-Reduced_Page_8-EDIT-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.7002802,
+        "lon": -121.9318223,
+        "iconName": "building",
+        "title": "Dublin Family Affordable Apartments"
+      }
+    },
+    "projectId": "projectdetail1525",
+    "timestamp": "1677358639000"
+  }
+]

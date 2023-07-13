@@ -1,1 +1,234 @@
-[]
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1479"
+    ],
+    "val": {
+      "id": "projectdetail1479",
+      "title": "East Ranch SDR – NH 1, 2, 4 and Zero Lot Line Product",
+      "details": {
+        "Planning Application #": "PLPA-2022-00018",
+        "Application Type": "Site Development Review Permit",
+        "Application Submittal Date": "05/27/2022",
+        "General Plan Land Use": "LDR, MDR, OS, NP, P/SP, RR/A",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Ordinance No. 32-05",
+        "Project Area": "165.5 acres",
+        "Stories/Height": "1 story",
+        "Applicant": {
+          "name": "Pam Nieting, Trumark Homes",
+          "address": "3001 Bishop Dr. Ste 100, San Ramon, CA 94583",
+          "phone": "925-787-1321"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "4038 Croak Road",
+      "docs": [],
+      "status": "Planning Application Submitted",
+      "description": "Site Development Review Permit for neighborhood (NH) 1, NH 2, NH 4 and the Zero Lot Line product for the East Ranch project. The “Zero Lot Line Product” is distributed through NH 1, 2, 3 & 5.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N1-typical-site-plan-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N1-typical-site-plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N1-elevation-a-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N1-elevation-a-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N1-elevation-b-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N1-elevation-b-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N1-elevation-c-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N1-elevation-c-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N2-typical-plan-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N2-typical-plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N2-elevation-1-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N2-elevation-1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N2-elevation-2-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N2-elevation-2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N4-typical-site-plan-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N4-typical-site-plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N4-elevation-3-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N4-elevation-3-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N4-elevation-2-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N4-elevation-2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Zero-Lot-Line-typical-plan-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Zero-Lot-Line-typical-plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/zero-lot-line-1-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/zero-lot-line-1-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.715892,
+        "lon": -121.834738,
+        "iconName": "home",
+        "title": "East Ranch SDR – NH 1, 2, 4 and Zero Lot Line Product"
+      }
+    },
+    "projectId": "projectdetail1479",
+    "timestamp": "1656420658000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1479",
+      "docs",
+      0
+    ],
+    "val": {
+      "name": "Planning Commission February 14, 2023 Study Session Agenda & Staff Report",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/77b811760eed31d35dfbf572050421460.pdf"
+    },
+    "projectId": "projectdetail1479",
+    "timestamp": "1677358639000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1479",
+      "docs",
+      1
+    ],
+    "val": {
+      "name": "Planning Commission March 14, 2023 Agenda & Staff Report",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/b5fd52e531bac3e85e83c15545413b0d0.pdf"
+    },
+    "projectId": "projectdetail1479",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1479",
+      "status"
+    ],
+    "val": "Final Action",
+    "oldVal": "Planning Application Submitted",
+    "projectId": "projectdetail1479",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1479"
+    ],
+    "oldVal": {
+      "id": "projectdetail1479",
+      "title": "East Ranch SDR – NH 1, 2, 4 and Zero Lot Line Product",
+      "details": {
+        "Planning Application #": "PLPA-2022-00018",
+        "Application Type": "Site Development Review Permit",
+        "Application Submittal Date": "05/27/2022",
+        "General Plan Land Use": "LDR, MDR, OS, NP, P/SP, RR/A",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Ordinance No. 32-05",
+        "Project Area": "165.5 acres",
+        "Stories/Height": "1 story",
+        "Applicant": {
+          "name": "Pam Nieting, Trumark Homes",
+          "address": "3001 Bishop Dr. Ste 100, San Ramon, CA 94583",
+          "phone": "925-787-1321"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "4038 Croak Road",
+      "docs": [
+        {
+          "name": "Planning Commission February 14, 2023 Study Session Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/77b811760eed31d35dfbf572050421460.pdf"
+        },
+        {
+          "name": "Planning Commission March 14, 2023 Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/b5fd52e531bac3e85e83c15545413b0d0.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Site Development Review Permit for neighborhood (NH) 1, NH 2, NH 4 and the Zero Lot Line product for the East Ranch project. The “Zero Lot Line Product” is distributed through NH 1, 2, 3 & 5.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N1-typical-site-plan-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N1-typical-site-plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N1-elevation-a-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N1-elevation-a-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N1-elevation-b-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N1-elevation-b-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N1-elevation-c-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N1-elevation-c-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N2-typical-plan-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N2-typical-plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N2-elevation-1-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N2-elevation-1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N2-elevation-2-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N2-elevation-2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N4-typical-site-plan-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N4-typical-site-plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N4-elevation-3-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N4-elevation-3-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N4-elevation-2-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/N4-elevation-2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Zero-Lot-Line-typical-plan-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Zero-Lot-Line-typical-plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/zero-lot-line-1-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/zero-lot-line-1-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.715892,
+        "lon": -121.834738,
+        "iconName": "home",
+        "title": "East Ranch SDR – NH 1, 2, 4 and Zero Lot Line Product"
+      }
+    },
+    "projectId": "projectdetail1479",
+    "timestamp": "1684710307000"
+  }
+]

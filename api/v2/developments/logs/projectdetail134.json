@@ -44,8 +44,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7032957,
+        "lon": -121.9012096,
         "iconName": "dot",
         "title": "B&S Hacienda"
       }
@@ -124,8 +124,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7032957,
+        "lon": -121.9012096,
         "iconName": "dot",
         "title": "B&S Hacienda"
       }

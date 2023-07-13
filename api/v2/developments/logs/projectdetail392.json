@@ -41,8 +41,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.734357,
+        "lon": -121.874872,
         "iconName": "dot",
         "title": "Wallis Ranch Neighborhood 2 (Barnwell)"
       }
@@ -183,8 +183,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.734357,
+        "lon": -121.874872,
         "iconName": "dot",
         "title": "Wallis Ranch Neighborhood 2 (Barnwell)"
       }

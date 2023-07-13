@@ -1,1 +1,138 @@
-[]
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1128"
+    ],
+    "val": {
+      "id": "projectdetail1128",
+      "title": "Cambria Hotel",
+      "details": {
+        "Planning Application #": "PLPA-2019-00020 & PLPA-2019-00044",
+        "Application Type": "Site Development Review, Minor Use Permit, and Community Benefit Agreement",
+        "Application Submittal Date": "06/18/2019",
+        "General Plan Land Use": "Downtown Dublin - Transit Oriented District",
+        "Specific Plan Area": "Downtown Dublin Specific Plan",
+        "Zoning": "Downtown Dublin Zoning District - DDZD",
+        "Project Area": ".91 acres",
+        "Building Area": "89,700 square feet",
+        "Foor Area Ratio": "1.15 FAR",
+        "Stories/Height": "6 stories / 68 feet",
+        "Parking Provided": "277 parking spaces",
+        "Applicant": {
+          "name": "Jerry Hunt, Rubicon Property Group",
+          "address": "1840 San Miguel Drive, Ste. 206, Walnut Creek, CA 94596",
+          "phone": "925-980-7875"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "7950 Dublin Boulevard",
+      "docs": [
+        {
+          "name": "Planning Commission April 28, 2020 Agenda & Staff Report",
+          "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1525&Inline=True"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Site Development Review Permit to construct a new 138 room hotel in the parking lot south of the existing office building (Corrie Center). The proposed 4-story hotel is located above a 2-story parking structure to be shared with the existing office building. The applications include a minor use permit for shared parking, Heritage Tree Removal Permit to remove two Coast redwoods, community benefit agreement and related improvements to landscaping and parking.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/front-facade.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/front-facade-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/Hotel-Elevation.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/Hotel-Elevation-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/Hotel-Elevation.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/Hotel-Elevation-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/Floor-Plan-Level-3.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/Floor-Plan-Level-3-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.700404,
+        "lon": -121.934224,
+        "iconName": "hotel",
+        "title": "Cambria Hotel"
+      }
+    },
+    "projectId": "projectdetail1128",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1128"
+    ],
+    "oldVal": {
+      "id": "projectdetail1128",
+      "title": "Cambria Hotel",
+      "details": {
+        "Planning Application #": "PLPA-2019-00020 & PLPA-2019-00044",
+        "Application Type": "Site Development Review, Minor Use Permit, and Community Benefit Agreement",
+        "Application Submittal Date": "06/18/2019",
+        "General Plan Land Use": "Downtown Dublin - Transit Oriented District",
+        "Specific Plan Area": "Downtown Dublin Specific Plan",
+        "Zoning": "Downtown Dublin Zoning District - DDZD",
+        "Project Area": ".91 acres",
+        "Building Area": "89,700 square feet",
+        "Foor Area Ratio": "1.15 FAR",
+        "Stories/Height": "6 stories / 68 feet",
+        "Parking Provided": "277 parking spaces",
+        "Applicant": {
+          "name": "Jerry Hunt, Rubicon Property Group",
+          "address": "1840 San Miguel Drive, Ste. 206, Walnut Creek, CA 94596",
+          "phone": "925-980-7875"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "7950 Dublin Boulevard",
+      "docs": [
+        {
+          "name": "Planning Commission April 28, 2020 Agenda & Staff Report",
+          "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1525&Inline=True"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Site Development Review Permit to construct a new 138 room hotel in the parking lot south of the existing office building (Corrie Center). The proposed 4-story hotel is located above a 2-story parking structure to be shared with the existing office building. The applications include a minor use permit for shared parking, Heritage Tree Removal Permit to remove two Coast redwoods, community benefit agreement and related improvements to landscaping and parking.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/front-facade.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/front-facade-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/Hotel-Elevation.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/Hotel-Elevation-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/Hotel-Elevation.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/Hotel-Elevation-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/Floor-Plan-Level-3.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/Floor-Plan-Level-3-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.700404,
+        "lon": -121.934224,
+        "iconName": "hotel",
+        "title": "Cambria Hotel"
+      }
+    },
+    "projectId": "projectdetail1128",
+    "timestamp": "1679857046000"
+  }
+]

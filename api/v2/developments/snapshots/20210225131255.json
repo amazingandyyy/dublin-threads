@@ -1,0 +1,1773 @@
+{
+  "projectdetail1355": {
+    "id": "projectdetail1355",
+    "title": "Kent Property General Plan Amendment and Rezoning",
+    "details": {
+      "Planning Application #": "PLPA-2019-00002",
+      "Application Type": "General Plan Amendment, Rezoning.",
+      "Application Submittal Date": "03/03/2020",
+      "General Plan Land Use": "Business Park/Industrial",
+      "Specific Plan Area": "n/a",
+      "Zoning": "M-1",
+      "Project Area": "1.5 acres",
+      "Building Area": "66122 square feet",
+      "Foor Area Ratio": "0.4 FAR",
+      "Stories/Height": "0 / 18 feet",
+      "Applicant": {
+        "name": "City of Dublin",
+        "address": "100 Civic Plaza",
+        "phone": "9458336610"
+      },
+      "Project Planner": {
+        "name": "Robert Smith - Associate Planner",
+        "phone": "(925) 833-6610",
+        "email": "robert.smith@dublin.ca.gov"
+      }
+    },
+    "location": "6207 Sierra Court",
+    "docs": [
+      {
+        "name": "KentGPA_Public Review Draft ISND",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/KentGPA_Public-Review-Draft-ISND.pdf"
+      },
+      {
+        "name": "Kent GPA NOI",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/Kent-GPA-NOI.pdf"
+      },
+      {
+        "name": "City Council Agenda Report – February 16",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/City-Council-Agenda-Report-February-16.pdf"
+      }
+    ],
+    "status": "Pubic Hearing",
+    "description": "General Plan Amendment (GPA) to change the land use from Business Park/Industrial to Retail/Office and Automotive, Rezone from M-1 (Light Industrial) zoning district to C-2 (General Commercial). There is no proposed development as part of this project.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/V-Map-2.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/V-Map-2-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/GP-Designation-2.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/GP-Designation-2-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/general-plan-figure-4.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/general-plan-figure-4-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.704959,
+      "lon": -121.9156194,
+      "iconName": "dot",
+      "title": "Kent Property General Plan Amendment and Rezoning"
+    }
+  },
+  "projectdetail1348": {
+    "id": "projectdetail1348",
+    "title": "Inspiration Drive Assisted Living",
+    "details": {
+      "Planning Application #": "PLPA-2020-00045",
+      "Application Type": "General Plan Amendment, Planned Development Rezoning (Stage 1 Development Plan), and Tentative Parcel Map",
+      "Application Submittal Date": "10/12/2020",
+      "General Plan Land Use": "Open Space",
+      "Specific Plan Area": "n/a",
+      "Zoning": "Planned Development Resolution No. 07-03",
+      "Project Area": "4.68 acres",
+      "Building Area": "75,400 square feet",
+      "Foor Area Ratio": ".37 FAR",
+      "Stories/Height": "2 stories / -1 feet",
+      "Applicant": {
+        "name": "Steven Ring, Fulcrum Real Estate &amp; Development Inc.",
+        "address": "475 Gate 5 Road, Suite 316, Sausalito CA 94965",
+        "phone": "415-985-8606"
+      },
+      "Project Planner": {
+        "name": "Amy Million - Principal Planner",
+        "phone": "(925) 833-6610",
+        "email": "amy.million@dublin.ca.gov"
+      }
+    },
+    "location": "7500 Inspiration Drive",
+    "docs": [],
+    "status": "Planning Application Submitted",
+    "description": "General Plan Amendment (GPA) to change the land use from Open Space to Public/Semi Public, Planned Development Rezone (Stage 1 Development Plan) and Tentative Parcel Map. The proposal is for an assisted living facility of up to 95 beds on Parcel 3 of the Valley Christian Center property. The GPA includes changing the land use on a portion of Parcel 1 from Public/Semi Public to Open Space",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/7.-Stage-1-Parcel-3-Site-Plan-scaled.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/7.-Stage-1-Parcel-3-Site-Plan-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Parcel-3-Location.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Parcel-3-Location-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.699389,
+      "lon": -121.953694,
+      "iconName": "dot",
+      "title": "Inspiration Drive Assisted Living"
+    }
+  },
+  "projectdetail1340": {
+    "id": "projectdetail1340",
+    "title": "Inspiration Drive Memory Care",
+    "details": {
+      "Planning Application #": "PLPA-2020-00044",
+      "Application Type": "Site Development Review Permit, Lot Line Adjustment, Planned Development Rezone (Stage 1 Development Plan)",
+      "Application Submittal Date": "10/12/2020",
+      "General Plan Land Use": "Public/Semi Public",
+      "Specific Plan Area": "n/a",
+      "Zoning": "Planned Development Resolution No. 07-03",
+      "Project Area": "1.63 acres",
+      "Building Area": "35,089 square feet",
+      "Foor Area Ratio": ".49 FAR",
+      "Stories/Height": "1 story / 32 feet",
+      "Parking Provided": "25 parking spaces",
+      "Applicant": {
+        "name": "Steven Ring, Fulcrum Real Estate &amp; Development Inc.",
+        "address": "475 Gate 5 Road, Suite 316, Sausalito CA 94965",
+        "phone": "415-985-8606"
+      },
+      "Project Planner": {
+        "name": "Amy Million - Principal Planner",
+        "phone": "(925) 833-6610",
+        "email": "amy.million@dublin.ca.gov"
+      }
+    },
+    "location": "7500 Inspiration Drive",
+    "docs": [],
+    "status": "Planning Application Submitted",
+    "description": "A new 35,089 square foot building on Parcel 2 of the Valley Christian Center property. The new building proposed as a memory care facility providing 55 beds in both private and shared rooms.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/street-view-scaled.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/street-view-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/street-view-2-scaled.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/street-view-2-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/front-elevation-scaled.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/front-elevation-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/front-elevation-3-scaled.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/front-elevation-3-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/front-elevation-2-scaled.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/front-elevation-2-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/7.-Stage-1-Parcel-2-Site-Plan-scaled.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/7.-Stage-1-Parcel-2-Site-Plan-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Parcel-2.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Parcel-2-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.699203,
+      "lon": -121.955455,
+      "iconName": "dot",
+      "title": "Inspiration Drive Memory Care"
+    }
+  },
+  "projectdetail1300": {
+    "id": "projectdetail1300",
+    "title": "Former Hooter’s Renovation & Drive-Thru",
+    "details": {
+      "Planning Application #": "PLPA-2020-00015, PLPA-2020-00019 and PLPA-2020-00020",
+      "Application Type": "Site Development Review and Conditional Use Permit",
+      "Application Submittal Date": "04/22/2020",
+      "General Plan Land Use": "Downtown Dublin - Transit Oriented District",
+      "Specific Plan Area": "Downtown Dublin Specific Plan",
+      "Zoning": "DDZD",
+      "Project Area": ".8 acres",
+      "Building Area": "5,640 square feet",
+      "Stories/Height": "1 story / 22 feet",
+      "Parking Provided": "50 parking spaces",
+      "Applicant": {
+        "name": "Jerry Hunt, VP-RPG Dublin, LLC",
+        "address": "1840 San Miguel Drive, Ste. 206, Walnut Creek, CA 94596",
+        "phone": "925-980-7875"
+      },
+      "Project Planner": {
+        "name": "Amy Million - Principal Planner",
+        "phone": "(925) 833-6610",
+        "email": "amy.million@dublin.ca.gov"
+      }
+    },
+    "location": "7944 Dublin Boulevard",
+    "docs": [
+      {
+        "name": "Planning Commission Staff Report September 8, 2020",
+        "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1560&Inline=True"
+      }
+    ],
+    "status": "Final Action",
+    "description": "Site Development Review Permit for modifications to the former Hooter’s building, including creating two tenant spaces, a 568-square-foot addition, a new trash enclosure, and outdoor seating. The request also includes a Conditional Use Permit to establish a drive-thru and associated parking.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-North-scaled.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-North-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Site-Plan-scaled.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Site-Plan-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-South-scaled.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-South-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-East-scaled.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-East-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-West-scaled.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-West-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.7018593,
+      "lon": -121.9352672,
+      "iconName": "cutlery",
+      "title": "Former Hooter’s Renovation & Drive-Thru"
+    }
+  },
+  "projectdetail1189": {
+    "id": "projectdetail1189",
+    "title": "East Ranch (Croak Property)",
+    "details": {
+      "Planning Application #": "PLPA-2020-00028",
+      "Application Type": "Stage II Planned Development and Vesting Tentative Parcel Map",
+      "Application Submittal Date": "07/18/2020",
+      "General Plan Land Use": "Low-Density Residential, Medium-Density Residential, Rural Residential/Agriculture, Parks/Public Recreation, Open Space, Semi-Public",
+      "Specific Plan Area": "Eastern Dublin Specific Plan",
+      "Zoning": "Planned Development",
+      "Project Area": "165.5 acres",
+      "Applicant": {
+        "name": "Trumark Homes, LLC",
+        "address": "3001 Bishop Drive, Suite 100, San Ramon, CA 94583",
+        "phone": "(925) 999-3975"
+      },
+      "Project Planner": {
+        "name": "Robert Smith - Associate Planner",
+        "phone": "(925) 833-6610",
+        "email": "robert.smith@dublin.ca.gov"
+      }
+    },
+    "location": "4038 Croak Road",
+    "docs": [],
+    "status": "Planning Application Submitted",
+    "description": "The Applicant, Trumark Homes, LLC, filed a Stage II Planned Development and Vesting Tentative Parcel Map Application for the development of a 573-unit residential project (including 108 Medium Density Residential units and 465 Low-Density Single-Family Residential units), as well as 11.5 acres of public parks, a 2.6-acre Amenity Site, and a two-acre Semi-Public Site. The proposed development includes seven home programs, ranging from three to ten units per acre. The proposed development is designed with four architecture styles: Traditional Farmhouse, Modern Farmhouse, California Revival, and Contemporary, as shown in the project plans. The use of the Semi-Public Site has not been determined.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Images-from-PDII.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Images-from-PDII-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide3-e1595876557700.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide3-e1595876557700-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide4-e1595876690540.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide4-e1595876690540-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide7.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide7-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide5-e1595876823559.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide5-e1595876823559-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide6-e1595876941485.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide6-e1595876941485-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide11.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide11-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide10.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide10-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide9.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide9-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide8.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide8-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide12.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide12-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide13.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide13-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.712896,
+      "lon": -121.836068,
+      "iconName": "building",
+      "title": "East Ranch (Croak Property)"
+    }
+  },
+  "projectdetail1139": {
+    "id": "projectdetail1139",
+    "title": "Tru Hotel and Element Hotel",
+    "details": {
+      "Planning Application #": "PLPA-2019-00028",
+      "Application Type": "Site Development Review",
+      "Application Submittal Date": "07/19/2019",
+      "General Plan Land Use": "Medical Campus/Commercial",
+      "Specific Plan Area": "Eastern Dublin Specific Plan",
+      "Zoning": "Ord 03-19",
+      "Project Area": "5.75 acres acres",
+      "Building Area": "84,476 – Element Hotel and 53,873 – Tru Hotel square feet",
+      "Foor Area Ratio": "0.6 FAR",
+      "Stories/Height": "6 stories / 70 feet",
+      "Parking Provided": "322 parking spaces",
+      "Applicant": {
+        "name": "Kevin Fryer",
+        "address": "Mission Valley Homes",
+        "phone": "925-899-5065"
+      },
+      "Project Planner": {
+        "name": "Robert Smith - Associate Planner",
+        "phone": "(925) 833-6610",
+        "email": "robert.smith@dublin.ca.gov"
+      }
+    },
+    "location": "Dublin Boulevard (APN: 985-0061-005-00)",
+    "docs": [],
+    "status": "Application Under Review",
+    "description": "Site Development Review permit for two new hotels and an area for a future pad building development on an existing vacant lot, including one 84,890 sf hotel of five stories at sixty (60’) feet high, with 129 rooms, known as Element Hotel; one 53,873 sf hotel of five stories, at fifty seven (57’) feet high, including 120 rooms, known as Tru Hotel. The proposal includes 312 parking spaces, circulation, landscaping and site improvements.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide1.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide1-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide2.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide2-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide3.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide3-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide4.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide4-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide5.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide5-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.702863,
+      "lon": -121.861126,
+      "iconName": "hotel",
+      "title": "Tru Hotel and Element Hotel"
+    }
+  },
+  "projectdetail1128": {
+    "id": "projectdetail1128",
+    "title": "Cambria Hotel",
+    "details": {
+      "Planning Application #": "PLPA-2019-00020 & PLPA-2019-00044",
+      "Application Type": "Site Development Review, Minor Use Permit, and Community Benefit Agreement",
+      "Application Submittal Date": "06/18/2019",
+      "General Plan Land Use": "Downtown Dublin - Transit Oriented District",
+      "Specific Plan Area": "Downtown Dublin Specific Plan",
+      "Zoning": "Downtown Dublin Zoning District - DDZD",
+      "Project Area": ".91 acres",
+      "Building Area": "89,700 square feet",
+      "Foor Area Ratio": "1.15 FAR",
+      "Stories/Height": "6 stories / 68 feet",
+      "Parking Provided": "277 parking spaces",
+      "Applicant": {
+        "name": "Jerry Hunt, Rubicon Property Group",
+        "address": "1840 San Miguel Drive, Ste. 206, Walnut Creek, CA 94596",
+        "phone": "925-980-7875"
+      },
+      "Project Planner": {
+        "name": "Amy Million - Principal Planner",
+        "phone": "(925) 833-6610",
+        "email": "amy.million@dublin.ca.gov"
+      }
+    },
+    "location": "7950 Dublin Boulevard",
+    "docs": [
+      {
+        "name": "Planning Commission April 28, 2020 Agenda & Staff Report",
+        "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1525&Inline=True"
+      }
+    ],
+    "status": "Final Action",
+    "description": "Site Development Review Permit to construct a new 138 room hotel in the parking lot south of the existing office building (Corrie Center). The proposed 4-story hotel is located above a 2-story parking structure to be shared with the existing office building. The applications include a minor use permit for shared parking, Heritage Tree Removal Permit to remove two Coast redwoods, community benefit agreement and related improvements to landscaping and parking.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/front-facade.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/front-facade-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/Hotel-Elevation.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/Hotel-Elevation-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/Hotel-Elevation.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/Hotel-Elevation-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/Floor-Plan-Level-3.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/06/Floor-Plan-Level-3-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.700404,
+      "lon": -121.934224,
+      "iconName": "hotel",
+      "title": "Cambria Hotel"
+    }
+  },
+  "projectdetail1092": {
+    "id": "projectdetail1092",
+    "title": "Volvo Cars Dublin",
+    "details": {
+      "Planning Application #": "PLPA-2019-00010",
+      "Application Type": "Stage 2 Development Plan Amendment, Site Development Review Permit, Conditional Use Permit",
+      "Application Submittal Date": "03/01/2019",
+      "General Plan Land Use": "General Commercial/Campus Office",
+      "Specific Plan Area": "Eastern Dublin Specific Plan",
+      "Zoning": "Planned Development",
+      "Project Area": "2.08 acres",
+      "Building Area": "23,863 square feet",
+      "Stories/Height": "1 story / 28 feet",
+      "Parking Provided": "149 parking spaces",
+      "Applicant": {
+        "name": "Jeff Qvale &amp; David Meese",
+        "address": "PO Box 667, Ross, CA 94957",
+        "phone": "415-244-8863"
+      },
+      "Project Planner": {
+        "name": "Robert Smith - Associate Planner",
+        "phone": "(925) 833-6610",
+        "email": "robert.smith@dublin.ca.gov"
+      }
+    },
+    "location": "Grafton Street",
+    "docs": [],
+    "status": "Application Under Review",
+    "description": "The Volvo Cars Dublin project is a proposal for a 23,863 square foot car dealership on a 2.08-acre site. The building will consist of a showroom for the cars, service area and office areas. The project application includes a Site Development Review Permit, Stage 2 Development Plan Amendment and Conditional Use Permit.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Showroom-and-Service-Entry.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Showroom-and-Service-Entry-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Site-Plan.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Site-Plan-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Rendering.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Rendering-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Elevations.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Elevations-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Showroom-Night.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Showroom-Night-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Night.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Night-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Day.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Day-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Back-Freeway.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/03/Exterior-Back-Freeway-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.702602,
+      "lon": -121.865788,
+      "iconName": "car",
+      "title": "Volvo Cars Dublin"
+    }
+  },
+  "projectdetail1087": {
+    "id": "projectdetail1087",
+    "title": "Kaiser Commercial – Nissan",
+    "details": {
+      "Planning Application #": "PLPA-2019-00003",
+      "Application Type": "Planned Development Rezoning (Stage 1 and Stage 2 Development Plan) and Site Development Review",
+      "Application Submittal Date": "02/21/2019",
+      "General Plan Land Use": "Medical Campus/Commercial",
+      "Specific Plan Area": "Eastern Dublin Specific Plan",
+      "Zoning": "Planned Development",
+      "Project Area": "14.89 acres",
+      "Building Area": "35,000 square feet",
+      "Stories/Height": "2 stories / 28 feet",
+      "Applicant": {
+        "name": "Jessie Donsanjh",
+        "address": "4200 John Monego Court, Dublin, CA 94568",
+        "phone": "209-765-5840"
+      },
+      "Project Planner": {
+        "name": "Amy Million - Principal Planner",
+        "phone": "(925) 833-6610",
+        "email": "amy.million@dublin.ca.gov"
+      }
+    },
+    "location": "Dublin Boulevard",
+    "docs": [
+      {
+        "name": "Planning Commission March 26, 2019 Staff Report",
+        "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1403&Inline=True"
+      },
+      {
+        "name": "City Council April 16, 2019 Staff Report",
+        "url": "https://citydocs.dublin.ca.gov/WebLink/DocView.aspx?id=661476&cr=1"
+      }
+    ],
+    "status": "Final Action",
+    "description": "Planned Development Rezone with a Stage 1 and Stage 2 Development Plan and a Site Development Review Permit to construct a Nissan auto dealership.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Nissan.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Nissan-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/elevations.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/elevations-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/landscape.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/landscape-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/overall-layout.png",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/overall-layout-150x150.png"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.702382,
+      "lon": -121.86118,
+      "iconName": "car",
+      "title": "Kaiser Commercial – Nissan"
+    }
+  },
+  "projectdetail1075": {
+    "id": "projectdetail1075",
+    "title": "Westin Hotel",
+    "details": {
+      "Planning Application #": "PLPA-2019-00006",
+      "Application Type": "TMAP, SDR, Stage 2 PD",
+      "Application Submittal Date": "02/08/2019",
+      "General Plan Land Use": "CO-Campus Office",
+      "Specific Plan Area": "CO-Campus Office",
+      "Zoning": "PD-Planned Development",
+      "Project Area": "5.88 acres",
+      "Building Area": "163,133 square feet",
+      "Stories/Height": "6 stories",
+      "Applicant": {
+        "name": "Charles Patel",
+        "address": "3657 Old Santa Rita Rd, Pleasanton, CA 94588",
+        "phone": "(650) 826-1954"
+      },
+      "Project Planner": {
+        "name": "Amy Million - Principal Planner",
+        "phone": "(925) 833-6610",
+        "email": "amy.million@dublin.ca.gov"
+      }
+    },
+    "location": "100 Civic Plaza",
+    "docs": [
+      {
+        "name": "Planning Commission Staff Report 9-24-19",
+        "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1453&Inline=True"
+      },
+      {
+        "name": "City Council Staff Report 10-15-19",
+        "url": "https://dublin.ca.gov/ArchiveCenter/ViewFile/Item/981"
+      },
+      {
+        "name": "City Council Staff Report 11-5-19",
+        "url": "https://citydocs.dublin.ca.gov/WebLink/DocView.aspx?id=770129&cr=1"
+      }
+    ],
+    "status": "Final Action",
+    "description": "The Westin Hotel project is a proposal for a Tentative Parcel Map, Site Development Review Permit, and a Stage 2 Development Plan for a 163,133 square foot, 6-story hotel. The site consists of a 5.88-acre parcel located at the southeast corner of Campus Drive and Altamirano Avenue, adjacent to the existing East Dublin BART Station. The hotel will include a 5,254 square foot restaurant, a ballroom, 2 large meeting rooms, and 198 hotel rooms.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Westin-Hotel_Rendering.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Westin-Hotel_Rendering-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Floor-Plan.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Floor-Plan-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/North-Elevation.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/North-Elevation-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Site-Plan.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Site-Plan-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Rendering-2.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Rendering-2-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.70304,
+      "lon": -121.89506,
+      "iconName": "hotel",
+      "title": "Westin Hotel"
+    }
+  },
+  "projectdetail1071": {
+    "id": "projectdetail1071",
+    "title": "Quarry Lane Preschool",
+    "details": {
+      "Planning Application #": "PLPA-2018-00033",
+      "Application Type": "Site Development Review",
+      "Application Submittal Date": "12/19/2018",
+      "General Plan Land Use": "Business Park/Industrial and Outdoor Storage",
+      "Specific Plan Area": "Eastern Dublin Specific Plan",
+      "Zoning": "M-1 Light Industrial",
+      "Project Area": "2.68 acres",
+      "Building Area": "26,000 square feet",
+      "Stories/Height": "1 story / 35 feet",
+      "Parking Provided": "118 parking spaces",
+      "Applicant": {
+        "name": "Dr. Sabri Arac",
+        "address": "3750 Boulder Street, Pleasanton, CA 94506",
+        "phone": "925-876-9195"
+      },
+      "Project Planner": {
+        "name": "Robert Smith - Associate Planner",
+        "phone": "(925) 833-6610",
+        "email": "robert.smith@dublin.ca.gov"
+      }
+    },
+    "location": "6085 Scarlett Drive",
+    "docs": [
+      {
+        "name": "Planning Commission Staff Report 8/27/19",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Agenda-Tuesday-August-27-2019.pdf"
+      }
+    ],
+    "status": "Final Action",
+    "description": "The property owner, Dr Sabri Arac, is requesting approval of a Site Development Review Permit to construct a new 26,000 square foot building to house the Quarry Lane Pre-School. The proposed facility will include 15 classrooms, activity rooms (i.e. music, library, art, and staff rooms) and related site improvements including onsite parking, frontage and landscape improvements, and a 10,000 square foot outdoor children’s play area including play structures.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-01-1.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-01-1-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Exhibit-A-Plan-set-PLPA-2018-00033-combined_Page_02-1.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Exhibit-A-Plan-set-PLPA-2018-00033-combined_Page_02-1-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-02.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-02-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-03.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-03-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-04.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-04-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-05.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-05-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.704302,
+      "lon": -121.903888,
+      "iconName": "graduationCap",
+      "title": "Quarry Lane Preschool"
+    }
+  },
+  "projectdetail1068": {
+    "id": "projectdetail1068",
+    "title": "Corrie Center SDR (Office Building)",
+    "details": {
+      "Planning Application #": "PLPA-2019-00019",
+      "Application Type": "Site Development Review",
+      "Application Submittal Date": "06/17/2019",
+      "General Plan Land Use": "Downtown Dublin - Transit Oriented District",
+      "Specific Plan Area": "Downtown Dublin Specific Plan",
+      "Zoning": "Downtown Dublin Zoning District - DDZD",
+      "Project Area": "3.72 acres",
+      "Applicant": {
+        "name": "Jerry Hunt, Rubicon Property Group",
+        "address": "1840 San Miguel Drive, Ste. 206, Walnut Creek, CA 94596",
+        "phone": "925-980-7875"
+      },
+      "Project Planner": {
+        "name": "Amy Million - Principal Planner",
+        "phone": "(925) 833-6610",
+        "email": "amy.million@dublin.ca.gov"
+      }
+    },
+    "location": "7944 Dublin Boulevard",
+    "docs": [],
+    "status": "Final Action",
+    "description": "Site Development Review Permit to remodel the existing office building and related improvements to landscaping and parking.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/front-facade-e1561735734452.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/front-facade-e1561735734452-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/elevation2.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/elevation2-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/elevation.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/elevation-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.701316,
+      "lon": -121.935041,
+      "iconName": "building",
+      "title": "Corrie Center SDR (Office Building)"
+    }
+  },
+  "projectdetail998": {
+    "id": "projectdetail998",
+    "title": "Ashton at Dublin Station",
+    "details": {
+      "Planning Application #": "PLPA-2017-00036",
+      "Application Type": "Stage 2 Development Plan, Site Development Review, Tentative Map and Development Agreement",
+      "Application Submittal Date": "05/24/2017",
+      "General Plan Land Use": "High Density Residential",
+      "Specific Plan Area": "Eastern Dublin Specific Plan",
+      "Zoning": "PD (Planned Development)",
+      "Project Area": "2.36 acres",
+      "Stories/Height": "7 stories / 83 feet",
+      "Parking Provided": "331 parking spaces",
+      "Applicant": {
+        "name": "UDR, Inc.",
+        "address": "1745 Shea Center Drive, Suite 200, Highlands Ranch, CO 80129",
+        "phone": "720-348-7604"
+      },
+      "Project Planner": {
+        "name": "Robert Smith - Associate Planner",
+        "phone": "(925) 833-6610",
+        "email": "robert.smith@dublin.ca.gov"
+      }
+    },
+    "location": "DeMarcus Boulevard",
+    "docs": [
+      {
+        "name": "Settlement agreement information: Ashton at Dublin Station v. City of Dublin Settlement FAQ",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Ashton-at-Dublin-Station-v.-City-of-Dublin-Settlement-FAQ.pdf"
+      },
+      {
+        "name": "Planning Commission Staff Report November 14, 2017",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Planning-Commission-Staff-Report-November-14-2017.doc"
+      },
+      {
+        "name": "City Council Staff Report dated 3.6.18",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/City-Council-Staff-Report-dated-3.6.18.doc"
+      },
+      {
+        "name": "Ashton @ Dublin Station July 17, 2018 City Council Staff Report",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Ashton-@-Dublin-Station-July-17-2018-City-Council-Staff-Report.doc"
+      }
+    ],
+    "status": "Final Action",
+    "description": "The proposed Ashton at Dublin Station project is located at the northwest corner of DeMarcus Boulevard and Campbell Lane within the Transit Center. The site has a General Plan and Eastern Dublin Specific Plan land use designation of High Density Residential (25+ units per acre) and Planned Development Zoning with a Stage 1 Development Plan that permits a high density residential development.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Capture1.png",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Capture1-150x150.png"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Northeast-corner-DeMarcus-Blvd..png",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Northeast-corner-DeMarcus-Blvd.-150x150.png"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Southeast-entry-lobby.png",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Southeast-entry-lobby-150x150.png"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Aerial-at-the-SE-corner.png",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Aerial-at-the-SE-corner-150x150.png"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/site-plan.png",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/06/site-plan-150x150.png"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.7043064,
+      "lon": -121.8998893,
+      "iconName": "building",
+      "title": "Ashton at Dublin Station"
+    }
+  },
+  "projectdetail971": {
+    "id": "projectdetail971",
+    "title": "Grafton Plaza Daycare & Retail",
+    "details": {
+      "Planning Application #": "PLPA-2018-00010",
+      "Application Type": "Planned Development Amendment; Site Development Review; and Minor Use Permit",
+      "Application Submittal Date": "05/01/2018",
+      "General Plan Land Use": "Mixed Use 2/Campus Office",
+      "Specific Plan Area": "Mixed Use 2/Campus Office",
+      "Zoning": "Planned Development (PD)",
+      "Project Area": "3.68 acres",
+      "Building Area": "31,860 square feet",
+      "Stories/Height": "2 stories / 50 feet",
+      "Parking Provided": "146 parking spaces",
+      "Applicant": {
+        "name": "Eddy Li",
+        "address": "432 Bridle Ct., San Ramon, CA 94582",
+        "phone": "(510) 817-8892"
+      },
+      "Project Planner": {
+        "name": "Robert Smith - Associate Planner - Planning Division",
+        "phone": "(925) 833-6610",
+        "email": "robert.smith@dublin.ca.gov"
+      }
+    },
+    "location": "1000 Dublin Boulevard",
+    "docs": [
+      {
+        "name": "Planning Commission December 10, 2019 Staff Report",
+        "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1488&Inline=True"
+      },
+      {
+        "name": "City Council February 4, 2020 Staff Report",
+        "url": "https://citydocs.dublin.ca.gov/WebLink/DocView.aspx?id=786763&cr=1"
+      }
+    ],
+    "status": "Final Action",
+    "description": "Planned Development Amendment with a Stage 1 and Stage 2 Development Plan, Site Development Review Permit, and Minor Use Permit for two new retail buildings and one daycare building.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_28.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_28-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_27.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_27-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_16.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_16-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_23.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_23-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_24.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_24-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_22.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_22-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.70445,
+      "lon": -121.86474,
+      "iconName": "child",
+      "title": "Grafton Plaza Daycare & Retail"
+    }
+  },
+  "projectdetail935": {
+    "id": "projectdetail935",
+    "title": "Grand View Project",
+    "details": {
+      "Planning Application #": "PLPA-2018-00006",
+      "Application Type": "Pre-Application",
+      "Application Submittal Date": "03/07/2018",
+      "General Plan Land Use": "General Commercial, General Commercial/Campus Office, Open Space and Medium/High Density Residential",
+      "Specific Plan Area": "Eastern Dublin Specific Plan",
+      "Zoning": "Planned Development",
+      "Project Area": "122 acres",
+      "Applicant": {
+        "name": "Jessica Zhang, GH PacVest, LLC",
+        "address": "3000 Executive Pkwy, #375, San Ramon, CA 94583",
+        "phone": "(925) 997-6812"
+      },
+      "Project Planner": {
+        "name": "Planning Division",
+        "phone": "(925) 833-6610",
+        "email": ""
+      }
+    },
+    "location": "Fallon Road",
+    "docs": [],
+    "status": "Pre-Application",
+    "description": "The property owner has submitted a Pre-Application for the proposed Grand View Project. The conceptual proposal is for a mixed use project comprised of up to 2,391,668 square feet of retail/commercial and office uses and up to 338 housing units. Preliminary concepts for the project include a pedestrian oriented “main street” that would be supported by retail, office, hotels and recreational uses. The proposed project would include the extension of Dublin Boulevard and improvements to Croak Road in order to accommodate the proposed development. If the project were to move forward, future entitlements may include Planned Development Zoning, Site Development Review for each component of the project, a Tentative Map(s), and environment review in accordance with the California Environmental Quality Act.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/04/Conceptual-Site-Plan.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/04/Conceptual-Site-Plan-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/04/Illlustrative-Site-Plan.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/04/Illlustrative-Site-Plan-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/04/Vicinity-Map.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/04/Vicinity-Map-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.70238,
+      "lon": -121.84776,
+      "iconName": "shoppingCart",
+      "title": "Grand View Project"
+    }
+  },
+  "projectdetail572": {
+    "id": "projectdetail572",
+    "title": "St. Patrick Way SDR",
+    "details": {
+      "Planning Application #": "PLPA-2017-00069",
+      "Application Type": "Site Development Review and Vesting Tentative Map",
+      "Application Submittal Date": "12/21/2017",
+      "General Plan Land Use": "Downtown Dublin - Transit Oriented District",
+      "Specific Plan Area": "Downtown Dublin Specific Plan",
+      "Zoning": "Downtown Dublin Zoning District - DDZD",
+      "Project Area": "8.53 acres",
+      "Stories/Height": "5 stories / 57 feet",
+      "Parking Provided": "781 parking spaces",
+      "Applicant": {
+        "name": "Eric Morley, The Morley Bros. / Bayview Development Group",
+        "address": "405 Alberto Way #3, Los Gatos, CA 95032",
+        "phone": "408-497-9722"
+      },
+      "Project Planner": {
+        "name": "Amy Million - Principal Planner",
+        "phone": "(925) 833-6610",
+        "email": "amy.million@dublin.ca.gov"
+      }
+    },
+    "location": "6700 Golden Gate Drive",
+    "docs": [
+      {
+        "name": "March 27, 2018 Planning Commission Staff Report",
+        "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1270&Inline=True"
+      },
+      {
+        "name": "May 1, 2018 City Council Staff Report",
+        "url": "http://www.dublin.ca.gov/ArchiveCenter/ViewFile/Item/856"
+      }
+    ],
+    "status": "Final Action",
+    "description": "Site Development Review to demolish an existing 200,000 square foot warehouse and construct a 499 unit residential apartment complex.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Single-Image_Page_1.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Single-Image_Page_1-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Site-Plan.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Site-Plan-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.7011193,
+      "lon": -121.9306746,
+      "iconName": "building",
+      "title": "St. Patrick Way SDR"
+    }
+  },
+  "projectdetail566": {
+    "id": "projectdetail566",
+    "title": "Randeri 7400 Amador Valley Boulevard SDR",
+    "details": {
+      "Planning Application #": "PLPA-2018-00007",
+      "Application Type": "Site Development Review",
+      "Application Submittal Date": "03/16/2018",
+      "General Plan Land Use": "Downtown Dublin - Village Parkway District",
+      "Specific Plan Area": "Downtown Dublin - Village Parkway District",
+      "Zoning": "DDZD",
+      "Project Area": ".25 acres",
+      "Building Area": "3708 square feet",
+      "Foor Area Ratio": ".35 FAR",
+      "Stories/Height": "1 story / 30 feet",
+      "Parking Provided": "12 parking spaces",
+      "Applicant": {
+        "name": "Beaumont and Associates",
+        "address": "4050 Harlan Street, Emeryville, CA 94608",
+        "phone": "510-652-4433"
+      },
+      "Project Planner": {
+        "name": "Anne Wong - Assistant Planner",
+        "phone": "(925) 833-6610",
+        "email": "anne.wong@dublin.ca.gov"
+      }
+    },
+    "location": "7400 Amador Valley Boulevard",
+    "docs": [
+      {
+        "name": "Planning Commission Staff Report January 28, 2020",
+        "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1500&Inline=True"
+      }
+    ],
+    "status": "Final Action",
+    "description": "Site Development Review for a new single story 3,578 square foot commercial building with corresponding site improvements.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Site-Plan-1.png",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Site-Plan-1-150x150.png"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Front-Elevation.png",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Front-Elevation-150x150.png"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Randeri-Color-Elevation.png",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Randeri-Color-Elevation-150x150.png"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.709596,
+      "lon": -121.927501,
+      "iconName": "building",
+      "title": "Randeri 7400 Amador Valley Boulevard SDR"
+    }
+  },
+  "projectdetail560": {
+    "id": "projectdetail560",
+    "title": "7505 Dublin Boulevard SDR",
+    "details": {
+      "Planning Application #": "PLPA-2017-00048",
+      "Application Type": "Site Development Review",
+      "Application Submittal Date": "07/24/2017",
+      "General Plan Land Use": "Downtown Dublin Retail District",
+      "Specific Plan Area": "Downtown Dublin Retail District",
+      "Zoning": "Downtown Dublin Zoning District",
+      "Project Area": "1.8 acres",
+      "Building Area": "9,000 square feet",
+      "Stories/Height": "1 story / 24 feet",
+      "Applicant": {
+        "name": "Dave Johnson, Johnson Lyman Architects",
+        "address": "1375 Locust Street #202, Walnut Creek, CA 94596",
+        "phone": "(925) 930-9690 ext 112"
+      },
+      "Project Planner": {
+        "name": "Amy Million - Principal Planner",
+        "phone": "(925) 833-6610",
+        "email": "amy.million@dublin.ca.gov"
+      }
+    },
+    "location": "7505 Dublin Boulevard",
+    "docs": [
+      {
+        "name": "Project Plans",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/07/Dublin-Book-7-17-17.pdf"
+      },
+      {
+        "name": "Planning Commission Agenda & Staff Report 1.23.18",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/07/Planning-Commission-Agenda-Packet-012318.pdf"
+      }
+    ],
+    "status": "Final Action",
+    "description": "Site Development Review permit to demolish an existing 5,000 square foot building (formerly Coco’s Bakery Restaurant) and construct a new commercial pad building totaling 9,000 square feet. Includes associated site improvements, outdoor seating areas, parking and landscaping.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/07/picture.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/07/picture-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.7050763,
+      "lon": -121.9279171,
+      "iconName": "building",
+      "title": "7505 Dublin Boulevard SDR"
+    }
+  },
+  "projectdetail465": {
+    "id": "projectdetail465",
+    "title": "Zeiss Innovation Center",
+    "details": {
+      "Planning Application #": "PLPA-2017-00025",
+      "Application Type": "Stage 1/Stage 2 Development Plan and Site Development Review",
+      "Application Submittal Date": "04/17/2017",
+      "General Plan Land Use": "Campus Office",
+      "Specific Plan Area": "Eastern Dublin Specific Plan",
+      "Zoning": "PD (Planned Development)",
+      "Project Area": "11.36 acres",
+      "Building Area": "433,090 square feet",
+      "Stories/Height": "5 stories / 82 feet",
+      "Parking Provided": "1396 parking spaces",
+      "Applicant": {
+        "name": "Matthias Ismael",
+        "address": "5160 Hacienda Drive, Dublin, CA 94568",
+        "phone": "(925) 557-4362"
+      },
+      "Project Planner": {
+        "name": "Robert Smith - Associate Planner",
+        "phone": "(925) 833-6610",
+        "email": "robert.smith@dublin.ca.gov"
+      }
+    },
+    "location": "Dublin Boulevard",
+    "docs": [
+      {
+        "name": "Planning Commission Staff Report.2.13.18",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Planning-Commission-Staff-Report.2.13.18.pdf"
+      },
+      {
+        "name": "City Council Staff Report 3.6.18",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/City-Council-Staff-Report-3.6.18.pdf"
+      },
+      {
+        "name": "City Council Staff Report 3.20.18",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/City-Council-Staff-Report-3.20.18.pdf"
+      },
+      {
+        "name": "Final Zeiss Innovation Center MND-IS.12.8.17",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Final-Zeiss-Innovation-Center-MND-IS.12.8.17.pdf"
+      },
+      {
+        "name": "Appendix A Biological Resources Assessment Report",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Appendix-A-Biological-Resources-Assessment-Report.pdf"
+      },
+      {
+        "name": "Appendix B Delineation Potential Jurisdictional Wetlands Under Section 404 CWA",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Appendix-B-Delineation-Potential-Jurisdictional-Wetlands-Under-Section-404-CWA.pdf"
+      },
+      {
+        "name": "Appendix C Rare Plant Survey Report",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Appendix-C-Rare-Plant-Survey-Report.pdf"
+      },
+      {
+        "name": "Appendix D Historic Resources Survey",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Appendix-D-Historic-Resources-Survey.pdf"
+      },
+      {
+        "name": "Appendix E Carl Zeiss Traffic Consistency Analysis",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Appendix-E-Carl-Zeiss-Traffic-Consistency-Analysis.pdf"
+      },
+      {
+        "name": "Final Notice of Intent",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Final-Notice-of-Intent.pdf"
+      },
+      {
+        "name": "Notice of Time Extension of Supplemental Mitigated Negative Declaration",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Notice-of-Time-Extension-of-Supplemental-Mitigated-Negative-Declaration.pdf"
+      }
+    ],
+    "status": "Final Action",
+    "description": "The Zeiss Innovation Center includes two phases of research & development (R&D) campus development.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.1.png",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.1-150x150.png"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.2.png",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.2-150x150.png"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.Dublin.png",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.Dublin-150x150.png"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-aerial.png",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-aerial-150x150.png"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Aerial.png",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Aerial-150x150.png"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.707411,
+      "lon": -121.89199,
+      "iconName": "building",
+      "title": "Zeiss Innovation Center"
+    }
+  },
+  "projectdetail515": {
+    "id": "projectdetail515",
+    "title": "Boulevard (Dublin Crossing) – Phase 4 & 5",
+    "details": {
+      "Planning Application #": "PLPA-2016-00064",
+      "Application Type": "Site Development Review and Vesting Tentative Tract Map",
+      "Application Submittal Date": "12/05/2016",
+      "General Plan Land Use": "Dublin Crossing Specific Plan",
+      "Specific Plan Area": "Dublin Crossing Specific Plan",
+      "Zoning": "DCPD",
+      "Project Area": "40 acres",
+      "Applicant": {
+        "name": "Joe Guerra, Dublin Crossing LLC/Brookfield Residential",
+        "address": "500 La Gonda Way, Suite 100, Danville, CA 94526",
+        "phone": "(408) 307-7806"
+      },
+      "Project Planner": {
+        "name": "Amy Million - Principal Planner",
+        "phone": "(925) 833-6610",
+        "email": "amy.million@dublin.ca.gov"
+      }
+    },
+    "location": "Dublin Boulevard",
+    "docs": [
+      {
+        "name": "April 10, 2018 Planning Commission Staff Report",
+        "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1278&Inline=True"
+      },
+      {
+        "name": "May 8, 2018 Planning Commission Staff Report",
+        "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1287&Inline=True"
+      }
+    ],
+    "status": "Final Action",
+    "description": "Phases 4 and 5 of the Boulevard project include 510 units and landscape improvements.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.711036,
+      "lon": -121.905749,
+      "iconName": "building",
+      "title": "Boulevard (Dublin Crossing) – Phase 4 & 5"
+    }
+  },
+  "projectdetail506": {
+    "id": "projectdetail506",
+    "title": "Boulevard (Dublin Crossing) – Phase 1",
+    "details": {
+      "Planning Application #": "PLPA 2015-00062",
+      "Application Type": "Site Development Review / Vesting Tenative Tract Map",
+      "Application Submittal Date": "12/16/2015",
+      "General Plan Land Use": "Dublin Crossing Specific Plan",
+      "Specific Plan Area": "Dublin Crossing Specific Plan",
+      "Zoning": "DCPD",
+      "Project Area": "28.34 acres acres",
+      "Applicant": {
+        "name": "Joe Guerra, Dublin Crossing LLC/Brookfield Residential",
+        "address": "500 La Gonda Way, Suite 100, Danville, CA 94526",
+        "phone": "(408) 307-7806"
+      },
+      "Project Planner": {
+        "name": "Amy Million - Principal Planner",
+        "phone": "(925) 833-6610",
+        "email": "amy.million@dublin.ca.gov"
+      }
+    },
+    "location": "Dublin Boulevard",
+    "docs": [
+      {
+        "name": "Planning Commission Staff Report 05.24.16",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-05.24.16-Complete.pdf"
+      },
+      {
+        "name": "Planning Commission Staff Report 06.14.16",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-061416-Complete.pdf"
+      }
+    ],
+    "status": "Final Action",
+    "description": "Phase1 of the Boulevard project include 453 units and landscape improvements. Design review for the first six residential neighborhoods (Phases 1A and 1B) were approved by the Planning Commission on June 14, 2016.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.706516,
+      "lon": -121.898762,
+      "iconName": "building",
+      "title": "Boulevard (Dublin Crossing) – Phase 1"
+    }
+  },
+  "projectdetail486": {
+    "id": "projectdetail486",
+    "title": "Boulevard (Dublin Crossing) Phase 2 & 3",
+    "details": {
+      "Planning Application #": "PA 08-049, PLPA-2016-00057",
+      "Application Type": "Site Development Review, Vesting Tenative Tract Map",
+      "Application Submittal Date": "09/14/2016",
+      "General Plan Land Use": "Dublin Crossing Specific Plan",
+      "Specific Plan Area": "Dublin Crossing Specific Plan",
+      "Zoning": "Dublin Crossing Planned Development",
+      "Project Area": "54.5 acres",
+      "Applicant": {
+        "name": "Joe Guerra, Dublin Crossing LLC/Brookfield Residential",
+        "address": "500 La Gonda Way, Suite 100, Danville, CA 94526",
+        "phone": "(408) 307-7806"
+      },
+      "Project Planner": {
+        "name": "Amy Million - Principal Planner",
+        "phone": "(925) 833-6610",
+        "email": "amy.million@dublin.ca.gov"
+      }
+    },
+    "location": "1 Dublin Boulevard",
+    "docs": [
+      {
+        "name": "Planning Commission Staff Report 04.11.17 Study Session",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-041117-Complete.pdf"
+      },
+      {
+        "name": "Planning Commission Staff Report 04.11.17 Attach. 1 (Part 1)",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Attachmet-1-SDR-Booklet-2_3_-Part-ONE.pdf"
+      },
+      {
+        "name": "Planning Commission Staff Report 04.11.17 Attach. 1 (Part 2)",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Attachment-1-SDR-Booklet-2_3_Part-TWO.pdf"
+      },
+      {
+        "name": "Planning Commission Staff Report 04.11.17 Attach. 1 (Part 3)",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1-SDR-Booklet-2_3_-Part-THREE.pdf"
+      },
+      {
+        "name": "Planning Commission Staff Report 04.11.17 Attach. 2",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/2.pdf"
+      }
+    ],
+    "status": "Final Action",
+    "description": "Multi-phased development comprised of up to 1,995 residential units, up to 200,000 square feet of commercial uses, 35 acres of public parkland, a 12-acre elementary school site and related infrastructure. The overall project specific plan (Dublin Crossing Specific Plan) was approved in 2013. Together, Phases 2 and 3 propose a total of 791 units in 12 neighborhoods. Phase 2 is comprised of 508 units on approximately 36.25 acres and Phase 3 is comprised of 283 units on approximately 18.22 acres. The Planning Commission held two study sessions on April 11 and April 25 to review Phases 2 and 3.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Phase-23-site-plan-2-e1491496490762.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Phase-23-site-plan-2-e1491496490762-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Rendering-e1491495239305.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Rendering-e1491495239305-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/NH-10-e1491496106660.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/NH-10-e1491496106660-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/rec-center-e1491496119223.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/rec-center-e1491496119223-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.707185,
+      "lon": -121.902171,
+      "iconName": "building",
+      "title": "Boulevard (Dublin Crossing) Phase 2 & 3"
+    }
+  },
+  "projectdetail71": {
+    "id": "projectdetail71",
+    "title": "Boulevard (Dublin Crossing)",
+    "details": {
+      "Planning Application #": "PA 08-049",
+      "Application Type": "General Plan Amendment, Planned Development Rezone with Stage 1 and 2 Development Plan, Vesting Tentative Tract Map",
+      "Application Submittal Date": "10/01/2008",
+      "General Plan Land Use": "Dublin Crossing Specific Plan",
+      "Specific Plan Area": "Dublin Crossing Specific Plan",
+      "Zoning": "DCPD",
+      "Project Area": "189 acres",
+      "Applicant": {
+        "name": "Joe Guerra, Dublin Crossing LLC/Brookfield Residential",
+        "address": "500 La Gonda Way, Suite 100, Danville, CA 94526",
+        "phone": "(408) 307-7806"
+      },
+      "Project Planner": {
+        "name": "Amy Million - Principal Planner",
+        "phone": "(925) 833-6610",
+        "email": "amy.million@dublin.ca.gov"
+      }
+    },
+    "location": "Dublin Boulevard",
+    "docs": [
+      {
+        "name": "Dublin Crossing Specific Plan",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Dublin-Crossing-SP-2015-3.23.17.pdf"
+      }
+    ],
+    "status": "Final Action",
+    "description": "Multi-phased development comprised of up to 1,995 residential units, up to 200,000 square feet of commercial uses, 35 acres of public parkland, a 12-acre elementary school site and related infrastructure. The overall project specific plan (Dublin Crossing Specific Plan) was approved in 2013. Site improvements for the first phase of development is underway. Design review for the first six residential neighborhoods (Phases 1A and 1B) were approved by the Planning Commission on June 14, 2016. On May 9, 2017 the Planning Commission approved the design of the 12 residential neighborhoods in Phases 2 and 3 and on May 8, 2018, the Planning Commission approved the design of the remaining six residential neighborhoods in Phases 4 and 5. The project is currently under construction.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.7059963,
+      "lon": -121.8978641,
+      "iconName": "building",
+      "title": "Boulevard (Dublin Crossing)"
+    }
+  },
+  "projectdetail175": {
+    "id": "projectdetail175",
+    "title": "Jordan Ranch – Onyx (Neighborhood 7)",
+    "details": {
+      "Planning Application #": "PLPA-2015-00045",
+      "Application Type": "General Plan and Eastern Dublin Specific Plan Amendments and Planned Development Rezone with amended Stage 1 and Stage 2 Development Plans, Site Development Review, Vesting Tentative Tract Map 8267 & 8269, and Development Agreement Amendment",
+      "Application Submittal Date": "09/22/2015",
+      "General Plan Land Use": "Medium Density Residential",
+      "Specific Plan Area": "Eastern Dublin Specific Plan",
+      "Zoning": "PD- Medium Density Residential, PD-Medium High Density Residential, PD-Public/Semi-Public underlay, and PD-Mixed Use",
+      "Project Area": "10.1 acres",
+      "Building Area": "2,500 - 2,590 square feet",
+      "Foor Area Ratio": "N/A FAR",
+      "Stories/Height": "3 stories / 39 feet",
+      "Applicant": {
+        "name": "Jason Cole, TRI Pointe Homes",
+        "address": "2010 Crow Canyon Place, Suite 380, San Ramon, CA 94583",
+        "phone": "(925) 804-2230"
+      },
+      "Project Planner": {
+        "name": "Robert Smith - Associate Planner",
+        "phone": "(925) 833-6610",
+        "email": "robert.smith@dublin.ca.gov"
+      }
+    },
+    "location": "Panorama Drive",
+    "docs": [],
+    "status": "Final Action",
+    "description": "Neighborhood 7, “Onyx”, is part of the overall Jordan Ranch project. This neighborhood consists of 105 detached residential units on 10.1 acres. Primary access to the site is from Panorama Drive. All of these homes face onto a neighborhood street or a private park and take vehicular access from a motorcourt or driveway. The site plan includes extensive use of pedestrian paseos to interconnect the project and adjacent neighborhoods.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Pull-Apart-Townhomes-Jordan-Ranch-N7-Onyx.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Pull-Apart-Townhomes-Jordan-Ranch-N7-Onyx-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Jordan-Ranch-N7-Site-Plan.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Jordan-Ranch-N7-Site-Plan-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.71184,
+      "lon": -121.84332,
+      "iconName": "home",
+      "title": "Jordan Ranch – Onyx (Neighborhood 7)"
+    }
+  },
+  "projectdetail150": {
+    "id": "projectdetail150",
+    "title": "Schaefer Ranch Unit 3",
+    "details": {
+      "Planning Application #": "PLPA-2012-00013",
+      "Application Type": "General Plan Amendment, Planned Development Rezone, Site Development Review, Tentative Map and CEQA Addendum",
+      "Application Submittal Date": "03/14/2012",
+      "General Plan Land Use": "Single-Family Residential and Open Space",
+      "Specific Plan Area": "None",
+      "Zoning": "PD - Planned Development",
+      "Project Area": "17.3 acres",
+      "Building Area": "2,933-3,469 square feet",
+      "Stories/Height": "2 stories / 31 feet",
+      "Applicant": {
+        "name": "Louis Parsons, Discovery Builders",
+        "address": "4061 Port Chicago Hwy, Suite H, Concord, CA 94520",
+        "phone": "(925) 682-6419"
+      },
+      "Project Planner": {
+        "name": "Robert Smith - Associate Planner",
+        "phone": "(925) 833-6610",
+        "email": "robert.smith@dublin.ca.gov"
+      }
+    },
+    "location": "Dublin Boulevard",
+    "docs": [
+      {
+        "name": "Planning Commission Staff Report October 13, 2015",
+        "url": "https://citydocs.dublin.ca.gov/weblink8/0/doc/563268/Page1.aspx"
+      },
+      {
+        "name": "City Council Staff Report June 7, 2016",
+        "url": "https://citydocs.dublin.ca.gov/weblink8/0/doc/586498/Page1.aspx"
+      }
+    ],
+    "status": "Final Action",
+    "description": "The Schaefer Unit 3 project included approval of a General Plan Amendment and Planned Development Zoning with a related Stage 1 and Stage 2 Development Plan to change the land use designation and zoning of 17.30 acres designated as Estate Residential and originally approved for 6 residential estate lots and common areas, to 7.04 acres designated as Single-Family Residential for 18 single-family detached homes and 10.26 acres designated as Open Space. This proposal results in a total of 418 homes (a net increase of 12 homes) within the Schaefer Ranch project. The application also included a Site Development Review Permit and Vesting Tentative Map for the proposed homes on the 18 lots. The project was approved by the City Council on June 21, 2016.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SCHAEFER-RANCH-UNIT-3-SDR-2-Plan-1.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SCHAEFER-RANCH-UNIT-3-SDR-2-Plan-1-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SCHAEFER-RANCH-UNIT-3-SDR-Street-scene.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SCHAEFER-RANCH-UNIT-3-SDR-Street-scene-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Schaefer-Ranch-Unit-3-VTPM.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Schaefer-Ranch-Unit-3-VTPM-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.704676,
+      "lon": -121.983341,
+      "iconName": "home",
+      "title": "Schaefer Ranch Unit 3"
+    }
+  },
+  "projectdetail123": {
+    "id": "projectdetail123",
+    "title": "Fountainhead Montessori",
+    "details": {
+      "Planning Application #": "PLPA-2016-00005",
+      "Application Type": "Site Development Review",
+      "Application Submittal Date": "01/08/2016",
+      "General Plan Land Use": "Downtown Dublin - Retail District",
+      "Specific Plan Area": "Downtown Dublin Specific Plan - Retail District",
+      "Zoning": "DDZD",
+      "Project Area": "4.5 acres",
+      "Building Area": "62,946 square feet",
+      "Foor Area Ratio": "31% FAR",
+      "Stories/Height": "2 stories",
+      "Parking Provided": "182 parking spaces",
+      "Applicant": {
+        "name": "Shandy Cole, Fountain Head Montessori",
+        "address": "1375 Locust Street, #202, Walnut Creek, CA 94596",
+        "phone": "(925) 930-9690"
+      },
+      "Project Planner": {
+        "name": "Robert Smith - Associate Planner",
+        "phone": "(925) 833-6610",
+        "email": "robert.smith@dublin.ca.gov"
+      }
+    },
+    "location": "6665 Amador Plaza Road",
+    "docs": [],
+    "status": "Final Action",
+    "description": "Site Development Review was approved for a facade remodel of the three existing buildings, construction of solar carport structures within the parking lot, and construction of outdoor play areas and associated site improvements, including solar shade structures, for use by Fountainhead Montessori.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-elevations-1.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-elevations-1-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-site-plan.jpg.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-site-plan.jpg-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/solar-arrays.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/solar-arrays-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.701844,
+      "lon": -121.925486,
+      "iconName": "building",
+      "title": "Fountainhead Montessori"
+    }
+  },
+  "projectdetail140": {
+    "id": "projectdetail140",
+    "title": "Moller Ranch/Tassajara Hills",
+    "details": {
+      "Planning Application #": "PLPA-2015-00033",
+      "Application Type": "Site Development Review",
+      "Application Submittal Date": "07/27/2015",
+      "General Plan Land Use": "Single Family Residential & Semi-Public",
+      "Specific Plan Area": "Eastern Dublin Specific Plan",
+      "Zoning": "PD - Planned Development",
+      "Project Area": "80 acres",
+      "Building Area": "3098 - 5161 square feet",
+      "Stories/Height": "2 stories",
+      "Applicant": {
+        "name": "Toll Brothers, Inc. Attn: Rick Nelson",
+        "address": "6800 Koll Center Pkwy, Suite 320, Pleasanton, CA 94566",
+        "phone": "(925) 249-6090"
+      },
+      "Project Planner": {
+        "name": "Planning Division",
+        "phone": "(925) 833-6610",
+        "email": ""
+      }
+    },
+    "location": "6861 Tassajara Road",
+    "docs": [
+      {
+        "name": "Planning Commission Staff Report – August 9, 2016",
+        "url": "http://www.dublin.ca.gov/DocumentCenter/View/14324"
+      },
+      {
+        "name": "Moller Ranch/Tassajara Hills Project Plans",
+        "url": "http://www.dublin.ca.gov/DocumentCenter/View/14346"
+      }
+    ],
+    "status": "Final Action",
+    "description": "The Applicant, Toll Brothers Inc., received Planning Commission approval on August 9, 2016, for a Site Development Review Permit for the design and construction of 370 single family detached residential dwellings and a private clubhouse. The General Plan/Specific Plan land use, Planned Development Zoning and Vesting Tentative Subdivision Map were approved by the City Council in 2012.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Moller_Ranch_Street_Scene.png",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Moller_Ranch_Street_Scene-150x150.png"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_201.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_201-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_141.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_141-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_082.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_082-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_006.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_006-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/6861_Tassajara_Rd_Moller_Ranch.png",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/6861_Tassajara_Rd_Moller_Ranch-150x150.png"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.739338,
+      "lon": -121.865494,
+      "iconName": "building",
+      "title": "Moller Ranch/Tassajara Hills"
+    }
+  },
+  "projectdetail30": {
+    "id": "projectdetail30",
+    "title": "IKEA Retail Center",
+    "details": {
+      "Planning Application #": "PLPA-2016-00016",
+      "Application Type": "Planned Development Rezoning (Stage 1 and Stage 2 Development Plan), Site Development Review, and Vesting Tentative Parcel Map",
+      "Application Submittal Date": "03/25/2016",
+      "General Plan Land Use": "General Commercial",
+      "Specific Plan Area": "Eastern Dublin Specific Plan",
+      "Zoning": "Planned Development",
+      "Project Area": "27.5 acres",
+      "Building Area": "412,099 square feet",
+      "Foor Area Ratio": ".37 FAR",
+      "Applicant": {
+        "name": "Doug Greenholz and Angele Robinson-Gaylord",
+        "address": "IKEA Property Inc., 420 Alan Wood Road, Conshohocken, PA 19428",
+        "phone": "n/a"
+      },
+      "Project Planner": {
+        "name": "Amy Million - Principal Planner",
+        "phone": "(925) 833-6610",
+        "email": "amy.million@dublin.ca.gov"
+      }
+    },
+    "location": "5144 Martinelli Way",
+    "docs": [
+      {
+        "name": "3/15/2016 City Council Staff Report",
+        "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=573637&dbid=0"
+      },
+      {
+        "name": "5/3/2016 City Council Staff Report",
+        "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=584186&dbid=0"
+      },
+      {
+        "name": "Notice of Preparation – Environmental Impact Report August 2017",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2016/05/IKEA-Retail-Center-NOP-August-2017.pdf"
+      },
+      {
+        "name": "Initial Study – Final Draft",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2016/05/IKEA-Retail-Center-IS-Final-Draft.pdf"
+      },
+      {
+        "name": "Notice of Availability IKEA Retail Center Draft SEIR",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2016/05/NOA-IKEA-DEIR-website.pdf"
+      },
+      {
+        "name": "IKEA Retail Center Draft SEIR",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2016/05/IKEA-Retail-Center-Draft-SEIR.pdf"
+      },
+      {
+        "name": "IKEA Draft SEIR Appendix A – IS-NOP-Responses IKEA Draft SEIR Appendix B – AQ-GHG Supp Info IKEA Draft SEIR Appendix C – Bio Resources Supporting Info IKEA Draft SEIR Appendix D – Hazardous Matls Supporting Info PART 1 IKEA Draft SEIR Appendix D – Hazardous Matls Supporting Info PART 2 IKEA Draft SEIR Appendix E – Noise Supporting Info IKEA Draft SEIR Appendix F – Transportation Assessment PART 1 IKEA Draft SEIR Appendix F – Transportation Assessment PART 2 IKEA Draft SEIR Appendix G – Urban Decay Study (NOTE: Correct Version Uploaded 12:38 p.m. January 31, 2018) IKEA Draft SEIR Appendix H – PSU Supp Info",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2016/05/App-A-IS-NOP-Responses-ASMBLD.pdf"
+      },
+      {
+        "name": "IKEA Retail Center Final SEIR",
+        "url": "https://dublin-development.icitywork.com/wp-content/uploads/2016/05/IKEA-Retail-Center-Final-SEIR.pdf"
+      },
+      {
+        "name": "8/21/2018 City Council Staff Report- Study Session",
+        "url": "http://www.dublin.ca.gov/ArchiveCenter/ViewFile/Item/893"
+      },
+      {
+        "name": "9/11/2018 Planning Commission Staff Report – Study Session",
+        "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1330&Inline=True"
+      },
+      {
+        "name": "9/25/2018 Planning Commission Staff Report – Public Hearing",
+        "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1334&Inline=True"
+      },
+      {
+        "name": "10/16/2018 City Council Staff Report- Public Hearing",
+        "url": "http://www.dublin.ca.gov/ArchiveCenter/ViewFile/Item/906"
+      },
+      {
+        "name": "11/8/2018 City Council Staff Report – Adjourned Public Hearing",
+        "url": "http://www.dublin.ca.gov/ArchiveCenter/ViewFile/Item/912"
+      },
+      {
+        "name": "11/20/2018 City Council Staff Report",
+        "url": "http://www.dublin.ca.gov/ArchiveCenter/ViewFile/Item/917"
+      }
+    ],
+    "status": "Final Action",
+    "description": "The City received an application from IKEA to construct a store and a commercial center on a 27.5 acre site at 5144 and 5344 Martinelli Way. The proposed project is for up to 410,000 square feet of commercial uses includes a 317,000 square foot IKEA store with integrated podium parking and a 93,000 square foot commercial center with a mix of retail and restaurant spaces. The updated site plan submitted to the City can be reviewed by clicking on the thumbnail below.",
+    "images": [
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/05/front-sheet.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/05/front-sheet-150x150.jpg"
+      },
+      {
+        "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/05/Site-Plan-2.jpg",
+        "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/05/Site-Plan-2-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.703202,
+      "lon": -121.891374,
+      "iconName": "shoppingBasket",
+      "title": "IKEA Retail Center"
+    }
+  }
+}

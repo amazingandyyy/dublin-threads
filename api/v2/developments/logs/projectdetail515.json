@@ -37,14 +37,38 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.713424,
+        "lon": -121.904164,
         "iconName": "dot",
         "title": "Boulevard (Dublin Crossing) - Phase 4/5"
       }
     },
     "projectId": "projectdetail515",
     "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail515",
+      "geolocation",
+      "lat"
+    ],
+    "val": 37.711036,
+    "oldVal": 37.713424,
+    "projectId": "projectdetail515",
+    "timestamp": "1495652949000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail515",
+      "geolocation",
+      "lon"
+    ],
+    "val": -121.905749,
+    "oldVal": -121.904164,
+    "projectId": "projectdetail515",
+    "timestamp": "1495652949000"
   },
   {
     "op": "add",
@@ -134,115 +158,89 @@
     "timestamp": "1537002007000"
   },
   {
-    "op": "delete",
+    "op": "update",
     "path": [
-      "projectdetail515"
+      "projectdetail515",
+      "title"
     ],
-    "oldVal": {
-      "id": "projectdetail515",
-      "title": "Boulevard (Dublin Crossing) - Phase 4/5",
-      "details": {
-        "Planning Application #": "PLPA-2016-00064",
-        "Application Type": "Site Development Review and Vesting Tentative Tract Map",
-        "Application Submittal Date": "12/05/2016",
-        "General Plan Land Use": "Dublin Crossing Specific Plan",
-        "Specific Plan Area": "Dublin Crossing Specific Plan",
-        "Zoning": "DCPD",
-        "Project Area": "40 acres",
-        "Applicant": {
-          "name": "Joe Guerra, Dublin Crossing LLC/Brookfield Residential",
-          "address": "500 La Gonda Way, Suite 100, Danville, CA 94526",
-          "phone": "(408) 307-7806"
-        },
-        "Project Planner": {
-          "name": "Amy Million - Principal Planner",
-          "phone": "(925) 833-6610",
-          "email": "amy.million@dublin.ca.gov"
-        }
-      },
-      "location": "Dublin Boulevard",
-      "docs": [
-        {
-          "name": "April 10, 2018 Planning Commission Staff Report",
-          "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1278&Inline=True"
-        },
-        {
-          "name": "May 8, 2018 Planning Commission Staff Report",
-          "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1287&Inline=True"
-        }
-      ],
-      "status": "Final Action",
-      "description": "Phases 4 and 5 of the Boulevard project include 510 units and landscape improvements.",
-      "images": [
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan.jpg",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan-150x150.jpg"
-        }
-      ],
-      "geolocation": {
-        "lat": null,
-        "lon": null,
-        "iconName": "dot",
-        "title": "Boulevard (Dublin Crossing) - Phase 4/5"
-      }
-    },
+    "val": "Boulevard (Dublin Crossing) – Phase 4 & 5",
+    "oldVal": "Boulevard (Dublin Crossing) - Phase 4/5",
     "projectId": "projectdetail515",
     "timestamp": "1596943340000"
   },
   {
-    "op": "add",
+    "op": "update",
     "path": [
-      "projectdetail515"
+      "projectdetail515",
+      "geolocation",
+      "iconName"
     ],
-    "val": {
-      "id": "projectdetail515",
-      "title": "Boulevard (Dublin Crossing) – Phase 4 & 5",
-      "details": {
-        "Planning Application #": "PLPA-2016-00064",
-        "Application Type": "Site Development Review Permit and Vesting Tentative Tract Map",
-        "Application Submittal Date": "12/05/2016",
-        "General Plan Land Use": "Dublin Crossing Specific Plan",
-        "Specific Plan Area": "Dublin Crossing Specific Plan",
-        "Zoning": "DCPD",
-        "Project Area": "40 acres",
-        "Applicant": {
-          "name": "Mandi Misasi, Brookfield Residential",
-          "address": "12657 Alcosta Blvd. Ste 250, San Ramon CA 94563",
-          "phone": "925-743-8000"
-        },
-        "Project Planner": {
-          "name": "Amy Million - Principal Planner",
-          "phone": "(925) 833-6610",
-          "email": "amy.million@dublin.ca.gov"
-        }
-      },
-      "location": "Dublin Boulevard",
-      "docs": [
-        {
-          "name": "April 10, 2018 Planning Commission Staff Report",
-          "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1278&Inline=True"
-        },
-        {
-          "name": "May 8, 2018 Planning Commission Staff Report",
-          "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1287&Inline=True"
-        }
-      ],
-      "status": "Final Action",
-      "description": "Phases 4 and 5 of the Boulevard project include 510 units and landscape improvements.",
-      "images": [
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan.jpg",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan-150x150.jpg"
-        }
-      ],
-      "geolocation": {
-        "lat": 37.711036,
-        "lon": -121.905749,
-        "iconName": "building",
-        "title": "Boulevard (Dublin Crossing) – Phase 4 & 5"
-      }
-    },
+    "val": "building",
+    "oldVal": "dot",
     "projectId": "projectdetail515",
-    "timestamp": "1684627200000"
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail515",
+      "geolocation",
+      "title"
+    ],
+    "val": "Boulevard (Dublin Crossing) – Phase 4 & 5",
+    "oldVal": "Boulevard (Dublin Crossing) - Phase 4/5",
+    "projectId": "projectdetail515",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail515",
+      "details",
+      "Application Type"
+    ],
+    "val": "Site Development Review Permit and Vesting Tentative Tract Map",
+    "oldVal": "Site Development Review and Vesting Tentative Tract Map",
+    "projectId": "projectdetail515",
+    "timestamp": "1656420658000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail515",
+      "details",
+      "Applicant",
+      "name"
+    ],
+    "val": "Mandi Misasi, Brookfield Residential",
+    "oldVal": "Joe Guerra, Dublin Crossing LLC/Brookfield Residential",
+    "projectId": "projectdetail515",
+    "timestamp": "1656420658000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail515",
+      "details",
+      "Applicant",
+      "address"
+    ],
+    "val": "12657 Alcosta Blvd. Ste 250, San Ramon CA 94563",
+    "oldVal": "500 La Gonda Way, Suite 100, Danville, CA 94526",
+    "projectId": "projectdetail515",
+    "timestamp": "1656420658000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail515",
+      "details",
+      "Applicant",
+      "phone"
+    ],
+    "val": "925-743-8000",
+    "oldVal": "(408) 307-7806",
+    "projectId": "projectdetail515",
+    "timestamp": "1656420658000"
   }
 ]

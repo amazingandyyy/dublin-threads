@@ -75,6 +75,84 @@
       }
     },
     "projectId": "projectdetail1075",
-    "timestamp": "1684627200000"
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1075"
+    ],
+    "oldVal": {
+      "id": "projectdetail1075",
+      "title": "Westin Hotel",
+      "details": {
+        "Planning Application #": "PLPA-2019-00006",
+        "Application Type": "TMAP, SDR, Stage 2 PD",
+        "Application Submittal Date": "02/08/2019",
+        "General Plan Land Use": "CO-Campus Office",
+        "Specific Plan Area": "CO-Campus Office",
+        "Zoning": "PD-Planned Development",
+        "Project Area": "5.88 acres",
+        "Building Area": "163,133 square feet",
+        "Stories/Height": "6 stories",
+        "Applicant": {
+          "name": "Charles Patel",
+          "address": "3657 Old Santa Rita Rd, Pleasanton, CA 94588",
+          "phone": "(650) 826-1954"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "100 Civic Plaza",
+      "docs": [
+        {
+          "name": "Planning Commission Staff Report 9-24-19",
+          "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1453&Inline=True"
+        },
+        {
+          "name": "City Council Staff Report 10-15-19",
+          "url": "https://dublin.ca.gov/ArchiveCenter/ViewFile/Item/981"
+        },
+        {
+          "name": "City Council Staff Report 11-5-19",
+          "url": "https://citydocs.dublin.ca.gov/WebLink/DocView.aspx?id=770129&cr=1"
+        }
+      ],
+      "status": "Final Action",
+      "description": "The Westin Hotel project is a proposal for a Tentative Parcel Map, Site Development Review Permit, and a Stage 2 Development Plan for a 163,133 square foot, 6-story hotel. The site consists of a 5.88-acre parcel located at the southeast corner of Campus Drive and Altamirano Avenue, adjacent to the existing East Dublin BART Station. The hotel will include a 5,254 square foot restaurant, a ballroom, 2 large meeting rooms, and 198 hotel rooms.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Westin-Hotel_Rendering.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Westin-Hotel_Rendering-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Floor-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Floor-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/North-Elevation.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/North-Elevation-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Site-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Rendering-2.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Rendering-2-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.70304,
+        "lon": -121.89506,
+        "iconName": "hotel",
+        "title": "Westin Hotel"
+      }
+    },
+    "projectId": "projectdetail1075",
+    "timestamp": "1689109200000"
   }
 ]

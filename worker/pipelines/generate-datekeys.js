@@ -1,6 +1,6 @@
-const { generateDateKeys } = require('../utils/generator');
+const { generateDateKeys } = require('../utils/generator')
 
-async function main() {
+async function main () {
   await generateDateKeys()
 }
 

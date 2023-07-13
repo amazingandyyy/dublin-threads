@@ -53,8 +53,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7060145,
+        "lon": -121.9344996,
         "iconName": "dot",
         "title": "Valero Service Station Expansion"
       }
@@ -127,8 +127,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7060145,
+        "lon": -121.9344996,
         "iconName": "dot",
         "title": "Valero Service Station Expansion"
       }

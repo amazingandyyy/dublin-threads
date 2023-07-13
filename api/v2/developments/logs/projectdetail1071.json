@@ -1,1 +1,189 @@
-[]
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1071"
+    ],
+    "val": {
+      "id": "projectdetail1071",
+      "title": "Quarry Lane Preschool",
+      "details": {
+        "Planning Application #": "PLPA-2018-00033",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "12/19/2018",
+        "General Plan Land Use": "Business Park/Industrial and Outdoor Storage",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "M-1 Light Industrial",
+        "Project Area": "2.68 acres",
+        "Building Area": "26,000 square feet",
+        "Stories/Height": "1 story / 35 feet",
+        "Parking Provided": "118 parking spaces",
+        "Applicant": {
+          "name": "Dr. Sabri Arac",
+          "address": "3750 Boulder Street, Pleasanton, CA 94506",
+          "phone": "925-876-9195"
+        },
+        "Project Planner": {
+          "name": "Robert Smith - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "robert.smith@dublin.ca.gov"
+        }
+      },
+      "location": "6085 Scarlett Drive",
+      "docs": [
+        {
+          "name": "Planning Commission Staff Report 8/27/19",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Agenda-Tuesday-August-27-2019.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "The property owner, Dr Sabri Arac, is requesting approval of a Site Development Review Permit to construct a new 26,000 square foot building to house the Quarry Lane Pre-School. The proposed facility will include 15 classrooms, activity rooms (i.e. music, library, art, and staff rooms) and related site improvements including onsite parking, frontage and landscape improvements, and a 10,000 square foot outdoor children’s play area including play structures.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-01-1.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-01-1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Exhibit-A-Plan-set-PLPA-2018-00033-combined_Page_02-1.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Exhibit-A-Plan-set-PLPA-2018-00033-combined_Page_02-1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-02.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-02-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-03.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-03-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-04.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-04-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-05.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-05-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.704302,
+        "lon": -121.903888,
+        "iconName": "graduationCap",
+        "title": "Quarry Lane Preschool"
+      }
+    },
+    "projectId": "projectdetail1071",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1071",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Planning Division",
+    "oldVal": "Robert Smith - Associate Planner",
+    "projectId": "projectdetail1071",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1071",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "planningpermits@dublin.ca.gov",
+    "oldVal": "robert.smith@dublin.ca.gov",
+    "projectId": "projectdetail1071",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1071",
+      "description"
+    ],
+    "val": "The property owner, Dr Sabri Arac, is requesting approval of a Site Development Review Permit to construct a new 26,000-square-foot building to house the Quarry Lane Pre-School. The proposed facility will include 15 classrooms, activity rooms (i.e., music, library, art and staff rooms) and related site improvements including onsite parking, frontage and landscape improvements, and a 10,000-square-foot outdoor children’s play area including play structures.",
+    "oldVal": "The property owner, Dr Sabri Arac, is requesting approval of a Site Development Review Permit to construct a new 26,000 square foot building to house the Quarry Lane Pre-School. The proposed facility will include 15 classrooms, activity rooms (i.e. music, library, art, and staff rooms) and related site improvements including onsite parking, frontage and landscape improvements, and a 10,000 square foot outdoor children’s play area including play structures.",
+    "projectId": "projectdetail1071",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1071"
+    ],
+    "oldVal": {
+      "id": "projectdetail1071",
+      "title": "Quarry Lane Preschool",
+      "details": {
+        "Planning Application #": "PLPA-2018-00033",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "12/19/2018",
+        "General Plan Land Use": "Business Park/Industrial and Outdoor Storage",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "M-1 Light Industrial",
+        "Project Area": "2.68 acres",
+        "Building Area": "26,000 square feet",
+        "Stories/Height": "1 story / 35 feet",
+        "Parking Provided": "118 parking spaces",
+        "Applicant": {
+          "name": "Dr. Sabri Arac",
+          "address": "3750 Boulder Street, Pleasanton, CA 94506",
+          "phone": "925-876-9195"
+        },
+        "Project Planner": {
+          "name": "Planning Division",
+          "phone": "(925) 833-6610",
+          "email": "planningpermits@dublin.ca.gov"
+        }
+      },
+      "location": "6085 Scarlett Drive",
+      "docs": [
+        {
+          "name": "Planning Commission Staff Report 8/27/19",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Agenda-Tuesday-August-27-2019.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "The property owner, Dr Sabri Arac, is requesting approval of a Site Development Review Permit to construct a new 26,000-square-foot building to house the Quarry Lane Pre-School. The proposed facility will include 15 classrooms, activity rooms (i.e., music, library, art and staff rooms) and related site improvements including onsite parking, frontage and landscape improvements, and a 10,000-square-foot outdoor children’s play area including play structures.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-01-1.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-01-1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Exhibit-A-Plan-set-PLPA-2018-00033-combined_Page_02-1.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Exhibit-A-Plan-set-PLPA-2018-00033-combined_Page_02-1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-02.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-02-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-03.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-03-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-04.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-04-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-05.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/01/Color-Renderings-05-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.704302,
+        "lon": -121.903888,
+        "iconName": "graduationCap",
+        "title": "Quarry Lane Preschool"
+      }
+    },
+    "projectId": "projectdetail1071",
+    "timestamp": "1662627287000"
+  }
+]

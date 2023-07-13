@@ -56,8 +56,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.700928,
+        "lon": -121.978227,
         "iconName": "dot",
         "title": "Schaefer Ranch Unit 3"
       }
@@ -99,6 +99,30 @@
     ],
     "val": "Dublin Boulevard",
     "oldVal": "9430 Dublin Canyon Road",
+    "projectId": "projectdetail150",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail150",
+      "geolocation",
+      "lat"
+    ],
+    "val": 37.704676,
+    "oldVal": 37.700928,
+    "projectId": "projectdetail150",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail150",
+      "geolocation",
+      "lon"
+    ],
+    "val": -121.983341,
+    "oldVal": -121.978227,
     "projectId": "projectdetail150",
     "timestamp": "1492908897000"
   },
@@ -181,127 +205,132 @@
     "timestamp": "1513193626000"
   },
   {
-    "op": "delete",
+    "op": "update",
     "path": [
-      "projectdetail150"
+      "projectdetail150",
+      "details",
+      "Project Planner",
+      "name"
     ],
-    "oldVal": {
-      "id": "projectdetail150",
-      "title": "Schaefer Ranch Unit 3",
-      "details": {
-        "Planning Application #": "PLPA-2012-00013",
-        "Application Type": "General Plan Amendment, Planned Development Rezone, Site Development Review, Tentative Map and CEQA Addendum",
-        "Application Submittal Date": "03/14/2012",
-        "General Plan Land Use": "Single-Family Residential and Open Space",
-        "Specific Plan Area": "None",
-        "Zoning": "PD - Planned Development",
-        "Project Area": "17.3 acres",
-        "Building Area": "2,933-3,469 square feet",
-        "Stories/Height": "2 stories / 31 feet",
-        "Applicant": {
-          "name": "Louis Parsons, Discovery Builders",
-          "address": "4061 Port Chicago Hwy, Suite H, Concord, CA 94520",
-          "phone": "(925) 682-6419"
-        },
-        "Project Planner": {
-          "name": "Martha Battaglia - Associate Planner",
-          "phone": "(925) 833-6610",
-          "email": "martha.battaglia@dublin.ca.gov"
-        }
-      },
-      "location": "Dublin Boulevard",
-      "docs": [
-        {
-          "name": "Planning Commission Staff Report October 13, 2015",
-          "url": "https://citydocs.dublin.ca.gov/weblink8/0/doc/563268/Page1.aspx"
-        },
-        {
-          "name": "City Council Staff Report June 7, 2016",
-          "url": "https://citydocs.dublin.ca.gov/weblink8/0/doc/586498/Page1.aspx"
-        }
-      ],
-      "status": "Final Action",
-      "description": "The Schaefer Unit 3 project included approval of a General Plan Amendment and Planned Development Zoning with a related Stage 1 and Stage 2 Development Plan to change the land use designation and zoning of 17.30 acres designated as Estate Residential and originally approved for 6 residential estate lots and common areas, to 7.04 acres designated as Single-Family Residential for 18 single-family detached homes and 10.26 acres designated as Open Space. This proposal results in a total of 418 homes (a net increase of 12 homes) within the Schaefer Ranch project. The application also included a Site Development Review Permit and Vesting Tentative Map for the proposed homes on the 18 lots. The project was approved by the City Council on June 21, 2016.",
-      "images": [
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SCHAEFER-RANCH-UNIT-3-SDR-2-Plan-1.jpg",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SCHAEFER-RANCH-UNIT-3-SDR-2-Plan-1-150x150.jpg"
-        },
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SCHAEFER-RANCH-UNIT-3-SDR-Street-scene.jpg",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SCHAEFER-RANCH-UNIT-3-SDR-Street-scene-150x150.jpg"
-        },
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Schaefer-Ranch-Unit-3-VTPM.jpg",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Schaefer-Ranch-Unit-3-VTPM-150x150.jpg"
-        }
-      ],
-      "geolocation": {
-        "lat": null,
-        "lon": null,
-        "iconName": "dot",
-        "title": "Schaefer Ranch Unit 3"
-      }
-    },
+    "val": "Robert Smith - Associate Planner",
+    "oldVal": "Martha Battaglia - Associate Planner",
     "projectId": "projectdetail150",
     "timestamp": "1596943340000"
   },
   {
-    "op": "add",
+    "op": "update",
     "path": [
-      "projectdetail150"
+      "projectdetail150",
+      "details",
+      "Project Planner",
+      "email"
     ],
-    "val": {
-      "id": "projectdetail150",
-      "title": "Schaefer Ranch Unit 3",
-      "details": {
-        "Planning Application #": "PLPA-2012-00013",
-        "Application Type": "General Plan Amendment, Planned Development Rezone, Site Development Review, Tentative Map and CEQA Addendum",
-        "Application Submittal Date": "03/14/2012",
-        "General Plan Land Use": "Single-Family Residential and Open Space",
-        "Specific Plan Area": "None",
-        "Zoning": "PD - Planned Development",
-        "Project Area": "17.3 acres",
-        "Building Area": "2,933-3,469 square feet",
-        "Stories/Height": "2 stories / 31 feet",
-        "Applicant": {
-          "name": "Louis Parsons, Discovery Builders",
-          "address": "4061 Port Chicago Hwy, Suite H, Concord, CA 94520",
-          "phone": "(925) 682-6419"
-        },
-        "Project Planner": {
-          "name": "Amy Million - Principal Planner",
-          "phone": "(925) 833-6610",
-          "email": "amy.million@dublin.ca.gov"
-        }
-      },
-      "location": "Dublin Boulevard",
-      "docs": [
-        {
-          "name": "Planning Commission Staff Report October 13, 2015",
-          "url": "https://citydocs.dublin.ca.gov/weblink8/0/doc/563268/Page1.aspx"
-        },
-        {
-          "name": "City Council Staff Report June 7, 2016",
-          "url": "https://citydocs.dublin.ca.gov/weblink8/0/doc/586498/Page1.aspx"
-        }
-      ],
-      "status": "Final Action",
-      "description": "The Schaefer Unit 3 project included approval of a General Plan Amendment and Planned Development Zoning with a related Stage 1 and Stage 2 Development Plan to change the land use designation and zoning of 17.30 acres designated as Estate Residential and originally approved for 6 residential estate lots and common areas, to 7.04 acres designated as Single-Family Residential for 18 single-family detached homes and 10.26 acres designated as Open Space. This proposal results in a total of 418 homes (a net increase of 12 homes) within the Schaefer Ranch project. The application also included a Site Development Review Permit and Vesting Tentative Map for the proposed homes on the 18 lots.",
-      "images": [
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Schaefer-Ranch-Unit-3-VTPM.jpg",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Schaefer-Ranch-Unit-3-VTPM-150x150.jpg"
-        }
-      ],
-      "geolocation": {
-        "lat": 37.704676,
-        "lon": -121.983341,
-        "iconName": "home",
-        "title": "Schaefer Ranch Unit 3"
-      }
+    "val": "robert.smith@dublin.ca.gov",
+    "oldVal": "martha.battaglia@dublin.ca.gov",
+    "projectId": "projectdetail150",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail150",
+      "geolocation",
+      "iconName"
+    ],
+    "val": "home",
+    "oldVal": "dot",
+    "projectId": "projectdetail150",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail150",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Amy Million - Principal Planner",
+    "oldVal": "Robert Smith - Associate Planner",
+    "projectId": "projectdetail150",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail150",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "amy.million@dublin.ca.gov",
+    "oldVal": "robert.smith@dublin.ca.gov",
+    "projectId": "projectdetail150",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail150",
+      "description"
+    ],
+    "val": "The Schaefer Unit 3 project included approval of a General Plan Amendment and Planned Development Zoning with a related Stage 1 and Stage 2 Development Plan to change the land use designation and zoning of 17.30 acres designated as Estate Residential and originally approved for 6 residential estate lots and common areas, to 7.04 acres designated as Single-Family Residential for 18 single-family detached homes and 10.26 acres designated as Open Space. This proposal results in a total of 418 homes (a net increase of 12 homes) within the Schaefer Ranch project. The application also included a Site Development Review Permit and Vesting Tentative Map for the proposed homes on the 18 lots.",
+    "oldVal": "The Schaefer Unit 3 project included approval of a General Plan Amendment and Planned Development Zoning with a related Stage 1 and Stage 2 Development Plan to change the land use designation and zoning of 17.30 acres designated as Estate Residential and originally approved for 6 residential estate lots and common areas, to 7.04 acres designated as Single-Family Residential for 18 single-family detached homes and 10.26 acres designated as Open Space. This proposal results in a total of 418 homes (a net increase of 12 homes) within the Schaefer Ranch project. The application also included a Site Development Review Permit and Vesting Tentative Map for the proposed homes on the 18 lots. The project was approved by the City Council on June 21, 2016.",
+    "projectId": "projectdetail150",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail150",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Schaefer-Ranch-Unit-3-VTPM.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SCHAEFER-RANCH-UNIT-3-SDR-2-Plan-1.jpg",
+    "projectId": "projectdetail150",
+    "timestamp": "1656420658000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail150",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Schaefer-Ranch-Unit-3-VTPM-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SCHAEFER-RANCH-UNIT-3-SDR-2-Plan-1-150x150.jpg",
+    "projectId": "projectdetail150",
+    "timestamp": "1656420658000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail150",
+      "images",
+      1
+    ],
+    "oldVal": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SCHAEFER-RANCH-UNIT-3-SDR-Street-scene.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SCHAEFER-RANCH-UNIT-3-SDR-Street-scene-150x150.jpg"
     },
     "projectId": "projectdetail150",
-    "timestamp": "1684627200000"
+    "timestamp": "1656420658000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail150",
+      "images",
+      2
+    ],
+    "oldVal": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Schaefer-Ranch-Unit-3-VTPM.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Schaefer-Ranch-Unit-3-VTPM-150x150.jpg"
+    },
+    "projectId": "projectdetail150",
+    "timestamp": "1656420658000"
   }
 ]

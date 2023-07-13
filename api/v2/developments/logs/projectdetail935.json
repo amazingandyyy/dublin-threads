@@ -45,8 +45,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.70238,
+        "lon": -121.84776,
         "iconName": "dot",
         "title": "Grand View Project"
       }
@@ -81,6 +81,57 @@
     "timestamp": "1537002007000"
   },
   {
+    "op": "update",
+    "path": [
+      "projectdetail935",
+      "details",
+      "Applicant",
+      "name"
+    ],
+    "val": "Jessica Zhang, GH PacVest, LLC",
+    "oldVal": "Yang Zhang, GH PacVest, LLC",
+    "projectId": "projectdetail935",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail935",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Planning Division",
+    "oldVal": "Mandy Kang - Senior Planner",
+    "projectId": "projectdetail935",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail935",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "",
+    "oldVal": "mandy.kang@dublin.ca.gov",
+    "projectId": "projectdetail935",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail935",
+      "geolocation",
+      "iconName"
+    ],
+    "val": "shoppingCart",
+    "oldVal": "dot",
+    "projectId": "projectdetail935",
+    "timestamp": "1596943340000"
+  },
+  {
     "op": "delete",
     "path": [
       "projectdetail935"
@@ -97,14 +148,14 @@
         "Zoning": "Planned Development",
         "Project Area": "122 acres",
         "Applicant": {
-          "name": "Yang Zhang, GH PacVest, LLC",
+          "name": "Jessica Zhang, GH PacVest, LLC",
           "address": "3000 Executive Pkwy, #375, San Ramon, CA 94583",
           "phone": "(925) 997-6812"
         },
         "Project Planner": {
-          "name": "Mandy Kang - Senior Planner",
+          "name": "Planning Division",
           "phone": "(925) 833-6610",
-          "email": "mandy.kang@dublin.ca.gov"
+          "email": ""
         }
       },
       "location": "Fallon Road",
@@ -126,13 +177,13 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
-        "iconName": "dot",
+        "lat": 37.70238,
+        "lon": -121.84776,
+        "iconName": "shoppingCart",
         "title": "Grand View Project"
       }
     },
     "projectId": "projectdetail935",
-    "timestamp": "1596943340000"
+    "timestamp": "1618802901000"
   }
 ]

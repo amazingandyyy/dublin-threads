@@ -49,8 +49,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.733663,
+        "lon": -121.87398,
         "iconName": "dot",
         "title": "Wallis Ranch Neighborhood 5 (Trestle)"
       }
@@ -251,8 +251,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.733663,
+        "lon": -121.87398,
         "iconName": "dot",
         "title": "Wallis Ranch Neighborhood 5 (Trestle)"
       }

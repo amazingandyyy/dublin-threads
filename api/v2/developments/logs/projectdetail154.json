@@ -45,8 +45,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7123947,
+        "lon": -121.845873,
         "iconName": "dot",
         "title": "Jordan Ranch Neighborhood 4 (Trio)"
       }
@@ -171,8 +171,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7123947,
+        "lon": -121.845873,
         "iconName": "dot",
         "title": "Jordan Ranch Neighborhood 4 (Trio)"
       }

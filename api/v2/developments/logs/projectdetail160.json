@@ -63,8 +63,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7087662,
+        "lon": -121.853924,
         "iconName": "dot",
         "title": "Irongate (Subarea 3)"
       }
@@ -411,8 +411,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7087662,
+        "lon": -121.853924,
         "iconName": "dot",
         "title": "Irongate"
       }

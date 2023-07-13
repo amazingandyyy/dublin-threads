@@ -60,8 +60,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.707411,
+        "lon": -121.89199,
         "iconName": "dot",
         "title": "Zeiss Innovation Center"
       }
@@ -429,6 +429,44 @@
     "timestamp": "1513193626000"
   },
   {
+    "op": "update",
+    "path": [
+      "projectdetail465",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Robert Smith - Associate Planner",
+    "oldVal": "Martha Battaglia - Associate Planner",
+    "projectId": "projectdetail465",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail465",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "robert.smith@dublin.ca.gov",
+    "oldVal": "martha.battaglia@dublin.ca.gov",
+    "projectId": "projectdetail465",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail465",
+      "geolocation",
+      "iconName"
+    ],
+    "val": "building",
+    "oldVal": "dot",
+    "projectId": "projectdetail465",
+    "timestamp": "1596943340000"
+  },
+  {
     "op": "delete",
     "path": [
       "projectdetail465"
@@ -453,9 +491,9 @@
           "phone": "(925) 557-4362"
         },
         "Project Planner": {
-          "name": "Martha Battaglia - Associate Planner",
+          "name": "Robert Smith - Associate Planner",
           "phone": "(925) 833-6610",
-          "email": "martha.battaglia@dublin.ca.gov"
+          "email": "robert.smith@dublin.ca.gov"
         }
       },
       "location": "Dublin Boulevard",
@@ -530,13 +568,13 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
-        "iconName": "dot",
+        "lat": 37.707411,
+        "lon": -121.89199,
+        "iconName": "building",
         "title": "Zeiss Innovation Center"
       }
     },
     "projectId": "projectdetail465",
-    "timestamp": "1596943340000"
+    "timestamp": "1632816331000"
   }
 ]

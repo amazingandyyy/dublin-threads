@@ -44,8 +44,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7024496,
+        "lon": -121.8773923,
         "iconName": "dot",
         "title": "Dublin Cadillac Dealership"
       }
@@ -98,8 +98,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7024496,
+        "lon": -121.8773923,
         "iconName": "dot",
         "title": "Dublin Cadillac Dealership"
       }

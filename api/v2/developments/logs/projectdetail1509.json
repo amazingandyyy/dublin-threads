@@ -8,48 +8,44 @@
       "id": "projectdetail1509",
       "title": "Hacienda Crossings Drive-Through Restaurant (Chick-fil-A)",
       "details": {
-        "Planning Application #": "PLPA-2022-00024",
+        "Planning Application #": "PLPA-2021-00032",
         "Application Type": "Site Development Review Permit",
-        "Application Submittal Date": "07/05/2021",
+        "Application Submittal Date": "07/27/2021",
         "General Plan Land Use": "General Commercial",
         "Specific Plan Area": "Eastern Dublin Specific Plan",
-        "Zoning": "Planned Development (Reso. 06-95)",
+        "Zoning": "Planned Development (Res. 06-95)",
         "Project Area": "1.03 acres",
-        "Building Area": "2,781 square feet",
-        "Foor Area Ratio": "0.62 FAR",
+        "Building Area": "4,784 square feet",
+        "Foor Area Ratio": "1.06 FAR",
         "Stories/Height": "1 story / 21 feet",
-        "Parking Provided": "30 parking spaces",
+        "Parking Provided": "33 parking spaces",
         "Applicant": {
           "name": "Ed Hale, 4G Development &amp; Consulting, Inc.",
           "address": "2153 Oak Hill Road, Escondido, CA 92027",
           "phone": "(760) 884-7011"
         },
         "Project Planner": {
-          "name": "Gaspare Annibale - Associate Planner",
+          "name": "Michael P. Cass - Principal Planner",
           "phone": "(925) 833-6610",
-          "email": "gaspare.annibale@dublin.ca.gov"
+          "email": "michael.cass@dublin.ca.gov"
         }
       },
       "location": "4814 Dublin Boulevard",
       "docs": [],
-      "status": "Application Under Review",
-      "description": "Demolition of an existing building and construction of a new 2,781-square-foot drive-through restaurant, new trash enclosure, parking, and related site improvements.",
+      "status": "Pre-Application",
+      "description": "Demolition of an existing building and construction of a new 4,784-square-foot drive-through restaurant building, trash enclosure, parking, and site improvements.",
       "images": [
         {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Rendering.png",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Rendering-150x150.png"
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Plans-01102022_Page_3-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Plans-01102022_Page_3-150x150.jpg"
         },
         {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/SP.png",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/SP-150x150.png"
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Plans-01102022_Page_2-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Plans-01102022_Page_2-150x150.jpg"
         },
         {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape.png",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape-150x150.png"
-        },
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations-3.png",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations-3-150x150.png"
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-3.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-3-150x150.png"
         }
       ],
       "geolocation": {
@@ -60,6 +56,306 @@
       }
     },
     "projectId": "projectdetail1509",
-    "timestamp": "1684627200000"
+    "timestamp": "1656420658000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1509",
+      "details",
+      "Planning Application #"
+    ],
+    "val": "PLPA-2022-00024",
+    "oldVal": "PLPA-2021-00032",
+    "projectId": "projectdetail1509",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1509",
+      "details",
+      "Building Area"
+    ],
+    "val": "2,781 square feet",
+    "oldVal": "4,784 square feet",
+    "projectId": "projectdetail1509",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1509",
+      "details",
+      "Foor Area Ratio"
+    ],
+    "val": "0.61 FAR",
+    "oldVal": "1.06 FAR",
+    "projectId": "projectdetail1509",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1509",
+      "details",
+      "Parking Provided"
+    ],
+    "val": "30 parking spaces",
+    "oldVal": "33 parking spaces",
+    "projectId": "projectdetail1509",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1509",
+      "status"
+    ],
+    "val": "Planning Application Submitted",
+    "oldVal": "Pre-Application",
+    "projectId": "projectdetail1509",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1509",
+      "description"
+    ],
+    "val": "Demolition of an existing building and construction of a new 2,781-square-foot drive-through restaurant building, trash enclosure, parking, and site improvements.",
+    "oldVal": "Demolition of an existing building and construction of a new 4,784-square-foot drive-through restaurant building, trash enclosure, parking, and site improvements.",
+    "projectId": "projectdetail1509",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1509",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-5.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Plans-01102022_Page_3-scaled.jpg",
+    "projectId": "projectdetail1509",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1509",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-5-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Plans-01102022_Page_3-150x150.jpg",
+    "projectId": "projectdetail1509",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1509",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-6.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Plans-01102022_Page_2-scaled.jpg",
+    "projectId": "projectdetail1509",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1509",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-6-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Plans-01102022_Page_2-150x150.jpg",
+    "projectId": "projectdetail1509",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1509",
+      "images",
+      2
+    ],
+    "oldVal": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-3.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-3-150x150.png"
+    },
+    "projectId": "projectdetail1509",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1509",
+      "details",
+      "Application Submittal Date"
+    ],
+    "val": "07/05/2021",
+    "oldVal": "07/27/2021",
+    "projectId": "projectdetail1509",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1509",
+      "details",
+      "Zoning"
+    ],
+    "val": "Planned Development (Reso. 06-95)",
+    "oldVal": "Planned Development (Res. 06-95)",
+    "projectId": "projectdetail1509",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1509",
+      "details",
+      "Foor Area Ratio"
+    ],
+    "val": "0.62 FAR",
+    "oldVal": "0.61 FAR",
+    "projectId": "projectdetail1509",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1509",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Gaspare Annibale - Associate Planner",
+    "oldVal": "Michael P. Cass - Principal Planner",
+    "projectId": "projectdetail1509",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1509",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "gaspare.annibale@dublin.ca.gov",
+    "oldVal": "michael.cass@dublin.ca.gov",
+    "projectId": "projectdetail1509",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1509",
+      "status"
+    ],
+    "val": "Application Under Review",
+    "oldVal": "Planning Application Submitted",
+    "projectId": "projectdetail1509",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1509",
+      "description"
+    ],
+    "val": "Demolition of an existing building and construction of a new 2,781-square-foot drive-through restaurant, new trash enclosure, parking, and related site improvements.",
+    "oldVal": "Demolition of an existing building and construction of a new 2,781-square-foot drive-through restaurant building, trash enclosure, parking, and site improvements.",
+    "projectId": "projectdetail1509",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1509",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Rendering.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-5.png",
+    "projectId": "projectdetail1509",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1509",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Rendering-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-5-150x150.png",
+    "projectId": "projectdetail1509",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1509",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/SP.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-6.png",
+    "projectId": "projectdetail1509",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1509",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/SP-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-6-150x150.png",
+    "projectId": "projectdetail1509",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1509",
+      "images",
+      2
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape-150x150.png"
+    },
+    "projectId": "projectdetail1509",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1509",
+      "images",
+      3
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations-3.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations-3-150x150.png"
+    },
+    "projectId": "projectdetail1509",
+    "timestamp": "1679857046000"
   }
 ]

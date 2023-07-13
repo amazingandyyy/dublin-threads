@@ -49,8 +49,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7105462,
+        "lon": -121.8635268,
         "iconName": "dot",
         "title": "Grafton Plaza – Aloft Hotel"
       }
@@ -156,6 +156,30 @@
     ],
     "val": "The land use designation for the Grafton Plaza project site allows office uses or a combination of residential, retail commercial and office uses. The Applicant has chosen to proceed with an integrated mixed use project. The mixed use project consists of 115 residential townhomes, 127 room hotel, and up to 55,000 square feet of future retail commercial.",
     "oldVal": "The Grafton Plaza project site has a General Plan/Eastern Dublin Specific Plan land use designation of Mixed Use 2/Campus Office and related Planned Development Zoning. This zoning allows office uses or a combination of residential, retail commercial and office uses.",
+    "projectId": "projectdetail111",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail111",
+      "geolocation",
+      "lat"
+    ],
+    "val": 37.703462,
+    "oldVal": 37.7105462,
+    "projectId": "projectdetail111",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail111",
+      "geolocation",
+      "lon"
+    ],
+    "val": -121.865191,
+    "oldVal": -121.8635268,
     "projectId": "projectdetail111",
     "timestamp": "1492908897000"
   },
@@ -312,8 +336,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.703462,
+        "lon": -121.865191,
         "iconName": "dot",
         "title": "Grafton Plaza - Aloft Hotel"
       }

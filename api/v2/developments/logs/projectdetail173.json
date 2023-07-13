@@ -48,8 +48,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7265718,
+        "lon": -121.871117,
         "iconName": "dot",
         "title": "Wanmei Properties, Inc."
       }
@@ -338,8 +338,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7265718,
+        "lon": -121.871117,
         "iconName": "dot",
         "title": "Wanmei Properties, Inc."
       }

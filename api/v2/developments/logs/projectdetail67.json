@@ -47,8 +47,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7351979,
+        "lon": -121.868785,
         "iconName": "dot",
         "title": "Tassajara Highlands"
       }
@@ -217,8 +217,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7351979,
+        "lon": -121.868785,
         "iconName": "dot",
         "title": "Enclave at Tassajara Highlands"
       }

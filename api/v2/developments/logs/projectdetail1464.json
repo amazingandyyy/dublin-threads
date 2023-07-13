@@ -6,24 +6,24 @@
     ],
     "val": {
       "id": "projectdetail1464",
-      "title": "The Dublin Center “The DC”",
+      "title": "SCS Dublin",
       "details": {
-        "Planning Application #": "PLPA-2023-00003",
-        "Application Type": "Pre-Application",
-        "Application Submittal Date": "02/07/2023",
-        "General Plan Land Use": "General Commercial, Public/Semi-Public, Medium Density Residential, Medium-High Density Residential and Public/Park Recreation",
+        "Planning Application #": "PLPA-2022-00005",
+        "Application Type": "General Plan and Eastern Dublin Specific Plan Amendment, Planned Development with Related Stage 1 and Stage 2 Development Plan and Development Agreement",
+        "Application Submittal Date": "03/01/2022",
+        "General Plan Land Use": "General Commercial, Public/Semi-Public, Medium Density Residential, High-Density Residential",
         "Specific Plan Area": "Eastern Dublin Specific Plan",
-        "Zoning": "Planned Development Ordinance No. 14-22",
-        "Project Area": "54.4 acres",
+        "Zoning": "Planned Development",
+        "Project Area": "76.9 acres",
         "Applicant": {
-          "name": "Mark Chamberlain, Landsea Homes",
-          "address": "3130 Crow Canyon Place, Ste. 325, San Ramon, CA 94583",
-          "phone": "415-306-1548"
+          "name": "SCS Development Co.",
+          "address": "404 Saratoga Ave, Ste. 100, Santa Clara, CA 95050",
+          "phone": "408-985-6000"
         },
         "Project Planner": {
-          "name": "Linda Ajello - Senior Planner",
+          "name": "Amy Million - Principal Planner",
           "phone": "(925) 833-6610",
-          "email": "linda.ajello@dublin.ca.gov"
+          "email": "amy.million@dublin.ca.gov"
         }
       },
       "location": "Tassajara Road",
@@ -31,58 +31,10 @@
         {
           "name": "SCS Dublin Notice of Preparation of Environmental Impact Report",
           "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin_NOP.pdf"
-        },
-        {
-          "name": "SCS Dublin Notice of Availability of Environmental Impact Report",
-          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin-NOA.pdf"
-        },
-        {
-          "name": "SCS_Dublin_Public_Review_Draft_Environmental Impact Report_July_2022",
-          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS_Dublin_Public_Review_Draft_EIR_July_2022.pdf"
-        },
-        {
-          "name": "Appendix_A_NOP_and_Comment_Letters Appendix_B_Air_Quality_and_Greenhouse_Gas Emissions_Analysis_Technical_Data Appendix_C-1_Biological_Resources_Assessment_5-22 Appendix_C-2_Rare_Plant_Survey_Report Appendix_C-3_Wetland_Delineation_Report Appendix_D_Geotechnical_Report Appendix_E_Phase_I_ESA Appendix_F_Noise_Analysis_Technical_Data Appendix_G_Draft Water_Supply_Assessment Appendix_H_Energy__Technical_Data",
-          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/07/Appendix_A_NOP_and_Comment_Letters.pdf"
-        },
-        {
-          "name": "Final Environmental Impact Report October 2022",
-          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS_Dublin_Public_Review_Final_EIR.pdf"
-        },
-        {
-          "name": "Appendix G Final (Corrected) Water Supply Assessment",
-          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Appendix-G-Corrected-Final-WSA.pdf"
-        },
-        {
-          "name": "Final Local Transportation Analysis October 2022",
-          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin_02_Draft-Final-LTA.pdf"
-        },
-        {
-          "name": "Community Meeting Presentation September 14 & 15, 2022",
-          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin-Community-Meeting-Presentation.pdf"
-        },
-        {
-          "name": "Planning Commission Study Session September 27, 2022",
-          "url": "https://legistarweb-production.s3.amazonaws.com/uploads/attachment/pdf/1571507/Staff_Report_SCS_updated.pdf"
-        },
-        {
-          "name": "Planning Commission Agenda & Staff Report October 25, 2022",
-          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/cd324969eedd092acb6625b12d7ff8ef0.pdf"
-        },
-        {
-          "name": "City Council Agenda & Staff Report November 15, 2022",
-          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/692004437b8559e83f956aa08926e3770.pdf"
-        },
-        {
-          "name": "City Council Agenda & Staff Report December 6, 2022",
-          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/d224d5ac38cb1ee4831f8f8d9f6f6dfc0.pdf"
-        },
-        {
-          "name": "City Council Agenda & Staff Report March 22, 2023",
-          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/a6b6cf277a70e4720554a2cf4ae77bc30.pdf"
         }
       ],
-      "status": "Pre-Application",
-      "description": "The Applicant has submitted a Pre-Application for a Site Development Review Permit and Tentative Parcel Map(s) to develop 54-acres of the SCS Dublin site (north of Dublin Boulevard).",
+      "status": "Application Under Review",
+      "description": "A mixed-use project on the SCS Property consisting of up to 265,000 square feet of commercial uses and 650 residential units. The proposed project is based on the Preferred Plan approved by City Council on February 15, 2022 which includes two types of retail experiences. The first is a more neighborhood main street experience along an extended Finnan Way. The second is envisioned to be a more regional retail experience, focused on entertainment uses, south of Dublin Boulevard. The project application includes a General Plan/Eastern Dublin Specific Plan Amendment, Planned Development with Stage 1 and Stage 2 Development Plans and Development Agreement.",
       "images": [
         {
           "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Site-Plan-scaled.jpg",
@@ -101,10 +53,434 @@
         "lat": 37.7080747,
         "lon": -121.8699708,
         "iconName": "dot",
-        "title": "The Dublin Center “The DC”"
+        "title": "SCS Dublin"
       }
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1684627200000"
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      1
+    ],
+    "val": {
+      "name": "SCS Dublin Notice of Availability of Environmental Impact Report",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin-NOA.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      2
+    ],
+    "val": {
+      "name": "SCS_Dublin_Public_Review_Draft_Environmental Impact Report_July_2022",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS_Dublin_Public_Review_Draft_EIR_July_2022.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      3
+    ],
+    "val": {
+      "name": "Appendix_A_NOP_and_Comment_Letters Appendix_B_Air_Quality_and_Greenhouse_Gas Emissions_Analysis_Technical_Data Appendix_C-1_Biological_Resources_Assessment_5-22 Appendix_C-2_Rare_Plant_Survey_Report Appendix_C-3_Wetland_Delineation_Report Appendix_D_Geotechnical_Report Appendix_E_Phase_I_ESA Appendix_F_Noise_Analysis_Technical_Data Appendix_G_Draft Water_Supply_Analysis Appendix_H_Energy__Technical_Data",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/07/Appendix_A_NOP_and_Comment_Letters.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      4
+    ],
+    "val": {
+      "name": "Community Meeting Presentation September 14 & 15, 2022",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin-Community-Meeting-Presentation.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1664716746000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      3,
+      "name"
+    ],
+    "val": "Appendix_A_NOP_and_Comment_Letters Appendix_B_Air_Quality_and_Greenhouse_Gas Emissions_Analysis_Technical_Data Appendix_C-1_Biological_Resources_Assessment_5-22 Appendix_C-2_Rare_Plant_Survey_Report Appendix_C-3_Wetland_Delineation_Report Appendix_D_Geotechnical_Report Appendix_E_Phase_I_ESA Appendix_F_Noise_Analysis_Technical_Data Appendix_G_Draft Water_Supply_Assessment Appendix_H_Energy__Technical_Data",
+    "oldVal": "Appendix_A_NOP_and_Comment_Letters Appendix_B_Air_Quality_and_Greenhouse_Gas Emissions_Analysis_Technical_Data Appendix_C-1_Biological_Resources_Assessment_5-22 Appendix_C-2_Rare_Plant_Survey_Report Appendix_C-3_Wetland_Delineation_Report Appendix_D_Geotechnical_Report Appendix_E_Phase_I_ESA Appendix_F_Noise_Analysis_Technical_Data Appendix_G_Draft Water_Supply_Analysis Appendix_H_Energy__Technical_Data",
+    "projectId": "projectdetail1464",
+    "timestamp": "1666455913000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      4,
+      "name"
+    ],
+    "val": "Final Environmental Impact Report October 2022",
+    "oldVal": "Community Meeting Presentation September 14 & 15, 2022",
+    "projectId": "projectdetail1464",
+    "timestamp": "1666455913000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      4,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS_Dublin_Public_Review_Final_EIR_10-14-22.pdf",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin-Community-Meeting-Presentation.pdf",
+    "projectId": "projectdetail1464",
+    "timestamp": "1666455913000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      5
+    ],
+    "val": {
+      "name": "Appendix G Final (Corrected) Water Supply Assessment",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Appendix-G-Corrected-Final-WSA.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1666455913000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      6
+    ],
+    "val": {
+      "name": "Final Local Transportation Analysis October 2022",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin_02_Draft-Final-LTA.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1666455913000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      7
+    ],
+    "val": {
+      "name": "Community Meeting Presentation September 14 & 15, 2022",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin-Community-Meeting-Presentation.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1666455913000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      8
+    ],
+    "val": {
+      "name": "Planning Commission Study Session September 27, 2022",
+      "url": "https://legistarweb-production.s3.amazonaws.com/uploads/attachment/pdf/1571507/Staff_Report_SCS_updated.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1666455913000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      9
+    ],
+    "val": {
+      "name": "Planning Commission Agenda & Staff Report October 25, 2022",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/cd324969eedd092acb6625b12d7ff8ef0.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1666455913000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "status"
+    ],
+    "val": "Pubic Hearing",
+    "oldVal": "Application Under Review",
+    "projectId": "projectdetail1464",
+    "timestamp": "1666455913000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      4,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS_Dublin_Public_Review_Final_EIR.pdf",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS_Dublin_Public_Review_Final_EIR_10-14-22.pdf",
+    "projectId": "projectdetail1464",
+    "timestamp": "1669687718000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      10
+    ],
+    "val": {
+      "name": "City Council Agenda & Staff Report November 15, 2022",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/692004437b8559e83f956aa08926e3770.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1669687718000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "status"
+    ],
+    "val": "Final Action",
+    "oldVal": "Pubic Hearing",
+    "projectId": "projectdetail1464",
+    "timestamp": "1675188073000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "title"
+    ],
+    "val": "The Dublin Center “The DC”",
+    "oldVal": "SCS Dublin",
+    "projectId": "projectdetail1464",
+    "timestamp": "1677358639000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Planning Application #"
+    ],
+    "val": "PLPA-2023-00003",
+    "oldVal": "PLPA-2022-00005",
+    "projectId": "projectdetail1464",
+    "timestamp": "1677358639000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Application Type"
+    ],
+    "val": "Pre-Application",
+    "oldVal": "General Plan and Eastern Dublin Specific Plan Amendment, Planned Development with Related Stage 1 and Stage 2 Development Plan and Development Agreement",
+    "projectId": "projectdetail1464",
+    "timestamp": "1677358639000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Application Submittal Date"
+    ],
+    "val": "02/07/2023",
+    "oldVal": "03/01/2022",
+    "projectId": "projectdetail1464",
+    "timestamp": "1677358639000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "General Plan Land Use"
+    ],
+    "val": "General Commercial, Public/Semi-Public, Medium Density Residential, Medium-High Density Residential and Public/Park Recreation",
+    "oldVal": "General Commercial, Public/Semi-Public, Medium Density Residential, High-Density Residential",
+    "projectId": "projectdetail1464",
+    "timestamp": "1677358639000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Zoning"
+    ],
+    "val": "Planned Development Ordinance No. 14-22",
+    "oldVal": "Planned Development",
+    "projectId": "projectdetail1464",
+    "timestamp": "1677358639000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Project Area"
+    ],
+    "val": "54.4 acres",
+    "oldVal": "76.9 acres",
+    "projectId": "projectdetail1464",
+    "timestamp": "1677358639000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Applicant",
+      "name"
+    ],
+    "val": "Mark Chamberlain, Landsea Homes",
+    "oldVal": "SCS Development Co.",
+    "projectId": "projectdetail1464",
+    "timestamp": "1677358639000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Applicant",
+      "address"
+    ],
+    "val": "3130 Crow Canyon Place, Ste. 325, San Ramon, CA 94583",
+    "oldVal": "404 Saratoga Ave, Ste. 100, Santa Clara, CA 95050",
+    "projectId": "projectdetail1464",
+    "timestamp": "1677358639000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Applicant",
+      "phone"
+    ],
+    "val": "415-306-1548",
+    "oldVal": "408-985-6000",
+    "projectId": "projectdetail1464",
+    "timestamp": "1677358639000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      11
+    ],
+    "val": {
+      "name": "City Council Agenda & Staff Report December 6, 2022",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/d224d5ac38cb1ee4831f8f8d9f6f6dfc0.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1677358639000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "status"
+    ],
+    "val": "Pre-Application",
+    "oldVal": "Final Action",
+    "projectId": "projectdetail1464",
+    "timestamp": "1677358639000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "description"
+    ],
+    "val": "The Applicant has submitted a Pre-Application for a Site Development Review Permit and Tentative Parcel Map(s) to develop 54-acres of the SCS Dublin site (north of Dublin Boulevard).",
+    "oldVal": "A mixed-use project on the SCS Property consisting of up to 265,000 square feet of commercial uses and 650 residential units. The proposed project is based on the Preferred Plan approved by City Council on February 15, 2022 which includes two types of retail experiences. The first is a more neighborhood main street experience along an extended Finnan Way. The second is envisioned to be a more regional retail experience, focused on entertainment uses, south of Dublin Boulevard. The project application includes a General Plan/Eastern Dublin Specific Plan Amendment, Planned Development with Stage 1 and Stage 2 Development Plans and Development Agreement.",
+    "projectId": "projectdetail1464",
+    "timestamp": "1677358639000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "geolocation",
+      "title"
+    ],
+    "val": "The Dublin Center “The DC”",
+    "oldVal": "SCS Dublin",
+    "projectId": "projectdetail1464",
+    "timestamp": "1677358639000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Linda Ajello - Senior Planner",
+    "oldVal": "Amy Million - Principal Planner",
+    "projectId": "projectdetail1464",
+    "timestamp": "1684710307000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "linda.ajello@dublin.ca.gov",
+    "oldVal": "amy.million@dublin.ca.gov",
+    "projectId": "projectdetail1464",
+    "timestamp": "1684710307000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      12
+    ],
+    "val": {
+      "name": "City Council Agenda & Staff Report March 22, 2023",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/a6b6cf277a70e4720554a2cf4ae77bc30.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1684710307000"
   }
 ]

@@ -45,8 +45,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7123947,
+        "lon": -121.845873,
         "iconName": "dot",
         "title": "Jordan Ranch – Neighborhood 3 (Capri)"
       }
@@ -183,8 +183,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7123947,
+        "lon": -121.845873,
         "iconName": "dot",
         "title": "Jordan Ranch - Neighborhood 3 (Capri)"
       }

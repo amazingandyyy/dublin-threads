@@ -41,8 +41,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7105908,
+        "lon": -121.8634079,
         "iconName": "dot",
         "title": "Grafton Plaza – Commercial"
       }
@@ -123,6 +123,30 @@
       "name": "City Council Staff Report, Item 4.12 4/19/16",
       "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=582019&dbid=0"
     },
+    "projectId": "projectdetail321",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail321",
+      "geolocation",
+      "lat"
+    ],
+    "val": 37.704633,
+    "oldVal": 37.7105908,
+    "projectId": "projectdetail321",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail321",
+      "geolocation",
+      "lon"
+    ],
+    "val": -121.865048,
+    "oldVal": -121.8634079,
     "projectId": "projectdetail321",
     "timestamp": "1492908897000"
   },
@@ -241,8 +265,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.704633,
+        "lon": -121.865048,
         "iconName": "dot",
         "title": "Grafton Plaza - Commercial"
       }

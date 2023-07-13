@@ -45,8 +45,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7097901,
+        "lon": -121.8676244,
         "iconName": "dot",
         "title": "Jordan Ranch – Parcel H"
       }
@@ -264,6 +264,30 @@
     "path": [
       "projectdetail174",
       "geolocation",
+      "lat"
+    ],
+    "val": 37.71084,
+    "oldVal": 37.7097901,
+    "projectId": "projectdetail174",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail174",
+      "geolocation",
+      "lon"
+    ],
+    "val": -121.851546,
+    "oldVal": -121.8676244,
+    "projectId": "projectdetail174",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail174",
+      "geolocation",
       "title"
     ],
     "val": "Jordan Ranch - Parcel H",
@@ -368,8 +392,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.71084,
+        "lon": -121.851546,
         "iconName": "dot",
         "title": "Jordan Ranch - Parcel H"
       }

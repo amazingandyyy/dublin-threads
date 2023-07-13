@@ -52,8 +52,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7011193,
+        "lon": -121.9306746,
         "iconName": "dot",
         "title": "Saint Patrick Way SDR"
       }
@@ -62,123 +62,160 @@
     "timestamp": "1513193626000"
   },
   {
-    "op": "delete",
+    "op": "update",
     "path": [
-      "projectdetail572"
+      "projectdetail572",
+      "geolocation",
+      "iconName"
     ],
-    "oldVal": {
-      "id": "projectdetail572",
-      "title": "Saint Patrick Way SDR",
-      "details": {
-        "Planning Application #": "PLPA-2017-00069",
-        "Application Type": "Site Development Review and Vesting Tentative Map",
-        "Application Submittal Date": "12/21/2017",
-        "General Plan Land Use": "Downtown Dublin - Transit Oriented District",
-        "Specific Plan Area": "Downtown Dublin Specific Plan",
-        "Zoning": "Downtown Dublin Zoning District - DDZD",
-        "Project Area": "8.53 acres",
-        "Stories/Height": "5 stories / 57 feet",
-        "Parking Provided": "781 parking spaces",
-        "Applicant": {
-          "name": "Eric Morley, The Morley Bros. / Bayview Development Group",
-          "address": "405 Alberto Way #3, Los Gatos, CA 95032",
-          "phone": "408-497-9722"
-        },
-        "Project Planner": {
-          "name": "Amy Million - Principal Planner",
-          "phone": "(925) 833-6610",
-          "email": "amy.million@dublin.ca.gov"
-        }
-      },
-      "location": "6700 Golden Gate Drive",
-      "docs": [
-        {
-          "name": "March 27, 2018 Planning Commission Staff Report",
-          "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1270&Inline=True"
-        },
-        {
-          "name": "May 1, 2018 City Council Staff Report",
-          "url": "http://www.dublin.ca.gov/ArchiveCenter/ViewFile/Item/856"
-        }
-      ],
-      "status": "Final Action",
-      "description": "Site Development Review to demolish an existing 200,000 square foot warehouse and construct a 499 unit residential apartment complex.",
-      "images": [
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Single-Image_Page_1.jpg",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Single-Image_Page_1-150x150.jpg"
-        },
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Site-Plan.jpg",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Site-Plan-150x150.jpg"
-        }
-      ],
-      "geolocation": {
-        "lat": null,
-        "lon": null,
-        "iconName": "dot",
-        "title": "Saint Patrick Way SDR"
-      }
-    },
+    "val": "building",
+    "oldVal": "dot",
     "projectId": "projectdetail572",
     "timestamp": "1596943340000"
   },
   {
-    "op": "add",
+    "op": "update",
     "path": [
-      "projectdetail572"
+      "projectdetail572",
+      "title"
     ],
-    "val": {
-      "id": "projectdetail572",
-      "title": "Avalon West (St. Patrick Way)",
-      "details": {
-        "Planning Application #": "PLPA-2017-00069",
-        "Application Type": "Site Development Review and Vesting Tentative Map",
-        "Application Submittal Date": "12/21/2017",
-        "General Plan Land Use": "Downtown Dublin - Transit Oriented District",
-        "Specific Plan Area": "Downtown Dublin Specific Plan",
-        "Zoning": "Downtown Dublin Zoning District - DDZD",
-        "Project Area": "8.53 acres",
-        "Stories/Height": "5 stories / 57 feet",
-        "Parking Provided": "781 parking spaces",
-        "Applicant": {
-          "name": "Avalon Bay Communities, Joe Kirchofer",
-          "address": "455 Market Street, Ste 1650 SF, CA 94105",
-          "phone": "415-284-9080"
-        },
-        "Project Planner": {
-          "name": "Amy Million - Principal Planner",
-          "phone": "(925) 833-6610",
-          "email": "amy.million@dublin.ca.gov"
-        }
-      },
-      "location": "6700 Golden Gate Drive",
-      "docs": [
-        {
-          "name": "March 27, 2018 Planning Commission Staff Report",
-          "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1270&Inline=True"
-        },
-        {
-          "name": "May 1, 2018 City Council Staff Report",
-          "url": "http://www.dublin.ca.gov/ArchiveCenter/ViewFile/Item/856"
-        }
-      ],
-      "status": "Final Action",
-      "description": "Site Development Review to demolish an existing 200,000 square foot warehouse and construct a 499 unit residential apartment complex.",
-      "images": [
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Single-Image_Page_1.jpg",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Single-Image_Page_1-150x150.jpg"
-        }
-      ],
-      "geolocation": {
-        "lat": 37.7011193,
-        "lon": -121.9306746,
-        "iconName": "building",
-        "title": "Avalon West (St. Patrick Way)"
-      }
+    "val": "St. Patrick Way SDR",
+    "oldVal": "Saint Patrick Way SDR",
+    "projectId": "projectdetail572",
+    "timestamp": "1603056634000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail572",
+      "geolocation",
+      "title"
+    ],
+    "val": "St. Patrick Way SDR",
+    "oldVal": "Saint Patrick Way SDR",
+    "projectId": "projectdetail572",
+    "timestamp": "1603056634000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail572",
+      "title"
+    ],
+    "val": "St. Patrick Way SDR (Avalon West)",
+    "oldVal": "St. Patrick Way SDR",
+    "projectId": "projectdetail572",
+    "timestamp": "1623808635000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail572",
+      "geolocation",
+      "title"
+    ],
+    "val": "St. Patrick Way SDR (Avalon West)",
+    "oldVal": "St. Patrick Way SDR",
+    "projectId": "projectdetail572",
+    "timestamp": "1623808635000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail572",
+      "details",
+      "Applicant",
+      "name"
+    ],
+    "val": "Avalon Bay Communities, Joe Kirchofer",
+    "oldVal": "Eric Morley, The Morley Bros. / Bayview Development Group",
+    "projectId": "projectdetail572",
+    "timestamp": "1627584632000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail572",
+      "details",
+      "Applicant",
+      "address"
+    ],
+    "val": "455 Market Street, Ste 1650 SF, CA 94105",
+    "oldVal": "405 Alberto Way #3, Los Gatos, CA 95032",
+    "projectId": "projectdetail572",
+    "timestamp": "1627584632000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail572",
+      "details",
+      "Applicant",
+      "phone"
+    ],
+    "val": "415-284-9080",
+    "oldVal": "408-497-9722",
+    "projectId": "projectdetail572",
+    "timestamp": "1627584632000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail572",
+      "title"
+    ],
+    "val": "St. Patrick Way (Avalon West)",
+    "oldVal": "St. Patrick Way SDR (Avalon West)",
+    "projectId": "projectdetail572",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail572",
+      "geolocation",
+      "title"
+    ],
+    "val": "St. Patrick Way (Avalon West)",
+    "oldVal": "St. Patrick Way SDR (Avalon West)",
+    "projectId": "projectdetail572",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail572",
+      "images",
+      1
+    ],
+    "oldVal": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Site-Plan.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Site-Plan-150x150.jpg"
     },
     "projectId": "projectdetail572",
-    "timestamp": "1684627200000"
+    "timestamp": "1656420658000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail572",
+      "title"
+    ],
+    "val": "Avalon West (St. Patrick Way)",
+    "oldVal": "St. Patrick Way (Avalon West)",
+    "projectId": "projectdetail572",
+    "timestamp": "1684710307000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail572",
+      "geolocation",
+      "title"
+    ],
+    "val": "Avalon West (St. Patrick Way)",
+    "oldVal": "St. Patrick Way (Avalon West)",
+    "projectId": "projectdetail572",
+    "timestamp": "1684710307000"
   }
 ]

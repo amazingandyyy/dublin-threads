@@ -244,13 +244,98 @@
     "timestamp": "1513193626000"
   },
   {
+    "op": "update",
+    "path": [
+      "projectdetail175",
+      "geolocation",
+      "lat"
+    ],
+    "val": 37.71184,
+    "oldVal": null,
+    "projectId": "projectdetail175",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail175",
+      "geolocation",
+      "lon"
+    ],
+    "val": -121.84332,
+    "oldVal": null,
+    "projectId": "projectdetail175",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail175",
+      "title"
+    ],
+    "val": "Jordan Ranch – Onyx (Neighborhood 7)",
+    "oldVal": "Jordan Ranch - Neighborhood 7 (Onyx)",
+    "projectId": "projectdetail175",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail175",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Robert Smith - Associate Planner",
+    "oldVal": "Martha Battaglia - Associate Planner",
+    "projectId": "projectdetail175",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail175",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "robert.smith@dublin.ca.gov",
+    "oldVal": "martha.battaglia@dublin.ca.gov",
+    "projectId": "projectdetail175",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail175",
+      "geolocation",
+      "iconName"
+    ],
+    "val": "home",
+    "oldVal": "dot",
+    "projectId": "projectdetail175",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail175",
+      "geolocation",
+      "title"
+    ],
+    "val": "Jordan Ranch – Onyx (Neighborhood 7)",
+    "oldVal": "Jordan Ranch - Neighborhood 7 (Onyx)",
+    "projectId": "projectdetail175",
+    "timestamp": "1596943340000"
+  },
+  {
     "op": "delete",
     "path": [
       "projectdetail175"
     ],
     "oldVal": {
       "id": "projectdetail175",
-      "title": "Jordan Ranch - Neighborhood 7 (Onyx)",
+      "title": "Jordan Ranch – Onyx (Neighborhood 7)",
       "details": {
         "Planning Application #": "PLPA-2015-00045",
         "Application Type": "General Plan and Eastern Dublin Specific Plan Amendments and Planned Development Rezone with amended Stage 1 and Stage 2 Development Plans, Site Development Review, Vesting Tentative Tract Map 8267 & 8269, and Development Agreement Amendment",
@@ -268,9 +353,9 @@
           "phone": "(925) 804-2230"
         },
         "Project Planner": {
-          "name": "Martha Battaglia - Associate Planner",
+          "name": "Robert Smith - Associate Planner",
           "phone": "(925) 833-6610",
-          "email": "martha.battaglia@dublin.ca.gov"
+          "email": "robert.smith@dublin.ca.gov"
         }
       },
       "location": "Panorama Drive",
@@ -288,13 +373,13 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
-        "iconName": "dot",
-        "title": "Jordan Ranch - Neighborhood 7 (Onyx)"
+        "lat": 37.71184,
+        "lon": -121.84332,
+        "iconName": "home",
+        "title": "Jordan Ranch – Onyx (Neighborhood 7)"
       }
     },
     "projectId": "projectdetail175",
-    "timestamp": "1596943340000"
+    "timestamp": "1632816331000"
   }
 ]

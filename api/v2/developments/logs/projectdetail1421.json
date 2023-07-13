@@ -6,93 +6,457 @@
     ],
     "val": {
       "id": "projectdetail1421",
-      "title": "The Whitford of Dublin (Dublin Senior Living)",
+      "title": "Dublin Senior Living",
       "details": {
         "Planning Application #": "PLPA-2021-00042",
         "Application Type": "Planned Development Rezone and Site Development Review Permit",
         "Application Submittal Date": "10/06/2021",
         "General Plan Land Use": "Campus Office",
         "Specific Plan Area": "Eastern Dublin Specific Plan",
-        "Zoning": "Planned Development (RESO. 30-98)",
+        "Zoning": "Planned Development",
         "Project Area": "5.74 acres acres",
-        "Building Area": "155,517 square feet",
+        "Building Area": "155,829 square feet",
         "Foor Area Ratio": "0.62 FAR",
         "Stories/Height": "2 stories / 28 feet",
-        "Parking Provided": "89 parking spaces",
+        "Parking Provided": "93 parking spaces",
         "Applicant": {
-          "name": "Chuck Hammonds",
+          "name": "Patrick McGonigle",
           "address": "4514 Cole Avenue, Suite 1500, Dallas, TX 75205",
           "phone": "(214) 370-2626"
         },
         "Project Planner": {
           "name": "Gaspare Annibale - Associate Planner",
-          "phone": "(925) 833-6620",
+          "phone": "(925) 833-6610",
           "email": "gaspare.annibale@dublin.ca.gov"
         }
       },
       "location": "5751 Arnold Road",
-      "docs": [
-        {
-          "name": "Community Meeting Notice – Dublin Senior Living",
-          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/Community-Meeting-Notice-Dublin-Senior-Living.pdf"
-        },
-        {
-          "name": "Community Meeting Presentation",
-          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/Dublin-Senior-Living-Community-Meeting-Presentation.pptx"
-        },
-        {
-          "name": "Planning Commission May 10, 2022 Agenda and Staff Report",
-          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/37ef30b818fe396c3b93f6750c721caf0.pdf"
-        },
-        {
-          "name": "City Council June 7, 2022 Agenda & Staff Report",
-          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/b5276d7d526becf19c1380f0351d6b540.pdf"
-        },
-        {
-          "name": "City Council June 21, 2022 Agenda & Staff Report",
-          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/c9ce21fbe42b467c71e4361657ba800d0.pdf"
-        },
-        {
-          "name": "Notice of Determination Filed 06.23.2022",
-          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/NOD-Filed-06.23.2022.pdf"
-        }
-      ],
-      "status": "Final Action",
-      "description": "South Bay Partners proposes to develop a community care facility on a 5.74-acre site located at 5751 Arnold Road. The proposed project consists of a two story 152-unit licensed residential care facility for the elderly, including 114 assisted living units, 38 memory care units and a total of 174 beds. Common space amenity areas, and associated site, frontage and landscape improvements are also proposed. Requested approvals include a Planned Development Rezone with a related Stage 1 and Stage 2 Development Plan and a Site Development Review Permit.",
+      "docs": [],
+      "status": "Planning Application Submitted",
+      "description": "South Bay Partners proposes to develop a 5.74-acre site located at 5751 Arnold Road within the Eastern Dublin Specific Plan – Hacienda Gateway Planning Subarea. The Dublin Senior Living project is a two story assisted living and memory care building containing 152 units and associated common space amenity areas.",
       "images": [
         {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/DSL-1.png",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/DSL-1-150x150.png"
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/Rendering.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/Rendering-150x150.png"
         },
         {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/floor-plan-1.png",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/floor-plan-1-150x150.png"
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/Level-1-Plan.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/Level-1-Plan-150x150.png"
         },
         {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/floor-plan-2.png",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/floor-plan-2-150x150.png"
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/Level-2-Plan.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/Level-2-Plan-150x150.png"
         },
         {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/elevation-2.png",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/elevation-2-150x150.png"
-        },
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/elevation-1.png",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/elevation-1-150x150.png"
-        },
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/landscape.png",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/landscape-150x150.png"
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/Landscape-Plan.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/Landscape-Plan-150x150.png"
         }
       ],
       "geolocation": {
         "lat": 37.7122092,
         "lon": -121.8920144,
         "iconName": "dot",
-        "title": "The Whitford of Dublin (Dublin Senior Living)"
+        "title": "Dublin Senior Living"
       }
     },
     "projectId": "projectdetail1421",
-    "timestamp": "1684627200000"
+    "timestamp": "1635307394000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "details",
+      "Zoning"
+    ],
+    "val": "Planned Development (RESO. 30-98)",
+    "oldVal": "Planned Development",
+    "projectId": "projectdetail1421",
+    "timestamp": "1638896136000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "details",
+      "Applicant",
+      "name"
+    ],
+    "val": "Chuck Hammonds",
+    "oldVal": "Patrick McGonigle",
+    "projectId": "projectdetail1421",
+    "timestamp": "1638896136000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "description"
+    ],
+    "val": "South Bay Partners proposes to develop a 5.74-acre site located at 5751 Arnold Road within the Hacienda Gateway Planning Subarea of the Eastern Dublin Specific Plan. The proposal includes a two story 152-unit senior living project consisting of 114 assisted living units and 38 memory care units with associated common space amenity areas. The application includes planning entitlements for a Planned Development Rezone and Site Development Review Permit.",
+    "oldVal": "South Bay Partners proposes to develop a 5.74-acre site located at 5751 Arnold Road within the Eastern Dublin Specific Plan – Hacienda Gateway Planning Subarea. The Dublin Senior Living project is a two story assisted living and memory care building containing 152 units and associated common space amenity areas.",
+    "projectId": "projectdetail1421",
+    "timestamp": "1638896136000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/DSL.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/Rendering.png",
+    "projectId": "projectdetail1421",
+    "timestamp": "1642594746000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/DSL-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/Rendering-150x150.png",
+    "projectId": "projectdetail1421",
+    "timestamp": "1642594746000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "details",
+      "Building Area"
+    ],
+    "val": "155,517 square feet",
+    "oldVal": "155,829 square feet",
+    "projectId": "projectdetail1421",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "details",
+      "Parking Provided"
+    ],
+    "val": "89 parking spaces",
+    "oldVal": "93 parking spaces",
+    "projectId": "projectdetail1421",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "details",
+      "Project Planner",
+      "phone"
+    ],
+    "val": "(925) 833-6620",
+    "oldVal": "(925) 833-6610",
+    "projectId": "projectdetail1421",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1421",
+      "docs",
+      0
+    ],
+    "val": {
+      "name": "Community Meeting Notice – Dublin Senior Living",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/Community-Meeting-Notice-Dublin-Senior-Living.pdf"
+    },
+    "projectId": "projectdetail1421",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1421",
+      "docs",
+      1
+    ],
+    "val": {
+      "name": "Dublin Senior Living Community Meeting Presentation",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/Dublin-Senior-Living-Community-Meeting-Presentation.pptx"
+    },
+    "projectId": "projectdetail1421",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1421",
+      "docs",
+      2
+    ],
+    "val": {
+      "name": "Planning Commission May 10, 2022 Agenda and Staff Report",
+      "url": "http://planning%20commission%20may%2010%2C%202022%20agenda%20and%20staff%20report/"
+    },
+    "projectId": "projectdetail1421",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "status"
+    ],
+    "val": "Pubic Hearing",
+    "oldVal": "Planning Application Submitted",
+    "projectId": "projectdetail1421",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "description"
+    ],
+    "val": "South Bay Partners proposes to develop a community care facility on a 5.74-acre site located at 5751 Arnold Road. The proposed project consists of a two story 152-unit licensed residential care facility for the elderly, including 114 assisted living units, 38 memory care units and a total of 174 beds. Common space amenity areas, and associated site, frontage and landscape improvements are also proposed. Requested approvals include a Planned Development Rezone with a related Stage 1 and Stage 2 Development Plan and a Site Development Review Permit.",
+    "oldVal": "South Bay Partners proposes to develop a 5.74-acre site located at 5751 Arnold Road within the Hacienda Gateway Planning Subarea of the Eastern Dublin Specific Plan. The proposal includes a two story 152-unit senior living project consisting of 114 assisted living units and 38 memory care units with associated common space amenity areas. The application includes planning entitlements for a Planned Development Rezone and Site Development Review Permit.",
+    "projectId": "projectdetail1421",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/DSL-1.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/DSL.png",
+    "projectId": "projectdetail1421",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/DSL-1-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/DSL-150x150.png",
+    "projectId": "projectdetail1421",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/floor-plan-1.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/Level-1-Plan.png",
+    "projectId": "projectdetail1421",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/floor-plan-1-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/Level-1-Plan-150x150.png",
+    "projectId": "projectdetail1421",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/floor-plan-2.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/Level-2-Plan.png",
+    "projectId": "projectdetail1421",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/floor-plan-2-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/Level-2-Plan-150x150.png",
+    "projectId": "projectdetail1421",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "images",
+      3,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/elevation-2.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/Landscape-Plan.png",
+    "projectId": "projectdetail1421",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "images",
+      3,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/elevation-2-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/Landscape-Plan-150x150.png",
+    "projectId": "projectdetail1421",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1421",
+      "images",
+      4
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/elevation-1.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/elevation-1-150x150.png"
+    },
+    "projectId": "projectdetail1421",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1421",
+      "images",
+      5
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/landscape.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/landscape-150x150.png"
+    },
+    "projectId": "projectdetail1421",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "docs",
+      1,
+      "name"
+    ],
+    "val": "Community Meeting Presentation",
+    "oldVal": "Dublin Senior Living Community Meeting Presentation",
+    "projectId": "projectdetail1421",
+    "timestamp": "1656420658000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "docs",
+      2,
+      "url"
+    ],
+    "val": "https://granicus_production_attachments.s3.amazonaws.com/dublin/37ef30b818fe396c3b93f6750c721caf0.pdf",
+    "oldVal": "http://planning%20commission%20may%2010%2C%202022%20agenda%20and%20staff%20report/",
+    "projectId": "projectdetail1421",
+    "timestamp": "1656420658000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1421",
+      "docs",
+      3
+    ],
+    "val": {
+      "name": "City Council June 7, 2022 Agenda & Staff Report",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/b5276d7d526becf19c1380f0351d6b540.pdf"
+    },
+    "projectId": "projectdetail1421",
+    "timestamp": "1656420658000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1421",
+      "docs",
+      4
+    ],
+    "val": {
+      "name": "City Council June 21, 2022 Agenda & Staff Report",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/c9ce21fbe42b467c71e4361657ba800d0.pdf"
+    },
+    "projectId": "projectdetail1421",
+    "timestamp": "1656420658000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1421",
+      "docs",
+      5
+    ],
+    "val": {
+      "name": "Notice of Determination Filed 06.23.2022",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/10/NOD-Filed-06.23.2022.pdf"
+    },
+    "projectId": "projectdetail1421",
+    "timestamp": "1656420658000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "status"
+    ],
+    "val": "Final Action",
+    "oldVal": "Pubic Hearing",
+    "projectId": "projectdetail1421",
+    "timestamp": "1656420658000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "title"
+    ],
+    "val": "The Whitford of Dublin (Dublin Senior Living)",
+    "oldVal": "Dublin Senior Living",
+    "projectId": "projectdetail1421",
+    "timestamp": "1684710307000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "geolocation",
+      "title"
+    ],
+    "val": "The Whitford of Dublin (Dublin Senior Living)",
+    "oldVal": "Dublin Senior Living",
+    "projectId": "projectdetail1421",
+    "timestamp": "1684710307000"
   }
 ]

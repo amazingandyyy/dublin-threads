@@ -1,1 +1,190 @@
-[]
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1300"
+    ],
+    "val": {
+      "id": "projectdetail1300",
+      "title": "Former Hooter’s Renovation & Drive-Thru",
+      "details": {
+        "Planning Application #": "PLPA-2020-00015, PLPA-2020-00019 and PLPA-2020-00020",
+        "Application Type": "Site Development Review and Conditional Use Permit",
+        "Application Submittal Date": "04/22/2020",
+        "General Plan Land Use": "Downtown Dublin - Transit Oriented District",
+        "Specific Plan Area": "Downtown Dublin Specific Plan",
+        "Zoning": "DDZD",
+        "Project Area": ".8 acres",
+        "Building Area": "5,640 square feet",
+        "Stories/Height": "1 story / 22 feet",
+        "Parking Provided": "50 parking spaces",
+        "Applicant": {
+          "name": "Jerry Hunt, VP-RPG Dublin, LLC",
+          "address": "1840 San Miguel Drive, Ste. 206, Walnut Creek, CA 94596",
+          "phone": "925-980-7875"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "925-833-6610"
+        }
+      },
+      "location": "7944 Dublin Boulevard",
+      "docs": [],
+      "status": "Planning Application Submitted",
+      "description": "Site Development Review Permit for modifications to the former Hooter’s building, including creating two tenant spaces, a 568-square-foot addition, a new trash enclosure, and outdoor seating. The request also includes a Conditional Use Permit to establish a drive-thru and associated parking.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-North-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-North-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Site-Plan-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-South-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-South-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-East-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-East-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-West-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-West-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.7018593,
+        "lon": -121.9352672,
+        "iconName": "cutlery",
+        "title": "Former Hooter’s Renovation & Drive-Thru"
+      }
+    },
+    "projectId": "projectdetail1300",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1300",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "amy",
+    "oldVal": "925-833-6610",
+    "projectId": "projectdetail1300",
+    "timestamp": "1600622986000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1300",
+      "docs",
+      0
+    ],
+    "val": {
+      "name": "Planning Commission Staff Report September 8, 2020",
+      "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1560&Inline=True"
+    },
+    "projectId": "projectdetail1300",
+    "timestamp": "1600622986000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1300",
+      "status"
+    ],
+    "val": "Final Action",
+    "oldVal": "Planning Application Submitted",
+    "projectId": "projectdetail1300",
+    "timestamp": "1600622986000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1300",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "amy.million@dublin.ca.gov",
+    "oldVal": "amy",
+    "projectId": "projectdetail1300",
+    "timestamp": "1614287575000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1300"
+    ],
+    "oldVal": {
+      "id": "projectdetail1300",
+      "title": "Former Hooter’s Renovation & Drive-Thru",
+      "details": {
+        "Planning Application #": "PLPA-2020-00015, PLPA-2020-00019 and PLPA-2020-00020",
+        "Application Type": "Site Development Review and Conditional Use Permit",
+        "Application Submittal Date": "04/22/2020",
+        "General Plan Land Use": "Downtown Dublin - Transit Oriented District",
+        "Specific Plan Area": "Downtown Dublin Specific Plan",
+        "Zoning": "DDZD",
+        "Project Area": ".8 acres",
+        "Building Area": "5,640 square feet",
+        "Stories/Height": "1 story / 22 feet",
+        "Parking Provided": "50 parking spaces",
+        "Applicant": {
+          "name": "Jerry Hunt, VP-RPG Dublin, LLC",
+          "address": "1840 San Miguel Drive, Ste. 206, Walnut Creek, CA 94596",
+          "phone": "925-980-7875"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "7944 Dublin Boulevard",
+      "docs": [
+        {
+          "name": "Planning Commission Staff Report September 8, 2020",
+          "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1560&Inline=True"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Site Development Review Permit for modifications to the former Hooter’s building, including creating two tenant spaces, a 568-square-foot addition, a new trash enclosure, and outdoor seating. The request also includes a Conditional Use Permit to establish a drive-thru and associated parking.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-North-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-North-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Site-Plan-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-South-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-South-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-East-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-East-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-West-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/05/Elevations-West-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.7018593,
+        "lon": -121.9352672,
+        "iconName": "cutlery",
+        "title": "Former Hooter’s Renovation & Drive-Thru"
+      }
+    },
+    "projectId": "projectdetail1300",
+    "timestamp": "1651972572000"
+  }
+]

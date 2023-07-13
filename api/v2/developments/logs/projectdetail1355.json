@@ -1,1 +1,175 @@
-[]
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1355"
+    ],
+    "val": {
+      "id": "projectdetail1355",
+      "title": "Kent Property General Plan Amendment and Rezoning",
+      "details": {
+        "Planning Application #": "PLPA-2019-00002",
+        "Application Type": "General Plan Amendment, Rezoning.",
+        "Application Submittal Date": "03/03/2020",
+        "General Plan Land Use": "Business Park/Industrial",
+        "Specific Plan Area": "n/a",
+        "Zoning": "M-1",
+        "Project Area": "1.5 acres",
+        "Building Area": "66122 square feet",
+        "Foor Area Ratio": "0.4 FAR",
+        "Stories/Height": "0 / 18 feet",
+        "Applicant": {
+          "name": "City of Dublin",
+          "address": "100 Civic Plaza",
+          "phone": "9458336610"
+        },
+        "Project Planner": {
+          "name": "Robert Smith - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "robert.smith@dublin.ca.gov"
+        }
+      },
+      "location": "6207 Sierra Court",
+      "docs": [
+        {
+          "name": "KentGPA_Public Review Draft ISND",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/KentGPA_Public-Review-Draft-ISND.pdf"
+        },
+        {
+          "name": "Kent GPA NOI",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/Kent-GPA-NOI.pdf"
+        }
+      ],
+      "status": "Application Under Review",
+      "description": "General Plan Amendment (GPA) to change the land use from Business Park/Industrial to Retail/Office and Automotive, Rezone from M-1 (Light Industrial) zoning district to C-2 (General Commercial). There is no proposed development as part of this project.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/V-Map-2.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/V-Map-2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/GP-Designation-2.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/GP-Designation-2-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.704959,
+        "lon": -121.9156194,
+        "iconName": "dot",
+        "title": "Kent Property General Plan Amendment and Rezoning"
+      }
+    },
+    "projectId": "projectdetail1355",
+    "timestamp": "1611232758000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1355",
+      "docs",
+      2
+    ],
+    "val": {
+      "name": "City Council Agenda Report – February 16",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/City-Council-Agenda-Report-February-16.pdf"
+    },
+    "projectId": "projectdetail1355",
+    "timestamp": "1614287575000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1355",
+      "status"
+    ],
+    "val": "Pubic Hearing",
+    "oldVal": "Application Under Review",
+    "projectId": "projectdetail1355",
+    "timestamp": "1614287575000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1355",
+      "images",
+      2
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/general-plan-figure-4.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/general-plan-figure-4-150x150.jpg"
+    },
+    "projectId": "projectdetail1355",
+    "timestamp": "1614287575000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1355"
+    ],
+    "oldVal": {
+      "id": "projectdetail1355",
+      "title": "Kent Property General Plan Amendment and Rezoning",
+      "details": {
+        "Planning Application #": "PLPA-2019-00002",
+        "Application Type": "General Plan Amendment, Rezoning.",
+        "Application Submittal Date": "03/03/2020",
+        "General Plan Land Use": "Business Park/Industrial",
+        "Specific Plan Area": "n/a",
+        "Zoning": "M-1",
+        "Project Area": "1.5 acres",
+        "Building Area": "66122 square feet",
+        "Foor Area Ratio": "0.4 FAR",
+        "Stories/Height": "0 / 18 feet",
+        "Applicant": {
+          "name": "City of Dublin",
+          "address": "100 Civic Plaza",
+          "phone": "9458336610"
+        },
+        "Project Planner": {
+          "name": "Robert Smith - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "robert.smith@dublin.ca.gov"
+        }
+      },
+      "location": "6207 Sierra Court",
+      "docs": [
+        {
+          "name": "KentGPA_Public Review Draft ISND",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/KentGPA_Public-Review-Draft-ISND.pdf"
+        },
+        {
+          "name": "Kent GPA NOI",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/Kent-GPA-NOI.pdf"
+        },
+        {
+          "name": "City Council Agenda Report – February 16",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/City-Council-Agenda-Report-February-16.pdf"
+        }
+      ],
+      "status": "Pubic Hearing",
+      "description": "General Plan Amendment (GPA) to change the land use from Business Park/Industrial to Retail/Office and Automotive, Rezone from M-1 (Light Industrial) zoning district to C-2 (General Commercial). There is no proposed development as part of this project.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/V-Map-2.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/V-Map-2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/GP-Designation-2.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/GP-Designation-2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/general-plan-figure-4.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/01/general-plan-figure-4-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.704959,
+        "lon": -121.9156194,
+        "iconName": "dot",
+        "title": "Kent Property General Plan Amendment and Rezoning"
+      }
+    },
+    "projectId": "projectdetail1355",
+    "timestamp": "1618802901000"
+  }
+]

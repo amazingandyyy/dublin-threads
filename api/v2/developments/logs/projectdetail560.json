@@ -48,14 +48,26 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7050763,
+        "lon": -121.9279171,
         "iconName": "dot",
         "title": "7505 Dublin Boulevard SDR"
       }
     },
     "projectId": "projectdetail560",
     "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail560",
+      "geolocation",
+      "iconName"
+    ],
+    "val": "building",
+    "oldVal": "dot",
+    "projectId": "projectdetail560",
+    "timestamp": "1596943340000"
   },
   {
     "op": "delete",
@@ -106,13 +118,13 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
-        "iconName": "dot",
+        "lat": 37.7050763,
+        "lon": -121.9279171,
+        "iconName": "building",
         "title": "7505 Dublin Boulevard SDR"
       }
     },
     "projectId": "projectdetail560",
-    "timestamp": "1596943340000"
+    "timestamp": "1651972572000"
   }
 ]

@@ -44,8 +44,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7015059,
+        "lon": -121.9364103,
         "iconName": "dot",
         "title": "Shell Gas Station Remodel"
       }
@@ -124,8 +124,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7015059,
+        "lon": -121.9364103,
         "iconName": "dot",
         "title": "Shell Gas Station Remodel"
       }

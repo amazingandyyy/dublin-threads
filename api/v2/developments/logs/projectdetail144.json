@@ -47,8 +47,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7023874,
+        "lon": -121.9812868,
         "iconName": "dot",
         "title": "Schaefer Ranch – Unit 2"
       }
@@ -130,8 +130,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7023874,
+        "lon": -121.9812868,
         "iconName": "dot",
         "title": "Schaefer Ranch – Unit 2"
       }

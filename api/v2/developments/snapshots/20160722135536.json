@@ -1,0 +1,100 @@
+{
+  "projectdetail37": {
+    "id": "projectdetail37",
+    "title": "Guitar Center",
+    "details": {
+      "Planning Application #": "PLPA-2015-00061",
+      "Application Type": "Site Development Review",
+      "Application Submittal Date": "12/14/2016",
+      "General Plan Land Use": "General Commercial",
+      "Specific Plan Area": "Eastern Dublin Specific Plan",
+      "Zoning": "Planned Development",
+      "Project Area": "1.5 acres",
+      "Building Area": "15,000 square feet",
+      "Foor Area Ratio": "0.34 FAR",
+      "Stories/Height": "1 story / 31 feet",
+      "Parking Provided": "68 parking spaces",
+      "Applicant": {
+        "name": "Stanforth Holding Company LLC",
+        "address": "4080 Grafton Street, Suite 200, Dublin, CA 94568",
+        "phone": "925-463-1666"
+      },
+      "Project Planner": {
+        "name": "Martha Aja - Associate Planner",
+        "phone": "925-833-6610",
+        "email": "martha.aja@dublin.ca.gov"
+      }
+    },
+    "location": "2880 Dublin Boulevard",
+    "docs": [],
+    "description": "Site Development Review Permit to allow the construction of Major E within the Fallon Gateway Commercial Center. The project includes the construction of a 15,000 square foot Guitar Center and related site improvements, including parking and landscaping.",
+    "images": [
+      {
+        "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/06/east-and-north-elevation.jpg",
+        "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/06/east-and-north-elevation-150x150.jpg"
+      },
+      {
+        "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/06/west-and-south-elevation.jpg",
+        "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/06/west-and-south-elevation-150x150.jpg"
+      },
+      {
+        "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/06/site-plan.jpg",
+        "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/06/site-plan-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.70312,
+      "lon": -121.8537362,
+      "iconName": "dot",
+      "title": "Guitar Center"
+    }
+  },
+  "projectdetail30": {
+    "id": "projectdetail30",
+    "title": "IKEA Retail Center",
+    "details": {
+      "Planning Application #": "PLPA-2016-00016",
+      "Application Type": "Planned Development Rezoning (Stage 2 Development Plan), Site Development Review, Tentative Parcel Map, and Master Sign Program",
+      "Application Submittal Date": "03/25/2016",
+      "General Plan Land Use": "General Commercial",
+      "Specific Plan Area": "Eastern Dublin Specific Plan",
+      "Zoning": "Planned Development",
+      "Project Area": "27.5 acres acres",
+      "Applicant": {
+        "name": "Doug Greenholz and Angele Gaylord-Robinson",
+        "address": "IKEA Property Inc., 420 Alan Wood Road, Conshohocken, PA 19428",
+        "phone": "n/a"
+      },
+      "Project Planner": {
+        "name": "Kristi Bascom - Principal Planner",
+        "phone": "(925) 556-4557",
+        "email": "kristi.bascom@dublin.ca.gov"
+      }
+    },
+    "location": "5144 Martinelli Way",
+    "docs": [
+      {
+        "name": "3/15/2016 City Council Staff Report",
+        "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=573637&dbid=0"
+      },
+      {
+        "name": "5/3/2016 City Council Staff Report",
+        "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=584186&dbid=0"
+      }
+    ],
+    "status": "Application Under Review",
+    "description": "The City received a preliminary application from IKEA to construct a store on a 27.5 acre site at 5144 and 5344 Martinelli Way in March 2016. The site plan is under review and is still being refined by the Applicant (IKEA). Changes to the sizes of the proposed buildings and the site layout are expected, and the site plan will be refined by the applicant in the near future. The preliminary plan submitted to the City can be reviewed by clicking on the thumbnail below. At this point, the site is proposed to be developed with a nearly 378,000 square feet IKEA store, additional retail/restaurant spaces, and possibly a 75-room hotel. An environmental analysis of the proposed project has begun.",
+    "images": [
+      {
+        "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/05/Site-Plan.jpg",
+        "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/05/Site-Plan-150x150.jpg"
+      }
+    ],
+    "geolocation": {
+      "lat": 37.7047196,
+      "lon": -121.8892569,
+      "iconName": "dot",
+      "title": "IKEA Retail Center"
+    }
+  }
+}

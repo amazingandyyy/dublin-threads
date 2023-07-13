@@ -9,13 +9,13 @@
       "title": "Inspiration Drive Memory Care",
       "details": {
         "Planning Application #": "PLPA-2020-00044",
-        "Application Type": "Site Development Review Permit, Street Vacation and Planned Development Rezone (Stage 1 Development Plan)",
+        "Application Type": "Site Development Review Permit, Lot Line Adjustment, Planned Development Rezone (Stage 1 Development Plan)",
         "Application Submittal Date": "10/12/2020",
         "General Plan Land Use": "Public/Semi Public",
         "Specific Plan Area": "n/a",
         "Zoning": "Planned Development Resolution No. 07-03",
         "Project Area": "1.63 acres",
-        "Building Area": "35,089 square feet",
+        "Building Area": "34,616 square feet",
         "Foor Area Ratio": ".49 FAR",
         "Stories/Height": "1 story / 32 feet",
         "Parking Provided": "25 parking spaces",
@@ -25,64 +25,15 @@
           "phone": "415-985-8606"
         },
         "Project Planner": {
-          "name": "Allison Schuster - Assistant Planner",
+          "name": "Amy Million - Principal Planner",
           "phone": "(925) 833-6610",
-          "email": "allison.schuster@dublin.ca.gov"
+          "email": "amy.million@dublin.ca.gov"
         }
       },
       "location": "7500 Inspiration Drive",
-      "docs": [
-        {
-          "name": "Valley Christian Center Expansion Program Draft EIR 2002",
-          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/12/Valley-Christian-Center-Expansion-Program-Draft-EIR-2002-1.pdf"
-        },
-        {
-          "name": "Valley Christian Center Expansion Program Final EIR 2003",
-          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/12/Valley-Christian-Center-Expansion-Program-Final-EIR-2003-1.pdf"
-        },
-        {
-          "name": "Valley Christian Center Supplemental MND June 2018",
-          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/12/Valley-Christian-Center-Supplemental-MND-June-2018.pdf"
-        },
-        {
-          "name": "Notice of Intent – Inspiration Drive Memory Care and Assisted Living Projects",
-          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Notice-of-Intent-Inspiration-Drive.pdf"
-        },
-        {
-          "name": "Initial Study/Supplemental Mitigated Negative Declaration – Inspiration Drive Memory Care and Assisted Living Projects",
-          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Inspiration_Public-Review-Draft-Initial-Study.pdf"
-        },
-        {
-          "name": "Community Meeting Notice – Inspiration Drive Memory Care and Assisted Living Projects",
-          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Community-Meeting-Inspiration-Drive.pdf"
-        },
-        {
-          "name": "Community Meeting Presentation",
-          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Inspiration-Drive-Community-Meeting-Presentation.pdf"
-        },
-        {
-          "name": "City Council Study Session April 5, 2022 Agenda & Staff Report",
-          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/0303e91067ffe0f0c70146581ce205f80.pdf"
-        },
-        {
-          "name": "Planning Commission Study Session April 12, 2022 Agenda & Staff Report",
-          "url": "https://d3n9y02raazwpg.cloudfront.net/dublin/7c05f30d-6db0-11ec-85e3-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1649198729.pdf"
-        },
-        {
-          "name": "Planning Commission April 26, 2022 Agenda & Staff Report",
-          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/4b39f0cc545760a549539b54fc61b7d80.pdf"
-        },
-        {
-          "name": "City Council May 17, 2022 Agenda & Staff Report",
-          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/57322b8fe2b004c0f9e0b998fc5f7e090.pdf"
-        },
-        {
-          "name": "City Council June 7, 2022 Agenda & Staff Report",
-          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/496a9a3a1a6b1634b5bbb4bcbcc3c8d30.pdf"
-        }
-      ],
-      "status": "Final Action",
-      "description": "A new 35,089 square foot memory care facility on Parcel 2 of the Valley Christian Center property. The memory care facility providing 55 beds in both private and shared rooms. Requested approvals include a Planned Development Rezone with Stage 1 and 2 Development Plans, Site Development Review Permit, and a Street Vacation for a portion on unused Dublin Boulevard right-of-way. The project will also require a Lot Line Adjustment and Parcel Merger.",
+      "docs": [],
+      "status": "Planning Application Submitted",
+      "description": "A new 34,616 square foot building on Parcel 2 of the Valley Christian Center property. The new building proposed as a memory care facility providing 55 beds in both private and shared rooms.",
       "images": [
         {
           "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/street-view-scaled.jpg",
@@ -105,8 +56,8 @@
           "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/front-elevation-2-150x150.jpg"
         },
         {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Memory-Care-Site-Plan-scaled.jpg",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Memory-Care-Site-Plan-150x150.jpg"
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/7.-Stage-1-Parcel-2-Site-Plan-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/7.-Stage-1-Parcel-2-Site-Plan-150x150.jpg"
         },
         {
           "original": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Parcel-2.jpg",
@@ -121,6 +72,305 @@
       }
     },
     "projectId": "projectdetail1340",
-    "timestamp": "1684627200000"
+    "timestamp": "1603056634000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1340",
+      "details",
+      "Building Area"
+    ],
+    "val": "35,089 square feet",
+    "oldVal": "34,616 square feet",
+    "projectId": "projectdetail1340",
+    "timestamp": "1604103782000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1340",
+      "description"
+    ],
+    "val": "A new 35,089 square foot building on Parcel 2 of the Valley Christian Center property. The new building proposed as a memory care facility providing 55 beds in both private and shared rooms.",
+    "oldVal": "A new 34,616 square foot building on Parcel 2 of the Valley Christian Center property. The new building proposed as a memory care facility providing 55 beds in both private and shared rooms.",
+    "projectId": "projectdetail1340",
+    "timestamp": "1604103782000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1340",
+      "docs",
+      0
+    ],
+    "val": {
+      "name": "Valley Christian Center Expansion Program Draft EIR 2002",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/12/Valley-Christian-Center-Expansion-Program-Draft-EIR-2002-1.pdf"
+    },
+    "projectId": "projectdetail1340",
+    "timestamp": "1638896136000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1340",
+      "docs",
+      1
+    ],
+    "val": {
+      "name": "Valley Christian Center Expansion Program Final EIR 2003",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/12/Valley-Christian-Center-Expansion-Program-Final-EIR-2003-1.pdf"
+    },
+    "projectId": "projectdetail1340",
+    "timestamp": "1638896136000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1340",
+      "docs",
+      2
+    ],
+    "val": {
+      "name": "Valley Christian Center Supplemental MND June 2018",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/12/Valley-Christian-Center-Supplemental-MND-June-2018.pdf"
+    },
+    "projectId": "projectdetail1340",
+    "timestamp": "1638896136000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1340",
+      "docs",
+      3
+    ],
+    "val": {
+      "name": "Notice of Intent – Inspiration Drive Memory Care and Assisted Living Projects",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Notice-of-Intent-Inspiration-Drive.pdf"
+    },
+    "projectId": "projectdetail1340",
+    "timestamp": "1638896136000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1340",
+      "docs",
+      4
+    ],
+    "val": {
+      "name": "Initial Study/Supplemental Mitigated Negative Declaration – Inspiration Drive Memory Care and Assisted Living Projects",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Inspiration_Public-Review-Draft-Initial-Study.pdf"
+    },
+    "projectId": "projectdetail1340",
+    "timestamp": "1638896136000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1340",
+      "docs",
+      5
+    ],
+    "val": {
+      "name": "Community Meeting Notice – Inspiration Drive Memory Care and Assisted Living Projects",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Community-Meeting-Inspiration-Drive.pdf"
+    },
+    "projectId": "projectdetail1340",
+    "timestamp": "1638896136000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1340",
+      "status"
+    ],
+    "val": "Application Under Review",
+    "oldVal": "Planning Application Submitted",
+    "projectId": "projectdetail1340",
+    "timestamp": "1638896136000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1340",
+      "images",
+      5,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Memory-Care-Site-Plan-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/7.-Stage-1-Parcel-2-Site-Plan-scaled.jpg",
+    "projectId": "projectdetail1340",
+    "timestamp": "1638896136000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1340",
+      "images",
+      5,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Memory-Care-Site-Plan-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/7.-Stage-1-Parcel-2-Site-Plan-150x150.jpg",
+    "projectId": "projectdetail1340",
+    "timestamp": "1638896136000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1340",
+      "docs",
+      6
+    ],
+    "val": {
+      "name": "Community Meeting Presentation",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Inspiration-Drive-Community-Meeting-Presentation.pdf"
+    },
+    "projectId": "projectdetail1340",
+    "timestamp": "1642594746000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1340",
+      "details",
+      "Application Type"
+    ],
+    "val": "Site Development Review Permit, Street Vacation and Planned Development Rezone (Stage 1 Development Plan)",
+    "oldVal": "Site Development Review Permit, Lot Line Adjustment, Planned Development Rezone (Stage 1 Development Plan)",
+    "projectId": "projectdetail1340",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1340",
+      "docs",
+      7
+    ],
+    "val": {
+      "name": "City Council Study Session April 5, 2022 Agenda & Staff Report",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/0303e91067ffe0f0c70146581ce205f80.pdf"
+    },
+    "projectId": "projectdetail1340",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1340",
+      "docs",
+      8
+    ],
+    "val": {
+      "name": "Planning Commission Study Session April 12, 2022 Agenda & Staff Report",
+      "url": "https://d3n9y02raazwpg.cloudfront.net/dublin/7c05f30d-6db0-11ec-85e3-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1649198729.pdf"
+    },
+    "projectId": "projectdetail1340",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1340",
+      "docs",
+      9
+    ],
+    "val": {
+      "name": "Planning Commission April 26, 2022 Agenda & Staff Report",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/4b39f0cc545760a549539b54fc61b7d80.pdf"
+    },
+    "projectId": "projectdetail1340",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1340",
+      "status"
+    ],
+    "val": "Pubic Hearing",
+    "oldVal": "Application Under Review",
+    "projectId": "projectdetail1340",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1340",
+      "description"
+    ],
+    "val": "A new 35,089 square foot memory care facility on Parcel 2 of the Valley Christian Center property. The memory care facility providing 55 beds in both private and shared rooms. Requested approvals include a Planned Development Rezone with Stage 1 and 2 Development Plans, Site Development Review Permit, and a Street Vacation for a portion on unused Dublin Boulevard right-of-way. The project will also require a Lot Line Adjustment and Parcel Merger.",
+    "oldVal": "A new 35,089 square foot building on Parcel 2 of the Valley Christian Center property. The new building proposed as a memory care facility providing 55 beds in both private and shared rooms.",
+    "projectId": "projectdetail1340",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1340",
+      "docs",
+      10
+    ],
+    "val": {
+      "name": "City Council May 17, 2022 Agenda & Staff Report",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/57322b8fe2b004c0f9e0b998fc5f7e090.pdf"
+    },
+    "projectId": "projectdetail1340",
+    "timestamp": "1653780755000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1340",
+      "docs",
+      11
+    ],
+    "val": {
+      "name": "City Council June 7, 2022 Agenda & Staff Report",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/496a9a3a1a6b1634b5bbb4bcbcc3c8d30.pdf"
+    },
+    "projectId": "projectdetail1340",
+    "timestamp": "1656420658000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1340",
+      "status"
+    ],
+    "val": "Final Action",
+    "oldVal": "Pubic Hearing",
+    "projectId": "projectdetail1340",
+    "timestamp": "1656420658000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1340",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Allison Schuster - Assistant Planner",
+    "oldVal": "Amy Million - Principal Planner",
+    "projectId": "projectdetail1340",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1340",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "allison.schuster@dublin.ca.gov",
+    "oldVal": "amy.million@dublin.ca.gov",
+    "projectId": "projectdetail1340",
+    "timestamp": "1679857046000"
   }
 ]

@@ -32,8 +32,8 @@
       "description": "The Eden Housing Veteran’s Project is comprised of 66-units of affordable housing with preference for military veterans on a 1.37 net acre site within the Downtown Dublin Specific Plan area. The project incorporates related site improvements including a multi-level parking structure, frontage improvements along all public rights of way, and amenities for the project residents. The project will implement one of the City Council’s key strategic initiatives, which is to provide affordable housing for veterans of the U.S Armed Forces.",
       "images": [],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7034154,
+        "lon": -121.9283302,
         "iconName": "dot",
         "title": "Eden Housing Veteran’s Project"
       }
@@ -116,8 +116,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7034154,
+        "lon": -121.9283302,
         "iconName": "dot",
         "title": "Valor (Eden Housing Veteran's Project)"
       }

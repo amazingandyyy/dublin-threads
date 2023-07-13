@@ -46,8 +46,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7066552,
+        "lon": -121.9116242,
         "iconName": "dot",
         "title": "Sierra Business Center Rezone"
       }
@@ -128,8 +128,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7066552,
+        "lon": -121.9116242,
         "iconName": "dot",
         "title": "Sierra Business Center Rezone"
       }

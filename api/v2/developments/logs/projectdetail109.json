@@ -37,8 +37,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.705153,
+        "lon": -121.873979,
         "iconName": "dot",
         "title": "Dublin Gateway Medical Center"
       }
@@ -120,8 +120,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.705153,
+        "lon": -121.873979,
         "iconName": "dot",
         "title": "Dublin Gateway Medical Center"
       }

@@ -9,7 +9,7 @@
       "title": "Amador Station",
       "details": {
         "Planning Application #": "PLPA-2021-00019",
-        "Application Type": "Site Development Review Permit, Lot Line Adjustment, Community Benefit Agreement and Affordable Housing Agreement",
+        "Application Type": "Site Development Review, Lot Line Adjustment and Community Benefit Agreement",
         "Application Submittal Date": "05/05/2021",
         "General Plan Land Use": "Downtown Dublin - Transit Oriented District",
         "Specific Plan Area": "Downtown Dublin Specific Plan",
@@ -30,22 +30,9 @@
         }
       },
       "location": "6501 Golden Gate Drive",
-      "docs": [
-        {
-          "name": "Planning Commission Agenda & Staff Report August 10, 2021",
-          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/98837e23cc8392d73e6155bda18f2be10.pdf"
-        },
-        {
-          "name": "City Council Agenda & Staff Report September 21, 2021",
-          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/7fae01514f5d9509435be742c201a26c0.pdf"
-        },
-        {
-          "name": "City Council Staff Agenda & Staff Report February 21, 2023",
-          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/5088c1b9229b307c05b520351afcad9e0.pdf"
-        }
-      ],
-      "status": "Final Action",
-      "description": "Development of an affordable housing project consisting of 300 affordable units to be built in two phases1 of 136 units and 164 units, , ground floor retail, amenity space, and parking. The project requires a Site Development Review Permit, Lot Line Adjustment, Community Benefit Agreement and Affordable Housing Agreement.",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "Development of an affordable housing project consisting of 300 affordable units to be built in two phases1 of 136 units and 164 units, , ground floor retail, amenity space, and parking. The applications include a Site Development Review Permit, Lot Line Adjustment and Community Benefit Agreement.",
       "images": [
         {
           "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/05/elelvation-scaled.jpg",
@@ -76,6 +63,119 @@
       }
     },
     "projectId": "projectdetail1380",
-    "timestamp": "1684627200000"
+    "timestamp": "1623808635000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1380",
+      "docs",
+      0
+    ],
+    "val": {
+      "name": "Planning Commission Staff Report August 10, 2021",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/98837e23cc8392d73e6155bda18f2be10.pdf"
+    },
+    "projectId": "projectdetail1380",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1380",
+      "status"
+    ],
+    "val": "Pubic Hearing",
+    "oldVal": "Application Under Review",
+    "projectId": "projectdetail1380",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1380",
+      "description"
+    ],
+    "val": "Development of an affordable housing project consisting of 300 affordable units to be built in two phases1 of 136 units and 164 units, , ground floor retail, amenity space, and parking. The project requires a Site Development Review Permit, Lot Line Adjustment, Community Benefit Agreement and Affordable Housing Agreement.",
+    "oldVal": "Development of an affordable housing project consisting of 300 affordable units to be built in two phases1 of 136 units and 164 units, , ground floor retail, amenity space, and parking. The applications include a Site Development Review Permit, Lot Line Adjustment and Community Benefit Agreement.",
+    "projectId": "projectdetail1380",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1380",
+      "status"
+    ],
+    "val": "Final Action",
+    "oldVal": "Pubic Hearing",
+    "projectId": "projectdetail1380",
+    "timestamp": "1638896136000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1380",
+      "details",
+      "Application Type"
+    ],
+    "val": "Site Development Review Permit, Lot Line Adjustment, Community Benefit Agreement and Affordable Housing Agreement",
+    "oldVal": "Site Development Review, Lot Line Adjustment and Community Benefit Agreement",
+    "projectId": "projectdetail1380",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1380",
+      "docs",
+      1
+    ],
+    "val": {
+      "name": "City Council Staff Report September 21, 2021",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/7fae01514f5d9509435be742c201a26c0.pdf"
+    },
+    "projectId": "projectdetail1380",
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1380",
+      "docs",
+      0,
+      "name"
+    ],
+    "val": "Planning Commission Agenda & Staff Report August 10, 2021",
+    "oldVal": "Planning Commission Staff Report August 10, 2021",
+    "projectId": "projectdetail1380",
+    "timestamp": "1677358639000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1380",
+      "docs",
+      1,
+      "name"
+    ],
+    "val": "City Council Agenda & Staff Report September 21, 2021",
+    "oldVal": "City Council Staff Report September 21, 2021",
+    "projectId": "projectdetail1380",
+    "timestamp": "1677358639000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1380",
+      "docs",
+      2
+    ],
+    "val": {
+      "name": "City Council Staff Agenda & Staff Report February 21, 2023",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/5088c1b9229b307c05b520351afcad9e0.pdf"
+    },
+    "projectId": "projectdetail1380",
+    "timestamp": "1677358639000"
   }
 ]

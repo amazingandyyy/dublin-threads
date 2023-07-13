@@ -70,8 +70,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7025863,
+        "lon": -121.9095385,
         "iconName": "dot",
         "title": "Volvo Cars of Dublin"
       }
@@ -150,8 +150,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7025863,
+        "lon": -121.9095385,
         "iconName": "dot",
         "title": "Volvo Cars of Dublin"
       }

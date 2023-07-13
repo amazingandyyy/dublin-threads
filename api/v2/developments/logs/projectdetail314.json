@@ -53,8 +53,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7105908,
+        "lon": -121.8634079,
         "iconName": "dot",
         "title": "Grafton Plaza – Residential"
       }
@@ -257,6 +257,30 @@
     "path": [
       "projectdetail314",
       "geolocation",
+      "lat"
+    ],
+    "val": 37.703461,
+    "oldVal": 37.7105908,
+    "projectId": "projectdetail314",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail314",
+      "geolocation",
+      "lon"
+    ],
+    "val": -121.864189,
+    "oldVal": -121.8634079,
+    "projectId": "projectdetail314",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail314",
+      "geolocation",
       "title"
     ],
     "val": "Grafton Plaza - Residential",
@@ -369,13 +393,74 @@
     "timestamp": "1513193626000"
   },
   {
+    "op": "update",
+    "path": [
+      "projectdetail314",
+      "title"
+    ],
+    "val": "Grafton Plaza – Apex Townhomes",
+    "oldVal": "Grafton Plaza - Residential",
+    "projectId": "projectdetail314",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail314",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Robert Smith - Associate Planner",
+    "oldVal": "Martha Battaglia - Associate Planner",
+    "projectId": "projectdetail314",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail314",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "robert.smith@dublin.ca.gov",
+    "oldVal": "martha.Battaglia@dublin.ca.gov",
+    "projectId": "projectdetail314",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail314",
+      "geolocation",
+      "iconName"
+    ],
+    "val": "building",
+    "oldVal": "dot",
+    "projectId": "projectdetail314",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail314",
+      "geolocation",
+      "title"
+    ],
+    "val": "Grafton Plaza – Apex Townhomes",
+    "oldVal": "Grafton Plaza - Residential",
+    "projectId": "projectdetail314",
+    "timestamp": "1596943340000"
+  },
+  {
     "op": "delete",
     "path": [
       "projectdetail314"
     ],
     "oldVal": {
       "id": "projectdetail314",
-      "title": "Grafton Plaza - Residential",
+      "title": "Grafton Plaza – Apex Townhomes",
       "details": {
         "Planning Application #": "PLPA-2015-00048",
         "Application Type": "PD Rezone with related Stage 2 Development Plan, Vesting Tentative Parcel Map, Site Development Review and Vesting Tentative Map for 115 condominiums",
@@ -393,9 +478,9 @@
           "phone": "(925) 983-4690"
         },
         "Project Planner": {
-          "name": "Martha Battaglia - Associate Planner",
+          "name": "Robert Smith - Associate Planner",
           "phone": "(925) 833-6610",
-          "email": "martha.Battaglia@dublin.ca.gov"
+          "email": "robert.smith@dublin.ca.gov"
         }
       },
       "location": "Grafton Street",
@@ -430,13 +515,13 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
-        "iconName": "dot",
-        "title": "Grafton Plaza - Residential"
+        "lat": 37.703461,
+        "lon": -121.864189,
+        "iconName": "building",
+        "title": "Grafton Plaza – Apex Townhomes"
       }
     },
     "projectId": "projectdetail314",
-    "timestamp": "1596943340000"
+    "timestamp": "1603056634000"
   }
 ]

@@ -48,8 +48,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7128547,
+        "lon": -121.940522,
         "iconName": "dot",
         "title": "St. Raymond’s Church"
       }
@@ -132,8 +132,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7128547,
+        "lon": -121.940522,
         "iconName": "dot",
         "title": "St. Raymond’s Church"
       }

@@ -63,8 +63,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7057949,
+        "lon": -121.8999557,
         "iconName": "dot",
         "title": "Dublin Station, Site A-3"
       }
@@ -173,8 +173,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7057949,
+        "lon": -121.8999557,
         "iconName": "dot",
         "title": "Dublin Station, Site A-3"
       }

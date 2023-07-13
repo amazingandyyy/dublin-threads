@@ -54,8 +54,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.708459,
+        "lon": -121.9310696,
         "iconName": "dot",
         "title": "Dublin Place SDR"
       }
@@ -225,8 +225,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.708459,
+        "lon": -121.9310696,
         "iconName": "dot",
         "title": "Dublin Place SDR"
       }

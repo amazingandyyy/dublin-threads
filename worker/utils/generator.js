@@ -1,5 +1,7 @@
 const { globSync } = require('glob')
-const { parseHtml, writeToFileForce, writeJsonToFileForce, absolutePath } = require('./index')
+const rdiff = require('recursive-diff')
+
+const { transformLogs, parseHtml, writeToFileForce, writeJsonToFileForce, absolutePath } = require('./index')
 
 const generateJson = async (datekey, html) => {
   const jsonData = await parseHtml(html)
@@ -16,5 +18,10 @@ const generateDateKeys = async () => {
   writeToFileForce(absolutePath('docs/archive/datekeys-latest.txt'), datekeysLatest)
 }
 
+const generateLogs = ({ oldData = {}, newData, timestamp }) => {
+  return transformLogs(rdiff.getDiff(oldData, newData, true), timestamp)
+}
+
 exports.generateJson = generateJson
 exports.generateDateKeys = generateDateKeys
+exports.generateLogs = generateLogs

@@ -56,8 +56,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7005278,
+        "lon": -121.9371665,
         "iconName": "dot",
         "title": "Heritage Park"
       }
@@ -148,8 +148,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7005278,
+        "lon": -121.9371665,
         "iconName": "dot",
         "title": "Heritage Park"
       }

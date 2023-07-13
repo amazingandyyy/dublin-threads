@@ -9,7 +9,7 @@
       "title": "Righetti Property",
       "details": {
         "Planning Application #": "PLPA-2021-00017",
-        "Application Type": "Planned Development Rezone, Vesting Tentative Parcel Map and Development Agreement",
+        "Application Type": "Planned Development Rezone, Vesting Tentative Map and Vesting Tentative Parcel Map",
         "Application Submittal Date": "04/28/2021",
         "General Plan Land Use": "Industrial Park, General Commercial/Campus Office and Medium Density Residential",
         "Specific Plan Area": "Eastern Dublin Specific Plan",
@@ -29,7 +29,7 @@
       "location": "Collier Canyon Road",
       "docs": [],
       "status": "Application Under Review",
-      "description": "The proposed project would establish zoning regulations and development standard for future development of up to 96 homes, approximately 372,350 square feet of industrial uses and approximately 321,125 square feet of campus office/light industrial uses. The proposed project would also subdivide the 49.6-acre site into four parcels to accommodate proposed residential and industrial development.",
+      "description": "An application for a Planned Development Rezone with a Stage 2 Development Plan, Vesting Tentative Map and Vesting Tentative Parcel Map for a residential neighborhood containing 78-96 units, general commercial and an industrial development with a maximum FAR of .4.",
       "images": [
         {
           "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/site-plan.jpg",
@@ -44,6 +44,66 @@
       }
     },
     "projectId": "projectdetail1378",
-    "timestamp": "1684627200000"
+    "timestamp": "1620311986000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1378",
+      "details",
+      "Application Type"
+    ],
+    "val": "Vesting Tentative Map",
+    "oldVal": "Planned Development Rezone, Vesting Tentative Map and Vesting Tentative Parcel Map",
+    "projectId": "projectdetail1378",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1378",
+      "description"
+    ],
+    "val": "An application for a Vesting Tentative Map would subdivide the 49.6-acre site into four parcels to accommodate proposed residential, industrial and commercial/campus office development.",
+    "oldVal": "An application for a Planned Development Rezone with a Stage 2 Development Plan, Vesting Tentative Map and Vesting Tentative Parcel Map for a residential neighborhood containing 78-96 units, general commercial and an industrial development with a maximum FAR of .4.",
+    "projectId": "projectdetail1378",
+    "timestamp": "1660778458000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1378",
+      "details",
+      "Application Type"
+    ],
+    "val": "Planned Development Rezone, Vesting Tentative Parcel Map and Development Agreement",
+    "oldVal": "Vesting Tentative Map",
+    "projectId": "projectdetail1378",
+    "timestamp": "1684710307000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1378",
+      "description"
+    ],
+    "val": "The proposed project would establish zoning regulations and development standard for future development of up to 96 homes, approximately 372,350 square feet of industrial uses and approximately 321,125 square feet of campus office/light industrial uses. The proposed project would also subdivide the 49.6-acre site into four parcels to accommodate proposed residential and industrial development.",
+    "oldVal": "An application for a Vesting Tentative Map would subdivide the 49.6-acre site into four parcels to accommodate proposed residential, industrial and commercial/campus office development.",
+    "projectId": "projectdetail1378",
+    "timestamp": "1684710307000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1378",
+      "docs",
+      0
+    ],
+    "val": {
+      "name": "Righetti Community Meeting Presentation June 21 and 22, 2023",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Righetti-Community-Meeting-Presentation.pdf"
+    },
+    "projectId": "projectdetail1378",
+    "timestamp": "1689109200000"
   }
 ]

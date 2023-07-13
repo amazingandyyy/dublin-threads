@@ -24,9 +24,9 @@
           "phone": "650-350-9471"
         },
         "Project Planner": {
-          "name": "Amy MIllion - Principal Planner",
+          "name": "Mayank Patel - Associate Planner",
           "phone": "(925) 833-6610",
-          "email": "amy.million@dublin.ca.gov"
+          "email": "mayank.patel@dublin.ca.gov"
         }
       },
       "location": "7145 Dublin Boulevard",
@@ -47,6 +47,32 @@
       }
     },
     "projectId": "projectdetail1461",
-    "timestamp": "1684627200000"
+    "timestamp": "1651972572000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Amy MIllion - Principal Planner",
+    "oldVal": "Mayank Patel - Associate Planner",
+    "projectId": "projectdetail1461",
+    "timestamp": "1656420658000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "amy.million@dublin.ca.gov",
+    "oldVal": "mayank.patel@dublin.ca.gov",
+    "projectId": "projectdetail1461",
+    "timestamp": "1656420658000"
   }
 ]

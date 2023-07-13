@@ -45,8 +45,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7097901,
+        "lon": -121.8676244,
         "iconName": "dot",
         "title": "Jordan Ranch – Neighborhood 6 (Kingswood)"
       }
@@ -127,6 +127,30 @@
     "path": [
       "projectdetail156",
       "geolocation",
+      "lat"
+    ],
+    "val": 37.709235,
+    "oldVal": 37.7097901,
+    "projectId": "projectdetail156",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail156",
+      "geolocation",
+      "lon"
+    ],
+    "val": -121.843647,
+    "oldVal": -121.8676244,
+    "projectId": "projectdetail156",
+    "timestamp": "1492908897000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail156",
+      "geolocation",
       "title"
     ],
     "val": "Jordan Ranch - Neighborhood 6 (Kingswood)",
@@ -183,8 +207,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.709235,
+        "lon": -121.843647,
         "iconName": "dot",
         "title": "Jordan Ranch - Neighborhood 6 (Kingswood)"
       }

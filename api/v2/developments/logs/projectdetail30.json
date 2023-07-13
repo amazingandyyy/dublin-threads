@@ -46,8 +46,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7047196,
+        "lon": -121.8892569,
         "iconName": "dot",
         "title": "IKEA Retail Center"
       }
@@ -280,6 +280,30 @@
     "op": "update",
     "path": [
       "projectdetail30",
+      "geolocation",
+      "lat"
+    ],
+    "val": 37.703202,
+    "oldVal": 37.7047196,
+    "projectId": "projectdetail30",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail30",
+      "geolocation",
+      "lon"
+    ],
+    "val": -121.891374,
+    "oldVal": -121.8892569,
+    "projectId": "projectdetail30",
+    "timestamp": "1513193626000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail30",
       "details",
       "Application Type"
     ],
@@ -444,6 +468,18 @@
     "timestamp": "1537002007000"
   },
   {
+    "op": "update",
+    "path": [
+      "projectdetail30",
+      "geolocation",
+      "iconName"
+    ],
+    "val": "shoppingBasket",
+    "oldVal": "dot",
+    "projectId": "projectdetail30",
+    "timestamp": "1596943340000"
+  },
+  {
     "op": "delete",
     "path": [
       "projectdetail30"
@@ -544,13 +580,13 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
-        "iconName": "dot",
+        "lat": 37.703202,
+        "lon": -121.891374,
+        "iconName": "shoppingBasket",
         "title": "IKEA Retail Center"
       }
     },
     "projectId": "projectdetail30",
-    "timestamp": "1596943340000"
+    "timestamp": "1656420658000"
   }
 ]

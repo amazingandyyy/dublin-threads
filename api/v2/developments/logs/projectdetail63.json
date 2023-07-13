@@ -72,8 +72,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.70358,
+        "lon": -121.85688,
         "iconName": "dot",
         "title": "Kaiser Medical Center"
       }
@@ -330,8 +330,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.70358,
+        "lon": -121.85688,
         "iconName": "dot",
         "title": "Kaiser Medical Center"
       }

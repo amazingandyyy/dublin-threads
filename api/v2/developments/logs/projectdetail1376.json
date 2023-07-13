@@ -9,7 +9,7 @@
       "title": "Branaugh Property",
       "details": {
         "Planning Application #": "PLPA-2021-00014",
-        "Application Type": "Planned Development Rezone, Vesting Tentative Parcel Map and Development Agreement",
+        "Application Type": "Planned Development Rezone and Vesting Tentative Parcel Map",
         "Application Submittal Date": "04/09/2021",
         "General Plan Land Use": "Industrial Park and Medium Density Residential",
         "Specific Plan Area": "Eastern Dublin Specific Plan",
@@ -27,26 +27,9 @@
         }
       },
       "location": "1881 Collier Canyon Road",
-      "docs": [
-        {
-          "name": "Community Meeting Presentation – September 7 and 8, 2022",
-          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Branaugh-Community-Meeting.pdf"
-        },
-        {
-          "name": "Planning Commission February 14, 2023 Agenda & Staff Report",
-          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/77b811760eed31d35dfbf572050421460.pdf"
-        },
-        {
-          "name": "City Council March 7, 2023 Agenda & Staff Report",
-          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/9d4068b2cf517f383ba5ae192d525da60.pdf"
-        },
-        {
-          "name": "City Council March 21, 2023 Agenda & Staff Report",
-          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/f6744b069b688dffc38eca78f1e3a8d90.pdf"
-        }
-      ],
-      "status": "Final Action",
-      "description": "Planned Development Rezone with a Stage 2 Development Plan and Vesting Tentative Parcel Map for a residential neighborhood containing 78-97 units and an industrial development with a maximum FAR of .40",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "Planned Development Rezone with a Stage 2 Development Plan and Vesting Tentative Parcel Map for a residential neighborhood containing 78-97 units and an industrial development with a maximum FAR of .4",
       "images": [
         {
           "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/site-plan-image.jpg",
@@ -61,6 +44,107 @@
       }
     },
     "projectId": "projectdetail1376",
-    "timestamp": "1684627200000"
+    "timestamp": "1620311986000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1376",
+      "details",
+      "Application Type"
+    ],
+    "val": "Planned Development Rezone, Vesting Tentative Parcel Map and Development Agreement",
+    "oldVal": "Planned Development Rezone and Vesting Tentative Parcel Map",
+    "projectId": "projectdetail1376",
+    "timestamp": "1662627287000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1376",
+      "description"
+    ],
+    "val": "Planned Development Rezone with a Stage 2 Development Plan and Vesting Tentative Parcel Map for a residential neighborhood containing 78-97 units and an industrial development with a maximum FAR of .40",
+    "oldVal": "Planned Development Rezone with a Stage 2 Development Plan and Vesting Tentative Parcel Map for a residential neighborhood containing 78-97 units and an industrial development with a maximum FAR of .4",
+    "projectId": "projectdetail1376",
+    "timestamp": "1662627287000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1376",
+      "docs",
+      0
+    ],
+    "val": {
+      "name": "Community Meeting Presentation – September 7 and 8, 2022",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Branaugh-Community-Meeting.pdf"
+    },
+    "projectId": "projectdetail1376",
+    "timestamp": "1664716746000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1376",
+      "docs",
+      1
+    ],
+    "val": {
+      "name": "Planning Commission February 14, 2023 Agenda & Staff Report",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/77b811760eed31d35dfbf572050421460.pdf"
+    },
+    "projectId": "projectdetail1376",
+    "timestamp": "1677358639000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1376",
+      "status"
+    ],
+    "val": "Pubic Hearing",
+    "oldVal": "Application Under Review",
+    "projectId": "projectdetail1376",
+    "timestamp": "1677358639000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1376",
+      "docs",
+      2
+    ],
+    "val": {
+      "name": "City Council March 7, 2023 Agenda & Staff Report",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/9d4068b2cf517f383ba5ae192d525da60.pdf"
+    },
+    "projectId": "projectdetail1376",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1376",
+      "docs",
+      3
+    ],
+    "val": {
+      "name": "City Council March 21, 2023 Agenda & Staff Report",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/f6744b069b688dffc38eca78f1e3a8d90.pdf"
+    },
+    "projectId": "projectdetail1376",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1376",
+      "status"
+    ],
+    "val": "Final Action",
+    "oldVal": "Pubic Hearing",
+    "projectId": "projectdetail1376",
+    "timestamp": "1679857046000"
   }
 ]

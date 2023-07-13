@@ -47,8 +47,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7054863,
+        "lon": -121.8589039,
         "iconName": "dot",
         "title": "Westport – Dublin Ranch (Lot 3)"
       }
@@ -153,8 +153,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7054863,
+        "lon": -121.8589039,
         "iconName": "dot",
         "title": "Westport - Dublin Ranch (Lot 3)"
       }

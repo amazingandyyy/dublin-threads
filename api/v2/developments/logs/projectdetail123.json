@@ -49,8 +49,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.701844,
+        "lon": -121.925486,
         "iconName": "dot",
         "title": "Fountainhead Montessori"
       }
@@ -163,6 +163,70 @@
     "timestamp": "1513193626000"
   },
   {
+    "op": "update",
+    "path": [
+      "projectdetail123",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Robert Smith - Associate Planner",
+    "oldVal": "Martha Battaglia - Associate Planner",
+    "projectId": "projectdetail123",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail123",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "robert.smith@dublin.ca.gov",
+    "oldVal": "martha.battaglia@dublin.ca.gov",
+    "projectId": "projectdetail123",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail123",
+      "geolocation",
+      "iconName"
+    ],
+    "val": "building",
+    "oldVal": "dot",
+    "projectId": "projectdetail123",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail123",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Planning Division",
+    "oldVal": "Robert Smith - Associate Planner",
+    "projectId": "projectdetail123",
+    "timestamp": "1632816331000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail123",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "planningpermits@dublin.ca.gov",
+    "oldVal": "robert.smith@dublin.ca.gov",
+    "projectId": "projectdetail123",
+    "timestamp": "1632816331000"
+  },
+  {
     "op": "delete",
     "path": [
       "projectdetail123"
@@ -188,9 +252,9 @@
           "phone": "(925) 930-9690"
         },
         "Project Planner": {
-          "name": "Martha Battaglia - Associate Planner",
+          "name": "Planning Division",
           "phone": "(925) 833-6610",
-          "email": "martha.battaglia@dublin.ca.gov"
+          "email": "planningpermits@dublin.ca.gov"
         }
       },
       "location": "6665 Amador Plaza Road",
@@ -212,13 +276,13 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
-        "iconName": "dot",
+        "lat": 37.701844,
+        "lon": -121.925486,
+        "iconName": "building",
         "title": "Fountainhead Montessori"
       }
     },
     "projectId": "projectdetail123",
-    "timestamp": "1596943340000"
+    "timestamp": "1677358639000"
   }
 ]

@@ -1,0 +1,54 @@
+name: generate api data from archives
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: "0 */6 * * *" #  “every 6 hours”
+  workflow_dispatch:
+
+jobs:
+  update-api:
+    permissions:
+      contents: write
+    name: update api
+    runs-on: ubuntu-latest
+    steps:
+      - name: use node 17
+        uses: actions/setup-node@v1
+        with:
+          node-version: 17.x
+
+      - uses: actions/checkout@v3
+      - name: set timezone to America/Los_Angeles
+        uses: szenius/set-timezone@v1.2
+        with:
+          timezoneLinux: "America/Los_Angeles"
+          timezoneMacos: "America/Los_Angeles"
+      - name: list files
+        run: tree -L 3 .
+
+      - name: install node dependencies
+        working-directory: ./worker
+        run: npm install
+
+      - name: take a snapshot&json
+        working-directory: ./worker
+        run: npm run pipeline:api
+
+      - name: check for modified files
+        id: git-check
+        run: echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ]; then echo "true"; else echo "false"; fi)
+
+      - name: commit
+        if: steps.git-check.outputs.modified == 'true'
+        run:  |
+          current=$(date)
+          git config --global user.name 'bot'
+          git config --global user.email 'dublin-ca@amazingandyyy.com'
+          git status
+          git add -A
+          echo $current
+          git commit -m 'feat(data): update api' -m "$current"
+          git push
+  

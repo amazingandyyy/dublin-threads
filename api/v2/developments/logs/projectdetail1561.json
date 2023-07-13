@@ -1,1 +1,232 @@
-[]
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1561"
+    ],
+    "val": {
+      "id": "projectdetail1561",
+      "title": "East Ranch SDR – N3, 5 & 6",
+      "details": {
+        "Planning Application #": "PLPA-2022-00034",
+        "Application Type": "Site Development Review Permit",
+        "Application Submittal Date": "09/28/2022",
+        "General Plan Land Use": "LDR, MDR, OS, NP, P/SP, RR/A",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Ordinance No. 32-05 and Ordinance No. 45-08",
+        "Project Area": "165.5 acres",
+        "Stories/Height": "3 stories / 40 feet",
+        "Parking Provided": "1420 parking spaces",
+        "Applicant": {
+          "name": "Pam Nieting, Trumark Homes",
+          "address": "3001 Bishop Dr. Ste 100, San Ramon, CA 94583",
+          "phone": "925-787-1321"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "4038 Croak Road",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "Site Development Review Permit for Neighborhoods 3, 5 and 6 for the East Ranch project.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N3-Site-Plan-r.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N3-Site-Plan-r-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N3-Elevations-2-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N3-Elevations-2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N3-Elevations-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N3-Elevations-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N5-Site-Plan-r.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N5-Site-Plan-r-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N5-Elevation-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N5-Elevation-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N5-Elevation-2-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N5-Elevation-2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N6-Site-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N6-Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N6-4plex-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N6-4plex-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N6-3plex-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N6-3plex-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N6-duets-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N6-duets-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.710311,
+        "lon": -121.836528,
+        "iconName": "dot",
+        "title": "East Ranch SDR – N3, 5 & 6"
+      }
+    },
+    "projectId": "projectdetail1561",
+    "timestamp": "1666455913000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1561",
+      "details",
+      "Planning Application #"
+    ],
+    "val": "PLPA-2022-00018",
+    "oldVal": "PLPA-2022-00034",
+    "projectId": "projectdetail1561",
+    "timestamp": "1675188073000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1561",
+      "docs",
+      0
+    ],
+    "val": {
+      "name": "Planning Commission February 14, 2023 Study Session Agenda & Staff Report",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/77b811760eed31d35dfbf572050421460.pdf"
+    },
+    "projectId": "projectdetail1561",
+    "timestamp": "1677358639000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1561",
+      "docs",
+      1
+    ],
+    "val": {
+      "name": "Planning Commission March 14, 2023 Agenda & Staff Report",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/b5fd52e531bac3e85e83c15545413b0d0.pdf"
+    },
+    "projectId": "projectdetail1561",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1561",
+      "status"
+    ],
+    "val": "Final Action",
+    "oldVal": "Application Under Review",
+    "projectId": "projectdetail1561",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1561"
+    ],
+    "oldVal": {
+      "id": "projectdetail1561",
+      "title": "East Ranch SDR – N3, 5 & 6",
+      "details": {
+        "Planning Application #": "PLPA-2022-00018",
+        "Application Type": "Site Development Review Permit",
+        "Application Submittal Date": "09/28/2022",
+        "General Plan Land Use": "LDR, MDR, OS, NP, P/SP, RR/A",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Ordinance No. 32-05 and Ordinance No. 45-08",
+        "Project Area": "165.5 acres",
+        "Stories/Height": "3 stories / 40 feet",
+        "Parking Provided": "1420 parking spaces",
+        "Applicant": {
+          "name": "Pam Nieting, Trumark Homes",
+          "address": "3001 Bishop Dr. Ste 100, San Ramon, CA 94583",
+          "phone": "925-787-1321"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "4038 Croak Road",
+      "docs": [
+        {
+          "name": "Planning Commission February 14, 2023 Study Session Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/77b811760eed31d35dfbf572050421460.pdf"
+        },
+        {
+          "name": "Planning Commission March 14, 2023 Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/b5fd52e531bac3e85e83c15545413b0d0.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Site Development Review Permit for Neighborhoods 3, 5 and 6 for the East Ranch project.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N3-Site-Plan-r.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N3-Site-Plan-r-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N3-Elevations-2-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N3-Elevations-2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N3-Elevations-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N3-Elevations-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N5-Site-Plan-r.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N5-Site-Plan-r-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N5-Elevation-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N5-Elevation-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N5-Elevation-2-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N5-Elevation-2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N6-Site-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N6-Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N6-4plex-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N6-4plex-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N6-3plex-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N6-3plex-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N6-duets-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/10/N6-duets-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.710311,
+        "lon": -121.836528,
+        "iconName": "dot",
+        "title": "East Ranch SDR – N3, 5 & 6"
+      }
+    },
+    "projectId": "projectdetail1561",
+    "timestamp": "1684710307000"
+  }
+]

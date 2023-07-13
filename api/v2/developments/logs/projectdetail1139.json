@@ -1,1 +1,295 @@
-[]
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1139"
+    ],
+    "val": {
+      "id": "projectdetail1139",
+      "title": "Tru Hotel and Element Hotel",
+      "details": {
+        "Planning Application #": "PLPA-2019-00028",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "07/19/2019",
+        "General Plan Land Use": "Medical Campus/Commercial",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Ord 03-19",
+        "Project Area": "5.75 acres acres",
+        "Building Area": "84,476 – Element Hotel and 53,873 – Tru Hotel square feet",
+        "Foor Area Ratio": "0.6 FAR",
+        "Stories/Height": "6 stories / 70 feet",
+        "Parking Provided": "322 parking spaces",
+        "Applicant": {
+          "name": "Kevin Fryer",
+          "address": "Mission Valley Homes",
+          "phone": "925-899-5065"
+        },
+        "Project Planner": {
+          "name": "Robert Smith - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "robert.smith@dublin.ca.gov"
+        }
+      },
+      "location": "Dublin Boulevard (APN: 985-0061-005-00)",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "Site Development Review permit for two new hotels and an area for a future pad building development on an existing vacant lot, including one 84,476 sf hotel of five stories at seventy (70’) feet high, with 129 rooms, known as Element Hotel; one 53,873 sf hotel of six stories, at sixty seven (67’) feet high, including 120 rooms, known as Tru Hotel; and a pad for future development of seventy one (71’) feet by seventy one (71’) feet. The proposal includes 322 parking spaces, circulation, landscaping and site improvements.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Visualization-front-elevations.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Visualization-front-elevations-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Visualization-front-elevation-element.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Visualization-front-elevation-element-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Site-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Element-elevatino-02.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Element-elevatino-02-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Element-elevation-01.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Element-elevation-01-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Landscape.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Landscape-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.702863,
+        "lon": -121.861126,
+        "iconName": "hotel",
+        "title": "Tru Hotel and Element Hotel"
+      }
+    },
+    "projectId": "projectdetail1139",
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1139",
+      "description"
+    ],
+    "val": "Site Development Review permit for two new hotels and an area for a future pad building development on an existing vacant lot, including one 84,890 sf hotel of five stories at sixty (60’) feet high, with 129 rooms, known as Element Hotel; one 53,873 sf hotel of five stories, at fifty seven (57’) feet high, including 120 rooms, known as Tru Hotel. The proposal includes 312 parking spaces, circulation, landscaping and site improvements.",
+    "oldVal": "Site Development Review permit for two new hotels and an area for a future pad building development on an existing vacant lot, including one 84,476 sf hotel of five stories at seventy (70’) feet high, with 129 rooms, known as Element Hotel; one 53,873 sf hotel of six stories, at sixty seven (67’) feet high, including 120 rooms, known as Tru Hotel; and a pad for future development of seventy one (71’) feet by seventy one (71’) feet. The proposal includes 322 parking spaces, circulation, landscaping and site improvements.",
+    "projectId": "projectdetail1139",
+    "timestamp": "1614287575000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1139",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide1.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Visualization-front-elevations.jpg",
+    "projectId": "projectdetail1139",
+    "timestamp": "1614287575000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1139",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide1-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Visualization-front-elevations-150x150.jpg",
+    "projectId": "projectdetail1139",
+    "timestamp": "1614287575000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1139",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide2.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Visualization-front-elevation-element.jpg",
+    "projectId": "projectdetail1139",
+    "timestamp": "1614287575000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1139",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide2-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Visualization-front-elevation-element-150x150.jpg",
+    "projectId": "projectdetail1139",
+    "timestamp": "1614287575000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1139",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide3.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Site-Plan.jpg",
+    "projectId": "projectdetail1139",
+    "timestamp": "1614287575000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1139",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide3-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Site-Plan-150x150.jpg",
+    "projectId": "projectdetail1139",
+    "timestamp": "1614287575000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1139",
+      "images",
+      3,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide4.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Element-elevatino-02.jpg",
+    "projectId": "projectdetail1139",
+    "timestamp": "1614287575000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1139",
+      "images",
+      3,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide4-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Element-elevatino-02-150x150.jpg",
+    "projectId": "projectdetail1139",
+    "timestamp": "1614287575000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1139",
+      "images",
+      4,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide5.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Element-elevation-01.jpg",
+    "projectId": "projectdetail1139",
+    "timestamp": "1614287575000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1139",
+      "images",
+      4,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide5-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Element-elevation-01-150x150.jpg",
+    "projectId": "projectdetail1139",
+    "timestamp": "1614287575000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1139",
+      "images",
+      5
+    ],
+    "oldVal": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Landscape.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Landscape-150x150.jpg"
+    },
+    "projectId": "projectdetail1139",
+    "timestamp": "1614287575000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1139"
+    ],
+    "oldVal": {
+      "id": "projectdetail1139",
+      "title": "Tru Hotel and Element Hotel",
+      "details": {
+        "Planning Application #": "PLPA-2019-00028",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "07/19/2019",
+        "General Plan Land Use": "Medical Campus/Commercial",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Ord 03-19",
+        "Project Area": "5.75 acres acres",
+        "Building Area": "84,476 – Element Hotel and 53,873 – Tru Hotel square feet",
+        "Foor Area Ratio": "0.6 FAR",
+        "Stories/Height": "6 stories / 70 feet",
+        "Parking Provided": "322 parking spaces",
+        "Applicant": {
+          "name": "Kevin Fryer",
+          "address": "Mission Valley Homes",
+          "phone": "925-899-5065"
+        },
+        "Project Planner": {
+          "name": "Robert Smith - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "robert.smith@dublin.ca.gov"
+        }
+      },
+      "location": "Dublin Boulevard (APN: 985-0061-005-00)",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "Site Development Review permit for two new hotels and an area for a future pad building development on an existing vacant lot, including one 84,890 sf hotel of five stories at sixty (60’) feet high, with 129 rooms, known as Element Hotel; one 53,873 sf hotel of five stories, at fifty seven (57’) feet high, including 120 rooms, known as Tru Hotel. The proposal includes 312 parking spaces, circulation, landscaping and site improvements.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide1.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide2.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide3.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide3-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide4.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide4-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide5.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide5-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.702863,
+        "lon": -121.861126,
+        "iconName": "hotel",
+        "title": "Tru Hotel and Element Hotel"
+      }
+    },
+    "projectId": "projectdetail1139",
+    "timestamp": "1620311986000"
+  }
+]

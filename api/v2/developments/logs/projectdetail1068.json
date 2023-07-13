@@ -6,11 +6,11 @@
     ],
     "val": {
       "id": "projectdetail1068",
-      "title": "BASIS Independent School (Corrie Center)",
+      "title": "Corrie Center SDR (Office Building)",
       "details": {
-        "Planning Application #": "PLPA-2023-00011",
-        "Application Type": "Conditional Use Permit and Site Development Review",
-        "Application Submittal Date": "08/05/2022",
+        "Planning Application #": "PLPA-2019-00019",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "06/17/2019",
         "General Plan Land Use": "Downtown Dublin - Transit Oriented District",
         "Specific Plan Area": "Downtown Dublin Specific Plan",
         "Zoning": "Downtown Dublin Zoning District - DDZD",
@@ -21,49 +21,399 @@
           "phone": "925-980-7875"
         },
         "Project Planner": {
-          "name": "Linda Ajello - Senior Planner",
+          "name": "Amy Million - Principal Planner",
           "phone": "(925) 833-6610",
-          "email": "linda.ajello@dublin.ca.gov"
+          "email": "amy.million@dublin.ca.gov"
         }
       },
-      "location": "7950 Dublin Boulevard",
+      "location": "7944 Dublin Boulevard",
       "docs": [],
-      "status": "Pubic Hearing",
-      "description": "The property owner, Jerry Hunt of VP RPG Dublin, LLC, submitted an application on behalf of BASIS Independent School to operate a private school serving up to 800 middle and high school students, construct façade improvements to the existing 81,985 square foot office building which will be converted to a school, and construct a 9,134 square foot gymnasium building, outdoor recreational play field, trash enclosure, and associated site improvements. Requested approvals include a Conditional Use Permit and Site Development Review Permit.",
+      "status": "Final Action",
+      "description": "Site Development Review Permit to remodel the existing office building and related improvements to landscaping and parking.",
       "images": [
         {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Rendering-1-scaled.jpg",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Rendering-1-150x150.jpg"
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/front-facade-e1561735734452.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/front-facade-e1561735734452-150x150.jpg"
         },
         {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Renderings-2-scaled.jpg",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Renderings-2-150x150.jpg"
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/elevation2.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/elevation2-150x150.jpg"
         },
         {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Renderings-3_Page_3-scaled.jpg",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Renderings-3_Page_3-150x150.jpg"
-        },
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Site-Plan-scaled.jpg",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Site-Plan-150x150.jpg"
-        },
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_1-scaled.jpg",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_1-150x150.jpg"
-        },
-        {
-          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_2-scaled.jpg",
-          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_2-150x150.jpg"
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/elevation.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/elevation-150x150.jpg"
         }
       ],
       "geolocation": {
         "lat": 37.701316,
         "lon": -121.935041,
         "iconName": "building",
-        "title": "BASIS Independent School (Corrie Center)"
+        "title": "Corrie Center SDR (Office Building)"
       }
     },
     "projectId": "projectdetail1068",
-    "timestamp": "1684627200000"
+    "timestamp": "1596943340000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "title"
+    ],
+    "val": "BASIS Independent School (Corrie Office Building)",
+    "oldVal": "Corrie Center SDR (Office Building)",
+    "projectId": "projectdetail1068",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "details",
+      "Planning Application #"
+    ],
+    "val": "PLPA-2022-00026",
+    "oldVal": "PLPA-2019-00019",
+    "projectId": "projectdetail1068",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "details",
+      "Application Type"
+    ],
+    "val": "Conditional Use Permit and Site Development Review",
+    "oldVal": "Site Development Review",
+    "projectId": "projectdetail1068",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "details",
+      "Application Submittal Date"
+    ],
+    "val": "08/05/2022",
+    "oldVal": "06/17/2019",
+    "projectId": "projectdetail1068",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Linda Ajello - Senior Planner",
+    "oldVal": "Amy Million - Principal Planner",
+    "projectId": "projectdetail1068",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "linda.ajello@dublin.ca.gov",
+    "oldVal": "amy.million@dublin.ca.gov",
+    "projectId": "projectdetail1068",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "location"
+    ],
+    "val": "7950 Dublin Boulevard",
+    "oldVal": "7944 Dublin Boulevard",
+    "projectId": "projectdetail1068",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "status"
+    ],
+    "val": "Pre-Application",
+    "oldVal": "Final Action",
+    "projectId": "projectdetail1068",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "description"
+    ],
+    "val": "The Applicant is proposing to convert the existing Corrie Center office building to an Institutional Use (dba BASIS Independent School) and construct an approximately 9,164 gross square foot gymnasium and synthetic playfield within the surface parking lot on the south side of the office building. Landscaping and other site improvements are proposed as part of the project.",
+    "oldVal": "Site Development Review Permit to remodel the existing office building and related improvements to landscaping and parking.",
+    "projectId": "projectdetail1068",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Rendering-1-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/front-facade-e1561735734452.jpg",
+    "projectId": "projectdetail1068",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Rendering-1-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/front-facade-e1561735734452-150x150.jpg",
+    "projectId": "projectdetail1068",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Renderings-2-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/elevation2.jpg",
+    "projectId": "projectdetail1068",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Renderings-2-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/elevation2-150x150.jpg",
+    "projectId": "projectdetail1068",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Renderings-3_Page_3-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/elevation.jpg",
+    "projectId": "projectdetail1068",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Renderings-3_Page_3-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/elevation-150x150.jpg",
+    "projectId": "projectdetail1068",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "geolocation",
+      "title"
+    ],
+    "val": "BASIS Independent School (Corrie Office Building)",
+    "oldVal": "Corrie Center SDR (Office Building)",
+    "projectId": "projectdetail1068",
+    "timestamp": "1679857046000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "title"
+    ],
+    "val": "BASIS Independent School (Corrie Center)",
+    "oldVal": "BASIS Independent School (Corrie Office Building)",
+    "projectId": "projectdetail1068",
+    "timestamp": "1684710307000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "details",
+      "Planning Application #"
+    ],
+    "val": "PLPA-2023-00011",
+    "oldVal": "PLPA-2022-00026",
+    "projectId": "projectdetail1068",
+    "timestamp": "1684710307000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "status"
+    ],
+    "val": "Pubic Hearing",
+    "oldVal": "Pre-Application",
+    "projectId": "projectdetail1068",
+    "timestamp": "1684710307000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "description"
+    ],
+    "val": "The property owner, Jerry Hunt of VP RPG Dublin, LLC, submitted an application on behalf of BASIS Independent School to operate a private school serving up to 800 middle and high school students, construct façade improvements to the existing 81,985 square foot office building which will be converted to a school, and construct a 9,134 square foot gymnasium building, outdoor recreational play field, trash enclosure, and associated site improvements. Requested approvals include a Conditional Use Permit and Site Development Review Permit.",
+    "oldVal": "The Applicant is proposing to convert the existing Corrie Center office building to an Institutional Use (dba BASIS Independent School) and construct an approximately 9,164 gross square foot gymnasium and synthetic playfield within the surface parking lot on the south side of the office building. Landscaping and other site improvements are proposed as part of the project.",
+    "projectId": "projectdetail1068",
+    "timestamp": "1684710307000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1068",
+      "images",
+      3
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Site-Plan-scaled.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Site-Plan-150x150.jpg"
+    },
+    "projectId": "projectdetail1068",
+    "timestamp": "1684710307000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1068",
+      "images",
+      4
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_1-scaled.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_1-150x150.jpg"
+    },
+    "projectId": "projectdetail1068",
+    "timestamp": "1684710307000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1068",
+      "images",
+      5
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_2-scaled.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_2-150x150.jpg"
+    },
+    "projectId": "projectdetail1068",
+    "timestamp": "1684710307000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "geolocation",
+      "title"
+    ],
+    "val": "BASIS Independent School (Corrie Center)",
+    "oldVal": "BASIS Independent School (Corrie Office Building)",
+    "projectId": "projectdetail1068",
+    "timestamp": "1684710307000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1068",
+      "docs",
+      0
+    ],
+    "val": {
+      "name": "PC Staff Report – Basis School",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/PC-Staff-Report-Basis-School.pdf"
+    },
+    "projectId": "projectdetail1068",
+    "timestamp": "1689109200000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1068",
+      "docs",
+      1
+    ],
+    "val": {
+      "name": "Attachment 1 – Resolution BASIS Independent School PLPA2023-00011",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Attachment-1-Resolution-BASIS-Independent-School-PLPA2023-00011.pdf"
+    },
+    "projectId": "projectdetail1068",
+    "timestamp": "1689109200000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1068",
+      "docs",
+      2
+    ],
+    "val": {
+      "name": "Attachment – 4 Traffic Impact Study prepared by W-Trans, dated March 21, 2023",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Attachment-4-Traffic-Impact-Study-prepared-by-W-Trans-dated-March-21-2023.pdf"
+    },
+    "projectId": "projectdetail1068",
+    "timestamp": "1689109200000"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1068",
+      "docs",
+      3
+    ],
+    "val": {
+      "name": "Attachment 3 – BASIS Independent School Traffic and Parking Management Plan",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Attachment-3-BASIS-Independent-School-Traffic-and-Parking-Management-Plan.pdf"
+    },
+    "projectId": "projectdetail1068",
+    "timestamp": "1689109200000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "status"
+    ],
+    "val": "Final Action",
+    "oldVal": "Pubic Hearing",
+    "projectId": "projectdetail1068",
+    "timestamp": "1689109200000"
   }
 ]

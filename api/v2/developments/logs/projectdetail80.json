@@ -38,8 +38,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.70253,
+        "lon": -121.927787,
         "iconName": "dot",
         "title": "Bay West Mixed Use Project"
       }
@@ -109,8 +109,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.70253,
+        "lon": -121.927787,
         "iconName": "dot",
         "title": "Aster (Bay West Mixed Use Project)"
       }

@@ -85,8 +85,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7036335,
+        "lon": -121.9352966,
         "iconName": "dot",
         "title": "Trumark-Regional Street"
       }
@@ -476,8 +476,8 @@
         }
       ],
       "geolocation": {
-        "lat": null,
-        "lon": null,
+        "lat": 37.7036335,
+        "lon": -121.9352966,
         "iconName": "dot",
         "title": "The Perch at Downtown Dublin"
       }
