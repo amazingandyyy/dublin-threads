@@ -3,7 +3,7 @@ const { absolutePath, writeJsonToFileForce } = require('../utils')
 const { generateLogs } = require('../utils/generator')
 
 const apiVersion = 'v2'
-const apiPath = `api/${apiVersion}`
+const apiPath = `docs/api/${apiVersion}`
 
 const getDateKeys = async () => {
   return require(absolutePath('docs/archive/datekeys.json'))
