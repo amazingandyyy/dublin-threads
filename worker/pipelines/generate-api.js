@@ -3,6 +3,7 @@ const { absolutePath, writeJsonToFileForce } = require('../utils')
 const { generateLogs } = require('../utils/generator')
 
 const apiVersion = 'v2'
+const apiPath = `api/${apiVersion}`
 
 const getDateKeys = async () => {
   return require(absolutePath('docs/archive/datekeys.json'))
@@ -25,23 +26,23 @@ const getAllProjectIds = async (datekeys) => {
 
 async function generateProjectIds (datekeys, opts) {
   const allProjectIds = await getAllProjectIds(datekeys)
-  if (opts.metadata) writeJsonToFileForce(absolutePath(`api/${apiVersion}/developments/metadata/projectIds.json`), allProjectIds)
+  if (opts.metadata) writeJsonToFileForce(absolutePath(`${apiPath}/developments/metadata/projectIds.json`), allProjectIds)
   return allProjectIds
 }
 
 async function generateLogsByProjectId (allLogs, ids) {
   ids.forEach((projectId) => {
     const projectdetail = _.filter(allLogs, { projectId }).sort((a, b) => a.timestamp - b.timestamp) // from oldest to newest
-    writeJsonToFileForce(absolutePath(`api/${apiVersion}/developments/logs/${projectId}.json`), projectdetail)
+    writeJsonToFileForce(absolutePath(`${apiPath}/developments/logs/${projectId}.json`), projectdetail)
   })
 }
 
 async function generateSnapshotByProjectId (datekeys) {
   datekeys.forEach((datekey) => {
     const snapshot = require(absolutePath(`docs/archive/${datekey}/dublin-development.icitywork.com/snapshot.json`))
-    writeJsonToFileForce(absolutePath(`api/${apiVersion}/developments/snapshots/${datekey}.json`), snapshot)
+    writeJsonToFileForce(absolutePath(`${apiPath}/developments/snapshots/${datekey}.json`), snapshot)
     const latestDatekey = _.last(require(absolutePath('docs/archive/datekeys.json')))
-    if (datekey === latestDatekey) writeJsonToFileForce(absolutePath(`api/${apiVersion}/developments/snapshots/latest.json`), snapshot)
+    if (datekey === latestDatekey) writeJsonToFileForce(absolutePath(`${apiPath}/developments/snapshots/latest.json`), snapshot)
   })
 }
 
@@ -67,7 +68,7 @@ async function generateAllLogs (datekeys) {
       allLogs.push(...log)
     })
     allLogs = allLogs.sort((a, b) => Number(a.timestamp) - Number(b.timestamp))
-    writeJsonToFileForce(absolutePath(`api/${apiVersion}/developments/logs/global.json`), allLogs)
+    writeJsonToFileForce(absolutePath(`${apiPath}/developments/logs/global.json`), allLogs)
     return resolve(allLogs)
   })
 }
