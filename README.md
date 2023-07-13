@@ -24,3 +24,4 @@ Useful Data API for Dublin, CA
 - [waybackpack](https://github.com/jsvine/waybackpack) for the archived webpages
 - [recursive-diff](https://www.npmjs.com/package/recursive-diff) for the diffing of the JSON files
 - [lodash](https://lodash.com/) for making searching for objects easier
+- [zustand](https://github.com/pmndrs/zustand) for making state management easier

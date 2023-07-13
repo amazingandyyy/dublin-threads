@@ -3,8 +3,8 @@ from_year=2015
 current_year=2017
 target_url=dublin-development.icitywork.com
 
-CURRNT_DIR="$(dirname "$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )")"
-OUTPUT_DIR=$CURRNT_DIR/docs/archive/
+ROOT_DIR="$(dirname "$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )")"
+OUTPUT_DIR=$ROOT_DIR/docs/archive/
 
 mkdir -p $OUTPUT_DIR
 
