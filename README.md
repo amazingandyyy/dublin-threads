@@ -11,7 +11,7 @@ Data API for Dublin, CA
 
 ### JSON API
 
-- list of all development projects (including those were dislisted): https://raw.githubusercontent.com/amazingandyyy/dublin/main/docs/api/v2/developments/snapshots/latest.json
+- list of all development projects (including those delisted): https://raw.githubusercontent.com/amazingandyyy/dublin/main/docs/api/v2/developments/snapshots/latest.json
 - list of current public development projects: https://raw.githubusercontent.com/amazingandyyy/dublin/main/docs/api/v2/developments/snapshots/latest.json
 - development projects changelog: https://raw.githubusercontent.com/amazingandyyy/dublin/main/docs/api/v2/developments/logs/global.json
 
