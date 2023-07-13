@@ -1,10 +1,12 @@
 name: generate api data from archives
 
 on:
-  push:
-    branches: [ main ]
+  workflow_run:
+    workflows: ["snapshot and generat JSON"]
+    types:
+      - completed
   schedule:
-    - cron: "0 */6 * * *" #  “every 6 hours”
+    - cron: "0 */6 * * *" # “every 6 hours”
   workflow_dispatch:
 
 jobs:
