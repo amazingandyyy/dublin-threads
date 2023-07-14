@@ -37,12 +37,12 @@
       "description": "Multi-phased development comprised of up to 1,995 residential units, up to 200,000 square feet of commercial uses, 35 acres of public parkland, a 12-acre elementary school site and related infrastructure. The overall project specific plan (Dublin Crossing Specific Plan) was approved in 2013. Site improvements for the first phase of development is underway. Design review for the first six residential neighborhoods (Phases 1A and 1B) were approved by the Planning Commission on June 14, 2016. Site Development Review for Phases 2/3 and 4/5 are under review.",
       "images": [
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative.jpg",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative-150x150.jpg"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative-150x150.jpg"
         },
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan.jpg",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan-150x150.jpg"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan-150x150.jpg"
         }
       ],
       "geolocation": {
@@ -99,7 +99,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative.jpg",
     "projectId": "projectdetail71",
     "timestamp": "1513193626000"
   },
@@ -112,7 +112,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative-150x150.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative-150x150.jpg",
     "projectId": "projectdetail71",
     "timestamp": "1513193626000"
   },
@@ -125,7 +125,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan.jpg",
     "projectId": "projectdetail71",
     "timestamp": "1513193626000"
   },
@@ -138,7 +138,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan-150x150.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan-150x150.jpg",
     "projectId": "projectdetail71",
     "timestamp": "1513193626000"
   },

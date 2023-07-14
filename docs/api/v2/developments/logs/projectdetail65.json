@@ -81,8 +81,8 @@
       0
     ],
     "val": {
-      "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-2-e1491496969939.jpg",
-      "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-2-e1491496969939-150x150.jpg"
+      "original": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-2-e1491496969939.jpg",
+      "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-2-e1491496969939-150x150.jpg"
     },
     "projectId": "projectdetail65",
     "timestamp": "1492908897000"
@@ -95,8 +95,8 @@
       1
     ],
     "val": {
-      "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-e1491496997422.jpg",
-      "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-e1491496997422-150x150.jpg"
+      "original": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-e1491496997422.jpg",
+      "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-e1491496997422-150x150.jpg"
     },
     "projectId": "projectdetail65",
     "timestamp": "1492908897000"
@@ -136,7 +136,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-2-e1491496969939.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-2-e1491496969939.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-2-e1491496969939.jpg",
     "projectId": "projectdetail65",
     "timestamp": "1513193626000"
   },
@@ -149,7 +149,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-2-e1491496969939-150x150.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-2-e1491496969939-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-2-e1491496969939-150x150.jpg",
     "projectId": "projectdetail65",
     "timestamp": "1513193626000"
   },
@@ -162,7 +162,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-e1491496997422.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-e1491496997422.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-e1491496997422.jpg",
     "projectId": "projectdetail65",
     "timestamp": "1513193626000"
   },
@@ -175,7 +175,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-e1491496997422-150x150.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-e1491496997422-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-e1491496997422-150x150.jpg",
     "projectId": "projectdetail65",
     "timestamp": "1513193626000"
   },

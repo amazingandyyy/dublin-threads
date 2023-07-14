@@ -36,16 +36,16 @@
       "description": "The Grafton Plaza project site has a General Plan/Eastern Dublin Specific Plan land use designation of Mixed Use 2/Campus Office and related Planned Development Zoning. This zoning allows office uses or a combination of residential, retail commercial and office uses.",
       "images": [
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel.jpg",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-150x150.jpg"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-150x150.jpg"
         },
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-2.jpg",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-2-150x150.jpg"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-2.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-2-150x150.jpg"
         },
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-plaza-site-plan.jpg",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-plaza-site-plan-150x150.jpg"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-plaza-site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-plaza-site-plan-150x150.jpg"
         }
       ],
       "geolocation": {
@@ -204,7 +204,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel.jpg",
     "projectId": "projectdetail111",
     "timestamp": "1513193626000"
   },
@@ -217,7 +217,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-150x150.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-150x150.jpg",
     "projectId": "projectdetail111",
     "timestamp": "1513193626000"
   },
@@ -230,7 +230,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-2.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-2.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-2.jpg",
     "projectId": "projectdetail111",
     "timestamp": "1513193626000"
   },
@@ -243,7 +243,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-2-150x150.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-2-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-2-150x150.jpg",
     "projectId": "projectdetail111",
     "timestamp": "1513193626000"
   },
@@ -256,7 +256,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-plaza-site-plan.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-plaza-site-plan.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-plaza-site-plan.jpg",
     "projectId": "projectdetail111",
     "timestamp": "1513193626000"
   },
@@ -269,7 +269,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-plaza-site-plan-150x150.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-plaza-site-plan-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-plaza-site-plan-150x150.jpg",
     "projectId": "projectdetail111",
     "timestamp": "1513193626000"
   },

@@ -32,8 +32,8 @@
       "description": "The Dublin Gateway Medical Center is a medical office campus that is being constructed in phases. Phase 1 includes 120,000 square feet of medical offices and is fully constructed and occupied. Phase 2 includes a 58,000 square foot medical office building OR a 100-bed hospital along with a multi-level parking structure. Construction of Phase 2 is unknown at this time.",
       "images": [
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/DGMC-Hospital.jpg",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/DGMC-Hospital-150x150.jpg"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/DGMC-Hospital.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/DGMC-Hospital-150x150.jpg"
         }
       ],
       "geolocation": {
@@ -70,7 +70,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/DGMC-Hospital.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/DGMC-Hospital.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/DGMC-Hospital.jpg",
     "projectId": "projectdetail109",
     "timestamp": "1513193626000"
   },
@@ -83,7 +83,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/DGMC-Hospital-150x150.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/DGMC-Hospital-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/DGMC-Hospital-150x150.jpg",
     "projectId": "projectdetail109",
     "timestamp": "1513193626000"
   },

@@ -41,24 +41,24 @@
       "description": "Phase1 of the Boulevard project include 453 units and landscape improvements. Design review for the first six residential neighborhoods (Phases 1A and 1B) were approved by the Planning Commission on June 14, 2016.",
       "images": [
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan.jpg",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-150x150.jpg"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-150x150.jpg"
         },
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2.jpg",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2-150x150.jpg"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2-150x150.jpg"
         },
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan.jpg",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan-150x150.jpg"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan-150x150.jpg"
         },
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887.jpg",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887-150x150.jpg"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887-150x150.jpg"
         },
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631.jpg",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631-150x150.jpg"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631-150x150.jpg"
         }
       ],
       "geolocation": {
@@ -106,7 +106,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan.jpg",
     "projectId": "projectdetail506",
     "timestamp": "1513193626000"
   },
@@ -119,7 +119,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-150x150.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-150x150.jpg",
     "projectId": "projectdetail506",
     "timestamp": "1513193626000"
   },
@@ -132,7 +132,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2.jpg",
     "projectId": "projectdetail506",
     "timestamp": "1513193626000"
   },
@@ -145,7 +145,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2-150x150.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2-150x150.jpg",
     "projectId": "projectdetail506",
     "timestamp": "1513193626000"
   },
@@ -158,7 +158,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan.jpg",
     "projectId": "projectdetail506",
     "timestamp": "1513193626000"
   },
@@ -171,7 +171,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan-150x150.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan-150x150.jpg",
     "projectId": "projectdetail506",
     "timestamp": "1513193626000"
   },
@@ -184,7 +184,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887.jpg",
     "projectId": "projectdetail506",
     "timestamp": "1513193626000"
   },
@@ -197,7 +197,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887-150x150.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887-150x150.jpg",
     "projectId": "projectdetail506",
     "timestamp": "1513193626000"
   },
@@ -210,7 +210,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631.jpg",
     "projectId": "projectdetail506",
     "timestamp": "1513193626000"
   },
@@ -223,7 +223,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631-150x150.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631-150x150.jpg",
     "projectId": "projectdetail506",
     "timestamp": "1513193626000"
   },

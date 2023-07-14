@@ -111,8 +111,8 @@ const parseHtml = async (html) => {
       }
       function transformImagesUrl (url) {
         return url
-          .replace('https://dublin-development.icitywork.com/', '')
-          .replace('wp-content/', 'https://dublin-development.icitywork.com/wp-content/')
+          // .replace('https://dublin-development.icitywork.com/', '')
+          // .replace('wp-content/', 'https://dublin-development.icitywork.com/wp-content/')
       }
       function traverseDocsSiblings (el, acc = []) {
         if ($(el).next().find('a').attr('href') !== undefined) {

@@ -32,12 +32,12 @@
       "description": "Neighborhood 7, “Onyx”, is part of the overall Jordan Ranch project. This neighborhood consists of 105 detached residential units on 10.1 acres located on the southeast side of Panorama Drive.",
       "images": [
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Pull-Apart-Townhomes-Jordan-Ranch-N7-Onyx.jpg",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Pull-Apart-Townhomes-Jordan-Ranch-N7-Onyx-150x150.jpg"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Pull-Apart-Townhomes-Jordan-Ranch-N7-Onyx.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Pull-Apart-Townhomes-Jordan-Ranch-N7-Onyx-150x150.jpg"
         },
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Jordan-Ranch-N7-Site-Plan.jpg",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Jordan-Ranch-N7-Site-Plan-150x150.jpg"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Jordan-Ranch-N7-Site-Plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Jordan-Ranch-N7-Site-Plan-150x150.jpg"
         }
       ],
       "geolocation": {
@@ -200,7 +200,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Pull-Apart-Townhomes-Jordan-Ranch-N7-Onyx.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Pull-Apart-Townhomes-Jordan-Ranch-N7-Onyx.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Pull-Apart-Townhomes-Jordan-Ranch-N7-Onyx.jpg",
     "projectId": "projectdetail175",
     "timestamp": "1513193626000"
   },
@@ -213,7 +213,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Pull-Apart-Townhomes-Jordan-Ranch-N7-Onyx-150x150.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Pull-Apart-Townhomes-Jordan-Ranch-N7-Onyx-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Pull-Apart-Townhomes-Jordan-Ranch-N7-Onyx-150x150.jpg",
     "projectId": "projectdetail175",
     "timestamp": "1513193626000"
   },
@@ -226,7 +226,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Jordan-Ranch-N7-Site-Plan.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Jordan-Ranch-N7-Site-Plan.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Jordan-Ranch-N7-Site-Plan.jpg",
     "projectId": "projectdetail175",
     "timestamp": "1513193626000"
   },
@@ -239,7 +239,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Jordan-Ranch-N7-Site-Plan-150x150.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Jordan-Ranch-N7-Site-Plan-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Jordan-Ranch-N7-Site-Plan-150x150.jpg",
     "projectId": "projectdetail175",
     "timestamp": "1513193626000"
   },

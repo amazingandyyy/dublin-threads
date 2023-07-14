@@ -32,12 +32,12 @@
       "description": "Citron by Pulte Group is a single family detached 6-pack garden court neighborhood of 147 homes.",
       "images": [
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2.jpg",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2-150x150.jpg"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2-150x150.jpg"
         },
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N4-SDR-Arch.jpg",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N4-SDR-Arch-150x150.jpg"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N4-SDR-Arch.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N4-SDR-Arch-150x150.jpg"
         }
       ],
       "geolocation": {
@@ -98,7 +98,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2.jpg",
     "projectId": "projectdetail395",
     "timestamp": "1513193626000"
   },
@@ -111,7 +111,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2-150x150.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2-150x150.jpg",
     "projectId": "projectdetail395",
     "timestamp": "1513193626000"
   },
@@ -124,7 +124,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N4-SDR-Arch.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N4-SDR-Arch.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N4-SDR-Arch.jpg",
     "projectId": "projectdetail395",
     "timestamp": "1513193626000"
   },
@@ -137,7 +137,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N4-SDR-Arch-150x150.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N4-SDR-Arch-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N4-SDR-Arch-150x150.jpg",
     "projectId": "projectdetail395",
     "timestamp": "1513193626000"
   },

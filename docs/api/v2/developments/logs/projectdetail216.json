@@ -32,20 +32,20 @@
       "description": "Neighborhood 5 of Jordan Ranch (Slate) is being developed by TriPointe Homes with 56 single family residences on 7.8 acres.",
       "images": [
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/05/dublin100x100white.png",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/05/dublin100x100white.png"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2016/05/dublin100x100white.png",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/05/dublin100x100white.png"
         },
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2.jpg",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2-150x150.jpg"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2-150x150.jpg"
         },
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-site-plan.jpg",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-site-plan-150x150.jpg"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-site-plan-150x150.jpg"
         },
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering.jpg",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering-150x150.jpg"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering-150x150.jpg"
         }
       ],
       "geolocation": {
@@ -148,8 +148,8 @@
       0,
       "original"
     ],
-    "val": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/05/dublin100x100white.png",
+    "val": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/05/dublin100x100white.png",
     "projectId": "projectdetail216",
     "timestamp": "1492908897000"
   },
@@ -161,8 +161,8 @@
       0,
       "thumbnail"
     ],
-    "val": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering-150x150.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/05/dublin100x100white.png",
+    "val": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/05/dublin100x100white.png",
     "projectId": "projectdetail216",
     "timestamp": "1492908897000"
   },
@@ -174,8 +174,8 @@
       3
     ],
     "oldVal": {
-      "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering.jpg",
-      "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering-150x150.jpg"
+      "original": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering.jpg",
+      "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering-150x150.jpg"
     },
     "projectId": "projectdetail216",
     "timestamp": "1492908897000"
@@ -189,7 +189,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering.jpg",
     "projectId": "projectdetail216",
     "timestamp": "1513193626000"
   },
@@ -202,7 +202,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering-150x150.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering-150x150.jpg",
     "projectId": "projectdetail216",
     "timestamp": "1513193626000"
   },
@@ -215,7 +215,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2.jpg",
     "projectId": "projectdetail216",
     "timestamp": "1513193626000"
   },
@@ -228,7 +228,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2-150x150.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2-150x150.jpg",
     "projectId": "projectdetail216",
     "timestamp": "1513193626000"
   },
@@ -241,7 +241,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-site-plan.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-site-plan.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-site-plan.jpg",
     "projectId": "projectdetail216",
     "timestamp": "1513193626000"
   },
@@ -254,7 +254,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-site-plan-150x150.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-site-plan-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-site-plan-150x150.jpg",
     "projectId": "projectdetail216",
     "timestamp": "1513193626000"
   },

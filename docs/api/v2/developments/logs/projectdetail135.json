@@ -35,8 +35,8 @@
       "description": "Site Development Review for a 2,750 square foot addition and façade modification to the existing dealership building.",
       "images": [
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Infiniti-Dealership.jpg",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Infiniti-Dealership-150x150.jpg"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Infiniti-Dealership.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Infiniti-Dealership-150x150.jpg"
         }
       ],
       "geolocation": {
@@ -165,8 +165,8 @@
       0,
       "original"
     ],
-    "val": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Front-elevation.png",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Infiniti-Dealership.jpg",
+    "val": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Front-elevation.png",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Infiniti-Dealership.jpg",
     "projectId": "projectdetail135",
     "timestamp": "1492908897000"
   },
@@ -178,8 +178,8 @@
       0,
       "thumbnail"
     ],
-    "val": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Front-elevation-150x150.png",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Infiniti-Dealership-150x150.jpg",
+    "val": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Front-elevation-150x150.png",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Infiniti-Dealership-150x150.jpg",
     "projectId": "projectdetail135",
     "timestamp": "1492908897000"
   },
@@ -191,8 +191,8 @@
       1
     ],
     "val": {
-      "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan.png",
-      "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan-150x150.png"
+      "original": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan.png",
+      "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan-150x150.png"
     },
     "projectId": "projectdetail135",
     "timestamp": "1492908897000"
@@ -205,8 +205,8 @@
       2
     ],
     "val": {
-      "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/vicinity-map.png",
-      "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/vicinity-map-150x150.png"
+      "original": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/vicinity-map.png",
+      "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/vicinity-map-150x150.png"
     },
     "projectId": "projectdetail135",
     "timestamp": "1492908897000"
@@ -231,7 +231,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Front-elevation.png",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Front-elevation.png",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Front-elevation.png",
     "projectId": "projectdetail135",
     "timestamp": "1513193626000"
   },
@@ -244,7 +244,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Front-elevation-150x150.png",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Front-elevation-150x150.png",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Front-elevation-150x150.png",
     "projectId": "projectdetail135",
     "timestamp": "1513193626000"
   },
@@ -257,7 +257,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan.png",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan.png",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan.png",
     "projectId": "projectdetail135",
     "timestamp": "1513193626000"
   },
@@ -270,7 +270,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan-150x150.png",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan-150x150.png",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/site-plan-150x150.png",
     "projectId": "projectdetail135",
     "timestamp": "1513193626000"
   },
@@ -283,7 +283,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/vicinity-map.png",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/vicinity-map.png",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/vicinity-map.png",
     "projectId": "projectdetail135",
     "timestamp": "1513193626000"
   },
@@ -296,7 +296,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/vicinity-map-150x150.png",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/08/vicinity-map-150x150.png",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/vicinity-map-150x150.png",
     "projectId": "projectdetail135",
     "timestamp": "1513193626000"
   },

@@ -34,16 +34,16 @@
       "description": "Tassajara Highlands is being developed by Tim Lewis Communities. The development will include 48 single-family detached homes on 11.11 acres located on Tassajara Road.",
       "images": [
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Project-Entry.png",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Project-Entry-150x150.png"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Project-Entry.png",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Project-Entry-150x150.png"
         },
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Elevations.png",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Elevations-150x150.png"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Elevations.png",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Elevations-150x150.png"
         },
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Site-Plan.png",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Site-Plan-150x150.png"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Site-Plan.png",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Site-Plan-150x150.png"
         }
       ],
       "geolocation": {
@@ -100,7 +100,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Project-Entry.png",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Project-Entry.png",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Project-Entry.png",
     "projectId": "projectdetail67",
     "timestamp": "1513193626000"
   },
@@ -113,7 +113,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Project-Entry-150x150.png",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Project-Entry-150x150.png",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Project-Entry-150x150.png",
     "projectId": "projectdetail67",
     "timestamp": "1513193626000"
   },
@@ -126,7 +126,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Elevations.png",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Elevations.png",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Elevations.png",
     "projectId": "projectdetail67",
     "timestamp": "1513193626000"
   },
@@ -139,7 +139,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Elevations-150x150.png",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Elevations-150x150.png",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Elevations-150x150.png",
     "projectId": "projectdetail67",
     "timestamp": "1513193626000"
   },
@@ -152,7 +152,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Site-Plan.png",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Site-Plan.png",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Site-Plan.png",
     "projectId": "projectdetail67",
     "timestamp": "1513193626000"
   },
@@ -165,7 +165,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Site-Plan-150x150.png",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Site-Plan-150x150.png",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Site-Plan-150x150.png",
     "projectId": "projectdetail67",
     "timestamp": "1513193626000"
   },

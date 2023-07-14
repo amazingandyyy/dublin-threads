@@ -32,8 +32,8 @@
       "description": "Phases 4 and 5 of the Boulevard project include 509 units and landscape improvements.",
       "images": [
         {
-          "original": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan.jpg",
-          "thumbnail": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan-150x150.jpg"
+          "original": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan.jpg",
+          "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan-150x150.jpg"
         }
       ],
       "geolocation": {
@@ -129,7 +129,7 @@
       "original"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan.jpg",
     "projectId": "projectdetail515",
     "timestamp": "1513193626000"
   },
@@ -142,7 +142,7 @@
       "thumbnail"
     ],
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan-150x150.jpg",
-    "oldVal": "http://dublin-development.icitywork.com/https://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan-150x150.jpg",
+    "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan-150x150.jpg",
     "projectId": "projectdetail515",
     "timestamp": "1513193626000"
   },
