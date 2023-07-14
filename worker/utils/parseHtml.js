@@ -106,8 +106,8 @@ const parseHtml = async (html) => {
       function transformCityDocsUrl (url) {
         return url
           .replace('http://citydocs.ci.dublin.ca.us/', 'https://citydocs.dublin.ca.gov/')
-          .replace('https://dublin-development.icitywork.com/', '')
-          .replace('wp-content/', 'https://dublin-development.icitywork.com/wp-content/')
+          // .replace('https://dublin-development.icitywork.com/', '')
+          // .replace('wp-content/', 'https://dublin-development.icitywork.com/wp-content/')
       }
       function transformImagesUrl (url) {
         return url
