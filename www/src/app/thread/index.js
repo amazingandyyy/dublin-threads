@@ -7,7 +7,7 @@ import AddPost from './add'
 import UpdatePost from './update'
 
 function PostCard ({children}) {
-  return (<div style={{width: '500px'}} className='bg-white m-2 drop-shadow rounded p-4'>{children}</div>)
+  return (<div className='bg-white self-stretch m-2 drop-shadow rounded-xl p-4'>{children}</div>)
 }
 
 function Post ({ data }) {
@@ -35,7 +35,7 @@ export default function Thread () {
   }, [])
   const thread = useThreadStore(state => state.thread)
   return (
-    <div className='flex flex-col items-center px-6'>
+    <div className='flex flex-col w-full md:max-w-2xl'>
       {thread.map((post, i) => <Post key={i} data={post} />)}
     </div>
   )

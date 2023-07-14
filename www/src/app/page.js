@@ -1,10 +1,11 @@
 import Image from 'next/image'
 import Thread from './thread'
+import Link from 'next/link';
 
 export default function Home () {
   return (
-    <div className=''>
-      <header className="z-50 fixed border-b-2 border-gray-100 p-4 px-6 top-0 left-0 right-0 backdrop-filter backdrop-blur-2xl backdrop-opacity-98">
+    <div>
+      <header className="z-50 drop-shadow bg-white bg-opacity-80 fixed p-4 px-6 top-0 left-0 right-0 backdrop-filter backdrop-blur">
       <div className='flex'>
         <div className='flex'>
           <Image
@@ -15,29 +16,41 @@ export default function Home () {
             height={32}
             priority
           />
-          <h1 className="inline-block text-2xl tracking-tighter font-bold">Dublin Thread</h1>
+          <Link href='/'>
+          <h1 className="inline-block text-2xl tracking-tighter font-bold text-green-950">Dublin Thread</h1>
+          </Link>
         </div>
-        {/* <div className='grow'>
-        </div> */}
-        {/* <div className='flex items-center'>
-          <div className='flex p-2'>
-          <a target='_blank' href='https://github.com/amazingandyyy/dublin' className='hover:opacity-50'>
-          <Image
-            src="/images/github-icon.svg"
-            alt="Dublin CA Green Logo"
-            className='inline-block mr-2'
-            width={24}
-            height={24}
-            priority
-          />
+        <div className='grow'>
+        </div>
+        <div className='flex items-center'>
+          <Link href='/'>
+          <div className='flex px-4 font-semibold text-green-950 hover:text-green-500'>
+            Thread
+          </div>
+          </Link>
+          <Link href='/map'>
+          <div className='flex px-4 font-semibold text-green-950 hover:text-green-500'>
+            Map
+          </div>
+          </Link>
+          <div className='flex px-2'>
+          <a target='_blank' href='https://github.com/amazingandyyy/dublin' className='opacity-40 flex hover:opacity-60'>
+            <Image
+              src="/images/github-icon.svg"
+              alt="Dublin CA Green Logo"
+              className='inline-block'
+              width={20}
+              height={20}
+              priority
+            />
           </a>
           </div>
-        </div> */}
+        </div>
       </div>
     </header>
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="absolute inset-0 bg-[url(/images/grid.svg)] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
-      <Thread />
+    <main className="flex min-h-screen flex-col items-center justify-between p-2">
+      <div className="fixed inset-0 bg-[url(/images/grid.svg)] bg-center]"></div>
+        <Thread />
     </main>
     </div>
   )
