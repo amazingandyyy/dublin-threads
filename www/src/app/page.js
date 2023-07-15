@@ -23,7 +23,7 @@ export default function Home () {
         <div className='grow'>
         </div>
         <div className='flex items-center'>
-          <Link href='/'>
+          {/* <Link href='/'>
           <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'>
             Thread
           </div>
@@ -32,7 +32,7 @@ export default function Home () {
           <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'>
             Map
           </div>
-          </Link>
+          </Link> */}
           <div className='flex px-2'>
           <a target='_blank' href='https://github.com/amazingandyyy/dublin' className='opacity-40 flex hover:opacity-60'>
             <Image
