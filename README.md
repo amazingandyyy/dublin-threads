@@ -32,3 +32,9 @@ Data API for Dublin, CA
 
 - https://citydocs.ci.dublin.ca.us/WebLink/Browse.aspx
 - https://citydocs.dublin.ca.gov/WebLink/DocView.aspx?dbid=0&id=563268&page=1
+
+### links
+
+- Project Profile
+  - wikipedia Searching API: https://en.wikipedia.org/w/api.php?action=opensearch&search=Quarry%20Lane%20School&limit=1&namespace=0&format=jsonfm
+  - wiki NPM: https://dijs.github.io/wiki/WikiPage.html#images

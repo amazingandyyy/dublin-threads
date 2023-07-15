@@ -49,7 +49,7 @@ export default function Home () {
       </div>
     </header>
     <main className="flex min-h-screen flex-col items-center justify-between pt-16">
-      <div className="fixed inset-0 bg-[url(/images/grid.svg)] bg-center]"></div>
+      <div className="hidden md:fixed inset-0 bg-[url(/images/grid.svg)] bg-center]"></div>
         <Thread />
     </main>
     </div>

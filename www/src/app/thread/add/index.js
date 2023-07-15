@@ -2,13 +2,9 @@ import Image from '../image'
 import Header from '../header'
 import Bottom from '../bottom'
 
-import { useProjectProfileStore } from '../../stores'
-
 // function ImageLoader() {
 //   return (<div className='animate-pulse'><div className="h-24 w-24 rounded cursor-wait bg-gray-200" /></div>)
 // }
-
-
 
 function hoorayEmoji(n) {
   const d = ['🥳','🎉','👏', '🙌', '📣', '🎊', '🤩']
@@ -29,7 +25,6 @@ function PostBody({data}) {
         <a href={data.val.url} target='_blank' className='text-green-800 truncate ...'>
           <p className='truncate ...'>📁 {data.val.name}</p>
         </a>
-        <Bottom data={data} />
       </div>)
     case 'images':
       return (<div className='flex flex-col'>
@@ -41,7 +36,6 @@ function PostBody({data}) {
           thumbnail={data.val.thumbnail}
           alt={data.projectId}
         />
-        <Bottom data={data} />
       </div>)
     default:
       // console.log(data.path[0]) // status
@@ -54,24 +48,22 @@ export default function ({ data }) {
   if(!isNewPost) {
     return <div>
       <Header data={data} />
-      <div className='pb-4 flex'>
-        <PostBody data={data} />
-      </div>
+      <PostBody data={data} />
+      <Bottom data={data} />
     </div>
   }
 
   const imgs = data.val.images || []
   return <div>
     <Header data={data} />
-    <div className='pb-4 flex'>
+    <div>
       <p>New Project Added! {hoorayEmoji(String(data.val.title).length)}</p>
       {data.val.images?.length > 0 && <p className='pl-2'>with {data.val.images?.length} photos</p>}
     </div>
-    <div className='pb-4'>
+    <div>
       {data.val.description}
     </div>
-    <Bottom data={data} />
-    <div className='flex flex-row overflow-x-scroll'>
+    <div className='flex mt-2 flex-row overflow-x-scroll'>
       {imgs.map((img, i)=><div className='flex border-2 ml-2'>
         <Image
           width='550px'
@@ -82,5 +74,6 @@ export default function ({ data }) {
         />
       </div>)}
     </div>
+    <Bottom data={data} />
   </div>
 }
