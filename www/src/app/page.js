@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Home () {
   return (
     <div>
-      <header className="z-50 drop-shadow bg-white bg-opacity-80 fixed p-4 px-6 top-0 left-0 right-0 backdrop-filter backdrop-blur">
+      <header className="z-50 drop-shadow bg-white bg-opacity-80 fixed py-4 px-2 md:px-6 xl:px-24 top-0 left-0 right-0 backdrop-filter backdrop-blur">
       <div className='flex'>
         <div className='flex'>
           <Image
@@ -24,12 +24,12 @@ export default function Home () {
         </div>
         <div className='flex items-center'>
           <Link href='/'>
-          <div className='flex px-4 font-semibold text-green-950 hover:text-green-500'>
+          <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'>
             Thread
           </div>
           </Link>
           <Link href='/map'>
-          <div className='flex px-4 font-semibold text-green-950 hover:text-green-500'>
+          <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'>
             Map
           </div>
           </Link>
@@ -48,7 +48,7 @@ export default function Home () {
         </div>
       </div>
     </header>
-    <main className="flex min-h-screen flex-col items-center justify-between p-2">
+    <main className="flex min-h-screen flex-col items-center justify-between pt-16">
       <div className="fixed inset-0 bg-[url(/images/grid.svg)] bg-center]"></div>
         <Thread />
     </main>
