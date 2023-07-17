@@ -27,15 +27,17 @@ function PostBody({data}) {
         </a>
       </div>)
     case 'images':
-      return (<div className='flex flex-col'>
+      return (<div>
         <p>Added a new image to the project!</p>
-        <Image
-          width='550px'
-          style={{ height: '100%' }}
-          original={data.val.original}
-          thumbnail={data.val.thumbnail}
-          alt={data.projectId}
-        />
+        <div className='flex mt-2 flex-row overflow-x-scroll'>
+          <Image
+            width='550px'
+            style={{ height: '100%' }}
+            original={data.val.original}
+            thumbnail={data.val.thumbnail}
+            alt={data.projectId}
+          />
+        </div>
       </div>)
     default:
       // console.log(data.path[0]) // status

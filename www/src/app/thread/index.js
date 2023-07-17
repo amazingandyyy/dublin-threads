@@ -36,6 +36,14 @@ export default function Thread () {
   const thread = useThreadStore(state => state.thread)
   return (
     <div className='flex flex-col w-full md:max-w-2xl pt-8'>
+      <div className='flex flex-col items-center text-gray-600 py-4'>
+        <div>
+          This is a thread of changes happen on <a className='text-green-600' href='https://dublin-development.icitywork.com' target='_blank'>Dublin Devlopment Projects Site</a>
+        </div>
+        <div>
+          Updated every 30 minutes
+        </div>
+      </div>
       {thread.map((post, i) => <Post key={i} data={post} />)}
     </div>
   )
