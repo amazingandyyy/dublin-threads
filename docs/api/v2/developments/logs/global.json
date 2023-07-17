@@ -2,6 +2,32 @@
   {
     "op": "update",
     "path": [
+      "projectdetail1068",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Planner",
+    "oldVal": "Linda Ajello - Senior Planner",
+    "projectId": "projectdetail1068",
+    "timestamp": "1689606000000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "planningpermits@dublin.ca.gov",
+    "oldVal": "linda.ajello@dublin.ca.gov",
+    "projectId": "projectdetail1068",
+    "timestamp": "1689606000000"
+  },
+  {
+    "op": "update",
+    "path": [
       "projectdetail1464",
       "details",
       "Project Planner",
