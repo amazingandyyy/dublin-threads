@@ -1,5 +1,239 @@
 [
   {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Amy Million - Principal Planner",
+    "oldVal": "Linda Ajello - Senior Planner",
+    "projectId": "projectdetail1464",
+    "timestamp": "1689602400000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "amy.million@dublin.ca.gov",
+    "oldVal": "linda.ajello@dublin.ca.gov",
+    "projectId": "projectdetail1464",
+    "timestamp": "1689602400000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      0
+    ],
+    "oldVal": {
+      "name": "SCS Dublin Notice of Preparation of Environmental Impact Report",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin_NOP.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1689602400000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      1
+    ],
+    "oldVal": {
+      "name": "SCS Dublin Notice of Availability of Environmental Impact Report",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin-NOA.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1689602400000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      2
+    ],
+    "oldVal": {
+      "name": "SCS_Dublin_Public_Review_Draft_Environmental Impact Report_July_2022",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS_Dublin_Public_Review_Draft_EIR_July_2022.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1689602400000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      3
+    ],
+    "oldVal": {
+      "name": "Appendix_A_NOP_and_Comment_Letters Appendix_B_Air_Quality_and_Greenhouse_Gas Emissions_Analysis_Technical_Data Appendix_C-1_Biological_Resources_Assessment_5-22 Appendix_C-2_Rare_Plant_Survey_Report Appendix_C-3_Wetland_Delineation_Report Appendix_D_Geotechnical_Report Appendix_E_Phase_I_ESA Appendix_F_Noise_Analysis_Technical_Data Appendix_G_Draft Water_Supply_Assessment Appendix_H_Energy__Technical_Data",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/07/Appendix_A_NOP_and_Comment_Letters.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1689602400000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      4
+    ],
+    "oldVal": {
+      "name": "Final Environmental Impact Report October 2022",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS_Dublin_Public_Review_Final_EIR.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1689602400000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      5
+    ],
+    "oldVal": {
+      "name": "Appendix G Final (Corrected) Water Supply Assessment",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Appendix-G-Corrected-Final-WSA.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1689602400000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      6
+    ],
+    "oldVal": {
+      "name": "Final Local Transportation Analysis October 2022",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin_02_Draft-Final-LTA.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1689602400000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      7
+    ],
+    "oldVal": {
+      "name": "Community Meeting Presentation September 14 & 15, 2022",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin-Community-Meeting-Presentation.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1689602400000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      8
+    ],
+    "oldVal": {
+      "name": "Planning Commission Study Session September 27, 2022",
+      "url": "https://legistarweb-production.s3.amazonaws.com/uploads/attachment/pdf/1571507/Staff_Report_SCS_updated.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1689602400000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      9
+    ],
+    "oldVal": {
+      "name": "Planning Commission Agenda & Staff Report October 25, 2022",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/cd324969eedd092acb6625b12d7ff8ef0.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1689602400000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      10
+    ],
+    "oldVal": {
+      "name": "City Council Agenda & Staff Report November 15, 2022",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/692004437b8559e83f956aa08926e3770.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1689602400000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      11
+    ],
+    "oldVal": {
+      "name": "City Council Agenda & Staff Report December 6, 2022",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/d224d5ac38cb1ee4831f8f8d9f6f6dfc0.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1689602400000"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      12
+    ],
+    "oldVal": {
+      "name": "City Council Agenda & Staff Report March 22, 2023",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/a6b6cf277a70e4720554a2cf4ae77bc30.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1689602400000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1426",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Anne Hersch - Assistant Community Development Director",
+    "oldVal": "Linda Ajello - Senior Planner",
+    "projectId": "projectdetail1426",
+    "timestamp": "1689602400000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1426",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "anne.hersch@dublin.ca.gov",
+    "oldVal": "linda.ajello@dublin.ca.gov",
+    "projectId": "projectdetail1426",
+    "timestamp": "1689602400000"
+  },
+  {
     "op": "delete",
     "path": [
       "projectdetail1508",
