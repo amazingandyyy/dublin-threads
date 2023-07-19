@@ -1,7 +1,7 @@
 import Image from '../image'
 import Header from '../header'
 import Bottom from '../bottom'
-
+import {PostImages, PostDocs} from '../templates'
 // function ImageLoader() {
 //   return (<div className='animate-pulse'><div className="h-24 w-24 rounded cursor-wait bg-gray-200" /></div>)
 // }
@@ -19,26 +19,9 @@ function PostBody({data}) {
       }
       return (<p>Updated details</p>)
     case 'docs':
-      return (<div className='flex flex-col w-full'>
-        <p>Just uploaded a new document</p>
-        <br />
-        <a href={data.val.url} target='_blank' className='text-green-800 truncate ...'>
-          <p className='truncate ...'>📁 {data.val.name}</p>
-        </a>
-      </div>)
+      return (<PostDocs data={data} />)
     case 'images':
-      return (<div>
-        <p>Added a new image to the project!</p>
-        <div className='flex mt-2 flex-row overflow-x-scroll'>
-          <Image
-            width='550px'
-            style={{ height: '100%' }}
-            original={data.val.original}
-            thumbnail={data.val.thumbnail}
-            alt={data.projectId}
-          />
-        </div>
-      </div>)
+      return (<PostImages data={data} />)
     default:
       // console.log(data.path[0]) // status
       return (<p>Add <i>{data.val}</i> to {data.path[0]}</p>)

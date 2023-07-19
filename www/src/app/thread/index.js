@@ -1,5 +1,6 @@
 'use client'
 import { Fragment, useEffect } from 'react'
+import Image from 'next/image'
 
 import { useThreadStore } from '../stores'
 import { fetchDevelopments } from '../utils'
@@ -36,9 +37,20 @@ export default function Thread () {
   const thread = useThreadStore(state => state.thread)
   return (
     <div className='flex flex-col w-full md:max-w-2xl pt-8'>
-      <div className='flex flex-col items-center text-gray-600 py-4'>
+      <div className='flex flex-col items-center text-center text-gray-600 py-4'>
+        <Image
+            src="/images/dublin-green.svg"
+            alt="Dublin CA Green Logo"
+            className='inline-block mr-2'
+            width={64}
+            height={64}
+            priority
+          />
+        <div className='text-5xl font-bold text-green-950 mb-4'>
+          A Thread for Dublin
+        </div>
         <div>
-          This is a thread of changes happen on <a className='text-green-600' href='https://dublin-development.icitywork.com' target='_blank'>Dublin Devlopment Projects Site</a>
+          This is a thread of what's happening on <a className='text-green-600' href='https://dublin-development.icitywork.com' target='_blank'>Dublin Devlopment Projects Site</a>
         </div>
         <div>
           Updated every 30 minutes
