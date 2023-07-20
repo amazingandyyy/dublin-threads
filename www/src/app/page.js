@@ -10,15 +10,15 @@ export default function Home () {
         <div className='flex'>
           <Image
             src="/logos/dublin-threads-app-logo-dark.svg"
-            alt="Dublin CA Green Logo"
+            alt="Dublin Threads app logo dark"
             className='inline-block mr-2 rounded-md'
             width={32}
             height={32}
             priority
           />
-          <Link href='/'>
-          <h1 className="inline-block text-2xl tracking-tighter font-bold text-green-950">Dublin Threads</h1>
-          </Link>
+          <a href='/'>
+            <h1 className="inline-block text-2xl tracking-tighter font-bold text-green-950">Dublin Threads</h1>
+          </a>
         </div>
         <div className='grow'>
         </div>
@@ -39,8 +39,8 @@ export default function Home () {
               src="/images/github-icon.svg"
               alt="Dublin CA Green Logo"
               className='inline-block'
-              width={20}
-              height={20}
+              width={24}
+              height={24}
               priority
             />
           </a>

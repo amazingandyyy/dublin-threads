@@ -16,11 +16,12 @@ const PostImages = ({data, original='', thumbnail=''}) => {
 } 
 
 const PostDocs = ({data, url=''}) => {
+  url = url || data.val.url
   return (<div className='flex flex-col w-full'>
   <p>Just uploaded a new document</p>
   <br />
-  <a href={url || data.val.url} target='_blank' className='text-green-800 truncate ...'>
-    <p className='truncate ...'>📁 {url || data.val.name}</p>
+  <a href={url} target='_blank' className='text-green-800 truncate ...'>
+    <p className='truncate ...'>📁 {data.val.name || Document}</p>
   </a>
   </div>)
 }

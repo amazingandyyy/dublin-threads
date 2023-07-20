@@ -11,8 +11,19 @@ function hoorayEmoji(n) {
   return d[n%d.length+0]
 }
 
+function checkType(data) {
+  switch (true) {
+    case Object.keys(data.val).includes('original', 'thumbnail'):
+      return 'images'
+    case Object.keys(data.val).includes('name', 'url'):
+        return 'docs'
+    default:
+      return data.path[0]
+  }
+}
+
 function PostBody({data}) {
-  switch (data.path[0]) {
+  switch (checkType(data)) {
     case 'details':
       if(typeof data.val === 'string') {
         return (<p>Set <i>{data.path[1]}</i> to <i>{data.val}</i> in the details</p>)
@@ -23,8 +34,7 @@ function PostBody({data}) {
     case 'images':
       return (<PostImages data={data} />)
     default:
-      // console.log(data.path[0]) // status
-      return (<p>Add <i>{data.val}</i> to {data.path[0]}</p>)
+      return (<p>Update {data.path[0]} to <i>{data.val}</i></p>)
   }
 }
 

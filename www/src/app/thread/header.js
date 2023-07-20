@@ -41,13 +41,13 @@ export default function ({data}) {
   const isNewPost = Boolean(Date.now() - data.timestamp < 1000*60*60*24*7) // 7 days
   const profiles = useProjectProfileStore(state => state.profiles)
     return (<div className='flex items-start justify-between pb-4'>
-      <div className='flex items-start flex-col md:flex-row md:items-center'>
-        <div className='font-semibold text-base max-w-sm '>{profiles[data.projectId].title}</div>
-        <div className='pl-1 text-gray-500 text-sm'>@{data.projectId}</div>
+      <div className='flex-none w-64 items-start flex-col md:flex-row md:items-center'>
+        <div className='font-semibold pr-1 text-base truncate ...'>{profiles[data.projectId].title}</div>
+        <div className='text-gray-500 text-sm'>@{data.projectId}</div>
       </div>
       <div className='relative'>
-        <div className='pl-1 text-gray-500 text-sm'>{transformTimestamp(data.timestamp)}</div>
-        {isNewPost && <div className='shadow-xl block absolute bg-green-400 px-2 top-6 -right-6 text-sm -rotate-[5deg] opacity-80'>NEW</div>}
+        <div className='pl-1 text-gray-500 text-xs'>{transformTimestamp(data.timestamp)}</div>
+        {isNewPost && <div className='shadow-xl block absolute bg-green-400 px-2 top-6 right-0 md:-right-6 text-sm rotate-[5deg] md:-rotate-[5deg] opacity-80'>NEW</div>}
       </div>
     </div>)
 }
