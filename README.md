@@ -2,12 +2,11 @@
 
 Data API for Dublin, CA
 
-## Dublin Development Projects
+## Changelog of [Dublin Development Projects](https://dublin-development.icitywork.com/)
 
-### Frontend webpage
+### dublin-threads website
 
-- OLD https://dublin-development.icitywork.com
-- NEW https://dublin-amazingandyyy.vercel.app
+- https://dublin-amazingandyyy.vercel.app
 
 ### JSON API
 
