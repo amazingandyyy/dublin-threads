@@ -2,32 +2,30 @@
 import { Fragment, useEffect, useState } from 'react'
 import Image from 'next/image'
 
-import { useThreadStore } from '../stores'
-import { fetchDevelopments } from '../utils'
+import { useThreadStore } from '@/stores'
+import { fetchDevelopments } from '@/utils'
 import AddPost from './add'
 import UpdatePost from './update'
 
-function PostCard ({children}) {
-  return (<div className='bg-white self-stretch border-2-4 border-t-2 md:border-t-0 md:border-b-2 md:m-2 md:drop-shadow md:rounded-xl p-4'>{children}</div>)
+function PostCard ({ children }) {
+  return (<div className='bg-white self-stretch border-1 p-4'>{children}</div>)
 }
 
-function PostPlaceholder() {
+function PostPlaceholder () {
   const emptyArray = (length = 5) => (Array.from(Array(length).keys()))
 
   return <div>
-    {emptyArray(20).map(i => (<div key={i} className='flex animate-pulse opacity-20 md:my-2'>
-    <div className='flex flex-col self-stretch w-full md:m-2 p-4 bg-gray-100 rounded-xl'>
+    {emptyArray(20).map(i => (<div key={i} className='flex animate-pulse opacity-10'>
+    <div className='flex flex-col self-stretch w-full p-4 bg-gray-50'>
       <div className='flex item-between'>
-      <div className='self-stretch md:m-2 bg-gray-300 rounded w-64 h-4' />
-      <div className='flex-grow self-stretch md:m-2 rounded w-64 h-4' />
-      <div className='self-stretch md:m-2 bg-gray-200 rounded w-24 h-2' />
+      <div className='self-stretch mb-1 bg-gray-200 rounded w-64 h-8' />
+      <div className='flex-grow self-stretch mb-1 rounded w-96 h-4' />
+      <div className='self-stretch mb-1 bg-gray-200 rounded w-24 h-2' />
       </div>
-      <div className='self-stretch md:m-2 bg-gray-200 rounded w-96 h-4'></div>
-      <div className='self-stretch md:m-2 bg-gray-200 rounded w-64 h-4'></div>
-      <div className='self-stretch md:m-2 bg-gray-200 rounded w-48 h-2'></div>
+      <div className='self-stretch mb-1 bg-gray-200 rounded w-64 h-4'></div>
+      <div className='self-stretch mb-1 bg-gray-200 rounded w-48 h-4'></div>
     </div>
   </div>))}
-
   </div>
 }
 
@@ -57,7 +55,7 @@ export default function Thread () {
   }, [])
   const thread = useThreadStore(state => state.thread)
   return (
-    <div className='flex flex-col w-full md:max-w-2xl pt-4'>
+    <div className='flex flex-col w-full md:max-w-2xl py-4 border-x-[0.5px]'>
       <div className='flex flex-col items-center text-center text-gray-600 p-4'>
         <Image
             src="/logos/dublin-threads-app-logo-light.svg"
@@ -71,7 +69,7 @@ export default function Thread () {
           A Thread for Dublin
         </div>
         <div>
-          This is a thread of what's happening on <a className='text-green-600' href='https://dublin-development.icitywork.com' target='_blank'>Dublin Devlopment Projects Site</a>
+          This is a thread of {'what\'s'} happening on <a className='text-green-600' href='https://dublin-development.icitywork.com' target='_blank' rel="noreferrer">Dublin Devlopment Projects Site</a>
         </div>
         <div>
           Updated every 30 minutes
@@ -79,7 +77,7 @@ export default function Thread () {
       </div>
       <div>
         {loading && <PostPlaceholder />}
-        {thread.length>0 && thread.map((post, i) => <Post key={i} data={post} />)}
+        {thread.length > 0 && thread.map((post, i) => <Post key={i} data={post} />)}
       </div>
     </div>
   )

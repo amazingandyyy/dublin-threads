@@ -1,14 +1,14 @@
 import Header from '../header'
 import Bottom from '../bottom'
-import {PostImages, PostDocs} from '../templates'
+import { PostImages, PostDocs } from '../templates'
 
-function mainEmoji(n) {
-  const d = ['📣', '🤩']
-  return d[n%d.length+0]
-}
+// function mainEmoji (n) {
+//   const d = ['📣', '🤩']
+//   return d[n % d.length + 0]
+// }
 
-function PostBody({data}) {
-  if(typeof data.val === 'string') {
+function PostBody ({ data }) {
+  if (typeof data.val === 'string') {
     switch (data.path[0]) {
       case 'details':
         switch (data.path[1]) {
@@ -20,13 +20,13 @@ function PostBody({data}) {
       case 'title':
         return (<p>Changed <span>{data.path[1]}</span> from <span className='opacity-50 line-through'>{data.oldVal}</span> to <i>{data.val}</i>.</p>)
       case 'status':
-          return (<p>Moved <span>{data.path[1]}</span> from <span className='opacity-50 line-through'>{data.oldVal}</span> to <i>{data.val}</i>.</p>)
+        return (<p>Moved <span>{data.path[1]}</span> from <span className='opacity-50 line-through'>{data.oldVal}</span> to <i>{data.val}</i>.</p>)
       case 'images':
-        if(data.path[2] === 'original') {
+        if (data.path[2] === 'original') {
           return (<div>
             <PostImages data={data} original={data.val} />
           </div>)
-        }else{
+        } else {
           return <>goooood</>
         }
       // case 'geolocation':

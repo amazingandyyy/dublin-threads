@@ -4,10 +4,9 @@
         "es2021": true
     },
     "extends": [
-        "next/babel",
         "standard",
         "plugin:react/recommended",
-        "next/core-web-vitals"
+        "plugin:@next/next/recommended"
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
@@ -20,6 +19,7 @@
         "react/react-in-jsx-scope": 0,
         "react/prop-types": 0,
         "react/display-name": 0,
-        "import/no-anonymous-default-export": 0
+        "import/no-anonymous-default-export": 0,
+        "no-dupe-keys": 0
     }
 }
