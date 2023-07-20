@@ -7,10 +7,6 @@ import { fetchDevelopments } from '@/utils'
 import AddPost from './add'
 import UpdatePost from './update'
 
-function PostCard ({ children }) {
-  return (<div className='bg-white self-stretch border-1 p-4'>{children}</div>)
-}
-
 function PostPlaceholder () {
   const emptyArray = (length = 5) => (Array.from(Array(length).keys()))
 
@@ -33,9 +29,9 @@ function Post ({ data }) {
   data.path.shift()
   switch (data.op) {
     case 'add':
-      return (<PostCard><AddPost data={data} /></PostCard>)
+      return (<AddPost data={data} />)
     case 'update':
-      return (<PostCard><UpdatePost data={data} /></PostCard>)
+      return (<UpdatePost data={data} />)
     // case 'delete':
     //   return (<div className=''>sad</div>)
     default:

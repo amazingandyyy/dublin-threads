@@ -26,7 +26,12 @@ const PostDocs = ({ data, url = '' }) => {
   </div>)
 }
 
+function PostCard ({ children }) {
+  return (<div className='bg-white self-stretch border-1 p-4'>{children}</div>)
+}
+
 export {
+  PostCard,
   PostImages,
   PostDocs
 }

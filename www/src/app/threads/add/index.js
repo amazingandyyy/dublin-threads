@@ -1,7 +1,8 @@
 import Image from '../image'
 import Header from '../header'
 import Bottom from '../bottom'
-import { PostImages, PostDocs } from '../templates'
+import { PostImages, PostDocs, PostCard } from '../templates'
+
 // function ImageLoader() {
 //   return (<div className='animate-pulse'><div className="h-24 w-24 rounded cursor-wait bg-gray-200" /></div>)
 // }
@@ -41,15 +42,15 @@ function PostBody ({ data }) {
 export default function ({ data }) {
   const isNewPost = Boolean(data.val.title)
   if (!isNewPost) {
-    return <div>
+    return <PostCard>
       <Header data={data} />
       <PostBody data={data} />
       <Bottom data={data} />
-    </div>
+    </PostCard>
   }
 
   const imgs = data.val.images || []
-  return <div>
+  return <PostCard>
     <Header data={data} />
     <div>
       <p>New Project Added! {hoorayEmoji(String(data.val.title).length)}</p>
@@ -70,5 +71,5 @@ export default function ({ data }) {
       </div>)}
     </div>
     <Bottom data={data} />
-  </div>
+  </PostCard>
 }

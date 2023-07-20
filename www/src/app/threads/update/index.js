@@ -1,13 +1,25 @@
 import Header from '../header'
 import Bottom from '../bottom'
-import { PostImages, PostDocs } from '../templates'
+import { PostCard, PostImages, PostDocs } from '../templates'
 
 // function mainEmoji (n) {
 //   const d = ['📣', '🤩']
 //   return d[n % d.length + 0]
 // }
 
-function PostBody ({ data }) {
+function PostWrapper ({ data }) {
+  const body = postBody(data)
+  if (body) {
+    return (<PostCard>
+      <Header data={data} />
+        {body}
+      <Bottom data={data} />
+    </PostCard>)
+  }
+  return <></>
+}
+
+function postBody (data) {
   if (typeof data.val === 'string') {
     switch (data.path[0]) {
       case 'details':
@@ -27,7 +39,7 @@ function PostBody ({ data }) {
             <PostImages data={data} original={data.val} />
           </div>)
         } else {
-          return <>goooood</>
+          return false
         }
       // case 'geolocation':
       //   return (<p>Changed <span>location</span> from <span className='opacity-50 line-through'>{data.oldVal}</span> to <i>{data.val}</i>.</p>)
@@ -36,10 +48,13 @@ function PostBody ({ data }) {
       case 'docs':
         return (<PostDocs data={data} url={data.val} />)
       default:
-        return (<p>Updated <span>{data.path[0]}</span> from <span className='opacity-50 line-through'>{data.oldVal}</span> to <i>{data.val}</i>.</p>)
+        if (typeof data.path[0] === 'number') return false
+        console.log(data)
+        return (<p>Updated <span>{data.path.join('\'s ')}</span> from <span className='opacity-50 line-through'>{data.oldVal}</span> to <i>{data.val}</i>.</p>)
+        // return false
     }
   }
-  return (<p>Updated something</p>)
+  return false
 }
 
 export default function ({ data }) {
@@ -47,9 +62,7 @@ export default function ({ data }) {
 
   if (data.path[0] !== 'location' || data.path[0] !== 'geolocation' || data.path[2] === 'thumbnail') {
     return <div>
-      <Header data={data} />
-      <PostBody data={data} />
-      <Bottom data={data} />
+      <PostWrapper data={data} />
     </div>
   }
   return <></>
