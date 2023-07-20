@@ -38,7 +38,7 @@ function transformTimestamp(timestamp) {
 }
 
 export default function ({data}) {
-  const isNewPost = Boolean(Date.now() - data.timestamp < 1000*60*60*24)
+  const isNewPost = Boolean(Date.now() - data.timestamp < 1000*60*60*24*7) // 7 days
   const profiles = useProjectProfileStore(state => state.profiles)
     return (<div className='flex items-start justify-between pb-4'>
       <div className='flex items-start flex-col md:flex-row md:items-center'>

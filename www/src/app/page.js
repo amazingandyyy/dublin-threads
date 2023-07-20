@@ -9,15 +9,15 @@ export default function Home () {
       <div className='flex'>
         <div className='flex'>
           <Image
-            src="/images/dublin-green.svg"
+            src="/logos/dublin-threads-app-logo-dark.svg"
             alt="Dublin CA Green Logo"
-            className='inline-block mr-2'
+            className='inline-block mr-2 rounded-md'
             width={32}
             height={32}
             priority
           />
           <Link href='/'>
-          <h1 className="inline-block text-2xl tracking-tighter font-bold text-green-950">Dublin Thread</h1>
+          <h1 className="inline-block text-2xl tracking-tighter font-bold text-green-950">Dublin Threads</h1>
           </Link>
         </div>
         <div className='grow'>

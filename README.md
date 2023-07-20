@@ -1,4 +1,4 @@
-# 🍀 dublin
+# 🍀 dublin-threads
 
 Data API for Dublin, CA
 

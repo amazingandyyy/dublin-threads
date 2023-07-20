@@ -37,16 +37,16 @@ export default function Thread () {
   const thread = useThreadStore(state => state.thread)
   return (
     <div className='flex flex-col w-full md:max-w-2xl pt-8'>
-      <div className='flex flex-col items-center text-center text-gray-600 py-4'>
+      <div className='flex flex-col items-center text-center text-gray-600 p-4'>
         <Image
-            src="/images/dublin-green.svg"
+            src="/logos/dublin-threads-app-logo-light.svg"
             alt="Dublin CA Green Logo"
-            className='inline-block mr-2'
-            width={64}
-            height={64}
+            className='inline-block mr-2 mb-4 rounded-2xl shadow-2xl bg-white'
+            width={68}
+            height={68}
             priority
           />
-        <div className='text-5xl font-bold text-green-950 mb-4'>
+        <div className='text-3xl md:text-5xl font-bold text-green-950 mb-4'>
           A Thread for Dublin
         </div>
         <div>

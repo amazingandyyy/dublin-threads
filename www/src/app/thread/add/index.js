@@ -49,7 +49,7 @@ export default function ({ data }) {
       {data.val.description}
     </div>
     <div className='flex mt-2 flex-row overflow-x-scroll'>
-      {imgs.map((img, i)=><div className='flex border-2 ml-2'>
+      {imgs.map((img, i)=><div key={`${i}${img.original}`} className='flex border-2 ml-2'>
         <Image
           width='550px'
           style={{ height: '100%' }}
