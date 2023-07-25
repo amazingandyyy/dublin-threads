@@ -1,5 +1,4 @@
 import Image from 'next/image'
-// import Link from 'next/link'
 import Thread from './index'
 
 export default function Threads ({ params, searchParams }) {

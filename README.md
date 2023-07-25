@@ -20,6 +20,7 @@ Data API for Dublin, CA
 - [recursive-diff](https://www.npmjs.com/package/recursive-diff) for the diffing of the JSON files
 - [lodash](https://lodash.com/) for making searching for objects easier
 - [zustand](https://github.com/pmndrs/zustand) for making state management easier
+- [real-favicon-generator](https://realfavicongenerator.net/favicon_result) for generating favicons
 
 ## Author
 
