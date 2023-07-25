@@ -11,15 +11,16 @@ function PostPlaceholder () {
   const emptyArray = (length = 5) => (Array.from(Array(length).keys()))
 
   return <div>
-    {emptyArray(20).map(i => (<div key={i} className='flex animate-pulse opacity-10'>
+    {emptyArray(20).map(i => (<div key={i} className='flex md:rounded-xl my-2 animate-pulse opacity-20'>
     <div className='flex flex-col self-stretch w-full p-4 bg-gray-50'>
       <div className='flex item-between'>
-      <div className='self-stretch mb-1 bg-gray-200 rounded w-64 h-8' />
-      <div className='flex-grow self-stretch mb-1 rounded w-96 h-4' />
-      <div className='self-stretch mb-1 bg-gray-200 rounded w-24 h-2' />
+        <div className='self-stretch mb-4 bg-gray-200 rounded-full w-64 h-8' />
+        <div className='flex-grow self-stretch mb-2 rounded-full w-96 h-[15px]' />
+        <div className='self-stretch mb-2 bg-gray-200 rounded-full w-16 h-[15px]' />
       </div>
-      <div className='self-stretch mb-1 bg-gray-200 rounded w-64 h-4'></div>
-      <div className='self-stretch mb-1 bg-gray-200 rounded w-48 h-4'></div>
+      <div className='self-stretch mb-2 bg-gray-200 rounded-full w-96 h-[15px]' />
+      <div className='self-stretch mb-2 bg-gray-200 rounded-full w-64 h-[15px]' />
+      <div className='self-stretch mb-2 bg-gray-200 rounded-full w-48 h-[15px]' />
     </div>
   </div>))}
   </div>
@@ -71,13 +72,14 @@ export default function Thread () {
           Updated every 30 minutes
         </div>
       </div>
-      <div>
-        <div>
-        {loading && <span>loading</span>}
-        {!loading && thread.length} updates
+      <div className='flex flex-col'>
+        <div className='flex justify-end text-xs pr-2'>
+          <div>{loading ? (<span className='animate-pulse'>...</span>) : (<span>{thread.length}</span>)} updates</div>
         </div>
-        {loading && <PostPlaceholder />}
-        {thread.length > 0 && thread.map((post, i) => <Post key={i} data={post} />)}
+        <div>
+          {loading && <PostPlaceholder />}
+          {thread.length > 0 && thread.map((post, i) => <Post key={i} data={post} />)}
+        </div>
       </div>
     </div>
   )
