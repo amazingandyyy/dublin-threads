@@ -51,7 +51,7 @@ export default function Thread () {
   }, [])
   const thread = useThreadStore(state => state.thread)
   return (
-    <div className='flex flex-col w-full md:max-w-2xl py-4 border-x-[0.5px]'>
+    <div className='flex flex-col w-full md:max-w-2xl py-4 border-x-[0px]'>
       <div className='flex flex-col items-center text-center text-gray-600 p-4'>
         <Image
             src="/logos/dublin-threads-app-logo-light.svg"
@@ -72,6 +72,10 @@ export default function Thread () {
         </div>
       </div>
       <div>
+        <div>
+        {loading && <span>loading</span>}
+        {!loading && thread.length} updates
+        </div>
         {loading && <PostPlaceholder />}
         {thread.length > 0 && thread.map((post, i) => <Post key={i} data={post} />)}
       </div>
