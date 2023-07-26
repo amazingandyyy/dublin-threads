@@ -11,6 +11,7 @@ const useThreadStore = create((set) => ({
     })
     useSingleProjectStore.getState().update(singleThread)
     useProjectProfileStore.getState().update(profiles)
+    useMapStore.getState().update(Object.values(profiles))
     set({ thread })
   }
 }))
@@ -27,4 +28,9 @@ const useProjectProfileStore = create((set) => ({
   update: (profiles) => set({ profiles })
 }))
 
-export { useThreadStore, useProjectProfileStore }
+const useMapStore = create((set) => ({
+  locations: [],
+  update: (locations) => set({ locations })
+}))
+
+export { useThreadStore, useProjectProfileStore, useMapStore }

@@ -3,7 +3,6 @@ import { Fragment, useEffect, useState } from 'react'
 import Image from 'next/image'
 
 import { useThreadStore } from '@/stores'
-import { fetchDevelopments } from '@/utils'
 import AddPost from './add'
 import UpdatePost from './update'
 
@@ -42,15 +41,12 @@ function Post ({ data }) {
 
 export default function Thread () {
   const [loading, setLoading] = useState(true)
-  useEffect(() => {
-    fetchDevelopments('/logs/global.json')
-      .then(res => res.json())
-      .then(data => {
-        setLoading(false)
-        useThreadStore.getState().update(data)
-      })
-  }, [])
   const thread = useThreadStore(state => state.thread)
+
+  useEffect(() => {
+    if (thread.length > 0) setLoading(false)
+  }, [thread])
+
   return (
     <div className='flex flex-col w-full md:max-w-2xl py-4 border-x-[0px]'>
       <div className='flex flex-col items-center text-center text-gray-600 p-4'>

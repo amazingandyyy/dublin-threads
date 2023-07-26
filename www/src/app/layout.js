@@ -1,13 +1,25 @@
+'use client'
+
 import Head from 'next/head'
+import { useEffect } from 'react'
+import { fetchDevelopments } from '@/utils'
+import { useThreadStore } from '@/stores'
 
 import './globals.scss'
 
-export const metadata = {
-  title: 'DublinThreads',
-  description: '[Updated every minute] Dublin Threads is proudly built by a community of civic-minded people living in Dublin, CA. Get to know the thread of the most local updates of Dublin in CA.'
-}
+// export const metadata = {
+//   title: 'DublinThreads',
+//   description: '[Updated every minute] Dublin Threads is proudly built by a community of civic-minded people living in Dublin, CA. Get to know the thread of the most local updates of Dublin in CA.'
+// }
 
 export default function RootLayout ({ children }) {
+  useEffect(() => {
+    fetchDevelopments('/logs/global.json')
+      .then(res => res.json())
+      .then(data => {
+        useThreadStore.getState().update(data)
+      })
+  }, [])
   return (
     <html lang="en">
       <Head>

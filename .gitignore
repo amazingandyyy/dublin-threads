@@ -4,3 +4,4 @@ package-lock.json
 .parcel-*
 .idea
 /dublin-development.icitywork.com/
+.env.*

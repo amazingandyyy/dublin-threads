@@ -21,6 +21,7 @@ Data API for Dublin, CA
 - [lodash](https://lodash.com/) for making searching for objects easier
 - [zustand](https://github.com/pmndrs/zustand) for making state management easier
 - [real-favicon-generator](https://realfavicongenerator.net/favicon_result) for generating favicons
+- [VisGL](https://visgl.github.io/react-map-gl/docs/get-started) for the map
 
 ## Author
 

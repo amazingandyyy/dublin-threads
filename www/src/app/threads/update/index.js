@@ -49,7 +49,7 @@ function postBody (data) {
         return (<PostDocs data={data} url={data.val} />)
       default:
         if (typeof data.path[0] === 'number') return false
-        console.log(data)
+        // console.log(data)
         return (<p>Updated <span>{data.path.join('\'s ')}</span> from <span className='opacity-50 line-through'>{data.oldVal}</span> to <i>{data.val}</i>.</p>)
         // return false
     }
