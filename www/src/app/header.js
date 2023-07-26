@@ -8,29 +8,29 @@ export default function GlobalHeader () {
       <Image
         src="/logos/dublin-threads-app-logo-dark.svg"
         alt="Dublin Threads app logo dark"
-        className='inline-block mr-2 rounded-md'
+        className='inline-block mr-1 md:mr-2 rounded-md'
         width={32}
         height={32}
         priority
       />
-      <a href='/'>
-        <h1 className="inline-block text-2xl tracking-tighter font-bold text-green-950">Dublin Threads</h1>
+      <a href='/' className='flex items-center'>
+        <h1 className="inline-block text-xl md:text-2xl tracking-tighter font-bold text-green-950">Dublin Threads</h1>
       </a>
     </div>
     <div className='grow'>
     </div>
     <div className='flex items-center'>
       <Link href='/threads'>
-      <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'>
+      <div className='flex px-1 md:px-4 font-semibold text-green-950 hover:text-green-500'>
         Threads
       </div>
       </Link>
       <Link href='/map'>
-      <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'>
+      <div className='flex px-1 md:px-4 font-semibold text-green-950 hover:text-green-500'>
         Map
       </div>
       </Link>
-      <div className='flex px-2'>
+      <div className='flex sm:px-1 md:px-2'>
       <a target='_blank' href='https://github.com/amazingandyyy/dublin' className='opacity-40 flex hover:opacity-60' rel="noreferrer">
         <Image
           src="/images/github-icon.svg"
