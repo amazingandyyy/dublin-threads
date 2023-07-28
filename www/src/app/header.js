@@ -14,7 +14,7 @@ export default function GlobalHeader () {
         priority
       />
       <a href='/' className='flex items-center'>
-        <h1 className="inline-block text-xl md:text-2xl tracking-tighter font-bold text-green-950">Dublin Threads</h1>
+        <h1 className="inline-block text-xl md:text-2xl tracking-tighter font-bold text-green-950 hover:opacity-80">Dublin Threads</h1>
       </a>
     </div>
     <div className='grow'>

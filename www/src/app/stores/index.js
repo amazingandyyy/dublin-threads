@@ -6,10 +6,15 @@ const useThreadStore = create((set) => ({
     const profiles = {}
     const singleThread = {}
     thread.forEach((post) => {
-      if (post.op === 'add' && Boolean(post.val.title)) profiles[post.projectId] = post.val
       singleThread[post.projectId] = singleThread[post.projectId] ? [...singleThread[post.projectId], post].sort((a, b) => b.timestamp - a.timestamp) : [post]
+      if (post.op === 'add' && Boolean(post.val.title)) {
+        profiles[post.projectId] = post.val
+      }
     })
     useSingleProjectStore.getState().update(singleThread)
+    Object.keys(profiles).forEach((k) => {
+      profiles[k].threads = singleThread[k]
+    })
     useProjectProfileStore.getState().update(profiles)
     useMapStore.getState().update(Object.values(profiles))
     set({ thread })
