@@ -1,6 +1,6 @@
 'use client'
 import GlobalHeader from '@/header'
-import ProjectBento from './projectBento'
+import ProjectBento from '././projectBento'
 
 export default function Project ({ params }) {
   return (<>
