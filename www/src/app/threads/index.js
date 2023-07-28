@@ -1,6 +1,7 @@
 'use client'
 import { Fragment, useEffect, useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 import { useThreadStore } from '@/stores'
 import AddPost from './add'
@@ -74,7 +75,11 @@ export default function Thread () {
         </div>
         <div>
           {loading && <PostPlaceholder />}
-          {thread.length > 0 && thread.map((post, i) => <Post key={i} data={post} />)}
+          {thread.length > 0 && thread.map((post, i) =>
+          <Link key={i} href={`/project/${post.projectId}`}>
+            <Post data={post} />
+          </Link>
+          )}
         </div>
       </div>
     </div>

@@ -14,6 +14,7 @@ import './globals.scss'
 
 export default function RootLayout ({ children }) {
   useEffect(() => {
+    console.log('fetching global')
     fetchDevelopments('/logs/global.json')
       .then(res => res.json())
       .then(data => {
