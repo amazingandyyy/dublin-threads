@@ -17,17 +17,17 @@ const PostImages = ({ data, original = '', thumbnail = '' }) => {
 
 const PostDocs = ({ data, url = '' }) => {
   url = url || data.val.url
-  return (<div>
+  return (<div className='w-full'>
   <p>Just uploaded a new document</p>
   <br />
-  <a href={url} target='_blank' className='text-green-800 truncate ...' rel="noreferrer">
-    <p className='truncate ...'>📁 {data.val.name || 'Document'}</p>
+  <a href={url} target='_blank' className='text-green-800' rel="noreferrer">
+    <div className='max-w-xs md:max-w-full inlin-block break-words truncate ... text-ellipsis'>📁 {data.val.name || 'Document'}</div>
   </a>
   </div>)
 }
 
 function PostCard ({ children }) {
-  return (<div className='bg-white m-2 rounded-2xl my-2 p-6 hover:bg-slate-50 shadow-box overflow-hidden'>{children}</div>)
+  return (<div className='bg-white m-2 rounded-2xl my-2 p-6 hover:bg-slate-50 shadow-box'>{children}</div>)
 }
 
 export {

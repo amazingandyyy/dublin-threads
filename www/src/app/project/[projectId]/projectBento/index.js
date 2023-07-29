@@ -120,6 +120,7 @@ export default function ProjectBento ({ projectId }) {
   }
 
   const RenderThreads = ({ project }) => {
+    // return (<Threads thread={project.threads.slice(0,4)} />)
     return (<Threads thread={project.threads} />)
   }
   const renderImages = (images) => {
@@ -137,7 +138,7 @@ export default function ProjectBento ({ projectId }) {
             src={image.original}
             alt=''
             style={{ width: '100%' }}
-            className='shadow-box overflow-hidden md:rounded-2xl mb-4'
+            className='shadow-box overflow-hidden md:rounded-2xl mb-1 md:mb-4'
             width={0}
             height={500}
           />)
@@ -268,8 +269,8 @@ export default function ProjectBento ({ projectId }) {
         </div>
       </div>
       <div className='md:p-2'>
-        <div className='md:rounded-2xl shadow-box bg-white p-8'>
-          <div className='inline border-2 border-gray-800 text-gray-800 text-sm rounded-full px-3'>Threads</div>
+        <div className='md:rounded-2xl shadow-box bg-white md:p-8'>
+          <div className='inline-block border-2 border-gray-800 text-gray-800 mt-8 ml-8 md:mt-0 md:ml-0 text-sm rounded-full px-3'>Threads</div>
           {<RenderThreads project={project} />}
         </div>
       </div>

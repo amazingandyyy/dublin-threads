@@ -26,7 +26,7 @@ export default function GlobalHeader () {
       </div>
       </Link>
       <Link href='/map'>
-      <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'>
+      <div className='flex px-2 pr-4 md:px-4 font-semibold text-green-950 hover:text-green-500'>
         Map
       </div>
       </Link>
