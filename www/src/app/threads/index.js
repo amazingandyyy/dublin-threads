@@ -49,7 +49,7 @@ export default function Thread () {
   }, [thread])
 
   return (
-    <div className='flex flex-col w-full md:max-w-2xl py-4 border-x-[0px]'>
+    <div className='flex flex-col py-4 w-full md:max-w-2xl'>
       <div className='flex flex-col items-center text-center text-gray-600 p-4'>
         <Image
             src="/logos/dublin-threads-app-logo-light.svg"
@@ -73,15 +73,19 @@ export default function Thread () {
         <div className='flex justify-end text-xs pr-2'>
           <div>{loading ? (<span className='animate-pulse'>...</span>) : (<span>{thread.length}</span>)} updates</div>
         </div>
-        <div>
+        <>
           {loading && <PostPlaceholder />}
+        </>
+        <>
           {thread.length > 0 && thread.map((post, i) =>
-          <Link key={i} href={`/project/${post.projectId}`}>
+          <Link key={i} href={`/project/${post.projectId}`} className='flex flex-col'>
             <Post data={post} />
           </Link>
           )}
-        </div>
+        </>
       </div>
     </div>
   )
 }
+
+export { Post }

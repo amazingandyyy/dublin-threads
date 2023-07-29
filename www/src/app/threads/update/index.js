@@ -61,9 +61,7 @@ export default function ({ data }) {
   // console.log("updates!", data)
 
   if (data.path[0] !== 'location' || data.path[0] !== 'geolocation' || data.path[2] === 'thumbnail') {
-    return <div>
-      <PostWrapper data={data} />
-    </div>
+    return (<PostWrapper data={data} />)
   }
   return <></>
 }

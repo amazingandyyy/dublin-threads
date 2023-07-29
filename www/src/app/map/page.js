@@ -28,7 +28,7 @@ export default function Threads ({ params, searchParams }) {
         initialViewState: {
           longitude: -121.909645,
           latitude: 37.714861,
-          zoom: 5
+          zoom: 12
         },
         borderRadius: '0px'
       },

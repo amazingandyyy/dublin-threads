@@ -1,3 +1,4 @@
+import Image from './image'
 const rootUrl = 'https://raw.githubusercontent.com/amazingandyyy/dublin/main/docs'
 const developmentApiUrl = '/api/v2/developments/'
 
@@ -33,4 +34,4 @@ function timeSince (date) {
   return Math.floor(seconds) + ' seconds'
 }
 
-export { fetchDevelopments, timeSince }
+export { fetchDevelopments, timeSince, Image }

@@ -1,4 +1,4 @@
-import Image from '../image'
+import { Image } from '@/utils'
 import Header from '../header'
 import Bottom from '../bottom'
 import { PostImages, PostDocs, PostCard } from '../templates'
@@ -62,7 +62,7 @@ export default function ({ data }) {
     <div className='flex mt-2 flex-row overflow-x-scroll'>
       {imgs.map((img, i) => <div key={`${i}${img.original}`} className='flex border-2 ml-2'>
         <Image
-          width='550px'
+          width={550}
           style={{ height: '100%' }}
           original={img.original}
           thumbnail={img.thumbnail}
