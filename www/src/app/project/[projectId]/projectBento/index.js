@@ -109,8 +109,8 @@ export default function ProjectBento ({ projectId }) {
       <div>
         {project?.docs?.length > 0
           ? <div>{project?.docs?.map(doc => (<div key={doc.url}>
-            <a href={doc.url} target='_blank' className='text-green-800 truncate ...' rel="noreferrer">
-              <p className='truncate ...'>📁 {doc.name || 'Document'}</p>
+            <a href={doc.url} target='_blank' className='inline-block py-2 text-green-800 hover:text-green-600 truncate ...' rel="noreferrer">
+              <div className='max-w-xs md:max-w-full inlin-block break-words truncate ... text-ellipsis'>📁 {doc.name || 'Document'}</div>
             </a>
           </div>))}
         </div>
@@ -121,7 +121,7 @@ export default function ProjectBento ({ projectId }) {
 
   const RenderThreads = ({ project }) => {
     // return (<Threads thread={project.threads.slice(0,4)} />)
-    return (<Threads thread={project.threads} />)
+    return (<Threads thread={project.threads.slice(0, 12)} />)
   }
   const renderImages = (images) => {
     if (images?.length === 0) {
@@ -138,9 +138,7 @@ export default function ProjectBento ({ projectId }) {
             src={image.original}
             alt=''
             style={{ width: '100%' }}
-            className='shadow-box overflow-hidden md:rounded-2xl mb-1 md:mb-4'
-            width={0}
-            height={500}
+            className='shadow-box md:rounded-2xl m-0 mb-1 md:mb-4'
           />)
           )}
       </>)

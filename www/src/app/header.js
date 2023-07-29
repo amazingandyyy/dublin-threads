@@ -5,15 +5,7 @@ export default function GlobalHeader () {
   return (<header className="z-50 drop-shadow bg-white bg-opacity-90 fixed py-4 px-2 md:px-6 xl:px-24 top-0 left-0 right-0 backdrop-filter backdrop-blur">
   <div className='flex'>
     <div className='flex'>
-      <Image
-        src="/logos/dublin-threads-app-logo-dark.svg"
-        alt="Dublin Threads app logo dark"
-        className='inline-block mr-1 md:mr-2 rounded-md'
-        width={32}
-        height={32}
-        priority
-      />
-      <a href='/' className='flex items-center'>
+      <a href='/' className='flex items-center pl-2'>
         <h1 className="inline-block text-xl md:text-2xl tracking-tighter font-bold text-green-950 hover:opacity-80">Dublin Threads</h1>
       </a>
     </div>

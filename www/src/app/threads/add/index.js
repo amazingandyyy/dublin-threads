@@ -55,7 +55,7 @@ export default function ({ data }) {
       <p className='inline'>New Project Added! {hoorayEmoji(String(data.val.title).length)}</p>
       {data.val.images?.length > 0 && <p className='pl-2 inline'>with {data.val.images?.length} photos</p>}
     </div>
-    <div className='py-4'>
+    <div className='py-4 max-w-xs md:max-w-full inlin-block break-words truncate ... text-ellipsis'>
       {data.val.description}
     </div>
     <div className='mt-2 overflow-x-hidden'>

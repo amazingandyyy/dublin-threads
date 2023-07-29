@@ -14,7 +14,7 @@ export default function Threads () {
           <Image
             src="/logos/dublin-threads-app-logo-light.svg"
             alt="Dublin CA Green Logo"
-            className='inline-block mr-2 mb-4 rounded-2xl shadow-[0_20px_60px_-5px_rgba(0,0,0,0.3)] bg-white'
+            className='inline-block m-2 mb-4 rounded-full shadow-[0_20px_60px_-5px_rgba(0,0,0,0.3)] bg-white'
             width={68}
             height={68}
             priority

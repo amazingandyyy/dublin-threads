@@ -1,15 +1,11 @@
-import { Image } from '@/utils'
-
 const PostImages = ({ data, original = '', thumbnail = '' }) => {
   return (<div>
     <p>Added a new image to the project!</p>
     <div className='flex mt-2 flex-row overflow-x-hidden'>
-      <Image
-        width={550}
+      <img
         style={{ height: '100%' }}
-        original={original || data.val?.original}
-        thumbnail={thumbnail || data.val?.thumbnail}
-        alt={data.projectId}
+        src={original || data.val?.original}
+        alt={''}
       />
     </div>
   </div>)
