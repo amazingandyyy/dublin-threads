@@ -3,7 +3,7 @@ import { Image } from '@/utils'
 const PostImages = ({ data, original = '', thumbnail = '' }) => {
   return (<div>
     <p>Added a new image to the project!</p>
-    <div className='flex mt-2 flex-row overflow-x-scroll'>
+    <div className='flex mt-2 flex-row overflow-x-hidden'>
       <Image
         width={550}
         style={{ height: '100%' }}
@@ -17,7 +17,7 @@ const PostImages = ({ data, original = '', thumbnail = '' }) => {
 
 const PostDocs = ({ data, url = '' }) => {
   url = url || data.val.url
-  return (<div className='flex flex-col w-full'>
+  return (<div>
   <p>Just uploaded a new document</p>
   <br />
   <a href={url} target='_blank' className='text-green-800 truncate ...' rel="noreferrer">
@@ -27,7 +27,7 @@ const PostDocs = ({ data, url = '' }) => {
 }
 
 function PostCard ({ children }) {
-  return (<div className='bg-white md:rounded-2xl my-2 self-stretch p-6 hover:bg-slate-50 shadow-box'>{children}</div>)
+  return (<div className='bg-white m-2 rounded-2xl my-2 p-6 hover:bg-slate-50 shadow-box overflow-hidden'>{children}</div>)
 }
 
 export {

@@ -1,9 +1,6 @@
 'use client'
 import { Fragment, useEffect, useState } from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
-
-import { useThreadStore } from '@/stores'
 import AddPost from './add'
 import UpdatePost from './update'
 
@@ -40,7 +37,7 @@ function Post ({ data }) {
   }
 }
 
-export default function Thread ({thread}) {
+export default function Thread ({ thread }) {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
@@ -48,9 +45,8 @@ export default function Thread ({thread}) {
   }, [thread])
 
   return (
-    <div className='flex flex-col py-4 w-full md:max-w-2xl'>
-      <div className='flex flex-col'>
-        <div className='flex justify-end text-xs pr-2'>
+    <div>
+        <div className='flex justify-end text-sm pr-2 md:pr-0 mb-4 opacity-70'>
           <div>{loading ? (<span className='animate-pulse'>...</span>) : (<span>{thread.length}</span>)} updates</div>
         </div>
         <>
@@ -58,12 +54,11 @@ export default function Thread ({thread}) {
         </>
         <>
           {thread.length > 0 && thread.map((post, i) =>
-          <Link key={i} href={`/project/${post.projectId}`} className='flex flex-col'>
+          <Link key={i} href={`/project/${post.projectId}`}>
             <Post data={post} />
           </Link>
           )}
         </>
-      </div>
     </div>
   )
 }

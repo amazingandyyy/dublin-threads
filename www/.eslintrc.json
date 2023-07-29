@@ -20,6 +20,7 @@
         "react/prop-types": 0,
         "react/display-name": 0,
         "import/no-anonymous-default-export": 0,
-        "no-dupe-keys": 0
+        "no-dupe-keys": 0,
+        "@next/next/no-img-element": 0
     }
 }

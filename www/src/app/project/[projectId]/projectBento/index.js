@@ -2,7 +2,7 @@
 
 import 'mapbox-gl/dist/mapbox-gl.css'
 import { useEffect, useState } from 'react'
-import {useProjectProfileStore} from '@/stores'
+import { useProjectProfileStore } from '@/stores'
 import Map, { Marker } from 'react-map-gl'
 import {
   MapPinIcon as OutlineMapPinIcon,
@@ -21,7 +21,7 @@ import {
 import './style.scss'
 import { MapPinIcon } from '@heroicons/react/20/solid'
 import { timeSince } from '@/utils'
-import Threads from "@/threads";
+import Threads from '@/threads'
 
 export default function ProjectBento ({ projectId }) {
   const [project, setProject] = useState({})
@@ -108,7 +108,7 @@ export default function ProjectBento ({ projectId }) {
       <div className='self-start border-2 border-gray-800 text-gray-800 text-sm rounded-full px-3'>Documents</div>
       <div>
         {project?.docs?.length > 0
-          ? <div>{project?.docs?.map(doc=>(<div>
+          ? <div>{project?.docs?.map(doc => (<div key={doc.url}>
             <a href={doc.url} target='_blank' className='text-green-800 truncate ...' rel="noreferrer">
               <p className='truncate ...'>📁 {doc.name || 'Document'}</p>
             </a>
@@ -119,24 +119,25 @@ export default function ProjectBento ({ projectId }) {
     </div>)
   }
 
-  const RenderThreads = ({project}) => {
-    // thread = thread.filter((i)=>i.projectId === project.id)
+  const RenderThreads = ({ project }) => {
     return (<Threads thread={project.threads} />)
   }
   const renderImages = (images) => {
-    if (images?.length === 0) return (
-      <div className='flex flex-col md:rounded-2xl shadow-box bg-white p-8 md:m-2 my-1 flex-1'>
-        <div className='self-start border-2 border-gray-800 text-gray-800 text-sm rounded-full px-3'>Images</div>
+    if (images?.length === 0) {
+      return (
+      <div className='md:rounded-2xl shadow-box bg-white p-8'>
+        <div className='inline border-2 border-gray-800 text-gray-800 text-sm rounded-full px-3'>Images</div>
         <div className='pt-4'>0 images available</div>
       </div>
-    )
+      )
+    }
     return (<>
-          {images.map((image, index) => (<img
+          {images.map((image) => (<img
             key={image.original}
             src={image.original}
             alt=''
-            style={{ width:'100%' }}
-            className='shadow-box overflow-hidden md:rounded-2xl mb-2 md:mb-4'
+            style={{ width: '100%' }}
+            className='shadow-box overflow-hidden md:rounded-2xl mb-4'
             width={0}
             height={500}
           />)
@@ -258,13 +259,20 @@ export default function ProjectBento ({ projectId }) {
           {renderStats(project)}
         </div>
       </div>
-      <div className='flex flex-col md:px-2'>
+      <div className='md:p-2'>
         {renderImages(project?.images)}
       </div>
-      <div className='flex flex-1 md:rounded-2xl shadow-box bg-white p-8 md:m-2 my-1'>
-        {renderDocuments(project)}
+      <div className='md:p-2'>
+        <div className='md:rounded-2xl shadow-box bg-white p-8'>
+          {renderDocuments(project)}
+        </div>
       </div>
-      {/*{<RenderThreads project={project} />}*/}
+      <div className='md:p-2'>
+        <div className='md:rounded-2xl shadow-box bg-white p-8'>
+          <div className='inline border-2 border-gray-800 text-gray-800 text-sm rounded-full px-3'>Threads</div>
+          {<RenderThreads project={project} />}
+        </div>
+      </div>
     </>)
   }
 }

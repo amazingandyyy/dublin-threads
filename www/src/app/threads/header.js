@@ -23,7 +23,7 @@ export default function ({ data }) {
       </div>
       <div className='relative'>
         <div className='pl-1 text-gray-500 text-xs'>{transformTimestamp(data.timestamp)}</div>
-        {isNewPost && <div className='block absolute bg-green-400 text-green-800 px-2 -top-8 right-1 md:-right-8 rounded-full text-sm rotate-[5deg] md:-rotate-[5deg] shadow-2xl'>NEW</div>}
+        {isNewPost && <div className='block absolute bg-green-400 text-green-800 px-2 top-8 left-12 md:-right-8 rounded-full text-sm rotate-[5deg] md:-rotate-[5deg] shadow-2xl'>NEW</div>}
       </div>
     </div>)
 }

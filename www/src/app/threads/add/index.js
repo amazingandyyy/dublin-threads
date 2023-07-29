@@ -1,4 +1,3 @@
-import { Image } from '@/utils'
 import Header from '../header'
 import Bottom from '../bottom'
 import { PostImages, PostDocs, PostCard } from '../templates'
@@ -53,21 +52,15 @@ export default function ({ data }) {
   return <PostCard>
     <Header data={data} />
     <div>
-      <p>New Project Added! {hoorayEmoji(String(data.val.title).length)}</p>
-      {data.val.images?.length > 0 && <p className='pl-2'>with {data.val.images?.length} photos</p>}
+      <p className='inline'>New Project Added! {hoorayEmoji(String(data.val.title).length)}</p>
+      {data.val.images?.length > 0 && <p className='pl-2 inline'>with {data.val.images?.length} photos</p>}
     </div>
-    <div>
+    <div className='py-4'>
       {data.val.description}
     </div>
-    <div className='flex mt-2 flex-row overflow-x-scroll'>
-      {imgs.map((img, i) => <div key={`${i}${img.original}`} className='flex border-2 ml-2'>
-        <Image
-          width={550}
-          style={{ height: '100%' }}
-          original={img.original}
-          thumbnail={img.thumbnail}
-          alt={`${data.val.title}-${i}`}
-        />
+    <div className='mt-2 overflow-x-hidden'>
+      {imgs.map((img, i) => <div key={`${i}${img.original}`} className='inline-block border-2 ml-2 w-full'>
+        <img src={img.original} style={{ width: '100%', height: 'auto' }} alt='' />
       </div>)}
     </div>
     <Bottom data={data} />

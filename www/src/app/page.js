@@ -1,6 +1,6 @@
 'use client'
 
-import Threads from "@/threads/page";
+import Threads from '@/threads/page'
 
 export default function Home () {
   return (<Threads />)
