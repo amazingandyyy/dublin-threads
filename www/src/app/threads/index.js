@@ -1,6 +1,5 @@
 'use client'
 import { Fragment, useEffect, useState } from 'react'
-import Link from 'next/link'
 import AddPost from './add'
 import UpdatePost from './update'
 
@@ -54,9 +53,7 @@ export default function Thread ({ thread }) {
         </>
         <>
           {thread.length > 0 && thread.map((post, i) =>
-          <Link key={i} href={`/project/${post.projectId}`}>
-            <Post data={post} />
-          </Link>
+            <Post key={i} data={post} />
           )}
         </>
     </div>

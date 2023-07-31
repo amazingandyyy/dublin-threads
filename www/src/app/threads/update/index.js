@@ -49,8 +49,8 @@ function postBody (data) {
         return (<PostDocs data={data} url={data.val} />)
       default:
         if (typeof data.path[0] === 'number') return false
-        // console.log(data)
-        return (<p>Updated <span>{data.path.join('\'s ')}</span> from <p className='opacity-50 line-through max-w-xs md:max-w-full inlin-block break-words truncate ... text-ellipsis'>{data.oldVal}</p> to <p className='max-w-xs md:max-w-full inlin-block break-words truncate ... text-ellipsis'><i>{data.val}</i></p>.</p>)
+        console.log(data)
+        return (<p className='flex flex-col items-start'>Updated <span>{data.path.join(' ')}</span><p className='opacity-50 line-through max-w-xs md:max-w-full inline-block break-words truncate ... text-ellipsis'>{data.oldVal}</p><p className='max-w-xs md:max-w-full inline-block break-words'><i>{data.val}</i></p></p>)
         // return false
     }
   }
