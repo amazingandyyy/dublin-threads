@@ -1,4 +1,5 @@
 import { create } from 'zustand'
+import rdiff from 'recursive-diff'
 
 const useThreadStore = create((set) => ({
   thread: [],
@@ -11,7 +12,6 @@ const useThreadStore = create((set) => ({
         profiles[post.projectId] = post.val
       }
     })
-    useSingleProjectStore.getState().update(singleThread)
     Object.keys(profiles).forEach((k) => {
       profiles[k].threads = singleThread[k]
     })
@@ -21,16 +21,16 @@ const useThreadStore = create((set) => ({
   }
 }))
 
-const useSingleProjectStore = create((set) => ({
-  thread: {},
-  update: (thread) => {
-    set({ thread })
-  }
-}))
-
-const useProjectProfileStore = create((set) => ({
+const useProjectProfileStore = create((set, get) => ({
   profiles: {},
-  update: (profiles) => set({ profiles })
+  update: (profiles) => set({ profiles }),
+  current: (projectId) => {
+    console.log('get profile of', projectId)
+    const profile = get().profiles[projectId] || { threads: [] }
+    const diff = profile?.threads.map(i => ({ path: i.path, op: i.op, val: i.val })).reverse() || []
+    const current = rdiff.applyDiff({}, diff)
+    return current[projectId] || get().profiles[projectId]
+  }
 }))
 
 const useMapStore = create((set) => ({

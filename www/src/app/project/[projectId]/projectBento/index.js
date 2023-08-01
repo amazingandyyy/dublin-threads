@@ -1,7 +1,7 @@
 'use client'
 
 import 'mapbox-gl/dist/mapbox-gl.css'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { useProjectProfileStore } from '@/stores'
 import Map, { Marker } from 'react-map-gl'
 import {
@@ -25,12 +25,10 @@ import Threads from '@/threads'
 
 export default function ProjectBento ({ projectId }) {
   const [project, setProject] = useState({})
-  const projectProfile = useProjectProfileStore((state) => state.profiles[projectId])
 
-  useEffect(() => {
-    console.log(projectProfile)
-    if (projectProfile)setProject(projectProfile)
-  }, [projectProfile])
+  useProjectProfileStore.subscribe(() => {
+    setProject(useProjectProfileStore.getState().current(projectId))
+  })
 
   const renderApplicant = (project) => {
     const applicant = project?.details.Applicant
@@ -105,7 +103,7 @@ export default function ProjectBento ({ projectId }) {
 
   const renderDocuments = (project) => {
     return (<div className='flex flex-col'>
-      <div className='self-start border-2 border-gray-800 text-gray-800 text-sm rounded-full px-3'>Documents</div>
+      <div className='self-start border-2 border-gray-800 text-gray-800 text-sm rounded-full px-3 mb-4'>Documents</div>
       <div>
         {project?.docs?.length > 0
           ? <div>{project?.docs?.map(doc => (<div key={doc.url}>
@@ -121,7 +119,7 @@ export default function ProjectBento ({ projectId }) {
 
   const RenderThreads = ({ project }) => {
     // return (<Threads thread={project.threads.slice(0,4)} />)
-    return (<Threads thread={project.threads.slice(0, 12)} />)
+    return (<Threads thread={project.threads.slice(0)} />)
   }
   const renderImages = (images) => {
     if (images?.length === 0) {
@@ -155,6 +153,16 @@ export default function ProjectBento ({ projectId }) {
         <div className='text-lg text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-lime-600'>Submitted</div>
         <div className='text-6xl text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-lime-600 py-2 font-extralight'>{timeSince(seconds)}</div>
         <div className='text-lg text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-lime-600 py-2'>ago on {date}</div>
+      </div>
+    </div>)
+  }
+  const renderLatestUpdateDate = (project) => {
+    return (<div className='flex flex-col md:rounded-2xl shadow-box bg-white p-8 md:m-2 mb-1 h-full text-center items-center justify-center'>
+      <div className='flex flex-col items-center'>
+        <ClockIcon className='w-6 h-6 text-emerald-500' />
+        <div className='text-lg text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-lime-600'>Lastest updated</div>
+        <div className='text-6xl text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-lime-600 py-2 font-extralight'>{timeSince(project?.threads[0]?.timestamp)}</div>
+        <div className='text-lg text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-lime-600 py-2'>ago</div>
       </div>
     </div>)
   }
@@ -251,6 +259,7 @@ export default function ProjectBento ({ projectId }) {
         <div className='flex flex-col flex-1'>
           {renderStatus(project)}
           {renderSubmittalDate(project)}
+          {renderLatestUpdateDate(project)}
         </div>
         <div className='flex flex-col flex-1'>
           {renderApplicant(project)}
