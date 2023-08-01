@@ -304,7 +304,7 @@ var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"
 	for (var i = 0; i < evts.length; i++) {
 		addEvent(evts[i], logHuman);
 	}
-})('//dublin-development.icitywork.com/?wordfence_lh=1&hid=9DD7B4218E855CAEE06D40E992C0DD53');
+})('//dublin-development.icitywork.com/?wordfence_lh=1&hid=12B792F6021B55B366E02580C258B064');
 </script>	     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -1402,7 +1402,7 @@ var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"
 							
 														<tr>
 								<td class="table-left"><strong>Project Planner</strong></td>
-								<td class="table-right">Linda Ajello																		- Senior Planner																												<br />(925) 833-6610																												<br /><a href="mailto:linda.ajello@dublin.ca.gov">linda.ajello@dublin.ca.gov</a>
+								<td class="table-right">Amy Million																		- Principal Planner																												<br />(925) 833-6610																												<br /><a href="mailto:amy.million@dublin.ca.gov">amy.million@dublin.ca.gov</a>
 																		</td>
 							</tr>
 													</table>
@@ -1418,7 +1418,8 @@ var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"
 						Tassajara&nbsp;Road&nbsp;						<br /><br />
 
 															<h4 class="dublin-green">Documents</h4>
-								<p><a href="https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin_NOP.pdf">SCS Dublin Notice of Preparation of Environmental Impact Report</a></p>
+								<p><strong>SCS Dublin Background Documents: </strong></p>
+<p><a href="https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin_NOP.pdf">SCS Dublin Notice of Preparation of Environmental Impact Report</a></p>
 <p><a href="https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin-NOA.pdf">SCS Dublin Notice of Availability of Environmental Impact Report</a></p>
 <p><a href="https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS_Dublin_Public_Review_Draft_EIR_July_2022.pdf">SCS_Dublin_Public_Review_Draft_Environmental Impact Report_July_2022</a></p>
 <ul>
@@ -1463,8 +1464,9 @@ var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"
 <p>In 2022, the City Council approved the SCS Dublin project consisting of a  General Plan/Eastern Dublin Specific Plan Amendment,  Planned Development with Stage 1 and Stage 2 Development Plans and Development Agreement. The SCS Dublin project is a mixed-use project consisting of up to 265,000 square feet of commercial uses and 650 residential units and based on the Preferred Plan approved by City Council on February 15, 2022.</p>
 <p>The City of Dublin prepared a Draft Environmental Impact Report (DEIR) for the SCS Dublin project and provided a 45- day public review period which ended on September 6, 2022. The DEIR and Final EIR, including responses to all comments received on the DEIR is available under &#8220;Documents.&#8221;</p>
 <p>On November 15, 2022, the City Council held a first reading of the ordinances, certified the EIR and approved the General Plan and Eastern Dublin Specific Plan amendments. On December 6, 2022, the City Council held a second reading and adopted the ordinances.</p>
+<p>The City Council held a  study session on the project on March 22, 2023 t0 discuss the details of the architecture along Finnian Way and the residential neighborhoods, the location of the Public/Semi-Public parcel and associated affordable housing, the location and size of the community event space and the town square amenities. No formal action was taken at the Study Session.</p>
 <p><em><strong>Current Status</strong></em></p>
-<p>The City Council held a  study session on the project on March 22, 2023 tp discuss the details of the architecture along Finnian Way and the residential neighborhoods, the location of the Public/Semi-Public parcel and associated affordable housing, the location and size of the community event space and the town square amenities. No formal action was taken at the Study Session. The next steps is for the developer to submit a formal application.</p>
+<p>The pre-application is under review.</p>
 					</div>
 				</div>
 
@@ -1666,7 +1668,7 @@ var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"
 
 							<tr>
 								<td class="table-left"><strong>Application Type</strong></td>
-								<td class="table-right">Planned Development Amendment, Conditional Use Permit and Site Development Review</td>
+								<td class="table-right">Conditional Use Permit and Site Development Review</td>
 							</tr>
 
 
@@ -1688,7 +1690,7 @@ var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"
 
 							<tr>
 								<td class="table-left"><strong>Zoning</strong></td>
-								<td class="table-right">Planned Development (Ordinance 12-14)</td>
+								<td class="table-right">Planned Development (Ordinance Nos. 12-14 and 24-00)</td>
 							</tr>
 
 							<tr>
@@ -1713,7 +1715,7 @@ var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"
 							
 														<tr>
 								<td class="table-left"><strong>Project Planner</strong></td>
-								<td class="table-right">Linda Ajello																		- Senior Planner																												<br />(925) 833-6610																												<br /><a href="mailto:linda.ajello@dublin.ca.gov">linda.ajello@dublin.ca.gov</a>
+								<td class="table-right">Anne Hersch																		- Assistant Community Development Director																												<br />(925) 833-6610																												<br /><a href="mailto:anne.hersch@dublin.ca.gov">anne.hersch@dublin.ca.gov</a>
 																		</td>
 							</tr>
 													</table>
@@ -1728,6 +1730,8 @@ var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"
 						<h4 class="dublin-green">Address</h4>
 						6237&nbsp;Tassajara&nbsp;Road&nbsp;						<br /><br />
 
+															<h4 class="dublin-green">Documents</h4>
+								<p><a href="https://dublin-development.icitywork.com/wp-content/uploads/2021/11/CEQA-Initial-Study-Mitigated-Neg.7.5.23.pdf">CEQA Initial Study Mitigated Neg.7.5.23</a></p>
 							
 
 					</div>
@@ -1742,7 +1746,9 @@ var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"
 				<div class="row">
 					<div class="col-md-12">
 						<h4 class="dublin-green">Project Description</h4>
-						<p>Application for a Planned Development Amendment, Conditional Use Permit, and Site Development Review Permit to construct a new 13,800-square foot building comprised of a performing arts center and other support spaces, including a new parking lot, immediately south of the existing Quarry Lane School facilities.</p>
+						<p>Application for a Conditional Use Permit for a minor amendment to the Stage 1 and Stage 2 Development Plan for the Quarry Lane School (Ordinance No. 12-14)  and a Site Development Review Permit to construct a new 13,800-square foot building comprised of a performing arts center and other support spaces, including a new parking lot, within the newly acquired southern portion of the school property, which was formerly used as a landscaping supply business and currently contains a single-family home and associated outbuildings.</p>
+<p><em><strong>Current Status</strong></em></p>
+<p>The City prepared a Supplemental Mitigated Negative Declaration for the project pursuant to the California Environmental Quality Act and circulated it for a 30-day public review July 5, 2023 &#8211; August 4, 2023.</p>
 					</div>
 				</div>
 
@@ -2833,8 +2839,10 @@ Oakland, CA 94612</p>
 					<div class="col-md-12">
 						<h4 class="dublin-green">Project Description</h4>
 						<p>A Site Development Review Permit to construct a 10,461 square foot Infiniti automobile showroom and service center adjacent to the upcoming Nissan automobile dealership  approved in 2019.</p>
-<p><strong><em>Current Status</em></strong></p>
+<p><strong><em>Background</em></strong></p>
 <p>The Planning Commission approved the Site Development Review Permit on November 23, 2021 and modifications to the architecture on July 26, 2022.</p>
+<p><strong><em>Current Status</em></strong></p>
+<p>The building permit was issued February 2023 and the project is currently under construction.</p>
 					</div>
 				</div>
 
@@ -3596,171 +3604,6 @@ Oakland, CA 94612</p>
 		  </div>
 		</div>
 				<!-- More Info Pop-ups -->
-		<div class="modal fade" id="projectDetail1075" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		  <div class="modal-dialog modal-lg">
-			<div class="modal-content">
-			  <div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-				<h3 class="modal-title" id="myModalLabel">Westin Hotel</h3>
-					<a href="https://dublin-development.icitywork.com/#projectDetail1075" data-title="Westin Hotel" data-desc="6-Story Hotel on 5.88 acres" data-layout="button" class="btnShare"><img src="https://dublin-development.icitywork.com/wp-content/themes/iProjectExplorer/img/facebook_button.png" alt="Facebook Share Button"></a>&nbsp;
-					<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://dublin-development.icitywork.com/#projectDetail1075" data-text="Westin Hotel" data-via="iCityWork" data-related="iCityWork" data-count="none">Tweet</a>
-
-
-			  </div>
-			  <div class="modal-body">
-				<div class="row">
-					<div class="col-md-6">
-						<h4 class="dublin-green">Details</h4>
-						<table class="table table-bordered table-condensed">
-							<tr>
-								<td class="table-left" width="33%"><strong>Planning Application #</strong></td>
-								<td class="table-right">PLPA-2019-00006</td>
-							</tr>
-
-							<tr>
-								<td class="table-left"><strong>Application Type</strong></td>
-								<td class="table-right">TMAP, SDR, Stage 2 PD</td>
-							</tr>
-
-
-														<tr>
-								<td class="table-left"><strong>Application Submittal Date</strong></td>
-								<td class="table-right">02/08/2019</td>
-							</tr>
-
-
-							<tr>
-								<td class="table-left"><strong>General Plan Land Use</strong></td>
-								<td class="table-right">CO-Campus Office</td>
-							</tr>
-
-							<tr>
-								<td class="table-left"><strong>Specific Plan Area</strong></td>
-								<td class="table-right">CO-Campus Office</td>
-							</tr>
-
-							<tr>
-								<td class="table-left"><strong>Zoning</strong></td>
-								<td class="table-right">PD-Planned Development</td>
-							</tr>
-
-							<tr>
-								<td class="table-left"><strong>Project Area</strong></td>
-								<td class="table-right">5.88 acres</td>
-							</tr>
-
-														<tr>
-								<td class="table-left"><strong>Building Area</strong></td>
-								<td class="table-right">163,133 square feet</td>
-							</tr>
-							
-							
-
-														<tr>
-								<td class="table-left"><strong>Stories/Height</strong></td>
-								<td class="table-right">6																											stories
-																										</td>
-							</tr>
-							
-							
-														<tr>
-								<td class="table-left"><strong>Applicant</strong></td>
-								<td class="table-right">Charles Patel																			<br />3657 Old Santa Rita Rd, Pleasanton, CA 94588																												<br />(650) 826-1954																	</td>
-							</tr>
-							
-														<tr>
-								<td class="table-left"><strong>Project Planner</strong></td>
-								<td class="table-right">Amy Million																		- Principal Planner																												<br />(925) 833-6610																												<br /><a href="mailto:amy.million@dublin.ca.gov">amy.million@dublin.ca.gov</a>
-																		</td>
-							</tr>
-													</table>
-
-					</div>
-					<div class="col-md-6">
-						<span aria-hidden="true">
-							<h4 class="dublin-green">Map</h4>
-							<div class="center-block detailsmap" id="map1075"></div>
-						</span>
-						<br /><br />
-						<h4 class="dublin-green">Address</h4>
-						100&nbsp;Civic &nbsp;Plaza&nbsp;						<br /><br />
-
-															<h4 class="dublin-green">Documents</h4>
-								<p><a href="http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&amp;ID=1453&amp;Inline=True">Planning Commission Staff Report 9-24-19</a></p>
-<p><a href="https://dublin.ca.gov/ArchiveCenter/ViewFile/Item/981">City Council Staff Report 10-15-19</a></p>
-<p><a href="http://citydocs.ci.dublin.ca.us/WebLink/DocView.aspx?id=770129&amp;cr=1">City Council Staff Report 11-5-19</a></p>
-							
-
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h4 class="dublin-green">Status</h4>
-																																					<img class="center-block img-responsive" src="/wp-content/uploads/2016/06/status_bar_finalaction.png" alt="Final Action">
-											</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-12">
-						<h4 class="dublin-green">Project Description</h4>
-						<p>The Westin Hotel project is a proposal for a Tentative Parcel Map, Site Development Review Permit, and a Stage 2 Development Plan for a 163,133 square foot, 6-story hotel. The site consists of a 5.88-acre parcel located at the southeast corner of Campus Drive and Altamirano Avenue, adjacent to the existing East Dublin BART Station. The hotel will include a 5,254 square foot restaurant, a ballroom, 2 large meeting rooms, and 198 hotel rooms.</p>
-<p><em><strong>Background:</strong></em></p>
-<p>The project was approved by City Council on October 15, 2019 with adoption of the Planned Development Zoning on November 5, 2019.</p>
-<p><strong><em>Current Status: </em></strong></p>
-<p>The applicant submitted for building permits in December 2019. Issuance is pending further review.</p>
-<p>&nbsp;</p>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-12">
-						<h4 class="dublin-green">Project Images</h4>
-							<div id="links">
-								<ul class="list-inline">
-								<script type="text/javascript">var alt_tag = '';var caption = '';</script>
-											<li>
-											<a  class="fancybox" href="https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Westin-Hotel_Rendering.jpg" title="" rel="gallery1075" >
-											<img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Westin-Hotel_Rendering-150x150.jpg" alt="" width="150" height="150" />
-											</a>
-											</li>
-											<script type="text/javascript">var alt_tag = '';var caption = '';</script>
-											<li>
-											<a  class="fancybox" href="https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Floor-Plan.jpg" title="" rel="gallery1075" >
-											<img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Floor-Plan-150x150.jpg" alt="" width="150" height="150" />
-											</a>
-											</li>
-											<script type="text/javascript">var alt_tag = '';var caption = '';</script>
-											<li>
-											<a  class="fancybox" href="https://dublin-development.icitywork.com/wp-content/uploads/2019/02/North-Elevation.jpg" title="" rel="gallery1075" >
-											<img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2019/02/North-Elevation-150x150.jpg" alt="" width="150" height="150" />
-											</a>
-											</li>
-											<script type="text/javascript">var alt_tag = '';var caption = '';</script>
-											<li>
-											<a  class="fancybox" href="https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Site-Plan.jpg" title="" rel="gallery1075" >
-											<img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Site-Plan-150x150.jpg" alt="" width="150" height="150" />
-											</a>
-											</li>
-											<script type="text/javascript">var alt_tag = '';var caption = '';</script>
-											<li>
-											<a  class="fancybox" href="https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Rendering-2.jpg" title="" rel="gallery1075" >
-											<img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Rendering-2-150x150.jpg" alt="" width="150" height="150" />
-											</a>
-											</li>
-																	</ul>
-						</div>
-
-					</div>
-				</div>
-
-			  </div>
-			  <div class="modal-footer">
-					<button type="button" class="btn btn-caution" data-dismiss="modal">Close</button>
-			  </div>
-			</div>
-		  </div>
-		</div>
-				<!-- More Info Pop-ups -->
 		<div class="modal fade" id="projectDetail1068" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		  <div class="modal-dialog modal-lg">
 			<div class="modal-content">
@@ -3826,7 +3669,7 @@ Oakland, CA 94612</p>
 							
 														<tr>
 								<td class="table-left"><strong>Project Planner</strong></td>
-								<td class="table-right">Linda Ajello																		- Senior Planner																												<br />(925) 833-6610																												<br /><a href="mailto:linda.ajello@dublin.ca.gov">linda.ajello@dublin.ca.gov</a>
+								<td class="table-right">Planner																												<br />(925) 833-6610																												<br /><a href="mailto:planningpermits@dublin.ca.gov">planningpermits@dublin.ca.gov</a>
 																		</td>
 							</tr>
 													</table>
@@ -3861,9 +3704,8 @@ Oakland, CA 94612</p>
 					<div class="col-md-12">
 						<h4 class="dublin-green">Project Description</h4>
 						<p>The property owner, Jerry Hunt of VP RPG Dublin, LLC, submitted an application on behalf of BASIS Independent School to operate a private school serving up to 800 middle and high school students, construct façade improvements to the existing 81,985 square foot office building which will be converted to a school, and construct a 9,134 square foot gymnasium building, outdoor recreational play field, trash enclosure, and associated site improvements. Requested approvals include a Conditional Use Permit and Site Development Review Permit.</p>
-<p>&nbsp;</p>
-<p><em>Current Status: </em></p>
-<p>Approved by the Planning Commission Hearing on May 23, 2023.</p>
+<p><strong>Current Status</strong></p>
+<p>Approved by the Planning Commission on May 23, 2023.</p>
 					</div>
 				</div>
 
@@ -3906,350 +3748,6 @@ Oakland, CA 94612</p>
 											<li>
 											<a  class="fancybox" href="https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_2-scaled.jpg" title="" rel="gallery1068" >
 											<img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_2-150x150.jpg" alt="" width="150" height="150" />
-											</a>
-											</li>
-																	</ul>
-						</div>
-
-					</div>
-				</div>
-
-			  </div>
-			  <div class="modal-footer">
-					<button type="button" class="btn btn-caution" data-dismiss="modal">Close</button>
-			  </div>
-			</div>
-		  </div>
-		</div>
-				<!-- More Info Pop-ups -->
-		<div class="modal fade" id="projectDetail998" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		  <div class="modal-dialog modal-lg">
-			<div class="modal-content">
-			  <div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-				<h3 class="modal-title" id="myModalLabel">Ashton at Dublin Station</h3>
-					<a href="https://dublin-development.icitywork.com/#projectDetail998" data-title="Ashton at Dublin Station" data-desc="Ashton @ Dublin Station" data-layout="button" class="btnShare"><img src="https://dublin-development.icitywork.com/wp-content/themes/iProjectExplorer/img/facebook_button.png" alt="Facebook Share Button"></a>&nbsp;
-					<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://dublin-development.icitywork.com/#projectDetail998" data-text="Ashton at Dublin Station" data-via="iCityWork" data-related="iCityWork" data-count="none">Tweet</a>
-
-
-			  </div>
-			  <div class="modal-body">
-				<div class="row">
-					<div class="col-md-6">
-						<h4 class="dublin-green">Details</h4>
-						<table class="table table-bordered table-condensed">
-							<tr>
-								<td class="table-left" width="33%"><strong>Planning Application #</strong></td>
-								<td class="table-right">PLPA-2017-00036</td>
-							</tr>
-
-							<tr>
-								<td class="table-left"><strong>Application Type</strong></td>
-								<td class="table-right">Stage 2 Development Plan, Site Development Review, Tentative Map and Development Agreement </td>
-							</tr>
-
-
-														<tr>
-								<td class="table-left"><strong>Application Submittal Date</strong></td>
-								<td class="table-right">05/24/2017</td>
-							</tr>
-
-
-							<tr>
-								<td class="table-left"><strong>General Plan Land Use</strong></td>
-								<td class="table-right">High Density Residential </td>
-							</tr>
-
-							<tr>
-								<td class="table-left"><strong>Specific Plan Area</strong></td>
-								<td class="table-right">Eastern Dublin Specific Plan</td>
-							</tr>
-
-							<tr>
-								<td class="table-left"><strong>Zoning</strong></td>
-								<td class="table-right">PD (Planned Development)</td>
-							</tr>
-
-							<tr>
-								<td class="table-left"><strong>Project Area</strong></td>
-								<td class="table-right">2.36 acres</td>
-							</tr>
-
-							
-							
-
-														<tr>
-								<td class="table-left"><strong>Stories/Height</strong></td>
-								<td class="table-right">7																											stories
-																																							/
-																						 83 feet
-																	</td>
-							</tr>
-							
-														<tr>
-								<td class="table-left"><strong>Parking Provided</strong></td>
-								<td class="table-right">331 parking spaces</td>
-							</tr>
-							
-														<tr>
-								<td class="table-left"><strong>Applicant</strong></td>
-								<td class="table-right">UDR, Inc. 																			<br />1745 Shea Center Drive, Suite 200, Highlands Ranch, CO 80129																												<br />720-348-7604																	</td>
-							</tr>
-							
-														<tr>
-								<td class="table-left"><strong>Project Planner</strong></td>
-								<td class="table-right">Gaspare Annibale																		- Associate Planner																												<br />(925) 833-6610																												<br /><a href="mailto:gaspare.annibale@dublin.ca.gov">gaspare.annibale@dublin.ca.gov</a>
-																		</td>
-							</tr>
-													</table>
-
-					</div>
-					<div class="col-md-6">
-						<span aria-hidden="true">
-							<h4 class="dublin-green">Map</h4>
-							<div class="center-block detailsmap" id="map998"></div>
-						</span>
-						<br /><br />
-						<h4 class="dublin-green">Address</h4>
-						DeMarcus Boulevard&nbsp;						<br /><br />
-
-															<h4 class="dublin-green">Documents</h4>
-								<p>Settlement agreement information: <a href="https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Ashton-at-Dublin-Station-v.-City-of-Dublin-Settlement-FAQ.pdf">Ashton at Dublin Station v. City of Dublin Settlement FAQ</a></p>
-<p><a href="https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Planning-Commission-Staff-Report-November-14-2017.doc">Planning Commission Staff Report November 14, 2017</a></p>
-<p><a href="https://dublin-development.icitywork.com/wp-content/uploads/2018/06/City-Council-Staff-Report-dated-3.6.18.doc">City Council Staff Report dated 3.6.18</a></p>
-<p><a href="https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Ashton-@-Dublin-Station-July-17-2018-City-Council-Staff-Report.doc">Ashton @ Dublin Station July 17, 2018 City Council Staff Report</a></p>
-							
-
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h4 class="dublin-green">Status</h4>
-																																					<img class="center-block img-responsive" src="/wp-content/uploads/2016/06/status_bar_finalaction.png" alt="Final Action">
-											</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-12">
-						<h4 class="dublin-green">Project Description</h4>
-						<p>The proposed Ashton at Dublin Station project is located at the northwest corner of DeMarcus Boulevard and Campbell Lane within the Transit Center. The site has a General Plan and Eastern Dublin Specific Plan land use designation of High Density Residential (25+ units per acre) and Planned Development Zoning with a Stage 1 Development Plan that permits a high density residential development.</p>
-<p>The Applicant proposes to construct a 220-unit apartment community and related amenities which include a fitness center, pool, roof top lounge, and 331 structured parking spaces. The proposed project includes 3, 4 and 5 story elements that are over 2 levels of parking, and vary in height from 61 feet to 83 feet at the peak of the tallest roof element.</p>
-<p><em><strong>Background:</strong></em></p>
-<p>On November 14, 2017, the Planning Commission unanimously recommended approval of the proposed project. The City Council held public meetings to consider the proposed project on December 5, 2017, February 6, 2018 and March 6, 2018. Ultimately, the City Council denied the project on March 6, 2018. The Applicant subsequently filed a lawsuit against the City. The City and the Applicant have entered into a settlement agreement. In accordance with the terms of the settlement agreement, the City Council reconsidered the project, and considered entering into a Development Agreement. Please refer to the link under &#8220;Documents&#8221; (above) for more information about the settlement agreement.</p>
-<p>The City Council approved the project on July 17, 2018.</p>
-<p><strong><em>Current Status: </em></strong></p>
-<p>The building is currently under construction.</p>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-12">
-						<h4 class="dublin-green">Project Images</h4>
-							<div id="links">
-								<ul class="list-inline">
-								<script type="text/javascript">var alt_tag = '';var caption = '';</script>
-											<li>
-											<a  class="fancybox" href="https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Capture1.png" title="" rel="gallery998" >
-											<img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Capture1-150x150.png" alt="" width="150" height="150" />
-											</a>
-											</li>
-											<script type="text/javascript">var alt_tag = '';var caption = '';</script>
-											<li>
-											<a  class="fancybox" href="https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Northeast-corner-DeMarcus-Blvd..png" title="" rel="gallery998" >
-											<img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Northeast-corner-DeMarcus-Blvd.-150x150.png" alt="" width="150" height="150" />
-											</a>
-											</li>
-											<script type="text/javascript">var alt_tag = '';var caption = '';</script>
-											<li>
-											<a  class="fancybox" href="https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Southeast-entry-lobby.png" title="" rel="gallery998" >
-											<img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Southeast-entry-lobby-150x150.png" alt="" width="150" height="150" />
-											</a>
-											</li>
-											<script type="text/javascript">var alt_tag = '';var caption = '';</script>
-											<li>
-											<a  class="fancybox" href="https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Aerial-at-the-SE-corner.png" title="" rel="gallery998" >
-											<img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Aerial-at-the-SE-corner-150x150.png" alt="" width="150" height="150" />
-											</a>
-											</li>
-											<script type="text/javascript">var alt_tag = '';var caption = '';</script>
-											<li>
-											<a  class="fancybox" href="https://dublin-development.icitywork.com/wp-content/uploads/2018/06/site-plan.png" title="" rel="gallery998" >
-											<img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2018/06/site-plan-150x150.png" alt="" width="150" height="150" />
-											</a>
-											</li>
-																	</ul>
-						</div>
-
-					</div>
-				</div>
-
-			  </div>
-			  <div class="modal-footer">
-					<button type="button" class="btn btn-caution" data-dismiss="modal">Close</button>
-			  </div>
-			</div>
-		  </div>
-		</div>
-				<!-- More Info Pop-ups -->
-		<div class="modal fade" id="projectDetail971" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		  <div class="modal-dialog modal-lg">
-			<div class="modal-content">
-			  <div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-				<h3 class="modal-title" id="myModalLabel">Tivoli Plaza (Grafton Plaza Daycare &#038; Retail)</h3>
-					<a href="https://dublin-development.icitywork.com/#projectDetail971" data-title="Tivoli Plaza (Grafton Plaza Daycare &#038; Retail)" data-desc="Planned Development Amendment; Site Development Review; and Minor Use Permit" data-layout="button" class="btnShare"><img src="https://dublin-development.icitywork.com/wp-content/themes/iProjectExplorer/img/facebook_button.png" alt="Facebook Share Button"></a>&nbsp;
-					<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://dublin-development.icitywork.com/#projectDetail971" data-text="Tivoli Plaza (Grafton Plaza Daycare &#038; Retail)" data-via="iCityWork" data-related="iCityWork" data-count="none">Tweet</a>
-
-
-			  </div>
-			  <div class="modal-body">
-				<div class="row">
-					<div class="col-md-6">
-						<h4 class="dublin-green">Details</h4>
-						<table class="table table-bordered table-condensed">
-							<tr>
-								<td class="table-left" width="33%"><strong>Planning Application #</strong></td>
-								<td class="table-right">PLPA-2018-00010</td>
-							</tr>
-
-							<tr>
-								<td class="table-left"><strong>Application Type</strong></td>
-								<td class="table-right">Planned Development Amendment; Site Development Review; and Minor Use Permit</td>
-							</tr>
-
-
-														<tr>
-								<td class="table-left"><strong>Application Submittal Date</strong></td>
-								<td class="table-right">05/01/2018</td>
-							</tr>
-
-
-							<tr>
-								<td class="table-left"><strong>General Plan Land Use</strong></td>
-								<td class="table-right">Mixed Use 2/Campus Office </td>
-							</tr>
-
-							<tr>
-								<td class="table-left"><strong>Specific Plan Area</strong></td>
-								<td class="table-right">Mixed Use 2/Campus Office</td>
-							</tr>
-
-							<tr>
-								<td class="table-left"><strong>Zoning</strong></td>
-								<td class="table-right">Planned Development (PD)</td>
-							</tr>
-
-							<tr>
-								<td class="table-left"><strong>Project Area</strong></td>
-								<td class="table-right">3.68 acres</td>
-							</tr>
-
-														<tr>
-								<td class="table-left"><strong>Building Area</strong></td>
-								<td class="table-right">31,860 square feet</td>
-							</tr>
-							
-							
-
-														<tr>
-								<td class="table-left"><strong>Stories/Height</strong></td>
-								<td class="table-right">2																											stories
-																																							/
-																						 50 feet
-																	</td>
-							</tr>
-							
-														<tr>
-								<td class="table-left"><strong>Parking Provided</strong></td>
-								<td class="table-right">146 parking spaces</td>
-							</tr>
-							
-														<tr>
-								<td class="table-left"><strong>Applicant</strong></td>
-								<td class="table-right">Eddy Li																			<br />432 Bridle Ct., San Ramon, CA 94582																												<br />(510) 817-8892																	</td>
-							</tr>
-							
-														<tr>
-								<td class="table-left"><strong>Project Planner</strong></td>
-								<td class="table-right">Gaspare Annibale																		- Associate Planner																												<br />(925) 833-6610																												<br /><a href="mailto:gaspare.annibale@dublin.ca.gov">gaspare.annibale@dublin.ca.gov</a>
-																		</td>
-							</tr>
-													</table>
-
-					</div>
-					<div class="col-md-6">
-						<span aria-hidden="true">
-							<h4 class="dublin-green">Map</h4>
-							<div class="center-block detailsmap" id="map971"></div>
-						</span>
-						<br /><br />
-						<h4 class="dublin-green">Address</h4>
-						1000&nbsp;Dublin &nbsp;Boulevard&nbsp;						<br /><br />
-
-															<h4 class="dublin-green">Documents</h4>
-								<p><a href="http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&amp;ID=1488&amp;Inline=True">Planning Commission December 10, 2019 Staff Report </a></p>
-<p><a href="http://citydocs.ci.dublin.ca.us/WebLink/DocView.aspx?id=786763&amp;cr=1">City Council February 4, 2020 Staff Report</a></p>
-							
-
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h4 class="dublin-green">Status</h4>
-																																					<img class="center-block img-responsive" src="/wp-content/uploads/2016/06/status_bar_finalaction.png" alt="Final Action">
-											</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-12">
-						<h4 class="dublin-green">Project Description</h4>
-						<p>The Applicant, Eddie Li, requested approval to construct three commercial buildings with a total of 31,860 square feet (sf), including two retail buildings (16,038 sf and 6,055 sf) and one daycare building (9,767 sf) on a 3.68-acre site located at the southeast corner of Dublin Boulevard and Grafton Street. The application included amendments to the existing Planned Development Zoning Stage 1 and Stage 2 Development Plans, a Site Development Review Permit for the proposed improvements, and a Minor Use Permit for a parking reduction for shared parking.</p>
-<p><em><strong>Background:</strong></em></p>
-<p>On January 14, 2020, the City Council introduced the Planned Development Zoning Ordinance and approved the Site Development Review Permit and Minor Use Permit (Resolution No. 4-20). City Council then adopted the Ordinance No. 2-20 on February 4, 2020.</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-12">
-						<h4 class="dublin-green">Project Images</h4>
-							<div id="links">
-								<ul class="list-inline">
-								<script type="text/javascript">var alt_tag = '';var caption = '';</script>
-											<li>
-											<a  class="fancybox" href="https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_28.jpg" title="" rel="gallery971" >
-											<img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_28-150x150.jpg" alt="" width="150" height="150" />
-											</a>
-											</li>
-											<script type="text/javascript">var alt_tag = '';var caption = '';</script>
-											<li>
-											<a  class="fancybox" href="https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_27.jpg" title="" rel="gallery971" >
-											<img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_27-150x150.jpg" alt="" width="150" height="150" />
-											</a>
-											</li>
-											<script type="text/javascript">var alt_tag = '';var caption = '';</script>
-											<li>
-											<a  class="fancybox" href="https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_16.jpg" title="" rel="gallery971" >
-											<img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_16-150x150.jpg" alt="" width="150" height="150" />
-											</a>
-											</li>
-											<script type="text/javascript">var alt_tag = '';var caption = '';</script>
-											<li>
-											<a  class="fancybox" href="https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_23.jpg" title="" rel="gallery971" >
-											<img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_23-150x150.jpg" alt="" width="150" height="150" />
-											</a>
-											</li>
-											<script type="text/javascript">var alt_tag = '';var caption = '';</script>
-											<li>
-											<a  class="fancybox" href="https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_24.jpg" title="" rel="gallery971" >
-											<img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_24-150x150.jpg" alt="" width="150" height="150" />
-											</a>
-											</li>
-											<script type="text/javascript">var alt_tag = '';var caption = '';</script>
-											<li>
-											<a  class="fancybox" href="https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_22.jpg" title="" rel="gallery971" >
-											<img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_22-150x150.jpg" alt="" width="150" height="150" />
 											</a>
 											</li>
 																	</ul>
@@ -5213,6 +4711,62 @@ Oakland, CA 94612</p>
 
 		<div id="details" class="col-md-5 details-col fullheight "> <!-- Details Column -->
 										<div class="well"> <!-- Item -->
+				<div id="item1068" class="row">
+					<div class="col-md-4 col-sm-4">
+												<span class="">
+							<a href="#" data-toggle="modal" data-target="#projectDetail1068" title="BASIS Independent School (Corrie Center)" ><img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Rendering-1-300x169.jpg" alt="" width="300" height="169" /></a>
+						</span>
+					</div>
+					<div class="col-md-8 col-sm-8">
+						<h4><a href="#" data-toggle="modal" data-target="#projectDetail1068">BASIS Independent School (Corrie Center)</a></h4>
+						<p>Conditional Use Permit and Site Development Review Permit in the Downtown Dublin Specific Plan Transit Oriented District.</p>
+						<button class="btn btn-primary btn-sm pull-right" data-toggle="modal" data-target="#projectDetail1068"><span class="sr-only">BASIS Independent School (Corrie Center) </span>Details</button>
+					</div>
+				</div>
+			</div>
+						<div class="well"> <!-- Item -->
+				<div id="item1426" class="row">
+					<div class="col-md-4 col-sm-4">
+												<span class="">
+							<a href="#" data-toggle="modal" data-target="#projectDetail1426" title="Quarry Lane School &#8211; Performing Arts Center" ><img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2021/11/Rendering-300x181.png" alt="" width="300" height="181" /></a>
+						</span>
+					</div>
+					<div class="col-md-8 col-sm-8">
+						<h4><a href="#" data-toggle="modal" data-target="#projectDetail1426">Quarry Lane School &#8211; Performing Arts Center</a></h4>
+						<p>Quarry Lane School Expansion</p>
+						<button class="btn btn-primary btn-sm pull-right" data-toggle="modal" data-target="#projectDetail1426"><span class="sr-only">Quarry Lane School &#8211; Performing Arts Center </span>Details</button>
+					</div>
+				</div>
+			</div>
+						<div class="well"> <!-- Item -->
+				<div id="item1464" class="row">
+					<div class="col-md-4 col-sm-4">
+												<span class="">
+							<a href="#" data-toggle="modal" data-target="#projectDetail1464" title="The Dublin Center &#8220;The DC&#8221;" ><img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Site-Plan-194x300.jpg" alt="" width="194" height="300" /></a>
+						</span>
+					</div>
+					<div class="col-md-8 col-sm-8">
+						<h4><a href="#" data-toggle="modal" data-target="#projectDetail1464">The Dublin Center &#8220;The DC&#8221;</a></h4>
+						<p>Pre-Application for Site Development Review Permit and Tentative Parcel Map(s)</p>
+						<button class="btn btn-primary btn-sm pull-right" data-toggle="modal" data-target="#projectDetail1464"><span class="sr-only">The Dublin Center &#8220;The DC&#8221; </span>Details</button>
+					</div>
+				</div>
+			</div>
+						<div class="well"> <!-- Item -->
+				<div id="item1372" class="row">
+					<div class="col-md-4 col-sm-4">
+												<span class="">
+							<a href="#" data-toggle="modal" data-target="#projectDetail1372" title="Infiniti Dealership" ><img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Dublin-Infiniti-Nissan_View-2-300x169.jpg" alt="" width="300" height="169" /></a>
+						</span>
+					</div>
+					<div class="col-md-8 col-sm-8">
+						<h4><a href="#" data-toggle="modal" data-target="#projectDetail1372">Infiniti Dealership</a></h4>
+						<p>A Site Development Review Permit to construct a 10,461 square foot Infiniti automobile showroom and service center adjacent to the upcoming Nissan automobile dealership  approved in 2019. </p>
+						<button class="btn btn-primary btn-sm pull-right" data-toggle="modal" data-target="#projectDetail1372"><span class="sr-only">Infiniti Dealership </span>Details</button>
+					</div>
+				</div>
+			</div>
+						<div class="well"> <!-- Item -->
 				<div id="item1508" class="row">
 					<div class="col-md-4 col-sm-4">
 												<span class="">
@@ -5255,34 +4809,6 @@ Oakland, CA 94612</p>
 				</div>
 			</div>
 						<div class="well"> <!-- Item -->
-				<div id="item971" class="row">
-					<div class="col-md-4 col-sm-4">
-												<span class="">
-							<a href="#" data-toggle="modal" data-target="#projectDetail971" title="Tivoli Plaza (Grafton Plaza Daycare &#038; Retail)" ><img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2018/05/19_0711-Grafton_Planning-Resubmittal-3_Page_28-300x200.jpg" alt="" width="300" height="200" /></a>
-						</span>
-					</div>
-					<div class="col-md-8 col-sm-8">
-						<h4><a href="#" data-toggle="modal" data-target="#projectDetail971">Tivoli Plaza (Grafton Plaza Daycare &#038; Retail)</a></h4>
-						<p>Planned Development Amendment; Site Development Review; and Minor Use Permit</p>
-						<button class="btn btn-primary btn-sm pull-right" data-toggle="modal" data-target="#projectDetail971"><span class="sr-only">Tivoli Plaza (Grafton Plaza Daycare &#038; Retail) </span>Details</button>
-					</div>
-				</div>
-			</div>
-						<div class="well"> <!-- Item -->
-				<div id="item1068" class="row">
-					<div class="col-md-4 col-sm-4">
-												<span class="">
-							<a href="#" data-toggle="modal" data-target="#projectDetail1068" title="BASIS Independent School (Corrie Center)" ><img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Rendering-1-300x169.jpg" alt="" width="300" height="169" /></a>
-						</span>
-					</div>
-					<div class="col-md-8 col-sm-8">
-						<h4><a href="#" data-toggle="modal" data-target="#projectDetail1068">BASIS Independent School (Corrie Center)</a></h4>
-						<p>Conditional Use Permit and Site Development Review Permit in the Downtown Dublin Specific Plan Transit Oriented District.</p>
-						<button class="btn btn-primary btn-sm pull-right" data-toggle="modal" data-target="#projectDetail1068"><span class="sr-only">BASIS Independent School (Corrie Center) </span>Details</button>
-					</div>
-				</div>
-			</div>
-						<div class="well"> <!-- Item -->
 				<div id="item1661" class="row">
 					<div class="col-md-4 col-sm-4">
 												<span class="">
@@ -5311,20 +4837,6 @@ Oakland, CA 94612</p>
 				</div>
 			</div>
 						<div class="well"> <!-- Item -->
-				<div id="item1426" class="row">
-					<div class="col-md-4 col-sm-4">
-												<span class="">
-							<a href="#" data-toggle="modal" data-target="#projectDetail1426" title="Quarry Lane School &#8211; Performing Arts Center" ><img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2021/11/Rendering-300x181.png" alt="" width="300" height="181" /></a>
-						</span>
-					</div>
-					<div class="col-md-8 col-sm-8">
-						<h4><a href="#" data-toggle="modal" data-target="#projectDetail1426">Quarry Lane School &#8211; Performing Arts Center</a></h4>
-						<p>Quarry Lane School Expansion</p>
-						<button class="btn btn-primary btn-sm pull-right" data-toggle="modal" data-target="#projectDetail1426"><span class="sr-only">Quarry Lane School &#8211; Performing Arts Center </span>Details</button>
-					</div>
-				</div>
-			</div>
-						<div class="well"> <!-- Item -->
 				<div id="item1421" class="row">
 					<div class="col-md-4 col-sm-4">
 												<span class="">
@@ -5335,20 +4847,6 @@ Oakland, CA 94612</p>
 						<h4><a href="#" data-toggle="modal" data-target="#projectDetail1421">The Whitford of Dublin (Dublin Senior Living)</a></h4>
 						<p>152-unit senior living project consisting of 114 assisted living units, 38 memory care units and 174 beds. The application includes a Planned Development Rezone and Site Development Review Permit.</p>
 						<button class="btn btn-primary btn-sm pull-right" data-toggle="modal" data-target="#projectDetail1421"><span class="sr-only">The Whitford of Dublin (Dublin Senior Living) </span>Details</button>
-					</div>
-				</div>
-			</div>
-						<div class="well"> <!-- Item -->
-				<div id="item998" class="row">
-					<div class="col-md-4 col-sm-4">
-												<span class="">
-							<a href="#" data-toggle="modal" data-target="#projectDetail998" title="Ashton at Dublin Station" ><img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2018/06/Capture1-300x141.png" alt="" width="300" height="141" /></a>
-						</span>
-					</div>
-					<div class="col-md-8 col-sm-8">
-						<h4><a href="#" data-toggle="modal" data-target="#projectDetail998">Ashton at Dublin Station</a></h4>
-						<p>Ashton @ Dublin Station</p>
-						<button class="btn btn-primary btn-sm pull-right" data-toggle="modal" data-target="#projectDetail998"><span class="sr-only">Ashton at Dublin Station </span>Details</button>
 					</div>
 				</div>
 			</div>
@@ -5409,20 +4907,6 @@ Oakland, CA 94612</p>
 				</div>
 			</div>
 						<div class="well"> <!-- Item -->
-				<div id="item1464" class="row">
-					<div class="col-md-4 col-sm-4">
-												<span class="">
-							<a href="#" data-toggle="modal" data-target="#projectDetail1464" title="The Dublin Center &#8220;The DC&#8221;" ><img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Site-Plan-194x300.jpg" alt="" width="194" height="300" /></a>
-						</span>
-					</div>
-					<div class="col-md-8 col-sm-8">
-						<h4><a href="#" data-toggle="modal" data-target="#projectDetail1464">The Dublin Center &#8220;The DC&#8221;</a></h4>
-						<p>Pre-Application for Site Development Review Permit and Tentative Parcel Map(s)</p>
-						<button class="btn btn-primary btn-sm pull-right" data-toggle="modal" data-target="#projectDetail1464"><span class="sr-only">The Dublin Center &#8220;The DC&#8221; </span>Details</button>
-					</div>
-				</div>
-			</div>
-						<div class="well"> <!-- Item -->
 				<div id="item1376" class="row">
 					<div class="col-md-4 col-sm-4">
 												<span class="">
@@ -5461,20 +4945,6 @@ Oakland, CA 94612</p>
 						<h4><a href="#" data-toggle="modal" data-target="#projectDetail1340">Inspiration Drive Memory Care</a></h4>
 						<p>Memory care facility consisting of 55-beds</p>
 						<button class="btn btn-primary btn-sm pull-right" data-toggle="modal" data-target="#projectDetail1340"><span class="sr-only">Inspiration Drive Memory Care </span>Details</button>
-					</div>
-				</div>
-			</div>
-						<div class="well"> <!-- Item -->
-				<div id="item1372" class="row">
-					<div class="col-md-4 col-sm-4">
-												<span class="">
-							<a href="#" data-toggle="modal" data-target="#projectDetail1372" title="Infiniti Dealership" ><img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2021/04/Dublin-Infiniti-Nissan_View-2-300x169.jpg" alt="" width="300" height="169" /></a>
-						</span>
-					</div>
-					<div class="col-md-8 col-sm-8">
-						<h4><a href="#" data-toggle="modal" data-target="#projectDetail1372">Infiniti Dealership</a></h4>
-						<p>A Site Development Review Permit to construct a 10,461 square foot Infiniti automobile showroom and service center adjacent to the upcoming Nissan automobile dealership  approved in 2019. </p>
-						<button class="btn btn-primary btn-sm pull-right" data-toggle="modal" data-target="#projectDetail1372"><span class="sr-only">Infiniti Dealership </span>Details</button>
 					</div>
 				</div>
 			</div>
@@ -5618,20 +5088,6 @@ Oakland, CA 94612</p>
 					</div>
 				</div>
 			</div>
-						<div class="well"> <!-- Item -->
-				<div id="item1075" class="row">
-					<div class="col-md-4 col-sm-4">
-												<span class="">
-							<a href="#" data-toggle="modal" data-target="#projectDetail1075" title="Westin Hotel" ><img class="img-responsive" src="https://dublin-development.icitywork.com/wp-content/uploads/2019/02/Westin-Hotel_Rendering-300x200.jpg" alt="" width="300" height="200" /></a>
-						</span>
-					</div>
-					<div class="col-md-8 col-sm-8">
-						<h4><a href="#" data-toggle="modal" data-target="#projectDetail1075">Westin Hotel</a></h4>
-						<p>6-Story Hotel on 5.88 acres</p>
-						<button class="btn btn-primary btn-sm pull-right" data-toggle="modal" data-target="#projectDetail1075"><span class="sr-only">Westin Hotel </span>Details</button>
-					</div>
-				</div>
-			</div>
 			
 							        </div> <!-- End Details Column -->
 	</div> <!-- End Map/Details Row -->
@@ -5669,10 +5125,7 @@ Oakland, CA 94612</p>
 			<script type="text/javascript">var lat = 37.699203;var lon = -121.955455;var pinTitle = "Inspiration Drive Memory Care";var postid =1340;var pin = "Yes";var iconName = "dot";var iconColor = "#ffffff";var pinColor ="#217a12";var projectKMLFile= "";createMarker(lat, lon, pinTitle, pinColor, iconColor, iconName, postid, pin, projectKMLFile);</script>		
 			<script type="text/javascript">var lat = 37.712896;var lon = -121.836068;var pinTitle = "Francis Ranch (East Ranch)";var postid =1189;var pin = "Yes";var iconName = "building";var iconColor = "#ffffff";var pinColor ="#217a12";var projectKMLFile= "";createMarker(lat, lon, pinTitle, pinColor, iconColor, iconName, postid, pin, projectKMLFile);</script>		
 			<script type="text/javascript">var lat = 37.702382;var lon = -121.86118;var pinTitle = "Kaiser Commercial – Nissan";var postid =1087;var pin = "Yes";var iconName = "car";var iconColor = "#ffffff";var pinColor ="#217a12";var projectKMLFile= "";createMarker(lat, lon, pinTitle, pinColor, iconColor, iconName, postid, pin, projectKMLFile);</script>		
-			<script type="text/javascript">var lat = 37.70304;var lon = -121.89506;var pinTitle = "Westin Hotel";var postid =1075;var pin = "Yes";var iconName = "hotel";var iconColor = "#ffffff";var pinColor ="#217a12";var projectKMLFile= "";createMarker(lat, lon, pinTitle, pinColor, iconColor, iconName, postid, pin, projectKMLFile);</script>		
 			<script type="text/javascript">var lat = 37.701316;var lon = -121.935041;var pinTitle = "BASIS Independent School (Corrie Center)";var postid =1068;var pin = "Yes";var iconName = "building";var iconColor = "#ffffff";var pinColor ="#217a12";var projectKMLFile= "";createMarker(lat, lon, pinTitle, pinColor, iconColor, iconName, postid, pin, projectKMLFile);</script>		
-			<script type="text/javascript">var lat = 37.7043064;var lon = -121.8998893;var pinTitle = "Ashton at Dublin Station";var postid =998;var pin = "Yes";var iconName = "building";var iconColor = "#ffffff";var pinColor ="#217a12";var projectKMLFile= "";createMarker(lat, lon, pinTitle, pinColor, iconColor, iconName, postid, pin, projectKMLFile);</script>		
-			<script type="text/javascript">var lat = 37.70445;var lon = -121.86474;var pinTitle = "Tivoli Plaza (Grafton Plaza Daycare & Retail)";var postid =971;var pin = "Yes";var iconName = "child";var iconColor = "#ffffff";var pinColor ="#217a12";var projectKMLFile= "";createMarker(lat, lon, pinTitle, pinColor, iconColor, iconName, postid, pin, projectKMLFile);</script>		
 			<script type="text/javascript">var lat = 37.7011193;var lon = -121.9306746;var pinTitle = "Avalon West (St. Patrick Way)";var postid =572;var pin = "Yes";var iconName = "building";var iconColor = "#ffffff";var pinColor ="#217a12";var projectKMLFile= "";createMarker(lat, lon, pinTitle, pinColor, iconColor, iconName, postid, pin, projectKMLFile);</script>		
 			<script type="text/javascript">var lat = 37.711036;var lon = -121.905749;var pinTitle = "Boulevard (Dublin Crossing) – Phase 4 & 5";var postid =515;var pin = "Yes";var iconName = "building";var iconColor = "#ffffff";var pinColor ="#217a12";var projectKMLFile= "";createMarker(lat, lon, pinTitle, pinColor, iconColor, iconName, postid, pin, projectKMLFile);</script>		
 			<script type="text/javascript">var lat = 37.706516;var lon = -121.898762;var pinTitle = "Boulevard (Dublin Crossing) – Phase 1";var postid =506;var pin = "Yes";var iconName = "building";var iconColor = "#ffffff";var pinColor ="#217a12";var projectKMLFile= "";createMarker(lat, lon, pinTitle, pinColor, iconColor, iconName, postid, pin, projectKMLFile);</script>		
