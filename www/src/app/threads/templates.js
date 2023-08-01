@@ -1,11 +1,15 @@
+import { useArchiveImage } from '@/utils'
+
 const PostImages = ({ data, original = '', thumbnail = '' }) => {
+  const src = original || data.val?.original
   return (<div>
     <p>Added a new image to the project!</p>
     <div className='flex mt-2 flex-row overflow-x-hidden'>
       <img
         style={{ height: '100%' }}
-        src={original || data.val?.original}
-        alt={''}
+        src={useArchiveImage(src)}
+        alt={'broken image'}
+        onError={(err) => console.log(src, 'image is broken', err)}
       />
     </div>
   </div>)

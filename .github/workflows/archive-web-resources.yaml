@@ -1,26 +1,19 @@
-name: generate api data from archives
+name: archive web resources
 
 on:
-  workflow_run:
-    workflows: ["snapshot and generat JSON"]
-    types:
-      - completed
+  push:
+    branches: [ main ]
   schedule:
-    - cron: "*/30 * * * *" # every 30 minutes
+    - cron: "0 0 * * *" # once a day at midnight
   workflow_dispatch:
 
 jobs:
-  update-api:
+  archive-web-resources:
     permissions:
       contents: write
-    name: update api
+    name: archive web resources
     runs-on: ubuntu-latest
     steps:
-      - name: use node 17
-        uses: actions/setup-node@v1
-        with:
-          node-version: 17.x
-
       - uses: actions/checkout@v3
       - name: set timezone to America/Los_Angeles
         uses: szenius/set-timezone@v1.2
@@ -30,13 +23,8 @@ jobs:
       - name: list files
         run: tree -L 3 .
 
-      - name: install node dependencies
-        working-directory: ./worker
-        run: npm install
-
-      - name: take a snapshot&json
-        working-directory: ./worker
-        run: npm run pipeline:api
+      - name: archive web resources
+        run: ./scripts/archive-web-resources.sh
 
       - name: check for modified files
         id: git-check
@@ -51,6 +39,5 @@ jobs:
           git status
           git add -A
           echo $current
-          git commit -m 'feat(data): update api' -m "$current"
+          git commit -m 'feat(web-archive): archive web resources' -m "$current"
           git push
-  

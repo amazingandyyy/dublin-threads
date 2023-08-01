@@ -20,7 +20,7 @@ import {
 
 import './style.scss'
 import { MapPinIcon } from '@heroicons/react/20/solid'
-import { timeSince } from '@/utils'
+import { timeSince, useArchiveImage } from '@/utils'
 import Threads from '@/threads'
 
 export default function ProjectBento ({ projectId }) {
@@ -132,8 +132,8 @@ export default function ProjectBento ({ projectId }) {
     }
     return (<>
           {images.map((image) => (<img
-            key={image.original}
-            src={image.original}
+            key={useArchiveImage(image.original)}
+            src={useArchiveImage(image.original)}
             alt=''
             style={{ width: '100%' }}
             className='shadow-box md:rounded-2xl m-0 mb-1 md:mb-4'

@@ -9,6 +9,10 @@ const fetchDevelopments = (path) => {
   return fetchApi(`${developmentApiUrl}${path}`)
 }
 
+const useArchiveImage = (url) => {
+  return url.replace('https://dublin-development.icitywork.com/wp-content/', 'https://amazingandyyy.com/dublin-threads/web-archive/wp-content/')
+}
+
 function timeSince (date) {
   const seconds = Math.floor((new Date() - date) / 1000)
   let interval = seconds / 31536000
@@ -34,4 +38,4 @@ function timeSince (date) {
   return Math.floor(seconds) + ' seconds'
 }
 
-export { fetchDevelopments, timeSince, Image }
+export { fetchDevelopments, timeSince, Image, useArchiveImage }

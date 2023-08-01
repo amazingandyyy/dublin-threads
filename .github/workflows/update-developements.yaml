@@ -47,8 +47,8 @@ jobs:
         if: steps.git-check.outputs.modified == 'true'
         run:  |
           current=$(date)
-          git config --global user.name 'bot'
-          git config --global user.email 'dublin-ca@amazingandyyy.com'
+          git config --global user.name 'dublin-threads-bot'
+          git config --global user.email 'dublin-threads@amazingandyyy.com'
           git status
           git add -A
           echo $current
