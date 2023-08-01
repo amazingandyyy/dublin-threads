@@ -1,8 +1,18 @@
 'use client'
+import { useEffect } from 'react'
+import { fetchDevelopments } from '@/utils'
+import { useThreadStore } from '@/stores'
 import GlobalHeader from '@/header'
 import ProjectBento from '././projectBento'
 
 export default function Project ({ params }) {
+  useEffect(() => {
+    fetchDevelopments('/logs/global.json')
+      .then(res => res.json())
+      .then(data => {
+        useThreadStore.getState().update(data)
+      })
+  }, [])
   return (<div className='bg-[#F3F2EE]'>
     <GlobalHeader />
     <div className='flex items-center flex-col w-screen'>

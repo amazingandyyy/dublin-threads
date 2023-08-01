@@ -1,6 +1,7 @@
 import Header from '../header'
 import Bottom from '../bottom'
 import { PostImages, PostDocs, PostCard } from '../templates'
+import { Image } from '@/utils'
 
 // function ImageLoader() {
 //   return (<div className='animate-pulse'><div className="h-24 w-24 rounded cursor-wait bg-gray-200" /></div>)
@@ -13,12 +14,12 @@ function hoorayEmoji (n) {
 
 function checkType (data) {
   switch (true) {
-    case Object.keys(data.val).includes('original', 'thumbnail'):
+    case Object.keys(data.val).includes('original'):
       return 'images'
     case Object.keys(data.val).includes('name', 'url'):
       return 'docs'
     default:
-      return data.path[0]
+      return data.path[1]
   }
 }
 
@@ -26,15 +27,18 @@ function PostBody ({ data }) {
   switch (checkType(data)) {
     case 'details':
       if (typeof data.val === 'string') {
-        return (<p>Set <i>{data.path[1]}</i> to <i>{data.val}</i> in the details</p>)
+        return (<p>Set <i>{data.path[2]}</i> to <i>{data.val}</i> in the details</p>)
       }
       return (<p>Updated details</p>)
+    case 'status':
+      return (<p>Change status to <span className='font-bold'>{data.val}</span></p>)
     case 'docs':
       return (<PostDocs data={data} />)
     case 'images':
       return (<PostImages data={data} />)
     default:
-      return (<p>Update {data.path[0]} to <i>{data.val}</i></p>)
+      console.log(data)
+      return (<p>Updates to <i>{data.val}</i></p>)
   }
 }
 
@@ -58,9 +62,9 @@ export default function ({ data }) {
     <div className='py-4 max-w-xs md:max-w-full inlin-block break-words truncate ... text-ellipsis'>
       {data.val.description}
     </div>
-    <div className='mt-2 overflow-x-hidden'>
+    <div className='mt-2 overflow-x-hidden md:max-w-full'>
       {imgs.map((img, i) => <div key={`${i}${img.original}`} className='inline-block border-2 ml-2 w-full'>
-        <img src={img.original} style={{ width: '100%', height: 'auto' }} alt='' />
+        <Image src={img.original} style={{ width: '100%' }} alt='' />
       </div>)}
     </div>
     <Bottom data={data} />

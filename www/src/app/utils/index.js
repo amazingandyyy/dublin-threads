@@ -5,12 +5,14 @@ const developmentApiUrl = '/api/v2/developments/'
 const fetchApi = (path) => {
   return fetch(`${rootUrl}${path}`)
 }
+
+const useArchivedSource = (url) => {
+  // amazingandyyy.com/dublin-threads/web-archive/wp-content/
+  // raw.githubusercontent.com/amazingandyyy/dublin-threads/main/docs/web-archive/wp-content/
+  return url?.replace('dublin-development.icitywork.com/wp-content/', 'amazingandyyy.com/dublin-threads/web-archive/wp-content/') || url
+}
 const fetchDevelopments = (path) => {
   return fetchApi(`${developmentApiUrl}${path}`)
-}
-
-const useArchiveImage = (url) => {
-  return url.replace('https://dublin-development.icitywork.com/wp-content/', 'https://amazingandyyy.com/dublin-threads/web-archive/wp-content/')
 }
 
 function timeSince (date) {
@@ -38,4 +40,4 @@ function timeSince (date) {
   return Math.floor(seconds) + ' seconds'
 }
 
-export { fetchDevelopments, timeSince, Image, useArchiveImage }
+export { fetchDevelopments, timeSince, Image, useArchivedSource }

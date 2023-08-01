@@ -50,11 +50,11 @@ export default function Thread ({ thread }) {
         <>
           {loading && <PostPlaceholder />}
         </>
-        <>
+        <div className='w-full flex flex-col items-center'>
           {thread.length > 0 && thread.map((post, i) =>
             <Post key={i} data={post} />
           )}
-        </>
+        </div>
     </div>
   )
 }

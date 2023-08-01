@@ -20,7 +20,7 @@ import {
 
 import './style.scss'
 import { MapPinIcon } from '@heroicons/react/20/solid'
-import { timeSince, useArchiveImage } from '@/utils'
+import {timeSince, Image, useArchivedSource} from '@/utils'
 import Threads from '@/threads'
 
 export default function ProjectBento ({ projectId }) {
@@ -37,7 +37,7 @@ export default function ProjectBento ({ projectId }) {
     const name = applicant.name
     const address = applicant.address
     const phone = applicant.phone
-    return (<div className='flex flex-col shadow-box bg-white p-8 md:rounded-2xl md:m-2 my-1'>
+    return (<div className='flex flex-col system-card bg-white p-8 md:rounded-2xl md:m-2 my-1'>
       <div className='self-start border-2 border-gray-800 text-gray-800 text-sm rounded-full px-3'>Applicant</div>
       <div>
         <div className='text-xl font-bold my-2'>{name}</div>
@@ -58,7 +58,7 @@ export default function ProjectBento ({ projectId }) {
   }
   const renderStats = (project) => {
     // https://www.linkedin.com/search/results/all/?keywords=Jerry%20Hunt%2C%20Rubicon%20Property%20Group&sid=Qwm
-    return (<div className='flex flex-col md:rounded-2xl shadow-box bg-white p-8 md:m-2 my-1'>
+    return (<div className='flex flex-col md:rounded-2xl system-card bg-white p-8 md:m-2 my-1'>
     <div className='self-start border-2 border-gray-800 text-gray-800 text-sm rounded-full px-3'>Statistics</div>
     <div className='pt-4'>
       <div className='text-md flex items-center pb-2'>
@@ -81,7 +81,7 @@ export default function ProjectBento ({ projectId }) {
     const email = person.email
     const phone = person.phone
     // https://www.linkedin.com/search/results/all/?keywords=Jerry%20Hunt%2C%20Rubicon%20Property%20Group&sid=Qwm
-    return (<div className='flex flex-col md:rounded-2xl shadow-box bg-white p-8 md:m-2 my-1'>
+    return (<div className='flex flex-col md:rounded-2xl system-card bg-white p-8 md:m-2 my-1'>
     <div className='self-start border-2 border-gray-800 text-gray-800 text-sm rounded-full px-3'>Project Planner</div>
     <div>
       <div className='text-xl font-bold my-2'>{name}</div>
@@ -107,7 +107,7 @@ export default function ProjectBento ({ projectId }) {
       <div>
         {project?.docs?.length > 0
           ? <div>{project?.docs?.map(doc => (<div key={doc.url}>
-            <a href={doc.url} target='_blank' className='inline-block py-2 text-green-800 hover:text-green-600 truncate ...' rel="noreferrer">
+            <a href={useArchivedSource(doc.url)} target='_blank' className='w-full inline-block py-2 text-green-800 hover:text-green-600 truncate ...' rel="noreferrer">
               <div className='max-w-xs md:max-w-full inlin-block break-words truncate ... text-ellipsis'>📁 {doc.name || 'Document'}</div>
             </a>
           </div>))}
@@ -124,19 +124,18 @@ export default function ProjectBento ({ projectId }) {
   const renderImages = (images) => {
     if (images?.length === 0) {
       return (
-      <div className='md:rounded-2xl shadow-box bg-white p-8'>
+      <div className='md:rounded-2xl system-card bg-white p-8'>
         <div className='inline border-2 border-gray-800 text-gray-800 text-sm rounded-full px-3'>Images</div>
         <div className='pt-4'>0 images available</div>
       </div>
       )
     }
     return (<>
-          {images.map((image) => (<img
-            key={useArchiveImage(image.original)}
-            src={useArchiveImage(image.original)}
-            alt=''
-            style={{ width: '100%' }}
-            className='shadow-box md:rounded-2xl m-0 mb-1 md:mb-4'
+          {images.map((image) => (<Image
+            key={image.original}
+            src={image.original}
+            style={{ width: '100%', height: 'auto' }}
+            className='system-card md:rounded-2xl m-0 mb-1 md:mb-4'
           />)
           )}
       </>)
@@ -147,7 +146,7 @@ export default function ProjectBento ({ projectId }) {
     const standardDate = new Date(`${dateArr[2]}-${dateArr[0]}-${dateArr[1]}T00:00:00.000Z`)
     const seconds = standardDate.getTime() // 1440516958
 
-    return (<div className='flex flex-col md:rounded-2xl shadow-box bg-white p-8 md:m-2 mb-1 h-full text-center items-center justify-center'>
+    return (<div className='flex flex-col md:rounded-2xl system-card bg-white p-8 md:m-2 mb-1 h-full text-center items-center justify-center'>
       <div className='flex flex-col items-center'>
         <ClockIcon className='w-6 h-6 text-emerald-500' />
         <div className='text-lg text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-lime-600'>Submitted</div>
@@ -157,7 +156,7 @@ export default function ProjectBento ({ projectId }) {
     </div>)
   }
   const renderLatestUpdateDate = (project) => {
-    return (<div className='flex flex-col md:rounded-2xl shadow-box bg-white p-8 md:m-2 mb-1 h-full text-center items-center justify-center'>
+    return (<div className='flex flex-col md:rounded-2xl system-card bg-white p-8 md:m-2 mb-1 h-full text-center items-center justify-center'>
       <div className='flex flex-col items-center'>
         <ClockIcon className='w-6 h-6 text-emerald-500' />
         <div className='text-lg text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-lime-600'>Lastest updated</div>
@@ -168,7 +167,7 @@ export default function ProjectBento ({ projectId }) {
   }
   const renderStatus = (project) => {
     const status = project?.status
-    return (<div className='md:rounded-2xl shadow-box bg-white md:m-2 h-full bg-gradient-to-r from-emerald-500 to-lime-600 py-1 md:p-1'>
+    return (<div className='md:rounded-2xl system-card bg-white md:m-2 h-full bg-gradient-to-r from-emerald-500 to-lime-600 py-1 md:p-1'>
     <div className='flex flex-col bg-white p-8 h-full w-full md:rounded-xl text-white items-center text-center justify-center'>
       <div className='flex flex-col items-center'>
         <TrophyIcon className='w-6 h-6 text-emerald-500' />
@@ -237,23 +236,23 @@ export default function ProjectBento ({ projectId }) {
   } else {
     return (<>
       <div className='flex flex-col md:flex-row'>
-        <div className='md:rounded-2xl shadow-box bg-white flex p-8 flex-col md:m-2 my-1 md:flex-none md:max-w-[300px]'>
+        <div className='md:rounded-2xl system-card bg-white flex p-8 flex-col md:m-2 my-1 md:flex-none md:max-w-[300px]'>
           <div className='flex flex-col justify-between h-full'>
             <div className='text-4xl font-bold'>{project.title}</div>
             <div className='opacity-50'>@{project.id}</div>
           </div>
         </div>
-        <div className='md:rounded-2xl shadow-box overflow-scroll bg-white flex p-8 flex-col md:m-2 my-1'>
+        <div className='md:rounded-2xl system-card overflow-scroll bg-white flex p-8 flex-col md:m-2 my-1'>
           {renderDescription(project)}
         <div>
         </div>
         </div>
-        <div className='md:rounded-2xl shadow-box w-auto md:w-full overflow-hidden md:h-auto h-[300px] md:min-w-[300px] md:max-w-[400px] md:m-2 my-1'>
+        <div className='md:rounded-2xl system-card w-auto md:w-full overflow-hidden md:h-auto h-[300px] md:min-w-[300px] md:max-w-[400px] md:m-2 my-1'>
           {renderMap(project)}
         </div>
       </div>
       <div className='flex flex-col md:flex-row'>
-        <div className='flex flex-row md:rounded-2xl shadow-box bg-white p-8 md:m-2 my-1'>
+        <div className='flex flex-row md:rounded-2xl system-card bg-white p-8 md:m-2 my-1'>
           {renderProjectDetails(project)}
         </div>
         <div className='flex flex-col flex-1'>
@@ -267,11 +266,11 @@ export default function ProjectBento ({ projectId }) {
           {renderStats(project)}
         </div>
       </div>
-      <div className='md:p-2'>
+      <div className='w-full md:p-2'>
         {renderImages(project?.images)}
       </div>
-      <div className='md:p-2'>
-        <div className='md:rounded-2xl shadow-box bg-white p-8'>
+      <div className='w-full md:p-2'>
+        <div className='md:rounded-2xl system-card bg-white p-8'>
           {renderDocuments(project)}
         </div>
       </div>
