@@ -181,7 +181,7 @@ export default function ProjectBento ({ projectId }) {
       }}
       // minZoom={14}
       style={{ borderRadius: '12px', height: '100%' }}
-      mapStyle="mapbox://styles/amazingandyyy/clkj48ygk004o01r27gz8dub3"
+      mapStyle="mapbox://styles/amazingandyyy/clkj4hghc005b01r14qvccv1h"
     >
       {project?.geolocation?.lon && <Marker key={project.title} longitude={project?.geolocation?.lon} latitude={project?.geolocation?.lat}>
         <a href={`https://www.google.com/maps/place/${project?.geolocation?.lat},${project?.geolocation?.lon}`} target='_blank' rel='noreferrer'>
@@ -266,11 +266,19 @@ export default function ProjectBento ({ projectId }) {
           {renderDocuments(project)}
         </div>
       </div>
-      <div className='md:p-2'>
-        <div className='md:rounded-2xl shadow-box bg-white md:p-8'>
-          <div className='inline-block border-2 border-gray-800 text-gray-800 mt-8 ml-8 md:mt-0 md:ml-0 text-sm rounded-full px-3'>Threads</div>
+      <div className='md:py-8'>
+          <div className='text-center py-12'>
+              <div className='text-3xl md:text-5xl font-bold text-green-950 mb-4'>
+                  Threads
+              </div>
+              <div>
+                This is a thread of {project.title}{'\'s'} updates on <a className='text-green-600' href='https://dublin-development.icitywork.com' target='_blank' rel="noreferrer">Dublin Devlopment Projects Site</a>
+              </div>
+              <div>
+                Updated every 30 minutes
+              </div>
+          </div>
           {<RenderThreads project={project} />}
-        </div>
       </div>
     </>)
   }

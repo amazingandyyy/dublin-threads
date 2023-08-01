@@ -7,10 +7,10 @@ function PostPlaceholder () {
   const emptyArray = (length = 5) => (Array.from(Array(length).keys()))
 
   return <div>
-    {emptyArray(20).map(i => (<div key={i} className='flex md:rounded-xl my-2 animate-pulse opacity-20'>
-    <div className='flex flex-col self-stretch w-full p-4 bg-gray-50'>
+    {emptyArray(20).map(i => (<div key={i} className='flex m-2 animate-pulse opacity-20'>
+    <div className='flex flex-col self-stretch w-full p-6 bg-gray-50 md:rounded-2xl'>
       <div className='flex item-between'>
-        <div className='self-stretch mb-4 bg-gray-200 rounded-full w-64 h-8' />
+        <div className='self-stretch mb-4 bg-gray-200 rounded-md w-64 h-8' />
         <div className='flex-grow self-stretch mb-2 rounded-full w-96 h-[15px]' />
         <div className='self-stretch mb-2 bg-gray-200 rounded-full w-16 h-[15px]' />
       </div>
@@ -23,7 +23,6 @@ function PostPlaceholder () {
 }
 
 function Post ({ data }) {
-  data.path.shift()
   switch (data.op) {
     case 'add':
       return (<AddPost data={data} />)
@@ -45,8 +44,8 @@ export default function Thread ({ thread }) {
 
   return (
     <div>
-        <div className='flex justify-end text-sm pr-2 md:pr-0 mb-4 opacity-70'>
-          <div>{loading ? (<span className='animate-pulse'>...</span>) : (<span>{thread.length}</span>)} updates</div>
+        <div className='flex flex-col'>
+          <div className='bg-white bg-opacity-50 text-sm opacity-70 py-1 my-4 px-2 mx-auto rounded-xl'>{loading ? (<span className='animate-pulse'>...</span>) : (<span>{thread.length}</span>)} updates</div>
         </div>
         <>
           {loading && <PostPlaceholder />}

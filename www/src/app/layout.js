@@ -34,7 +34,7 @@ export default function RootLayout ({ children }) {
         <meta name="msapplication-config" content="https://dublin.amazyyy.com/icons/browserconfig.xml" />
         <meta name="theme-color" content="#0D8100" />
       </Head>
-      <body className='bg-[#F3F2EE]'>
+      <body className='bg-white'>
         {children}
       </body>
     </html>

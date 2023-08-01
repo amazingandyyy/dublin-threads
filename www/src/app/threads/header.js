@@ -15,18 +15,18 @@ function transformTimestamp (timestamp) {
 }
 
 export default function ({ data }) {
-  const isNewPost = Boolean(Date.now() - data.timestamp < days / 12)
+  // const isNewPost = Boolean(Date.now() - data.timestamp < days / 12)
   const profiles = useProjectProfileStore(state => state.profiles)
   return (<div className='flex items-start justify-between pb-4'>
       <div className='flex-none w-60 md:w-96 items-start flex-col md:flex-row md:items-center'>
-        <Link href={`/project/${data.projectId}`} className='hover:opacity-50 active:opacity-70'>
+        <Link href={`/project/${data.projectId}`} className='hover:opacity-50 active:opacity-70 hover:underline'>
           <div className='font-semibold pr-1 text-base truncate ...'>{profiles[data.projectId].title}</div>
         </Link>
-        <div className='text-gray-500 text-sm'>@{data.projectId}</div>
+        <Link href={`/project/${data.projectId}`} className='hover:opacity-50 active:opacity-70'><div className='text-gray-500 text-sm'>@{data.projectId}</div></Link>
       </div>
       <div className='relative'>
         <div className='pl-1 text-gray-500 text-xs'>{transformTimestamp(data.timestamp)}</div>
-         {isNewPost && <div className='block absolute bg-green-400 text-green-800 px-2 top-8 left-14 rounded-full text-sm rotate-[5deg] md:-rotate-[5deg] shadow-2xl'>NEW</div>}
+         {/* {isNewPost && <div className='block absolute bg-green-400 text-green-800 px-2 top-8 left-14 rounded-full text-sm rotate-[5deg] md:-rotate-[5deg] shadow-2xl'>NEW</div>} */}
       </div>
     </div>)
 }

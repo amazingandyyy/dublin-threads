@@ -21,45 +21,42 @@ function PostWrapper ({ data }) {
 
 function postBody (data) {
   if (typeof data.val === 'string') {
-    switch (data.path[0]) {
+    switch (data.path[1]) {
       case 'details':
-        switch (data.path[1]) {
+        switch (data.path[2]) {
           case 'Project Planner':
-            return (<p>Updated <span>{data.path[1]} {data.path[2]}</span> from <span className='opacity-50 line-through break-words break-words'>{data.oldVal}</span> to <i className='break-words'>{data.val}</i>.</p>)
+            return (<p>Updated <span>{data.path[2]}{'\'s'} {data.path[3]}</span> from <span className='opacity-50 line-through break-words'>{data.oldVal}</span> to <i className='break-words'>{data.val}</i></p>)
           default:
-            return (<p>Updated <span>{data.path[1]}</span> from <span className='opacity-50 line-through break-words break-words'>{data.oldVal}</span> to <i className='break-words'>{data.val}</i>.</p>)
+            return (<p>Updated <span>{data.path[2]}</span> from <span className='opacity-50 line-through break-words'>{data.oldVal}</span> to <i className='break-words'>{data.val}</i></p>)
         }
       case 'title':
         return (<p>Changed <span>{data.path[1]}</span> from <span className='opacity-50 line-through break-words'>{data.oldVal}</span> to <i className='break-words'>{data.val}</i>.</p>)
       case 'status':
         return (<p>Moved <span>{data.path[1]}</span> from <span className='opacity-50 line-through break-words'>{data.oldVal}</span> to <i className='break-words'>{data.val}</i>.</p>)
       case 'images':
-        if (data.path[2] === 'original') {
+        if (data.path[3] === 'original') {
           return (<div>
             <PostImages data={data} original={data.val} />
           </div>)
         } else {
           return false
         }
-      // case 'geolocation':
-      //   return (<p>Changed <span>location</span> from <span className='opacity-50 line-through break-words'>{data.oldVal}</span> to <className='break-words'>{data.val}</i>.</p>)
+      case 'location':
+        return (<p>Changed <span>location</span> from <span className='opacity-50 line-through break-words'>{data.oldVal}</span> to <i className='break-words'>{data.val}</i></p>)
+      case 'geolocation':
+        return false
       case 'description':
         return (<p>{data.val}</p>)
       case 'docs':
         return (<PostDocs data={data} url={data.val} />)
       default:
-        if (typeof data.path[0] === 'number') return false
-        console.log(data)
-        return (<p className='flex flex-col items-start'>Updated <span>{data.path.join(' ')}</span><p className='opacity-50 line-through max-w-xs md:max-w-full inline-block break-words truncate ... text-ellipsis'>{data.oldVal}</p><p className='max-w-xs md:max-w-full inline-block break-words'><i>{data.val}</i></p></p>)
-        // return false
+        return false
     }
   }
   return false
 }
 
 export default function ({ data }) {
-  // console.log("updates!", data)
-
   if (data.path[0] !== 'location' || data.path[0] !== 'geolocation' || data.path[2] === 'thumbnail') {
     return (<PostWrapper data={data} />)
   }

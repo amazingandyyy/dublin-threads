@@ -23,7 +23,7 @@ const PostDocs = ({ data, url = '' }) => {
 }
 
 function PostCard ({ children }) {
-  return (<div className='bg-white m-2 rounded-2xl my-2 p-6 hover:bg-slate-50 shadow-box'>{children}</div>)
+  return (<div className='bg-white bg-opacity-0 m-2 rounded-2xl my-2 p-6 shadow-box'>{children}</div>)
 }
 
 export {
