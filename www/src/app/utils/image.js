@@ -8,7 +8,7 @@ export default function (opts) {
   return (<img
     { ...opts }
     src={src}
-    alt={opts.alt || 'image is too old and no longer exists'}
+    alt={opts.alt === '' ? '' : 'image is too old and no longer exists'}
     onError={() => {
       switch (level) {
         case 1:

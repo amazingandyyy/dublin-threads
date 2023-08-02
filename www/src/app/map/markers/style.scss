@@ -6,17 +6,27 @@ $dark-color: #084713;
 }
 
 .mapboxgl-popup-content {
-  background: rgba(white,0.3);
-  border-radius: 100px;
-  padding: 5px 20px;
+  background: rgba(black, 0);
+  text-align: center;
+  opacity: 0.8;
+  font-weight: bold;
+  border-radius: 0px;
+  padding: 0px;
+  box-shadow: none;
   .mapboxgl-popup-close-button {
-    translate: -5px 5px;
+    display: none;
   }
+}
+.mapboxgl-popup-tip {
+  display: none;
 }
 
 .mapboxgl-popup {
   display: block;
-  .false {
+  &.true {
+    display: block;
+  }
+  &.false {
     display: none;
   }
 }
@@ -29,8 +39,10 @@ $dark-color: #084713;
   pointer-events: auto;
   &.hover {
     .pin-001-wrapper-item, .pin-001-wrapper-item-wrapper, .pin-001-item-2 {
-      background-color: $brand-color;
+      background-color: red;
       box-shadow: rgba($brand-color, 0.24) 0px 0px 0px 1px inset, rgba($brand-color, 0.18) 0px 1px 2px;
+      //border-radius: 100px;
+      overflow: hidden;
     }
   }
   .button-inner {

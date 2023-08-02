@@ -1,4 +1,6 @@
 import './style.scss'
+import { Tooltip } from 'react-tooltip'
+import {Image} from '@/utils'
 
 const ICONS = {
   // dot: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
@@ -26,6 +28,11 @@ const ICONS = {
     <path fillRule="evenodd" d="M20.25 10.332v9.918H21a.75.75 0 010 1.5H3a.75.75 0 010-1.5h.75v-9.918a.75.75 0 01.634-.74A49.109 49.109 0 0112 9c2.59 0 5.134.202 7.616.592a.75.75 0 01.634.74zm-7.5 2.418a.75.75 0 00-1.5 0v6.75a.75.75 0 001.5 0v-6.75zm3-.75a.75.75 0 01.75.75v6.75a.75.75 0 01-1.5 0v-6.75a.75.75 0 01.75-.75zM9 12.75a.75.75 0 00-1.5 0v6.75a.75.75 0 001.5 0v-6.75z" clipRule="evenodd" />
     <path d="M12 7.875a1.125 1.125 0 100-2.25 1.125 1.125 0 000 2.25z" />
   </svg>,
+  institution: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+    <path d="M11.584 2.376a.75.75 0 01.832 0l9 6a.75.75 0 11-.832 1.248L12 3.901 3.416 9.624a.75.75 0 01-.832-1.248l9-6z" />
+    <path fillRule="evenodd" d="M20.25 10.332v9.918H21a.75.75 0 010 1.5H3a.75.75 0 010-1.5h.75v-9.918a.75.75 0 01.634-.74A49.109 49.109 0 0112 9c2.59 0 5.134.202 7.616.592a.75.75 0 01.634.74zm-7.5 2.418a.75.75 0 00-1.5 0v6.75a.75.75 0 001.5 0v-6.75zm3-.75a.75.75 0 01.75.75v6.75a.75.75 0 01-1.5 0v-6.75a.75.75 0 01.75-.75zM9 12.75a.75.75 0 00-1.5 0v6.75a.75.75 0 001.5 0v-6.75z" clipRule="evenodd" />
+    <path d="M12 7.875a1.125 1.125 0 100-2.25 1.125 1.125 0 000 2.25z" />
+  </svg>,
   home: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
     <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
     <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
@@ -43,17 +50,27 @@ const ICONS = {
 }
 
 function PinMarker (props) {
-  return (<div {...props} className={`pin-001 ${props.type}`}>
+  console.log(props)
+  return (<div {...props} className={`pin-001 ${props.type}`} data-tooltip-id={props.data?.id} data-tooltip-content={props.data?.title}>
     <button className='button-inner'>
       <div className='pin-001-wrapper'>
-        <div className='pin-001-wrapper-item'></div>
+        <div className='pin-001-wrapper-item'/>
         <div className='pin-001-wrapper-item-wrapper'>
+          {/*{props.image && <Image src={props.image} />}*/}
           {ICONS[props.iconName]}
         </div>
-        <div className='pin-001-item-2'>
-        </div>
+        <div className='pin-001-item-2' />
       </div>
     </button>
+    <Tooltip style={{ zIndex: '99', display: 'inline-block', boxShadow: '0px 0px 10px #DCDCDC', backgroundColor: 'white', borderRadius: '10px', color: 'black' }} id={props.data?.id} place='top' render={({ content, activeAnchor }) => (
+       <div className='flex flex-col items-center text-sm'>
+         {props.data?.images.length} images and {props.data?.threads.length} updates since {props.data?.details['Application Submittal Date']}
+         <div className='flex flex-row'>
+           {props.data?.images.length && props.data?.images.slice(0,3).map(i=><Image className='m-1 rounded' alt='' src={i.thumbnail} />)}
+         </div>
+        </div>
+     )}
+    />
   </div>)
 }
 
