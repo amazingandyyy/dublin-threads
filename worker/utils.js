@@ -76,4 +76,3 @@ exports.generateValidDatekey = () => {
 }
 
 exports.logger = logger
-exports.parseHtml = require('./parseHtml')

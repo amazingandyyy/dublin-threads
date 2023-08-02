@@ -1,7 +1,7 @@
 'use client'
-import {useState} from "react";
+import { useState } from 'react'
 
-import Map, { Source, Layer, Marker, ScaleControl, GeolocateControl, NavigationControl, Popup } from 'react-map-gl'
+import Map, { Source, Layer, Marker, ScaleControl, GeolocateControl, NavigationControl } from 'react-map-gl'
 import DublinOSM from './dublin-osm.json' // https://osm-boundaries.com/
 import 'mapbox-gl/dist/mapbox-gl.css'
 import { useMapStore } from '@/stores'
@@ -27,7 +27,7 @@ export default function Threads ({ params, searchParams }) {
     <main className="flex bg-white h-screen w-screen pt-[60px]">
       <div className="flex flex-col bg-white w-full h-full">
           <Map
-            onZoom={(i)=>setZoom(i.viewState.zoom)}
+            onZoom={(i) => setZoom(i.viewState.zoom)}
             mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_TOKEN}
             initialViewState={mapConfig.initialViewState}
             style={{ borderRadius: mapConfig.borderRadius }}
@@ -36,7 +36,7 @@ export default function Threads ({ params, searchParams }) {
             {locations.map((location) => (<Link href={`/project/${location.id}`} key={location.id}>
               <Marker longitude={location?.geolocation?.lon} latitude={location?.geolocation?.lat}>
               <PinMarker iconName={location?.geolocation?.iconName || 'dot'} data={location} />
-              <div className={`inline-block translate-y-3 opacity-${Math.floor(zoom/14.1)*100} text-center`}>{location?.title}</div>
+              <div className={`inline-block translate-y-3 opacity-${Math.floor(zoom / 14.1) * 100} text-center`}>{location?.title}</div>
               </Marker>)</Link>))}
 
             <Source id="dublin-boundary" type="geojson" data={DublinOSM}>

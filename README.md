@@ -39,3 +39,6 @@ Data API for Dublin, CA
 - Project Profile
   - wikipedia Searching API: https://en.wikipedia.org/w/api.php?action=opensearch&search=Quarry%20Lane%20School&limit=1&namespace=0&format=jsonfm
   - wiki NPM: https://dijs.github.io/wiki/WikiPage.html#images
+
+## TODOs
+- add meeting to the thread: https://dublin.ca.gov/1604/Meetings-Agendas-Minutes-Video-on-Demand

@@ -1,9 +1,5 @@
 {
   "scripts": {
-    "pipeline:snapshot": "node pipelines/generate-snapshot.js",
-    "pipeline:json": "node pipelines/generate-json.js",
-    "pipeline:datekeys": "node pipelines/generate-datekeys.js",
-    "pipeline:api": "node pipelines/generate-api.js",
     "lint": "standard --fix **/*.js"
   },
   "dependencies": {

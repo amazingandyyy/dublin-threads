@@ -20,7 +20,7 @@ import {
 
 import './style.scss'
 import { MapPinIcon } from '@heroicons/react/20/solid'
-import {timeSince, Image, useArchivedSource} from '@/utils'
+import { timeSince, Image, useArchivedSource } from '@/utils'
 import Threads from '@/threads'
 
 export default function ProjectBento ({ projectId }) {

@@ -1,5 +1,5 @@
 const _ = require('lodash')
-const { absolutePath, writeJsonToFileForce } = require('../utils')
+const { absolutePath, writeJsonToFileForce } = require('../../utils')
 const { generateLogs } = require('../utils/generator')
 
 const apiVersion = 'v2'

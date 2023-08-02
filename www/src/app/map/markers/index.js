@@ -1,6 +1,6 @@
 import './style.scss'
 import { Tooltip } from 'react-tooltip'
-import {Image} from '@/utils'
+import { Image } from '@/utils'
 
 const ICONS = {
   // dot: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
@@ -56,7 +56,7 @@ function PinMarker (props) {
       <div className='pin-001-wrapper'>
         <div className='pin-001-wrapper-item'/>
         <div className='pin-001-wrapper-item-wrapper'>
-          {/*{props.image && <Image src={props.image} />}*/}
+          {/* {props.image && <Image src={props.image} />} */}
           {ICONS[props.iconName]}
         </div>
         <div className='pin-001-item-2' />
@@ -66,10 +66,10 @@ function PinMarker (props) {
        <div className='flex flex-col items-center text-sm'>
          {props.data?.images.length} images and {props.data?.threads.length} updates since {props.data?.details['Application Submittal Date']}
          <div className='flex flex-row'>
-           {props.data?.images.length && props.data?.images.slice(0,3).map(i=><Image className='m-1 rounded' alt='' src={i.thumbnail} />)}
+           {props.data?.images.length && props.data?.images.slice(0, 3).map(i => <Image key={i.thumbnail} className='m-1 rounded' alt='' src={i.thumbnail} />)}
          </div>
         </div>
-     )}
+    )}
     />
   </div>)
 }

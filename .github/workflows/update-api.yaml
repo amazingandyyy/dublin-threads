@@ -35,8 +35,8 @@ jobs:
         run: npm install
 
       - name: take a snapshot&json
-        working-directory: ./worker
-        run: npm run pipeline:api
+        working-directory: ./worker/developments
+        run: node pipelines/generate-api.js
 
       - name: check for modified files
         id: git-check
