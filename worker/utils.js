@@ -58,7 +58,7 @@ exports.mergeObject = (a, b) => {
 }
 
 exports.absolutePath = (p) => {
-  return path.join(__dirname, '../..', p)
+  return path.join(__dirname, '..', p)
 }
 
 exports.generateValidDatekey = () => {

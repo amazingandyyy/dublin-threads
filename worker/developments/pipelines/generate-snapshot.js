@@ -14,13 +14,13 @@ async function main () {
 const generateHtml = async (datekey) => {
   let html = await axios.get(target)
   html = html.data.replace(/\?wordfence_lh=1&hid=.*/i, '')
-  const previousDatekey = fs.readFileSync(absolutePath('docs/archive/datekeys-latest.txt'), 'utf8')
-  const previousHtml = fs.readFileSync(absolutePath(`docs/archive/${previousDatekey}/dublin-development.icitywork.com/index.html`), 'utf8')
+  const previousDatekey = fs.readFileSync(absolutePath('docs/archive-developments/datekeys-latest.txt'), 'utf8')
+  const previousHtml = fs.readFileSync(absolutePath(`docs/archive-developments/${previousDatekey}/dublin-development.icitywork.com/index.html`), 'utf8')
   if (previousHtml === html) {
     logger.info('No page changes detected, skipping snapshot')
     return false
   }
-  const p = absolutePath(`docs/archive/${datekey}/dublin-development.icitywork.com/index.html`)
+  const p = absolutePath(`docs/archive-developments/${datekey}/dublin-development.icitywork.com/index.html`)
   writeToFileForce(p, html)
   return true
 }

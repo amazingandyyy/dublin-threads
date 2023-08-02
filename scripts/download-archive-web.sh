@@ -4,7 +4,7 @@ current_year=2017
 target_url=dublin-development.icitywork.com
 
 ROOT_DIR="$(dirname "$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )")"
-OUTPUT_DIR=$ROOT_DIR/docs/archive/
+OUTPUT_DIR=$ROOT_DIR/docs/archive-developments/
 
 mkdir -p $OUTPUT_DIR
 

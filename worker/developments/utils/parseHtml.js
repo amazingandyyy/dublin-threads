@@ -1,5 +1,5 @@
 const cheerio = require('cheerio')
-const { normalize } = require('./index')
+const { normalize } = require('../../utils')
 
 const replaceProjectDetail = (data) => {
   return String(data).replace(/projectDetail/ig, 'projectdetail')

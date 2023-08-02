@@ -6,14 +6,14 @@ const apiVersion = 'v2'
 const apiPath = `docs/api/${apiVersion}`
 
 const getDateKeys = async () => {
-  return require(absolutePath('docs/archive/datekeys.json'))
+  return require(absolutePath('docs/archive-developments/datekeys.json'))
 }
 
 const getAllProjectIds = async (datekeys) => {
   const result = []
   return new Promise((resolve, reject) => {
     datekeys.forEach((datekey) => {
-      const snapshot = require(absolutePath(`docs/archive/${datekey}/dublin-development.icitywork.com/snapshot.json`))
+      const snapshot = require(absolutePath(`docs/archive-developments/${datekey}/dublin-development.icitywork.com/snapshot.json`))
       result.push(...Object.keys(snapshot))
     })
     return resolve([...new Set(result)].sort((a, b) => {
@@ -39,9 +39,9 @@ async function generateLogsByProjectId (allLogs, ids) {
 
 async function generateSnapshotByProjectId (datekeys) {
   datekeys.forEach((datekey) => {
-    const snapshot = require(absolutePath(`docs/archive/${datekey}/dublin-development.icitywork.com/snapshot.json`))
+    const snapshot = require(absolutePath(`docs/archive-developments/${datekey}/dublin-development.icitywork.com/snapshot.json`))
     writeJsonToFileForce(absolutePath(`${apiPath}/developments/snapshots/${datekey}.json`), snapshot)
-    const latestDatekey = _.last(require(absolutePath('docs/archive/datekeys.json')))
+    const latestDatekey = _.last(require(absolutePath('docs/archive-developments/datekeys.json')))
     if (datekey === latestDatekey) writeJsonToFileForce(absolutePath(`${apiPath}/developments/snapshots/latest.json`), snapshot)
   })
 }
@@ -61,8 +61,8 @@ async function generateAllLogs (datekeys) {
   let allLogs = []
   return new Promise((resolve, reject) => {
     datekeys.forEach((datekey, i) => {
-      const previousSnapshot = datekeys[i - 1] ? require(absolutePath(`docs/archive/${datekeys[i - 1]}/dublin-development.icitywork.com/snapshot.json`)) : {}
-      const currentSnapshot = require(absolutePath(`docs/archive/${datekeys[i]}/dublin-development.icitywork.com/snapshot.json`))
+      const previousSnapshot = datekeys[i - 1] ? require(absolutePath(`docs/archive-developments/${datekeys[i - 1]}/dublin-development.icitywork.com/snapshot.json`)) : {}
+      const currentSnapshot = require(absolutePath(`docs/archive-developments/${datekeys[i]}/dublin-development.icitywork.com/snapshot.json`))
       const timestamp = transformedDatekeyToTimestamp(datekey)
       const log = generateLogs({ oldData: previousSnapshot, newData: currentSnapshot, timestamp: String(timestamp) })
       allLogs.push(...log)
