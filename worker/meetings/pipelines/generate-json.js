@@ -74,6 +74,7 @@ async function main () {
         const meetingRow = meetingRows[r]
         const name = normalize(getElementByIndex(meetingRow, '.listingRow .listItem', 0).el.text())
         const date = normalizeDate(getElementByIndex(meetingRow, '.listingRow .listItem', 1).el.text())
+        const timestamp = new Date(date).getTime()
         const agenda = normalizeUrl(getElementByIndex(meetingRow, '.listingRow .listItem', 2).el.find('a').attr('href'))
         const minutes = normalizeUrl(getElementByIndex(meetingRow, '.listingRow .listItem', 3).el.find('a').attr('href'))
         const video = normalizeVideo(getElementByIndex(meetingRow, '.listingRow .listItem', 4).el.find('a').attr('onclick'))
@@ -84,6 +85,7 @@ async function main () {
           cancelled,
           name,
           date,
+          timestamp: timestamp,
           agenda,
           minutes,
           video,
