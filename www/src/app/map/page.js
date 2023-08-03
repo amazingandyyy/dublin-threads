@@ -36,8 +36,9 @@ export default function Threads ({ params, searchParams }) {
             {locations.map((location) => (<Link href={`/project/${location.id}`} key={location.id}>
               <Marker longitude={location?.geolocation?.lon} latitude={location?.geolocation?.lat}>
               <PinMarker iconName={location?.geolocation?.iconName || 'dot'} data={location} />
-              <div className={`inline-block translate-y-3 opacity-${Math.floor(zoom / 14.1) * 100} text-center`}>{location?.title}</div>
-              </Marker>)</Link>))}
+              <div className={`inline-block translate-y-3 opacity-${Math.floor(zoom / 14) * 100} text-center`}>{location?.title}</div>
+              </Marker>
+            </Link>))}
 
             <Source id="dublin-boundary" type="geojson" data={DublinOSM}>
               <Layer id="dublin-boundary-line" type='line' paint={{
