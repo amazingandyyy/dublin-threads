@@ -2,7 +2,7 @@ name: generate api data from archives
 
 on:
   workflow_run:
-    workflows: ["snapshot and generat JSON"]
+    workflows: ["snapshot and generate JSON (developments)"]
     types:
       - completed
   schedule:

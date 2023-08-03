@@ -1,0 +1,3662 @@
+[
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1849",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1849",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/e152228a-65d3-11ed-95a3-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1686097891.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "05-16-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1837",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1837",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/12c618c7-65d4-11ed-95a3-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1684273909.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1843",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1843",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1826",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1826&doc_id=0bb9c47e-ffd7-11ed-95dd-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1826",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/e14f0969-65d3-11ed-95a3-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1683062938.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting Adjournment Notice",
+    "date": "04-18-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1820",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1820",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "04-18-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1819",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1819&doc_id=c85ba25c-edb9-11ed-95dd-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1819",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/12c28797-65d4-11ed-95a3-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1681855820.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1812",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1812&doc_id=1a8ced60-e9fa-11ed-95dd-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1812",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/e149539f-65d3-11ed-95a3-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1680659179.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": "03-22-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1799",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1799&doc_id=0c4c88e8-e9fa-11ed-95dd-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1799",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/8df1bf80-bdf6-11ed-acbc-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1679335255.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "03-21-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1795",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1795&doc_id=d32c818c-e9f9-11ed-95dd-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1795",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/12be9125-65d4-11ed-95a3-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1679434483.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": "03-11-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1782",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1782&doc_id=ad6c5a8f-e9f9-11ed-95dd-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1782",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/808f5602-b7c4-11ed-acbc-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1678408239.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1776",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1776&doc_id=66863fd6-d591-11ed-95dd-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1776",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/e1461447-65d3-11ed-95a3-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1678228222.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "02-21-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1761",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1761&doc_id=e8e3a3cc-c8df-11ed-acbc-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1761",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/12bb0c4e-65d4-11ed-95a3-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1677020060.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "Joint Special Meeting of the City Council, Planning Commission, Parks and Community Services Commission, Human Services Commission, Heritage and Cultural Arts Commission, and Senior Center Advisory Committee",
+    "date": "02-16-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1765",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1765&doc_id=10833959-c8e0-11ed-acbc-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1765",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1754",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1754&doc_id=fd79f96e-bddb-11ed-acbc-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1754",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/e14180f0-65d3-11ed-95a3-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1675815709.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "01-10-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1737",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1737&doc_id=60f02687-ad68-11ed-8145-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1737",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/5624057a-65d3-11ed-95a3-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1673397855.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "12-20-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1723",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1723&doc_id=7df28a22-96c9-11ed-96ab-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1723",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/58ec229f-3ced-11ec-a798-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1671221285.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1716",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1716&doc_id=a3553728-96c9-11ed-96ab-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1716",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/c8408b20-3ce4-11ec-a798-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1670366802.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "11-15-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1703",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1703&doc_id=206617fc-815d-11ed-9024-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1703",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/58e7c85d-3ced-11ec-a798-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1668557210.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1692",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1692&doc_id=6b48d72f-7685-11ed-9024-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1692",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/c83e9151-3ce4-11ec-a798-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1667338974.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "10-18-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1679",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1679&doc_id=d056cba8-6153-11ed-95a3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1679",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/58e2e223-3ced-11ec-a798-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1666130278.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": true,
+    "name": "City Council Cancellation Notice",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1667",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1667",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "09-20-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1651",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1651&doc_id=3712062b-554c-11ed-95a3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1651",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/58ddc171-3ced-11ec-a798-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1663709624.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1644",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1644&doc_id=09b89201-40f1-11ed-95a3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1644",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/c83ae91b-3ce4-11ec-a798-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1662502503.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "08-16-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1636",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1636&doc_id=dde85528-32b6-11ed-8da8-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1636",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/58d93f85-3ced-11ec-a798-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1660689303.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": true,
+    "name": "City Council Cancellation Notice",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1627",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1627",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "07-19-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1613",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1613&doc_id=e8446096-1f1e-11ed-b1ab-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1613",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/58d4b2a3-3ced-11ec-a798-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1658266230.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": true,
+    "name": "City Council Cancellation Notice",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1629",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1629",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "06-21-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1604",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1604&doc_id=b80b31ca-0c51-11ed-baa3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1604",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/58d01cca-3ced-11ec-a798-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1655854210.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1584",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1584&doc_id=0fd41b57-f674-11ec-baa3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1584",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/c8330c36-3ce4-11ec-a798-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1654638904.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": "05-17-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1576",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1576&doc_id=804cf04d-ec3a-11ec-9ad4-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1576",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/75bf016c-ca4c-11ec-bbb4-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1652823568.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "05-17-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1575",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1575&doc_id=86ff981b-ec3b-11ec-9ad4-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1575",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/58ca3284-3ced-11ec-a798-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1652830348.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1566",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1566&doc_id=51e18537-dabf-11ec-9ad4-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1566",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/c8312853-3ce4-11ec-a798-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1651677571.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "04-19-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1552",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1552&doc_id=37419231-cfc1-11ec-bbb4-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1552",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/58c1cf2a-3ced-11ec-a798-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1650408232.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1542",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1542&doc_id=49a0210e-c5af-11ec-a5da-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1542",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/6d4573be-a493-11ec-8a90-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1649195537.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1541",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1541&doc_id=30c3f18d-c5af-11ec-a5da-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1541",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/c82f5157-3ce4-11ec-a798-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1648664707.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "03-15-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1525",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1525&doc_id=0372263f-bd0d-11ec-a5da-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1525",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/58b895e8-3ced-11ec-a798-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1647385844.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1515",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1515&doc_id=df3711d0-a92c-11ec-8a90-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1515",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/c82d6f8a-3ce4-11ec-a798-0050569183fa-22281fb4-3d6f-4a25-a9e9-c3f98bb729da-1646174373.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "02-15-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1506",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1506&doc_id=da458fe6-9a53-11ec-972b-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1506",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/58b21a07-3ced-11ec-a798-0050569183fa-22281fb4-3d6f-4a25-a9e9-c3f98bb729da-1644972320.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1504",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1504&doc_id=bd63a1bb-9a53-11ec-972b-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1504",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1496",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1496&doc_id=5013cb36-9428-11ec-972b-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1496",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/c2812da6-7e1a-11ec-b1e1-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1643938907.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1493",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1493&doc_id=30f33f45-9428-11ec-972b-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1493",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/c82a886c-3ce4-11ec-a798-0050569183fa-22281fb4-3d6f-4a25-a9e9-c3f98bb729da-1643754737.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": true,
+    "name": "City Council Cancellation Notice",
+    "date": "01-18-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1498",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1498",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "01-11-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1463",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1463&doc_id=37ea7211-8542-11ec-972b-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1463",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/0be55fa0-209b-11ec-9f1e-0050569183fa-22281fb4-3d6f-4a25-a9e9-c3f98bb729da-1641941104.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": true,
+    "name": "City Council Cancellation Notice",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1471",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1471",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting - Closed Session",
+    "date": "12-21-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1438",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1438",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "12-21-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1435",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1435",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a2d6586a-0d77-11eb-80dd-0050569183fa-22281fb4-3d6f-4a25-a9e9-c3f98bb729da-1640128043.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1381",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1381&doc_id=a699bc68-637d-11ec-85e3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1381",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a2d2609a-0d77-11eb-80dd-0050569183fa--1638925553.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "11-16-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1364",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1364&doc_id=a20b60e8-584e-11ec-85e3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1364",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a2cd6096-0d77-11eb-80dd-0050569183fa-22281fb4-3d6f-4a25-a9e9-c3f98bb729da-1637109952.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1348",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1348&doc_id=e3cea444-47d7-11ec-a798-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1348",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/4dcbb4bc-2bb4-11ec-88a7-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1635898659.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1347",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1347&doc_id=f3187754-47d7-11ec-a798-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1347",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a2c89a9f-0d77-11eb-80dd-0050569183fa-22281fb4-3d6f-4a25-a9e9-c3f98bb729da-1635888858.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": "10-19-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1337",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1337&doc_id=ad9601da-47d7-11ec-a798-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1337",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/9708f395-2317-11ec-9f1e-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1634239243.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "10-19-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1336",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1336&doc_id=f25e3dea-4961-11ec-a798-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1336",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a2c45454-0d77-11eb-80dd-0050569183fa-22281fb4-3d6f-4a25-a9e9-c3f98bb729da-1634676802.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1330",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1330&doc_id=319c0cb7-428b-11ec-a798-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1330",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a2c00845-0d77-11eb-80dd-0050569183fa-22281fb4-3d6f-4a25-a9e9-c3f98bb729da-1633469211.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "09-21-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1315",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1315&doc_id=fb0d7b8c-26c3-11ec-88a7-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1315",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a2bb63ce-0d77-11eb-80dd-0050569183fa-22281fb4-3d6f-4a25-a9e9-c3f98bb729da-1632260016.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1293",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1293&doc_id=5364dbd6-26c3-11ec-88a7-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1293",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a2b4d134-0d77-11eb-80dd-0050569183fa-22281fb4-3d6f-4a25-a9e9-c3f98bb729da-1631049590.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "08-17-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=232",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=232&doc_id=6e34738f-10d1-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=232",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a2b0f1ad-0d77-11eb-80dd-0050569183fa-22281fb4-3d6f-4a25-a9e9-c3f98bb729da-1629236213.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": true,
+    "name": "City Council Cancellation Notice",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=190",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=190",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "07-20-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=183",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=183&doc_id=fdedb00e-11a3-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=183",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a2a28322-0d77-11eb-80dd-0050569183fa-22281fb4-3d6f-4a25-a9e9-c3f98bb729da-1626818860.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": true,
+    "name": "City Council Cancellation Notice",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=192",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=192",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": "06-29-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=169",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=169&doc_id=626e02ba-eb0d-11eb-b92a-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=169",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "06-15-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=154",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=154&doc_id=3cd0acf3-eb0d-11eb-b92a-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=154",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a2974f3c-0d77-11eb-80dd-0050569183fa-22281fb4-3d6f-4a25-a9e9-c3f98bb729da-1623799201.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=140",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=140&doc_id=fd6f7f43-1a78-11ed-b1ab-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=140",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a2922ed5-0d77-11eb-80dd-0050569183fa-22281fb4-3d6f-4a25-a9e9-c3f98bb729da-1622592405.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": "05-25-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=130",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=130&doc_id=9ec0e6aa-d836-11eb-bd7e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=130",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": "05-18-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=123",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=123&doc_id=a9690845-c4ad-11eb-bd7e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=123",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "05-18-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=121",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=121&doc_id=d0c04c9d-c4ad-11eb-bd7e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=121",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a28e50ca-0d77-11eb-80dd-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1621438968.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=106",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=106&doc_id=27022742-b8c0-11eb-8549-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=106",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/81cedcc8-a135-11eb-8549-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1620159162.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=107",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=107&doc_id=4f52add5-b8c0-11eb-8549-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=107",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a2897aed-0d77-11eb-80dd-0050569183fa-22281fb4-3d6f-4a25-a9e9-c3f98bb729da-1620164829.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "04-20-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=97",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=97&doc_id=72397b01-b72b-11eb-8549-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=97",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a2833079-0d77-11eb-80dd-0050569183fa-22281fb4-3d6f-4a25-a9e9-c3f98bb729da-1618958811.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=84",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=84&doc_id=621d621f-a3c2-11eb-8549-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=84",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a27f34a1-0d77-11eb-80dd-0050569183fa-22281fb4-3d6f-4a25-a9e9-c3f98bb729da-1617743086.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": "03-19-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=69",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=69&doc_id=ebaa7c2a-97f6-11eb-8549-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=69",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "03-16-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=60",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=60&doc_id=08ede64e-97f7-11eb-8549-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=60",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a276ecf4-0d77-11eb-80dd-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1615937673.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=52",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=52&doc_id=ed9bba03-874c-11eb-96cb-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=52",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a26de887-0d77-11eb-80dd-0050569183fa-22281fb4-3d6f-4a25-a9e9-c3f98bb729da-1614724905.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "02-16-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=45",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=45&doc_id=30b37ff0-7c5e-11eb-96cb-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=45",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a261b592-0d77-11eb-80dd-0050569183fa-22281fb4-3d6f-4a25-a9e9-c3f98bb729da-1613519518.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=30",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=30&doc_id=1734e7ef-7176-11eb-920e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=30",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a25810ca-0d77-11eb-80dd-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1612311247.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": "01-25-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=34",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=34&doc_id=044fbeb8-7175-11eb-920e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=34",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": true,
+    "name": "City Council Cancellation Notice",
+    "date": "01-19-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=40",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=40",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "01-12-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=24",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=24&doc_id=13d0d880-667a-11eb-920e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=24",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a2482477-0d77-11eb-80dd-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1611770891.pdf"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "12-15-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1421",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1421&doc_id=0dc43c79-5f56-11ec-85e3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1421",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1423",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1423&doc_id=230b8540-5f5d-11ec-85e3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1423",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": "11-23-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1424",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1424&doc_id=86cdb9fc-5f69-11ec-85e3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1424",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": "11-17-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1425",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1425&doc_id=7b160d32-61c1-11ec-85e3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1425",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1427",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1427&doc_id=2cbf53dd-61f1-11ec-85e3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1427",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "10-20-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1428",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1428&doc_id=8643b9ab-627b-11ec-85e3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1428",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1431",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1431&doc_id=70550109-684d-11ec-85e3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1431",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "09-15-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1432",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1432&doc_id=426a550b-684e-11ec-85e3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1432",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1433",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1433&doc_id=2a90c3fc-6d88-11ec-85e3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1433",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "08-18-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1434",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1434&doc_id=f756142e-6d8a-11ec-85e3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1434",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "07-21-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1437",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1437&doc_id=bb974602-6e9c-11ec-85e3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1437",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Adjourned Regular Meeting",
+    "date": "06-22-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1439",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1439&doc_id=f4196ea0-638d-11ec-85e3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1439",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "06-16-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1441",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1441&doc_id=ca5e8872-6f40-11ec-85e3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1441",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Adjourned Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1455",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1455&doc_id=28598bbe-74a9-11ec-b1e1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1455",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1459",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1459&doc_id=9de01539-7750-11ec-b1e1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1459",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "05-19-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1460",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1460&doc_id=3632bfd3-7752-11ec-b1e1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1460",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1461",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1461&doc_id=69292aff-7755-11ec-b1e1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1461",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "04-21-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1462",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1462&doc_id=785d2b2e-7756-11ec-b1e1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1462",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1468",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1468&doc_id=206693fe-7899-11ec-b1e1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1468",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "Emergency City Council Meeting",
+    "date": "03-18-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1478",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1478&doc_id=8381f2e6-7974-11ec-b1e1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1478",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": true,
+    "name": "City Council - Cancellation Notice",
+    "date": "03-17-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1481",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1481",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1482",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1482&doc_id=18734b5a-7978-11ec-b1e1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1482",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1483",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1483&doc_id=6a9fd28d-7978-11ec-b1e1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1483",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1469",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1469&doc_id=6bdb814b-797c-11ec-b1e1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1469",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "02-18-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1473",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1473&doc_id=1f371f0a-797f-11ec-b1e1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1473",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1474",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1474&doc_id=9f5f5d24-7987-11ec-b1e1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1474",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "01-14-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1480",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1480&doc_id=3a706f9d-7a3e-11ec-b1e1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1480",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Dublin Financing Authority",
+    "cancelled": false,
+    "name": "Dublin Financing Authority",
+    "date": "09-21-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1319",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1319",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/af5beb48-1750-11ec-9f1e-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1632242890.pdf"
+  },
+  {
+    "organizor": "Geologic Hazard Abatement District",
+    "cancelled": false,
+    "name": "Fallon Village Geologic Hazard Abatement District",
+    "date": "06-20-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1870",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1870",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a8d27192-0ada-11ee-95dd-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1686837778.pdf"
+  },
+  {
+    "organizor": "Geologic Hazard Abatement District",
+    "cancelled": false,
+    "name": "Geologic Hazard Abatement District",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1851",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1851",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/1b41f476-f414-11ed-95dd-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1685588554.pdf"
+  },
+  {
+    "organizor": "Geologic Hazard Abatement District",
+    "cancelled": false,
+    "name": "Geologic Hazard Abatement District",
+    "date": "05-16-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1840",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1840",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/67607f5b-863b-11ed-9024-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1683845678.pdf"
+  },
+  {
+    "organizor": "Geologic Hazard Abatement District",
+    "cancelled": false,
+    "name": "Geologic Hazard Abatement District",
+    "date": "03-21-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1798",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1798&doc_id=282ace38-ffd7-11ed-95dd-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1798",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a9d9ae94-863a-11ed-9024-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1679438294.pdf"
+  },
+  {
+    "organizor": "Geologic Hazard Abatement District",
+    "cancelled": false,
+    "name": "Geologic Hazard Abatement District",
+    "date": "02-21-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1763",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1763&doc_id=2733d554-f59f-11ed-95dd-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1763",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/f66f360c-8639-11ed-9024-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1676500355.pdf"
+  },
+  {
+    "organizor": "Geologic Hazard Abatement District",
+    "cancelled": false,
+    "name": "Geologic Hazard Abatement District",
+    "date": "01-10-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1741",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1741&doc_id=c9197bd7-c43c-11ed-acbc-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1741",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3cf17b30-70e5-11ed-9024-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1672880476.pdf"
+  },
+  {
+    "organizor": "Geologic Hazard Abatement District",
+    "cancelled": false,
+    "name": "Geologic Hazard Abatement District",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1590",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1590&doc_id=a80d3e5d-9e71-11ed-96ab-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1590",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/e3cdf985-b50d-11ec-a5da-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1654129345.pdf"
+  },
+  {
+    "organizor": "Geologic Hazard Abatement District",
+    "cancelled": false,
+    "name": "Geologic Hazard Abatement District",
+    "date": "03-15-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1527",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1527&doc_id=1cb757d6-f1aa-11ec-9ad4-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1527",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/651fa3af-740c-11ec-b1e1-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1647379853.pdf"
+  },
+  {
+    "organizor": "Geologic Hazard Abatement District",
+    "cancelled": false,
+    "name": "Joint Geologic Hazard Abatement District Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=142",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=142",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/e1a0f4e2-5b81-11eb-920e-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1622071058.pdf"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1856",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1856",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/dc832e26-5f04-11ed-95a3-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1685648657.pdf"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission",
+    "date": "05-11-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1832",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1832&doc_id=164897f7-0baa-11ee-95dd-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1832",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/dc81af22-5f04-11ed-95a3-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1683574319.pdf"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1778",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1778&doc_id=26ec01ac-f357-11ed-95dd-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1778",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/dc7d96ab-5f04-11ed-95a3-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1678119491.pdf"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission",
+    "date": "01-12-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1744",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1744&doc_id=6da53d40-c1c1-11ed-acbc-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1744",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/dc783f5d-5f04-11ed-95a3-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1673052163.pdf"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1718",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1718",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/2fc0bd19-61b3-11ec-85e3-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1670265092.pdf"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission",
+    "date": "11-10-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1701",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1701&doc_id=7e06d56a-645c-11ed-95a3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1701",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/2fbf16aa-61b3-11ec-85e3-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1667842592.pdf"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission",
+    "date": "10-13-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1680",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1680&doc_id=fa8983c3-4fd7-11ed-95a3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1680",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/2fbd9656-61b3-11ec-85e3-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1666197476.pdf"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": true,
+    "name": "Heritage and Cultural Arts Commission Cancellation Notice",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1649",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1649",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission",
+    "date": "08-11-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1634",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1634&doc_id=10b9784d-4fd8-11ed-95a3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1634",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/2fb9cd89-61b3-11ec-85e3-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1660081763.pdf"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission",
+    "date": "07-14-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1612",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1612&doc_id=ca5729cd-390f-11ed-8da8-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1612",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/2fb86840-61b3-11ec-85e3-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1657583660.pdf"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": true,
+    "name": "Heritage and Cultural Arts Commission Cancellation Notice",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1597",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1597",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission",
+    "date": "05-12-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1573",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1573&doc_id=eb678da6-390f-11ed-8da8-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1573",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/2fb553d0-61b3-11ec-85e3-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1652139105.pdf"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission",
+    "date": "04-14-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1548",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1548&doc_id=1e231f91-f199-11ec-9ad4-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1548",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/2fb3ad15-61b3-11ec-85e3-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1649699415.pdf"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission",
+    "date": "03-10-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1523",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1523&doc_id=b692c806-bd0f-11ec-a5da-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1523",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/2fb21d61-61b3-11ec-85e3-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1646699655.pdf"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission",
+    "date": "02-10-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1503",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1503&doc_id=92aed154-a95d-11ec-8a90-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1503",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/2fb09581-61b3-11ec-85e3-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1644278788.pdf"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission",
+    "date": "01-13-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1470",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1470&doc_id=600206a6-a95d-11ec-8a90-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1470",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/2fae02f6-61b3-11ec-85e3-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1642096675.pdf"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1392",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1392&doc_id=fbe07040-795a-11ec-b1e1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1392",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/f3257e2b-713e-11eb-920e-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1638843032.pdf"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission Special Meeting",
+    "date": "11-10-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1353",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1353&doc_id=27cfc500-795b-11ec-b1e1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1353",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/19a95d41-1fe3-11ec-9f1e-0050569183fa-5da36f24-a0e4-4bae-aef6-f71f177bd6ce-1635980040.pdf"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": true,
+    "name": "Heritage and Cultural Arts Commission Cancellation Notice",
+    "date": "10-14-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1386",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1386",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1296",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1296&doc_id=6525011f-795b-11ec-b1e1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1296",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/f316d0c8-713e-11eb-920e-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1630629140.pdf"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission Regular Meeting",
+    "date": "08-12-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=230",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=230&doc_id=3819cf21-1d5f-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=230",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/f311d508-713e-11eb-920e-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1628544915.pdf"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=174",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=174&doc_id=97afae6a-795b-11ec-b1e1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=174",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/f30cfa1b-713e-11eb-920e-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1625270718.pdf"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": true,
+    "name": "Heritage and Cultural Arts Commission Cancellation Notice",
+    "date": "06-10-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=178",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=178",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission Regular Meeting",
+    "date": "05-13-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=118",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=118&doc_id=ed8e1f33-795b-11ec-b1e1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=118",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/f303c336-713e-11eb-920e-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1620416936.pdf"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": true,
+    "name": "Heritage and Cultural Arts Commission Cancellation Notice",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=117",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=117",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission Regular Meeting",
+    "date": "03-11-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1351",
+    "minutes": "https://dublin.granicus.com/services/minutes/reports/ba4d93e9-3c7b-42b0-b8bf-bcbcab5e1295/attachment",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1351",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/4bcf937b-6689-11eb-920e-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1615248342.pdf"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission Regular Meeting",
+    "date": "02-11-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1275",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1275&doc_id=b192f9c7-5c52-11ec-85e3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1275",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": true,
+    "name": "Heritage and Cultural Arts Commission Cancellation Notice",
+    "date": "01-14-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1274",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1274",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission - Regular Meeting",
+    "date": "12-10-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1267",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1267&doc_id=7dc6cd61-077d-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1267",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": true,
+    "name": "Heritage and Cultural Arts Commission - Cancelled",
+    "date": "11-12-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1266",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1266",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1265",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1265&doc_id=65345d12-0685-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1265",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission Regular Meeting",
+    "date": "09-10-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1264",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1264&doc_id=638a81ae-0685-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1264",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": true,
+    "name": "Heritage and Cultural Arts Commission Cancellation Notice",
+    "date": "08-13-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1263",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1263",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": true,
+    "name": "Heritage and Cultural Arts Commission Cancellation Notice",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=909",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=909",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission Regular Meeting",
+    "date": "06-11-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1240",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1240&doc_id=406592d5-0685-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1240",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission Regular Meeting",
+    "date": "05-14-2020",
+    "agenda": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1239&doc_id=641a59c4-077d-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1239",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission Regular Meeting",
+    "date": "03-12-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1226",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1226",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission Regular Meeting",
+    "date": "02-13-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=905",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=905&doc_id=b3c12500-077b-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=905",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=901",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=901&doc_id=4a62abc1-077b-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=901",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission Special Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1815",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1815",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/8534a8b2-cd82-11ed-95dd-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1680795656.pdf"
+  },
+  {
+    "organizor": "Human Services Commission",
+    "cancelled": true,
+    "name": "Human Services Commission Special Meeting Cancellation Notice",
+    "date": "03-23-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1806",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1806",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Human Services Commission",
+    "cancelled": true,
+    "name": "Human Services Commission Cancellation Notice",
+    "date": "03-23-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1805",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1805",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission",
+    "date": "01-26-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1770",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1770&doc_id=f4dbd95d-dae9-11ed-95dd-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1770",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/8b9e544b-863f-11ed-9024-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1674519279.pdf"
+  },
+  {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission",
+    "date": "11-17-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1708",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1708&doc_id=f5196c32-a809-11ed-8145-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1708",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3843b664-6dae-11ec-85e3-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1668115384.pdf"
+  },
+  {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission Special Meeting",
+    "date": "07-28-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1625",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1625&doc_id=82c63bdd-80c8-11ed-9024-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1625",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/5e3b9e3e-0874-11ed-baa3-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1658872488.pdf"
+  },
+  {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission",
+    "date": "03-24-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1538",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1538&doc_id=6959fb0f-4369-11ed-95a3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1538",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/87be5450-3c36-11ec-a798-0050569183fa-5da36f24-a0e4-4bae-aef6-f71f177bd6ce-1647904212.pdf"
+  },
+  {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission",
+    "date": "01-27-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1490",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1490&doc_id=82bfc2b1-440a-11ed-95a3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1490",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/71f558a1-3c36-11ec-a798-0050569183fa-5da36f24-a0e4-4bae-aef6-f71f177bd6ce-1643068926.pdf"
+  },
+  {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission",
+    "date": "11-18-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1369",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1369&doc_id=8cba0b50-839a-11ec-972b-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1369",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/7f5dd634-ae9b-11eb-8549-0050569183fa-5da36f24-a0e4-4bae-aef6-f71f177bd6ce-1637166583.pdf"
+  },
+  {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission",
+    "date": "05-20-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=129",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=129&doc_id=b39e911c-73d7-11ec-b1e1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=129",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a5edd209-a7aa-11eb-8549-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1621285727.pdf"
+  },
+  {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission",
+    "date": "03-25-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=76",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=76&doc_id=610c19bd-839a-11ec-972b-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=76",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/16b6db6a-6c93-11eb-920e-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1616458998.pdf"
+  },
+  {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission",
+    "date": "01-28-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1273",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1273&doc_id=44d8ac58-839a-11ec-972b-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1273",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission",
+    "date": "11-19-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1245",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1245&doc_id=4703ecc8-0685-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1245",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Human Services Commission",
+    "cancelled": true,
+    "name": "Human Services Commission - Cancellation Notice",
+    "date": "07-23-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1244",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1244",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission - Special Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1250",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1250&doc_id=4ef9daa4-0685-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1250",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Human Services Commission",
+    "cancelled": true,
+    "name": "Human Services Commission Cancelled",
+    "date": "03-26-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1243",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1243",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "06-19-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1864",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1864",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/294c63f4-5f04-11ed-95a3-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1686862998.pdf"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "05-15-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1833",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1833&doc_id=8227cd55-2106-11ee-b4fc-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1833",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/9f039f66-5f03-11ed-95a3-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1683733687.pdf"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "04-17-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1822",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1822&doc_id=a34b47fc-2106-11ee-b4fc-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1822",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/9f00f8a6-5f03-11ed-95a3-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1681322962.pdf"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "03-20-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1790",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1790&doc_id=39ba6589-e39a-11ed-95dd-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1790",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/9efb6cf0-5f03-11ed-95a3-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1679008940.pdf"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission Special Meeting",
+    "date": "02-27-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1771",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1771&doc_id=514a22f5-cf4d-11ed-95dd-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1771",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/7d3d4b4d-8c70-11ed-9024-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1677196071.pdf"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": true,
+    "name": "Parks and Community Services Commission Cancellation Notice",
+    "date": "01-16-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1760",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1760",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "12-19-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1722",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1722&doc_id=4ac8456d-b7c3-11ed-acbc-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1722",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/20d67f74-5c74-11ec-85e3-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1671228914.pdf"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": true,
+    "name": "Parks and Community Services Commission Cancellation Notice",
+    "date": "11-21-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1728",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1728",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "10-17-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1676",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1676&doc_id=bac3a6e0-86fa-11ed-9024-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1676",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/20d25541-5c74-11ec-85e3-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1665792683.pdf"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "09-19-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1647",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1647&doc_id=4ce2fa40-4fd8-11ed-95a3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1647",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/20d043a7-5c74-11ec-85e3-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1663370050.pdf"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "08-15-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1633",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1633&doc_id=6d5ff511-38fd-11ed-8da8-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1633",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/20ce2b9f-5c74-11ec-85e3-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1660608504.pdf"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": true,
+    "name": "Parks and Community Services Commission Cancellation Notice",
+    "date": "07-18-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1623",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1623",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": true,
+    "name": "Parks and Community Services Commission Cancellation Notice",
+    "date": "06-20-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1599",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1599",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "05-16-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1574",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1574&doc_id=6c3e6850-3610-11ed-8da8-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1574",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/20c74059-5c74-11ec-85e3-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1652401194.pdf"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "04-18-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1551",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1551&doc_id=b20b54cc-f3ee-11ec-9ad4-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1551",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/20c4eacb-5c74-11ec-85e3-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1650066582.pdf"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "03-21-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1530",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1530&doc_id=60d898b1-c67c-11ec-a5da-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1530",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/20c23d03-5c74-11ec-85e3-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1647648539.pdf"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "02-28-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1514",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1514&doc_id=03112238-a9ff-11ec-8a90-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1514",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/20bf9b80-5c74-11ec-85e3-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1645845278.pdf"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "01-24-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1484",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1484&doc_id=7844023b-a95b-11ec-8a90-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1484",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/20bbc423-5c74-11ec-85e3-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1643060177.pdf"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "12-20-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1429",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1429&doc_id=374e7671-a95b-11ec-8a90-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1429",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/43fa35a8-a13b-11eb-8549-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1639707145.pdf"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "11-15-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1361",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1361&doc_id=ec46d248-7961-11ec-b1e1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1361",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/43f76c2f-a13b-11eb-8549-0050569183fa-5da36f24-a0e4-4bae-aef6-f71f177bd6ce-1636575569.pdf"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": true,
+    "name": "Parks and Community Services Commission Cancelled",
+    "date": "10-18-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1387",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1387",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "09-20-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1309",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1309&doc_id=a52782a1-7961-11ec-b1e1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1309",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/43f35e3c-a13b-11eb-8549-0050569183fa-5da36f24-a0e4-4bae-aef6-f71f177bd6ce-1631918010.pdf"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": true,
+    "name": "Parks and Community Services Commission Cancelled",
+    "date": "08-16-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1379",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1379",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "07-19-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=181",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=181&doc_id=5faf1327-7961-11ec-b1e1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=181",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/43ef4984-a13b-11eb-8549-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1626463128.pdf"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=148",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=148&doc_id=1fe7033d-5c52-11ec-85e3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=148",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/eb601dde-b73f-11eb-8549-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1622841090.pdf"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": true,
+    "name": "Parks and Community Services Commission Cancelled",
+    "date": "05-17-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=128",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=128",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "04-19-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=92",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=92&doc_id=94293f6a-795f-11ec-b1e1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=92",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/4d3d10b0-9276-11eb-8549-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1618857219.pdf"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": true,
+    "name": "Parks and Community Services Commission Cancellation Notice",
+    "date": "03-15-2021",
+    "agenda": "",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1276",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": true,
+    "name": "Parks and Community Services Commission Cancellation Notice",
+    "date": "02-22-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1278",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1278",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission Special Meeting",
+    "date": "01-25-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1277",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1277&doc_id=c59f6c50-5161-11ec-a798-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1277",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "12-21-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1260",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1260&doc_id=5e46fca7-0685-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1260",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": true,
+    "name": "Parks and Community Services Commission Cancellation Notice",
+    "date": "11-16-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1259",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1259",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "10-19-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1258",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1258&doc_id=5abebb49-0685-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1258",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "09-21-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1257",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1257&doc_id=58b5c0e5-0685-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1257",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": true,
+    "name": "Parks and Community Services Commission Cancellation Notice",
+    "date": "08-17-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1256",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1256",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": true,
+    "name": "Parks and Community Services Commission Cancellation Notice",
+    "date": "07-20-2020",
+    "agenda": "",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1255",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission Special Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1252",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1252&doc_id=52700338-0685-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1252",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": true,
+    "name": "Parks and Community Services Commission Cancelled",
+    "date": "05-18-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1234",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1234",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": true,
+    "name": "Parks and Community Services Commission Cancelled",
+    "date": "03-16-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1233",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1233",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission Special Meeting",
+    "date": "02-24-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1218",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1218&doc_id=96c71bfd-077c-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1218",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission Special Meeting",
+    "date": "01-27-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=903",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=903&doc_id=01b51419-061e-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=903",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": true,
+    "name": "Parks Community Services Commission Cancelled",
+    "date": "01-20-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1232",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1232",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "07-25-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1894",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1894",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/9a3ebd0b-6f63-11ed-9024-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1689802056.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "07-11-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1885",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1885",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/6f42c347-6f63-11ed-9024-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1688596522.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "06-27-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1876",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1876",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "06-13-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1857",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1857",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "05-23-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1844",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1844&doc_id=63765e47-2b07-11ee-b4fc-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1844",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/9a3a358c-6f63-11ed-9024-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1684859800.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1829",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1829",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "04-25-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1823",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1823",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "04-11-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1816",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1816",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "03-28-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1810",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1810",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "03-14-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1785",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1785&doc_id=c0362d67-03b9-11ee-95dd-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1785",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/6f39ddf0-6f63-11ed-9024-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1678231801.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "02-28-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1774",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1774",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "02-14-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1756",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1756&doc_id=098afde1-c997-11ed-acbc-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1756",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/6f380e97-6f63-11ed-9024-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1675880587.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "01-24-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1746",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1746",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "01-10-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1742",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1742",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "12-27-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1730",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1730",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "12-13-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1719",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1719&doc_id=71ed1d48-ae53-11ed-8145-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1719",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/7c1520af-6db0-11ec-85e3-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1670285170.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "11-22-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1713",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1713",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1699",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1699&doc_id=df3c3f6a-7d64-11ed-9024-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1699",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/7c1307c2-6db0-11ec-85e3-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1667865603.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "10-25-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1682",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1682&doc_id=20eaf93d-6471-11ed-95a3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1682",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/b67a17f1-6db0-11ec-85e3-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1666307274.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "10-11-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1670",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1670",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "09-27-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1658",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1658&doc_id=0e32d5eb-5642-11ed-95a3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1658",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/b6785b6c-6db0-11ec-85e3-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1663794263.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "09-13-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1645",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1645",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "08-23-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1643",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1643",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1626",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1626",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "07-26-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1615",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1615&doc_id=900155f4-4341-11ed-95a3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1615",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/b674ba35-6db0-11ec-85e3-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1658273691.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "07-12-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1610",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1610",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "06-28-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1605",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1605&doc_id=3acb5e97-4341-11ed-95a3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1605",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/b672bfc3-6db0-11ec-85e3-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1655930134.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "06-14-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1594",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1594&doc_id=9680821e-0e91-11ed-baa3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1594",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/7c095322-6db0-11ec-85e3-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1654876686.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "05-10-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1571",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1571&doc_id=7489a1e8-f7d9-11ec-baa3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1571",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/7c07afa1-6db0-11ec-85e3-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1651703957.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "04-26-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1555",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1555&doc_id=ad093475-d570-11ec-bbb4-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1555",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/b66f12f2-6db0-11ec-85e3-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1651014493.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "04-12-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1545",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1545&doc_id=fb18a444-c704-11ec-a5da-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1545",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/7c05f30d-6db0-11ec-85e3-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1649198729.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "03-22-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1533",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1533",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1521",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1521&doc_id=3a03a213-bb58-11ec-a5da-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1521",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/7c04b16b-6db0-11ec-85e3-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1646346779.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "02-22-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1508",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1508&doc_id=ae0bfdc6-a00c-11ec-8a90-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1508",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/b66b28aa-6db0-11ec-85e3-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1645147898.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1500",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1500",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "01-25-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1485",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1485&doc_id=a65b4b89-9593-11ec-972b-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1485",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/391e7701-6e61-11ec-85e3-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1643157950.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "01-11-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1464",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1464",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "12-28-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1444",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1444",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "12-14-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1396",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1396&doc_id=eed85f28-9593-11ec-972b-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1396",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/b6c07fac-7153-11eb-920e-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1639525678.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "11-23-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1374",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1374&doc_id=06fd71ff-6d9c-11ec-85e3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1374",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/9d75036d-7233-11eb-920e-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1637697104.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1358",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1358&doc_id=5bace62d-5306-11ec-a798-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1358",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/b6bbf999-7153-11eb-920e-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1636070121.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "10-26-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1343",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1343&doc_id=00b5dfc6-473d-11ec-a798-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1343",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/9d6ee1b3-7233-11eb-920e-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1635293054.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "10-12-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1335",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1335",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "09-28-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1324",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1324",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "09-14-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1307",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1307&doc_id=7d6ac6ce-376e-11ec-88a7-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1307",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/b6afa310-7153-11eb-920e-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1631568113.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "08-10-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=217",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=217&doc_id=255c8cdf-1744-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=217",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/b6ab802d-7153-11eb-920e-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1628626999.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "07-27-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=188",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=188",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "07-13-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=176",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=176",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "06-22-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=161",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=161&doc_id=6671a617-fc54-11eb-81b1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=161",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/9d5b7ecb-7233-11eb-920e-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1623969259.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=150",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=150&doc_id=0a7aec66-d857-11eb-9c7a-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=150",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/b6a38a50-7153-11eb-920e-0050569183fa-be43954d-df83-4bcf-82d7-6d85e695a3dd-1622735679.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "05-25-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=133",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=133&doc_id=8fb2d84b-d856-11eb-9c7a-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=133",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/9d5736bd-7233-11eb-920e-0050569183fa-be43954d-df83-4bcf-82d7-6d85e695a3dd-1621472270.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "05-11-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=115",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=115",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "04-27-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=100",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=100",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "04-13-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=87",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=87",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "03-23-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=65",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=65",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=55",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=55&doc_id=8776e707-c940-11eb-bd7e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=55",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/e6abc3ee-6c91-11eb-920e-0050569183fa-be43954d-df83-4bcf-82d7-6d85e695a3dd-1614876687.pdf"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "02-23-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1272",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1272",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=913",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=913&doc_id=65dfb4b1-0621-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=913",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "01-12-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1271",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1271",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "12-22-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1262",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1262",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1261",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1261",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "11-24-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1254",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1254",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "11-10-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1253",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1253",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "10-27-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1251",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1251",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "10-13-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=912",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=912&doc_id=1416ca4c-0621-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=912",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "09-22-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1249",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1249",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=911",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=911&doc_id=b1ae431a-0620-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=911",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "08-25-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1248",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1248",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "08-11-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1247",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1247",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "07-28-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=910",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=910&doc_id=564c161d-0620-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=910",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "07-14-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1246",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1246",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "06-23-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1242",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1242",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1241",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1241",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "05-26-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=908",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=908&doc_id=25a4d34c-0620-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=908",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "05-12-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1238",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1238",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "04-14-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1237",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1237",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "03-24-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1236",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1236",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "03-10-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1235",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1235",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "02-25-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=907",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=907&doc_id=e3c4a539-061f-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=907",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "02-11-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=906",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=906&doc_id=312c4f87-061f-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=906",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "01-28-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=904",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=904&doc_id=a03ac460-061e-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=904",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "01-14-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1217",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1217",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1828",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1828",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/36d46625-9c13-11ed-96ab-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1682985495.pdf"
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1787",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1787&doc_id=d899f0c4-eeb7-11ed-95dd-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1787",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/0d79ff92-9c13-11ed-96ab-0050569183fa-6b462e6a-466e-4934-8a58-4ed897bf4ad2-1674781194.pdf"
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1854",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1854",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/52242eba-5924-11ec-85e3-0050569183fa-6b462e6a-466e-4934-8a58-4ed897bf4ad2-1669227670.pdf"
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": true,
+    "name": "Senior Center Advisory Committee Cancellation Notice",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1733",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1733",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/445d2f48-5924-11ec-85e3-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1667230666.pdf"
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1855",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1855",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3765fe5d-5924-11ec-85e3-0050569183fa-6b462e6a-466e-4934-8a58-4ed897bf4ad2-1664571749.pdf"
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1656",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1656",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/2762a2cb-5924-11ec-85e3-0050569183fa-6b462e6a-466e-4934-8a58-4ed897bf4ad2-1661789552.pdf"
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1620",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1620&doc_id=a672ef8c-3a03-11ed-8da8-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1620",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/1cbf9d8a-5924-11ec-85e3-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1659048176.pdf"
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": true,
+    "name": "Senior Center Advisory Committee - Cancelled",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1621",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1621",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": true,
+    "name": "Senior Center Advisory Committee - Cancelled",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1583",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1583",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1559",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1559&doc_id=ea4e90cc-3a04-11ed-8da8-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1559",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/f290c874-5923-11ec-85e3-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1651504870.pdf"
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1557",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1557&doc_id=400bbf92-c67f-11ec-a5da-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1557",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/df2309f8-5923-11ec-85e3-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1648851932.pdf"
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1563",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1563&doc_id=2e020e4a-c67e-11ec-a5da-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1563",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/b10ff24a-5923-11ec-85e3-0050569183fa-6b462e6a-466e-4934-8a58-4ed897bf4ad2-1646182004.pdf"
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1492",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1492&doc_id=6af29985-c67e-11ec-a5da-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1492",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/8d6d6ce6-5923-11ec-85e3-0050569183fa-6b462e6a-466e-4934-8a58-4ed897bf4ad2-1643414118.pdf"
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": true,
+    "name": "Senior Center Advisory Committee - Cancelled",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1426",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1426",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1378",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1378&doc_id=6dcecbde-56ea-11ec-85e3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1378",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/4c4ccfd6-940a-11eb-8549-0050569183fa-6b462e6a-466e-4934-8a58-4ed897bf4ad2-1638212627.pdf"
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": true,
+    "name": "Senior Center Advisory Committee Cancelled",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1363",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1363",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1332",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1332&doc_id=39f8f1d2-47c8-11ec-a798-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1332",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/4c4668c9-940a-11eb-8549-0050569183fa-333b0bc2-f23a-429e-987a-9c43d6c22575-1633127391.pdf"
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1285",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1285&doc_id=9901e411-473a-11ec-a798-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1285",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/4c43724c-940a-11eb-8549-0050569183fa-6b462e6a-466e-4934-8a58-4ed897bf4ad2-1630095919.pdf"
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=194",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=194&doc_id=cc5cc809-473a-11ec-a798-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=194",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/4c408a65-940a-11eb-8549-0050569183fa-cfcd212b-9c42-4d2c-9517-e4871c36d480-1627689354.pdf"
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": true,
+    "name": "Senior Center Advisory Committee Cancelled",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1384",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1384",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1422",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1422&doc_id=56bdb229-61de-11ec-85e3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1422",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/4c39b5a3-940a-11eb-8549-0050569183fa-cfcd212b-9c42-4d2c-9517-e4871c36d480-1622313536.pdf"
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=114",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=114&doc_id=dd2855a6-f62c-11eb-81b1-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=114",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/4c35e7a2-940a-11eb-8549-0050569183fa-bf2c6f2f-6a5f-4aa7-a665-6efde7d73e84-1621381655.pdf"
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=81",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=81&doc_id=1f2b02f3-473b-11ec-a798-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=81",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/fee573e4-6c93-11eb-920e-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1617035262.pdf"
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1445",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1445&doc_id=76ad8fe9-6e86-11ec-85e3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1445",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1279",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1279&doc_id=456c0b9e-473b-11ec-a798-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1279",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": true,
+    "name": "Senior Center Advisory Committee Cancelled",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1385",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1385",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1231",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1231&doc_id=258ae824-ef4d-11ed-95dd-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1231",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1400",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1400&doc_id=4f786b81-5dd1-11ec-85e3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1400",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": true,
+    "name": "Senior Center Advisory Committee Cancelled",
+    "date": null,
+    "agenda": "",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1402",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": true,
+    "name": "Senior Center Advisory Committee Cancelled",
+    "date": null,
+    "agenda": "",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1404",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": true,
+    "name": "Senior Center Advisory Committee Cancelled",
+    "date": null,
+    "agenda": "",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1411",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": true,
+    "name": "Senior Center Advisory Committee Cancelled",
+    "date": null,
+    "agenda": "",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1412",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": true,
+    "name": "Senior Center Advisory Committee Cancelled",
+    "date": null,
+    "agenda": "",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1413",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": true,
+    "name": "Senior Center Advisory Committee Cancelled",
+    "date": null,
+    "agenda": "",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1229",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1228",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1228&doc_id=21b493ee-0685-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1228",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee Special Meeting",
+    "date": "06-29-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1879",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1879",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/76e7bb6a-0b03-11ee-95dd-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1687389298.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": true,
+    "name": "Youth Advisory Committee Cancellation Notice",
+    "date": "06-28-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1878",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1878",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "05-24-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1847",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1847&doc_id=ecf4c11f-19b6-11ee-b4fc-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1847",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/9da1d3fb-ddef-11ec-9ad4-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1684518501.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "04-26-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1825",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1825&doc_id=c75898c3-fb46-11ed-95dd-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1825",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/881642b6-ddef-11ec-9ad4-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1682031111.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "03-22-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1804",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1804&doc_id=efeea513-e847-11ed-95dd-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1804",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/73e48922-ddef-11ec-9ad4-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1678982801.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "02-22-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1768",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1768&doc_id=f9ffe562-ccbb-11ed-95dd-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1768",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/566a8d77-ddef-11ec-9ad4-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1676493573.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "01-25-2023",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1749",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1749&doc_id=39aaa765-ccbc-11ed-95dd-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1749",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3ecbc994-ddef-11ec-9ad4-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1673998852.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee Special Meeting",
+    "date": "12-21-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1736",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1736&doc_id=e40c326e-abdd-11ed-8145-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1736",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/2aecedf8-ddef-11ec-9ad4-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1670369958.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee Special Meeting",
+    "date": "11-16-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1705",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1705&doc_id=c2b0939a-abdd-11ed-8145-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1705",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/184ff107-ddef-11ec-9ad4-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1668109208.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "10-26-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1697",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1697&doc_id=19581790-80c9-11ed-9024-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1697",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/037b0de0-ddef-11ec-9ad4-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1666133275.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "09-28-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1666",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1666&doc_id=ed5449f2-5ef8-11ed-95a3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1666",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/e5fc12a6-ddee-11ec-9ad4-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1663876037.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee Special Meeting",
+    "date": "08-24-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1653",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1653&doc_id=93fd5c06-4047-11ed-95a3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1653",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/cda2ce63-ddee-11ec-9ad4-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1661190243.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "05-25-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1581",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1581&doc_id=d9a91da5-4046-11ed-95a3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1581",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/eed637c3-d9e2-11eb-9c7a-0050569183fa-5da36f24-a0e4-4bae-aef6-f71f177bd6ce-1653078701.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "04-27-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1564",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1564&doc_id=1802deef-e38d-11ec-9ad4-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1564",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/eed3d186-d9e2-11eb-9c7a-0050569183fa-5da36f24-a0e4-4bae-aef6-f71f177bd6ce-1650663359.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "03-23-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1536",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1536&doc_id=fd1863fe-e38c-11ec-9ad4-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1536",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/eecfff24-d9e2-11eb-9c7a-0050569183fa-5da36f24-a0e4-4bae-aef6-f71f177bd6ce-1647623928.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "02-23-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1511",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1511&doc_id=aee122bc-c810-11ec-a5da-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1511",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/eecd4cfe-d9e2-11eb-9c7a-0050569183fa-5da36f24-a0e4-4bae-aef6-f71f177bd6ce-1645208844.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "01-26-2022",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1488",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1488&doc_id=750d279d-c7d0-11ec-a5da-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1488",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/eeca5c45-d9e2-11eb-9c7a-0050569183fa-5da36f24-a0e4-4bae-aef6-f71f177bd6ce-1642808020.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee - Special Meeting",
+    "date": "12-15-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1418",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1418&doc_id=229227f5-e37a-11ec-9ad4-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1418",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/0f0c5c6b-074f-11ec-9f1e-0050569183fa-5da36f24-a0e4-4bae-aef6-f71f177bd6ce-1639180391.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee - Special Meeting",
+    "date": "11-17-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1371",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1371&doc_id=d504831c-6283-11ec-85e3-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1371",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/cc257cb9-074e-11ec-9f1e-0050569183fa-5da36f24-a0e4-4bae-aef6-f71f177bd6ce-1636582546.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "10-27-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1345",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1345&doc_id=2edba6eb-516e-11ec-a798-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1345",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/eec0974d-d9e2-11eb-9c7a-0050569183fa-5da36f24-a0e4-4bae-aef6-f71f177bd6ce-1634839703.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "09-22-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1320",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1320&doc_id=e144d213-3813-11ec-88a7-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1320",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/eebd0891-d9e2-11eb-9c7a-0050569183fa-5da36f24-a0e4-4bae-aef6-f71f177bd6ce-1631917439.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "08-25-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=900",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=900&doc_id=c4c7393e-3813-11ec-88a7-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=900",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/eeb91a2a-d9e2-11eb-9c7a-0050569183fa-5da36f24-a0e4-4bae-aef6-f71f177bd6ce-1629503427.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "06-24-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=160",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=160&doc_id=6b91f4d2-1199-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=160",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/66fee38c-c307-11eb-bd7e-0050569183fa-5da36f24-a0e4-4bae-aef6-f71f177bd6ce-1624059035.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "05-26-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=135",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=135&doc_id=f35a767d-d92c-11eb-9c7a-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=135",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/33fe0ea8-a483-11eb-8549-0050569183fa-5da36f24-a0e4-4bae-aef6-f71f177bd6ce-1621631740.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "04-28-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=105",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=105&doc_id=c7362dbf-bfc6-11eb-8549-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=105",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/0b0366f2-9273-11eb-8549-0050569183fa-5da36f24-a0e4-4bae-aef6-f71f177bd6ce-1619215953.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "03-24-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=66",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=66&doc_id=28c3b86b-a9ff-11eb-8549-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=66",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/ada7268a-6c92-11eb-920e-0050569183fa-5da36f24-a0e4-4bae-aef6-f71f177bd6ce-1616193162.pdf"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "02-24-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1282",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1282&doc_id=7def36d8-0685-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1282",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "01-27-2021",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1281",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1281&doc_id=7c684195-0685-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1281",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": true,
+    "name": "Youth Advisory Committee - Cancelled",
+    "date": "12-23-2020",
+    "agenda": "",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1225",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee - Special Meeting",
+    "date": null,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1270",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1270&doc_id=6ce41ef4-0685-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1270",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": true,
+    "name": "Youth Advisory Committee - Cancelled",
+    "date": "11-25-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1269",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1269",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee - Special Meeting",
+    "date": "11-18-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1224",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1224&doc_id=45425aac-077d-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1224",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "10-28-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1223",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1223&doc_id=2b0b24d2-077d-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1223",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "09-23-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1222",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1222&doc_id=0ebfb046-077d-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1222",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee Special Meeting",
+    "date": "07-31-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1268",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1268&doc_id=a4786274-077d-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1268",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "05-27-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1221",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1221&doc_id=f15fe68e-077c-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1221",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "02-26-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1220",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1220&doc_id=cf8f3d70-077c-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1220",
+    "agendaPacket": ""
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "01-22-2020",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1219",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1219&doc_id=b3fbf339-077c-11ec-9f1e-0050569183fa",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1219",
+    "agendaPacket": ""
+  }
+]

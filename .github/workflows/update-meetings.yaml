@@ -1,4 +1,4 @@
-name: snapshot and generate JSON (developments)
+name: snapshot and generate JSON (meetings)
 
 on:
   push:
@@ -11,7 +11,7 @@ jobs:
   snapshot-json:
     permissions:
       contents: write
-    name: snapshot&json(developments)
+    name: snapshot&json(meetings)
     runs-on: ubuntu-latest
     steps:
       - name: use node 17
@@ -33,10 +33,9 @@ jobs:
         run: npm install
 
       - name: take a snapshot&json
-        working-directory: ./worker/developments
+        working-directory: ./worker/meetings
         run: |
           node pipelines/generate-snapshot.js
-          node pipelines/generate-datekeys.js
           node pipelines/generate-json.js
 
       - name: check for modified files
