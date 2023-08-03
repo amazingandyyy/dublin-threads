@@ -53,5 +53,31 @@
     },
     "projectId": "projectdetail1656",
     "timestamp": "1684710307000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Crystal De Castro - Senior Planner",
+    "oldVal": "Amy Million - Principal Planner",
+    "projectId": "projectdetail1656",
+    "timestamp": "1691089200000"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "crystal.decastro@dublin.ca.gov",
+    "oldVal": "amy.million@dublin.ca.gov",
+    "projectId": "projectdetail1656",
+    "timestamp": "1691089200000"
   }
 ]
