@@ -1,7 +1,6 @@
 import Image from './image'
 const rootUrl = 'https://raw.githubusercontent.com/amazingandyyy/dublin-threads/main/docs'
 
-
 const fetchApi = (path) => {
   return fetch(`${rootUrl}${path}`)
 }

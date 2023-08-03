@@ -17,6 +17,11 @@ export default function GlobalHeader () {
         Threads
       </div>
       </Link>
+      {/* <Link href='/stats'> */}
+      {/*  <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'> */}
+      {/*    Stats */}
+      {/*  </div> */}
+      {/* </Link> */}
       <Link href='/map'>
       <div className='flex px-2 pr-4 md:px-4 font-semibold text-green-950 hover:text-green-500'>
         Map
