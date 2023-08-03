@@ -36,7 +36,7 @@ export default function Threads ({ params, searchParams }) {
             {locations.map((location) => (<Link href={`/project/${location.id}`} key={location.id}>
               <Marker longitude={location?.geolocation?.lon} latitude={location?.geolocation?.lat}>
               <PinMarker iconName={location?.geolocation?.iconName || 'dot'} data={location} />
-              <div className={`inline-block translate-y-3 opacity-${Math.floor(zoom / 14) * 100} text-center`}>{location?.title}</div>
+              <div className={`inline-block translate-y-4 font-bold opacity-${Math.floor(zoom / 15) * 100} text-center`}>{location?.title}</div>
               </Marker>
             </Link>))}
 

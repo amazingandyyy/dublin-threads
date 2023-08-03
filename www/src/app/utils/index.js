@@ -1,6 +1,6 @@
 import Image from './image'
-const rootUrl = 'https://raw.githubusercontent.com/amazingandyyy/dublin/main/docs'
-const developmentApiUrl = '/api/v2/developments/'
+const rootUrl = 'https://raw.githubusercontent.com/amazingandyyy/dublin-threads/main/docs'
+
 
 const fetchApi = (path) => {
   return fetch(`${rootUrl}${path}`)
@@ -11,8 +11,14 @@ const useArchivedSource = (url) => {
   // raw.githubusercontent.com/amazingandyyy/dublin-threads/main/docs/web-archive/wp-content/
   return url?.replace('dublin-development.icitywork.com/wp-content/', 'amazingandyyy.com/dublin-threads/web-archive/wp-content/') || url
 }
+
+const fetchMeetings = (path) => {
+  const meetingsApiUrl = '/api/v2/meetings/'
+  return fetchApi(`${meetingsApiUrl}${path}`)
+}
 const fetchDevelopments = (path) => {
-  return fetchApi(`${developmentApiUrl}${path}`)
+  const developmentsApiUrl = '/api/v2/developments/'
+  return fetchApi(`${developmentsApiUrl}${path}`)
 }
 
 function timeSince (date) {
@@ -40,4 +46,4 @@ function timeSince (date) {
   return Math.floor(seconds) + ' seconds'
 }
 
-export { fetchDevelopments, timeSince, Image, useArchivedSource }
+export { fetchMeetings, fetchDevelopments, timeSince, Image, useArchivedSource }
