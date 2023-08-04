@@ -8,6 +8,7 @@ import Script from 'next/script'
 import Hotjar from '@hotjar/browser'
 import './globals.scss'
 const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_ID
+const CRISP_WEBSITE_ID = process.env.NEXT_PUBLIC_CRISP_WEBSITE_ID
 export default function RootLayout ({ children }) {
   useEffect(() => {
     Hotjar.init(3595523, 6)
@@ -35,6 +36,12 @@ export default function RootLayout ({ children }) {
             gtag('config', '${GA_TRACKING_ID}');
           `
         }} />
+        <Script strategy="afterInteractive" id="crisp-1" dangerouslySetInnerHTML={{
+          __html: `
+            window.$crisp=[];window.CRISP_WEBSITE_ID="${CRISP_WEBSITE_ID}";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+          `
+        }} />
+
       <Head>
         {/* Google tag (gtag.js) */}
         <meta property="og:title" content="dublin threads" />
