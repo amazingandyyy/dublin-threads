@@ -9,7 +9,7 @@ export default function Threads () {
   return (
     <>
       <GlobalHeader />
-      <main className="pt-16 bg-bg-[#F3F2EE] h-screen">
+      <main className="pt-16 h-full bg-[#F3F2EE]">
         <div className='flex flex-col items-center text-center text-gray-600 p-4 pt-16'>
           {/* <Image */}
           {/*  src="/logos/dublin-threads-app-logo-light.svg" */}

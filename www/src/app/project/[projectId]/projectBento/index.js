@@ -118,8 +118,9 @@ export default function ProjectBento ({ projectId }) {
   }
 
   const RenderThreads = ({ project }) => {
-    // return (<Threads thread={project.threads.slice(0,4)} />)
-    return (<Threads thread={project.threads.slice(0)} />)
+    return (<div className='w-full md:max-w-[800px] m-auto'>
+      <Threads thread={project.threads.slice(0)} />
+    </div>)
   }
   const renderImages = (images) => {
     if (images?.length === 0) {
@@ -275,7 +276,7 @@ export default function ProjectBento ({ projectId }) {
         </div>
       </div>
       <div className='md:py-8'>
-          <div className='text-center py-12'>
+          <div className='text-center py-12 px-4'>
               <div className='text-3xl md:text-5xl font-bold text-green-950 mb-4'>
                   Threads
               </div>

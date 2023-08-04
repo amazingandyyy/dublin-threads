@@ -24,7 +24,7 @@ export default function Threads ({ params, searchParams }) {
 
   return (<>
     <GlobalHeader />
-    <main className="flex bg-white h-screen w-screen pt-[60px]">
+    <main className="flex h-screen w-screen bg-[#F3F2EE] pt-[60px]">
       <div className="flex flex-col bg-white w-full h-full">
           <Map
             onZoom={(i) => setZoom(i.viewState.zoom)}
