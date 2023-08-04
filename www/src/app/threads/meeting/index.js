@@ -19,10 +19,10 @@ export default function MeetingPost({ data }) {
 	return (<PostCard>
 		<div className='flex items-start justify-between pb-4'>
 			<div className='flex-none w-60 md:w-96 items-start flex-col md:flex-row md:items-center'>
-				<Link href={`/org/${data.id}`} className='hover:opacity-50 active:opacity-70 hover:underline'>
+				<Link href={`/org/${data.orgId}`} className='hover:opacity-50 active:opacity-70 hover:underline'>
 					<div className='font-semibold pr-1 text-base truncate ...'>{data.organizor}</div>
 				</Link>
-				<Link href={`/org/${data.id}`} className='hover:opacity-50 active:opacity-70'><div className='text-gray-500 text-sm'>@{data.id}</div></Link>
+				<Link href={`/org/${data.orgId}`} className='hover:opacity-50 active:opacity-70'><div className='text-gray-500 text-sm'>@{data.orgId}</div></Link>
 			</div>
 			<div className='relative'>
 				<div className='pl-1 text-gray-500 text-xs'>{transformTimestamp(data.timestamp)}</div>
@@ -44,7 +44,7 @@ export default function MeetingPost({ data }) {
 			</div>}
 		</div>
 		<div className='flex mt-4 text-green-600 text-sm truncate ...'>
-			<div className='pr-1'>#{data.id}</div>
+			<div className='pr-1'>#{data.orgId}</div>
 			<div className='pr-1'>#meeting</div>
 			{data.cancelled && <div className='pr-1'>#cancelled</div>}
 		</div>

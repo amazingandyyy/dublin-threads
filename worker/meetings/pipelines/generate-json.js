@@ -76,7 +76,6 @@ async function main () {
   }
 
   function buildId(name) {
-    name = autoParseEntity(name)
     return name.replace(/\s+/, '')
   }
   function parsePastMeetingRows(meetingRows, entity='') {
@@ -102,6 +101,7 @@ async function main () {
         video,
         agendaPacket
       }
+      meeting.orgId = buildId(meeting.organizor)
       list.push(meeting)
     }
     return list;
@@ -127,7 +127,7 @@ async function main () {
         video,
         agendaPacket
       }
-      meeting.id = buildId(meeting.organizor.toLowerCase())
+      meeting.orgId = buildId(meeting.organizor)
       list.push(meeting)
     }
     return list;
