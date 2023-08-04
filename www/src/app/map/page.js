@@ -22,10 +22,18 @@ export default function Threads ({ params, searchParams }) {
   }
   const [zoom, setZoom] = useState(mapConfig.initialViewState.zoom)
 
+  function labelClassName (zoom) {
+    if (zoom < 15) {
+      return 'inline-block translate-y-4 font-bold text-center opacity-0'
+    }
+    return 'inline-block translate-y-4 font-bold text-center'
+  }
+
   return (<>
     <GlobalHeader />
     <main className="flex h-screen w-screen bg-[#F3F2EE] pt-[60px]">
       <div className="flex flex-col bg-white w-full h-full">
+        {Math.floor(zoom / 15) * 100}
           <Map
             onZoom={(i) => setZoom(i.viewState.zoom)}
             mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_TOKEN}
@@ -36,7 +44,7 @@ export default function Threads ({ params, searchParams }) {
             {locations.map((location) => (<Link href={`/project/${location.id}`} key={location.id}>
               <Marker longitude={location?.geolocation?.lon} latitude={location?.geolocation?.lat}>
               <PinMarker iconName={location?.geolocation?.iconName || 'dot'} data={location} />
-              <div className={`inline-block translate-y-4 font-bold opacity-${Math.floor(zoom / 15) * 100} text-center`}>{location?.title}</div>
+              <div className={labelClassName(zoom)}>{location?.title}</div>
               </Marker>
             </Link>))}
 

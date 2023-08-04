@@ -35,6 +35,7 @@ jobs:
       - name: take a snapshot&json
         working-directory: ./worker/meetings
         run: |
+          npx playwright install
           node pipelines/generate-snapshot.js
           node pipelines/generate-json.js
 

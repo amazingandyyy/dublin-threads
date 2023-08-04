@@ -50,7 +50,6 @@ const ICONS = {
 }
 
 function PinMarker (props) {
-  console.log(props)
   return (<div {...props} className={`pin-001 ${props.type}`} data-tooltip-id={props.data?.id} data-tooltip-content={props.data?.title}>
     <button className='button-inner'>
       <div className='pin-001-wrapper'>
