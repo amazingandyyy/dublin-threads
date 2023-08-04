@@ -36,7 +36,7 @@ function Post ({ data }) {
   }
 }
 
-export default function Thread ({ thread }) {
+export default function Thread ({ thread, unit = 'updates' }) {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
@@ -46,7 +46,7 @@ export default function Thread ({ thread }) {
   return (
     <div>
         <div className='flex flex-col'>
-          <div className='bg-white bg-opacity-50 text-sm opacity-70 py-1 my-4 px-2 mx-auto rounded-xl'>{loading ? (<span className='animate-pulse'>...</span>) : (<span>{thread.length}</span>)} updates</div>
+          <div className='bg-white bg-opacity-50 text-sm opacity-70 py-1 my-4 px-2 mx-auto rounded-xl'>{loading ? (<span className='animate-pulse'>...</span>) : (<span>{thread.length}</span>)} {unit}</div>
         </div>
         <>
           {loading && <PostPlaceholder />}

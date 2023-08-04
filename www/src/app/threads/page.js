@@ -2,8 +2,8 @@
 import Thread from './index'
 import GlobalHeader from '../header'
 // import Image from 'next/image'
-import {useMeetingsStore, useThreadStore} from '@/stores'
-import {useEffect, useState} from "react";
+import { useMeetingsStore, useThreadStore } from '@/stores'
+import { useEffect, useState } from 'react'
 
 export default function Threads () {
   const thread = useThreadStore(state => state.thread)
@@ -11,9 +11,9 @@ export default function Threads () {
   const [list, setList] = useState([])
 
   useEffect(() => {
-    const r = [...thread, ...meetings].sort((a,b)=>b.timestamp-a.timestamp);
+    const r = [...thread, ...meetings].sort((a, b) => b.timestamp - a.timestamp)
     setList(r)
-  }, [thread, meetings]);
+  }, [thread, meetings])
 
   return (
     <>
@@ -32,7 +32,7 @@ export default function Threads () {
             A Thread for Dublin
           </div>
           <div>
-            This is a thread of {'what\'s'} happening on <a className='text-green-600' href='https://dublin-development.icitywork.com' target='_blank' rel="noreferrer">Dublin Devlopment Projects Site</a>
+            This is a thread of {'what\'s'} updates on <a className='text-green-600' href='https://dublin-development.icitywork.com' target='_blank' rel="noreferrer">Dublin Devlopment Projects Site</a> and <a className='text-green-600' href='https://dublin.ca.gov/1604/Meetings-Agendas-Minutes-Video-on-Demand' target='_blank' rel="noreferrer">Dublin Meetings Site</a>
           </div>
           <div>
             Updated every 30 minutes

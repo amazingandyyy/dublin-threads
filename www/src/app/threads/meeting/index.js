@@ -1,22 +1,22 @@
 import { PostCard } from '../templates'
-import Link from "next/link";
-import {timeSince} from "@/utils";
+import Link from 'next/link'
+import { timeSince } from '@/utils'
 
 function transformTimestamp (timestamp) {
-	const days = 1000 * 60 * 60 * 24 * 365 // 365 days
-	if (Date.now() - timestamp < 0) {
-		return 'in ' + timeSince(timestamp)
-	}
-	if (Date.now() - timestamp < days) {
-		return timeSince(timestamp) + ' ago'
-	}
-	const date = new Date(Number(timestamp))
-	return date.toLocaleString('en-US', {
-		year: '2-digit', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false
-	})
+  const days = 1000 * 60 * 60 * 24 * 365 // 365 days
+  if (Date.now() - timestamp < 0) {
+    return 'in ' + timeSince(timestamp)
+  }
+  if (Date.now() - timestamp < days) {
+    return timeSince(timestamp) + ' ago'
+  }
+  const date = new Date(Number(timestamp))
+  return date.toLocaleString('en-US', {
+    year: '2-digit', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false
+  })
 }
-export default function MeetingPost({ data }) {
-	return (<PostCard>
+export default function MeetingPost ({ data }) {
+  return (<PostCard>
 		<div className='flex items-start justify-between pb-4'>
 			<div className='flex-none w-60 md:w-96 items-start flex-col md:flex-row md:items-center'>
 				<Link href={`/org/${data.orgId}`} className='hover:opacity-50 active:opacity-70 hover:underline'>
@@ -29,7 +29,7 @@ export default function MeetingPost({ data }) {
 			</div>
 		</div>
 		<div className='flex flex-col'>
-			<div className='font-bold'>🗣️ {data.date} {data.name}</div>
+			<div className='font-bold'>🗣️ <span className={data.cancelled && 'line-through opacity-50'}>{data.date} {data.name}</span></div>
 			{data.agenda && <div>
 				You can find the <a className='text-green-800 pt-2 inline-block' href={`${data.agenda}`} target='_blank' rel='noreferrer'>Agenda here</a>
 			</div>}

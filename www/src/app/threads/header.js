@@ -2,7 +2,6 @@ import { useProjectProfileStore } from '@/stores'
 import Link from 'next/link'
 import { timeSince } from '@/utils'
 
-
 function transformTimestamp (timestamp) {
   const days = 1000 * 60 * 60 * 24 * 365 // 365 days
   if (Date.now() - timestamp < days) {
