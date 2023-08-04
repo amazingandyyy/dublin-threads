@@ -7,8 +7,12 @@ import { useThreadStore } from '@/stores'
 
 import './globals.scss'
 
+import Hotjar from '@hotjar/browser';
+
 export default function RootLayout ({ children }) {
   useEffect(() => {
+    Hotjar.init(3595523, 6);
+
     fetchDevelopments('/logs/global.json')
       .then(res => res.json())
       .then(data => {
