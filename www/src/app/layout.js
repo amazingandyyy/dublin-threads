@@ -25,7 +25,9 @@ export default function RootLayout ({ children }) {
 
   useEffect(() => {
     Hotjar.init(3595523, 6)
+  }, [])
 
+  useEffect(() => {
     fetchDevelopments('/logs/global.json')
       .then(res => res.json())
       .then(data => {
