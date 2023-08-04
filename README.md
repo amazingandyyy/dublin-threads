@@ -1,8 +1,9 @@
 # 🍀 dublin-threads
 
-Data API for Dublin, CA
+Data API of developmenting projects and meetings for Dublin, CA
 
-## Changelog of [Dublin Development Projects](https://dublin-development.icitywork.com/)
+- Changelog of [Dublin Development Projects](https://dublin-development.icitywork.com/)
+- Meeting of [Dublin Meetings Site]([https://dublin-development.icitywork.com/](https://dublin.ca.gov/1604/Meetings-Agendas-Minutes-Video-on-Demand))
 
 ### website
 
