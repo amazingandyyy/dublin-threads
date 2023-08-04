@@ -4,14 +4,27 @@ import Head from 'next/head'
 import { useEffect } from 'react'
 import { fetchDevelopments } from '@/utils'
 import { useThreadStore } from '@/stores'
+import Script from 'next/script'
+import { useRouter } from 'next/router'
+import * as gtag from './utils/gtag'
+import Hotjar from '@hotjar/browser'
 
 import './globals.scss'
 
-import Hotjar from '@hotjar/browser';
-
 export default function RootLayout ({ children }) {
+  const router = useRouter()
   useEffect(() => {
-    Hotjar.init(3595523, 6);
+    const handleRouteChange = (url) => {
+      gtag.pageview(url)
+    }
+    router.events.on('routeChangeComplete', handleRouteChange)
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange)
+    }
+  }, [router.events])
+
+  useEffect(() => {
+    Hotjar.init(3595523, 6)
 
     fetchDevelopments('/logs/global.json')
       .then(res => res.json())
@@ -22,7 +35,20 @@ export default function RootLayout ({ children }) {
   }, [])
   return (
     <html lang="en">
+        <Script strategy="afterInteractive" id="gh4-1" src="https://www.googletagmanager.com/gtag/js?id=G-03C01V6BKQ" />
+        <Script strategy="afterInteractive" id="gh4-2" dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){
+              dataLayer.push(arguments)
+            }
+            gtag('js', new Date());
+  
+            gtag('config', 'G-03C01V6BKQ');
+          `
+        }} />
       <Head>
+        {/* Google tag (gtag.js) */}
         <meta property="og:title" content="dublin threads" />
         <meta property="og:type" content="news" />
         <meta property="og:description" content="Get to know the thread of local updates of Dublin in California. Updated every 30 minutes." />
