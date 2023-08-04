@@ -33,7 +33,6 @@ export default function Threads ({ params, searchParams }) {
     <GlobalHeader />
     <main className="flex h-screen w-screen bg-[#F3F2EE] pt-[60px]">
       <div className="flex flex-col bg-white w-full h-full">
-        {Math.floor(zoom / 15) * 100}
           <Map
             onZoom={(i) => setZoom(i.viewState.zoom)}
             mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_TOKEN}
