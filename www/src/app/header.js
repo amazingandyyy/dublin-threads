@@ -28,7 +28,7 @@ export default function GlobalHeader () {
       </div>
       </Link>
       <div className='flex sm:px-1 md:px-2'>
-      <a target='_blank' href='https://github.com/amazingandyyy/dublin' className='opacity-40 flex hover:opacity-60' rel="noreferrer">
+      {/* <a target='_blank' href='https://github.com/amazingandyyy/dublin' className='opacity-40 flex hover:opacity-60' rel="noreferrer">
         <Image
           src="/images/github-icon.svg"
           alt="Dublin CA Green Logo"
@@ -37,7 +37,7 @@ export default function GlobalHeader () {
           height={24}
           priority
         />
-      </a>
+      </a> */}
       </div>
     </div>
   </div>
