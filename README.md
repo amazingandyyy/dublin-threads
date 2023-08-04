@@ -14,7 +14,7 @@ Data API of developmenting projects and meetings for Dublin, CA
 - list of all development projects (including those delisted): https://raw.githubusercontent.com/amazingandyyy/dublin/main/docs/api/v2/developments/snapshots/latest.json
 - list of current public development projects: https://raw.githubusercontent.com/amazingandyyy/dublin/main/docs/api/v2/developments/snapshots/latest.json
 - development projects changelog: https://raw.githubusercontent.com/amazingandyyy/dublin/main/docs/api/v2/developments/logs/global.json
-- meetings: https://raw.githubusercontent.com/amazingandyyy/dublin/main/docs/api/v2/meeting/all.json
+- list of past&upcoming meetings: https://raw.githubusercontent.com/amazingandyyy/dublin/main/docs/api/v2/meetings/all.json
 
 ## Architecture
 
