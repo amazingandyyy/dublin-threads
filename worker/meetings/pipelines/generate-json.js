@@ -18,7 +18,7 @@ async function main () {
     }
   }
   function normalize (str = '') {
-    return str?.replace(/\n/ig, '').trim()
+    return str?.replace(/\n/ig, '').trim().replace(/\s\s+/ig, ' ').trim()
   }
   function convertDateStringToDate (inputDate) {
     const months = [
@@ -28,7 +28,7 @@ async function main () {
 
     // Split the input string into month, day, and year parts
     inputDate = inputDate.split('').map(i => {
-      if (/\s/.test(i)) return '@'
+      if (/\s+/.test(i)) return '@'
       return i
     }).join('')
     const parts = inputDate.split('@')
@@ -38,7 +38,8 @@ async function main () {
       const year = parseInt(parts[2], 10)
 
       // Format the date in "MM-DD-YYYY" format
-      return `${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}-${year}`
+      const r = `${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}-${year}`;
+      return r
     } else {
       return null
     }
@@ -61,6 +62,72 @@ async function main () {
     return normalizeUrl(str)
   }
 
+  function autoParseEntity(eventName) {
+    if(eventName.includes('City Council')) return 'City Council'
+    if(eventName.includes('Planning Commission')) return 'Planning Commission'
+    if(eventName.includes('Human Services')) return 'Human Services Commission'
+    if(eventName.includes('Senior Center')) return 'Senior Center Advisory Committee'
+    if(eventName.includes('Dublin Financing')) return 'Dublin Financing Authority'
+    if(eventName.includes('Heritage and Cultural')) return 'Heritage and Cultural Arts Commission'
+    if(eventName.includes('Parks and Community')) return 'Parks and Community Services Commission'
+    if(eventName.includes('Geologic Hazard')) return 'Geologic Hazard Abatement District'
+    if(eventName.includes('Youth Advisory')) return 'Youth Advisory Committee'
+    return ''
+  }
+  function parsePastMeetingRows(meetingRows, entity='') {
+    const list = []
+    for (let r = 0; r < meetingRows.length; r++) {
+      const meetingRow = meetingRows[r]
+      const name = normalize(getElementByIndex(meetingRow, '.listingRow .listItem', 0).el.text())
+      const date = normalizeDate(getElementByIndex(meetingRow, '.listingRow .listItem', 1).el.text())
+      const timestamp = new Date(date).getTime()
+      const agenda = normalizeUrl(getElementByIndex(meetingRow, '.listingRow .listItem', 2).el.find('a').attr('href'))
+      const minutes = normalizeUrl(getElementByIndex(meetingRow, '.listingRow .listItem', 3).el.find('a').attr('href'))
+      const video = normalizeVideo(getElementByIndex(meetingRow, '.listingRow .listItem', 4).el.find('a').attr('onclick'))
+      const agendaPacket = normalizeUrl(getElementByIndex(meetingRow, '.listingRow .listItem', 5).el.find('a').attr('href'))
+      const cancelled = /.*cancel.*/ig.test(name)
+      const meeting = {
+        organizor: entity || autoParseEntity(name),
+        cancelled,
+        name,
+        date,
+        timestamp: timestamp,
+        agenda,
+        minutes,
+        video,
+        agendaPacket
+      }
+      list.push(meeting)
+    }
+    return list;
+  }
+  function parseUpcomingMeetingRows(meetingRows, entity='') {
+    const list = []
+    for (let r = 0; r < meetingRows.length; r++) {
+      const meetingRow = meetingRows[r]
+      const name = normalize(getElementByIndex(meetingRow, '.listingRow .listItem', 0).el.text())
+      const date = normalizeDate(getElementByIndex(meetingRow, '.listingRow .listItem', 1).el.text())
+      const timestamp = new Date(date).getTime()
+      const agenda = normalizeUrl(getElementByIndex(meetingRow, '.listingRow .listItem', 2).el.find('a').attr('href'))
+      const video = normalizeVideo(getElementByIndex(meetingRow, '.listingRow .listItem', 3).el.find('a').attr('onclick'))
+      const agendaPacket = normalizeUrl(getElementByIndex(meetingRow, '.listingRow .listItem', 4).el.find('a').attr('href'))
+      const cancelled = /.*cancel.*/ig.test(name)
+      const meeting = {
+        organizor: entity || autoParseEntity(name),
+        cancelled,
+        name,
+        date,
+        timestamp: timestamp,
+        agenda,
+        video,
+        agendaPacket
+      }
+      list.push(meeting)
+    }
+    return list;
+  }
+
+  // find all past events
   // every CollapsiblePanel is every entity
   $('.CollapsiblePanel').each((i, year) => {
     const entity = $(year).find('.CollapsiblePanelTab').text()
@@ -70,34 +137,26 @@ async function main () {
       // every year 2020 2021 2022 2023
       const yearElement = yearsCounter[y]
       const meetingRows = getElementByIndex(yearElement, '.listingRow').list
-      for (let r = 0; r < meetingRows.length; r++) {
-        const meetingRow = meetingRows[r]
-        const name = normalize(getElementByIndex(meetingRow, '.listingRow .listItem', 0).el.text())
-        const date = normalizeDate(getElementByIndex(meetingRow, '.listingRow .listItem', 1).el.text())
-        const timestamp = new Date(date).getTime()
-        const agenda = normalizeUrl(getElementByIndex(meetingRow, '.listingRow .listItem', 2).el.find('a').attr('href'))
-        const minutes = normalizeUrl(getElementByIndex(meetingRow, '.listingRow .listItem', 3).el.find('a').attr('href'))
-        const video = normalizeVideo(getElementByIndex(meetingRow, '.listingRow .listItem', 4).el.find('a').attr('onclick'))
-        const agendaPacket = normalizeUrl(getElementByIndex(meetingRow, '.listingRow .listItem', 5).el.find('a').attr('href'))
-        const cancelled = /.*cancel.*/ig.test(name)
-        const meeting = {
-          organizor: entity,
-          cancelled,
-          name,
-          date,
-          timestamp: timestamp,
-          agenda,
-          minutes,
-          video,
-          agendaPacket
-        }
-        events.push(meeting)
-      }
+      const meetings = parsePastMeetingRows(meetingRows, entity)
+      events.push(...meetings)
     }
   })
-  console.log(events.length + ' events')
-  writeJsonToFileForce(absolutePath('docs/archive-meetings/meetings.json'), events)
-  writeJsonToFileForce(absolutePath('docs/api/v2/meetings/all.json'), events)
+  console.log(events.length + ' past events')
+
+  const upcomingMeetingsParent = $('#GranicusMainViewContent > table.listingTable')
+  const meetingRows = getElementByIndex(upcomingMeetingsParent, '.listingRow').list
+  const meetings = parseUpcomingMeetingRows(meetingRows)
+  console.log(meetings.length + ' upcoming events')
+  events.push(...meetings)
+
+  // find all upcoming events
+
+  console.log(events.length + ' total events')
+  const sortedEvents = events.sort((a, b)=> {
+    return b.timestamp-a.timestamp
+  })
+  writeJsonToFileForce(absolutePath('docs/archive-meetings/meetings.json'), sortedEvents)
+  writeJsonToFileForce(absolutePath('docs/api/v2/meetings/all.json'), sortedEvents)
 }
 
 try {
