@@ -74,6 +74,11 @@ async function main () {
     if(eventName.includes('Youth Advisory')) return 'Youth Advisory Committee'
     return ''
   }
+
+  function buildId(name) {
+    name = autoParseEntity(name)
+    return name.replace(/\s+/, '')
+  }
   function parsePastMeetingRows(meetingRows, entity='') {
     const list = []
     for (let r = 0; r < meetingRows.length; r++) {
@@ -122,6 +127,7 @@ async function main () {
         video,
         agendaPacket
       }
+      meeting.id = buildId(meeting.organizor.toLowerCase())
       list.push(meeting)
     }
     return list;
@@ -156,7 +162,7 @@ async function main () {
     return b.timestamp-a.timestamp
   })
   writeJsonToFileForce(absolutePath('docs/archive-meetings/meetings.json'), sortedEvents)
-  writeJsonToFileForce(absolutePath('docs/api/v2/meetings/all.json'), sortedEvents)
+  writeJsonToFileForce(absolutePath('docs/api/v2/meetings/all.json'), sortedEvents.map(i=>({...i, type: 'meeting'})))
 }
 
 try {

@@ -53,7 +53,8 @@
       }
     },
     "projectId": "projectdetail71",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -64,7 +65,8 @@
     "val": "Multi-phased development comprised of up to 1,995 residential units, up to 200,000 square feet of commercial uses, 35 acres of public parkland, a 12-acre elementary school site and related infrastructure. The overall project specific plan (Dublin Crossing Specific Plan) was approved in 2013. Site improvements for the first phase of development is underway. Design review for the first six residential neighborhoods (Phases 1A and 1B) were approved by the Planning Commission on June 14, 2016. On May 9, 2017 the Planning Commission approved the design of the 12 residential neighborhoods in Phases 2 and 3. The Site Development Review for the final Phases (4 and 5) are under review.",
     "oldVal": "Multi-phased development comprised of up to 1,995 residential units, up to 200,000 square feet of commercial uses, 35 acres of public parkland, a 12-acre elementary school site and related infrastructure. The overall project specific plan (Dublin Crossing Specific Plan) was approved in 2013. Site improvements for the first phase of development is underway. Design review for the first six residential neighborhoods (Phases 1A and 1B) were approved by the Planning Commission on June 14, 2016. Site Development Review for Phases 2/3 and 4/5 are under review.",
     "projectId": "projectdetail71",
-    "timestamp": "1495652949000"
+    "timestamp": "1495652949000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -77,7 +79,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Dublin-Crossing-SP-2015-3.23.17.pdf",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/Dublin-Crossing-SP-2015-3.23.17.pdf",
     "projectId": "projectdetail71",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -88,7 +91,8 @@
     "val": "Multi-phased development comprised of up to 1,995 residential units, up to 200,000 square feet of commercial uses, 35 acres of public parkland, a 12-acre elementary school site and related infrastructure. The overall project specific plan (Dublin Crossing Specific Plan) was approved in 2013. Site improvements for the first phase of development is underway. Design review for the first six residential neighborhoods (Phases 1A and 1B) were approved by the Planning Commission on June 14, 2016. On May 9, 2017 the Planning Commission approved the design of the 12 residential neighborhoods in Phases 2 and 3. The Site Development Review for the final Phases (4 and 5) will be presented as a study session for discussion at the April 10, 2018 Planning Commission meeting. Included in this discussion is a modification to the design of Neighborhood 15 which is part of the previously approved Phase 2/3.",
     "oldVal": "Multi-phased development comprised of up to 1,995 residential units, up to 200,000 square feet of commercial uses, 35 acres of public parkland, a 12-acre elementary school site and related infrastructure. The overall project specific plan (Dublin Crossing Specific Plan) was approved in 2013. Site improvements for the first phase of development is underway. Design review for the first six residential neighborhoods (Phases 1A and 1B) were approved by the Planning Commission on June 14, 2016. On May 9, 2017 the Planning Commission approved the design of the 12 residential neighborhoods in Phases 2 and 3. The Site Development Review for the final Phases (4 and 5) are under review.",
     "projectId": "projectdetail71",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -101,7 +105,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative.jpg",
     "projectId": "projectdetail71",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -114,7 +119,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/Illustrative-150x150.jpg",
     "projectId": "projectdetail71",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -127,7 +133,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan.jpg",
     "projectId": "projectdetail71",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -140,7 +147,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Land-Plan-150x150.jpg",
     "projectId": "projectdetail71",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -151,7 +159,8 @@
     "val": "Multi-phased development comprised of up to 1,995 residential units, up to 200,000 square feet of commercial uses, 35 acres of public parkland, a 12-acre elementary school site and related infrastructure. The overall project specific plan (Dublin Crossing Specific Plan) was approved in 2013. Site improvements for the first phase of development is underway. Design review for the first six residential neighborhoods (Phases 1A and 1B) were approved by the Planning Commission on June 14, 2016. On May 9, 2017 the Planning Commission approved the design of the 12 residential neighborhoods in Phases 2 and 3 and on May 8, 2018, the Planning Commission approved the design of the remaining six residential neighborhoods in Phases 4 and 5. The project is currently under construction.",
     "oldVal": "Multi-phased development comprised of up to 1,995 residential units, up to 200,000 square feet of commercial uses, 35 acres of public parkland, a 12-acre elementary school site and related infrastructure. The overall project specific plan (Dublin Crossing Specific Plan) was approved in 2013. Site improvements for the first phase of development is underway. Design review for the first six residential neighborhoods (Phases 1A and 1B) were approved by the Planning Commission on June 14, 2016. On May 9, 2017 the Planning Commission approved the design of the 12 residential neighborhoods in Phases 2 and 3. The Site Development Review for the final Phases (4 and 5) will be presented as a study session for discussion at the April 10, 2018 Planning Commission meeting. Included in this discussion is a modification to the design of Neighborhood 15 which is part of the previously approved Phase 2/3.",
     "projectId": "projectdetail71",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -163,7 +172,8 @@
     "val": "building",
     "oldVal": "dot",
     "projectId": "projectdetail71",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -219,6 +229,7 @@
       }
     },
     "projectId": "projectdetail71",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:delete"
   }
 ]

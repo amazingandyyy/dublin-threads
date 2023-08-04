@@ -59,7 +59,8 @@
       }
     },
     "projectId": "projectdetail572",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -71,7 +72,8 @@
     "val": "building",
     "oldVal": "dot",
     "projectId": "projectdetail572",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -82,7 +84,8 @@
     "val": "St. Patrick Way SDR",
     "oldVal": "Saint Patrick Way SDR",
     "projectId": "projectdetail572",
-    "timestamp": "1603056634000"
+    "timestamp": "1603056634000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -94,7 +97,8 @@
     "val": "St. Patrick Way SDR",
     "oldVal": "Saint Patrick Way SDR",
     "projectId": "projectdetail572",
-    "timestamp": "1603056634000"
+    "timestamp": "1603056634000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -105,7 +109,8 @@
     "val": "St. Patrick Way SDR (Avalon West)",
     "oldVal": "St. Patrick Way SDR",
     "projectId": "projectdetail572",
-    "timestamp": "1623808635000"
+    "timestamp": "1623808635000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -117,7 +122,8 @@
     "val": "St. Patrick Way SDR (Avalon West)",
     "oldVal": "St. Patrick Way SDR",
     "projectId": "projectdetail572",
-    "timestamp": "1623808635000"
+    "timestamp": "1623808635000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -130,7 +136,8 @@
     "val": "Avalon Bay Communities, Joe Kirchofer",
     "oldVal": "Eric Morley, The Morley Bros. / Bayview Development Group",
     "projectId": "projectdetail572",
-    "timestamp": "1627584632000"
+    "timestamp": "1627584632000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -143,7 +150,8 @@
     "val": "455 Market Street, Ste 1650 SF, CA 94105",
     "oldVal": "405 Alberto Way #3, Los Gatos, CA 95032",
     "projectId": "projectdetail572",
-    "timestamp": "1627584632000"
+    "timestamp": "1627584632000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -156,7 +164,8 @@
     "val": "415-284-9080",
     "oldVal": "408-497-9722",
     "projectId": "projectdetail572",
-    "timestamp": "1627584632000"
+    "timestamp": "1627584632000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -167,7 +176,8 @@
     "val": "St. Patrick Way (Avalon West)",
     "oldVal": "St. Patrick Way SDR (Avalon West)",
     "projectId": "projectdetail572",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -179,7 +189,8 @@
     "val": "St. Patrick Way (Avalon West)",
     "oldVal": "St. Patrick Way SDR (Avalon West)",
     "projectId": "projectdetail572",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -193,7 +204,8 @@
       "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Site-Plan-150x150.jpg"
     },
     "projectId": "projectdetail572",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:delete"
   },
   {
     "op": "update",
@@ -204,7 +216,8 @@
     "val": "Avalon West (St. Patrick Way)",
     "oldVal": "St. Patrick Way (Avalon West)",
     "projectId": "projectdetail572",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -216,6 +229,7 @@
     "val": "Avalon West (St. Patrick Way)",
     "oldVal": "St. Patrick Way (Avalon West)",
     "projectId": "projectdetail572",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:update"
   }
 ]

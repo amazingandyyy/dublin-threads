@@ -52,7 +52,8 @@
       }
     },
     "projectId": "projectdetail174",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -63,7 +64,8 @@
     "val": "Jordan Ranch - Parcel H",
     "oldVal": "Jordan Ranch – Parcel H",
     "projectId": "projectdetail174",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -75,7 +77,8 @@
     "val": "PLPA-2015-00045",
     "oldVal": "PLPA-2010-00068",
     "projectId": "projectdetail174",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -87,7 +90,8 @@
     "val": "General Plan and Eastern Dublin Specific Plan Amendments and Planned Development Rezone with amended Stage 1 and Stage 2 Development Plans, Site Development Review, Vesting Tentative Tract Map 8267 & 8269, and Development Agreement Amendment",
     "oldVal": "Site Development Review",
     "projectId": "projectdetail174",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -99,7 +103,8 @@
     "val": "09/22/2015",
     "oldVal": "12/01/2010",
     "projectId": "projectdetail174",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -111,7 +116,8 @@
     "val": "Medium Density Residential",
     "oldVal": "Medium Density Residential, Medium High Density Residential, Public/Semi-Public underlay, and Mixed Use",
     "projectId": "projectdetail174",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -123,7 +129,8 @@
     "val": "PD- Medium Density Residential",
     "oldVal": "PD- Medium Density Residential, PD-Medium High Density Residential, PD-Public/Semi-Public underlay, and PD-Mixed Use",
     "projectId": "projectdetail174",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -136,7 +143,8 @@
     "val": "Jason Cole, TRI Pointe Homes",
     "oldVal": "Mission Valley Homes",
     "projectId": "projectdetail174",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -149,7 +157,8 @@
     "val": "2010 Crow Canyon Place, Suite 380, San Ramon, CA 94583",
     "oldVal": "5000 Hopyard Rd., Suite 170, Pleasanton, CA 94588",
     "projectId": "projectdetail174",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -162,7 +171,8 @@
     "val": "(925) 804-2230",
     "oldVal": "(925) 899-5065",
     "projectId": "projectdetail174",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -173,7 +183,8 @@
     ],
     "val": "2,020 - 2,196 square feet",
     "projectId": "projectdetail174",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -184,7 +195,8 @@
     ],
     "val": "N/A FAR",
     "projectId": "projectdetail174",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -195,7 +207,8 @@
     ],
     "val": "3 stories / 37 feet",
     "projectId": "projectdetail174",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -206,7 +219,8 @@
     "val": "4765 Fallon Road",
     "oldVal": "Central Parkway",
     "projectId": "projectdetail174",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -217,7 +231,8 @@
     "val": "Jordan Ranch – Parcel H is being developed by TRI Pointe Homes. The project includes 40 duet homes and 5 single family detached homes on the northeast corner of Central Parkway and Fallon Road. There are three different floor plans ranging in size from 2,020 square feet to 2,196 square feet.",
     "oldVal": "Jordan Ranch – Parcel H is being developed by Mission Valley Homes. The project includes 40 duet homes and 5 single family detached homes on the northeast corner of Central Parkway and Fallon Road.",
     "projectId": "projectdetail174",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -230,7 +245,8 @@
     "val": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Pull-Apart-Townhomes-Jordan-Ranch-N7-Onyx.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/05/DublinSeal300x300-e1463696056526.jpg",
     "projectId": "projectdetail174",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -243,7 +259,8 @@
     "val": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Pull-Apart-Townhomes-Jordan-Ranch-N7-Onyx-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/05/DublinSeal300x300-e1463696056526-150x150.jpg",
     "projectId": "projectdetail174",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -257,7 +274,8 @@
       "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Parcel-H-rendering-150x150.jpg"
     },
     "projectId": "projectdetail174",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:delete"
   },
   {
     "op": "update",
@@ -269,7 +287,8 @@
     "val": 37.71084,
     "oldVal": 37.7097901,
     "projectId": "projectdetail174",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -281,7 +300,8 @@
     "val": -121.851546,
     "oldVal": -121.8676244,
     "projectId": "projectdetail174",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -293,7 +313,8 @@
     "val": "Jordan Ranch - Parcel H",
     "oldVal": "Jordan Ranch – Parcel H",
     "projectId": "projectdetail174",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -306,7 +327,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Pull-Apart-Townhomes-Jordan-Ranch-N7-Onyx.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Pull-Apart-Townhomes-Jordan-Ranch-N7-Onyx.jpg",
     "projectId": "projectdetail174",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -319,7 +341,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Pull-Apart-Townhomes-Jordan-Ranch-N7-Onyx-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Pull-Apart-Townhomes-Jordan-Ranch-N7-Onyx-150x150.jpg",
     "projectId": "projectdetail174",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -332,7 +355,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Parcel-H-site-plan.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Parcel-H-site-plan.jpg",
     "projectId": "projectdetail174",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -345,7 +369,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Parcel-H-site-plan-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Parcel-H-site-plan-150x150.jpg",
     "projectId": "projectdetail174",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -399,6 +424,7 @@
       }
     },
     "projectId": "projectdetail174",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:delete"
   }
 ]

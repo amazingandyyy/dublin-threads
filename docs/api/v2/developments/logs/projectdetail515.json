@@ -44,7 +44,8 @@
       }
     },
     "projectId": "projectdetail515",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -56,7 +57,8 @@
     "val": 37.711036,
     "oldVal": 37.713424,
     "projectId": "projectdetail515",
-    "timestamp": "1495652949000"
+    "timestamp": "1495652949000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -68,7 +70,8 @@
     "val": -121.905749,
     "oldVal": -121.904164,
     "projectId": "projectdetail515",
-    "timestamp": "1495652949000"
+    "timestamp": "1495652949000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -82,7 +85,8 @@
       "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1278&Inline=True"
     },
     "projectId": "projectdetail515",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -96,7 +100,8 @@
       "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1287&Inline=True"
     },
     "projectId": "projectdetail515",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -107,7 +112,8 @@
     "val": "Pubic Hearing",
     "oldVal": "Application Under Review",
     "projectId": "projectdetail515",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -118,7 +124,8 @@
     "val": "Phases 4 and 5 of the Boulevard project include 510 units and landscape improvements.",
     "oldVal": "Phases 4 and 5 of the Boulevard project include 509 units and landscape improvements.",
     "projectId": "projectdetail515",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -131,7 +138,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan.jpg",
     "projectId": "projectdetail515",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -144,7 +152,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan-150x150.jpg",
     "projectId": "projectdetail515",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -155,7 +164,8 @@
     "val": "Final Action",
     "oldVal": "Pubic Hearing",
     "projectId": "projectdetail515",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -166,7 +176,8 @@
     "val": "Boulevard (Dublin Crossing) – Phase 4 & 5",
     "oldVal": "Boulevard (Dublin Crossing) - Phase 4/5",
     "projectId": "projectdetail515",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -178,7 +189,8 @@
     "val": "building",
     "oldVal": "dot",
     "projectId": "projectdetail515",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -190,7 +202,8 @@
     "val": "Boulevard (Dublin Crossing) – Phase 4 & 5",
     "oldVal": "Boulevard (Dublin Crossing) - Phase 4/5",
     "projectId": "projectdetail515",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -202,7 +215,8 @@
     "val": "Site Development Review Permit and Vesting Tentative Tract Map",
     "oldVal": "Site Development Review and Vesting Tentative Tract Map",
     "projectId": "projectdetail515",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -215,7 +229,8 @@
     "val": "Mandi Misasi, Brookfield Residential",
     "oldVal": "Joe Guerra, Dublin Crossing LLC/Brookfield Residential",
     "projectId": "projectdetail515",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -228,7 +243,8 @@
     "val": "12657 Alcosta Blvd. Ste 250, San Ramon CA 94563",
     "oldVal": "500 La Gonda Way, Suite 100, Danville, CA 94526",
     "projectId": "projectdetail515",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -241,6 +257,7 @@
     "val": "925-743-8000",
     "oldVal": "(408) 307-7806",
     "projectId": "projectdetail515",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   }
 ]

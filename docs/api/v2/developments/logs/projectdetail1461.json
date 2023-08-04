@@ -47,7 +47,8 @@
       }
     },
     "projectId": "projectdetail1461",
-    "timestamp": "1651972572000"
+    "timestamp": "1651972572000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -60,7 +61,8 @@
     "val": "Amy MIllion - Principal Planner",
     "oldVal": "Mayank Patel - Associate Planner",
     "projectId": "projectdetail1461",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -73,6 +75,7 @@
     "val": "amy.million@dublin.ca.gov",
     "oldVal": "mayank.patel@dublin.ca.gov",
     "projectId": "projectdetail1461",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   }
 ]

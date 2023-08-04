@@ -56,7 +56,8 @@
       }
     },
     "projectId": "projectdetail216",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -68,7 +69,8 @@
     "val": "12/01/2010",
     "oldVal": "12/01/2016",
     "projectId": "projectdetail216",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -81,7 +83,8 @@
     "val": "Jason Cole, TRI Pointe Homes",
     "oldVal": "TriPointe Homes",
     "projectId": "projectdetail216",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -94,7 +97,8 @@
     "val": "(925) 804-2230",
     "oldVal": "925.804.2230",
     "projectId": "projectdetail216",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -105,7 +109,8 @@
     ],
     "val": "1,840 - 2,110 square feet",
     "projectId": "projectdetail216",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -116,7 +121,8 @@
     ],
     "val": "N/A FAR",
     "projectId": "projectdetail216",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -127,7 +133,8 @@
     ],
     "val": "2 stories / 30 feet",
     "projectId": "projectdetail216",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -138,7 +145,8 @@
     "val": "Neighborhood 5 of Jordan Ranch (Slate) is being developed by TRI Pointe Homes with 56 single family residences on 7.8 acres. Three floors plans are offered for the “3,200 square foot lots.” All plans are two stories and range in size from 1,840 square feet to 2,110 square feet.",
     "oldVal": "Neighborhood 5 of Jordan Ranch (Slate) is being developed by TriPointe Homes with 56 single family residences on 7.8 acres.",
     "projectId": "projectdetail216",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -151,7 +159,8 @@
     "val": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/05/dublin100x100white.png",
     "projectId": "projectdetail216",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -164,7 +173,8 @@
     "val": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/05/dublin100x100white.png",
     "projectId": "projectdetail216",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -178,7 +188,8 @@
       "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering-150x150.jpg"
     },
     "projectId": "projectdetail216",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:delete"
   },
   {
     "op": "update",
@@ -191,7 +202,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering.jpg",
     "projectId": "projectdetail216",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -204,7 +216,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-streetscape-rendering-150x150.jpg",
     "projectId": "projectdetail216",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -217,7 +230,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2.jpg",
     "projectId": "projectdetail216",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -230,7 +244,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/JR-project-area-2-150x150.jpg",
     "projectId": "projectdetail216",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -243,7 +258,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-site-plan.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-site-plan.jpg",
     "projectId": "projectdetail216",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -256,7 +272,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-site-plan-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/N5-site-plan-150x150.jpg",
     "projectId": "projectdetail216",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -268,7 +285,8 @@
     "val": 37.71024,
     "oldVal": null,
     "projectId": "projectdetail216",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -280,7 +298,8 @@
     "val": -121.84278,
     "oldVal": null,
     "projectId": "projectdetail216",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -338,6 +357,7 @@
       }
     },
     "projectId": "projectdetail216",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:delete"
   }
 ]

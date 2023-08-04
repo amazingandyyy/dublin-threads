@@ -48,7 +48,8 @@
       }
     },
     "projectId": "projectdetail130",
-    "timestamp": "1476241401000"
+    "timestamp": "1476241401000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -59,7 +60,8 @@
     "val": "Dublin Retail LLC",
     "oldVal": "Sutter Retail Development",
     "projectId": "projectdetail130",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -71,7 +73,8 @@
     "val": "46 parking spaces",
     "oldVal": "57 parking spaces",
     "projectId": "projectdetail130",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -82,7 +85,8 @@
     "val": "The Applicant, Dublin Retail LLC, is requesting approval of a Conditional Use Permit, Site Development Review, Heritage Tree Removal and Tentative Parcel Map to subdivide a vacant 1.19 acre site into two parcels, remove one-two heritage oak trees, construct a 2,600 square foot drive-thru coffee shop and construct a 5,400 square foot commercial building. The site is currently vacant and contains two heritage oak trees.",
     "oldVal": "The Applicant, Sutter Retail Development, is requesting approval of a Conditional Use Permit, Site Development Review, Heritage Tree Removal and Tentative Parcel Map to subdivide the site into two parcels, remove two heritage oak trees, construct a 2,600 square foot drive-thru Starbucks and a 5,400 square foot commercial building. The site is currently vacant.",
     "projectId": "projectdetail130",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -96,7 +100,8 @@
       "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Site-Plan-150x150.jpg"
     },
     "projectId": "projectdetail130",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -110,7 +115,8 @@
       "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Coffee-Shop-Elevation-150x150.jpg"
     },
     "projectId": "projectdetail130",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -124,7 +130,8 @@
       "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Pad-Bldg-Elevation-150x150.jpg"
     },
     "projectId": "projectdetail130",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -136,7 +143,8 @@
     "val": 37.703086,
     "oldVal": 37.701757,
     "projectId": "projectdetail130",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -148,7 +156,8 @@
     "val": -121.93525,
     "oldVal": -121.9359468,
     "projectId": "projectdetail130",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -160,7 +169,8 @@
     "val": "Dublin Retail LLC",
     "oldVal": "Sutter Retail Development",
     "projectId": "projectdetail130",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -173,7 +183,8 @@
     "val": "Amy Million - Principal Planner",
     "oldVal": "Marnie R. Delgado - Senior Planner",
     "projectId": "projectdetail130",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -186,7 +197,8 @@
     "val": "amy.million@dublin.ca.gov",
     "oldVal": "marnie.delgado@dublin.ca.gov",
     "projectId": "projectdetail130",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -199,7 +211,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/GIS-Location-Map_cropped.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/GIS-Location-Map_cropped.jpg",
     "projectId": "projectdetail130",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -212,7 +225,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/GIS-Location-Map_cropped-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/GIS-Location-Map_cropped-150x150.jpg",
     "projectId": "projectdetail130",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -225,7 +239,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Site-Plan.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Site-Plan.jpg",
     "projectId": "projectdetail130",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -238,7 +253,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Site-Plan-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Site-Plan-150x150.jpg",
     "projectId": "projectdetail130",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -251,7 +267,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Pad-Bldg-Elevation.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Coffee-Shop-Elevation.jpg",
     "projectId": "projectdetail130",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -264,7 +281,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Pad-Bldg-Elevation-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Coffee-Shop-Elevation-150x150.jpg",
     "projectId": "projectdetail130",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -278,7 +296,8 @@
       "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Dublin-Retail-Pad-Bldg-Elevation-150x150.jpg"
     },
     "projectId": "projectdetail130",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -337,6 +356,7 @@
       }
     },
     "projectId": "projectdetail130",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:delete"
   }
 ]

@@ -60,7 +60,8 @@
       }
     },
     "projectId": "projectdetail314",
-    "timestamp": "1476241401000"
+    "timestamp": "1476241401000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -73,7 +74,8 @@
     "val": "Martha Battaglia - Associate Planner",
     "oldVal": "Martha Aja - Associate Planner",
     "projectId": "projectdetail314",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -86,7 +88,8 @@
     "val": "martha.Battaglia@dublin.ca.gov",
     "oldVal": "martha.aja@dublin.ca.gov",
     "projectId": "projectdetail314",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -97,7 +100,8 @@
     "val": "Grafton Plaza - Residential",
     "oldVal": "Grafton Plaza – Residential",
     "projectId": "projectdetail314",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -109,7 +113,8 @@
     "val": "Mixed Use 2/Campus Office",
     "oldVal": "Campus Office/Mixed Use",
     "projectId": "projectdetail314",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -122,7 +127,8 @@
     "val": "Jennifer Besmer, Taylor Morrison",
     "oldVal": "James Tong, Stanforth Holding Co., LLC",
     "projectId": "projectdetail314",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -135,7 +141,8 @@
     "val": "4309 Hacienda Drive, Ste. 450, Pleasanton CA 94588",
     "oldVal": "4080 Grafton Street, Suite #200, Dublin, CA 94568",
     "projectId": "projectdetail314",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -148,7 +155,8 @@
     "val": "(925) 983-4690",
     "oldVal": "(925) 463-1666",
     "projectId": "projectdetail314",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -159,7 +167,8 @@
     "val": "Grafton Street",
     "oldVal": "4075 Grafton Street",
     "projectId": "projectdetail314",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -172,7 +181,8 @@
     "val": "City Council Staff Report 4/5/16",
     "oldVal": "City Council Staff Report 4/19/16",
     "projectId": "projectdetail314",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -185,7 +195,8 @@
     "val": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=580910&dbid=0",
     "oldVal": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=582019&dbid=0",
     "projectId": "projectdetail314",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -199,7 +210,8 @@
       "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=582019&dbid=0"
     },
     "projectId": "projectdetail314",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -210,7 +222,8 @@
     "val": "The land use designation for the Grafton Plaza project site allows office uses or a combination of residential, retail commercial and office uses. The Applicant has chosen to proceed with an integrated mixed use project. The mixed use project consists of 115 residential townhomes, 127 room hotel, and up to 55,000 square feet of future retail commercial.",
     "oldVal": "The Grafton Plaza project site has a General Plan/Eastern Dublin Specific Plan land use designation of Mixed Use 2/Campus Office and related Planned Development Zoning. This zoning allows office uses or a combination of residential, retail commercial and office uses.",
     "projectId": "projectdetail314",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -223,7 +236,8 @@
     "val": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Residential-1.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Residential-Elevations-1.jpg",
     "projectId": "projectdetail314",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -236,7 +250,8 @@
     "val": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Residential-1-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Residential-Elevations-1-150x150.jpg",
     "projectId": "projectdetail314",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -250,7 +265,8 @@
       "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Residential-Elevations-2-150x150.jpg"
     },
     "projectId": "projectdetail314",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -262,7 +278,8 @@
     "val": 37.703461,
     "oldVal": 37.7105908,
     "projectId": "projectdetail314",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -274,7 +291,8 @@
     "val": -121.864189,
     "oldVal": -121.8634079,
     "projectId": "projectdetail314",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -286,7 +304,8 @@
     "val": "Grafton Plaza - Residential",
     "oldVal": "Grafton Plaza – Residential",
     "projectId": "projectdetail314",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -299,7 +318,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Residential-1.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Residential-1.jpg",
     "projectId": "projectdetail314",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -312,7 +332,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Residential-1-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Residential-1-150x150.jpg",
     "projectId": "projectdetail314",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -325,7 +346,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Site-Plan.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Site-Plan.jpg",
     "projectId": "projectdetail314",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -338,7 +360,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Site-Plan-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Site-Plan-150x150.jpg",
     "projectId": "projectdetail314",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -351,7 +374,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-project-150x1501.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-project-150x1501.jpg",
     "projectId": "projectdetail314",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -364,7 +388,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-project-150x1501.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-project-150x1501.jpg",
     "projectId": "projectdetail314",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -377,7 +402,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Residential-Elevations-2.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Residential-Elevations-2.jpg",
     "projectId": "projectdetail314",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -390,7 +416,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Residential-Elevations-2-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Residential-Elevations-2-150x150.jpg",
     "projectId": "projectdetail314",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -401,7 +428,8 @@
     "val": "Grafton Plaza – Apex Townhomes",
     "oldVal": "Grafton Plaza - Residential",
     "projectId": "projectdetail314",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -414,7 +442,8 @@
     "val": "Robert Smith - Associate Planner",
     "oldVal": "Martha Battaglia - Associate Planner",
     "projectId": "projectdetail314",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -427,7 +456,8 @@
     "val": "robert.smith@dublin.ca.gov",
     "oldVal": "martha.Battaglia@dublin.ca.gov",
     "projectId": "projectdetail314",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -439,7 +469,8 @@
     "val": "building",
     "oldVal": "dot",
     "projectId": "projectdetail314",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -451,7 +482,8 @@
     "val": "Grafton Plaza – Apex Townhomes",
     "oldVal": "Grafton Plaza - Residential",
     "projectId": "projectdetail314",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -522,6 +554,7 @@
       }
     },
     "projectId": "projectdetail314",
-    "timestamp": "1603056634000"
+    "timestamp": "1603056634000",
+    "type": "developments:delete"
   }
 ]

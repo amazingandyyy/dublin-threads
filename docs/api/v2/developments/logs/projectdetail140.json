@@ -75,7 +75,8 @@
       }
     },
     "projectId": "projectdetail140",
-    "timestamp": "1476241401000"
+    "timestamp": "1476241401000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -87,7 +88,8 @@
     "val": 37.739338,
     "oldVal": 37.7349134,
     "projectId": "projectdetail140",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -99,7 +101,8 @@
     "val": -121.865494,
     "oldVal": -121.8677859,
     "projectId": "projectdetail140",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -114,7 +117,8 @@
       "email": "marnie.delgado@dublin.ca.gov"
     },
     "projectId": "projectdetail140",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:delete"
   },
   {
     "op": "update",
@@ -127,7 +131,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Moller_Ranch_Street_Scene.png",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Moller_Ranch_Street_Scene.png",
     "projectId": "projectdetail140",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -140,7 +145,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Moller_Ranch_Street_Scene-150x150.png",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Moller_Ranch_Street_Scene-150x150.png",
     "projectId": "projectdetail140",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -153,7 +159,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_201.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_201.jpg",
     "projectId": "projectdetail140",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -166,7 +173,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_201-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_201-150x150.jpg",
     "projectId": "projectdetail140",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -179,7 +187,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_141.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_141.jpg",
     "projectId": "projectdetail140",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -192,7 +201,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_141-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_141-150x150.jpg",
     "projectId": "projectdetail140",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -205,7 +215,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_082.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_082.jpg",
     "projectId": "projectdetail140",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -218,7 +229,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_082-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_082-150x150.jpg",
     "projectId": "projectdetail140",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -231,7 +243,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_006.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_006.jpg",
     "projectId": "projectdetail140",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -244,7 +257,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_006-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_006-150x150.jpg",
     "projectId": "projectdetail140",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -257,7 +271,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/6861_Tassajara_Rd_Moller_Ranch.png",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/6861_Tassajara_Rd_Moller_Ranch.png",
     "projectId": "projectdetail140",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -270,7 +285,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/6861_Tassajara_Rd_Moller_Ranch-150x150.png",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/6861_Tassajara_Rd_Moller_Ranch-150x150.png",
     "projectId": "projectdetail140",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -285,7 +301,8 @@
       "email": ""
     },
     "projectId": "projectdetail140",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -297,7 +314,8 @@
     "val": "building",
     "oldVal": "dot",
     "projectId": "projectdetail140",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -310,7 +328,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_201.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Moller_Ranch_Street_Scene.png",
     "projectId": "projectdetail140",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -323,7 +342,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_201-150x150.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Moller_Ranch_Street_Scene-150x150.png",
     "projectId": "projectdetail140",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -336,7 +356,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_141.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_201.jpg",
     "projectId": "projectdetail140",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -349,7 +370,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_141-150x150.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_201-150x150.jpg",
     "projectId": "projectdetail140",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -362,7 +384,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_082.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_141.jpg",
     "projectId": "projectdetail140",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -375,7 +398,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_082-150x150.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_141-150x150.jpg",
     "projectId": "projectdetail140",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -388,7 +412,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_006.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_082.jpg",
     "projectId": "projectdetail140",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -401,7 +426,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_006-150x150.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_082-150x150.jpg",
     "projectId": "projectdetail140",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -414,7 +440,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/6861_Tassajara_Rd_Moller_Ranch.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_006.jpg",
     "projectId": "projectdetail140",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -427,7 +454,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/6861_Tassajara_Rd_Moller_Ranch-150x150.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/TASSAJARA-HILLS-SDR_FINAL-PC-SUBMITTAL_20160729._Page_006-150x150.jpg",
     "projectId": "projectdetail140",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -441,6 +469,7 @@
       "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/6861_Tassajara_Rd_Moller_Ranch-150x150.png"
     },
     "projectId": "projectdetail140",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:delete"
   }
 ]

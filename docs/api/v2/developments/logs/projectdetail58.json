@@ -45,7 +45,8 @@
       }
     },
     "projectId": "projectdetail58",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:add"
   },
   {
     "op": "delete",
@@ -93,6 +94,7 @@
       }
     },
     "projectId": "projectdetail58",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:delete"
   }
 ]

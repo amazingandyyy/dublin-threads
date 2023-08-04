@@ -69,7 +69,8 @@
       }
     },
     "projectId": "projectdetail506",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -82,7 +83,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-05.24.16-Complete.pdf",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-05.24.16-Complete.pdf",
     "projectId": "projectdetail506",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -95,7 +97,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-061416-Complete.pdf",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-061416-Complete.pdf",
     "projectId": "projectdetail506",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -108,7 +111,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan.jpg",
     "projectId": "projectdetail506",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -121,7 +125,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-150x150.jpg",
     "projectId": "projectdetail506",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -134,7 +139,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2.jpg",
     "projectId": "projectdetail506",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -147,7 +153,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2-150x150.jpg",
     "projectId": "projectdetail506",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -160,7 +167,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan.jpg",
     "projectId": "projectdetail506",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -173,7 +181,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan-150x150.jpg",
     "projectId": "projectdetail506",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -186,7 +195,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887.jpg",
     "projectId": "projectdetail506",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -199,7 +209,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887-150x150.jpg",
     "projectId": "projectdetail506",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -212,7 +223,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631.jpg",
     "projectId": "projectdetail506",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -225,7 +237,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631-150x150.jpg",
     "projectId": "projectdetail506",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -236,7 +249,8 @@
     "val": "Boulevard (Dublin Crossing) – Phase 1",
     "oldVal": "Boulevard (Dublin Crossing) - Phase 1",
     "projectId": "projectdetail506",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -248,7 +262,8 @@
     "val": "building",
     "oldVal": "dot",
     "projectId": "projectdetail506",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -260,7 +275,8 @@
     "val": "Boulevard (Dublin Crossing) – Phase 1",
     "oldVal": "Boulevard (Dublin Crossing) - Phase 1",
     "projectId": "projectdetail506",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -272,7 +288,8 @@
     "val": "Site Development Review Permit / Vesting Tentative Tract Map",
     "oldVal": "Site Development Review / Vesting Tenative Tract Map",
     "projectId": "projectdetail506",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -285,7 +302,8 @@
     "val": "Mandi Misasi, Brookfield Residential",
     "oldVal": "Joe Guerra, Dublin Crossing LLC/Brookfield Residential",
     "projectId": "projectdetail506",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -298,7 +316,8 @@
     "val": "12657 Alcosta Blvd. Ste 250, San Ramon CA 94563",
     "oldVal": "500 La Gonda Way, Suite 100, Danville, CA 94526",
     "projectId": "projectdetail506",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -311,6 +330,7 @@
     "val": "925-743-8000",
     "oldVal": "(408) 307-7806",
     "projectId": "projectdetail506",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   }
 ]

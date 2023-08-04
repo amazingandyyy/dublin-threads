@@ -52,7 +52,8 @@
       }
     },
     "projectId": "projectdetail156",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -63,7 +64,8 @@
     "val": "Jordan Ranch - Neighborhood 6 (Kingswood)",
     "oldVal": "Jordan Ranch – Neighborhood 6 (Kingswood)",
     "projectId": "projectdetail156",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -76,7 +78,8 @@
     "val": "(925) 683-7782",
     "oldVal": "925.683.7782",
     "projectId": "projectdetail156",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -87,7 +90,8 @@
     ],
     "val": "2,310 - 2,440 square feet",
     "projectId": "projectdetail156",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -98,7 +102,8 @@
     ],
     "val": "N/A FAR",
     "projectId": "projectdetail156",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -109,7 +114,8 @@
     ],
     "val": "3 stories / 39 feet",
     "projectId": "projectdetail156",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -120,7 +126,8 @@
     "val": "Neighborhood 6 (Kingswood) is within the overall Jordan Ranch project and is being developed by Landsea Holding Corp. At buildout, the project will contain 109 units of townhomes and flats. The buildings are located on either side of a 2.7 acre Neighborhood Square.",
     "oldVal": "Neighborhood 6 (Kingswood) is within the overall Jordan Ranch project and is being developed by Landsea Holding Corp. At buildout, the project will contain 109 units of townhomes and flats.",
     "projectId": "projectdetail156",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -132,7 +139,8 @@
     "val": 37.709235,
     "oldVal": 37.7097901,
     "projectId": "projectdetail156",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -144,7 +152,8 @@
     "val": -121.843647,
     "oldVal": -121.8676244,
     "projectId": "projectdetail156",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -156,7 +165,8 @@
     "val": "Jordan Ranch - Neighborhood 6 (Kingswood)",
     "oldVal": "Jordan Ranch – Neighborhood 6 (Kingswood)",
     "projectId": "projectdetail156",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -214,6 +224,7 @@
       }
     },
     "projectId": "projectdetail156",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:delete"
   }
 ]

@@ -52,7 +52,8 @@
       }
     },
     "projectId": "projectdetail935",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -65,7 +66,8 @@
     "val": "Yang Zhang, GH PacVest, LLC",
     "oldVal": "Haiyang He, GH PacVest, LLC",
     "projectId": "projectdetail935",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -78,7 +80,8 @@
     "val": "(925) 997-6812",
     "oldVal": "(925) 261-3881",
     "projectId": "projectdetail935",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -91,7 +94,8 @@
     "val": "Jessica Zhang, GH PacVest, LLC",
     "oldVal": "Yang Zhang, GH PacVest, LLC",
     "projectId": "projectdetail935",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -104,7 +108,8 @@
     "val": "Planning Division",
     "oldVal": "Mandy Kang - Senior Planner",
     "projectId": "projectdetail935",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -117,7 +122,8 @@
     "val": "",
     "oldVal": "mandy.kang@dublin.ca.gov",
     "projectId": "projectdetail935",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -129,7 +135,8 @@
     "val": "shoppingCart",
     "oldVal": "dot",
     "projectId": "projectdetail935",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -184,6 +191,7 @@
       }
     },
     "projectId": "projectdetail935",
-    "timestamp": "1618802901000"
+    "timestamp": "1618802901000",
+    "type": "developments:delete"
   }
 ]

@@ -63,7 +63,8 @@
       }
     },
     "projectId": "projectdetail150",
-    "timestamp": "1476241401000"
+    "timestamp": "1476241401000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -76,7 +77,8 @@
     "val": "Martha Battaglia - Associate Planner",
     "oldVal": "Martha Aja - Associate Planner",
     "projectId": "projectdetail150",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -89,7 +91,8 @@
     "val": "martha.battaglia@dublin.ca.gov",
     "oldVal": "martha.aja@dublin.ca.gov",
     "projectId": "projectdetail150",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -100,7 +103,8 @@
     "val": "Dublin Boulevard",
     "oldVal": "9430 Dublin Canyon Road",
     "projectId": "projectdetail150",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -112,7 +116,8 @@
     "val": 37.704676,
     "oldVal": 37.700928,
     "projectId": "projectdetail150",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -124,7 +129,8 @@
     "val": -121.983341,
     "oldVal": -121.978227,
     "projectId": "projectdetail150",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -137,7 +143,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SCHAEFER-RANCH-UNIT-3-SDR-2-Plan-1.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/SCHAEFER-RANCH-UNIT-3-SDR-2-Plan-1.jpg",
     "projectId": "projectdetail150",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -150,7 +157,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SCHAEFER-RANCH-UNIT-3-SDR-2-Plan-1-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/SCHAEFER-RANCH-UNIT-3-SDR-2-Plan-1-150x150.jpg",
     "projectId": "projectdetail150",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -163,7 +171,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SCHAEFER-RANCH-UNIT-3-SDR-Street-scene.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/SCHAEFER-RANCH-UNIT-3-SDR-Street-scene.jpg",
     "projectId": "projectdetail150",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -176,7 +185,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SCHAEFER-RANCH-UNIT-3-SDR-Street-scene-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/SCHAEFER-RANCH-UNIT-3-SDR-Street-scene-150x150.jpg",
     "projectId": "projectdetail150",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -189,7 +199,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Schaefer-Ranch-Unit-3-VTPM.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Schaefer-Ranch-Unit-3-VTPM.jpg",
     "projectId": "projectdetail150",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -202,7 +213,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Schaefer-Ranch-Unit-3-VTPM-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Schaefer-Ranch-Unit-3-VTPM-150x150.jpg",
     "projectId": "projectdetail150",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -215,7 +227,8 @@
     "val": "Robert Smith - Associate Planner",
     "oldVal": "Martha Battaglia - Associate Planner",
     "projectId": "projectdetail150",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -228,7 +241,8 @@
     "val": "robert.smith@dublin.ca.gov",
     "oldVal": "martha.battaglia@dublin.ca.gov",
     "projectId": "projectdetail150",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -240,7 +254,8 @@
     "val": "home",
     "oldVal": "dot",
     "projectId": "projectdetail150",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -253,7 +268,8 @@
     "val": "Amy Million - Principal Planner",
     "oldVal": "Robert Smith - Associate Planner",
     "projectId": "projectdetail150",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -266,7 +282,8 @@
     "val": "amy.million@dublin.ca.gov",
     "oldVal": "robert.smith@dublin.ca.gov",
     "projectId": "projectdetail150",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -277,7 +294,8 @@
     "val": "The Schaefer Unit 3 project included approval of a General Plan Amendment and Planned Development Zoning with a related Stage 1 and Stage 2 Development Plan to change the land use designation and zoning of 17.30 acres designated as Estate Residential and originally approved for 6 residential estate lots and common areas, to 7.04 acres designated as Single-Family Residential for 18 single-family detached homes and 10.26 acres designated as Open Space. This proposal results in a total of 418 homes (a net increase of 12 homes) within the Schaefer Ranch project. The application also included a Site Development Review Permit and Vesting Tentative Map for the proposed homes on the 18 lots.",
     "oldVal": "The Schaefer Unit 3 project included approval of a General Plan Amendment and Planned Development Zoning with a related Stage 1 and Stage 2 Development Plan to change the land use designation and zoning of 17.30 acres designated as Estate Residential and originally approved for 6 residential estate lots and common areas, to 7.04 acres designated as Single-Family Residential for 18 single-family detached homes and 10.26 acres designated as Open Space. This proposal results in a total of 418 homes (a net increase of 12 homes) within the Schaefer Ranch project. The application also included a Site Development Review Permit and Vesting Tentative Map for the proposed homes on the 18 lots. The project was approved by the City Council on June 21, 2016.",
     "projectId": "projectdetail150",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -290,7 +308,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Schaefer-Ranch-Unit-3-VTPM.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SCHAEFER-RANCH-UNIT-3-SDR-2-Plan-1.jpg",
     "projectId": "projectdetail150",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -303,7 +322,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Schaefer-Ranch-Unit-3-VTPM-150x150.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SCHAEFER-RANCH-UNIT-3-SDR-2-Plan-1-150x150.jpg",
     "projectId": "projectdetail150",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -317,7 +337,8 @@
       "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/SCHAEFER-RANCH-UNIT-3-SDR-Street-scene-150x150.jpg"
     },
     "projectId": "projectdetail150",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -331,6 +352,7 @@
       "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Schaefer-Ranch-Unit-3-VTPM-150x150.jpg"
     },
     "projectId": "projectdetail150",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:delete"
   }
 ]

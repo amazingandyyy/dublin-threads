@@ -51,7 +51,8 @@
       }
     },
     "projectId": "projectdetail1470",
-    "timestamp": "1651972572000"
+    "timestamp": "1651972572000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -65,7 +66,8 @@
       "url": "https://d3n9y02raazwpg.cloudfront.net/dublin/75bf016c-ca4c-11ec-bbb4-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1652304363.pdf"
     },
     "projectId": "projectdetail1470",
-    "timestamp": "1653780755000"
+    "timestamp": "1653780755000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -79,7 +81,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/04/Car-Wash-Community-Meeting-Presentation.pdf"
     },
     "projectId": "projectdetail1470",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -93,7 +96,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/39bb3853b5361f050b40673f2aad3c270.pdf"
     },
     "projectId": "projectdetail1470",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -107,7 +111,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/e1669a28ac2027dd12ec40d757df28d50.pdf"
     },
     "projectId": "projectdetail1470",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -118,7 +123,8 @@
     "val": "Pubic Hearing",
     "oldVal": "Application Under Review",
     "projectId": "projectdetail1470",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -132,7 +138,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/d9ece6b16490b798610c458ed92246950.pdf"
     },
     "projectId": "projectdetail1470",
-    "timestamp": "1669687718000"
+    "timestamp": "1669687718000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -143,7 +150,8 @@
     "val": "Final Action",
     "oldVal": "Pubic Hearing",
     "projectId": "projectdetail1470",
-    "timestamp": "1669687718000"
+    "timestamp": "1669687718000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -156,7 +164,8 @@
     "val": "Gaspare Annibale - Associate Planner",
     "oldVal": "Amy Million - Principal Planner",
     "projectId": "projectdetail1470",
-    "timestamp": "1679857046000"
+    "timestamp": "1679857046000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -169,6 +178,7 @@
     "val": "gaspare.annibale@dublin.ca.gov",
     "oldVal": "amy.million@dublin.ca.gov",
     "projectId": "projectdetail1470",
-    "timestamp": "1679857046000"
+    "timestamp": "1679857046000",
+    "type": "developments:update"
   }
 ]

@@ -60,7 +60,8 @@
       }
     },
     "projectId": "projectdetail1525",
-    "timestamp": "1660778458000"
+    "timestamp": "1660778458000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -73,7 +74,8 @@
     "val": "Linda Ajello - Senior Planner",
     "oldVal": "Michael P. Cass - Principal Planner",
     "projectId": "projectdetail1525",
-    "timestamp": "1664716746000"
+    "timestamp": "1664716746000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -86,7 +88,8 @@
     "val": "linda.ajello@dublin.ca.gov",
     "oldVal": "michael.cass@dublin.ca.gov",
     "projectId": "projectdetail1525",
-    "timestamp": "1664716746000"
+    "timestamp": "1664716746000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -149,6 +152,7 @@
       }
     },
     "projectId": "projectdetail1525",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:delete"
   }
 ]

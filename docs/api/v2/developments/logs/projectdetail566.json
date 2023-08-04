@@ -61,7 +61,8 @@
       }
     },
     "projectId": "projectdetail566",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -72,7 +73,8 @@
     "val": "Randeri 7400 Amador Valley Boulevard SDR",
     "oldVal": "7400 Amador Valley Boulevard SDR",
     "projectId": "projectdetail566",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -85,7 +87,8 @@
     "val": "Anne Wong - Assistant Planner",
     "oldVal": "Amy Million - Principal Planner",
     "projectId": "projectdetail566",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -98,7 +101,8 @@
     "val": "anne.wong@dublin.ca.gov",
     "oldVal": "amy.million@dublin.ca.gov",
     "projectId": "projectdetail566",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -111,7 +115,8 @@
     "val": "Planning Commission Staff Report January 28, 2020",
     "oldVal": "Project Plans",
     "projectId": "projectdetail566",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -124,7 +129,8 @@
     "val": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1500&Inline=True",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/7400-Amador-submittal-set-21618.pdf",
     "projectId": "projectdetail566",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -135,7 +141,8 @@
     "val": "Final Action",
     "oldVal": "Application Under Review",
     "projectId": "projectdetail566",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -146,7 +153,8 @@
     "val": "Site Development Review for a new single story 3,578 square foot commercial building with corresponding site improvements.",
     "oldVal": "Site Development Review for a new single story 3,700 square foot commercial building with corresponding site improvements.",
     "projectId": "projectdetail566",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -159,7 +167,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Site-Plan-1.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Site-Plan.png",
     "projectId": "projectdetail566",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -172,7 +181,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Site-Plan-1-150x150.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Site-Plan-150x150.png",
     "projectId": "projectdetail566",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -185,7 +195,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Front-Elevation.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Elevation.png",
     "projectId": "projectdetail566",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -198,7 +209,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Front-Elevation-150x150.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Elevation-150x150.png",
     "projectId": "projectdetail566",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -211,7 +223,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Randeri-Color-Elevation.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Elevation1.png",
     "projectId": "projectdetail566",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -224,7 +237,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Randeri-Color-Elevation-150x150.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Elevation1-150x150.png",
     "projectId": "projectdetail566",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -236,7 +250,8 @@
     "val": "building",
     "oldVal": "dot",
     "projectId": "projectdetail566",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -248,7 +263,8 @@
     "val": "Randeri 7400 Amador Valley Boulevard SDR",
     "oldVal": "7400 Amador Valley Boulevard SDR",
     "projectId": "projectdetail566",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -312,6 +328,7 @@
       }
     },
     "projectId": "projectdetail566",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:delete"
   }
 ]

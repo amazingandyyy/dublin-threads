@@ -39,7 +39,8 @@
       }
     },
     "projectId": "projectdetail77",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -50,7 +51,8 @@
     "val": "Valor (Eden Housing Veteran's Project)",
     "oldVal": "Eden Housing Veteran’s Project",
     "projectId": "projectdetail77",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -64,7 +66,8 @@
       "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Valor-Crossing-rendering-with-flag-150x150.jpg"
     },
     "projectId": "projectdetail77",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -76,7 +79,8 @@
     "val": "Valor (Eden Housing Veteran's Project)",
     "oldVal": "Eden Housing Veteran’s Project",
     "projectId": "projectdetail77",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -123,6 +127,7 @@
       }
     },
     "projectId": "projectdetail77",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:delete"
   }
 ]

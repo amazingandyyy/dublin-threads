@@ -43,12 +43,13 @@ exports.normalize = (str) => {
   return str.replace(/\s+/g, ' ').trim()
 }
 
-exports.transformLogs = (diff = [], timestamp) => {
+exports.transformLogs = (diff = [], timestamp, module='') => {
   return diff.map(dif => {
     return {
       ...dif,
       projectId: dif.path ? dif.path[0] : null,
-      timestamp
+      timestamp,
+      type: module ? `${module}:${dif.op}` : dif.op
     }
   })
 }

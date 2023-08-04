@@ -56,7 +56,8 @@
       }
     },
     "projectId": "projectdetail1513",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -68,7 +69,8 @@
     "val": "Pre-Application",
     "oldVal": "Site Development Review Permit",
     "projectId": "projectdetail1513",
-    "timestamp": "1660778458000"
+    "timestamp": "1660778458000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -79,7 +81,8 @@
     "val": "Proposed expansion to an existing 27,237-square-foot commercial tenant space with the addition of 8,552 square feet of new building area for an Asian supermarket and a new 3,187-square-foot outdoor seating area with play area. In addition, the project proposes the remodel of an existing 6,343-square-foot warehouse building at 6600 Golden Gate Drive for additional cold storage, a new trash enclosure, minor parking lot modifications, other site improvements, and façade enhancements.",
     "oldVal": "Proposed expansion to an existing 27,237-square-foot commercial tenant space with the addition of 8,552 square feet of new building area for an Asian supermarket and a new 3,187-square-foot outdoor seating area with play area. In addition, a new trash enclosure, minor parking lot modifications, other site improvements, and façade enhancements are proposed. The Pre-Application also proposes the remodel of an existing 6,343-square-foot warehouse building to be additional cold storage at 6600 Golden Gate Drive.",
     "projectId": "projectdetail1513",
-    "timestamp": "1660778458000"
+    "timestamp": "1660778458000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -91,7 +94,8 @@
     "val": "PLPA-2022-00033",
     "oldVal": "PLPA-2021-00043",
     "projectId": "projectdetail1513",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -103,7 +107,8 @@
     "val": "Site Development Review Permit",
     "oldVal": "Pre-Application",
     "projectId": "projectdetail1513",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -115,7 +120,8 @@
     "val": "09/26/2022",
     "oldVal": "11/05/2021",
     "projectId": "projectdetail1513",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -126,7 +132,8 @@
     "val": "Application Under Review",
     "oldVal": "Pre-Application",
     "projectId": "projectdetail1513",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -139,7 +146,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-143.png",
     "projectId": "projectdetail1513",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -152,7 +160,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations-150x150.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-143-150x150.png",
     "projectId": "projectdetail1513",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -165,7 +174,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Site-Plan.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-142.png",
     "projectId": "projectdetail1513",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -178,7 +188,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Site-Plan-150x150.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-142-150x150.png",
     "projectId": "projectdetail1513",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -189,7 +200,8 @@
     "val": "H Mart Supermarket",
     "oldVal": "H Mart Asian Supermarket",
     "projectId": "projectdetail1513",
-    "timestamp": "1669687718000"
+    "timestamp": "1669687718000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -201,7 +213,8 @@
     "val": "H Mart Supermarket",
     "oldVal": "H Mart Asian Supermarket",
     "projectId": "projectdetail1513",
-    "timestamp": "1669687718000"
+    "timestamp": "1669687718000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -213,7 +226,8 @@
     "val": "10.51 acres",
     "oldVal": "10.09 acres",
     "projectId": "projectdetail1513",
-    "timestamp": "1675188073000"
+    "timestamp": "1675188073000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -225,7 +239,8 @@
     "val": "143,329 square feet",
     "oldVal": "146,516 square feet",
     "projectId": "projectdetail1513",
-    "timestamp": "1675188073000"
+    "timestamp": "1675188073000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -237,7 +252,8 @@
     "val": "0.31 FAR",
     "oldVal": "0.33 FAR",
     "projectId": "projectdetail1513",
-    "timestamp": "1675188073000"
+    "timestamp": "1675188073000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -249,7 +265,8 @@
     "val": "484 parking spaces",
     "oldVal": "487 parking spaces",
     "projectId": "projectdetail1513",
-    "timestamp": "1675188073000"
+    "timestamp": "1675188073000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -262,7 +279,8 @@
     "val": "Jae Yong Kwak",
     "oldVal": "Henry Kwon",
     "projectId": "projectdetail1513",
-    "timestamp": "1675188073000"
+    "timestamp": "1675188073000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -275,7 +293,8 @@
     "val": "11966 Washington Boulevard, Whittier, CA 90606",
     "oldVal": "1300 Dove Street, Suite 100, Newport Beach, CA 92660",
     "projectId": "projectdetail1513",
-    "timestamp": "1675188073000"
+    "timestamp": "1675188073000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -288,7 +307,8 @@
     "val": "(562) 318-3977",
     "oldVal": "(949) 698-1403",
     "projectId": "projectdetail1513",
-    "timestamp": "1675188073000"
+    "timestamp": "1675188073000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -302,7 +322,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/f345a8ac673614b016fb57471cd7c5af0.pdf"
     },
     "projectId": "projectdetail1513",
-    "timestamp": "1675188073000"
+    "timestamp": "1675188073000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -313,7 +334,8 @@
     "val": "Final Action",
     "oldVal": "Application Under Review",
     "projectId": "projectdetail1513",
-    "timestamp": "1675188073000"
+    "timestamp": "1675188073000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -324,6 +346,7 @@
     "val": "H Mart proposes an expansion to an existing 27,237 square foot commercial tenant space to construct an 8,552 square foot addition for a food hall, 3,187 square foot outdoor seating area with play area, façade modifications, new trash enclosure and related site improvements at 7884 Dublin Boulevard, and repaint the existing warehouse building at 6600 Golden Gate Drive for additional cold storage.",
     "oldVal": "Proposed expansion to an existing 27,237-square-foot commercial tenant space with the addition of 8,552 square feet of new building area for an Asian supermarket and a new 3,187-square-foot outdoor seating area with play area. In addition, the project proposes the remodel of an existing 6,343-square-foot warehouse building at 6600 Golden Gate Drive for additional cold storage, a new trash enclosure, minor parking lot modifications, other site improvements, and façade enhancements.",
     "projectId": "projectdetail1513",
-    "timestamp": "1675188073000"
+    "timestamp": "1675188073000",
+    "type": "developments:update"
   }
 ]

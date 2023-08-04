@@ -2,8 +2,8 @@
 
 import Head from 'next/head'
 import { useEffect } from 'react'
-import { fetchDevelopments } from '@/utils'
-import { useThreadStore } from '@/stores'
+import { fetchDevelopments, fetchMeetings } from '@/utils'
+import { useThreadStore, useMeetingsStore } from '@/stores'
 import Script from 'next/script'
 import Hotjar from '@hotjar/browser'
 import './globals.scss'
@@ -15,10 +15,16 @@ export default function RootLayout ({ children }) {
   }, [])
 
   useEffect(() => {
+    fetchMeetings('/all.json')
+      .then(res => res.json())
+      .then(data => {
+        console.log('fetching meetings', data[0])
+        useMeetingsStore.getState().update(data)
+      })
     fetchDevelopments('/logs/global.json')
       .then(res => res.json())
       .then(data => {
-        console.log('fetching global', data)
+        console.log('fetching developments event', data[0])
         useThreadStore.getState().update(data)
       })
   }, [])

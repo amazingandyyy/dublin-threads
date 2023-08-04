@@ -44,7 +44,8 @@
       }
     },
     "projectId": "projectdetail109",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "delete",
@@ -59,7 +60,8 @@
       "email": "marnie.delgado@dublin.ca.gov"
     },
     "projectId": "projectdetail109",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:delete"
   },
   {
     "op": "update",
@@ -72,7 +74,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/DGMC-Hospital.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/DGMC-Hospital.jpg",
     "projectId": "projectdetail109",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -85,7 +88,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/DGMC-Hospital-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/DGMC-Hospital-150x150.jpg",
     "projectId": "projectdetail109",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -127,6 +131,7 @@
       }
     },
     "projectId": "projectdetail109",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:delete"
   }
 ]

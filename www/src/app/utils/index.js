@@ -21,7 +21,10 @@ const fetchDevelopments = (path) => {
 }
 
 function timeSince (date) {
-  const seconds = Math.floor((new Date() - date) / 1000)
+  let seconds = Math.floor((new Date() - date) / 1000)
+  if(seconds < 0) {
+    seconds = Math.floor((date - new Date()) / 1000)
+  }
   let interval = seconds / 31536000
   if (interval > 1) {
     return Math.floor(interval) + ' years'

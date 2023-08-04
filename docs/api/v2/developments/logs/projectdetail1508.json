@@ -47,7 +47,8 @@
       }
     },
     "projectId": "projectdetail1508",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -59,7 +60,8 @@
     "val": "Pre-Application",
     "oldVal": "Planned Development Rezone and Site Development Review Permit",
     "projectId": "projectdetail1508",
-    "timestamp": "1660778458000"
+    "timestamp": "1660778458000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -70,7 +72,8 @@
     "val": "Proposed redevelopment of 11711 Dublin Boulevard that would demolish an existing 62,800-square-foot research and development building and construct a new 123,750-square-foot light industrial, advanced manufacturing and warehouse building with 263 parking stalls and related site improvements.",
     "oldVal": "Proposed redevelopment of 11711 Dublin Boulevard that would demolish an existing 56,054-square-foot research and development building and construct a new 123,750-square-foot light industrial, advanced manufacturing and warehouse building with 263 parking stalls and related site improvements.",
     "projectId": "projectdetail1508",
-    "timestamp": "1660778458000"
+    "timestamp": "1660778458000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -82,7 +85,8 @@
     "val": "PLPA-2022-00038",
     "oldVal": "PLPA-2022-00009",
     "projectId": "projectdetail1508",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -94,7 +98,8 @@
     "val": "Planned Development Rezone and Site Development Review Permit",
     "oldVal": "Pre-Application",
     "projectId": "projectdetail1508",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -106,7 +111,8 @@
     "val": "10/18/2022",
     "oldVal": "06/13/2022",
     "projectId": "projectdetail1508",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -118,7 +124,8 @@
     "val": "125,304 square feet",
     "oldVal": "123,750 square feet",
     "projectId": "projectdetail1508",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -130,7 +137,8 @@
     "val": "0.34 FAR",
     "oldVal": "0.32 FAR",
     "projectId": "projectdetail1508",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -142,7 +150,8 @@
     "val": "227 parking spaces",
     "oldVal": "263 parking spaces",
     "projectId": "projectdetail1508",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -155,7 +164,8 @@
     "val": "Teresa Goodwin",
     "oldVal": "Will McPhee",
     "projectId": "projectdetail1508",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -168,7 +178,8 @@
     "val": "600 Grand Avenue, Ste 302, Oakland, CA 94610",
     "oldVal": "19700 S. Vermont Avenue, Suite 101, Torrance, CA 90502",
     "projectId": "projectdetail1508",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -181,7 +192,8 @@
     "val": "(949) 862-2111",
     "oldVal": "(310) 707-3327",
     "projectId": "projectdetail1508",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -192,7 +204,8 @@
     ],
     "val": "40 feet",
     "projectId": "projectdetail1508",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -203,7 +216,8 @@
     "val": "Application Under Review",
     "oldVal": "Pre-Application",
     "projectId": "projectdetail1508",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -214,7 +228,8 @@
     "val": "Proposed redevelopment of 11711 Dublin Boulevard that would demolish an existing 62,715 square-foot research and development building and construct a new 125,304 square-foot light industrial, advanced manufacturing and life sciences building with 227 parking stalls and related site improvements.",
     "oldVal": "Proposed redevelopment of 11711 Dublin Boulevard that would demolish an existing 62,800-square-foot research and development building and construct a new 123,750-square-foot light industrial, advanced manufacturing and warehouse building with 263 parking stalls and related site improvements.",
     "projectId": "projectdetail1508",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -227,7 +242,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Street-View-Rendering.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-141.png",
     "projectId": "projectdetail1508",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -240,7 +256,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Street-View-Rendering-150x150.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-141-150x150.png",
     "projectId": "projectdetail1508",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -254,7 +271,8 @@
       "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations-1-150x150.png"
     },
     "projectId": "projectdetail1508",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -268,7 +286,8 @@
       "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Site-Plan-1-150x150.png"
     },
     "projectId": "projectdetail1508",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -282,7 +301,8 @@
       "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape-Plan-1-150x150.png"
     },
     "projectId": "projectdetail1508",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -296,7 +316,8 @@
       "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape-Plan-2-150x150.png"
     },
     "projectId": "projectdetail1508",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -308,7 +329,8 @@
     "val": "Planned Development Rezone, Site Development Review Permit and Heritage Tree Removal Permit",
     "oldVal": "Planned Development Rezone and Site Development Review Permit",
     "projectId": "projectdetail1508",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -320,7 +342,8 @@
     "val": "8.95 acres",
     "oldVal": "8.81 acres",
     "projectId": "projectdetail1508",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -332,7 +355,8 @@
     "val": "0.32 FAR",
     "oldVal": "0.34 FAR",
     "projectId": "projectdetail1508",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -345,7 +369,8 @@
     "val": "Jennifer Freedman",
     "oldVal": "Teresa Goodwin",
     "projectId": "projectdetail1508",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -358,7 +383,8 @@
     "val": "19700 S. Vermont Avenue, Torrance, CA 90502",
     "oldVal": "600 Grand Avenue, Ste 302, Oakland, CA 94610",
     "projectId": "projectdetail1508",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -371,7 +397,8 @@
     "val": "(310) 354-3460",
     "oldVal": "(949) 862-2111",
     "projectId": "projectdetail1508",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -382,7 +409,8 @@
     "val": "Overton Moore Properties proposes to redevelop a 8.95 acre site located at 11711 Dublin Boulevard. The project would demolish an existing 62,715 square-foot research and development building and construct a new 125,304 square-foot light industrial, advanced manufacturing and life sciences building with 227 parking stalls and related site improvements. Requested approvals include a Planned Development Rezone with a related Stage 1 and Stage 2 Development Plan, Site Development Review Permit and Heritage Tree Removal Permit.",
     "oldVal": "Proposed redevelopment of 11711 Dublin Boulevard that would demolish an existing 62,715 square-foot research and development building and construct a new 125,304 square-foot light industrial, advanced manufacturing and life sciences building with 227 parking stalls and related site improvements.",
     "projectId": "projectdetail1508",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -395,7 +423,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Front-Rendering.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Street-View-Rendering.png",
     "projectId": "projectdetail1508",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -408,7 +437,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Front-Rendering-150x150.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Street-View-Rendering-150x150.png",
     "projectId": "projectdetail1508",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -421,7 +451,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations-2.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations-1.png",
     "projectId": "projectdetail1508",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -434,7 +465,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations-2-150x150.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations-1-150x150.png",
     "projectId": "projectdetail1508",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -447,7 +479,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Site-Plan-2.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Site-Plan-1.png",
     "projectId": "projectdetail1508",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -460,7 +493,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Site-Plan-2-150x150.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Site-Plan-1-150x150.png",
     "projectId": "projectdetail1508",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -473,7 +507,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape-1.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape-Plan-1.png",
     "projectId": "projectdetail1508",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -486,7 +521,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape-1-150x150.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape-Plan-1-150x150.png",
     "projectId": "projectdetail1508",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -499,7 +535,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape-2.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape-Plan-2.png",
     "projectId": "projectdetail1508",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -512,7 +549,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape-2-150x150.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape-Plan-2-150x150.png",
     "projectId": "projectdetail1508",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -524,7 +562,8 @@
     "val": "8.81 acres",
     "oldVal": "8.95 acres",
     "projectId": "projectdetail1508",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -536,7 +575,8 @@
     "val": "0.33 FAR",
     "oldVal": "0.32 FAR",
     "projectId": "projectdetail1508",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -548,7 +588,8 @@
     "val": "217 parking spaces",
     "oldVal": "227 parking spaces",
     "projectId": "projectdetail1508",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -562,7 +603,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Notice-of-Preparation-NOP.pdf"
     },
     "projectId": "projectdetail1508",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -576,7 +618,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Notice-of-Scoping-Meeting.pdf"
     },
     "projectId": "projectdetail1508",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -587,7 +630,8 @@
     "val": "Overton Moore Properties proposes to redevelop a 8.81 acre site located at 11711 Dublin Boulevard. The project would demolish an existing 62,715 square-foot research and development building and construct a new 125,304 square-foot light industrial, advanced manufacturing and life sciences building with 217 parking stalls and related site improvements. Requested approvals include a Planned Development Rezone with a related Stage 1 and Stage 2 Development Plan, Site Development Review Permit and Heritage Tree Removal Permit.",
     "oldVal": "Overton Moore Properties proposes to redevelop a 8.95 acre site located at 11711 Dublin Boulevard. The project would demolish an existing 62,715 square-foot research and development building and construct a new 125,304 square-foot light industrial, advanced manufacturing and life sciences building with 227 parking stalls and related site improvements. Requested approvals include a Planned Development Rezone with a related Stage 1 and Stage 2 Development Plan, Site Development Review Permit and Heritage Tree Removal Permit.",
     "projectId": "projectdetail1508",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -600,7 +644,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-244.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Site-Plan-2.png",
     "projectId": "projectdetail1508",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -613,7 +658,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-244-150x150.png",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Site-Plan-2-150x150.png",
     "projectId": "projectdetail1508",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -627,7 +673,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Notice-of-Preparation-NOP.pdf"
     },
     "projectId": "projectdetail1508",
-    "timestamp": "1689109200000"
+    "timestamp": "1689109200000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -641,6 +688,7 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Notice-of-Scoping-Meeting.pdf"
     },
     "projectId": "projectdetail1508",
-    "timestamp": "1689109200000"
+    "timestamp": "1689109200000",
+    "type": "developments:delete"
   }
 ]

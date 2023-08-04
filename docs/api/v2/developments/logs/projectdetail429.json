@@ -70,7 +70,8 @@
       }
     },
     "projectId": "projectdetail429",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -83,7 +84,8 @@
     "val": "Erik Steiner, UDR, Inc.",
     "oldVal": "Kirsty Greer, UDR, Inc.",
     "projectId": "projectdetail429",
-    "timestamp": "1495652949000"
+    "timestamp": "1495652949000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -96,7 +98,8 @@
     "val": "(720) 283-2461",
     "oldVal": "(720) 348-7605",
     "projectId": "projectdetail429",
-    "timestamp": "1495652949000"
+    "timestamp": "1495652949000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -107,7 +110,8 @@
     "val": "Dublin Station Site A-3 is located within the Dublin Transit Center. The proposed Dublin Station apartment complex is comprised of up to a 225-unit apartment building with structured parking on 2.4 acres. At it’s tallest point, the building is 5 stories over two levels of parking. The project also includes site improvements, landscaping and frontage streetscape improvements along DeMarcus Boulevard and Campbell Lane.",
     "oldVal": "Dublin Station Site A-3 is located within the Dublin Transit Center. The proposed Dublin Station apartment complex is comprised of a 218-unit apartment building with structured parking on 2.4 acres. At it’s tallest point, the building is 5 stories over two levels of parking. The project also includes site improvements, landscaping and frontage streetscape improvements along DeMarcus Boulevard and Campbell Lane.",
     "projectId": "projectdetail429",
-    "timestamp": "1495652949000"
+    "timestamp": "1495652949000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -180,6 +184,7 @@
       }
     },
     "projectId": "projectdetail429",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:delete"
   }
 ]

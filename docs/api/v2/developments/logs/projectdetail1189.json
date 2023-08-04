@@ -88,7 +88,8 @@
       }
     },
     "projectId": "projectdetail1189",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -102,7 +103,8 @@
       "url": "https://legistarweb-production.s3.amazonaws.com/uploads/attachment/pdf/901881/Staff_Report__19___1_.pdf"
     },
     "projectId": "projectdetail1189",
-    "timestamp": "1620311986000"
+    "timestamp": "1620311986000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -116,7 +118,8 @@
       "url": "https://citydocs.dublin.ca.gov/WebLink/DocView.aspx?id=769661&cr=1"
     },
     "projectId": "projectdetail1189",
-    "timestamp": "1620311986000"
+    "timestamp": "1620311986000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -127,7 +130,8 @@
     "val": "Application Under Review",
     "oldVal": "Planning Application Submitted",
     "projectId": "projectdetail1189",
-    "timestamp": "1620311986000"
+    "timestamp": "1620311986000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -138,7 +142,8 @@
     "val": "The Applicant, Trumark Homes, LLC, filed a Stage II Planned Development and Vesting Tentative Parcel Map Application for the development of 165.5-acre site with a 573-unit residential project within six neighborhoods (including two options for 108 Medium Density Residential units as either market rate or age-qualified and 465 Low-Density Single-Family Residential units), two neighborhood parks 11.5 acres, and a two-acre Semi-Public Site. The proposed development includes seven home programs, ranging from three to ten units per acre, and designed with four architecture styles: Traditional Farmhouse, Modern Farmhouse, California Revival, and Contemporary, as shown in the project plans. The use of the Semi-Public Site has not been determined.",
     "oldVal": "The Applicant, Trumark Homes, LLC, filed a Stage II Planned Development and Vesting Tentative Parcel Map Application for the development of a 573-unit residential project (including 108 Medium Density Residential units and 465 Low-Density Single-Family Residential units), as well as 11.5 acres of public parks, a 2.6-acre Amenity Site, and a two-acre Semi-Public Site. The proposed development includes seven home programs, ranging from three to ten units per acre. The proposed development is designed with four architecture styles: Traditional Farmhouse, Modern Farmhouse, California Revival, and Contemporary, as shown in the project plans. The use of the Semi-Public Site has not been determined.",
     "projectId": "projectdetail1189",
-    "timestamp": "1620311986000"
+    "timestamp": "1620311986000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -151,7 +156,8 @@
     "val": "Amy Million - Principal Planner",
     "oldVal": "Robert Smith - Associate Planner",
     "projectId": "projectdetail1189",
-    "timestamp": "1623808635000"
+    "timestamp": "1623808635000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -164,7 +170,8 @@
     "val": "amy.million@dublin.ca.gov",
     "oldVal": "robert.smith@dublin.ca.gov",
     "projectId": "projectdetail1189",
-    "timestamp": "1623808635000"
+    "timestamp": "1623808635000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -176,7 +183,8 @@
     "val": "Stage II Planned Development and Vesting Tentative Tract Map",
     "oldVal": "Stage II Planned Development and Vesting Tentative Parcel Map",
     "projectId": "projectdetail1189",
-    "timestamp": "1627584632000"
+    "timestamp": "1627584632000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -187,7 +195,8 @@
     "val": "The Applicant, Trumark Homes, LLC, filed a Stage II Planned Development and Vesting Tentative Tract Map Application for the development of 165.5-acre site with a 573-unit residential project within six neighborhoods (including two options for 108 Medium Density Residential units as either market rate or age-qualified and 465 Low-Density Single-Family Residential units), two neighborhood parks 11.5 acres, and a two-acre Semi-Public Site. The proposed development includes seven home programs, ranging from three to ten units per acre, and designed with four architecture styles: Traditional Farmhouse, Modern Farmhouse, California Revival, and Contemporary, as shown in the project plans. The use of the Semi-Public Site has not been determined.",
     "oldVal": "The Applicant, Trumark Homes, LLC, filed a Stage II Planned Development and Vesting Tentative Parcel Map Application for the development of 165.5-acre site with a 573-unit residential project within six neighborhoods (including two options for 108 Medium Density Residential units as either market rate or age-qualified and 465 Low-Density Single-Family Residential units), two neighborhood parks 11.5 acres, and a two-acre Semi-Public Site. The proposed development includes seven home programs, ranging from three to ten units per acre, and designed with four architecture styles: Traditional Farmhouse, Modern Farmhouse, California Revival, and Contemporary, as shown in the project plans. The use of the Semi-Public Site has not been determined.",
     "projectId": "projectdetail1189",
-    "timestamp": "1627584632000"
+    "timestamp": "1627584632000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -199,7 +208,8 @@
     "val": "Stage II Planned Development, Vesting Tentative Tract Map and Heritage Tree Permit",
     "oldVal": "Stage II Planned Development and Vesting Tentative Tract Map",
     "projectId": "projectdetail1189",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -212,7 +222,8 @@
     "val": "Pam Nieting, Trumark Homes, LLC",
     "oldVal": "Trumark Homes, LLC",
     "projectId": "projectdetail1189",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -226,7 +237,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/East-Ranch-Development-Community-Mtg1.pdf"
     },
     "projectId": "projectdetail1189",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -237,7 +249,8 @@
     "val": "The Applicant, Trumark Homes, LLC, filed a Stage II Planned Development, Vesting Tentative Tract Map and Heritage Tree Removal Permit Application for the development of 165.5-acre site with a 573-unit residential project within six neighborhoods (including two options for 108 Medium Density Residential units as either market rate or age-qualified and 473 Low-Density Single-Family Residential units), two neighborhood parks 11.5 acres, and a two-acre Semi-Public Site. The proposed development includes seven home programs, ranging from three to ten units per acre, and designed with four architecture styles: Traditional Farmhouse, Modern Farmhouse, California Revival, and Contemporary, as shown in the project plans. The use of the Semi-Public Site has not been determined.",
     "oldVal": "The Applicant, Trumark Homes, LLC, filed a Stage II Planned Development and Vesting Tentative Tract Map Application for the development of 165.5-acre site with a 573-unit residential project within six neighborhoods (including two options for 108 Medium Density Residential units as either market rate or age-qualified and 465 Low-Density Single-Family Residential units), two neighborhood parks 11.5 acres, and a two-acre Semi-Public Site. The proposed development includes seven home programs, ranging from three to ten units per acre, and designed with four architecture styles: Traditional Farmhouse, Modern Farmhouse, California Revival, and Contemporary, as shown in the project plans. The use of the Semi-Public Site has not been determined.",
     "projectId": "projectdetail1189",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -250,7 +263,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Illustrative-Site-Plan-scaled.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Images-from-PDII.jpg",
     "projectId": "projectdetail1189",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -263,7 +277,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Illustrative-Site-Plan-150x150.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Images-from-PDII-150x150.jpg",
     "projectId": "projectdetail1189",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -276,7 +291,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/NH-Plan-scaled.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide4-e1595876690540.jpg",
     "projectId": "projectdetail1189",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -289,7 +305,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/NH-Plan-150x150.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide4-e1595876690540-150x150.jpg",
     "projectId": "projectdetail1189",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -302,7 +319,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/bicycle-circulation-plan-scaled.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide7.jpg",
     "projectId": "projectdetail1189",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -315,7 +333,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/bicycle-circulation-plan-150x150.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide7-150x150.jpg",
     "projectId": "projectdetail1189",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -328,7 +347,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/N6-3-story.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide13.jpg",
     "projectId": "projectdetail1189",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -341,7 +361,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/N6-3-story-150x150.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide13-150x150.jpg",
     "projectId": "projectdetail1189",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -355,7 +376,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/0536cdebf8ada0b93207f04f3e20f7ed0.pdf"
     },
     "projectId": "projectdetail1189",
-    "timestamp": "1638896136000"
+    "timestamp": "1638896136000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -366,7 +388,8 @@
     "val": "Pubic Hearing",
     "oldVal": "Application Under Review",
     "projectId": "projectdetail1189",
-    "timestamp": "1638896136000"
+    "timestamp": "1638896136000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -380,7 +403,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/e0ed22265d30f31df9d4f12ef67a7bd10.pdf"
     },
     "projectId": "projectdetail1189",
-    "timestamp": "1642594746000"
+    "timestamp": "1642594746000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -394,7 +418,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/cf7cefe3b9c84e70bfe423c052c0907b0.pdf"
     },
     "projectId": "projectdetail1189",
-    "timestamp": "1642594746000"
+    "timestamp": "1642594746000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -405,7 +430,8 @@
     "val": "Final Action",
     "oldVal": "Pubic Hearing",
     "projectId": "projectdetail1189",
-    "timestamp": "1642594746000"
+    "timestamp": "1642594746000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -419,7 +445,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/a8b4ac62e16661653370f225cc2584830.pdf"
     },
     "projectId": "projectdetail1189",
-    "timestamp": "1651972572000"
+    "timestamp": "1651972572000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -433,7 +460,8 @@
       "url": "https://d3n9y02raazwpg.cloudfront.net/dublin/c8312853-3ce4-11ec-a798-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1651093308.pdf"
     },
     "projectId": "projectdetail1189",
-    "timestamp": "1651972572000"
+    "timestamp": "1651972572000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -446,7 +474,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/N6-3-story.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide11.jpg",
     "projectId": "projectdetail1189",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -459,7 +488,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/N6-3-story-150x150.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide11-150x150.jpg",
     "projectId": "projectdetail1189",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -473,7 +503,8 @@
       "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide10-150x150.jpg"
     },
     "projectId": "projectdetail1189",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -487,7 +518,8 @@
       "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide9-150x150.jpg"
     },
     "projectId": "projectdetail1189",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -501,7 +533,8 @@
       "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide8-150x150.jpg"
     },
     "projectId": "projectdetail1189",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -515,7 +548,8 @@
       "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide12-150x150.jpg"
     },
     "projectId": "projectdetail1189",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -529,7 +563,8 @@
       "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/N6-3-story-150x150.jpg"
     },
     "projectId": "projectdetail1189",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:delete"
   },
   {
     "op": "update",
@@ -540,7 +575,8 @@
     "val": "Francis Ranch (East Ranch)",
     "oldVal": "East Ranch (Croak Property)",
     "projectId": "projectdetail1189",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -552,7 +588,8 @@
     "val": "PLPA-2020-00028 and PLPA-2022-00018",
     "oldVal": "PLPA-2020-00028",
     "projectId": "projectdetail1189",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -564,7 +601,8 @@
     "val": "Vesting Tentative Tract Map, Site Development Review Permit and Heritage Tree Permit",
     "oldVal": "Stage II Planned Development, Vesting Tentative Tract Map and Heritage Tree Permit",
     "projectId": "projectdetail1189",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -577,7 +615,8 @@
     "val": "Gaspare Annibale - Associate Planner",
     "oldVal": "Amy Million - Principal Planner",
     "projectId": "projectdetail1189",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -590,7 +629,8 @@
     "val": "gaspare.annibale@dublin.ca.gov",
     "oldVal": "amy.million@dublin.ca.gov",
     "projectId": "projectdetail1189",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -604,7 +644,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/77b811760eed31d35dfbf572050421460.pdf"
     },
     "projectId": "projectdetail1189",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -618,7 +659,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/b5fd52e531bac3e85e83c15545413b0d0.pdf"
     },
     "projectId": "projectdetail1189",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -632,7 +674,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/c0ab37cef79b321e146659fb4ded926c0.pdf"
     },
     "projectId": "projectdetail1189",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -643,7 +686,8 @@
     "val": "The Applicant, Trumark Homes, LLC, filed applications for the development of 165.5-acre site with a 573-unit residential project within six neighborhoods, two neighborhood parks 11.5 acres, and a two-acre Semi-Public Site. The proposed development includes four architecture styles: Traditional Farmhouse, Modern Farmhouse, California Revival, and Contemporary, as shown in the project plans. The design and use of the Semi-Public site has not been determined.",
     "oldVal": "The Applicant, Trumark Homes, LLC, filed a Stage II Planned Development, Vesting Tentative Tract Map and Heritage Tree Removal Permit Application for the development of 165.5-acre site with a 573-unit residential project within six neighborhoods (including two options for 108 Medium Density Residential units as either market rate or age-qualified and 473 Low-Density Single-Family Residential units), two neighborhood parks 11.5 acres, and a two-acre Semi-Public Site. The proposed development includes seven home programs, ranging from three to ten units per acre, and designed with four architecture styles: Traditional Farmhouse, Modern Farmhouse, California Revival, and Contemporary, as shown in the project plans. The use of the Semi-Public Site has not been determined.",
     "projectId": "projectdetail1189",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -655,7 +699,8 @@
     "val": "Francis Ranch (East Ranch)",
     "oldVal": "East Ranch (Croak Property)",
     "projectId": "projectdetail1189",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -668,7 +713,8 @@
     "val": "April 18, 2023 City Council Agenda and Staff Report",
     "oldVal": "April 18, 2023 City Council Meeting",
     "projectId": "projectdetail1189",
-    "timestamp": "1689109200000"
+    "timestamp": "1689109200000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -682,6 +728,7 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/38568ea44223cc13e6b89451a203dd810.pdf"
     },
     "projectId": "projectdetail1189",
-    "timestamp": "1689109200000"
+    "timestamp": "1689109200000",
+    "type": "developments:add"
   }
 ]

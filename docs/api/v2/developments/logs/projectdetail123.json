@@ -56,7 +56,8 @@
       }
     },
     "projectId": "projectdetail123",
-    "timestamp": "1476241401000"
+    "timestamp": "1476241401000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -69,7 +70,8 @@
     "val": "Martha Battaglia - Associate Planner",
     "oldVal": "Martha Aja - Associate Planner",
     "projectId": "projectdetail123",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -82,7 +84,8 @@
     "val": "martha.battaglia@dublin.ca.gov",
     "oldVal": "martha.aja@dublin.ca.gov",
     "projectId": "projectdetail123",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -95,7 +98,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-elevations-1.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-elevations-1.jpg",
     "projectId": "projectdetail123",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -108,7 +112,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-elevations-1-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-elevations-1-150x150.jpg",
     "projectId": "projectdetail123",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -121,7 +126,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-site-plan.jpg.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-site-plan.jpg.jpg",
     "projectId": "projectdetail123",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -134,7 +140,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-site-plan.jpg-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Fountainhead-site-plan.jpg-150x150.jpg",
     "projectId": "projectdetail123",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -147,7 +154,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/solar-arrays.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/solar-arrays.jpg",
     "projectId": "projectdetail123",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -160,7 +168,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/solar-arrays-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/solar-arrays-150x150.jpg",
     "projectId": "projectdetail123",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -173,7 +182,8 @@
     "val": "Robert Smith - Associate Planner",
     "oldVal": "Martha Battaglia - Associate Planner",
     "projectId": "projectdetail123",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -186,7 +196,8 @@
     "val": "robert.smith@dublin.ca.gov",
     "oldVal": "martha.battaglia@dublin.ca.gov",
     "projectId": "projectdetail123",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -198,7 +209,8 @@
     "val": "building",
     "oldVal": "dot",
     "projectId": "projectdetail123",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -211,7 +223,8 @@
     "val": "Planning Division",
     "oldVal": "Robert Smith - Associate Planner",
     "projectId": "projectdetail123",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -224,7 +237,8 @@
     "val": "planningpermits@dublin.ca.gov",
     "oldVal": "robert.smith@dublin.ca.gov",
     "projectId": "projectdetail123",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -283,6 +297,7 @@
       }
     },
     "projectId": "projectdetail123",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:delete"
   }
 ]

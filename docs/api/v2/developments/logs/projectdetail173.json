@@ -55,7 +55,8 @@
       }
     },
     "projectId": "projectdetail173",
-    "timestamp": "1476241401000"
+    "timestamp": "1476241401000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -69,7 +70,8 @@
       "url": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Wanmei.IS_.MND_.03.2016.pdf"
     },
     "projectId": "projectdetail173",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -83,7 +85,8 @@
       "url": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Wanmei.IS_.MND_.Recirculated.10.2016.pdf"
     },
     "projectId": "projectdetail173",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -96,7 +99,8 @@
     "val": "Amy Million - Principal Planner",
     "oldVal": "Marnie R. Delgado - Senior Planner",
     "projectId": "projectdetail173",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -109,7 +113,8 @@
     "val": "amy.million@dublin.ca.gov",
     "oldVal": "marnie.delgado@dublin.ca.gov",
     "projectId": "projectdetail173",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -122,7 +127,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Wanmei.IS_.MND_.03.2016.pdf",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Wanmei.IS_.MND_.03.2016.pdf",
     "projectId": "projectdetail173",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -135,7 +141,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Wanmei.IS_.MND_.Recirculated.10.2016.pdf",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Wanmei.IS_.MND_.Recirculated.10.2016.pdf",
     "projectId": "projectdetail173",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -149,7 +156,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Wanmei-Complete-SR-061317.pdf"
     },
     "projectId": "projectdetail173",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -163,7 +171,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/June-27-SR-Wanmei-Complete-Part-1.pdf"
     },
     "projectId": "projectdetail173",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -177,7 +186,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/June-27-SR-Wanmei-Complete-Part-2.pdf"
     },
     "projectId": "projectdetail173",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -188,7 +198,8 @@
     "val": "Pubic Hearing",
     "oldVal": "Application Under Review",
     "projectId": "projectdetail173",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -201,7 +212,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aerial-Perspective_cropped.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/6237-Tassajara-Rezone.jpg",
     "projectId": "projectdetail173",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -214,7 +226,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aerial-Perspective_cropped-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/6237-Tassajara-Rezone-150x150.jpg",
     "projectId": "projectdetail173",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -227,7 +240,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/6237-Tassajara-Rezone.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aerial-Perspective_cropped.jpg",
     "projectId": "projectdetail173",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -240,7 +254,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/6237-Tassajara-Rezone-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aerial-Perspective_cropped-150x150.jpg",
     "projectId": "projectdetail173",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -253,7 +268,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Colored-Street-Scene_cropped.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Colored-Street-Scene_cropped.jpg",
     "projectId": "projectdetail173",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -266,7 +282,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Colored-Street-Scene_cropped-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Colored-Street-Scene_cropped-150x150.jpg",
     "projectId": "projectdetail173",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -345,6 +362,7 @@
       }
     },
     "projectId": "projectdetail173",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:delete"
   }
 ]

@@ -92,7 +92,8 @@
       }
     },
     "projectId": "projectdetail86",
-    "timestamp": "1476241401000"
+    "timestamp": "1476241401000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -103,7 +104,8 @@
     "val": "The Perch at Downtown Dublin",
     "oldVal": "Trumark-Regional Street",
     "projectId": "projectdetail86",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -115,7 +117,8 @@
     "val": "The Perch at Downtown Dublin",
     "oldVal": "Trumark-Regional Street",
     "projectId": "projectdetail86",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -128,7 +131,8 @@
     "val": "(925) 999-3950",
     "oldVal": "(925) 648-8300",
     "projectId": "projectdetail86",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -141,7 +145,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Perimeter-features.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Perimeter-features.jpg",
     "projectId": "projectdetail86",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -154,7 +159,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Perimeter-features-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Perimeter-features-150x150.jpg",
     "projectId": "projectdetail86",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -167,7 +173,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/7144-regional.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/7144-regional.jpg",
     "projectId": "projectdetail86",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -180,7 +187,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/7144-regional-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/7144-regional-150x150.jpg",
     "projectId": "projectdetail86",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -193,7 +201,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Site-Panweb.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Site-Panweb.jpg",
     "projectId": "projectdetail86",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -206,7 +215,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Site-Panweb-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Site-Panweb-150x150.jpg",
     "projectId": "projectdetail86",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -219,7 +229,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Concept-Landscape.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Concept-Landscape.jpg",
     "projectId": "projectdetail86",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -232,7 +243,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Concept-Landscape-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Concept-Landscape-150x150.jpg",
     "projectId": "projectdetail86",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -245,7 +257,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/LS-amenities.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/LS-amenities.jpg",
     "projectId": "projectdetail86",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -258,7 +271,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/LS-amenities-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/LS-amenities-150x150.jpg",
     "projectId": "projectdetail86",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -271,7 +285,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Eleve-5-plex-rear.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Eleve-5-plex-rear.jpg",
     "projectId": "projectdetail86",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -284,7 +299,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Eleve-5-plex-rear-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Eleve-5-plex-rear-150x150.jpg",
     "projectId": "projectdetail86",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -297,7 +313,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-5-plex.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-5-plex.jpg",
     "projectId": "projectdetail86",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -310,7 +327,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-5-plex-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-5-plex-150x150.jpg",
     "projectId": "projectdetail86",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -323,7 +341,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-6-plex.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-6-plex.jpg",
     "projectId": "projectdetail86",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -336,7 +355,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-6-plex-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-6-plex-150x150.jpg",
     "projectId": "projectdetail86",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -349,7 +369,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-7-plex.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-7-plex.jpg",
     "projectId": "projectdetail86",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -362,7 +383,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-7-plex-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-7-plex-150x150.jpg",
     "projectId": "projectdetail86",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -375,7 +397,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-8-plex.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-8-plex.jpg",
     "projectId": "projectdetail86",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -388,7 +411,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-8-plex-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Elevs-8-plex-150x150.jpg",
     "projectId": "projectdetail86",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -483,6 +507,7 @@
       }
     },
     "projectId": "projectdetail86",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:delete"
   }
 ]

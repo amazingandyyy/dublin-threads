@@ -48,7 +48,8 @@
       }
     },
     "projectId": "projectdetail1499",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -60,7 +61,8 @@
     "val": "Pre-Application",
     "oldVal": "Conditional Use Permit and Site Development Review Permit",
     "projectId": "projectdetail1499",
-    "timestamp": "1660778458000"
+    "timestamp": "1660778458000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -111,6 +113,7 @@
       }
     },
     "projectId": "projectdetail1499",
-    "timestamp": "1664716746000"
+    "timestamp": "1664716746000",
+    "type": "developments:delete"
   }
 ]

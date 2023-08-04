@@ -51,7 +51,8 @@
       }
     },
     "projectId": "projectdetail1348",
-    "timestamp": "1603056634000"
+    "timestamp": "1603056634000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -65,7 +66,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/12/Valley-Christian-Center-Expansion-Program-Draft-EIR-2002-1.pdf"
     },
     "projectId": "projectdetail1348",
-    "timestamp": "1638896136000"
+    "timestamp": "1638896136000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -79,7 +81,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/12/Valley-Christian-Center-Expansion-Program-Final-EIR-2003-1.pdf"
     },
     "projectId": "projectdetail1348",
-    "timestamp": "1638896136000"
+    "timestamp": "1638896136000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -93,7 +96,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/12/Valley-Christian-Center-Supplemental-MND-June-2018.pdf"
     },
     "projectId": "projectdetail1348",
-    "timestamp": "1638896136000"
+    "timestamp": "1638896136000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -107,7 +111,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Notice-of-Intent-Inspiration-Drive.pdf"
     },
     "projectId": "projectdetail1348",
-    "timestamp": "1638896136000"
+    "timestamp": "1638896136000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -121,7 +126,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Inspiration_Public-Review-Draft-Initial-Study.pdf"
     },
     "projectId": "projectdetail1348",
-    "timestamp": "1638896136000"
+    "timestamp": "1638896136000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -135,7 +141,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Community-Meeting-Inspiration-Drive.pdf"
     },
     "projectId": "projectdetail1348",
-    "timestamp": "1638896136000"
+    "timestamp": "1638896136000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -146,7 +153,8 @@
     "val": "Application Under Review",
     "oldVal": "Planning Application Submitted",
     "projectId": "projectdetail1348",
-    "timestamp": "1638896136000"
+    "timestamp": "1638896136000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -159,7 +167,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Pages-from-Parcel-3-Assisted-Living-Project-Plans-scaled.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/7.-Stage-1-Parcel-3-Site-Plan-scaled.jpg",
     "projectId": "projectdetail1348",
-    "timestamp": "1638896136000"
+    "timestamp": "1638896136000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -172,7 +181,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Pages-from-Parcel-3-Assisted-Living-Project-Plans-150x150.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/7.-Stage-1-Parcel-3-Site-Plan-150x150.jpg",
     "projectId": "projectdetail1348",
-    "timestamp": "1638896136000"
+    "timestamp": "1638896136000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -185,7 +195,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Pages-from-Parcel-3-Assisted-Living-Project-Plans-2-scaled.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Parcel-3-Location.jpg",
     "projectId": "projectdetail1348",
-    "timestamp": "1638896136000"
+    "timestamp": "1638896136000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -198,7 +209,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Pages-from-Parcel-3-Assisted-Living-Project-Plans-2-150x150.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Parcel-3-Location-150x150.jpg",
     "projectId": "projectdetail1348",
-    "timestamp": "1638896136000"
+    "timestamp": "1638896136000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -212,7 +224,8 @@
       "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Assisted-Living-Elevation-2-150x150.jpg"
     },
     "projectId": "projectdetail1348",
-    "timestamp": "1638896136000"
+    "timestamp": "1638896136000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -226,7 +239,8 @@
       "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Parcel-3-Location-150x150.jpg"
     },
     "projectId": "projectdetail1348",
-    "timestamp": "1638896136000"
+    "timestamp": "1638896136000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -240,7 +254,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/Inspiration-Drive-Community-Meeting-Presentation.pdf"
     },
     "projectId": "projectdetail1348",
-    "timestamp": "1642594746000"
+    "timestamp": "1642594746000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -252,7 +267,8 @@
     "val": "Planned Development Rezoning (Stage 1 Development Plan), Site Development Review Permit, and Tentative Parcel Map",
     "oldVal": "General Plan Amendment, Planned Development Rezoning (Stage 1 Development Plan), and Tentative Parcel Map",
     "projectId": "projectdetail1348",
-    "timestamp": "1651972572000"
+    "timestamp": "1651972572000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -264,7 +280,8 @@
     "val": "Public/Semi-Public",
     "oldVal": "Open Space",
     "projectId": "projectdetail1348",
-    "timestamp": "1651972572000"
+    "timestamp": "1651972572000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -276,7 +293,8 @@
     "val": "2 stories / 39 feet",
     "oldVal": "2 stories / -1 feet",
     "projectId": "projectdetail1348",
-    "timestamp": "1651972572000"
+    "timestamp": "1651972572000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -290,7 +308,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/0303e91067ffe0f0c70146581ce205f80.pdf"
     },
     "projectId": "projectdetail1348",
-    "timestamp": "1651972572000"
+    "timestamp": "1651972572000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -304,7 +323,8 @@
       "url": "https://d3n9y02raazwpg.cloudfront.net/dublin/7c05f30d-6db0-11ec-85e3-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1649198729.pdf"
     },
     "projectId": "projectdetail1348",
-    "timestamp": "1651972572000"
+    "timestamp": "1651972572000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -318,7 +338,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/4b39f0cc545760a549539b54fc61b7d80.pdf"
     },
     "projectId": "projectdetail1348",
-    "timestamp": "1651972572000"
+    "timestamp": "1651972572000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -329,7 +350,8 @@
     "val": "Pubic Hearing",
     "oldVal": "Application Under Review",
     "projectId": "projectdetail1348",
-    "timestamp": "1651972572000"
+    "timestamp": "1651972572000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -340,7 +362,8 @@
     "val": "The proposed project is an assisted living facility of 84 beds on Parcel 3 of the Valley Christian Center property. The requested approvals includes a Planned Development Rezone (Stage 1 Development Plan), Site Development Review Permit, and Tentative Parcel Map.",
     "oldVal": "General Plan Amendment (GPA) to change the land use from Open Space to Public/Semi Public, Planned Development Rezone (Stage 1 Development Plan) and Tentative Parcel Map. The proposal is for an assisted living facility of up to 95 beds on Parcel 3 of the Valley Christian Center property. The GPA includes changing the land use on a portion of Parcel 1 from Public/Semi Public to Open Space",
     "projectId": "projectdetail1348",
-    "timestamp": "1651972572000"
+    "timestamp": "1651972572000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -354,7 +377,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/57322b8fe2b004c0f9e0b998fc5f7e090.pdf"
     },
     "projectId": "projectdetail1348",
-    "timestamp": "1653780755000"
+    "timestamp": "1653780755000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -368,7 +392,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/496a9a3a1a6b1634b5bbb4bcbcc3c8d30.pdf"
     },
     "projectId": "projectdetail1348",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -382,7 +407,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/NOD-Filed-051822.pdf"
     },
     "projectId": "projectdetail1348",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -396,7 +422,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2020/10/NOD-Filed-060822.pdf"
     },
     "projectId": "projectdetail1348",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -407,6 +434,7 @@
     "val": "Final Action",
     "oldVal": "Pubic Hearing",
     "projectId": "projectdetail1348",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:update"
   }
 ]

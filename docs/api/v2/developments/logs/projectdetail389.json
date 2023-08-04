@@ -48,7 +48,8 @@
       }
     },
     "projectId": "projectdetail389",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -61,7 +62,8 @@
     "val": "Mandy Kang - Senior Planner",
     "oldVal": "Marnie R. Delgado - Senior Planner",
     "projectId": "projectdetail389",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -74,7 +76,8 @@
     "val": "(925) 833-6613",
     "oldVal": "(925) 833-6610",
     "projectId": "projectdetail389",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -87,7 +90,8 @@
     "val": "mandy.kang@dublin.ca.gov",
     "oldVal": "marnie.delgado@dublin.ca.gov",
     "projectId": "projectdetail389",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -100,7 +104,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2.jpg",
     "projectId": "projectdetail389",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -113,7 +118,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-Neighborhoods2-150x150.jpg",
     "projectId": "projectdetail389",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -126,7 +132,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N1-SDR-Arch.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N1-SDR-Arch.jpg",
     "projectId": "projectdetail389",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -139,7 +146,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N1-SDR-Arch-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/12/WR-N1-SDR-Arch-150x150.jpg",
     "projectId": "projectdetail389",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -190,6 +198,7 @@
       }
     },
     "projectId": "projectdetail389",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:delete"
   }
 ]

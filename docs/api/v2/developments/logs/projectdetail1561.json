@@ -82,7 +82,8 @@
       }
     },
     "projectId": "projectdetail1561",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -94,7 +95,8 @@
     "val": "PLPA-2022-00018",
     "oldVal": "PLPA-2022-00034",
     "projectId": "projectdetail1561",
-    "timestamp": "1675188073000"
+    "timestamp": "1675188073000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -108,7 +110,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/77b811760eed31d35dfbf572050421460.pdf"
     },
     "projectId": "projectdetail1561",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -122,7 +125,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/b5fd52e531bac3e85e83c15545413b0d0.pdf"
     },
     "projectId": "projectdetail1561",
-    "timestamp": "1679857046000"
+    "timestamp": "1679857046000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -133,7 +137,8 @@
     "val": "Final Action",
     "oldVal": "Application Under Review",
     "projectId": "projectdetail1561",
-    "timestamp": "1679857046000"
+    "timestamp": "1679857046000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -227,6 +232,7 @@
       }
     },
     "projectId": "projectdetail1561",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:delete"
   }
 ]

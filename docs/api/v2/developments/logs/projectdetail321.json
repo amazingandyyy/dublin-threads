@@ -48,7 +48,8 @@
       }
     },
     "projectId": "projectdetail321",
-    "timestamp": "1476241401000"
+    "timestamp": "1476241401000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -61,7 +62,8 @@
     "val": "Martha Battaglia - Associate Planner",
     "oldVal": "Martha Aja - Associate Planner",
     "projectId": "projectdetail321",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -74,7 +76,8 @@
     "val": "martha.Battaglia@dublin.ca.gov",
     "oldVal": "martha.aja@dublin.ca.gov",
     "projectId": "projectdetail321",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -85,7 +88,8 @@
     "val": "Grafton Plaza - Commercial",
     "oldVal": "Grafton Plaza – Commercial",
     "projectId": "projectdetail321",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -96,7 +100,8 @@
     "val": "Grafton Street",
     "oldVal": "4075 Grafton Street",
     "projectId": "projectdetail321",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -110,7 +115,8 @@
       "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=580910&dbid=0"
     },
     "projectId": "projectdetail321",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -124,7 +130,8 @@
       "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=582019&dbid=0"
     },
     "projectId": "projectdetail321",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -136,7 +143,8 @@
     "val": 37.704633,
     "oldVal": 37.7105908,
     "projectId": "projectdetail321",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -148,7 +156,8 @@
     "val": -121.865048,
     "oldVal": -121.8634079,
     "projectId": "projectdetail321",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -160,7 +169,8 @@
     "val": "Grafton Plaza - Commercial",
     "oldVal": "Grafton Plaza – Commercial",
     "projectId": "projectdetail321",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -173,7 +183,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Site-Plan.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Site-Plan.jpg",
     "projectId": "projectdetail321",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -186,7 +197,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Site-Plan-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-Plaza-Site-Plan-150x150.jpg",
     "projectId": "projectdetail321",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -199,7 +211,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Grafton-Plaza-project-150x1501.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Grafton-Plaza-project-150x1501.jpg",
     "projectId": "projectdetail321",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -212,7 +225,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Grafton-Plaza-project-150x1501.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Grafton-Plaza-project-150x1501.jpg",
     "projectId": "projectdetail321",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -272,6 +286,7 @@
       }
     },
     "projectId": "projectdetail321",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:delete"
   }
 ]

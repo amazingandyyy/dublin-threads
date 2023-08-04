@@ -1,24 +1,41 @@
 import { create } from 'zustand'
 import rdiff from 'recursive-diff'
 
-const useThreadStore = create((set) => ({
+const useThreadStore = create((set, get) => ({
   thread: [],
-  update: (thread) => {
+  update: (data) => {
     const profiles = {}
-    const singleThread = {}
-    thread.forEach((post) => {
-      singleThread[post.projectId] = singleThread[post.projectId] ? [...singleThread[post.projectId], post].sort((a, b) => b.timestamp - a.timestamp) : [post]
+    const indivisuals = {}
+    data.forEach((post) => {
+      indivisuals[post.projectId] = indivisuals[post.projectId] ? [...indivisuals[post.projectId], post].sort((a, b) => b.timestamp - a.timestamp) : [post]
       if (post.op === 'add' && Boolean(post.val.title)) {
         profiles[post.projectId] = post.val
       }
     })
     Object.keys(profiles).forEach((k) => {
-      profiles[k].threads = singleThread[k]
+      profiles[k].threads = indivisuals[k]
     })
     useProjectProfileStore.getState().update(profiles)
     useMapStore.getState().update(Object.values(profiles))
-    set({ thread })
+    set({ thread: data })
   }
+}))
+
+const useMeetingsStore = create((set, get) => ({
+  meetings: [],
+  update: (data) => {
+    const profiles = {}
+    const indivisuals = {}
+    data.forEach((post) => {
+      indivisuals[post.organizor] = indivisuals[post.organizor] ? [...indivisuals[post.organizor], post].sort((a, b) => b.timestamp - a.timestamp) : [post]
+      profiles[post.organizor] = post
+    })
+    Object.keys(profiles).forEach((k) => {
+      profiles[k].meetings = indivisuals[k]
+    })
+    useOrganizationProfileStore.getState().update(profiles)
+    set({ meetings: data })
+  },
 }))
 
 const useProjectProfileStore = create((set, get) => ({
@@ -33,9 +50,14 @@ const useProjectProfileStore = create((set, get) => ({
   }
 }))
 
+const useOrganizationProfileStore = create((set, get) => ({
+  profiles: {},
+  update: (profiles) => set({ profiles })
+}))
+
 const useMapStore = create((set) => ({
   locations: [],
   update: (locations) => set({ locations })
 }))
 
-export { useThreadStore, useProjectProfileStore, useMapStore }
+export { useMeetingsStore, useThreadStore, useProjectProfileStore, useMapStore }

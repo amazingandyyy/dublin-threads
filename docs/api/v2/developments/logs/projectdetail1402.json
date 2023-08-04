@@ -56,7 +56,8 @@
       }
     },
     "projectId": "projectdetail1402",
-    "timestamp": "1635307394000"
+    "timestamp": "1635307394000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -70,7 +71,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/12/Planning-Commission-Staff-Report-11.23.2021.pdf"
     },
     "projectId": "projectdetail1402",
-    "timestamp": "1638896136000"
+    "timestamp": "1638896136000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -84,7 +86,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/12/Planning-Commission-Resolution-No.-21-11.pdf"
     },
     "projectId": "projectdetail1402",
-    "timestamp": "1638896136000"
+    "timestamp": "1638896136000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -98,7 +101,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/12/Approved-Project-Plans.pdf"
     },
     "projectId": "projectdetail1402",
-    "timestamp": "1638896136000"
+    "timestamp": "1638896136000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -109,7 +113,8 @@
     "val": "Final Action",
     "oldVal": "Application Under Review",
     "projectId": "projectdetail1402",
-    "timestamp": "1638896136000"
+    "timestamp": "1638896136000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -122,7 +127,8 @@
     "val": "Gaspare Annibale - Associate Planner",
     "oldVal": "Carla Violet - Contract Project Planner",
     "projectId": "projectdetail1402",
-    "timestamp": "1679857046000"
+    "timestamp": "1679857046000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -135,7 +141,8 @@
     "val": "925-833-6610",
     "oldVal": "(510) 251-8210",
     "projectId": "projectdetail1402",
-    "timestamp": "1679857046000"
+    "timestamp": "1679857046000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -148,6 +155,7 @@
     "val": "gaspare.annibale@dublin.ca.gov",
     "oldVal": "cviolet@up-partners.com",
     "projectId": "projectdetail1402",
-    "timestamp": "1679857046000"
+    "timestamp": "1679857046000",
+    "type": "developments:update"
   }
 ]

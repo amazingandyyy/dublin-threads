@@ -67,7 +67,8 @@
       }
     },
     "projectId": "projectdetail1087",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -80,7 +81,8 @@
     "val": "Gaspare Annibale - Associate Planner",
     "oldVal": "Amy Million - Principal Planner",
     "projectId": "projectdetail1087",
-    "timestamp": "1679857046000"
+    "timestamp": "1679857046000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -93,6 +95,7 @@
     "val": "gaspare.annibale@dublin.ca.gov",
     "oldVal": "amy.million@dublin.ca.gov",
     "projectId": "projectdetail1087",
-    "timestamp": "1679857046000"
+    "timestamp": "1679857046000",
+    "type": "developments:update"
   }
 ]

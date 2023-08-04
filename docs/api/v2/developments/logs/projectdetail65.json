@@ -43,7 +43,8 @@
       }
     },
     "projectId": "projectdetail65",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -57,7 +58,8 @@
       "url": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/PC-SR-032216.pdf"
     },
     "projectId": "projectdetail65",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -71,7 +73,8 @@
       "url": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/CC-111516-SR-Comm-Bene-Agree.pdf"
     },
     "projectId": "projectdetail65",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -85,7 +88,8 @@
       "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-2-e1491496969939-150x150.jpg"
     },
     "projectId": "projectdetail65",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -99,7 +103,8 @@
       "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-e1491496997422-150x150.jpg"
     },
     "projectId": "projectdetail65",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -112,7 +117,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/PC-SR-032216.pdf",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/PC-SR-032216.pdf",
     "projectId": "projectdetail65",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -125,7 +131,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/CC-111516-SR-Comm-Bene-Agree.pdf",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/CC-111516-SR-Comm-Bene-Agree.pdf",
     "projectId": "projectdetail65",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -138,7 +145,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-2-e1491496969939.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-2-e1491496969939.jpg",
     "projectId": "projectdetail65",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -151,7 +159,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-2-e1491496969939-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-2-e1491496969939-150x150.jpg",
     "projectId": "projectdetail65",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -164,7 +173,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-e1491496997422.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-e1491496997422.jpg",
     "projectId": "projectdetail65",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -177,7 +187,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-e1491496997422-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Rendering-e1491496997422-150x150.jpg",
     "projectId": "projectdetail65",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -189,7 +200,8 @@
     "val": "building",
     "oldVal": "dot",
     "projectId": "projectdetail65",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -253,6 +265,7 @@
       }
     },
     "projectId": "projectdetail65",
-    "timestamp": "1614287575000"
+    "timestamp": "1614287575000",
+    "type": "developments:delete"
   }
 ]

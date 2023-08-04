@@ -63,7 +63,8 @@
       }
     },
     "projectId": "projectdetail1300",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -76,7 +77,8 @@
     "val": "amy",
     "oldVal": "925-833-6610",
     "projectId": "projectdetail1300",
-    "timestamp": "1600622986000"
+    "timestamp": "1600622986000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -90,7 +92,8 @@
       "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1560&Inline=True"
     },
     "projectId": "projectdetail1300",
-    "timestamp": "1600622986000"
+    "timestamp": "1600622986000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -101,7 +104,8 @@
     "val": "Final Action",
     "oldVal": "Planning Application Submitted",
     "projectId": "projectdetail1300",
-    "timestamp": "1600622986000"
+    "timestamp": "1600622986000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -114,7 +118,8 @@
     "val": "amy.million@dublin.ca.gov",
     "oldVal": "amy",
     "projectId": "projectdetail1300",
-    "timestamp": "1614287575000"
+    "timestamp": "1614287575000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -185,6 +190,7 @@
       }
     },
     "projectId": "projectdetail1300",
-    "timestamp": "1651972572000"
+    "timestamp": "1651972572000",
+    "type": "developments:delete"
   }
 ]

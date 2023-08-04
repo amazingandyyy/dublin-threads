@@ -52,7 +52,8 @@
       }
     },
     "projectId": "projectdetail152",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -63,7 +64,8 @@
     "val": "Jordan Ranch - Neighborhood 3 (Capri)",
     "oldVal": "Jordan Ranch – Neighborhood 3 (Capri)",
     "projectId": "projectdetail152",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -75,7 +77,8 @@
     "val": "Medium Density Residential",
     "oldVal": "Single-Family Residential, Medium Density Residential, Medium High Density Residential, Mixed Use, Semi-Public, Parks/Public Recreation and Open Space",
     "projectId": "projectdetail152",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -87,7 +90,8 @@
     "val": "8 acres",
     "oldVal": "189 acres",
     "projectId": "projectdetail152",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -98,7 +102,8 @@
     ],
     "val": "1,960 - 2,380 square feet",
     "projectId": "projectdetail152",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -109,7 +114,8 @@
     ],
     "val": "N/A FAR",
     "projectId": "projectdetail152",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -120,7 +126,8 @@
     ],
     "val": "3 stories / 35 feet",
     "projectId": "projectdetail152",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -132,7 +139,8 @@
     "val": "Jordan Ranch - Neighborhood 3 (Capri)",
     "oldVal": "Jordan Ranch – Neighborhood 3 (Capri)",
     "projectId": "projectdetail152",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -190,6 +198,7 @@
       }
     },
     "projectId": "projectdetail152",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:delete"
   }
 ]

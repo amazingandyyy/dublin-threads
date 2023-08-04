@@ -61,7 +61,8 @@
       }
     },
     "projectId": "projectdetail142",
-    "timestamp": "1476241401000"
+    "timestamp": "1476241401000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -74,7 +75,8 @@
     "val": "Martha Battaglia - Associate Planner",
     "oldVal": "Martha Aja - Associate Planner",
     "projectId": "projectdetail142",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -87,7 +89,8 @@
     "val": "martha.Battaglia@dublin.ca.gov",
     "oldVal": "martha.aja@dublin.ca.gov",
     "projectId": "projectdetail142",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -151,6 +154,7 @@
       }
     },
     "projectId": "projectdetail142",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:delete"
   }
 ]

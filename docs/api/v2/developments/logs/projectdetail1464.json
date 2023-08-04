@@ -57,7 +57,8 @@
       }
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1651972572000"
+    "timestamp": "1651972572000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -71,7 +72,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin-NOA.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1660778458000"
+    "timestamp": "1660778458000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -85,7 +87,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS_Dublin_Public_Review_Draft_EIR_July_2022.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1660778458000"
+    "timestamp": "1660778458000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -99,7 +102,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/07/Appendix_A_NOP_and_Comment_Letters.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1660778458000"
+    "timestamp": "1660778458000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -113,7 +117,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin-Community-Meeting-Presentation.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1664716746000"
+    "timestamp": "1664716746000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -126,7 +131,8 @@
     "val": "Appendix_A_NOP_and_Comment_Letters Appendix_B_Air_Quality_and_Greenhouse_Gas Emissions_Analysis_Technical_Data Appendix_C-1_Biological_Resources_Assessment_5-22 Appendix_C-2_Rare_Plant_Survey_Report Appendix_C-3_Wetland_Delineation_Report Appendix_D_Geotechnical_Report Appendix_E_Phase_I_ESA Appendix_F_Noise_Analysis_Technical_Data Appendix_G_Draft Water_Supply_Assessment Appendix_H_Energy__Technical_Data",
     "oldVal": "Appendix_A_NOP_and_Comment_Letters Appendix_B_Air_Quality_and_Greenhouse_Gas Emissions_Analysis_Technical_Data Appendix_C-1_Biological_Resources_Assessment_5-22 Appendix_C-2_Rare_Plant_Survey_Report Appendix_C-3_Wetland_Delineation_Report Appendix_D_Geotechnical_Report Appendix_E_Phase_I_ESA Appendix_F_Noise_Analysis_Technical_Data Appendix_G_Draft Water_Supply_Analysis Appendix_H_Energy__Technical_Data",
     "projectId": "projectdetail1464",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -139,7 +145,8 @@
     "val": "Final Environmental Impact Report October 2022",
     "oldVal": "Community Meeting Presentation September 14 & 15, 2022",
     "projectId": "projectdetail1464",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -152,7 +159,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS_Dublin_Public_Review_Final_EIR_10-14-22.pdf",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin-Community-Meeting-Presentation.pdf",
     "projectId": "projectdetail1464",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -166,7 +174,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Appendix-G-Corrected-Final-WSA.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -180,7 +189,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin_02_Draft-Final-LTA.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -194,7 +204,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin-Community-Meeting-Presentation.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -208,7 +219,8 @@
       "url": "https://legistarweb-production.s3.amazonaws.com/uploads/attachment/pdf/1571507/Staff_Report_SCS_updated.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -222,7 +234,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/cd324969eedd092acb6625b12d7ff8ef0.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -233,7 +246,8 @@
     "val": "Pubic Hearing",
     "oldVal": "Application Under Review",
     "projectId": "projectdetail1464",
-    "timestamp": "1666455913000"
+    "timestamp": "1666455913000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -246,7 +260,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS_Dublin_Public_Review_Final_EIR.pdf",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS_Dublin_Public_Review_Final_EIR_10-14-22.pdf",
     "projectId": "projectdetail1464",
-    "timestamp": "1669687718000"
+    "timestamp": "1669687718000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -260,7 +275,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/692004437b8559e83f956aa08926e3770.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1669687718000"
+    "timestamp": "1669687718000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -271,7 +287,8 @@
     "val": "Final Action",
     "oldVal": "Pubic Hearing",
     "projectId": "projectdetail1464",
-    "timestamp": "1675188073000"
+    "timestamp": "1675188073000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -282,7 +299,8 @@
     "val": "The Dublin Center “The DC”",
     "oldVal": "SCS Dublin",
     "projectId": "projectdetail1464",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -294,7 +312,8 @@
     "val": "PLPA-2023-00003",
     "oldVal": "PLPA-2022-00005",
     "projectId": "projectdetail1464",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -306,7 +325,8 @@
     "val": "Pre-Application",
     "oldVal": "General Plan and Eastern Dublin Specific Plan Amendment, Planned Development with Related Stage 1 and Stage 2 Development Plan and Development Agreement",
     "projectId": "projectdetail1464",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -318,7 +338,8 @@
     "val": "02/07/2023",
     "oldVal": "03/01/2022",
     "projectId": "projectdetail1464",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -330,7 +351,8 @@
     "val": "General Commercial, Public/Semi-Public, Medium Density Residential, Medium-High Density Residential and Public/Park Recreation",
     "oldVal": "General Commercial, Public/Semi-Public, Medium Density Residential, High-Density Residential",
     "projectId": "projectdetail1464",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -342,7 +364,8 @@
     "val": "Planned Development Ordinance No. 14-22",
     "oldVal": "Planned Development",
     "projectId": "projectdetail1464",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -354,7 +377,8 @@
     "val": "54.4 acres",
     "oldVal": "76.9 acres",
     "projectId": "projectdetail1464",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -367,7 +391,8 @@
     "val": "Mark Chamberlain, Landsea Homes",
     "oldVal": "SCS Development Co.",
     "projectId": "projectdetail1464",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -380,7 +405,8 @@
     "val": "3130 Crow Canyon Place, Ste. 325, San Ramon, CA 94583",
     "oldVal": "404 Saratoga Ave, Ste. 100, Santa Clara, CA 95050",
     "projectId": "projectdetail1464",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -393,7 +419,8 @@
     "val": "415-306-1548",
     "oldVal": "408-985-6000",
     "projectId": "projectdetail1464",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -407,7 +434,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/d224d5ac38cb1ee4831f8f8d9f6f6dfc0.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -418,7 +446,8 @@
     "val": "Pre-Application",
     "oldVal": "Final Action",
     "projectId": "projectdetail1464",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -429,7 +458,8 @@
     "val": "The Applicant has submitted a Pre-Application for a Site Development Review Permit and Tentative Parcel Map(s) to develop 54-acres of the SCS Dublin site (north of Dublin Boulevard).",
     "oldVal": "A mixed-use project on the SCS Property consisting of up to 265,000 square feet of commercial uses and 650 residential units. The proposed project is based on the Preferred Plan approved by City Council on February 15, 2022 which includes two types of retail experiences. The first is a more neighborhood main street experience along an extended Finnan Way. The second is envisioned to be a more regional retail experience, focused on entertainment uses, south of Dublin Boulevard. The project application includes a General Plan/Eastern Dublin Specific Plan Amendment, Planned Development with Stage 1 and Stage 2 Development Plans and Development Agreement.",
     "projectId": "projectdetail1464",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -441,7 +471,8 @@
     "val": "The Dublin Center “The DC”",
     "oldVal": "SCS Dublin",
     "projectId": "projectdetail1464",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -454,7 +485,8 @@
     "val": "Linda Ajello - Senior Planner",
     "oldVal": "Amy Million - Principal Planner",
     "projectId": "projectdetail1464",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -467,7 +499,8 @@
     "val": "linda.ajello@dublin.ca.gov",
     "oldVal": "amy.million@dublin.ca.gov",
     "projectId": "projectdetail1464",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -481,7 +514,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/a6b6cf277a70e4720554a2cf4ae77bc30.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -494,7 +528,8 @@
     "val": "Amy Million - Principal Planner",
     "oldVal": "Linda Ajello - Senior Planner",
     "projectId": "projectdetail1464",
-    "timestamp": "1689602400000"
+    "timestamp": "1689602400000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -507,7 +542,8 @@
     "val": "amy.million@dublin.ca.gov",
     "oldVal": "linda.ajello@dublin.ca.gov",
     "projectId": "projectdetail1464",
-    "timestamp": "1689602400000"
+    "timestamp": "1689602400000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -521,7 +557,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin_NOP.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1689602400000"
+    "timestamp": "1689602400000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -535,7 +572,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin-NOA.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1689602400000"
+    "timestamp": "1689602400000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -549,7 +587,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS_Dublin_Public_Review_Draft_EIR_July_2022.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1689602400000"
+    "timestamp": "1689602400000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -563,7 +602,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/07/Appendix_A_NOP_and_Comment_Letters.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1689602400000"
+    "timestamp": "1689602400000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -577,7 +617,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS_Dublin_Public_Review_Final_EIR.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1689602400000"
+    "timestamp": "1689602400000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -591,7 +632,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Appendix-G-Corrected-Final-WSA.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1689602400000"
+    "timestamp": "1689602400000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -605,7 +647,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin_02_Draft-Final-LTA.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1689602400000"
+    "timestamp": "1689602400000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -619,7 +662,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/SCS-Dublin-Community-Meeting-Presentation.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1689602400000"
+    "timestamp": "1689602400000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -633,7 +677,8 @@
       "url": "https://legistarweb-production.s3.amazonaws.com/uploads/attachment/pdf/1571507/Staff_Report_SCS_updated.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1689602400000"
+    "timestamp": "1689602400000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -647,7 +692,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/cd324969eedd092acb6625b12d7ff8ef0.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1689602400000"
+    "timestamp": "1689602400000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -661,7 +707,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/692004437b8559e83f956aa08926e3770.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1689602400000"
+    "timestamp": "1689602400000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -675,7 +722,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/d224d5ac38cb1ee4831f8f8d9f6f6dfc0.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1689602400000"
+    "timestamp": "1689602400000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -689,6 +737,7 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/a6b6cf277a70e4720554a2cf4ae77bc30.pdf"
     },
     "projectId": "projectdetail1464",
-    "timestamp": "1689602400000"
+    "timestamp": "1689602400000",
+    "type": "developments:delete"
   }
 ]

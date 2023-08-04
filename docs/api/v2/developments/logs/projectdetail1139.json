@@ -68,7 +68,8 @@
       }
     },
     "projectId": "projectdetail1139",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -79,7 +80,8 @@
     "val": "Site Development Review permit for two new hotels and an area for a future pad building development on an existing vacant lot, including one 84,890 sf hotel of five stories at sixty (60’) feet high, with 129 rooms, known as Element Hotel; one 53,873 sf hotel of five stories, at fifty seven (57’) feet high, including 120 rooms, known as Tru Hotel. The proposal includes 312 parking spaces, circulation, landscaping and site improvements.",
     "oldVal": "Site Development Review permit for two new hotels and an area for a future pad building development on an existing vacant lot, including one 84,476 sf hotel of five stories at seventy (70’) feet high, with 129 rooms, known as Element Hotel; one 53,873 sf hotel of six stories, at sixty seven (67’) feet high, including 120 rooms, known as Tru Hotel; and a pad for future development of seventy one (71’) feet by seventy one (71’) feet. The proposal includes 322 parking spaces, circulation, landscaping and site improvements.",
     "projectId": "projectdetail1139",
-    "timestamp": "1614287575000"
+    "timestamp": "1614287575000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -92,7 +94,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide1.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Visualization-front-elevations.jpg",
     "projectId": "projectdetail1139",
-    "timestamp": "1614287575000"
+    "timestamp": "1614287575000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -105,7 +108,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide1-150x150.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Visualization-front-elevations-150x150.jpg",
     "projectId": "projectdetail1139",
-    "timestamp": "1614287575000"
+    "timestamp": "1614287575000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -118,7 +122,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide2.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Visualization-front-elevation-element.jpg",
     "projectId": "projectdetail1139",
-    "timestamp": "1614287575000"
+    "timestamp": "1614287575000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -131,7 +136,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide2-150x150.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Visualization-front-elevation-element-150x150.jpg",
     "projectId": "projectdetail1139",
-    "timestamp": "1614287575000"
+    "timestamp": "1614287575000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -144,7 +150,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide3.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Site-Plan.jpg",
     "projectId": "projectdetail1139",
-    "timestamp": "1614287575000"
+    "timestamp": "1614287575000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -157,7 +164,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide3-150x150.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Site-Plan-150x150.jpg",
     "projectId": "projectdetail1139",
-    "timestamp": "1614287575000"
+    "timestamp": "1614287575000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -170,7 +178,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide4.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Element-elevatino-02.jpg",
     "projectId": "projectdetail1139",
-    "timestamp": "1614287575000"
+    "timestamp": "1614287575000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -183,7 +192,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide4-150x150.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Element-elevatino-02-150x150.jpg",
     "projectId": "projectdetail1139",
-    "timestamp": "1614287575000"
+    "timestamp": "1614287575000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -196,7 +206,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide5.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Element-elevation-01.jpg",
     "projectId": "projectdetail1139",
-    "timestamp": "1614287575000"
+    "timestamp": "1614287575000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -209,7 +220,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Slide5-150x150.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Element-elevation-01-150x150.jpg",
     "projectId": "projectdetail1139",
-    "timestamp": "1614287575000"
+    "timestamp": "1614287575000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -223,7 +235,8 @@
       "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/07/Landscape-150x150.jpg"
     },
     "projectId": "projectdetail1139",
-    "timestamp": "1614287575000"
+    "timestamp": "1614287575000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -290,6 +303,7 @@
       }
     },
     "projectId": "projectdetail1139",
-    "timestamp": "1620311986000"
+    "timestamp": "1620311986000",
+    "type": "developments:delete"
   }
 ]

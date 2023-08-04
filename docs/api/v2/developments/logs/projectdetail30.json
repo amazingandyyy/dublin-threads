@@ -53,7 +53,8 @@
       }
     },
     "projectId": "projectdetail30",
-    "timestamp": "1469220936000"
+    "timestamp": "1469220936000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -65,7 +66,8 @@
     "val": "27.5 acres",
     "oldVal": "27.5 acres acres",
     "projectId": "projectdetail30",
-    "timestamp": "1476241401000"
+    "timestamp": "1476241401000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -78,7 +80,8 @@
     "val": "Amy Million - Principal Planner",
     "oldVal": "Kristi Bascom - Principal Planner",
     "projectId": "projectdetail30",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -91,7 +94,8 @@
     "val": "(925) 833-6610",
     "oldVal": "(925) 556-4557",
     "projectId": "projectdetail30",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -104,7 +108,8 @@
     "val": "amy.million@dublin.ca.gov",
     "oldVal": "kristi.bascom@dublin.ca.gov",
     "projectId": "projectdetail30",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -115,7 +120,8 @@
     "val": "The City received a preliminary application from IKEA to construct a store on a 27.5 acre site at 5144 and 5344 Martinelli Way in March 2016. Subsequently, the City held an open house in June 2016 to engage the community for feedback on the proposed project. IKEA has been working on refining the site layout and on March 16, 2017, IKEA submitted a revised site plan to the City for review. The updated preliminary plan submitted to the City can be reviewed by clicking on the thumbnail below. The initial site plan submitted in March 2016 envisioned a nearly 378,000 square foot IKEA store with surface parking, additional retail/restaurant spaces, and possibly a 75-room hotel. The revised conceptual site plan shows a proposed 339,000 square foot IKEA store with integrated podium parking and a 92,600 square foot commercial center with a mix of retail and restaurant spaces. This revised site plan is under review and is still being refined. An environmental analysis of the proposed project has begun.",
     "oldVal": "The City received a preliminary application from IKEA to construct a store on a 27.5 acre site at 5144 and 5344 Martinelli Way in March 2016. The site plan is under review and is still being refined by the Applicant (IKEA). Changes to the sizes of the proposed buildings and the site layout are expected, and the site plan will be refined by the applicant in the near future. The preliminary plan submitted to the City can be reviewed by clicking on the thumbnail below. At this point, the site is proposed to be developed with a nearly 378,000 square feet IKEA store, additional retail/restaurant spaces, and possibly a 75-room hotel. An environmental analysis of the proposed project has begun.",
     "projectId": "projectdetail30",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -128,7 +134,8 @@
     "val": "http://dublin-development.icitywork.com/wp-content/uploads/2016/05/IKEA-Site-Plan-Updated-031617.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/05/Site-Plan.jpg",
     "projectId": "projectdetail30",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -141,7 +148,8 @@
     "val": "http://dublin-development.icitywork.com/wp-content/uploads/2016/05/IKEA-Site-Plan-Updated-031617-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/05/Site-Plan-150x150.jpg",
     "projectId": "projectdetail30",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -153,7 +161,8 @@
     "val": "Planned Development Rezoning (Stage 1 and Stage 2 Development Plan), Site Development Review, Tentative Parcel Map, and Master Sign Program",
     "oldVal": "Planned Development Rezoning (Stage 2 Development Plan), Site Development Review, Tentative Parcel Map, and Master Sign Program",
     "projectId": "projectdetail30",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -167,7 +176,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2016/05/IKEA-Retail-Center-NOP-August-2017.pdf"
     },
     "projectId": "projectdetail30",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -181,7 +191,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2016/05/IKEA-Retail-Center-IS-Final-Draft.pdf"
     },
     "projectId": "projectdetail30",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -195,7 +206,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2016/05/NOA-IKEA-DEIR-website.pdf"
     },
     "projectId": "projectdetail30",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -209,7 +221,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2016/05/IKEA-Retail-Center-Draft-SEIR.pdf"
     },
     "projectId": "projectdetail30",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -223,7 +236,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2016/05/App-A-IS-NOP-Responses-ASMBLD.pdf"
     },
     "projectId": "projectdetail30",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -234,7 +248,8 @@
     "val": "The City received an application from IKEA to construct a store and a commercial center on a 27.5 acre site at 5144 and 5344 Martinelli Way. The proposed project is for a 339,099 square foot IKEA store with integrated podium parking and an approximately 93,000 square foot commercial center with a mix of retail and restaurant spaces. The updated site plan submitted to the City can be reviewed by clicking on the thumbnail below.",
     "oldVal": "The City received a preliminary application from IKEA to construct a store on a 27.5 acre site at 5144 and 5344 Martinelli Way in March 2016. Subsequently, the City held an open house in June 2016 to engage the community for feedback on the proposed project. IKEA has been working on refining the site layout and on March 16, 2017, IKEA submitted a revised site plan to the City for review. The updated preliminary plan submitted to the City can be reviewed by clicking on the thumbnail below. The initial site plan submitted in March 2016 envisioned a nearly 378,000 square foot IKEA store with surface parking, additional retail/restaurant spaces, and possibly a 75-room hotel. The revised conceptual site plan shows a proposed 339,000 square foot IKEA store with integrated podium parking and a 92,600 square foot commercial center with a mix of retail and restaurant spaces. This revised site plan is under review and is still being refined. An environmental analysis of the proposed project has begun.",
     "projectId": "projectdetail30",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -247,7 +262,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/05/front-sheet.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/05/IKEA-Site-Plan-Updated-031617.jpg",
     "projectId": "projectdetail30",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -260,7 +276,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/05/front-sheet-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/05/IKEA-Site-Plan-Updated-031617-150x150.jpg",
     "projectId": "projectdetail30",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -274,7 +291,8 @@
       "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2016/05/Site-Plan-2-150x150.jpg"
     },
     "projectId": "projectdetail30",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -286,7 +304,8 @@
     "val": 37.703202,
     "oldVal": 37.7047196,
     "projectId": "projectdetail30",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -298,7 +317,8 @@
     "val": -121.891374,
     "oldVal": -121.8892569,
     "projectId": "projectdetail30",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -310,7 +330,8 @@
     "val": "Planned Development Rezoning (Stage 1 and Stage 2 Development Plan), Site Development Review, and Vesting Tentative Parcel Map",
     "oldVal": "Planned Development Rezoning (Stage 1 and Stage 2 Development Plan), Site Development Review, Tentative Parcel Map, and Master Sign Program",
     "projectId": "projectdetail30",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -323,7 +344,8 @@
     "val": "Doug Greenholz and Angele Robinson-Gaylord",
     "oldVal": "Doug Greenholz and Angele Gaylord-Robinson",
     "projectId": "projectdetail30",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -334,7 +356,8 @@
     ],
     "val": "412,099 square feet",
     "projectId": "projectdetail30",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -345,7 +368,8 @@
     ],
     "val": ".37 FAR",
     "projectId": "projectdetail30",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -359,7 +383,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2016/05/IKEA-Retail-Center-Final-SEIR.pdf"
     },
     "projectId": "projectdetail30",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -373,7 +398,8 @@
       "url": "http://www.dublin.ca.gov/ArchiveCenter/ViewFile/Item/893"
     },
     "projectId": "projectdetail30",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -387,7 +413,8 @@
       "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1330&Inline=True"
     },
     "projectId": "projectdetail30",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -401,7 +428,8 @@
       "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1334&Inline=True"
     },
     "projectId": "projectdetail30",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -415,7 +443,8 @@
       "url": "http://www.dublin.ca.gov/ArchiveCenter/ViewFile/Item/906"
     },
     "projectId": "projectdetail30",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -429,7 +458,8 @@
       "url": "http://www.dublin.ca.gov/ArchiveCenter/ViewFile/Item/912"
     },
     "projectId": "projectdetail30",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -443,7 +473,8 @@
       "url": "http://www.dublin.ca.gov/ArchiveCenter/ViewFile/Item/917"
     },
     "projectId": "projectdetail30",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -454,7 +485,8 @@
     "val": "Final Action",
     "oldVal": "Application Under Review",
     "projectId": "projectdetail30",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -465,7 +497,8 @@
     "val": "The City received an application from IKEA to construct a store and a commercial center on a 27.5 acre site at 5144 and 5344 Martinelli Way. The proposed project is for up to 410,000 square feet of commercial uses includes a 317,000 square foot IKEA store with integrated podium parking and a 93,000 square foot commercial center with a mix of retail and restaurant spaces. The updated site plan submitted to the City can be reviewed by clicking on the thumbnail below.",
     "oldVal": "The City received an application from IKEA to construct a store and a commercial center on a 27.5 acre site at 5144 and 5344 Martinelli Way. The proposed project is for a 339,099 square foot IKEA store with integrated podium parking and an approximately 93,000 square foot commercial center with a mix of retail and restaurant spaces. The updated site plan submitted to the City can be reviewed by clicking on the thumbnail below.",
     "projectId": "projectdetail30",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -477,7 +510,8 @@
     "val": "shoppingBasket",
     "oldVal": "dot",
     "projectId": "projectdetail30",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -587,6 +621,7 @@
       }
     },
     "projectId": "projectdetail30",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:delete"
   }
 ]

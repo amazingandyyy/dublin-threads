@@ -61,7 +61,8 @@
       }
     },
     "projectId": "projectdetail439",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -74,7 +75,8 @@
     "val": "Planning Commission Staff Report 06.13.17",
     "oldVal": "Project Plans",
     "projectId": "projectdetail439",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -87,7 +89,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/7300-Amador-Complete-SR-061317.pdf",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/02/Project-Plans.pdf",
     "projectId": "projectdetail439",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -101,7 +104,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Project-Plans.pdf"
     },
     "projectId": "projectdetail439",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -112,7 +116,8 @@
     "val": "Final Action",
     "oldVal": "Application Under Review",
     "projectId": "projectdetail439",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -125,7 +130,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Corner-View.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/02/Corner-View.jpg",
     "projectId": "projectdetail439",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -138,7 +144,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Corner-View-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/02/Corner-View-150x150.jpg",
     "projectId": "projectdetail439",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -151,7 +158,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Site-Plan.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/02/Site-Plan.jpg",
     "projectId": "projectdetail439",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -164,7 +172,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/02/Site-Plan-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/02/Site-Plan-150x150.jpg",
     "projectId": "projectdetail439",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -232,6 +241,7 @@
       }
     },
     "projectId": "projectdetail439",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:delete"
   }
 ]

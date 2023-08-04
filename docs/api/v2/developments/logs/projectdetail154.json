@@ -52,7 +52,8 @@
       }
     },
     "projectId": "projectdetail154",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -64,7 +65,8 @@
     "val": "Medium Density Residential",
     "oldVal": "Single-Family Residential, Medium Density Residential, Medium High Density Residential, Mixed Use, Semi-Public, Parks/Public Recreation, and Open Space",
     "projectId": "projectdetail154",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -76,7 +78,8 @@
     "val": "7 acres",
     "oldVal": "189 acres",
     "projectId": "projectdetail154",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -87,7 +90,8 @@
     ],
     "val": "2,340 - 2,620 square feet",
     "projectId": "projectdetail154",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -98,7 +102,8 @@
     ],
     "val": "N/A FAR",
     "projectId": "projectdetail154",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -109,7 +114,8 @@
     ],
     "val": "3 stories / 39 feet",
     "projectId": "projectdetail154",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -120,7 +126,8 @@
     "val": "Trio is Neighborhood 4 of the overall Jordan Ranch development. It is located at northeast corner of Sunset View Drive and Central Parkway. It is being developed with 126 three-story townhomes, with 3-4 bedrooms.",
     "oldVal": "Trio is Neighborhood 4 of the overall Jordan Ranch development. It is located at Sunset View Drive and Central Parkway. It is being developed with 126 three-story townhomes.",
     "projectId": "projectdetail154",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -178,6 +185,7 @@
       }
     },
     "projectId": "projectdetail154",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:delete"
   }
 ]

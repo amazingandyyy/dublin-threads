@@ -72,7 +72,8 @@
       }
     },
     "projectId": "projectdetail1071",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -85,7 +86,8 @@
     "val": "Planning Division",
     "oldVal": "Robert Smith - Associate Planner",
     "projectId": "projectdetail1071",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -98,7 +100,8 @@
     "val": "planningpermits@dublin.ca.gov",
     "oldVal": "robert.smith@dublin.ca.gov",
     "projectId": "projectdetail1071",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -109,7 +112,8 @@
     "val": "The property owner, Dr Sabri Arac, is requesting approval of a Site Development Review Permit to construct a new 26,000-square-foot building to house the Quarry Lane Pre-School. The proposed facility will include 15 classrooms, activity rooms (i.e., music, library, art and staff rooms) and related site improvements including onsite parking, frontage and landscape improvements, and a 10,000-square-foot outdoor children’s play area including play structures.",
     "oldVal": "The property owner, Dr Sabri Arac, is requesting approval of a Site Development Review Permit to construct a new 26,000 square foot building to house the Quarry Lane Pre-School. The proposed facility will include 15 classrooms, activity rooms (i.e. music, library, art, and staff rooms) and related site improvements including onsite parking, frontage and landscape improvements, and a 10,000 square foot outdoor children’s play area including play structures.",
     "projectId": "projectdetail1071",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -184,6 +188,7 @@
       }
     },
     "projectId": "projectdetail1071",
-    "timestamp": "1662627287000"
+    "timestamp": "1662627287000",
+    "type": "developments:delete"
   }
 ]

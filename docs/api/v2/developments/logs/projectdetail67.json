@@ -54,7 +54,8 @@
       }
     },
     "projectId": "projectdetail67",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -65,7 +66,8 @@
     "val": "Enclave at Tassajara Highlands",
     "oldVal": "Tassajara Highlands",
     "projectId": "projectdetail67",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -77,7 +79,8 @@
     "val": "General Plan Amendment, Eastern Dublin Specific Plan Amendment, Planned Development Rezone with Stage 1 and Stage 2 Development Plan, Site Development Review, Vesting Tentative Subdivision Map and CEQA Addendum",
     "oldVal": "GPA/EDSPA, PD Rezone with Stage 1 and Stage 2 Development Plan, Site Development Review, Vesting Tentative Subdivision Map and CEQA Addendum",
     "projectId": "projectdetail67",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -89,7 +92,8 @@
     "val": "Enclave at Tassajara Highlands",
     "oldVal": "Tassajara Highlands",
     "projectId": "projectdetail67",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -102,7 +106,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Project-Entry.png",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Project-Entry.png",
     "projectId": "projectdetail67",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -115,7 +120,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Project-Entry-150x150.png",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Project-Entry-150x150.png",
     "projectId": "projectdetail67",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -128,7 +134,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Elevations.png",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Elevations.png",
     "projectId": "projectdetail67",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -141,7 +148,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Elevations-150x150.png",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Elevations-150x150.png",
     "projectId": "projectdetail67",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -154,7 +162,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Site-Plan.png",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Site-Plan.png",
     "projectId": "projectdetail67",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -167,7 +176,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/11/Site-Plan-150x150.png",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/11/Site-Plan-150x150.png",
     "projectId": "projectdetail67",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -224,6 +234,7 @@
       }
     },
     "projectId": "projectdetail67",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:delete"
   }
 ]

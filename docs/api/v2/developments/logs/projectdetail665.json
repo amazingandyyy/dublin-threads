@@ -62,7 +62,8 @@
       }
     },
     "projectId": "projectdetail665",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -74,7 +75,8 @@
     "val": "77.3 acres",
     "oldVal": "76.1 acres",
     "projectId": "projectdetail665",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -86,7 +88,8 @@
     "val": "Up to 665 residential units and 400,500 square feet",
     "oldVal": "Up to 680 residential units and 454,500 square feet",
     "projectId": "projectdetail665",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -99,7 +102,8 @@
     "val": "City Council Staff Report GPA Initiation 10.03.17",
     "oldVal": "AT Dublin City Council Staff Report GPA Initiation 10.03.17",
     "projectId": "projectdetail665",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -113,7 +117,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At-Dublin_NOA.pdf"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -127,7 +132,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At_Dublin_Public_Review_Draft_EIR_July-2018.pdf"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -141,7 +147,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Appendix_A_NOP-and-NOP-Comments.pdf"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -155,7 +162,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At_Dublin_Public_Review_Final_EIR_10-23-18.pdf"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -169,7 +177,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At-Dublin-DEIR-Public-Comment-Letters.pdf"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -183,7 +192,8 @@
       "url": "https://dublinca.iqm2.com/Citizens/detail_meeting.aspx?ID=1342"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -197,7 +207,8 @@
       "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=14&ID=1346&Inline=True"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -211,7 +222,8 @@
       "url": "http://www.dublin.ca.gov/ArchiveCenter/ViewFile/Item/917"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -222,7 +234,8 @@
     "val": "Pubic Hearing",
     "oldVal": "Application Under Review",
     "projectId": "projectdetail665",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -233,7 +246,8 @@
     "val": "At Dublin project consists of a mix of lifestyle retail and residential uses on the vacant 76.1 acre parcel generally bound by Tassajara Road, Gleason Drive, Brannigan Street and I-580. The preliminary proposal would support up to 400,500 square feet of commercial uses and up to 665 residential units.",
     "oldVal": "At Dublin project consists of a mix of lifestyle retail and residential uses on the vacant 76.1 acre parcel generally bound by Tassajara Road, Gleason Drive, Brannigan Street and I-580. The preliminary proposal would support up to 454,500 square feet of commercial uses and up to 680 residential units.",
     "projectId": "projectdetail665",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -246,7 +260,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At-Dublin-Site-Plan-June-2018.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Site-Plan-At-Dublin.jpg",
     "projectId": "projectdetail665",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -259,7 +274,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At-Dublin-Site-Plan-June-2018-150x150.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Site-Plan-At-Dublin-150x150.jpg",
     "projectId": "projectdetail665",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -272,7 +288,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Updated-Land-use-Plan-091018.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/AT-Dublin_LUP-1.jpg",
     "projectId": "projectdetail665",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -285,7 +302,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Updated-Land-use-Plan-091018-150x150.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/AT-Dublin_LUP-1.jpg",
     "projectId": "projectdetail665",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -299,7 +317,8 @@
       "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/AT-Dublin-Stage-2-Development-Plan-150x150.jpg"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -311,7 +330,8 @@
     "val": "General Plan Amendment, Specific Plan Amendment, Planned Development Rezoning (Stage 1 and Stage 2), Vesting Tentative Map, and Development Agreement",
     "oldVal": "General Plan Amendment, Specific Plan Amendment, Planned Development Rezoning (Stage 1 and Stage 2), Site Development Review, Vesting Tentative Map",
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -323,7 +343,8 @@
     "val": "Up to 566 residential units and 240,000 square feet of commercial uses square feet",
     "oldVal": "Up to 665 residential units and 400,500 square feet",
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -336,7 +357,8 @@
     "val": "Kevin McCook, Shea Properties",
     "oldVal": "Elizabeth Cobb, Shea Properties",
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -349,7 +371,8 @@
     "val": "9191 Towne Center Dr. Ste. 400, San Diego, CA 92122",
     "oldVal": "130 Vantis, Suite 200, Aliso Viejo, CA 92656",
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -362,7 +385,8 @@
     "val": "858-526-6655",
     "oldVal": "949-389-7286",
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -376,7 +400,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/AT-Dublin-CC-SR-101317-Final.pdf"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -390,7 +415,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At-Dublin_NOP.pdf"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -404,7 +430,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At-Dublin_NOA.pdf"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -418,7 +445,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At_Dublin_Public_Review_Draft_EIR_July-2018.pdf"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -432,7 +460,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Appendix_A_NOP-and-NOP-Comments.pdf"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -446,7 +475,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At_Dublin_Public_Review_Final_EIR_10-23-18.pdf"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -460,7 +490,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At-Dublin-DEIR-Public-Comment-Letters.pdf"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -474,7 +505,8 @@
       "url": "https://dublinca.iqm2.com/Citizens/detail_meeting.aspx?ID=1342"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -488,7 +520,8 @@
       "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=14&ID=1346&Inline=True"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:delete"
   },
   {
     "op": "delete",
@@ -502,7 +535,8 @@
       "url": "http://www.dublin.ca.gov/ArchiveCenter/ViewFile/Item/917"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:delete"
   },
   {
     "op": "update",
@@ -513,7 +547,8 @@
     "val": "Final Action",
     "oldVal": "Pubic Hearing",
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -524,7 +559,8 @@
     "val": "Background",
     "oldVal": "At Dublin project consists of a mix of lifestyle retail and residential uses on the vacant 76.1 acre parcel generally bound by Tassajara Road, Gleason Drive, Brannigan Street and I-580. The preliminary proposal would support up to 400,500 square feet of commercial uses and up to 665 residential units.",
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -537,7 +573,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Commercial-Architecture-scaled.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/17_1017_Main-Street.jpg",
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -550,7 +587,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Commercial-Architecture-150x150.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/17_1017_Main-Street-150x150.jpg",
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -563,7 +601,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Development-Plan-Oct-2019.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At-Dublin-Site-Plan-June-2018.jpg",
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -576,7 +615,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Development-Plan-Oct-2019-150x150.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/At-Dublin-Site-Plan-June-2018-150x150.jpg",
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -589,7 +629,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Land-Use-Plan-October-2019.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Updated-Land-use-Plan-091018.jpg",
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -602,7 +643,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Land-Use-Plan-October-2019-150x150.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Updated-Land-use-Plan-091018-150x150.jpg",
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -615,7 +657,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Commercial-Plazas-scaled.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/AT-Dublin-Stage-2-Development-Plan.jpg",
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -628,7 +671,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Commercial-Plazas-150x150.jpg",
     "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/AT-Dublin-Stage-2-Development-Plan-150x150.jpg",
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -642,7 +686,8 @@
       "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Multi-Family-Architecture-150x150.jpg"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -656,7 +701,8 @@
       "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Single-Family-Architecture-150x150.jpg"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -670,7 +716,8 @@
       "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Residential-AQ-Architecture-150x150.jpg"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -684,7 +731,8 @@
       "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Residential-AQ-Architecture-2-150x150.jpg"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -698,7 +746,8 @@
       "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/10/Clubhouse-150x150.jpg"
     },
     "projectId": "projectdetail665",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:add"
   },
   {
     "op": "delete",
@@ -778,6 +827,7 @@
       }
     },
     "projectId": "projectdetail665",
-    "timestamp": "1603056634000"
+    "timestamp": "1603056634000",
+    "type": "developments:delete"
   }
 ]

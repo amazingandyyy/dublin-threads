@@ -80,7 +80,8 @@
       }
     },
     "projectId": "projectdetail998",
-    "timestamp": "1537002007000"
+    "timestamp": "1537002007000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -93,7 +94,8 @@
     "val": "Robert Smith - Associate Planner",
     "oldVal": "Martha Battaglia - Associate Planner",
     "projectId": "projectdetail998",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -106,7 +108,8 @@
     "val": "robert.smith@dublin.ca.gov",
     "oldVal": "martha.battaglia@dublin.ca.gov",
     "projectId": "projectdetail998",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -117,7 +120,8 @@
     ],
     "oldVal": "",
     "projectId": "projectdetail998",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:delete"
   },
   {
     "op": "update",
@@ -129,7 +133,8 @@
     "val": "building",
     "oldVal": "dot",
     "projectId": "projectdetail998",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -142,7 +147,8 @@
     "val": "Planning Division",
     "oldVal": "Robert Smith - Associate Planner",
     "projectId": "projectdetail998",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -155,7 +161,8 @@
     "val": "planningpermits@dublin.ca.gov",
     "oldVal": "robert.smith@dublin.ca.gov",
     "projectId": "projectdetail998",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -168,7 +175,8 @@
     "val": "Gaspare Annibale - Associate Planner",
     "oldVal": "Planning Division",
     "projectId": "projectdetail998",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -181,7 +189,8 @@
     "val": "gaspare.annibale@dublin.ca.gov",
     "oldVal": "planningpermits@dublin.ca.gov",
     "projectId": "projectdetail998",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -263,6 +272,7 @@
       }
     },
     "projectId": "projectdetail998",
-    "timestamp": "1689109200000"
+    "timestamp": "1689109200000",
+    "type": "developments:delete"
   }
 ]

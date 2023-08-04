@@ -89,7 +89,8 @@
       }
     },
     "projectId": "projectdetail1479",
-    "timestamp": "1656420658000"
+    "timestamp": "1656420658000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -103,7 +104,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/77b811760eed31d35dfbf572050421460.pdf"
     },
     "projectId": "projectdetail1479",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -117,7 +119,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/b5fd52e531bac3e85e83c15545413b0d0.pdf"
     },
     "projectId": "projectdetail1479",
-    "timestamp": "1679857046000"
+    "timestamp": "1679857046000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -128,7 +131,8 @@
     "val": "Final Action",
     "oldVal": "Planning Application Submitted",
     "projectId": "projectdetail1479",
-    "timestamp": "1679857046000"
+    "timestamp": "1679857046000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -229,6 +233,7 @@
       }
     },
     "projectId": "projectdetail1479",
-    "timestamp": "1684710307000"
+    "timestamp": "1684710307000",
+    "type": "developments:delete"
   }
 ]

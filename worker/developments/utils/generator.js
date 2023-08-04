@@ -20,7 +20,7 @@ const generateDateKeys = async () => {
 }
 
 const generateLogs = ({ oldData = {}, newData, timestamp }) => {
-  return transformLogs(rdiff.getDiff(oldData, newData, true), timestamp)
+  return transformLogs(rdiff.getDiff(oldData, newData, true), timestamp, 'developments')
 }
 
 exports.generateJson = generateJson

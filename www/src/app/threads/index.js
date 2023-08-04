@@ -2,6 +2,7 @@
 import { Fragment, useEffect, useState } from 'react'
 import AddPost from './add'
 import UpdatePost from './update'
+import MeetingPost from './meeting'
 
 function PostPlaceholder () {
   const emptyArray = (length = 5) => (Array.from(Array(length).keys()))
@@ -23,13 +24,13 @@ function PostPlaceholder () {
 }
 
 function Post ({ data }) {
-  switch (data.op) {
-    case 'add':
+  switch (data.type) {
+    case 'developments:add':
       return (<AddPost data={data} />)
-    case 'update':
+    case 'developments:update':
       return (<UpdatePost data={data} />)
-    // case 'delete':
-    //   return (<div className=''>sad</div>)
+    case 'meeting':
+      return (<MeetingPost data={data} />)
     default:
       return (<Fragment></Fragment>)
   }

@@ -67,7 +67,8 @@
       }
     },
     "projectId": "projectdetail465",
-    "timestamp": "1495652949000"
+    "timestamp": "1495652949000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -79,7 +80,8 @@
     "val": "11.36 acres",
     "oldVal": "11 acres",
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -91,7 +93,8 @@
     "val": "5 stories / 82 feet",
     "oldVal": "3 stories / 68 feet",
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -104,7 +107,8 @@
     "val": "5160 Hacienda Drive, Dublin, CA 94568",
     "oldVal": "One Zeiss Drive, Thornwood, NY 10594",
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -117,7 +121,8 @@
     "val": "(925) 557-4362",
     "oldVal": "(914) 681-7500",
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -131,7 +136,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Planning-Commission-Staff-Report.2.13.18.pdf"
     },
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -145,7 +151,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/City-Council-Staff-Report-3.6.18.pdf"
     },
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -159,7 +166,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/City-Council-Staff-Report-3.20.18.pdf"
     },
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -173,7 +181,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Final-Zeiss-Innovation-Center-MND-IS.12.8.17.pdf"
     },
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -187,7 +196,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Appendix-A-Biological-Resources-Assessment-Report.pdf"
     },
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -201,7 +211,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Appendix-B-Delineation-Potential-Jurisdictional-Wetlands-Under-Section-404-CWA.pdf"
     },
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -215,7 +226,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Appendix-C-Rare-Plant-Survey-Report.pdf"
     },
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -229,7 +241,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Appendix-D-Historic-Resources-Survey.pdf"
     },
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -243,7 +256,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Appendix-E-Carl-Zeiss-Traffic-Consistency-Analysis.pdf"
     },
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -257,7 +271,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Final-Notice-of-Intent.pdf"
     },
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -271,7 +286,8 @@
       "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Notice-of-Time-Extension-of-Supplemental-Mitigated-Negative-Declaration.pdf"
     },
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -282,7 +298,8 @@
     "val": "Final Action",
     "oldVal": "Planning Application Submitted",
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -295,7 +312,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.1.png",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-rendering-from-Dublin.png",
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -308,7 +326,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.1-150x150.png",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-rendering-from-Dublin-150x150.png",
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -321,7 +340,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.2.png",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-rendering.png",
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -334,7 +354,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.2-150x150.png",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-rendering-150x150.png",
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -347,7 +368,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.Dublin.png",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Plaza.png",
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -360,7 +382,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Rendering.Dublin-150x150.png",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Plaza-150x150.png",
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -373,7 +396,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-aerial.png",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-aerial.png",
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -386,7 +410,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-aerial-150x150.png",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-aerial-150x150.png",
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -399,7 +424,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Aerial.png",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Phase-1.png",
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -412,7 +438,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Aerial-150x150.png",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Phase-1-150x150.png",
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -426,7 +453,8 @@
       "thumbnail": "http://dublin-development.icitywork.com/wp-content/uploads/2017/04/Zeiss-Phase-2-150x150.png"
     },
     "projectId": "projectdetail465",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:delete"
   },
   {
     "op": "update",
@@ -439,7 +467,8 @@
     "val": "Robert Smith - Associate Planner",
     "oldVal": "Martha Battaglia - Associate Planner",
     "projectId": "projectdetail465",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -452,7 +481,8 @@
     "val": "robert.smith@dublin.ca.gov",
     "oldVal": "martha.battaglia@dublin.ca.gov",
     "projectId": "projectdetail465",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -464,7 +494,8 @@
     "val": "building",
     "oldVal": "dot",
     "projectId": "projectdetail465",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -575,6 +606,7 @@
       }
     },
     "projectId": "projectdetail465",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:delete"
   }
 ]

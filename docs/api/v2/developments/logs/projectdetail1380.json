@@ -63,7 +63,8 @@
       }
     },
     "projectId": "projectdetail1380",
-    "timestamp": "1623808635000"
+    "timestamp": "1623808635000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -77,7 +78,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/98837e23cc8392d73e6155bda18f2be10.pdf"
     },
     "projectId": "projectdetail1380",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -88,7 +90,8 @@
     "val": "Pubic Hearing",
     "oldVal": "Application Under Review",
     "projectId": "projectdetail1380",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -99,7 +102,8 @@
     "val": "Development of an affordable housing project consisting of 300 affordable units to be built in two phases1 of 136 units and 164 units, , ground floor retail, amenity space, and parking. The project requires a Site Development Review Permit, Lot Line Adjustment, Community Benefit Agreement and Affordable Housing Agreement.",
     "oldVal": "Development of an affordable housing project consisting of 300 affordable units to be built in two phases1 of 136 units and 164 units, , ground floor retail, amenity space, and parking. The applications include a Site Development Review Permit, Lot Line Adjustment and Community Benefit Agreement.",
     "projectId": "projectdetail1380",
-    "timestamp": "1632816331000"
+    "timestamp": "1632816331000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -110,7 +114,8 @@
     "val": "Final Action",
     "oldVal": "Pubic Hearing",
     "projectId": "projectdetail1380",
-    "timestamp": "1638896136000"
+    "timestamp": "1638896136000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -122,7 +127,8 @@
     "val": "Site Development Review Permit, Lot Line Adjustment, Community Benefit Agreement and Affordable Housing Agreement",
     "oldVal": "Site Development Review, Lot Line Adjustment and Community Benefit Agreement",
     "projectId": "projectdetail1380",
-    "timestamp": "1651972572000"
+    "timestamp": "1651972572000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -136,7 +142,8 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/7fae01514f5d9509435be742c201a26c0.pdf"
     },
     "projectId": "projectdetail1380",
-    "timestamp": "1651972572000"
+    "timestamp": "1651972572000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -149,7 +156,8 @@
     "val": "Planning Commission Agenda & Staff Report August 10, 2021",
     "oldVal": "Planning Commission Staff Report August 10, 2021",
     "projectId": "projectdetail1380",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -162,7 +170,8 @@
     "val": "City Council Agenda & Staff Report September 21, 2021",
     "oldVal": "City Council Staff Report September 21, 2021",
     "projectId": "projectdetail1380",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -176,6 +185,7 @@
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/5088c1b9229b307c05b520351afcad9e0.pdf"
     },
     "projectId": "projectdetail1380",
-    "timestamp": "1677358639000"
+    "timestamp": "1677358639000",
+    "type": "developments:add"
   }
 ]

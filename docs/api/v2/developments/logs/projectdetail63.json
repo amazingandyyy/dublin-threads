@@ -79,7 +79,8 @@
       }
     },
     "projectId": "projectdetail63",
-    "timestamp": "1476241401000"
+    "timestamp": "1476241401000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -92,7 +93,8 @@
     "val": "Kaiser Permanente - Attn. William Bateman",
     "oldVal": "Kaiser Foundation Health Plan - Attn. Hollis Harris",
     "projectId": "projectdetail63",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -105,7 +107,8 @@
     "val": "501 Lennon Lane, Suite 111, Walnut Creek, CA 94596",
     "oldVal": "4141 Geary Blvd., Mezzanine Level, San Francisco, CA 94118",
     "projectId": "projectdetail63",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -118,7 +121,8 @@
     "val": "n/a",
     "oldVal": "(415) 833-2828",
     "projectId": "projectdetail63",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -131,7 +135,8 @@
     "val": "Amy Million - Principal Planner",
     "oldVal": "Kristi Bascom, AICP - Contract Planner",
     "projectId": "projectdetail63",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -144,7 +149,8 @@
     "val": "amy.million@dublin.ca.gov",
     "oldVal": "",
     "projectId": "projectdetail63",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -155,7 +161,8 @@
     "val": "Final Action",
     "oldVal": "Pubic Hearing",
     "projectId": "projectdetail63",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -166,7 +173,8 @@
     "val": "3100 Dublin Boulevard",
     "oldVal": "Dublin Boulevard",
     "projectId": "projectdetail63",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -177,7 +185,8 @@
     "val": "The Kaiser Dublin Medical Center project is comprised of 950,000 square feet of medical campus uses in three main buildings, 250,000 square feet of commercial uses, a parking structure, and associated site, roadway frontage, and landscape improvements. On September 20, 2016, City Council approved the General Plan and Eastern Dublin Specific Plan Amendments, Planned Development Zoning with related Stage 1 Development Plan for the overall site along with a Stage 2 Development Plan and Site Development Review Permit for the first phase of development – a 220,000 square foot medical office building referred to as Phase 1a.",
     "oldVal": "The Kaiser Dublin Medical Center project is comprised of 950,000 square feet of medical campus uses in three main buildings, 250,000 square feet of commercial uses, a parking structure, and associated site, roadway frontage, and landscape improvements. Requested land use approvals include a General Plan and Eastern Dublin Specific Plan Amendment to create new land use designations, Planned Development Zoning with related Stage 1 Development Plan for the overall site along with a Stage 2 Development Plan and Site Development Review Permit for the first phase of development – a 220,000 square foot medical office building referred to as Phase 1a. Certification of a Final Environmental Impact Report (FEIR) and approval of a project-specific Development Agreement is also being considered.",
     "projectId": "projectdetail63",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -190,7 +199,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-pic-1.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-pic-1.jpg",
     "projectId": "projectdetail63",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -203,7 +213,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-pic-1-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-pic-1-150x150.jpg",
     "projectId": "projectdetail63",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -216,7 +227,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-2.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-2.jpg",
     "projectId": "projectdetail63",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -229,7 +241,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-2-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-2-150x150.jpg",
     "projectId": "projectdetail63",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -242,7 +255,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-3.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-3.jpg",
     "projectId": "projectdetail63",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -255,7 +269,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-3-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Kaiser-3-150x150.jpg",
     "projectId": "projectdetail63",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -337,6 +352,7 @@
       }
     },
     "projectId": "projectdetail63",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:delete"
   }
 ]

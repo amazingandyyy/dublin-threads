@@ -56,7 +56,8 @@
       }
     },
     "projectId": "projectdetail111",
-    "timestamp": "1476241401000"
+    "timestamp": "1476241401000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -69,7 +70,8 @@
     "val": "Martha Battaglia - Associate Planner",
     "oldVal": "Martha Aja - Associate Planner",
     "projectId": "projectdetail111",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -82,7 +84,8 @@
     "val": "martha.Battaglia@dublin.ca.gov",
     "oldVal": "martha.aja@dublin.ca.gov",
     "projectId": "projectdetail111",
-    "timestamp": "1482508704000"
+    "timestamp": "1482508704000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -93,7 +96,8 @@
     "val": "Grafton Plaza - Aloft Hotel",
     "oldVal": "Grafton Plaza – Aloft Hotel",
     "projectId": "projectdetail111",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -104,7 +108,8 @@
     "val": "Grafton Street",
     "oldVal": "4075 Grafton Street",
     "projectId": "projectdetail111",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "add",
@@ -118,7 +123,8 @@
       "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=580910&dbid=0"
     },
     "projectId": "projectdetail111",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -132,7 +138,8 @@
       "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=580911&dbid=0"
     },
     "projectId": "projectdetail111",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "add",
@@ -146,7 +153,8 @@
       "url": "https://citydocs.dublin.ca.gov/WebLink8/DocView.aspx?id=582019&dbid=0"
     },
     "projectId": "projectdetail111",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -157,7 +165,8 @@
     "val": "The land use designation for the Grafton Plaza project site allows office uses or a combination of residential, retail commercial and office uses. The Applicant has chosen to proceed with an integrated mixed use project. The mixed use project consists of 115 residential townhomes, 127 room hotel, and up to 55,000 square feet of future retail commercial.",
     "oldVal": "The Grafton Plaza project site has a General Plan/Eastern Dublin Specific Plan land use designation of Mixed Use 2/Campus Office and related Planned Development Zoning. This zoning allows office uses or a combination of residential, retail commercial and office uses.",
     "projectId": "projectdetail111",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -169,7 +178,8 @@
     "val": 37.703462,
     "oldVal": 37.7105462,
     "projectId": "projectdetail111",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -181,7 +191,8 @@
     "val": -121.865191,
     "oldVal": -121.8635268,
     "projectId": "projectdetail111",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -193,7 +204,8 @@
     "val": "Grafton Plaza - Aloft Hotel",
     "oldVal": "Grafton Plaza – Aloft Hotel",
     "projectId": "projectdetail111",
-    "timestamp": "1492908897000"
+    "timestamp": "1492908897000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -206,7 +218,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel.jpg",
     "projectId": "projectdetail111",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -219,7 +232,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-150x150.jpg",
     "projectId": "projectdetail111",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -232,7 +246,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-2.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-2.jpg",
     "projectId": "projectdetail111",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -245,7 +260,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-2-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/07/Aloft-Hotel-2-150x150.jpg",
     "projectId": "projectdetail111",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -258,7 +274,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-plaza-site-plan.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-plaza-site-plan.jpg",
     "projectId": "projectdetail111",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "update",
@@ -271,7 +288,8 @@
     "val": "https://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-plaza-site-plan-150x150.jpg",
     "oldVal": "http://dublin-development.icitywork.com/wp-content/uploads/2016/08/Grafton-plaza-site-plan-150x150.jpg",
     "projectId": "projectdetail111",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -343,6 +361,7 @@
       }
     },
     "projectId": "projectdetail111",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:delete"
   }
 ]

@@ -55,7 +55,8 @@
       }
     },
     "projectId": "projectdetail560",
-    "timestamp": "1513193626000"
+    "timestamp": "1513193626000",
+    "type": "developments:add"
   },
   {
     "op": "update",
@@ -67,7 +68,8 @@
     "val": "building",
     "oldVal": "dot",
     "projectId": "projectdetail560",
-    "timestamp": "1596943340000"
+    "timestamp": "1596943340000",
+    "type": "developments:update"
   },
   {
     "op": "delete",
@@ -125,6 +127,7 @@
       }
     },
     "projectId": "projectdetail560",
-    "timestamp": "1651972572000"
+    "timestamp": "1651972572000",
+    "type": "developments:delete"
   }
 ]
