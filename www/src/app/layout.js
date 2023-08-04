@@ -5,26 +5,10 @@ import { useEffect } from 'react'
 import { fetchDevelopments } from '@/utils'
 import { useThreadStore } from '@/stores'
 import Script from 'next/script'
-import { useRouter } from 'next/navigation'
-import * as gtag from './utils/gtag'
 import Hotjar from '@hotjar/browser'
-
 import './globals.scss'
-
 const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_ID
-
 export default function RootLayout ({ children }) {
-  const router = useRouter()
-  useEffect(() => {
-    const handleRouteChange = (url) => {
-      gtag.pageview(url)
-    }
-    router.events.on('routeChangeComplete', handleRouteChange)
-    return () => {
-      router.events.off('routeChangeComplete', handleRouteChange)
-    }
-  }, [router.events])
-
   useEffect(() => {
     Hotjar.init(3595523, 6)
   }, [])
