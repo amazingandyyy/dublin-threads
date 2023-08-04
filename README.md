@@ -4,15 +4,22 @@ Data API for Dublin, CA
 
 ## Changelog of [Dublin Development Projects](https://dublin-development.icitywork.com/)
 
-### dublin-threads website
+### website
 
-- https://dublin-amazingandyyy.vercel.app
+- https://dublin.amazyyy.com
 
-### JSON API
+### API
 
 - list of all development projects (including those delisted): https://raw.githubusercontent.com/amazingandyyy/dublin/main/docs/api/v2/developments/snapshots/latest.json
 - list of current public development projects: https://raw.githubusercontent.com/amazingandyyy/dublin/main/docs/api/v2/developments/snapshots/latest.json
 - development projects changelog: https://raw.githubusercontent.com/amazingandyyy/dublin/main/docs/api/v2/developments/logs/global.json
+- meetings: https://raw.githubusercontent.com/amazingandyyy/dublin/main/docs/api/v2/meeting/all.json
+
+## Architecture
+
+- cronjob is defined as github actions, run scripts under `/worker`
+- worker generates JSON api under `/docs/api`
+- react webapp fetches from the api and serves the UI with the latest data
 
 ## Special Thanks to
 
@@ -33,12 +40,3 @@ Data API for Dublin, CA
 
 - https://citydocs.ci.dublin.ca.us/WebLink/Browse.aspx
 - https://citydocs.dublin.ca.gov/WebLink/DocView.aspx?dbid=0&id=563268&page=1
-
-### links
-
-- Project Profile
-  - wikipedia Searching API: https://en.wikipedia.org/w/api.php?action=opensearch&search=Quarry%20Lane%20School&limit=1&namespace=0&format=jsonfm
-  - wiki NPM: https://dijs.github.io/wiki/WikiPage.html#images
-
-## TODOs
-- add meeting to the thread: https://dublin.ca.gov/1604/Meetings-Agendas-Minutes-Video-on-Demand
