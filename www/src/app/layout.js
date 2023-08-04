@@ -5,11 +5,13 @@ import { useEffect } from 'react'
 import { fetchDevelopments } from '@/utils'
 import { useThreadStore } from '@/stores'
 import Script from 'next/script'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 import * as gtag from './utils/gtag'
 import Hotjar from '@hotjar/browser'
 
 import './globals.scss'
+
+const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_ID
 
 export default function RootLayout ({ children }) {
   const router = useRouter()
@@ -37,7 +39,7 @@ export default function RootLayout ({ children }) {
   }, [])
   return (
     <html lang="en">
-        <Script strategy="afterInteractive" id="gh4-1" src="https://www.googletagmanager.com/gtag/js?id=G-03C01V6BKQ" />
+        <Script strategy="afterInteractive" id="gh4-1" src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />
         <Script strategy="afterInteractive" id="gh4-2" dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
@@ -46,7 +48,7 @@ export default function RootLayout ({ children }) {
             }
             gtag('js', new Date());
   
-            gtag('config', 'G-03C01V6BKQ');
+            gtag('config', '${GA_TRACKING_ID}');
           `
         }} />
       <Head>
