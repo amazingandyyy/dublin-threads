@@ -76,7 +76,7 @@ async function main (html) {
   }
 
   function buildId(name) {
-    return name.replace(/\s+/, '')
+    return name.replace(/\s+/g, '')
   }
   function parsePastMeetingRows(meetingRows, entity='') {
     const list = []

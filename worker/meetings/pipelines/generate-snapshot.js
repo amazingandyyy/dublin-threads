@@ -14,13 +14,13 @@ async function main () {
       waitUntil: 'networkidle'
     })
     const frames = await page.frames()
-    for (let i = 0; i < frames.length; i++) { // Getting all iFrames
-      const x = frames[i]
+    for (const x of frames) { // Getting all iFrames
       try {
-        const frameContent = await x.content()
-        if (frameContent.includes('GranicusMainViewContent')) {
-          writeToFileForce(absolutePath('docs/archive-meetings/meetings.html'), frameContent)
-          generateJson(frameContent)
+        let html = await x.content()
+        if (html.includes('GranicusMainViewContent')) {
+          html = html.replace(/"applicationTime":\d+,/ig, '')
+          writeToFileForce(absolutePath('docs/archive-meetings/meetings.html'), html)
+          generateJson(html)
           break
         }else{
           console.log('skipped iframe')
