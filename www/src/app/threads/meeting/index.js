@@ -47,8 +47,8 @@ export default function MeetingPost ({ data }) {
 				<Link href={`/org/${data.orgId}`} className='hover:opacity-50 active:opacity-70'><div className='text-gray-500 text-sm'>@{data.orgId}</div></Link>
 			</div>
 			<div className='relative'>
+				{!data.cancelled && isUpComing && <div className='inline-block absolute bg-blue-100 text-blue-900 px-2 top-5 -left-2 rounded-full text-sm -rotate-[5deg] shadow-md'>upcoming</div>}
 				<div className='pl-1 text-gray-500 text-xs'>{transformTimestamp(data.timestamp)}</div>
-				{isUpComing && <div className='inline-block absolute bg-green-400 text-green-800 px-2 -top-8 -left-4 rounded-full text-sm rotate-[5deg] md:-rotate-[5deg] shadow-xl'>upcoming</div>}
 			</div>
 		</div>
 		<div className='flex flex-col'>

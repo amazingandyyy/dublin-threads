@@ -2,8 +2,8 @@ import { useProjectProfileStore } from '@/stores'
 import Link from 'next/link'
 import { timeSince } from '@/utils'
 
+const days = 1000 * 60 * 60 * 24 * 14 // 14 days
 function transformTimestamp (timestamp) {
-  const days = 1000 * 60 * 60 * 24 * 14 // 14 days
   if (Date.now() - timestamp < days) {
     return timeSince(timestamp) + ' ago'
   }
@@ -14,7 +14,7 @@ function transformTimestamp (timestamp) {
 }
 
 export default function ({ data }) {
-  // const isNewPost = Boolean(Date.now() - data.timestamp < days / 12)
+  const isNewPost = Boolean(Date.now() - data.timestamp < days)
   const profiles = useProjectProfileStore(state => state.profiles)
   return (<div className='flex items-start justify-between pb-4'>
       <div className='flex-none w-60 md:w-96 items-start flex-col md:flex-row md:items-center'>
@@ -25,7 +25,7 @@ export default function ({ data }) {
       </div>
       <div className='relative'>
         <div className='pl-1 text-gray-500 text-xs'>{transformTimestamp(data.timestamp)}</div>
-         {/* {isNewPost && <div className='block absolute bg-green-400 text-green-800 px-2 top-8 left-14 rounded-full text-sm rotate-[5deg] md:-rotate-[5deg] shadow-2xl'>NEW</div>} */}
+        {isNewPost && <div className='inline-block absolute bg-yellow-100 text-yellow-900 px-2 top-5 left-10 rounded-full text-sm -rotate-[5deg] shadow-md'>news</div>}
       </div>
     </div>)
 }
