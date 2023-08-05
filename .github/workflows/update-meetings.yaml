@@ -1,10 +1,10 @@
 name: snapshot and generate JSON (meetings)
 
 on:
-  push:
-    branches: [ main ]
-  schedule:
-    - cron: "*/30 * * * *" # every 30 minutes
+  # push:
+  #   branches: [ main ]
+  # schedule:
+  #   - cron: "*/30 * * * *" # every 30 minutes
   workflow_dispatch:
 
 jobs:
@@ -14,12 +14,12 @@ jobs:
     name: snapshot&json(meetings)
     runs-on: ubuntu-latest
     steps:
-      - name: use node 17
-        uses: actions/setup-node@v1
-        with:
-          node-version: 17.x
-
       - uses: actions/checkout@v3
+      - name: use node 17
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+
       - name: set timezone to America/Los_Angeles
         uses: szenius/set-timezone@v1.2
         with:
@@ -31,13 +31,14 @@ jobs:
       - name: install node dependencies
         working-directory: ./worker
         run: npm install
+      - name: Install playwright browsers
+        working-directory: ./worker
+        run: npx playwright install --with-deps chromium
 
       - name: take a snapshot&json
         working-directory: ./worker/meetings
         run: |
-          npx playwright install
           node pipelines/generate-snapshot.js
-          node pipelines/generate-json.js
 
       - name: check for modified files
         id: git-check

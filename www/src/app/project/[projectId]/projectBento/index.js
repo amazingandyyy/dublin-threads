@@ -248,7 +248,7 @@ export default function ProjectBento ({ projectId }) {
         <div>
         </div>
         </div>
-        <div className='md:rounded-2xl system-card w-auto md:w-full overflow-hidden md:h-auto h-[300px] md:min-w-[300px] md:max-w-[400px] md:m-2 my-1'>
+        <div className='md:rounded-2xl system-card w-screen md:w-full overflow-hidden md:h-auto h-[300px] md:min-w-[300px] md:max-w-[400px] md:m-2 my-1'>
           {renderMap(project)}
         </div>
       </div>
