@@ -283,9 +283,14 @@ export default function ProjectBento ({ projectId }) {
               <div>
                 This is a thread of {project.title}{'\'s'} updates on <a className='text-green-600' href='https://dublin-development.icitywork.com' target='_blank' rel="noreferrer">Dublin Devlopment Projects Site</a>
               </div>
-              <div>
-                Updated every 30 minutes
-              </div>
+            <div className='py-2'>
+              {[project.title, "DublinCA", "California", "TriValley"].map(i=>{
+                return <span className='py-1 px-2 bg-green-400 m-1 rounded-full text-xs text-green-800 bg-opacity-40'>#{i}</span>
+              })}
+            </div>
+            <div className='text-sm'>
+              Updated every 30 minutes
+            </div>
           </div>
           {<RenderThreads project={project} />}
       </div>

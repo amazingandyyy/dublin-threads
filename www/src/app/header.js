@@ -1,8 +1,11 @@
 import Link from 'next/link'
 import { useEffect } from 'react'
 import Hotjar from '@hotjar/browser'
+import { usePathname } from 'next/navigation'
 
 export default function GlobalHeader () {
+  const pathname = usePathname()
+
   useEffect(() => {
     Hotjar.init(3595523, 6)
   }, [])
@@ -28,7 +31,7 @@ export default function GlobalHeader () {
       {/*  </div> */}
       {/* </Link> */}
       <Link href='/map'>
-      <div className='flex px-2 pr-4 md:px-4 font-semibold text-green-950 hover:text-green-500'>
+      <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'>
         Map
       </div>
       </Link>

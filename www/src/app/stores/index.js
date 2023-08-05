@@ -1,5 +1,7 @@
 import { create } from 'zustand'
+import { subscribeWithSelector } from 'zustand/middleware'
 import rdiff from 'recursive-diff'
+import _ from 'lodash'
 
 const useThreadStore = create((set, get) => ({
   thread: [],
@@ -45,4 +47,39 @@ const useMapStore = create((set) => ({
   update: (locations) => set({ locations })
 }))
 
-export { useMeetingsStore, useThreadStore, useProjectProfileStore, useMapStore }
+const useGlobalThreadListStore = create(
+  subscribeWithSelector((set, get) => ({
+    list: [],
+    originalList: [],
+    init: (list) => {
+      console.log('init list', list.length)
+      set({list, originalList: list})
+    },
+    update: (list) => {
+      console.log('new list', list.length)
+      set({list})
+    },
+    applyFilter: (string) => {
+      let newList = []
+      if(string.length === 0){
+        console.log('reset', get().originalList.length)
+        newList = get().originalList
+      }else{
+        const str = string.split(' ').join('.*')
+        const re = new RegExp(`.*${str}.*`, "ig");
+        const list = get().originalList
+        newList = _.filter(list, (o)=>{
+          if(o.organizor) return re.test(o.organizor);
+          const projectKeys = _.findKey(useProjectProfileStore.getState().profiles, (i)=> {
+            return re.test(i.title)
+          }) || []
+          return projectKeys?.includes(o.projectId)
+        })
+      }
+      return newList;
+    }
+  })
+  )
+)
+
+export { useMeetingsStore, useThreadStore, useProjectProfileStore, useMapStore, useGlobalThreadListStore }

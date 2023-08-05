@@ -2,19 +2,18 @@
 import Thread from './index'
 import GlobalHeader from '../header'
 // import Image from 'next/image'
-import { useMeetingsStore, useThreadStore } from '@/stores'
+import {useGlobalThreadListStore, useMeetingsStore, useThreadStore} from '@/stores'
 import { useEffect, useState } from 'react'
 
 export default function Threads () {
   const thread = useThreadStore(state => state.thread)
   const meetings = useMeetingsStore(state => state.meetings)
-  const [list, setList] = useState([])
+  const list = useGlobalThreadListStore(state=>state.list)
 
   useEffect(() => {
-    const r = [...thread, ...meetings].sort((a, b) => b.timestamp - a.timestamp)
-    setList(r)
+    const l = [...thread, ...meetings].sort((a, b) => b.timestamp - a.timestamp)
+    useGlobalThreadListStore.getState().init(l)
   }, [thread, meetings])
-
   return (
     <>
       <GlobalHeader />
@@ -44,7 +43,7 @@ export default function Threads () {
           </div>
         </div>
         <div className='w-full md:max-w-[800px] m-auto'>
-          <Thread thread={list} />
+          <Thread thread={list} global={true} />
         </div>
       </main>
     </>

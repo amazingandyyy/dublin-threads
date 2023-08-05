@@ -3,6 +3,8 @@ import { Fragment, useEffect, useState } from 'react'
 import AddPost from './add'
 import UpdatePost from './update'
 import MeetingPost from './meeting'
+import {useGlobalThreadListStore} from "@/stores";
+import _ from "lodash";
 
 function PostPlaceholder () {
   const emptyArray = (length = 5) => (Array.from(Array(length).keys()))
@@ -36,17 +38,24 @@ function Post ({ data }) {
   }
 }
 
-export default function Thread ({ thread, unit = 'updates' }) {
+export default function Thread ({ thread, unit = 'results', global=false }) {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     if (thread.length > 0) setLoading(false)
   }, [thread])
 
+  const onSearch = _.debounce((e) => {
+    const newList = useGlobalThreadListStore.getState().applyFilter(e.target.value);
+    useGlobalThreadListStore.getState().update(newList)
+  }, 100)
+
   return (
     <div>
+
         <div className='flex flex-col'>
-          <div className='bg-white bg-opacity-50 text-sm opacity-70 py-1 my-4 px-2 mx-auto rounded-xl'>{loading ? (<span className='animate-pulse'>...</span>) : (<span>{thread.length}</span>)} {unit}</div>
+          {global && <input className='flex-auto bg-white rounded-lg mx-1 p-2 pl-4 hover:bg-gray-200' placeholder='Search for developmenting projects or events in Dublin, CA' name='global-search' onChange={onSearch}/>}
+          <div className='text-sm opacity-70 py-1 my-2 px-2 mx-auto rounded-xl'>{loading ? (<span className='animate-pulse'>...</span>) : (<span>{thread.length}</span>)} {unit}</div>
         </div>
         <>
           {loading && <PostPlaceholder />}
