@@ -52,5 +52,5 @@ jobs:
           git status
           git add -A
           echo $current
-          git commit -m 'feat(data): snapshot and json' -m "$current"
+          git commit -m 'feat(developments): snapshot and json' -m "$current"
           git push

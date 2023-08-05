@@ -2,8 +2,8 @@ const fs = require('fs')
 const { absolutePath, writeJsonToFileForce } = require('../../utils')
 const cheerio = require('cheerio')
 
-async function main () {
-  const html = fs.readFileSync(absolutePath('docs/archive-meetings/meetings.html'))
+async function main (html) {
+  // const html = fs.readFileSync(absolutePath('docs/archive-meetings/meetings.html'))
   const $ = cheerio.load(html)
   const events = []
 
@@ -102,6 +102,7 @@ async function main () {
         agendaPacket
       }
       meeting.orgId = buildId(meeting.organizor)
+      console.log(meeting.name, meeting.date)
       list.push(meeting)
     }
     return list;
@@ -128,6 +129,7 @@ async function main () {
         agendaPacket
       }
       meeting.orgId = buildId(meeting.organizor)
+      console.log(meeting.name, meeting.date)
       list.push(meeting)
     }
     return list;
@@ -165,8 +167,14 @@ async function main () {
   writeJsonToFileForce(absolutePath('docs/api/v2/meetings/all.json'), sortedEvents.map(i=>({...i, type: 'meeting'})))
 }
 
-try {
-  main()
-} catch (e) {
-  console.error(e)
+module.exports = main
+
+if (require.main === module) {
+  try {
+    main()
+  } catch (e) {
+    console.error(e)
+  }
+} else {
+  console.log('required as a module');
 }

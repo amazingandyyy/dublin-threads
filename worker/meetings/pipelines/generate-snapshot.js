@@ -1,5 +1,6 @@
 const playwright = require('playwright')
 const { writeToFileForce, absolutePath } = require('../../utils')
+const generateJson = require('./generate-json')
 
 // const cheerio = require("cheerio");
 // const axios = require('axios')
@@ -12,19 +13,23 @@ async function main () {
     await page.goto(target, {
       waitUntil: 'networkidle'
     })
-    console.log('done loading')
     const frames = await page.frames()
-    for (const x of frames) { // Getting all iFrames
+    for (let i = 0; i < frames.length; i++) { // Getting all iFrames
+      const x = frames[i]
       try {
         const frameContent = await x.content()
         if (frameContent.includes('GranicusMainViewContent')) {
           writeToFileForce(absolutePath('docs/archive-meetings/meetings.html'), frameContent)
+          generateJson(frameContent)
+          break
+        }else{
+          console.log('skipped iframe')
         }
       } catch (error) {
         console.log(error)
       }
     }
-    // const title = await page.locator('#CollapsiblePanel1 .CollapsiblePanelTab').allInnerTexts()
+    await browser.close();
   } catch (e) {
     console.error(e)
   }

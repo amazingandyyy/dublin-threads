@@ -63,7 +63,7 @@ async function generateAllLogs (datekeys) {
     datekeys.forEach((datekey, i) => {
       const previousSnapshot = datekeys[i - 1] ? require(absolutePath(`docs/archive-developments/${datekeys[i - 1]}/dublin-development.icitywork.com/snapshot.json`)) : {}
       const currentSnapshot = require(absolutePath(`docs/archive-developments/${datekeys[i]}/dublin-development.icitywork.com/snapshot.json`))
-      const timestamp = transformedDatekeyToTimestamp(datekey)
+      const timestamp = Number(transformedDatekeyToTimestamp(datekey))
       const log = generateLogs({ oldData: previousSnapshot, newData: currentSnapshot, timestamp: String(timestamp) })
       allLogs.push(...log)
     })

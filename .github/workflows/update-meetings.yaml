@@ -1,10 +1,10 @@
 name: snapshot and generate JSON (meetings)
 
 on:
-  # push:
-  #   branches: [ main ]
-  # schedule:
-  #   - cron: "*/30 * * * *" # every 30 minutes
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: "*/30 * * * *" # every 30 minutes
   workflow_dispatch:
 
 jobs:
@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: use node 17
+      - name: use node
         uses: actions/setup-node@v3
         with:
           node-version: 18.x
@@ -31,6 +31,7 @@ jobs:
       - name: install node dependencies
         working-directory: ./worker
         run: npm install
+
       - name: Install playwright browsers
         working-directory: ./worker
         run: npx playwright install --with-deps chromium
@@ -53,5 +54,5 @@ jobs:
           git status
           git add -A
           echo $current
-          git commit -m 'feat(data): snapshot and json' -m "$current"
+          git commit -m 'feat(meetings): snapshot and json' -m "$current"
           git push
