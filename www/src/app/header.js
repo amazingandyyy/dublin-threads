@@ -1,6 +1,12 @@
 import Link from 'next/link'
+import { useEffect } from 'react'
+import Hotjar from '@hotjar/browser'
 
 export default function GlobalHeader () {
+  useEffect(() => {
+    Hotjar.init(3595523, 6)
+  }, [])
+
   return (<header className="z-50 drop-shadow bg-white bg-opacity-90 fixed py-4 px-2 md:px-6 xl:px-24 top-0 left-0 right-0 backdrop-filter backdrop-blur">
   <div className='flex'>
     <div className='flex'>

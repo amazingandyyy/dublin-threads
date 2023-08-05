@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 import Script from 'next/script'
-import Hotjar from '@hotjar/browser'
+
 import './globals.scss'
 const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_ID
 const CRISP_WEBSITE_ID = process.env.NEXT_PUBLIC_CRISP_WEBSITE_ID
@@ -32,8 +32,6 @@ export const metadata = {
     locale: 'en_US'
   }
 }
-
-Hotjar.init(3595523, 6)
 
 export default function RootLayout ({ children }) {
   return (

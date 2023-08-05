@@ -16,6 +16,7 @@ function transformTimestamp (timestamp) {
   })
 }
 export default function MeetingPost ({ data }) {
+	const isUpComing = Boolean(Date.now() - data.timestamp < 0)
   return (<PostCard>
 		<div className='flex items-start justify-between pb-4'>
 			<div className='flex-none w-60 md:w-96 items-start flex-col md:flex-row md:items-center'>
@@ -26,6 +27,7 @@ export default function MeetingPost ({ data }) {
 			</div>
 			<div className='relative'>
 				<div className='pl-1 text-gray-500 text-xs'>{transformTimestamp(data.timestamp)}</div>
+				{isUpComing && <div className='inline-block absolute bg-green-400 text-green-800 px-2 -top-8 -left-4 rounded-full text-sm rotate-[5deg] md:-rotate-[5deg] shadow-xl'>upcoming</div>}
 			</div>
 		</div>
 		<div className='flex flex-col'>
@@ -47,6 +49,7 @@ export default function MeetingPost ({ data }) {
 			<div className='pr-1'>#{data.orgId}</div>
 			<div className='pr-1'>#meeting</div>
 			{data.cancelled && <div className='pr-1'>#cancelled</div>}
+			{isUpComing && <div className='pr-1'>#upcoming</div>}
 		</div>
 	</PostCard>)
 }

@@ -1,16 +1,26 @@
 'use client'
-import { useState } from 'react'
+import {useEffect, useState} from 'react'
 
 import Map, { Source, Layer, Marker, ScaleControl, GeolocateControl, NavigationControl } from 'react-map-gl'
 import DublinOSM from './dublin-osm.json' // https://osm-boundaries.com/
 import 'mapbox-gl/dist/mapbox-gl.css'
-import { useMapStore } from '@/stores'
+import {useMapStore, useThreadStore} from '@/stores'
 import GlobalHeader from '@/header'
 import { PinMarker } from './markers'
 import Link from 'next/link'
+import {fetchDevelopments} from "@/utils";
 
 export default function Threads ({ params, searchParams }) {
   const locations = useMapStore(state => state.locations)
+
+  useEffect(() => {
+    fetchDevelopments('/logs/global.json')
+      .then(res => res.json())
+      .then(data => {
+        console.log('fetching developments event', data[0])
+        useThreadStore.getState().update(data)
+      })
+  }, [])
 
   const mapConfig = {
     initialViewState: {
@@ -23,7 +33,7 @@ export default function Threads ({ params, searchParams }) {
   const [zoom, setZoom] = useState(mapConfig.initialViewState.zoom)
 
   function labelClassName (zoom) {
-    if (zoom < 15) {
+    if (zoom < 14.5) {
       return 'inline-block translate-y-4 font-bold text-center opacity-0'
     }
     return 'inline-block translate-y-4 font-bold text-center'
