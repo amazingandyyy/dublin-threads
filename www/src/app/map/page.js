@@ -1,14 +1,14 @@
 'use client'
-import {useEffect, useState} from 'react'
+import { useEffect, useState } from 'react'
 
 import Map, { Source, Layer, Marker, ScaleControl, GeolocateControl, NavigationControl } from 'react-map-gl'
 import DublinOSM from './dublin-osm.json' // https://osm-boundaries.com/
 import 'mapbox-gl/dist/mapbox-gl.css'
-import {useMapStore, useThreadStore} from '@/stores'
+import { useMapStore, useThreadStore } from '@/stores'
 import GlobalHeader from '@/header'
 import { PinMarker } from './markers'
 import Link from 'next/link'
-import {fetchDevelopments} from "@/utils";
+import { fetchDevelopments } from '@/utils'
 
 export default function Threads ({ params, searchParams }) {
   const locations = useMapStore(state => state.locations)

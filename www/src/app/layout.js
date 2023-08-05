@@ -18,7 +18,7 @@ export const metadata = {
   },
   openGraph: {
     title: 'Dublin Threads',
-    description: 'Built by a software engineer living in Dublin, CA. Dublin threads is a place for local updates on developments and public meetings. Updated every 30 minutes.',
+    description: 'Built by a software engineer living in Dublin, California. Dublin threads is a place for local updates on developments and public meetings. Open discussion on projects and engage community to join the meetings. Updated every 30 minutes.',
     url: 'https://dublin.amazyyy.com',
     siteName: 'DublinThreads',
     themeColor: '#2AA34A',
@@ -55,7 +55,6 @@ export default function RootLayout ({ children }) {
         }} />
 
       <Head>
-        <link rel="apple-touch-icon" sizes="180x180" href="https://dublin.amazyyy.com/icons/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="https://dublin.amazyyy.com/icons/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="https://dublin.amazyyy.com/icons/favicon-16x16.png" />
         <meta name="msapplication-TileColor" content="#0D8100" />

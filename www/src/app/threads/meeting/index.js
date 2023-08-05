@@ -1,7 +1,7 @@
 import { PostCard } from '../templates'
 import Link from 'next/link'
 import { timeSince } from '@/utils'
-import { AddToCalendarButton } from 'add-to-calendar-button-react';
+import { AddToCalendarButton } from 'add-to-calendar-button-react'
 
 function transformTimestamp (timestamp) {
   const days = 1000 * 60 * 60 * 24 * 365 // 365 days
@@ -17,15 +17,15 @@ function transformTimestamp (timestamp) {
   })
 }
 export default function MeetingPost ({ data }) {
-	const isUpComing = Boolean(Date.now() - data.timestamp < 0)
+  const isUpComing = Boolean(Date.now() - data.timestamp < 0)
 
-	function renderAddToCalendar(data) {
-		const a = data.date.split('-');
-		const date = `${a[2]}-${a[0]}-${a[1]}`
-		return <div className='pt-2'>
+  function renderAddToCalendar (data) {
+    const a = data.date.split('-')
+    const date = `${a[2]}-${a[0]}-${a[1]}`
+    return <div className='pt-2'>
 			<AddToCalendarButton
 				name={data.name}
-				options={['Apple','Google', 'Yahoo', 'Outlook.com']}
+				options={['Apple', 'Google', 'Yahoo', 'Outlook.com']}
 				location={data.video}
 				startDate={date}
 				endDate={date}
@@ -36,7 +36,7 @@ export default function MeetingPost ({ data }) {
 				add to calendar
 			</AddToCalendarButton>
 		</div>
-	}
+  }
 
   return (<PostCard>
 		<div className='flex items-start justify-between pb-4'>

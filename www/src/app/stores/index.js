@@ -53,30 +53,30 @@ const useGlobalThreadListStore = create(
     originalList: [],
     init: (list) => {
       console.log('init list', list.length)
-      set({list, originalList: list})
+      set({ list, originalList: list })
     },
     update: (list) => {
       console.log('new list', list.length)
-      set({list})
+      set({ list })
     },
     applyFilter: (string) => {
       let newList = []
-      if(string.length === 0){
+      if (string.length === 0) {
         console.log('reset', get().originalList.length)
         newList = get().originalList
-      }else{
+      } else {
         const str = string.split(' ').join('.*')
-        const re = new RegExp(`.*${str}.*`, "ig");
+        const re = new RegExp(`.*${str}.*`, 'ig')
         const list = get().originalList
-        newList = _.filter(list, (o)=>{
-          if(o.organizor) return re.test(o.organizor);
-          const projectKeys = _.findKey(useProjectProfileStore.getState().profiles, (i)=> {
+        newList = _.filter(list, (o) => {
+          if (o.organizor) return re.test(o.organizor)
+          const projectKeys = _.findKey(useProjectProfileStore.getState().profiles, (i) => {
             return re.test(i.title)
           }) || []
           return projectKeys?.includes(o.projectId)
         })
       }
-      return newList;
+      return newList
     }
   })
   )

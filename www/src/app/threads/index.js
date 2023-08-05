@@ -3,8 +3,8 @@ import { Fragment, useEffect, useState } from 'react'
 import AddPost from './add'
 import UpdatePost from './update'
 import MeetingPost from './meeting'
-import {useGlobalThreadListStore} from "@/stores";
-import _ from "lodash";
+import { useGlobalThreadListStore } from '@/stores'
+import _ from 'lodash'
 
 function PostPlaceholder () {
   const emptyArray = (length = 5) => (Array.from(Array(length).keys()))
@@ -38,7 +38,7 @@ function Post ({ data }) {
   }
 }
 
-export default function Thread ({ thread, unit = 'results', global=false }) {
+export default function Thread ({ thread, unit = 'results', global = false }) {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
@@ -46,7 +46,7 @@ export default function Thread ({ thread, unit = 'results', global=false }) {
   }, [thread])
 
   const onSearch = _.debounce((e) => {
-    const newList = useGlobalThreadListStore.getState().applyFilter(e.target.value);
+    const newList = useGlobalThreadListStore.getState().applyFilter(e.target.value)
     useGlobalThreadListStore.getState().update(newList)
   }, 100)
 

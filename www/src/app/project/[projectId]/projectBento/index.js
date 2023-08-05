@@ -17,11 +17,11 @@ import {
   DocumentPlusIcon,
   ChatBubbleBottomCenterTextIcon, TrophyIcon
 } from '@heroicons/react/24/outline'
-
 import './style.scss'
 import { MapPinIcon } from '@heroicons/react/20/solid'
 import { timeSince, Image, useArchivedSource } from '@/utils'
 import Threads from '@/threads'
+import { DiscussionEmbed } from 'disqus-react'
 
 export default function ProjectBento ({ projectId }) {
   const [project, setProject] = useState({})
@@ -232,6 +232,23 @@ export default function ProjectBento ({ projectId }) {
     })}</div>
   }
 
+  const renderDiscusstion = (project) => {
+    return (<div className='md:rounded-2xl system-card bg-white p-8'>
+      <div className='inline-block self-start border-2 border-gray-800 text-gray-800 text-sm rounded-full px-3 mb-4'>Open discussions</div>
+      <DiscussionEmbed
+        shortname='dublin-threads'
+        config={
+          {
+            url: 'https://dublin.amazyyy.com',
+            identifier: project.id,
+            title: project.title,
+            language: 'en'
+          }
+        }
+      />
+    </div>)
+  }
+
   if (!project.id) {
     return (<div>Loading...</div>)
   } else {
@@ -267,6 +284,9 @@ export default function ProjectBento ({ projectId }) {
           {renderStats(project)}
         </div>
       </div>
+      <div className='md:p-2'>
+        {renderDiscusstion(project)}
+      </div>
       <div className='w-full md:p-2'>
         {renderImages(project?.images)}
       </div>
@@ -284,8 +304,8 @@ export default function ProjectBento ({ projectId }) {
                 This is a thread of {project.title}{'\'s'} updates on <a className='text-green-600' href='https://dublin-development.icitywork.com' target='_blank' rel="noreferrer">Dublin Devlopment Projects Site</a>
               </div>
             <div className='py-2'>
-              {[project.title, "DublinCA", "California", "TriValley"].map(i=>{
-                return <span className='py-1 px-2 bg-green-400 m-1 rounded-full text-xs text-green-800 bg-opacity-40'>#{i}</span>
+              {[project.title, 'DublinCA', 'California', 'TriValley'].map(i => {
+                return <span key={i} className='py-1 px-2 bg-green-400 m-1 rounded-full text-xs text-green-800 bg-opacity-40'>#{i}</span>
               })}
             </div>
             <div className='text-sm'>

@@ -1,14 +1,13 @@
 'use client'
 import Thread from './index'
 import GlobalHeader from '../header'
-// import Image from 'next/image'
-import {useGlobalThreadListStore, useMeetingsStore, useThreadStore} from '@/stores'
-import { useEffect, useState } from 'react'
+import { useGlobalThreadListStore, useMeetingsStore, useThreadStore } from '@/stores'
+import { useEffect } from 'react'
 
 export default function Threads () {
   const thread = useThreadStore(state => state.thread)
   const meetings = useMeetingsStore(state => state.meetings)
-  const list = useGlobalThreadListStore(state=>state.list)
+  const list = useGlobalThreadListStore(state => state.list)
 
   useEffect(() => {
     const l = [...thread, ...meetings].sort((a, b) => b.timestamp - a.timestamp)
@@ -34,8 +33,8 @@ export default function Threads () {
             This is a thread of {'what\'s'} updates on <a className='text-green-600' href='https://dublin-development.icitywork.com' target='_blank' rel="noreferrer">Dublin Devlopment Projects Site</a> and <a className='text-green-600' href='https://dublin.ca.gov/1604/Meetings-Agendas-Minutes-Video-on-Demand' target='_blank' rel="noreferrer">Dublin Meetings Site</a>
           </div>
           <div className='py-2'>
-            {["DublinCA", "California", "TriValley"].map(i=>{
-              return <span className='py-1 px-2 bg-green-400 m-1 rounded-full text-xs text-green-800 bg-opacity-40'>#{i}</span>
+            {['DublinCA', 'California', 'TriValley'].map(i => {
+              return <span key={i} className='py-1 px-2 bg-green-400 m-1 rounded-full text-xs text-green-800 bg-opacity-40'>#{i}</span>
             })}
           </div>
           <div className='text-sm'>

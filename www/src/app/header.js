@@ -1,11 +1,8 @@
 import Link from 'next/link'
 import { useEffect } from 'react'
 import Hotjar from '@hotjar/browser'
-import { usePathname } from 'next/navigation'
 
 export default function GlobalHeader () {
-  const pathname = usePathname()
-
   useEffect(() => {
     Hotjar.init(3595523, 6)
   }, [])
