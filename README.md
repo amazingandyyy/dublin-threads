@@ -19,8 +19,13 @@ Data API of developmenting projects and meetings for Dublin, CA
 ## Architecture
 
 - cronjob is defined as github actions, run scripts under `/worker`
+  - [![archive web resources](https://github.com/amazingandyyy/dublin-threads/actions/workflows/archive-web-resources.yaml/badge.svg)](https://github.com/amazingandyyy/dublin-threads/actions/workflows/archive-web-resources.yaml)
+  - [![snapshot and generate JSON (developments)](https://github.com/amazingandyyy/dublin-threads/actions/workflows/update-developements.yaml/badge.svg)](https://github.com/amazingandyyy/dublin-threads/actions/workflows/update-developements.yaml)
+  - [![snapshot and generate JSON (meetings)](https://github.com/amazingandyyy/dublin-threads/actions/workflows/update-meetings.yaml/badge.svg)](https://github.com/amazingandyyy/dublin-threads/actions/workflows/update-meetings.yaml)
 - worker generates JSON api under `/docs/api`
+  - [![generate api data from archives](https://github.com/amazingandyyy/dublin-threads/actions/workflows/update-api.yaml/badge.svg)](https://github.com/amazingandyyy/dublin-threads/actions/workflows/update-api.yaml)
 - react webapp fetches from the api and serves the UI with the latest data
+  - ![Vercel](https://vercelbadge.vercel.app/api/amazingandyyy/dublin)
 
 ## Special Thanks to
 
