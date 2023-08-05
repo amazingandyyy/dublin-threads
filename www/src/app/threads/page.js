@@ -29,12 +29,17 @@ export default function Threads () {
           {/*  priority */}
           {/* /> */}
           <div className='text-3xl md:text-5xl font-bold text-green-950 mb-4'>
-            A Thread for Dublin
+            A Thread for Dublin, CA
           </div>
           <div>
             This is a thread of {'what\'s'} updates on <a className='text-green-600' href='https://dublin-development.icitywork.com' target='_blank' rel="noreferrer">Dublin Devlopment Projects Site</a> and <a className='text-green-600' href='https://dublin.ca.gov/1604/Meetings-Agendas-Minutes-Video-on-Demand' target='_blank' rel="noreferrer">Dublin Meetings Site</a>
           </div>
-          <div>
+          <div className='py-2'>
+            {["DublinCA", "California", "TriValley"].map(i=>{
+              return <span className='py-1 px-2 bg-green-400 m-1 rounded-full text-xs text-green-800 bg-opacity-40'>#{i}</span>
+            })}
+          </div>
+          <div className='text-sm'>
             Updated every 30 minutes
           </div>
         </div>

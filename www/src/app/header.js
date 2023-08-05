@@ -11,7 +11,7 @@ export default function GlobalHeader () {
   <div className='flex'>
     <div className='flex'>
       <a href='/' className='flex items-center pl-2'>
-        <h1 className="inline-block text-xl md:text-2xl tracking-tighter font-bold text-green-950 hover:opacity-80">Dublin Threads</h1>
+        <h1 className="inline-block text-xl md:text-2xl tracking-tighter font-bold text-green-950 hover:opacity-80">🍀 Dublin Threads</h1>
       </a>
     </div>
     <div className='grow'>

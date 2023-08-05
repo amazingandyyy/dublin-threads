@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { timeSince } from '@/utils'
 
 function transformTimestamp (timestamp) {
-  const days = 1000 * 60 * 60 * 24 * 365 // 365 days
+  const days = 1000 * 60 * 60 * 24 * 14 // 14 days
   if (Date.now() - timestamp < days) {
     return timeSince(timestamp) + ' ago'
   }
