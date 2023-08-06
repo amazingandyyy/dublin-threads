@@ -236,7 +236,7 @@ export default function ProjectBento ({ projectId }) {
     return (<div className='md:rounded-2xl system-card bg-white p-8'>
       <div className='inline-block self-start border-2 border-gray-800 text-gray-800 text-sm rounded-full px-3 mb-4'>Open discussions</div>
       <DiscussionEmbed
-        shortname='dublin-threads'
+        shortname=`dublin-threads:${project.id}`
         config={
           {
             url: 'https://dublin.amazyyy.com',
