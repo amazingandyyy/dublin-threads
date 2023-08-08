@@ -25,7 +25,7 @@ export default function ({ data }) {
       </div>
       <div className='relative'>
         <div className='pl-1 text-gray-500 text-xs'>{transformTimestamp(data.timestamp)}</div>
-        {isNewPost && <div className='inline-block absolute bg-yellow-100 text-yellow-900 px-2 top-5 left-10 rounded-full text-sm -rotate-[5deg] shadow-md'>news</div>}
+        {isNewPost && <div className='inline-block absolute bg-yellow-100 text-yellow-900 px-2 top-5 left-9 rounded-full text-sm -rotate-[5deg] shadow-md'>news</div>}
       </div>
     </div>)
 }
