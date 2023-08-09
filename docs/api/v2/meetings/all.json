@@ -13,18 +13,6 @@
   },
   {
     "organizor": "Planning Commission",
-    "cancelled": true,
-    "name": "Planning Commission Cancelled",
-    "date": "08-08-2023",
-    "timestamp": 1691478000000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=394",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "PlanningCommission",
-    "type": "meeting"
-  },
-  {
-    "organizor": "Planning Commission",
     "cancelled": false,
     "name": "Planning Commission Regular Meeting",
     "date": "07-25-2023",
