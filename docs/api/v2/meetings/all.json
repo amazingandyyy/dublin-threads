@@ -12,30 +12,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "City Council",
-    "cancelled": false,
-    "name": "City Council Special Meeting",
-    "date": "08-15-2023",
-    "timestamp": 1692082800000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=462",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "CityCouncil",
-    "type": "meeting"
-  },
-  {
-    "organizor": "City Council",
-    "cancelled": false,
-    "name": "City Council Regular Meeting",
-    "date": "08-15-2023",
-    "timestamp": 1692082800000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=384",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/12d09043-65d4-11ed-95a3-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1692134639.pdf",
-    "orgId": "CityCouncil",
-    "type": "meeting"
-  },
-  {
     "organizor": "Heritage and Cultural Arts Commission",
     "cancelled": false,
     "name": "Heritage and Cultural Arts Commission",
@@ -4843,6 +4819,18 @@
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=901",
     "agendaPacket": "",
     "orgId": "HeritageandCulturalArtsCommission",
+    "type": "meeting"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "timestamp": 0,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=384",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&event_id=384','player','toolbar=no,directories=no,status=yes,scrollbars=no,resizable=yes,menubar=no')",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/12d09043-65d4-11ed-95a3-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1692134639.pdf",
+    "orgId": "CityCouncil",
     "type": "meeting"
   }
 ]
