@@ -22,17 +22,6 @@
     "orgId": "PlanningCommission"
   },
   {
-    "organizor": "Parks and Community Services Commission",
-    "cancelled": false,
-    "name": "Parks and Community Services Commission",
-    "date": "08-21-2023",
-    "timestamp": 1692601200000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=357",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/29554359-5f04-11ed-95a3-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1692317883.pdf",
-    "orgId": "ParksandCommunityServicesCommission"
-  },
-  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
@@ -4483,5 +4472,16 @@
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=901",
     "agendaPacket": "",
     "orgId": "HeritageandCulturalArtsCommission"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": null,
+    "timestamp": 0,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=357",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&event_id=357','player','toolbar=no,directories=no,status=yes,scrollbars=no,resizable=yes,menubar=no')",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/29554359-5f04-11ed-95a3-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1692317883.pdf",
+    "orgId": "ParksandCommunityServicesCommission"
   }
 ]
