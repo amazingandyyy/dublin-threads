@@ -1,0 +1,50 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1685"
+    ],
+    "val": {
+      "id": "projectdetail1685",
+      "title": "The Dublin Centre PA-1 TMap",
+      "details": {
+        "Planning Application #": "PLPA-2023-00020",
+        "Application Type": "Tentative Parcel Map",
+        "Application Submittal Date": "06/06/2023",
+        "General Plan Land Use": "General Commercial",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development Ordinance No. 14-22",
+        "Project Area": "23.7 acres",
+        "Applicant": {
+          "name": "Stephen Schott",
+          "address": "404 Saratoga Avenue, Ste. 100, Santa Clara, CA 95050",
+          "phone": "408-985-6000"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "Tassajara Road",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "Vesting Tentative Parcel Map application for PA-1 of The Dublin Centre project. The project includes the subdivision of a 23.7-acre site to create three parcels south of Dublin Boulevard.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/08/Pages-from-DC-PA-1-TPM2023-07-31-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/08/Pages-from-DC-PA-1-TPM2023-07-31-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.703662,
+        "lon": -121.870392,
+        "iconName": "dot",
+        "title": "The Dublin Centre PA-1 TMap"
+      }
+    },
+    "projectId": "projectdetail1685",
+    "timestamp": "1693335600000",
+    "type": "developments:add"
+  }
+]

@@ -739,5 +739,42 @@
     "projectId": "projectdetail1464",
     "timestamp": "1689602400000",
     "type": "developments:delete"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "title"
+    ],
+    "val": "The Dublin Centre “The DC”",
+    "oldVal": "The Dublin Center “The DC”",
+    "projectId": "projectdetail1464",
+    "timestamp": "1693335600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "description"
+    ],
+    "val": "The Applicant has submitted a Pre-Application for a Site Development Review Permit and Tentative Tract Map(s) to develop 54-acres of the SCS Dublin site (north of Dublin Boulevard).",
+    "oldVal": "The Applicant has submitted a Pre-Application for a Site Development Review Permit and Tentative Parcel Map(s) to develop 54-acres of the SCS Dublin site (north of Dublin Boulevard).",
+    "projectId": "projectdetail1464",
+    "timestamp": "1693335600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "geolocation",
+      "title"
+    ],
+    "val": "The Dublin Centre “The DC”",
+    "oldVal": "The Dublin Center “The DC”",
+    "projectId": "projectdetail1464",
+    "timestamp": "1693335600000",
+    "type": "developments:update"
   }
 ]
