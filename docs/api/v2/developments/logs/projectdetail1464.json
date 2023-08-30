@@ -781,6 +781,18 @@
     "op": "update",
     "path": [
       "projectdetail1464",
+      "description"
+    ],
+    "val": "The Applicant has submitted a Pre-Application for a Site Development Review Permit and Tentative Tract Map(s) to develop 54-acres of the SCS Dublin site (north of Dublin Boulevard). North of Dublin Boulevard is divided into 3 Planning Areas (PA). PA- 2 is block between Dublin Boulevard and Central Parkway, PA-3 is the block between Central Parkway and Gleason Road and PA-4 is the small area north of Gleason Road.",
+    "oldVal": "The Applicant has submitted a Pre-Application for a Site Development Review Permit and Tentative Tract Map(s) to develop 54-acres of the SCS Dublin site (north of Dublin Boulevard).",
+    "projectId": "projectdetail1464",
+    "timestamp": "1693407600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
       "images",
       2,
       "original"
