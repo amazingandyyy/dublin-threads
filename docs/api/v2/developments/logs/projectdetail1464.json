@@ -776,5 +776,108 @@
     "projectId": "projectdetail1464",
     "timestamp": "1693335600000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Pages-from-The-DC_SDR-PA3-4_combined-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Preferred-Plan-cover.jpg",
+    "projectId": "projectdetail1464",
+    "timestamp": "1693407600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Pages-from-The-DC_SDR-PA3-4_combined-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Preferred-Plan-cover-150x150.jpg",
+    "projectId": "projectdetail1464",
+    "timestamp": "1693407600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "images",
+      3
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/PA4-Streetview-scaled.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/PA4-Streetview-150x150.jpg"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1693407600000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "images",
+      4
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/PA3-streetview-scaled.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/PA3-streetview-150x150.jpg"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1693407600000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "images",
+      5
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/PA3-ADU-streetview-scaled.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/PA3-ADU-streetview-150x150.jpg"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1693407600000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "images",
+      6
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/PA3-ADU-streetview-rear-scaled.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/PA3-ADU-streetview-rear-150x150.jpg"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1693407600000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "images",
+      7
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/PA3-townhomes-scaled.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/PA3-townhomes-150x150.jpg"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1693407600000",
+    "type": "developments:add"
   }
 ]
