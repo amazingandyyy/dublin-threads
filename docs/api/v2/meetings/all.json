@@ -1,5 +1,17 @@
 [
   {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "09-12-2023",
+    "timestamp": 1694502000000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "PlanningCommission",
+    "type": "meeting"
+  },
+  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
