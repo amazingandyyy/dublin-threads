@@ -1,5 +1,17 @@
 [
   {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "09-05-2023",
+    "timestamp": 1693897200000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=458",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/4fdb8276-3162-11ee-9e9a-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1693954940.pdf",
+    "orgId": "CityCouncil",
+    "type": "meeting"
+  },
+  {
     "organizor": "Youth Advisory Committee",
     "cancelled": false,
     "name": "Youth Advisory Committee",
@@ -4872,18 +4884,6 @@
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=901",
     "agendaPacket": "",
     "orgId": "HeritageandCulturalArtsCommission",
-    "type": "meeting"
-  },
-  {
-    "organizor": "City Council",
-    "cancelled": false,
-    "name": "City Council Regular Meeting",
-    "date": null,
-    "timestamp": 0,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=458",
-    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&event_id=458','player','toolbar=no,directories=no,status=yes,scrollbars=no,resizable=yes,menubar=no')",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/4fdb8276-3162-11ee-9e9a-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1693954940.pdf",
-    "orgId": "CityCouncil",
     "type": "meeting"
   }
 ]
