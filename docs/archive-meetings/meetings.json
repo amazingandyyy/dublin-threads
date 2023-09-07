@@ -119,6 +119,18 @@
     "orgId": "PlanningCommission"
   },
   {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": true,
+    "name": "Parks and Community Services Commission Cancellation Notice",
+    "date": "07-17-2023",
+    "timestamp": 1689577200000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1910",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1910",
+    "agendaPacket": "",
+    "orgId": "ParksandCommunityServicesCommission"
+  },
+  {
     "organizor": "Heritage and Cultural Arts Commission",
     "cancelled": true,
     "name": "Heritage and Cultural Arts Commission Cancellation Notice",
