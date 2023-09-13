@@ -155,5 +155,19 @@
     "projectId": "projectdetail1376",
     "timestamp": "1679857046000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1376",
+      "details",
+      "Applicant",
+      "phone"
+    ],
+    "val": "(510) 821-1834",
+    "oldVal": "n/a",
+    "projectId": "projectdetail1376",
+    "timestamp": "1694570400000",
+    "type": "developments:update"
   }
 ]
