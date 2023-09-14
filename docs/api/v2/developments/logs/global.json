@@ -2,6 +2,71 @@
   {
     "op": "update",
     "path": [
+      "projectdetail1426",
+      "details",
+      "Application Type"
+    ],
+    "val": "Planned Development Zoning Amendment, Conditional Use Permit and Site Development Review",
+    "oldVal": "Conditional Use Permit and Site Development Review",
+    "projectId": "projectdetail1426",
+    "timestamp": "1694656800000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1426",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Jeff Baker - Community Development Director",
+    "oldVal": "Anne Hersch - Assistant Community Development Director",
+    "projectId": "projectdetail1426",
+    "timestamp": "1694656800000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1426",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "jeff.baker@dublin.ca.gov",
+    "oldVal": "anne.hersch@dublin.ca.gov",
+    "projectId": "projectdetail1426",
+    "timestamp": "1694656800000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1426",
+      "status"
+    ],
+    "val": "Pubic Hearing",
+    "oldVal": "Application Under Review",
+    "projectId": "projectdetail1426",
+    "timestamp": "1694656800000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1426",
+      "description"
+    ],
+    "val": "Application to allow for the expansion of the school campus and construction of a performing arts center that will provide a home for existing programs at the school. The request includes an amendment to the Planned Development Zoning, a Conditional Use Permit, and a Site Development Review Permit to construct a new 13,800-square foot building. The building will include a 350 seat theater and other support spaces, as well as on site improvements including a parking lot and landscaping on the recently acquired southern 2.6 acres formerly used as a landscaping supply business and currently contains a single-family home and associated outbuildings.",
+    "oldVal": "Application for a Conditional Use Permit for a minor amendment to the Stage 1 and Stage 2 Development Plan for the Quarry Lane School (Ordinance No. 12-14) and a Site Development Review Permit to construct a new 13,800-square foot building comprised of a performing arts center and other support spaces, including a new parking lot, within the newly acquired southern portion of the school property, which was formerly used as a landscaping supply business and currently contains a single-family home and associated outbuildings.",
+    "projectId": "projectdetail1426",
+    "timestamp": "1694656800000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
       "projectdetail1376",
       "details",
       "Applicant",
