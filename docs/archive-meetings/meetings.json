@@ -1,5 +1,16 @@
 [
   {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "09-26-2023",
+    "timestamp": 1695711600000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "PlanningCommission"
+  },
+  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
@@ -31,6 +42,18 @@
     "video": "",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/dc8b1240-5f04-11ed-95a3-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1694464776.pdf",
     "orgId": "HeritageandCulturalArtsCommission"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "09-12-2023",
+    "timestamp": 1694502000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1912",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1912",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/6f479bd3-6f63-11ed-9024-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1694551311.pdf",
+    "orgId": "PlanningCommission"
   },
   {
     "organizor": "City Council",
