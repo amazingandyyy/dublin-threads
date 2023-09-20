@@ -1,11 +1,11 @@
 [
   {
     "organizor": "Planning Commission",
-    "cancelled": false,
-    "name": "Planning Commission Regular Meeting",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
     "date": "09-26-2023",
     "timestamp": 1695711600000,
-    "agenda": "",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=407",
     "video": "",
     "agendaPacket": "",
     "orgId": "PlanningCommission",
