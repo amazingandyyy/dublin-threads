@@ -1,5 +1,16 @@
 [
   {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "09-27-2023",
+    "timestamp": 1695798000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=445",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/5e1fc479-11e9-11ee-aabb-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1695316691.pdf",
+    "orgId": "YouthAdvisoryCommittee"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": true,
     "name": "Planning Commission Cancelled",
