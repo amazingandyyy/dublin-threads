@@ -1,5 +1,69 @@
 [
   {
+    "op": "delete",
+    "path": [
+      "projectdetail1509"
+    ],
+    "oldVal": {
+      "id": "projectdetail1509",
+      "title": "Hacienda Crossings Drive-Through Restaurant (Chick-fil-A)",
+      "details": {
+        "Planning Application #": "PLPA-2022-00024",
+        "Application Type": "Site Development Review Permit",
+        "Application Submittal Date": "07/05/2021",
+        "General Plan Land Use": "General Commercial",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development (Reso. 06-95)",
+        "Project Area": "1.03 acres",
+        "Building Area": "2,781 square feet",
+        "Foor Area Ratio": "0.62 FAR",
+        "Stories/Height": "1 story / 21 feet",
+        "Parking Provided": "30 parking spaces",
+        "Applicant": {
+          "name": "Ed Hale, 4G Development &amp; Consulting, Inc.",
+          "address": "2153 Oak Hill Road, Escondido, CA 92027",
+          "phone": "(760) 884-7011"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Associate Planner",
+          "phone": "(925) 833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "4814 Dublin Boulevard",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "Demolition of an existing building and construction of a new 2,781-square-foot drive-through restaurant, new trash enclosure, parking, and related site improvements.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Rendering.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Rendering-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/SP.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/SP-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Landscape-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations-3.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations-3-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.7028251,
+        "lon": -121.8837703,
+        "iconName": "dot",
+        "title": "Hacienda Crossings Drive-Through Restaurant (Chick-fil-A)"
+      }
+    },
+    "projectId": "projectdetail1509",
+    "timestamp": "1695322800000",
+    "type": "developments:delete"
+  },
+  {
     "op": "update",
     "path": [
       "projectdetail1426",
