@@ -473,5 +473,33 @@
     "projectId": "projectdetail1068",
     "timestamp": "1689606000000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Gaspare Annibale - Associate Planner",
+    "oldVal": "Planner",
+    "projectId": "projectdetail1068",
+    "timestamp": "1695412800000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "gaspare.annibale@dublin.ca.gov",
+    "oldVal": "planningpermits@dublin.ca.gov",
+    "projectId": "projectdetail1068",
+    "timestamp": "1695412800000",
+    "type": "developments:update"
   }
 ]
