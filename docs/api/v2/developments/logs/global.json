@@ -3,6 +3,18 @@
     "op": "update",
     "path": [
       "projectdetail1464",
+      "description"
+    ],
+    "val": "The Applicant has submitted an application for a Site Development Review Permit and Tentative Tract Map(s) for a mixed-use development which includes 500 residential units, approximately 38,000 square feet of retail commercial uses, a public park and a community center. The Dublin Centre project is located on the 54-acres of the SCS property north of Dublin Boulevard. The project is divided into 3 Planning Areas (PA). PA- 2 is block between Dublin Boulevard and Central Parkway, PA-3 is the block between Central Parkway and Gleason Road and PA-4 is the small area north of Gleason Road. The project also includes the request for approval of the off-site/frontage improvements for PA-1 which is the block south of Dublin Boulevard. No development of PA-1 is proposed as part of this application.",
+    "oldVal": "The Applicant has submitted an application for a Site Development Review Permit and Tentative Tract Map(s) to develop 54-acres of the SCS Dublin site (north of Dublin Boulevard). North of Dublin Boulevard is divided into 3 Planning Areas (PA). PA- 2 is block between Dublin Boulevard and Central Parkway, PA-3 is the block between Central Parkway and Gleason Road and PA-4 is the small area north of Gleason Road. The project also includes the request for approval of the off-site improvements for PA-1 which is the block south of Dublin Boulevard.",
+    "projectId": "projectdetail1464",
+    "timestamp": "1695841200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
       "details",
       "Planning Application #"
     ],
