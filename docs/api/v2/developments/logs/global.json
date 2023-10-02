@@ -2,6 +2,48 @@
   {
     "op": "update",
     "path": [
+      "projectdetail1380",
+      "details",
+      "Applicant",
+      "name"
+    ],
+    "val": "Ann Silverberg, Related/Amador Station Development Co., LLC",
+    "oldVal": "Brad Wiblin, Bridge Housing",
+    "projectId": "projectdetail1380",
+    "timestamp": "1696276800000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1380",
+      "details",
+      "Applicant",
+      "address"
+    ],
+    "val": "44 Montgomery Street, Ste. 1310 San Francisco, CA 94104",
+    "oldVal": "600 California Street, Ste. 900 San Francisco, CA 94108",
+    "projectId": "projectdetail1380",
+    "timestamp": "1696276800000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1380",
+      "details",
+      "Applicant",
+      "phone"
+    ],
+    "val": "510-610-9777",
+    "oldVal": "415-321-3565",
+    "projectId": "projectdetail1380",
+    "timestamp": "1696276800000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
       "projectdetail1464",
       "description"
     ],
