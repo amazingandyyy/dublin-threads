@@ -77,5 +77,179 @@
     "projectId": "projectdetail1461",
     "timestamp": "1656420658000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "title"
+    ],
+    "val": "McDonald’s Remodel",
+    "oldVal": "McDonald’s SDR",
+    "projectId": "projectdetail1461",
+    "timestamp": "1696525200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Project Area"
+    ],
+    "val": ".87 acres",
+    "oldVal": ".88 acres",
+    "projectId": "projectdetail1461",
+    "timestamp": "1696525200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Building Area"
+    ],
+    "val": "3,795 square feet",
+    "oldVal": "4,394 square feet",
+    "projectId": "projectdetail1461",
+    "timestamp": "1696525200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Parking Provided"
+    ],
+    "val": "32 parking spaces",
+    "oldVal": "16 parking spaces",
+    "projectId": "projectdetail1461",
+    "timestamp": "1696525200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Applicant",
+      "name"
+    ],
+    "val": "Robert Yagusesky, Project Manager for McDonald's",
+    "oldVal": "Drew Sanchez, Project Manager for McDonald's",
+    "projectId": "projectdetail1461",
+    "timestamp": "1696525200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Applicant",
+      "phone"
+    ],
+    "val": "206.348.4374",
+    "oldVal": "650-350-9471",
+    "projectId": "projectdetail1461",
+    "timestamp": "1696525200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Foor Area Ratio"
+    ],
+    "val": ".08 FAR",
+    "projectId": "projectdetail1461",
+    "timestamp": "1696525200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "description"
+    ],
+    "val": "Site Development Review Permit for the remodel of the exiting McDonald’s restaurant including a 650 square foot addition and a second drive-thru lane.",
+    "oldVal": "Site Development Review Permit for demolition of existing McDonald’s restaurant, and construction of anew 4,394 sf building, drive thru, trash enclosure and site improvements.",
+    "projectId": "projectdetail1461",
+    "timestamp": "1696525200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Pages-from-40272-Dublin-CA-Planning_2023.09.29-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/8-Photosim.jpg",
+    "projectId": "projectdetail1461",
+    "timestamp": "1696525200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Pages-from-40272-Dublin-CA-Planning_2023.09.29-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/8-Photosim-150x150.jpg",
+    "projectId": "projectdetail1461",
+    "timestamp": "1696525200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1461",
+      "images",
+      1
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Pages-from-40272-Dublin-CA-Planning_2023.09.29-2-scaled.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Pages-from-40272-Dublin-CA-Planning_2023.09.29-2-150x150.jpg"
+    },
+    "projectId": "projectdetail1461",
+    "timestamp": "1696525200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1461",
+      "images",
+      2
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/mcD-site-plan-scaled.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/mcD-site-plan-150x150.jpg"
+    },
+    "projectId": "projectdetail1461",
+    "timestamp": "1696525200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "geolocation",
+      "title"
+    ],
+    "val": "McDonald’s Remodel",
+    "oldVal": "McDonald’s SDR",
+    "projectId": "projectdetail1461",
+    "timestamp": "1696525200000",
+    "type": "developments:update"
   }
 ]
