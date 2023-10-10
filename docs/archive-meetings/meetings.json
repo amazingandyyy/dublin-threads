@@ -1,5 +1,27 @@
 [
   {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": true,
+    "name": "Youth Advisory Committee Cancellation Notice",
+    "date": "10-25-2023",
+    "timestamp": 1698217200000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "YouthAdvisoryCommittee"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee Special Meeting",
+    "date": "10-18-2023",
+    "timestamp": 1697612400000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "YouthAdvisoryCommittee"
+  },
+  {
     "organizor": "Heritage and Cultural Arts Commission",
     "cancelled": true,
     "name": "Heritage and Cultural Arts Commission Cancellation Notice",
