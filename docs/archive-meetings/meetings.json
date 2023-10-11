@@ -11,6 +11,17 @@
     "orgId": "YouthAdvisoryCommittee"
   },
   {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "10-24-2023",
+    "timestamp": 1698130800000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "PlanningCommission"
+  },
+  {
     "organizor": "Youth Advisory Committee",
     "cancelled": false,
     "name": "Youth Advisory Committee Special Meeting",
@@ -31,6 +42,18 @@
     "video": "",
     "agendaPacket": "",
     "orgId": "HeritageandCulturalArtsCommission"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "10-10-2023",
+    "timestamp": 1696921200000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1926",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1926",
+    "agendaPacket": "",
+    "orgId": "PlanningCommission"
   },
   {
     "organizor": "City Council",
