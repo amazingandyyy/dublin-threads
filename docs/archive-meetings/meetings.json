@@ -33,6 +33,28 @@
     "orgId": "YouthAdvisoryCommittee"
   },
   {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "10-17-2023",
+    "timestamp": 1697526000000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "CityCouncil"
+  },
+  {
+    "organizor": "Geologic Hazard Abatement District",
+    "cancelled": false,
+    "name": "Geologic Hazard Abatement District",
+    "date": "10-17-2023",
+    "timestamp": 1697526000000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "GeologicHazardAbatementDistrict"
+  },
+  {
     "organizor": "Parks and Community Services Commission",
     "cancelled": false,
     "name": "Parks and Community Services Commission",
@@ -49,7 +71,7 @@
     "name": "City Council Special Meeting",
     "date": "10-13-2023",
     "timestamp": 1697180400000,
-    "agenda": "",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=475",
     "video": "",
     "agendaPacket": "",
     "orgId": "CityCouncil"
