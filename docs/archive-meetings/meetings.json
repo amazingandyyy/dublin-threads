@@ -66,17 +66,6 @@
     "orgId": "ParksandCommunityServicesCommission"
   },
   {
-    "organizor": "City Council",
-    "cancelled": false,
-    "name": "City Council Special Meeting",
-    "date": "10-13-2023",
-    "timestamp": 1697180400000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=475",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "CityCouncil"
-  },
-  {
     "organizor": "Planning Commission",
     "cancelled": true,
     "name": "Planning Commission Cancelled",
