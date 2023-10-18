@@ -35,6 +35,18 @@
   {
     "organizor": "City Council",
     "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "10-17-2023",
+    "timestamp": 1697526000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1931",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1931",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/12d9046d-65d4-11ed-95a3-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1697587636.pdf",
+    "orgId": "CityCouncil"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
     "name": "City Council Special Meeting",
     "date": "10-13-2023",
     "timestamp": 1697180400000,
@@ -63,7 +75,7 @@
     "date": "10-03-2023",
     "timestamp": 1696316400000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1924",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1924&doc_id=d79e4efe-6dd9-11ee-b4aa-0050569183fa",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1924",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/4fde92a0-3162-11ee-9e9a-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1696370313.pdf",
     "orgId": "CityCouncil"
