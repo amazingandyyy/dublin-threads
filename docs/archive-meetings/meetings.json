@@ -45,6 +45,18 @@
     "orgId": "CityCouncil"
   },
   {
+    "organizor": "Geologic Hazard Abatement District",
+    "cancelled": false,
+    "name": "Fallon Village Geologic Hazard Abatement District",
+    "date": "10-17-2023",
+    "timestamp": 1697526000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1933",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1933",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/52215e1a-6172-11ee-b4aa-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1697064077.pdf",
+    "orgId": "GeologicHazardAbatementDistrict"
+  },
+  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Special Meeting",
@@ -339,7 +351,7 @@
     "date": "06-20-2023",
     "timestamp": 1687244400000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1870",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1870&doc_id=5f101ef5-6de9-11ee-b4aa-0050569183fa",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1870",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/a8d27192-0ada-11ee-95dd-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1686837778.pdf",
     "orgId": "GeologicHazardAbatementDistrict"
@@ -447,7 +459,7 @@
     "date": "05-16-2023",
     "timestamp": 1684220400000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1840",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1840&doc_id=be3af80a-6de9-11ee-b4aa-0050569183fa",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1840",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/67607f5b-863b-11ed-9024-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1683845678.pdf",
     "orgId": "GeologicHazardAbatementDistrict"
