@@ -966,5 +966,30 @@
     "projectId": "projectdetail1464",
     "timestamp": "1695841200000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "title"
+    ],
+    "val": "The Dublin Centre “The DC” (SCS Property)",
+    "oldVal": "The Dublin Centre “The DC”",
+    "projectId": "projectdetail1464",
+    "timestamp": "1697817600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "geolocation",
+      "title"
+    ],
+    "val": "The Dublin Centre “The DC” (SCS Property)",
+    "oldVal": "The Dublin Centre “The DC”",
+    "projectId": "projectdetail1464",
+    "timestamp": "1697817600000",
+    "type": "developments:update"
   }
 ]
