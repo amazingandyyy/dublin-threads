@@ -2,6 +2,49 @@
   {
     "op": "update",
     "path": [
+      "projectdetail1508",
+      "docs",
+      0,
+      "name"
+    ],
+    "val": "Community Meeting Notice",
+    "oldVal": "Hexcel EIR_8_21_2023",
+    "projectId": "projectdetail1508",
+    "timestamp": "1698253200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1508",
+      "docs",
+      0,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Community-Meeting-Notice.pdf",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Hexcel-EIR_8_21_2023.pdf",
+    "projectId": "projectdetail1508",
+    "timestamp": "1698253200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1508",
+      "docs",
+      1
+    ],
+    "oldVal": {
+      "name": "Notice Of Availability DEIR_Hexcel",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Notice-Of-Availability-DEIR_Hexcel.pdf"
+    },
+    "projectId": "projectdetail1508",
+    "timestamp": "1698253200000",
+    "type": "developments:delete"
+  },
+  {
+    "op": "update",
+    "path": [
       "projectdetail1464",
       "title"
     ],
