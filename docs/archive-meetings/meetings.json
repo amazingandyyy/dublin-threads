@@ -1,17 +1,6 @@
 [
   {
     "organizor": "Youth Advisory Committee",
-    "cancelled": true,
-    "name": "Youth Advisory Committee Cancellation Notice",
-    "date": "10-25-2023",
-    "timestamp": 1698217200000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=466",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "YouthAdvisoryCommittee"
-  },
-  {
-    "organizor": "Youth Advisory Committee",
     "cancelled": false,
     "name": "Youth Advisory Committee Special Meeting",
     "date": "10-18-2023",
