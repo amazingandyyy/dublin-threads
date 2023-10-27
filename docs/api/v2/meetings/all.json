@@ -12,6 +12,18 @@
     "type": "meeting"
   },
   {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": "11-02-2023",
+    "timestamp": 1698908400000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=427",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/8363ab34-9c13-11ed-96ab-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1698427835.pdf",
+    "orgId": "SeniorCenterAdvisoryCommittee",
+    "type": "meeting"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": false,
     "name": "Planning Commission Regular Meeting",
