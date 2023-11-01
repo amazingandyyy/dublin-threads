@@ -1,5 +1,140 @@
 [
   {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "details",
+      "Planning Application #"
+    ],
+    "val": "PLPA-2023-00033",
+    "oldVal": "PLPA-2022-000028",
+    "projectId": "projectdetail1656",
+    "timestamp": "1698854400000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "details",
+      "Application Type"
+    ],
+    "val": "General Plan/Specific Plan Amendment. Planned Development Rezone with a Stage 1 Development Plan Amendment and a Stage 2 Development Plan, Vesting Tentative Tract Maps, and Development Agreement",
+    "oldVal": "Planned Development Rezone, Vesting Tentative Tract Maps and Development Agreement",
+    "projectId": "projectdetail1656",
+    "timestamp": "1698854400000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "details",
+      "Application Submittal Date"
+    ],
+    "val": "10/16/2023",
+    "oldVal": "08/18/2022",
+    "projectId": "projectdetail1656",
+    "timestamp": "1698854400000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "description"
+    ],
+    "val": "Dublin Fallon 580 project proposes the subdivision of 192 acres into nine large parcels to accommodate future commercial, campus office, multi-family residential, community park, and nature park uses. The project would allow up to 3,300,454 square feet of commercial and campus office use and up to 238 multi-family homes.",
+    "oldVal": "Dublin Fallon 580 project consists of a Large Lot Vesting Tentative Tract Map (VTTM) to subdivide the approximately 192-acre parcel into ten parcels that generally coincide with the existing land use designations, two Small Lot VTTMs for the 6.5-acre and 7.12-acre Medium High Density Residential parcels, Planned Development Rezone with a Stage 2 Development Plan and Development Agreement.",
+    "projectId": "projectdetail1656",
+    "timestamp": "1698854400000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Dublin-Fallon-580-pages-from-all-tentative-tract-maps.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Pages-from-All-Tentative-Tract-Maps-scaled.jpg",
+    "projectId": "projectdetail1656",
+    "timestamp": "1698854400000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Dublin-Fallon-580-pages-from-all-tentative-tract-maps-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Pages-from-All-Tentative-Tract-Maps-150x150.jpg",
+    "projectId": "projectdetail1656",
+    "timestamp": "1698854400000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Dublin-Fallon-Tract-8666.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/All-Tentative-Tract-Maps_Page_3-scaled.jpg",
+    "projectId": "projectdetail1656",
+    "timestamp": "1698854400000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Dublin-Fallon-Tract-8666-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/All-Tentative-Tract-Maps_Page_3-150x150.jpg",
+    "projectId": "projectdetail1656",
+    "timestamp": "1698854400000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Dublin-Fallon-Tract-8667-.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/All-Tentative-Tract-Maps_Page_2-scaled.jpg",
+    "projectId": "projectdetail1656",
+    "timestamp": "1698854400000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Dublin-Fallon-Tract-8667--150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/All-Tentative-Tract-Maps_Page_2-150x150.jpg",
+    "projectId": "projectdetail1656",
+    "timestamp": "1698854400000",
+    "type": "developments:update"
+  },
+  {
     "op": "delete",
     "path": [
       "projectdetail1508",
