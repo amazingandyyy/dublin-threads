@@ -36,18 +36,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "City Council",
-    "cancelled": false,
-    "name": "City Council Special Meeting",
-    "date": "11-06-2023",
-    "timestamp": 1699257600000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=477",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "CityCouncil",
-    "type": "meeting"
-  },
-  {
     "organizor": "Senior Center Advisory Committee",
     "cancelled": false,
     "name": "Senior Center Advisory Committee",
