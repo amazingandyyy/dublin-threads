@@ -1373,6 +1373,19 @@
     "type": "meeting"
   },
   {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission Special Meeting",
+    "date": "11-02-2022",
+    "timestamp": 1667372400000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1941",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1941",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/8534a8b2-cd82-11ed-95dd-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1680795656.pdf",
+    "orgId": "HumanServicesCommission",
+    "type": "meeting"
+  },
+  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
