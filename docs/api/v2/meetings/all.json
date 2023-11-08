@@ -12,6 +12,18 @@
     "type": "meeting"
   },
   {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "11-20-2023",
+    "timestamp": 1700467200000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "ParksandCommunityServicesCommission",
+    "type": "meeting"
+  },
+  {
     "organizor": "Youth Advisory Committee",
     "cancelled": true,
     "name": "Youth Advisory Committee Cancellation Notice",
