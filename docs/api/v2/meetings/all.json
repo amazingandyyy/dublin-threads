@@ -60,18 +60,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "Heritage and Cultural Arts Commission",
-    "cancelled": false,
-    "name": "Heritage and Cultural Arts Commission",
-    "date": "11-09-2023",
-    "timestamp": 1699516800000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=471",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/d30cdba5-518a-11ee-ae13-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1699313943.pdf",
-    "orgId": "HeritageandCulturalArtsCommission",
-    "type": "meeting"
-  },
-  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
