@@ -60,18 +60,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "Human Services Commission",
-    "cancelled": false,
-    "name": "Human Services Commission Special Meeting",
-    "date": "11-14-2023",
-    "timestamp": 1699948800000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=478",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "HumanServicesCommission",
-    "type": "meeting"
-  },
-  {
     "organizor": "Heritage and Cultural Arts Commission",
     "cancelled": false,
     "name": "Heritage and Cultural Arts Commission",
