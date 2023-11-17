@@ -33,17 +33,6 @@
     "orgId": "ParksandCommunityServicesCommission"
   },
   {
-    "organizor": "Human Services Commission",
-    "cancelled": false,
-    "name": "Human Services Commission",
-    "date": "11-16-2023",
-    "timestamp": 1700121600000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=483",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/36ef949b-7e95-11ee-852f-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1699900805.pdf",
-    "orgId": "HumanServicesCommission"
-  },
-  {
     "organizor": "Planning Commission",
     "cancelled": true,
     "name": "Planning Commission Cancelled",
@@ -4818,5 +4807,16 @@
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=901",
     "agendaPacket": "",
     "orgId": "HeritageandCulturalArtsCommission"
+  },
+  {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission",
+    "date": null,
+    "timestamp": 0,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=483",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&event_id=483','player','toolbar=no,directories=no,status=yes,scrollbars=no,resizable=yes,menubar=no')",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/36ef949b-7e95-11ee-852f-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1699900805.pdf",
+    "orgId": "HumanServicesCommission"
   }
 ]
