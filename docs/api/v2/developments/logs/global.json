@@ -2,6 +2,18 @@
   {
     "op": "update",
     "path": [
+      "projectdetail1426",
+      "status"
+    ],
+    "val": "Final Action",
+    "oldVal": "Pubic Hearing",
+    "projectId": "projectdetail1426",
+    "timestamp": "1700589600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
       "projectdetail1656",
       "details",
       "Planning Application #"
