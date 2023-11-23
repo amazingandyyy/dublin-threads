@@ -11,17 +11,6 @@
     "orgId": "PlanningCommission"
   },
   {
-    "organizor": "Youth Advisory Committee",
-    "cancelled": true,
-    "name": "Youth Advisory Committee Cancellation Notice",
-    "date": "11-22-2023",
-    "timestamp": 1700640000000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=465",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "YouthAdvisoryCommittee"
-  },
-  {
     "organizor": "Parks and Community Services Commission",
     "cancelled": false,
     "name": "Parks and Community Services Commission",
