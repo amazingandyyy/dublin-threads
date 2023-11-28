@@ -1,5 +1,17 @@
 [
   {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": "11-28-2023",
+    "timestamp": 1701158400000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1960",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1960",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/8363ab34-9c13-11ed-96ab-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1701212851.pdf",
+    "orgId": "SeniorCenterAdvisoryCommittee"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": true,
     "name": "Planning Commission Cancelled",
