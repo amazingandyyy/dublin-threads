@@ -45,6 +45,18 @@
     "orgId": "CityCouncil"
   },
   {
+    "organizor": "Geologic Hazard Abatement District",
+    "cancelled": false,
+    "name": "Fallon Village Geologic Hazard Abatement District",
+    "date": "12-05-2023",
+    "timestamp": 1701763200000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1966",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1966",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/5a451314-825c-11ee-852f-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1701816449.pdf",
+    "orgId": "GeologicHazardAbatementDistrict"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": true,
     "name": "Planning Commission Cancelled",
