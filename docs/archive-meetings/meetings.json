@@ -3,12 +3,23 @@
     "organizor": "Senior Center Advisory Committee",
     "cancelled": false,
     "name": "Senior Center Advisory Committee",
-    "date": "05-02-2024",
-    "timestamp": 1714633200000,
+    "date": "02-06-2025",
+    "timestamp": 1738828800000,
     "agenda": "",
     "video": "",
     "agendaPacket": "",
     "orgId": "SeniorCenterAdvisoryCommittee"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission",
+    "date": "12-14-2023",
+    "timestamp": 1702540800000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "HeritageandCulturalArtsCommission"
   },
   {
     "organizor": "Youth Advisory Committee",
