@@ -790,5 +790,20 @@
     "projectId": "projectdetail1508",
     "timestamp": "1702072800000",
     "type": "developments:update"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1508",
+      "docs",
+      0
+    ],
+    "val": {
+      "name": "Planning Commission Agenda & Staff Report December 12, 2023",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Planning-Commission-Agenda-Staff-Report-December-12-2023.pdf"
+    },
+    "projectId": "projectdetail1508",
+    "timestamp": "1702076400000",
+    "type": "developments:add"
   }
 ]
