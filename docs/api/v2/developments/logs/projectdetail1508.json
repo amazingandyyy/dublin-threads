@@ -778,5 +778,17 @@
     "projectId": "projectdetail1508",
     "timestamp": "1698688800000",
     "type": "developments:delete"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1508",
+      "status"
+    ],
+    "val": "Pubic Hearing",
+    "oldVal": "Application Under Review",
+    "projectId": "projectdetail1508",
+    "timestamp": "1702072800000",
+    "type": "developments:update"
   }
 ]
