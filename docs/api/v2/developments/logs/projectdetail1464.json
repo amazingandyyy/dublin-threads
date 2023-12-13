@@ -991,5 +991,20 @@
     "projectId": "projectdetail1464",
     "timestamp": "1697817600000",
     "type": "developments:update"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      0
+    ],
+    "val": {
+      "name": "Planning Commission Study Session Agenda & Staff Report December 12, 2023",
+      "url": "http://chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://granicus_production_attachments.s3.amazonaws.com/dublin/508aae261667f8f51e88d96e50f44f310.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1702429200000",
+    "type": "developments:add"
   }
 ]
