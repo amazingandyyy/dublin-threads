@@ -5287,17 +5287,5 @@
     "agendaPacket": "",
     "orgId": "HeritageandCulturalArtsCommission",
     "type": "meeting"
-  },
-  {
-    "organizor": "Planning Commission",
-    "cancelled": false,
-    "name": "Planning Commission Regular Meeting",
-    "date": null,
-    "timestamp": 0,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=398",
-    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&event_id=398','player','toolbar=no,directories=no,status=yes,scrollbars=no,resizable=yes,menubar=no')",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/6f5030b6-6f63-11ed-9024-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1702419284.pdf",
-    "orgId": "PlanningCommission",
-    "type": "meeting"
   }
 ]
