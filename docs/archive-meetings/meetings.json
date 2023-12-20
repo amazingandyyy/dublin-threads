@@ -22,17 +22,6 @@
     "orgId": "PlanningCommission"
   },
   {
-    "organizor": "City Council",
-    "cancelled": false,
-    "name": "City Council Regular Meeting",
-    "date": "12-19-2023",
-    "timestamp": 1702972800000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=476",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/9ec660dd-685a-11ee-b4aa-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1703030438.pdf",
-    "orgId": "CityCouncil"
-  },
-  {
     "organizor": "Heritage and Cultural Arts Commission",
     "cancelled": false,
     "name": "Heritage and Cultural Arts Commission",
@@ -4927,5 +4916,16 @@
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=901",
     "agendaPacket": "",
     "orgId": "HeritageandCulturalArtsCommission"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": null,
+    "timestamp": 0,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=476",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&event_id=476','player','toolbar=no,directories=no,status=yes,scrollbars=no,resizable=yes,menubar=no')",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/9ec660dd-685a-11ee-b4aa-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1703030438.pdf",
+    "orgId": "CityCouncil"
   }
 ]
