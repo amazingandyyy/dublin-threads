@@ -1,5 +1,16 @@
 [
   {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission Special Meeting",
+    "date": "01-22-2024",
+    "timestamp": 1705910400000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "ParksandCommunityServicesCommission"
+  },
+  {
     "organizor": "Youth Advisory Committee",
     "cancelled": true,
     "name": "Youth Advisory Committee Cancellation Notice",
@@ -32,6 +43,18 @@
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1979",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/9ec660dd-685a-11ee-b4aa-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1703186615.pdf",
     "orgId": "CityCouncil"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "12-18-2023",
+    "timestamp": 1702886400000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1978",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1978",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/6962b8d6-5f04-11ed-95a3-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1702573019.pdf",
+    "orgId": "ParksandCommunityServicesCommission"
   },
   {
     "organizor": "Heritage and Cultural Arts Commission",
