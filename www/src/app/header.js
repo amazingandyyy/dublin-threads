@@ -19,8 +19,13 @@ export default function GlobalHeader () {
     <div className='flex items-center'>
       <Link href='/threads'>
       <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'>
-        Threads
+        Projects
       </div>
+      </Link>
+      <Link href='/threads?f=meetings'>
+        <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'>
+          Meetings
+        </div>
       </Link>
       {/* <Link href='/stats'> */}
       {/*  <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'> */}
