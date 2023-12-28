@@ -3,16 +3,23 @@ import Thread from './index'
 import GlobalHeader from '../header'
 import { useGlobalThreadListStore, useMeetingsStore, useThreadStore } from '@/stores'
 import { useEffect } from 'react'
+import { useSearchParams } from 'next/navigation'
 
 export default function Threads () {
   const thread = useThreadStore(state => state.thread)
   const meetings = useMeetingsStore(state => state.meetings)
   const list = useGlobalThreadListStore(state => state.list)
+  const searchParams = useSearchParams()
 
   useEffect(() => {
-    const l = [...thread, ...meetings].sort((a, b) => b.timestamp - a.timestamp)
+    const filter = searchParams.get('f')
+    let l = [...thread].sort((a, b) => b.timestamp - a.timestamp)
+    if (filter === 'meetings') {
+      l = [...meetings].sort((a, b) => b.timestamp - a.timestamp)
+    }
     useGlobalThreadListStore.getState().init(l)
-  }, [thread, meetings])
+  }, [thread, meetings, searchParams])
+
   return (
     <>
       <GlobalHeader />
