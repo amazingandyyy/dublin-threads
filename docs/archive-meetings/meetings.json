@@ -11,6 +11,17 @@
     "orgId": "ParksandCommunityServicesCommission"
   },
   {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission",
+    "date": "01-11-2024",
+    "timestamp": 1704960000000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "HeritageandCulturalArtsCommission"
+  },
+  {
     "organizor": "Youth Advisory Committee",
     "cancelled": true,
     "name": "Youth Advisory Committee Cancellation Notice",
