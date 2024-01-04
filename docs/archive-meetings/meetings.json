@@ -22,6 +22,17 @@
     "orgId": "HeritageandCulturalArtsCommission"
   },
   {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": true,
+    "name": "Heritage and Cultural Arts Commission Cancellation Notice",
+    "date": "01-11-2024",
+    "timestamp": 1704960000000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "HeritageandCulturalArtsCommission"
+  },
+  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
