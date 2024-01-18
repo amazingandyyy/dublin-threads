@@ -1,5 +1,20 @@
 [
   {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      1
+    ],
+    "val": {
+      "name": "The Dublin Centre Community Meeting January 17 & 18, 2024",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/The-Dublin-Centre-Community-Meeting.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1705550400000",
+    "type": "developments:add"
+  },
+  {
     "op": "delete",
     "path": [
       "projectdetail1376"
