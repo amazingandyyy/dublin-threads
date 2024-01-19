@@ -1021,5 +1021,19 @@
     "projectId": "projectdetail1464",
     "timestamp": "1705550400000",
     "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      1,
+      "name"
+    ],
+    "val": "The Dublin Centre Community Meeting Presentation January 17 & 18, 2024",
+    "oldVal": "The Dublin Centre Community Meeting January 17 & 18, 2024",
+    "projectId": "projectdetail1464",
+    "timestamp": "1705633200000",
+    "type": "developments:update"
   }
 ]
