@@ -11,6 +11,17 @@
     "orgId": "ParksandCommunityServicesCommission"
   },
   {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "02-13-2024",
+    "timestamp": 1707811200000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "PlanningCommission"
+  },
+  {
     "organizor": "Human Services Commission",
     "cancelled": false,
     "name": "Human Services Commission",
@@ -31,6 +42,18 @@
     "video": "",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/5e2cb22a-11e9-11ee-aabb-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1705688169.pdf",
     "orgId": "YouthAdvisoryCommittee"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission - Cancelled",
+    "date": "01-23-2024",
+    "timestamp": 1705996800000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1991",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1991",
+    "agendaPacket": "",
+    "orgId": "PlanningCommission"
   },
   {
     "organizor": "City Council",
