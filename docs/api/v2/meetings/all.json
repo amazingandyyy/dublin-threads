@@ -75,6 +75,19 @@
     "type": "meeting"
   },
   {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": true,
+    "name": "Heritage and Cultural Arts Commission Cancellation Notice",
+    "date": "01-11-2024",
+    "timestamp": 1704960000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1996",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1996",
+    "agendaPacket": "",
+    "orgId": "HeritageandCulturalArtsCommission",
+    "type": "meeting"
+  },
+  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
