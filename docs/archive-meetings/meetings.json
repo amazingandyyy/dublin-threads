@@ -22,6 +22,18 @@
     "orgId": "PlanningCommission"
   },
   {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission",
+    "date": "01-25-2024",
+    "timestamp": 1706169600000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1994",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1994",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/9ff4049f-9563-11ee-a93d-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1705958277.pdf",
+    "orgId": "HumanServicesCommission"
+  },
+  {
     "organizor": "Youth Advisory Committee",
     "cancelled": false,
     "name": "Youth Advisory Committee",
@@ -188,18 +200,6 @@
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1958",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/54b01793-5f04-11ed-95a3-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1700086886.pdf",
     "orgId": "ParksandCommunityServicesCommission"
-  },
-  {
-    "organizor": "Human Services Commission",
-    "cancelled": false,
-    "name": "Human Services Commission",
-    "date": "11-16-2023",
-    "timestamp": 1700121600000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1955",
-    "minutes": "",
-    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1955",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/36ef949b-7e95-11ee-852f-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1699900805.pdf",
-    "orgId": "HumanServicesCommission"
   },
   {
     "organizor": "Human Services Commission",
