@@ -1035,5 +1035,101 @@
     "projectId": "projectdetail1464",
     "timestamp": "1705633200000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "status"
+    ],
+    "val": "Pubic Hearing",
+    "oldVal": "Application Under Review",
+    "projectId": "projectdetail1464",
+    "timestamp": "1706806800000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/DC-Site-Plan-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Site-Plan-scaled.jpg",
+    "projectId": "projectdetail1464",
+    "timestamp": "1706806800000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/DC-Site-Plan-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Site-Plan-150x150.jpg",
+    "projectId": "projectdetail1464",
+    "timestamp": "1706806800000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/shophouses-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Land-Use-Exhibit-scaled.jpg",
+    "projectId": "projectdetail1464",
+    "timestamp": "1706806800000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/shophouses-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Land-Use-Exhibit-150x150.jpg",
+    "projectId": "projectdetail1464",
+    "timestamp": "1706806800000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/finnian-square-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Pages-from-The-DC_SDR-PA3-4_combined-scaled.jpg",
+    "projectId": "projectdetail1464",
+    "timestamp": "1706806800000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/finnian-square-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Pages-from-The-DC_SDR-PA3-4_combined-150x150.jpg",
+    "projectId": "projectdetail1464",
+    "timestamp": "1706806800000",
+    "type": "developments:update"
   }
 ]
