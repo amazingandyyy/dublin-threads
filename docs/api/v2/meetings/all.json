@@ -24,18 +24,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "Senior Center Advisory Committee",
-    "cancelled": false,
-    "name": "Senior Center Advisory Committee",
-    "date": "02-01-2024",
-    "timestamp": 1706774400000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=510",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/f84c4eeb-8d6f-11ee-a93d-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1706231828.pdf",
-    "orgId": "SeniorCenterAdvisoryCommittee",
-    "type": "meeting"
-  },
-  {
     "organizor": "Human Services Commission",
     "cancelled": false,
     "name": "Human Services Commission",
