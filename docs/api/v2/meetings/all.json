@@ -36,6 +36,19 @@
     "type": "meeting"
   },
   {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": "02-01-2024",
+    "timestamp": 1706774400000,
+    "agenda": "",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1690",
+    "agendaPacket": "",
+    "orgId": "SeniorCenterAdvisoryCommittee",
+    "type": "meeting"
+  },
+  {
     "organizor": "Human Services Commission",
     "cancelled": false,
     "name": "Human Services Commission",
@@ -1658,6 +1671,19 @@
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1692",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/c83e9151-3ce4-11ec-a798-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1667338974.pdf",
     "orgId": "CityCouncil",
+    "type": "meeting"
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Video Not Available (Copy) (Copy) (Copy) (Copy)",
+    "date": "10-28-2022",
+    "timestamp": 1666940400000,
+    "agenda": "",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1734",
+    "agendaPacket": "",
+    "orgId": "SeniorCenterAdvisoryCommittee",
     "type": "meeting"
   },
   {
