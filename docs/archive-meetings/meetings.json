@@ -33,17 +33,6 @@
     "orgId": "HeritageandCulturalArtsCommission"
   },
   {
-    "organizor": "City Council",
-    "cancelled": false,
-    "name": "City Council Regular Meeting",
-    "date": "02-06-2024",
-    "timestamp": 1707206400000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=520",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/31d81c8d-9567-11ee-a93d-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1707258945.pdf",
-    "orgId": "CityCouncil"
-  },
-  {
     "organizor": "Senior Center Advisory Committee",
     "cancelled": false,
     "name": "Senior Center Advisory Committee",
