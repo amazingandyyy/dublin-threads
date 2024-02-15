@@ -328,7 +328,7 @@
     "date": "11-02-2023",
     "timestamp": 1698908400000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2002",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=2002&doc_id=997eda78-cc30-11ee-8fe8-0050569183fa",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2002",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/8363ab34-9c13-11ed-96ab-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1701212851.pdf",
     "orgId": "SeniorCenterAdvisoryCommittee"
@@ -1558,18 +1558,6 @@
     "orgId": "CityCouncil"
   },
   {
-    "organizor": "Senior Center Advisory Committee",
-    "cancelled": false,
-    "name": "Video Not Available (Copy) (Copy) (Copy) (Copy)",
-    "date": "10-28-2022",
-    "timestamp": 1666940400000,
-    "agenda": "",
-    "minutes": "",
-    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1734",
-    "agendaPacket": "",
-    "orgId": "SeniorCenterAdvisoryCommittee"
-  },
-  {
     "organizor": "Youth Advisory Committee",
     "cancelled": false,
     "name": "Youth Advisory Committee",
@@ -1840,7 +1828,7 @@
     "date": "08-04-2022",
     "timestamp": 1659596400000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1620",
-    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1620&doc_id=a672ef8c-3a03-11ed-8da8-0050569183fa",
+    "minutes": "",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1620",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/1cbf9d8a-5924-11ec-85e3-0050569183fa-d28a9796-f757-4781-aed3-a14d74e577ea-1659048176.pdf",
     "orgId": "SeniorCenterAdvisoryCommittee"
@@ -2476,7 +2464,7 @@
     "date": "02-03-2022",
     "timestamp": 1643875200000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1492",
-    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1492&doc_id=6af29985-c67e-11ec-a5da-0050569183fa",
+    "minutes": "",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1492",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/8d6d6ce6-5923-11ec-85e3-0050569183fa-6b462e6a-466e-4934-8a58-4ed897bf4ad2-1643414118.pdf",
     "orgId": "SeniorCenterAdvisoryCommittee"
