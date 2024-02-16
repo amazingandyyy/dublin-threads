@@ -12,6 +12,18 @@
     "type": "meeting"
   },
   {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "02-20-2024",
+    "timestamp": 1708416000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=521",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/31dbeeaf-9567-11ee-a93d-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1708038145.pdf",
+    "orgId": "CityCouncil",
+    "type": "meeting"
+  },
+  {
     "organizor": "Parks and Community Services Commission",
     "cancelled": true,
     "name": "Parks and Community Services Commission Cancellation Notice",
