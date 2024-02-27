@@ -22,6 +22,18 @@
     "orgId": "PlanningCommission"
   },
   {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission Special Meeting",
+    "date": "02-26-2024",
+    "timestamp": 1708934400000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2009",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2009",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/93e8ed39-abfe-11ee-bb82-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1708994211.pdf",
+    "orgId": "ParksandCommunityServicesCommission"
+  },
+  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
