@@ -208,7 +208,7 @@
     "date": "12-18-2023",
     "timestamp": 1702886400000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1978",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1978&doc_id=b414589a-d686-11ee-98bb-0050569183fa",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1978",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/6962b8d6-5f04-11ed-95a3-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1702573019.pdf",
     "orgId": "ParksandCommunityServicesCommission"
@@ -512,6 +512,18 @@
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1917",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/12d55575-65d4-11ed-95a3-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1695163807.pdf",
     "orgId": "CityCouncil"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": true,
+    "name": "Parks and Community Services Commission Cancellation Notice",
+    "date": "09-18-2023",
+    "timestamp": 1695020400000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2012",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2012",
+    "agendaPacket": "",
+    "orgId": "ParksandCommunityServicesCommission"
   },
   {
     "organizor": "Heritage and Cultural Arts Commission",
@@ -3812,6 +3824,18 @@
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=913",
     "agendaPacket": "",
     "orgId": "PlanningCommission"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "No_Video_Available (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy)",
+    "date": "02-08-2021",
+    "timestamp": 1612771200000,
+    "agenda": "",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1792",
+    "agendaPacket": "",
+    "orgId": "ParksandCommunityServicesCommission"
   },
   {
     "organizor": "Senior Center Advisory Committee",
