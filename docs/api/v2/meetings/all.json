@@ -1,5 +1,17 @@
 [
   {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission",
+    "date": "03-28-2024",
+    "timestamp": 1711609200000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "HumanServicesCommission",
+    "type": "meeting"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": false,
     "name": "Planning Commission Regular Meeting",
@@ -4142,19 +4154,6 @@
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=913",
     "agendaPacket": "",
     "orgId": "PlanningCommission",
-    "type": "meeting"
-  },
-  {
-    "organizor": "Parks and Community Services Commission",
-    "cancelled": false,
-    "name": "No_Video_Available (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy)",
-    "date": "02-08-2021",
-    "timestamp": 1612771200000,
-    "agenda": "",
-    "minutes": "",
-    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1792",
-    "agendaPacket": "",
-    "orgId": "ParksandCommunityServicesCommission",
     "type": "meeting"
   },
   {
