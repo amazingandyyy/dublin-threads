@@ -1,5 +1,17 @@
 [
   {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "03-26-2024",
+    "timestamp": 1711436400000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "PlanningCommission",
+    "type": "meeting"
+  },
+  {
     "organizor": "Youth Advisory Committee",
     "cancelled": true,
     "name": "Youth Advisory Committee Cancellation Notice",
@@ -9,18 +21,6 @@
     "video": "",
     "agendaPacket": "",
     "orgId": "YouthAdvisoryCommittee",
-    "type": "meeting"
-  },
-  {
-    "organizor": "Planning Commission",
-    "cancelled": true,
-    "name": "Planning Commission Cancelled",
-    "date": "02-27-2024",
-    "timestamp": 1709020800000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=552",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "PlanningCommission",
     "type": "meeting"
   },
   {
