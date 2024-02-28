@@ -3,8 +3,8 @@
     "organizor": "Planning Commission",
     "cancelled": false,
     "name": "Planning Commission Regular Meeting",
-    "date": "03-26-2024",
-    "timestamp": 1711436400000,
+    "date": "03-12-2024",
+    "timestamp": 1710226800000,
     "agenda": "",
     "video": "",
     "agendaPacket": "",
@@ -20,6 +20,18 @@
     "video": "",
     "agendaPacket": "",
     "orgId": "YouthAdvisoryCommittee"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "02-27-2024",
+    "timestamp": 1709020800000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2010",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2010",
+    "agendaPacket": "",
+    "orgId": "PlanningCommission"
   },
   {
     "organizor": "Parks and Community Services Commission",
@@ -232,7 +244,7 @@
     "date": "12-12-2023",
     "timestamp": 1702368000000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1968",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1968&doc_id=b31904dc-d66b-11ee-98bb-0050569183fa",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1968",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/6f5030b6-6f63-11ed-9024-0050569183fa-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1702419284.pdf",
     "orgId": "PlanningCommission"
@@ -2288,6 +2300,18 @@
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1536",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/eecfff24-d9e2-11eb-9c7a-0050569183fa-5da36f24-a0e4-4bae-aef6-f71f177bd6ce-1647623928.pdf",
     "orgId": "YouthAdvisoryCommittee"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled (Copy) (Copy)",
+    "date": "03-22-2022",
+    "timestamp": 1647932400000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2011",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2011",
+    "agendaPacket": "",
+    "orgId": "PlanningCommission"
   },
   {
     "organizor": "Planning Commission",
