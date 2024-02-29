@@ -44,17 +44,6 @@
     "orgId": "CityCouncil"
   },
   {
-    "organizor": "Youth Advisory Committee",
-    "cancelled": true,
-    "name": "Youth Advisory Committee Cancellation Notice",
-    "date": "02-28-2024",
-    "timestamp": 1709107200000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=595",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "YouthAdvisoryCommittee"
-  },
-  {
     "organizor": "Planning Commission",
     "cancelled": true,
     "name": "Planning Commission Cancelled",
