@@ -38,7 +38,7 @@ function Post ({ data }) {
   }
 }
 
-export default function Thread ({ thread, unit = 'results', global = false }) {
+export default function Thread ({ thread, unit = 'updates', global = false }) {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
@@ -52,10 +52,9 @@ export default function Thread ({ thread, unit = 'results', global = false }) {
 
   return (
     <div>
-
         <div className='flex flex-col'>
-          {global && <input className='flex-auto bg-white rounded-lg mx-1 p-2 pl-4 hover:bg-gray-200' placeholder='Search for projects or meetings' name='global-search' onChange={onSearch}/>}
-          <div className='text-sm opacity-70 py-1 my-2 px-2 mx-auto rounded-xl'>{loading ? (<span className='animate-pulse'>...</span>) : (<span>{thread.length}</span>)} {unit}</div>
+          {global && <input className='flex-auto bg-white rounded-xl p-2 pl-4' placeholder='Search for projects or meetings' name='global-search' onChange={onSearch}/>}
+          <div className='text-sm opacity-70 mt-2 px-2 mx-auto rounded-xl'>{loading ? (<span className='animate-pulse'>...</span>) : (<span>{thread.length}</span>)} {unit}</div>
         </div>
         <>
           {loading && <PostPlaceholder />}
