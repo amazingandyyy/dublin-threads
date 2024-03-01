@@ -263,5 +263,33 @@
     "projectId": "projectdetail1461",
     "timestamp": "1701288000000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Allison Schuster - Assistant Planner",
+    "oldVal": "Amy MIllion - Principal Planner",
+    "projectId": "projectdetail1461",
+    "timestamp": "1709305200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "allison.schuster@dublin.ca.gov",
+    "oldVal": "amy.million@dublin.ca.gov",
+    "projectId": "projectdetail1461",
+    "timestamp": "1709305200000",
+    "type": "developments:update"
   }
 ]
