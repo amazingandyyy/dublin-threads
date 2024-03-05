@@ -12,6 +12,30 @@
     "type": "meeting"
   },
   {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "03-27-2024",
+    "timestamp": 1711522800000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "YouthAdvisoryCommittee",
+    "type": "meeting"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission",
+    "date": "03-14-2024",
+    "timestamp": 1710399600000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "HeritageandCulturalArtsCommission",
+    "type": "meeting"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": false,
     "name": "Planning Commission Regular Meeting",
