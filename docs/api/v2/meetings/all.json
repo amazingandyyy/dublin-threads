@@ -36,6 +36,42 @@
     "type": "meeting"
   },
   {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": "03-19-2024",
+    "timestamp": 1710831600000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=597",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/49aee3a1-d767-11ee-98bb-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1710353519.pdf",
+    "orgId": "CityCouncil",
+    "type": "meeting"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "03-19-2024",
+    "timestamp": 1710831600000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=523",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/31e0abbe-9567-11ee-a93d-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1710361368.pdf",
+    "orgId": "CityCouncil",
+    "type": "meeting"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": "03-15-2024",
+    "timestamp": 1710486000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=599",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "CityCouncil",
+    "type": "meeting"
+  },
+  {
     "organizor": "Heritage and Cultural Arts Commission",
     "cancelled": false,
     "name": "Heritage and Cultural Arts Commission",
