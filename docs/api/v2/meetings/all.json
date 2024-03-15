@@ -60,18 +60,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "City Council",
-    "cancelled": false,
-    "name": "City Council Special Meeting",
-    "date": "03-15-2024",
-    "timestamp": 1710486000000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=599",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "CityCouncil",
-    "type": "meeting"
-  },
-  {
     "organizor": "Heritage and Cultural Arts Commission",
     "cancelled": false,
     "name": "Heritage and Cultural Arts Commission",
