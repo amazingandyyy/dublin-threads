@@ -60,6 +60,18 @@
     "type": "meeting"
   },
   {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "03-18-2024",
+    "timestamp": 1710745200000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=500",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3e98b291-8410-11ee-852f-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1710536043.pdf",
+    "orgId": "ParksandCommunityServicesCommission",
+    "type": "meeting"
+  },
+  {
     "organizor": "Heritage and Cultural Arts Commission",
     "cancelled": false,
     "name": "Heritage and Cultural Arts Commission",
