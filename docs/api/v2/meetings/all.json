@@ -72,6 +72,19 @@
     "type": "meeting"
   },
   {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission",
+    "date": "03-14-2024",
+    "timestamp": 1710399600000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2022",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2022",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/dde2992c-825e-11ee-852f-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1710201778.pdf",
+    "orgId": "HeritageandCulturalArtsCommission",
+    "type": "meeting"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": true,
     "name": "Planning Commission Cancelled",
