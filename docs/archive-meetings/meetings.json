@@ -66,6 +66,18 @@
     "orgId": "ParksandCommunityServicesCommission"
   },
   {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": "03-15-2024",
+    "timestamp": 1710486000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2028",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2028",
+    "agendaPacket": "",
+    "orgId": "CityCouncil"
+  },
+  {
     "organizor": "Heritage and Cultural Arts Commission",
     "cancelled": false,
     "name": "Heritage and Cultural Arts Commission",
@@ -156,7 +168,7 @@
     "date": "02-20-2024",
     "timestamp": 1708416000000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2007",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=2007&doc_id=7ddfbeb0-e544-11ee-98bb-0050569183fa",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2007",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/31dbeeaf-9567-11ee-a93d-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1708474681.pdf",
     "orgId": "CityCouncil"
