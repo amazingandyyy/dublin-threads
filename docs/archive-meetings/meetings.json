@@ -35,6 +35,18 @@
   {
     "organizor": "City Council",
     "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": "03-19-2024",
+    "timestamp": 1710831600000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2038",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2038",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/49aee3a1-d767-11ee-98bb-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1710885874.pdf",
+    "orgId": "CityCouncil"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
     "name": "City Council Regular Meeting",
     "date": "03-19-2024",
     "timestamp": 1710831600000,
