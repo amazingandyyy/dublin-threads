@@ -2,6 +2,48 @@
   {
     "op": "update",
     "path": [
+      "projectdetail1661",
+      "description"
+    ],
+    "val": "Demolition of the two existing commercial buildings totaling approximately 28,000 square feet and construction of a new 33,000 square foot multi-tenant commercial building.",
+    "oldVal": "Demolition of the two existing commercial buildings totaling 35,427 square feet and construction of a new 34,995 square foot multi-tenant commercial building.",
+    "projectId": "projectdetail1661",
+    "timestamp": "1711375200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1661",
+      "images",
+      0
+    ],
+    "oldVal": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Pages-from-230421_Dublin-Place-North-Parcel-Package-scaled.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Pages-from-230421_Dublin-Place-North-Parcel-Package-150x150.jpg"
+    },
+    "projectId": "projectdetail1661",
+    "timestamp": "1711375200000",
+    "type": "developments:delete"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1661",
+      "images",
+      1
+    ],
+    "oldVal": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Site-Plan.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Site-Plan-150x150.jpg"
+    },
+    "projectId": "projectdetail1661",
+    "timestamp": "1711375200000",
+    "type": "developments:delete"
+  },
+  {
+    "op": "update",
+    "path": [
       "projectdetail1461",
       "details",
       "Project Planner",
