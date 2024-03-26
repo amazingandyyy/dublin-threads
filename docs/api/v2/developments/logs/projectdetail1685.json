@@ -46,5 +46,17 @@
     "projectId": "projectdetail1685",
     "timestamp": "1693335600000",
     "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1685",
+      "description"
+    ],
+    "val": "Vesting Tentative Parcel Map application for PA-1 of The Dublin Centre project. The project includes the subdivision of a 23.7-acre site to create two parcels south of Dublin Boulevard.",
+    "oldVal": "Vesting Tentative Parcel Map application for PA-1 of The Dublin Centre project. The project includes the subdivision of a 23.7-acre site to create three parcels south of Dublin Boulevard.",
+    "projectId": "projectdetail1685",
+    "timestamp": "1711483200000",
+    "type": "developments:update"
   }
 ]
