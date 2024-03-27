@@ -11,6 +11,17 @@
     "orgId": "PlanningCommission"
   },
   {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "04-02-2024",
+    "timestamp": 1712041200000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=524",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/31e3026a-9567-11ee-a93d-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1711573653.pdf",
+    "orgId": "CityCouncil"
+  },
+  {
     "organizor": "Human Services Commission",
     "cancelled": false,
     "name": "Human Services Commission",
