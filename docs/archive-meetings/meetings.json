@@ -267,7 +267,7 @@
     "date": "01-24-2024",
     "timestamp": 1706083200000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1993",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1993&doc_id=d84e85c5-ed32-11ee-98bb-0050569183fa",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1993",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/5e2cb22a-11e9-11ee-aabb-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1705688169.pdf",
     "orgId": "YouthAdvisoryCommittee"
