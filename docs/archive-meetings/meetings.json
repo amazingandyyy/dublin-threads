@@ -5252,16 +5252,5 @@
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=901",
     "agendaPacket": "",
     "orgId": "HeritageandCulturalArtsCommission"
-  },
-  {
-    "organizor": "Human Services Commission",
-    "cancelled": false,
-    "name": "Human Services Commission",
-    "date": null,
-    "timestamp": 0,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=579",
-    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&event_id=579','player','toolbar=no,directories=no,status=yes,scrollbars=no,resizable=yes,menubar=no')",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/f7a4e2e3-b971-11ee-8fe8-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1711410483.pdf",
-    "orgId": "HumanServicesCommission"
   }
 ]
