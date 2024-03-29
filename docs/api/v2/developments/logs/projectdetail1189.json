@@ -730,5 +730,19 @@
     "projectId": "projectdetail1189",
     "timestamp": "1689109200000",
     "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1189",
+      "details",
+      "Applicant",
+      "name"
+    ],
+    "val": "Anna Sipes, Trumark Homes, LLC",
+    "oldVal": "Pam Nieting, Trumark Homes, LLC",
+    "projectId": "projectdetail1189",
+    "timestamp": "1711742400000",
+    "type": "developments:update"
   }
 ]
