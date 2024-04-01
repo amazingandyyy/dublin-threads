@@ -24,6 +24,19 @@
     "type": "meeting"
   },
   {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission",
+    "date": "03-28-2024",
+    "timestamp": 1711609200000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2050",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2050",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/f7a4e2e3-b971-11ee-8fe8-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1711410483.pdf",
+    "orgId": "HumanServicesCommission",
+    "type": "meeting"
+  },
+  {
     "organizor": "Youth Advisory Committee",
     "cancelled": false,
     "name": "Youth Advisory Committee",
