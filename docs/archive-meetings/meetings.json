@@ -1,5 +1,16 @@
 [
   {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": "05-02-2024",
+    "timestamp": 1714633200000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "SeniorCenterAdvisoryCommittee"
+  },
+  {
     "organizor": "Heritage and Cultural Arts Commission",
     "cancelled": true,
     "name": "Heritage and Cultural Arts Commission Cancellation Notice",
