@@ -12,6 +12,18 @@
     "type": "meeting"
   },
   {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "04-23-2024",
+    "timestamp": 1713855600000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "PlanningCommission",
+    "type": "meeting"
+  },
+  {
     "organizor": "Heritage and Cultural Arts Commission",
     "cancelled": true,
     "name": "Heritage and Cultural Arts Commission Cancellation Notice",
@@ -21,6 +33,19 @@
     "video": "",
     "agendaPacket": "",
     "orgId": "HeritageandCulturalArtsCommission",
+    "type": "meeting"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
+    "date": "04-09-2024",
+    "timestamp": 1712646000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2054",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2054",
+    "agendaPacket": "",
+    "orgId": "PlanningCommission",
     "type": "meeting"
   },
   {
