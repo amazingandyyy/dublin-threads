@@ -48,6 +48,18 @@
     "type": "meeting"
   },
   {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "04-15-2024",
+    "timestamp": 1713164400000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=501",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3e99f995-8410-11ee-852f-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1712944937.pdf",
+    "orgId": "ParksandCommunityServicesCommission",
+    "type": "meeting"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": true,
     "name": "Planning Commission Cancelled",
