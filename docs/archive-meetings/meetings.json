@@ -22,6 +22,30 @@
     "orgId": "PlanningCommission"
   },
   {
+    "organizor": "Geologic Hazard Abatement District",
+    "cancelled": false,
+    "name": "Geologic Hazard Abatement District",
+    "date": "04-17-2024",
+    "timestamp": 1713337200000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2059",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2059",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/4b97c8a0-db29-11ee-98bb-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1712793042.pdf",
+    "orgId": "GeologicHazardAbatementDistrict"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "04-16-2024",
+    "timestamp": 1713250800000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2057",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2057",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/31e5d6b2-9567-11ee-a93d-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1713308895.pdf",
+    "orgId": "CityCouncil"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": true,
     "name": "Planning Commission Cancelled",
