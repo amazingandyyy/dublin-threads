@@ -58,7 +58,7 @@
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2056",
     "minutes": "",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2056",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3e99f995-8410-11ee-852f-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1712944937.pdf",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3e99f995-8410-11ee-852f-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1713480316.pdf",
     "orgId": "ParksandCommunityServicesCommission",
     "type": "meeting"
   },
@@ -264,7 +264,7 @@
     "date": "02-26-2024",
     "timestamp": 1708934400000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2009",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=2009&doc_id=cf0d43e2-fdd3-11ee-b231-0050569183fa",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2009",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/93e8ed39-abfe-11ee-bb82-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1708994211.pdf",
     "orgId": "ParksandCommunityServicesCommission",
