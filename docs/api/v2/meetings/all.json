@@ -12,6 +12,18 @@
     "type": "meeting"
   },
   {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee",
+    "date": "04-24-2024",
+    "timestamp": 1713942000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=452",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/5e374f60-11e9-11ee-aabb-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1713542698.pdf",
+    "orgId": "YouthAdvisoryCommittee",
+    "type": "meeting"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": false,
     "name": "Planning Commission Regular Meeting",
