@@ -122,7 +122,7 @@
     "date": "04-02-2024",
     "timestamp": 1712041200000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2052",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=2052&doc_id=d401fd5a-0349-11ef-b231-0050569183fa",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2052",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/31e3026a-9567-11ee-a93d-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1712092790.pdf",
     "orgId": "CityCouncil"
@@ -530,7 +530,7 @@
     "date": "12-05-2023",
     "timestamp": 1701763200000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1966",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1966&doc_id=feea4ac6-0349-11ef-b231-0050569183fa",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1966",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/5a451314-825c-11ee-852f-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1701816449.pdf",
     "orgId": "GeologicHazardAbatementDistrict"
@@ -1094,7 +1094,7 @@
     "date": "06-06-2023",
     "timestamp": 1686034800000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1851",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1851&doc_id=eea9f7c8-0349-11ef-b231-0050569183fa",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1851",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/1b41f476-f414-11ed-95dd-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1685588554.pdf",
     "orgId": "GeologicHazardAbatementDistrict"
