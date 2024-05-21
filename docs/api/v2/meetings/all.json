@@ -24,18 +24,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "Parks and Community Services Commission",
-    "cancelled": false,
-    "name": "Parks and Community Services Commission",
-    "date": "05-20-2024",
-    "timestamp": 1716188400000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=502",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3e9b33c8-8410-11ee-852f-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1715981159.pdf",
-    "orgId": "ParksandCommunityServicesCommission",
-    "type": "meeting"
-  },
-  {
     "organizor": "Planning Commission",
     "cancelled": false,
     "name": "Planning Commission Regular Meeting",
@@ -5870,6 +5858,18 @@
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=901",
     "agendaPacket": "",
     "orgId": "HeritageandCulturalArtsCommission",
+    "type": "meeting"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": null,
+    "timestamp": 0,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=502",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&event_id=502','player','toolbar=no,directories=no,status=yes,scrollbars=no,resizable=yes,menubar=no')",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3e9b33c8-8410-11ee-852f-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1715981159.pdf",
+    "orgId": "ParksandCommunityServicesCommission",
     "type": "meeting"
   }
 ]
