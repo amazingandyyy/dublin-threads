@@ -1,0 +1,80 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1741"
+    ],
+    "val": {
+      "id": "projectdetail1741",
+      "title": "Dublin Commons",
+      "details": {
+        "Planning Application #": "PLPA-2024-00047",
+        "Application Type": "Site Development Review Permit, Vesting Tentative Tract Map, and Development Agreement.",
+        "Application Submittal Date": "05/17/2024",
+        "General Plan Land Use": "DDSP Retail District",
+        "Specific Plan Area": "Downtown Dublin Retail District",
+        "Zoning": "DDSP",
+        "Project Area": "Approx. 28 acres acres",
+        "Building Area": "810,000 square feet",
+        "Stories/Height": "8 stories / 90 feet",
+        "Applicant": {
+          "name": "Mario Tjia, Director Hines Interests, LP",
+          "address": "101 California Street, Ste. 100 San Francisco, CA 94111",
+          "phone": "n/a"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "7575 Dublin Boulevard",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "The Dublin Commons project is the redevelopment of the Dublin Plaza Shopping Center as part of implementing the Downtown Dublin Preferred Vision. Dublin Commons is a mixed-use project of up to 275,000 SF of retail (consisting of 155,000 SF of new retail and , 120,000 SF of existing retail), 535,000 SF of Research and Development (Life Science), 1,510 multifamily residential units and a new Town Square/park. The project entitlements include a Site Development Review Permit, Tentative Tract Map, amendment to the Downtown Dublin Specific Plan and a Development Agreement.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/Town-Square-B-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/Town-Square-B-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/Site-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/Site-Plan.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/Town-Square-A-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/Town-Square-A-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/GGD-Extension-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/GGD-Extension-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/E3-E2-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/E3-E2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/E3--scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/E3--150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/D1-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/D1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/A-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/A-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.7055304,
+        "lon": -121.929789,
+        "iconName": "dot",
+        "title": "Dublin Commons"
+      }
+    },
+    "projectId": "projectdetail1741",
+    "timestamp": "1717020000000",
+    "type": "developments:add"
+  }
+]
