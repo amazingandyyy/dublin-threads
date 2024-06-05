@@ -479,5 +479,165 @@
     "projectId": "projectdetail1656",
     "timestamp": "1713394800000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      0,
+      "name"
+    ],
+    "val": "Final Draft Initial Study Addendum, April 8, 2024",
+    "oldVal": "Final Local Transportation Analysis April 3, 2024",
+    "projectId": "projectdetail1656",
+    "timestamp": "1717628400000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      0,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/580Fallon_FinalDraftIS-reduced-size.pdf",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Final-Local-Transporation-Analysis-04032024.pdf",
+    "projectId": "projectdetail1656",
+    "timestamp": "1717628400000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      1,
+      "name"
+    ],
+    "val": "Final Local Transportation Analysis April 3, 2024",
+    "oldVal": "Final Draft Initial Study Addendum, April 8, 2024",
+    "projectId": "projectdetail1656",
+    "timestamp": "1717628400000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      1,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Final-Local-Transporation-Analysis-04032024.pdf",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/580Fallon_FinalDraftIS-reduced-size.pdf",
+    "projectId": "projectdetail1656",
+    "timestamp": "1717628400000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      2,
+      "name"
+    ],
+    "val": "Community Meeting Presentation Dublin Fallon 580 March 27& 28 and April 3, 2024",
+    "oldVal": "Community Meeting Presentation Dublin Fallon 580 March 27 & 28 and April 3, 2024",
+    "projectId": "projectdetail1656",
+    "timestamp": "1717628400000",
+    "type": "developments:update"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      3
+    ],
+    "val": {
+      "name": "Fallon Village Draft SEIR August-2005",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Fallon-Village-Draft-SEIR-August-2005.pdf"
+    },
+    "projectId": "projectdetail1656",
+    "timestamp": "1717628400000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      4
+    ],
+    "val": {
+      "name": "Fallon Village Final SEIR November-2005",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Fallon-Village-Final-SEIR-November-2005.pdf"
+    },
+    "projectId": "projectdetail1656",
+    "timestamp": "1717628400000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      5
+    ],
+    "val": {
+      "name": "Draft East Dublin Properties Stage I Development Plan and Annexation SEIR 2002",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Draft-E-Dublin-Prop-Stage-I-DP-and-Annex-SEIR-2002.pdf"
+    },
+    "projectId": "projectdetail1656",
+    "timestamp": "1717628400000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      6
+    ],
+    "val": {
+      "name": "Final E Dublin Prop Stage I DP and Annex SEIR 2002",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Final-E-Dublin-Prop-Stage-I-DP-and-Annex-SEIR-2002.pdf"
+    },
+    "projectId": "projectdetail1656",
+    "timestamp": "1717628400000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      7
+    ],
+    "val": {
+      "name": "Draft Eastern Dublin General Plan Amendment and Specific Plan EIR (1993)",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Draft-Eastern-Dublin-General-Plan-Amendment-and-Specific-Plan-EIR-1993.pdf"
+    },
+    "projectId": "projectdetail1656",
+    "timestamp": "1717628400000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      8
+    ],
+    "val": {
+      "name": "Final Eastern Dublin General Plan Amendment and Specific Plan EIR (1993)",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Final-Eastern-Dublin-General-Plan-Amendment-and-Specific-Plan-EIR-1993.pdf"
+    },
+    "projectId": "projectdetail1656",
+    "timestamp": "1717628400000",
+    "type": "developments:add"
   }
 ]
