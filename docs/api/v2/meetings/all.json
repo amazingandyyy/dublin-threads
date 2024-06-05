@@ -36,18 +36,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "Geologic Hazard Abatement District",
-    "cancelled": false,
-    "name": "Joint Geologic Hazard Abatement Districts",
-    "date": "06-04-2024",
-    "timestamp": 1717484400000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=602",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/24b3e6b9-0c8b-11ef-b231-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1717108062.pdf",
-    "orgId": "GeologicHazardAbatementDistrict",
-    "type": "meeting"
-  },
-  {
     "organizor": "Planning Commission",
     "cancelled": true,
     "name": "Planning Commission Cancelled",
