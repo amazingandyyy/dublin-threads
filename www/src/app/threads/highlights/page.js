@@ -1,6 +1,6 @@
 'use client'
-import Thread from './index'
-import GlobalHeader from '../header'
+import Thread from '../index'
+import GlobalHeader from '../../header'
 import { useGlobalThreadListStore, useMeetingsStore, useThreadStore } from '@/stores'
 import { useEffect } from 'react'
 import { useSearchParams } from 'next/navigation'
@@ -12,18 +12,6 @@ export default function Threads () {
   const searchParams = useSearchParams()
 
   useEffect(() => {
-    // const filter = searchParams.get('f')
-    // let l = [...thread].sort((a, b) => b.timestamp - a.timestamp)
-    // if (filter === 'meetings') {
-    //   l = [...meetings].sort((a, b) => b.timestamp - a.timestamp)
-    // } else if (filter === 'highlights') {
-    //   l = [...thread].sort((a, b) => b.timestamp - a.timestamp).filter(i => {
-    //     if (i.path.includes('images')) return true
-    //     else if (i.images?.length > 0) return true
-    //     else if (i.val?.images?.length > 0) return true
-    //     return false
-    //   })
-    // }
     const l = [...thread].sort((a, b) => b.timestamp - a.timestamp).filter(i => {
       if (i.path.includes('images')) return true
       else if (i.images?.length > 0) return true
@@ -36,11 +24,11 @@ export default function Threads () {
   return (
     <>
       <GlobalHeader />
-      <main className='pt-16 h-full bg-[#F3F2EE]'>
+      <main className="pt-16 h-full bg-[#F3F2EE]">
         <div className='flex flex-col items-center text-center text-gray-600 p-4 pt-16'>
           {/* <Image */}
-          {/*  src='/logos/dublin-threads-app-logo-light.svg' */}
-          {/*  alt='Dublin CA Green Logo' */}
+          {/*  src="/logos/dublin-threads-app-logo-light.svg" */}
+          {/*  alt="Dublin CA Green Logo" */}
           {/*  className='inline-block m-2 mb-4 rounded-full shadow-[0_20px_60px_-5px_rgba(0,0,0,0.3)] bg-white' */}
           {/*  width={68} */}
           {/*  height={68} */}
@@ -50,7 +38,7 @@ export default function Threads () {
             A Thread for Dublin, CA
           </div>
           <div>
-            Data sourced from <a className='text-green-600' href='https://dublin-development.icitywork.com' target='_blank' rel='noreferrer'>Dublin Devlopment Projects Site</a> and <a className='text-green-600' href='https://dublin.ca.gov/1604/Meetings-Agendas-Minutes-Video-on-Demand' target='_blank' rel='noreferrer'>Dublin Meetings Site</a>
+            Data sourced from <a className='text-green-600' href='https://dublin-development.icitywork.com' target='_blank' rel="noreferrer">Dublin Devlopment Projects Site</a> and <a className='text-green-600' href='https://dublin.ca.gov/1604/Meetings-Agendas-Minutes-Video-on-Demand' target='_blank' rel="noreferrer">Dublin Meetings Site</a>
             <br/>
             Built by a software engineer living in Dublin
           </div>

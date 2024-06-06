@@ -3,8 +3,9 @@ import { Fragment, useEffect, useState } from 'react'
 import AddPost from './add'
 import UpdatePost from './update'
 import MeetingPost from './meeting'
-import { useGlobalThreadListStore } from '@/stores'
+import { useGlobalThreadListStore, useMeetingsStore, useThreadStore } from '@/stores'
 import _ from 'lodash'
+import { fetchDevelopments, fetchMeetings } from '@/utils'
 
 function PostPlaceholder () {
   const emptyArray = (length = 5) => (Array.from(Array(length).keys()))
@@ -40,6 +41,21 @@ function Post ({ data }) {
 
 export default function Thread ({ thread, unit = 'updates', global = false }) {
   const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    fetchMeetings('/all.json')
+      .then(res => res.json())
+      .then(data => {
+        console.log('fetching meetings', data[0])
+        useMeetingsStore.getState().update(data)
+      })
+    fetchDevelopments('/logs/global.json')
+      .then(res => res.json())
+      .then(data => {
+        console.log('fetching developments event', data[0])
+        useThreadStore.getState().update(data)
+      })
+  }, [])
 
   useEffect(() => {
     if (thread.length > 0) setLoading(false)

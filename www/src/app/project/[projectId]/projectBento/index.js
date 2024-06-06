@@ -309,7 +309,7 @@ export default function ProjectBento ({ projectId }) {
               })}
             </div>
             <div className='text-sm'>
-              Updated every 30 minutes
+              Updated every 15 minutes
             </div>
           </div>
           {<RenderThreads project={project} />}

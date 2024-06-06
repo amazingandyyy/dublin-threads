@@ -18,7 +18,7 @@ export const metadata = {
   },
   openGraph: {
     title: 'Dublin Threads',
-    description: 'Built by a software engineer living in Dublin, California. Dublin threads is a place for local updates on developments and public meetings. Open discussion on projects and engage community to join the meetings. Updated every 30 minutes.',
+    description: 'Built by a software engineer living in Dublin, California. Dublin threads is a place for local updates on developments and public meetings. Open discussion on projects and engage community to join the meetings. Updated every 15 minutes.',
     url: 'https://dublin.amazyyy.com',
     siteName: 'DublinThreads',
     themeColor: '#2AA34A',

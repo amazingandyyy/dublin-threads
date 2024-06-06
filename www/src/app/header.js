@@ -11,31 +11,20 @@ export default function GlobalHeader () {
   <div className='flex'>
     <div className='flex'>
       <a href='/' className='flex items-center pl-2'>
-        <h1 className="inline-block text-xl md:text-2xl tracking-tighter font-bold text-green-950 hover:opacity-80">🍀 Dublin Threads</h1>
+        <h1 className="inline-block text-xl md:text-2xl tracking-tighter font-bold text-green-950 hover:opacity-80">🍀 DublinCA</h1>
       </a>
     </div>
-    <div className='grow'>
-    </div>
+    {/* <div className='grow' /> */}
     <div className='flex items-center'>
       <Link href='/threads'>
-      <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'>
-        Projects
-      </div>
-      </Link>
-      <Link href='/threads?f=meetings'>
         <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'>
-          Meetings
+          Threads
         </div>
       </Link>
-      {/* <Link href='/stats'> */}
-      {/*  <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'> */}
-      {/*    Stats */}
-      {/*  </div> */}
-      {/* </Link> */}
       <Link href='/map'>
-      <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'>
-        Map
-      </div>
+        <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'>
+          Map
+        </div>
       </Link>
       <div className='flex sm:px-1 md:px-2'>
       {/* <a target='_blank' href='https://github.com/amazingandyyy/dublin' className='opacity-40 flex hover:opacity-60' rel="noreferrer">
