@@ -52,7 +52,6 @@ const useGlobalThreadListStore = create(
     list: [],
     originalList: [],
     init: (list) => {
-      console.log('init list', list.length)
       set({ list, originalList: list })
     },
     update: (list) => {

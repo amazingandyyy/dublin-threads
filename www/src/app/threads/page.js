@@ -47,7 +47,7 @@ export default function Threads () {
           {/*  height={68} */}
           {/*  priority */}
           {/* /> */}
-          <div className='text-3xl md:text-5xl font-bold text-green-950 mb-4'>
+          <div className='text-3xl md:text-6xl font-bold text-green-950 mb-4'>
             A Thread for <span>Dublin, CA</span>
           </div>
           <div>
@@ -58,7 +58,7 @@ export default function Threads () {
           </div>
           <div className='py-2'>
             {['DublinCA', 'California', 'TriValley'].map(i => {
-              return <span key={i} className='py-1 px-2 bg-green-400 m-1 rounded-full text-xs text-green-800 bg-opacity-40'>#{i}</span>
+              return <span key={i} className='py-1 px-2 bg-green-300 m-1 rounded-full text-sm font-bold text-green-900 bg-opacity-40'>#{i}</span>
             })}
           </div>
           {/* <div className='text-sm'> */}

@@ -17,7 +17,7 @@ function transformTimestamp (timestamp) {
 }
 
 export default function ({ data }) {
-  const isNewPost = Boolean(Date.now() - data.timestamp < days)
+  // const isNewPost = Boolean(Date.now() - data.timestamp < days)
   const profiles = useProjectProfileStore(state => state.profiles)
   return (<div className='flex items-start justify-between pb-4'>
       <div className='flex-none w-60 md:w-96 items-start flex-col md:flex-row md:items-center'>
@@ -29,7 +29,7 @@ export default function ({ data }) {
       </div>
       <div className='relative'>
         {/* <div className='pl-1 text-gray-500 text-xs'>{transformTimestamp(data.timestamp)}</div> */}
-        {isNewPost && <div className='inline-block bg-yellow-100 text-yellow-900 px-2 rounded-full text-sm shadow-md'>news</div>}
+        {/* {isNewPost && <div className='inline-block bg-yellow-100 text-yellow-900 px-2 rounded-full text-sm shadow-md'>new</div>} */}
       </div>
     </div>)
 }

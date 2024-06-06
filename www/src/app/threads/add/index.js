@@ -2,15 +2,16 @@ import Header from '../header'
 import Bottom from '../bottom'
 import { PostImages, PostDocs, PostCard } from '../templates'
 import { Image } from '@/utils'
+import { CakeIcon } from '@heroicons/react/20/solid'
 
 // function ImageLoader() {
 //   return (<div className='animate-pulse'><div className="h-24 w-24 rounded cursor-wait bg-gray-200" /></div>)
 // }
 
-function hoorayEmoji (n) {
-  const d = ['🥳', '🎉', '👏', '🙌', '📣', '🎊', '🤩']
-  return d[n % d.length + 0]
-}
+// function hoorayEmoji (n) {
+//   const d = ['🥳', '🎉', '👏', '🙌', '📣', '🎊', '🤩']
+//   return d[n % d.length + 0]
+// }
 
 function checkType (data) {
   switch (true) {
@@ -55,9 +56,13 @@ export default function ({ data }) {
   const imgs = data.val.images || []
   return <PostCard>
     <Header data={data} />
-    <div>
-      <p className='inline'>New Project Added! {hoorayEmoji(String(data.val.title).length)}</p>
-      {data.val.images?.length > 0 && <p className='pl-2 inline'>with {data.val.images?.length} photos</p>}
+    <div className='flex flex-col items-center'>
+      <div className='flex p-4 rounded-full bg-white m-4 w-16 h-16 shadow-2xl'>
+        <CakeIcon className='text-yellow-500' />
+      </div>
+      <p className='inline font-bold'>New Project launched!</p>
+      {/* <p className='inline font-bold'>New Project launched! {hoorayEmoji(String(data.val.title).length)}</p> */}
+      {/* {data.val.images?.length > 0 && <p className='pl-2 inline'>with {data.val.images?.length} photos</p>} */}
     </div>
     <div className='py-4 md:max-w-full inlin-block break-words'>
       {data.val.description}

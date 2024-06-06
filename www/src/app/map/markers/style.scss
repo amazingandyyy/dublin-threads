@@ -37,14 +37,14 @@ $dark-color: #084713;
   position: absolute;
   bottom: 0px;
   pointer-events: auto;
-  &.hover {
-    .pin-001-wrapper-item, .pin-001-wrapper-item-wrapper, .pin-001-item-2 {
-      background-color: red;
-      box-shadow: rgba($brand-color, 0.24) 0px 0px 0px 1px inset, rgba($brand-color, 0.18) 0px 1px 2px;
-      //border-radius: 100px;
-      overflow: hidden;
-    }
-  }
+  //&.hover {
+  //  .pin-001-wrapper-item, .pin-001-wrapper-item-wrapper, .pin-001-item-2 {
+  //    background-color: red;
+  //    box-shadow: rgba($brand-color, 0.24) 0px 0px 0px 1px inset, rgba($brand-color, 0.18) 0px 1px 2px;
+  //    //border-radius: 100px;
+  //    overflow: hidden;
+  //  }
+  //}
   .button-inner {
     outline: none;
     color: inherit;
@@ -81,7 +81,7 @@ $dark-color: #084713;
   .pin-001-wrapper-item-wrapper {
     border-radius: 100px;
     background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.18) 0px 1px 2px;
+    //box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.18) 0px 1px 2px;
     color: $dark-color;
     width: 32px;
     height: 32px;

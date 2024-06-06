@@ -39,7 +39,7 @@ export default function MeetingPost ({ data }) {
   }
 
   return (<PostCard>
-		<div className='flex items-start justify-between pb-4'>
+		<div className='flex items-start justify-between pb-2'>
 			<div className='flex-none w-60 md:w-96 items-start flex-col md:flex-row md:items-center'>
 				<Link href={`/org/${data.orgId}`} className='hover:opacity-50 active:opacity-70 hover:underline'>
 					<div className='font-semibold pr-1 text-base truncate ...'>{data.organizor}</div>

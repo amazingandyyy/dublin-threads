@@ -7,36 +7,38 @@ export default function GlobalHeader () {
     Hotjar.init(3595523, 6)
   }, [])
 
-  return (<header className="z-50 drop-shadow bg-white bg-opacity-30 fixed py-4 px-2 md:px-6 xl:px-24 top-0 left-0 right-0 backdrop-filter backdrop-blur">
-  <div className='flex'>
+  return (<header className='z-50 p-2 fixed top-0 text-center'>
+    <div className="flex drop-shadow bg-white bg-opacity-30 py-4 px-4 md:px-6 backdrop-filter backdrop-blur rounded-full">
     <div className='flex'>
-      <a href='/' className='flex items-center pl-2'>
-        <h1 className="inline-block text-xl md:text-2xl tracking-tighter font-bold text-green-950 hover:opacity-80 mr-2">DublinCA</h1>
-      </a>
-    </div>
-    {/* <div className='grow' /> */}
-    <div className='flex items-center text-lg'>
-      <Link href='/threads'>
-        <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'>
-          Threads
+      <div className='flex'>
+        <a href='/' className='flex items-center pl-2'>
+          <h1 className="inline-block text-xl md:text-2xl tracking-tighter font-bold text-green-950 hover:opacity-50 mr-2">DublinThread</h1>
+        </a>
+      </div>
+      {/* <div className='grow' /> */}
+      <div className='flex items-center text-lg'>
+        <Link href='/threads'>
+          <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'>
+            Updates
+          </div>
+        </Link>
+        <Link href='/map'>
+          <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'>
+            Map
+          </div>
+        </Link>
+        <div className='flex sm:px-1 md:px-2'>
+        {/* <a target='_blank' href='https://github.com/amazingandyyy/dublin' className='opacity-40 flex hover:opacity-60' rel="noreferrer">
+          <Image
+            src="/images/github-icon.svg"
+            alt="Dublin CA Green Logo"
+            className='inline-block'
+            width={24}
+            height={24}
+            priority
+          />
+        </a> */}
         </div>
-      </Link>
-      <Link href='/map'>
-        <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'>
-          Map
-        </div>
-      </Link>
-      <div className='flex sm:px-1 md:px-2'>
-      {/* <a target='_blank' href='https://github.com/amazingandyyy/dublin' className='opacity-40 flex hover:opacity-60' rel="noreferrer">
-        <Image
-          src="/images/github-icon.svg"
-          alt="Dublin CA Green Logo"
-          className='inline-block'
-          width={24}
-          height={24}
-          priority
-        />
-      </a> */}
       </div>
     </div>
   </div>

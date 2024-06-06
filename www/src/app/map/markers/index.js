@@ -1,6 +1,6 @@
 import './style.scss'
-import { Tooltip } from 'react-tooltip'
-import { Image } from '@/utils'
+// import { Tooltip } from 'react-tooltip'
+// import { Image } from '@/utils'
 
 const ICONS = {
   // dot: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
@@ -61,15 +61,15 @@ function PinMarker (props) {
         <div className='pin-001-item-2' />
       </div>
     </button>
-    <Tooltip style={{ zIndex: '99', display: 'inline-block', boxShadow: '0px 0px 10px #DCDCDC', backgroundColor: 'white', borderRadius: '10px', color: 'black' }} id={props.data?.id} place='top' render={({ content, activeAnchor }) => (
-       <div className='flex flex-col items-center text-sm'>
-         {props.data?.images.length} images and {props.data?.threads.length} updates since {props.data?.details['Application Submittal Date']}
-         <div className='flex flex-row'>
-           {props.data?.images.length && props.data?.images.slice(0, 3).map(i => <Image key={i.thumbnail} className='m-1 rounded' alt='' src={i.thumbnail} />)}
-         </div>
-        </div>
-    )}
-    />
+    {/* <Tooltip style={{ zIndex: '99', display: 'inline-block', boxShadow: '0px 0px 10px #DCDCDC', backgroundColor: 'white', borderRadius: '10px', color: 'black' }} id={props.data?.id} place='top' render={({ content, activeAnchor }) => ( */}
+    {/*    <div className='flex flex-col items-center text-sm'> */}
+    {/*      {props.data?.images.length} images and {props.data?.threads.length} updates since {props.data?.details['Application Submittal Date']} */}
+    {/*      <div className='flex flex-row'> */}
+    {/*        {props.data?.images.length && props.data?.images.slice(0, 3).map(i => <Image key={i.thumbnail} className='m-1 rounded' alt='' src={i.thumbnail} />)} */}
+    {/*      </div> */}
+    {/*     </div> */}
+    {/* )} */}
+    {/* /> */}
   </div>)
 }
 
