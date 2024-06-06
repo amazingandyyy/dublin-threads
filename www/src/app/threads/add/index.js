@@ -59,12 +59,12 @@ export default function ({ data }) {
       <p className='inline'>New Project Added! {hoorayEmoji(String(data.val.title).length)}</p>
       {data.val.images?.length > 0 && <p className='pl-2 inline'>with {data.val.images?.length} photos</p>}
     </div>
-    <div className='py-4 max-w-xs md:max-w-full inlin-block break-words truncate ... text-ellipsis'>
+    <div className='py-4 md:max-w-full inlin-block break-words'>
       {data.val.description}
     </div>
     <div className='mt-2 overflow-x-hidden md:max-w-full'>
-      {imgs.map((img, i) => <div key={`${i}${img.original}`} className='inline-block border-2 ml-2 w-full'>
-        <Image src={img.original} style={{ width: '100%' }} alt='' />
+      {imgs.map((img, i) => <div key={`${i}${img.original}`} className='inline-block w-full'>
+        <Image className='rounded-3xl border-4' src={img.original} style={{ width: '100%' }} alt='' />
       </div>)}
     </div>
     <Bottom data={data} />

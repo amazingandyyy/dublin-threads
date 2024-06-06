@@ -68,7 +68,7 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
 
   return (
     <div>
-        <div className='flex flex-col'>
+        <div className='flex flex-col hidden'>
           {global && <input className='flex-auto bg-white rounded-xl p-2 pl-4' placeholder='Search for projects or meetings' name='global-search' onChange={onSearch}/>}
           <div className='text-sm opacity-70 mt-2 px-2 mx-auto rounded-xl'>{loading ? (<span className='animate-pulse'>...</span>) : (<span>{thread.length}</span>)} {unit}</div>
         </div>

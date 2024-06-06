@@ -7,15 +7,15 @@ export default function GlobalHeader () {
     Hotjar.init(3595523, 6)
   }, [])
 
-  return (<header className="z-50 drop-shadow bg-white bg-opacity-90 fixed py-4 px-2 md:px-6 xl:px-24 top-0 left-0 right-0 backdrop-filter backdrop-blur">
+  return (<header className="z-50 drop-shadow bg-white bg-opacity-30 fixed py-4 px-2 md:px-6 xl:px-24 top-0 left-0 right-0 backdrop-filter backdrop-blur">
   <div className='flex'>
     <div className='flex'>
       <a href='/' className='flex items-center pl-2'>
-        <h1 className="inline-block text-xl md:text-2xl tracking-tighter font-bold text-green-950 hover:opacity-80">🍀 DublinCA</h1>
+        <h1 className="inline-block text-xl md:text-2xl tracking-tighter font-bold text-green-950 hover:opacity-80 mr-2">DublinCA</h1>
       </a>
     </div>
     {/* <div className='grow' /> */}
-    <div className='flex items-center'>
+    <div className='flex items-center text-lg'>
       <Link href='/threads'>
         <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'>
           Threads

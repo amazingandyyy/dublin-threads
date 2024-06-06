@@ -34,7 +34,7 @@ const useProjectProfileStore = create((set, get) => ({
   profiles: {},
   update: (profiles) => set({ profiles }),
   current: (id) => {
-    console.log('get profile of', id)
+    // console.log('get profile of', id)
     const profile = get().profiles[id] || { threads: [] }
     const diff = profile?.threads.map(i => ({ path: i.path, op: i.op, val: i.val })).reverse() || []
     const current = rdiff.applyDiff({}, diff)

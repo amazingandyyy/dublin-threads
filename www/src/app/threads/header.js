@@ -9,7 +9,10 @@ function transformTimestamp (timestamp) {
   }
   const date = new Date(Number(timestamp))
   return date.toLocaleString('en-US', {
-    year: '2-digit', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false
+    // year: '2-digit', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false
+    year: 'numeric',
+    month: 'long',
+    day: '2-digit'
   })
 }
 
@@ -19,13 +22,14 @@ export default function ({ data }) {
   return (<div className='flex items-start justify-between pb-4'>
       <div className='flex-none w-60 md:w-96 items-start flex-col md:flex-row md:items-center'>
         <Link href={`/project/${data.projectId}`} className='hover:opacity-50 active:opacity-70 hover:underline'>
-          <div className='font-semibold pr-1 text-base truncate ...'>{profiles[data.projectId].title}</div>
+          <div className='font-semibold pr-1 text-lg truncate ...'>{profiles[data.projectId].title}</div>
+          <div className='text-gray-500 text-sm'>{transformTimestamp(data.timestamp)}</div>
         </Link>
-        <Link href={`/project/${data.projectId}`} className='hover:opacity-50 active:opacity-70'><div className='text-gray-500 text-sm'>@{data.projectId}</div></Link>
+        {/* <Link href={`/project/${data.projectId}`} className='hover:opacity-50 active:opacity-70'><div className='text-gray-500 text-sm'>@{data.projectId}</div></Link> */}
       </div>
       <div className='relative'>
-        <div className='pl-1 text-gray-500 text-xs'>{transformTimestamp(data.timestamp)}</div>
-        {isNewPost && <div className='inline-block absolute bg-yellow-100 text-yellow-900 px-2 top-5 left-9 rounded-full text-sm -rotate-[5deg] shadow-md'>news</div>}
+        {/* <div className='pl-1 text-gray-500 text-xs'>{transformTimestamp(data.timestamp)}</div> */}
+        {isNewPost && <div className='inline-block bg-yellow-100 text-yellow-900 px-2 rounded-full text-sm shadow-md'>news</div>}
       </div>
     </div>)
 }
