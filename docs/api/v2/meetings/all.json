@@ -1,5 +1,17 @@
 [
   {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "06-25-2024",
+    "timestamp": 1719298800000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "PlanningCommission",
+    "type": "meeting"
+  },
+  {
     "organizor": "Heritage and Cultural Arts Commission",
     "cancelled": false,
     "name": "Heritage and Cultural Arts Commission",
