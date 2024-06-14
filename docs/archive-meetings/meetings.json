@@ -13,10 +13,10 @@
   {
     "organizor": "Planning Commission",
     "cancelled": true,
-    "name": "Planning Commission Cancellation Notice",
+    "name": "Planning Commission Cancelled",
     "date": "06-25-2024",
     "timestamp": 1719298800000,
-    "agenda": "",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=560",
     "video": "",
     "agendaPacket": "",
     "orgId": "PlanningCommission"
