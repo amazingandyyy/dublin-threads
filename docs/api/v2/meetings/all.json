@@ -1,5 +1,17 @@
 [
   {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee Special Meeting",
+    "date": "07-24-2024",
+    "timestamp": 1721804400000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "YouthAdvisoryCommittee",
+    "type": "meeting"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": false,
     "name": "Planning Commission Regular Meeting",
