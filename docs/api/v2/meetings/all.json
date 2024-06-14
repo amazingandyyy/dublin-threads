@@ -36,18 +36,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "Heritage and Cultural Arts Commission",
-    "cancelled": false,
-    "name": "Heritage and Cultural Arts Commission",
-    "date": "06-13-2024",
-    "timestamp": 1718262000000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=490",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/dde8dafd-825e-11ee-852f-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1718048514.pdf",
-    "orgId": "HeritageandCulturalArtsCommission",
-    "type": "meeting"
-  },
-  {
     "organizor": "Youth Advisory Committee",
     "cancelled": false,
     "name": "Youth Advisory Committee",
