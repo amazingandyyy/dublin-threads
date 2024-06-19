@@ -24,13 +24,25 @@
   {
     "organizor": "City Council",
     "cancelled": false,
-    "name": "City Council Notice of Adjournment",
+    "name": "Regular City Council Meeting",
     "date": "06-18-2024",
     "timestamp": 1718694000000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2101",
     "minutes": "",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2101",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/31f1705b-9567-11ee-a93d-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1718407207.pdf",
+    "orgId": "CityCouncil"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Notice of Adjournment",
+    "date": "06-18-2024",
+    "timestamp": 1718694000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2104",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2104",
+    "agendaPacket": "",
     "orgId": "CityCouncil"
   },
   {
