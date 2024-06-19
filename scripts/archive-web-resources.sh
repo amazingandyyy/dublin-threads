@@ -11,5 +11,8 @@ wget --recursive --no-host-directories --page-requisites -P $OUTPUT_DIR https://
 
 git stash push docs/web-archive/wp-content/uploads/2016/05/DublinSeal144x144.jpg
 git stash push docs/web-archive/wp-content/uploads/2016/05/DublinSeal114x114.jpg
+git stash push docs/web-archive/wp-content/uploads/2017/04/4.-VTM-Reso.pdf
+git stash push docs/web-archive/wp-content/uploads/2017/04/3.-SDR-Reso.pdf
+git stash push docs/web-archive/wp-content/uploads/2017/04/2.-PC-SR-042517-without-attachments.pdf
 git stash push docs/web-archive/robots.txt docs/web-archive/index.html
 git stash push docs/web-archive/robots.txt
