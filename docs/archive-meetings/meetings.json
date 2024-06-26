@@ -13,6 +13,18 @@
   {
     "organizor": "City Council",
     "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "06-25-2024",
+    "timestamp": 1719298800000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2105",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2105",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/7d6646ee-2cd0-11ef-81ef-005056a89546-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1719359726.pdf",
+    "orgId": "CityCouncil"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
     "name": "Regular City Council Meeting",
     "date": "06-18-2024",
     "timestamp": 1718694000000,
