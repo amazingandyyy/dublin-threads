@@ -988,5 +988,20 @@
     "projectId": "projectdetail1508",
     "timestamp": "1707854400000",
     "type": "developments:delete"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1508",
+      "docs",
+      1
+    ],
+    "val": {
+      "name": "City Council Agenda & Staff Report March 19, 2024",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/City-Council-Agenda-Staff-Report-March-19-2024.pdf"
+    },
+    "projectId": "projectdetail1508",
+    "timestamp": "1719874800000",
+    "type": "developments:add"
   }
 ]
