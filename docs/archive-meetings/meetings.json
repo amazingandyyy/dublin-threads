@@ -35,17 +35,6 @@
   {
     "organizor": "City Council",
     "cancelled": false,
-    "name": "City Council Special Meeting",
-    "date": "07-03-2024",
-    "timestamp": 1719990000000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=606",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "CityCouncil"
-  },
-  {
-    "organizor": "City Council",
-    "cancelled": false,
     "name": "City Council Regular Meeting",
     "date": "06-25-2024",
     "timestamp": 1719298800000,
