@@ -36,18 +36,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "Planning Commission",
-    "cancelled": true,
-    "name": "Planning Commission Cancelled",
-    "date": "07-09-2024",
-    "timestamp": 1720508400000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=561",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "PlanningCommission",
-    "type": "meeting"
-  },
-  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Special Meeting",
