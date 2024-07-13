@@ -9,6 +9,7 @@ export default function Home () {
     fetchMeetings('/all.json')
       .then(res => res.json())
       .then(data => {
+        console.log('hello')
         console.log('fetching meetings', data[0])
         useMeetingsStore.getState().update(data)
       })

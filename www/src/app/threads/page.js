@@ -4,6 +4,7 @@ import GlobalHeader from '../header'
 import { useGlobalThreadListStore, useMeetingsStore, useThreadStore } from '@/stores'
 import { useEffect } from 'react'
 import { useSearchParams } from 'next/navigation'
+import { fetchDevelopments, fetchMeetings } from '@/utils'
 
 export default function Threads () {
   const thread = useThreadStore(state => state.thread)
@@ -12,24 +13,40 @@ export default function Threads () {
   const searchParams = useSearchParams()
 
   useEffect(() => {
-    // const filter = searchParams.get('f')
-    // let l = [...thread].sort((a, b) => b.timestamp - a.timestamp)
-    // if (filter === 'meetings') {
-    //   l = [...meetings].sort((a, b) => b.timestamp - a.timestamp)
-    // } else if (filter === 'highlights') {
-    //   l = [...thread].sort((a, b) => b.timestamp - a.timestamp).filter(i => {
-    //     if (i.path.includes('images')) return true
-    //     else if (i.images?.length > 0) return true
-    //     else if (i.val?.images?.length > 0) return true
-    //     return false
-    //   })
-    // }
-    const l = [...thread].sort((a, b) => b.timestamp - a.timestamp).filter(i => {
-      if (i.path.includes('images')) return true
-      else if (i.images?.length > 0) return true
-      else if (i.val?.images?.length > 0) return true
-      return false
-    })
+    fetchMeetings('/all.json')
+      .then(res => res.json())
+      .then(data => {
+        console.log('hello')
+        console.log('fetching meetings', data[0])
+        useMeetingsStore.getState().update(data)
+      })
+    fetchDevelopments('/logs/global.json')
+      .then(res => res.json())
+      .then(data => {
+        console.log('fetching developments event', data[0])
+        useThreadStore.getState().update(data)
+      })
+  }, [])
+
+  useEffect(() => {
+    const filter = searchParams.get('f')
+    let l = [...thread].sort((a, b) => b.timestamp - a.timestamp)
+    if (filter === 'meetings') {
+      l = [...meetings].sort((a, b) => b.timestamp - a.timestamp)
+    } else if (filter === 'highlights') {
+      l = [...thread].sort((a, b) => b.timestamp - a.timestamp).filter(i => {
+        if (i.path.includes('images')) return true
+        else if (i.images?.length > 0) return true
+        else if (i.val?.images?.length > 0) return true
+        return false
+      })
+    }
+    // const l = [...thread].sort((a, b) => b.timestamp - a.timestamp).filter(i => {
+    //   if (i.path.includes('images')) return true
+    //   else if (i.images?.length > 0) return true
+    //   else if (i.val?.images?.length > 0) return true
+    //   return false
+    // })
     useGlobalThreadListStore.getState().init(l)
   }, [thread, meetings, searchParams])
 
@@ -61,9 +78,9 @@ export default function Threads () {
               return <span key={i} className='py-1 px-2 bg-green-300 m-1 rounded-full text-sm font-bold text-green-900 bg-opacity-40'>#{i}</span>
             })}
           </div>
-          {/* <div className='text-sm'> */}
-          {/*   Updated every 15 minutes */}
-          {/* </div> */}
+           <div className='text-sm'>
+             Updated every 15 minutes
+           </div>
         </div>
         <div className='w-full md:max-w-[800px] m-auto'>
           <Thread thread={list} global={true} />
