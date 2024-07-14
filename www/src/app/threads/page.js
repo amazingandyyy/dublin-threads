@@ -64,7 +64,7 @@ export default function Threads () {
           {/*  height={68} */}
           {/*  priority */}
           {/* /> */}
-          <div className='text-3xl md:text-6xl font-bold text-green-950 mb-4'>
+          <div className='font-handwriting text-3xl md:text-6xl font-bold text-green-950 mb-4'>
             A Thread for <span>Dublin, CA</span>
           </div>
           <div>

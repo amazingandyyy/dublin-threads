@@ -8,32 +8,34 @@ export default function GlobalHeader () {
   }, [])
 
   return (<header className='z-50 p-2 fixed top-0 text-center'>
-    <div className="flex drop-shadow bg-white bg-opacity-30 py-4 px-4 md:px-6 backdrop-filter backdrop-blur rounded-full">
+    <div className="flex drop-shadow bg-white text-green-900 bg-opacity-30 py-2 px-2 md:py-4 md:px-6 backdrop-filter backdrop-blur rounded-full">
     <div className='flex'>
-      <div className='flex'>
-        <a href='/' className='flex items-center pl-2'>
-          <h1 className="inline-block text-xl md:text-2xl tracking-tighter font-bold text-green-950 hover:opacity-50 mr-2">DublinThread</h1>
-        </a>
+      <div className='flex items-center pl-2'>
+      <Link href='/'>
+        <h1 className="text-green-950 px-2 inline-block text-md md:text-2xl tracking-tighter font-bold hover:opacity-50 mr-2">
+          Dublin<span className='font-light italic'>Thread</span>
+        </h1>
+        </Link>
       </div>
       {/* <div className='grow' /> */}
-      <div className='flex items-center text-lg'>
+      <div className='flex items-center text-sm md:text-lg'>
         <Link href='/threads'>
-          <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'>
+          <div className='flex px-[5px] md:px-4 font-semibold hover:opacity-70'>
             All
           </div>
         </Link>
         <Link href='/threads?f=highlights'>
-          <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'>
+          <div className='flex px-[5px] md:px-4 font-semibold hover:opacity-70'>
             Photos
           </div>
         </Link>
         <Link href='/threads?f=meetings'>
-          <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'>
+          <div className='flex px-[5px] md:px-4 font-semibold hover:opacity-70'>
             Meetings
           </div>
         </Link>
         <Link href='/map'>
-          <div className='flex px-2 md:px-4 font-semibold text-green-950 hover:text-green-500'>
+          <div className='flex px-[5px] md:px-4 font-semibold hover:opacity-70'>
             Map
           </div>
         </Link>
