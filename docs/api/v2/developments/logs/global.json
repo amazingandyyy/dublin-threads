@@ -2,6 +2,18 @@
   {
     "op": "update",
     "path": [
+      "projectdetail1741",
+      "description"
+    ],
+    "val": "The Dublin Commons project is the redevelopment of the Dublin Plaza Shopping Center as part of implementing the Downtown Dublin Preferred Vision. Dublin Commons is a mixed-use project of up to 275,000 SF of retail (consisting of 155,000 SF of new retail and 120,000 SF of existing retail), 535,000 SF of Research and Development (Life Science), 1,510 multifamily residential units and a new Town Square/park. The project entitlements include a Site Development Review Permit, Tentative Tract Map, amendment to the Downtown Dublin Specific Plan and a Development Agreement.",
+    "oldVal": "The Dublin Commons project is the redevelopment of the Dublin Plaza Shopping Center as part of implementing the Downtown Dublin Preferred Vision. Dublin Commons is a mixed-use project of up to 275,000 SF of retail (consisting of 155,000 SF of new retail and , 120,000 SF of existing retail), 535,000 SF of Research and Development (Life Science), 1,510 multifamily residential units and a new Town Square/park. The project entitlements include a Site Development Review Permit, Tentative Tract Map, amendment to the Downtown Dublin Specific Plan and a Development Agreement.",
+    "projectId": "projectdetail1741",
+    "timestamp": "1721167200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
       "projectdetail1656",
       "docs",
       0,
