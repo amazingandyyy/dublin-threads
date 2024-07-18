@@ -1,5 +1,32 @@
 [
   {
+    "op": "add",
+    "path": [
+      "projectdetail1661",
+      "docs",
+      0
+    ],
+    "val": {
+      "name": "Planning Commission July 23, 2024 Agenda & Staff Report",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/02444723943c486bb335a006ad1f6cf20.pdf"
+    },
+    "projectId": "projectdetail1661",
+    "timestamp": "1721311200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1661",
+      "status"
+    ],
+    "val": "Pubic Hearing",
+    "oldVal": "Application Under Review",
+    "projectId": "projectdetail1661",
+    "timestamp": "1721311200000",
+    "type": "developments:update"
+  },
+  {
     "op": "update",
     "path": [
       "projectdetail1741",
