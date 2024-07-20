@@ -26,11 +26,11 @@ export default function GlobalHeader () {
             Photos
           </div>
         </Link>
-        <Link href='/threads?f=meetings'>
-          <div className='flex px-[5px] md:px-4 font-semibold hover:opacity-70'>
-            Meetings
-          </div>
-        </Link>
+        {/*<Link href='/threads?f=meetings'>*/}
+        {/*  <div className='flex px-[5px] md:px-4 font-semibold hover:opacity-70'>*/}
+        {/*    Meetings*/}
+        {/*  </div>*/}
+        {/*</Link>*/}
         <Link href='/map'>
           <div className='flex px-[5px] md:px-4 font-semibold hover:opacity-70'>
             Map

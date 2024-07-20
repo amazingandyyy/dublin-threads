@@ -11,7 +11,14 @@ export default function Threads () {
   const meetings = useMeetingsStore(state => state.meetings)
   const list = useGlobalThreadListStore(state => state.list)
   const searchParams = useSearchParams()
-
+  useEffect(() => {
+    document.title = 'Threads - DublinThreads'
+    document.description = 'Explore updates and developments in Dublin, California.'
+    document.url = `https://dublin.amazyyy.com/`
+    document.siteName = 'DublinThreads'
+    document.type = 'website'
+    document.locale = 'en_US'
+  }, [])
   useEffect(() => {
     fetchMeetings('/all.json')
       .then(res => res.json())
@@ -40,14 +47,17 @@ export default function Threads () {
         else if (i.val?.images?.length > 0) return true
         return false
       })
+    } else {
+      l = [...thread, ...meetings].sort((a, b) => b.timestamp - a.timestamp)
     }
+    console.log(l)
     // const l = [...thread].sort((a, b) => b.timestamp - a.timestamp).filter(i => {
     //   if (i.path.includes('images')) return true
     //   else if (i.images?.length > 0) return true
     //   else if (i.val?.images?.length > 0) return true
     //   return false
     // })
-    useGlobalThreadListStore.getState().init(l)
+    useGlobalThreadListStore.getState().init(l.slice(0, 100))
   }, [thread, meetings, searchParams])
 
   return (

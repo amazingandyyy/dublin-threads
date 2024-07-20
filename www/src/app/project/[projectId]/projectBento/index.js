@@ -40,7 +40,7 @@ export default function ProjectBento ({ projectId }) {
 
   useEffect(() => {
     console.log('project details', project)
-    document.title = `${project.title} | Project`
+    document.title = `${project.title} - DublinThreads`
     document.description = project.description
     document.image = project.images?.[0]?.thumbnail
     document.url = `https://dublin.amazyyy.com/project/${project.id}`
@@ -94,11 +94,10 @@ export default function ProjectBento ({ projectId }) {
   }
   const renderProjectPlanner = (project) => {
     const person = project?.details['Project Planner']
-    if (!person.name) return <></>
 
-    const name = person.name
-    const email = person.email
-    const phone = person.phone
+    const name = person?.name
+    const email = person?.email
+    const phone = person?.phone
     // https://www.linkedin.com/search/results/all/?keywords=Jerry%20Hunt%2C%20Rubicon%20Property%20Group&sid=Qwm
     return (<div className='flex flex-col md:rounded-2xl system-card bg-white p-8 md:m-2 my-1'>
     <div className='self-start border-2 border-gray-800 text-gray-800 text-sm rounded-full px-3'>Project Planner</div>

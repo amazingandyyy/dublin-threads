@@ -3,10 +3,8 @@ import { Fragment, useEffect, useState } from 'react'
 import AddPost from './add'
 import UpdatePost from './update'
 import MeetingPost from './meeting'
-// import { useGlobalThreadListStore, useMeetingsStore, useThreadStore } from '@/stores'
 import { useGlobalThreadListStore } from '@/stores'
 import _ from 'lodash'
-// import { fetchDevelopments, fetchMeetings } from '@/utils'
 
 function PostPlaceholder () {
   const emptyArray = (length = 5) => (Array.from(Array(length).keys()))
