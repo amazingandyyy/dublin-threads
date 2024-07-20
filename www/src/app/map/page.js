@@ -15,7 +15,7 @@ export default function Threads ({ params, searchParams }) {
   useEffect(() => {
     document.title = 'Map - DublinThreads'
     document.description = 'Explore Dublin projects and developments on a map.'
-    document.url = `https://dublin.amazyyy.com/map`
+    document.url = 'https://dublin.amazyyy.com/map'
     document.siteName = 'DublinThreads'
     document.type = 'website'
     document.locale = 'en_US'

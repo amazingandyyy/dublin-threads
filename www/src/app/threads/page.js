@@ -14,7 +14,7 @@ export default function Threads () {
   useEffect(() => {
     document.title = 'Threads - DublinThreads'
     document.description = 'Explore updates and developments in Dublin, California.'
-    document.url = `https://dublin.amazyyy.com/`
+    document.url = 'https://dublin.amazyyy.com/'
     document.siteName = 'DublinThreads'
     document.type = 'website'
     document.locale = 'en_US'

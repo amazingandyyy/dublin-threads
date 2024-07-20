@@ -3,7 +3,6 @@ import Hotjar from '@hotjar/browser'
 
 Hotjar.init(3595523, 6)
 export default function GlobalHeader () {
-
   return (<header className='z-50 p-2 fixed top-0 text-center'>
     <div className="flex drop-shadow bg-white text-green-900 bg-opacity-30 py-2 px-2 md:py-4 md:px-6 backdrop-filter backdrop-blur rounded-full">
     <div className='flex'>
@@ -23,14 +22,14 @@ export default function GlobalHeader () {
         </Link>
         <Link href='/threads?f=highlights'>
           <div className='flex px-[5px] md:px-4 font-semibold hover:opacity-70'>
-            Photos
+            Highlights
           </div>
         </Link>
-        {/*<Link href='/threads?f=meetings'>*/}
-        {/*  <div className='flex px-[5px] md:px-4 font-semibold hover:opacity-70'>*/}
-        {/*    Meetings*/}
-        {/*  </div>*/}
-        {/*</Link>*/}
+        {/* <Link href='/threads?f=meetings'> */}
+        {/*  <div className='flex px-[5px] md:px-4 font-semibold hover:opacity-70'> */}
+        {/*    Meetings */}
+        {/*  </div> */}
+        {/* </Link> */}
         <Link href='/map'>
           <div className='flex px-[5px] md:px-4 font-semibold hover:opacity-70'>
             Map

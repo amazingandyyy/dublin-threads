@@ -2,7 +2,7 @@
 
 import 'mapbox-gl/dist/mapbox-gl.css'
 import { useState, useEffect } from 'react'
-import {useProjectProfileStore, useThreadStore} from '@/stores'
+import { useProjectProfileStore, useThreadStore } from '@/stores'
 import Map, { Marker } from 'react-map-gl'
 import {
   MapPinIcon as OutlineMapPinIcon,
@@ -18,9 +18,8 @@ import {
   ChatBubbleBottomCenterTextIcon, TrophyIcon
 } from '@heroicons/react/24/outline'
 import './style.scss'
-import { NextSeo } from 'next-seo';
 import { MapPinIcon } from '@heroicons/react/20/solid'
-import {timeSince, Image, useArchivedSource, fetchDevelopments} from '@/utils'
+import { timeSince, Image, useArchivedSource, fetchDevelopments } from '@/utils'
 import Threads from '@/threads'
 import { DiscussionEmbed } from 'disqus-react'
 
@@ -265,11 +264,11 @@ export default function ProjectBento ({ projectId }) {
         }
       />
     </div>)
-}
+  }
 
-if (!project.id) {
-  return (<div>Loading...</div>)
-} else {
+  if (!project.id) {
+    return (<div>Loading...</div>)
+  } else {
     return (<>
       <div className='flex flex-col md:flex-row'>
         <div className='md:rounded-2xl system-card bg-white flex p-8 flex-col md:m-2 my-1 md:flex-none md:max-w-[300px]'>
