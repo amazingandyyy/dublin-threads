@@ -275,7 +275,7 @@ export default function ProjectBento ({ projectId }) {
   }
 
   if (!project.id) {
-    return (<div>Loading...</div>)
+    return (<div className='text-center flex flex-col justify-center h-screen animate-pulse text-2xl'>Loading...</div>)
   } else {
     return (<>
       <div className='flex flex-col md:flex-row'>
@@ -285,13 +285,13 @@ export default function ProjectBento ({ projectId }) {
             <div className='my-8'>
               <div className='opacity-50'>Share this project with your friends</div>
               <div className='flex my-2'>
-                <FacebookShareButton className='opacity-70 hover:opacity-100 inline-block mr-2' url={`https://dublin.amazyyy.com/project/${project.id}`} quote={`Check out this project, ${project.title} on DublinThreads.`} hashtag={`#DublinCA #${project.title.replace(' ', '')} #DublinThreads #TriValley`}>
+                <FacebookShareButton className='opacity-70 hover:opacity-100 inline-block mr-2' url={`https://dublin.amazyyy.com/project/${project.id}`} quote={`Check out this project, ${project.title} on DublinThreads.`} hashtag={`#DublinCA #${project.title?.replace(' ', '')} #DublinThreads #TriValley`}>
                   <FacebookIcon size={40} borderRadius='20px' />
                 </FacebookShareButton>
                 <EmailShareButton className='opacity-70 hover:opacity-100 inline-block mr-2' url={`https://dublin.amazyyy.com/project/${project.id}`} subject={`Check out ${project.title}`} body={`Check out this project: ${project.title} on a website I recently found.`}>
                   <EmailIcon size={40} borderRadius='20px' />
                 </EmailShareButton>
-                <TwitterShareButton className='opacity-70 hover:opacity-100 inline-block mr-2' url={`https://dublin.amazyyy.com/project/${project.id}`} title={project.title} hashtags={['DublinCA', `${project.title.replace(' ', '')}`, 'DublinThreads', 'TriValley']}>
+                <TwitterShareButton className='opacity-70 hover:opacity-100 inline-block mr-2' url={`https://dublin.amazyyy.com/project/${project.id}`} title={project.title} hashtags={['DublinCA', `${project.title?.replace(' ', '')}`, 'DublinThreads', 'TriValley']}>
                   <XIcon size={40} borderRadius='20px' />
                 </TwitterShareButton>
                 <WhatsappShareButton className='opacity-70 hover:opacity-100 inline-block mr-2' url={`https://dublin.amazyyy.com/project/${project.id}`} title={project.title}>
