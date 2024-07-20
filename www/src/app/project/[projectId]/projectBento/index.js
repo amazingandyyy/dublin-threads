@@ -5,6 +5,14 @@ import { useState, useEffect } from 'react'
 import { useProjectProfileStore, useThreadStore } from '@/stores'
 import Map, { Marker } from 'react-map-gl'
 import {
+  FacebookIcon,
+  FacebookShareButton,
+  EmailShareButton, EmailIcon,
+  XIcon,
+  TwitterShareButton, WhatsappIcon,
+  WhatsappShareButton
+} from 'react-share'
+import {
   MapPinIcon as OutlineMapPinIcon,
   InboxStackIcon,
   Square3Stack3DIcon,
@@ -272,10 +280,27 @@ export default function ProjectBento ({ projectId }) {
     return (<>
       <div className='flex flex-col md:flex-row'>
         <div className='md:rounded-2xl system-card bg-white flex p-8 flex-col md:m-2 my-1 md:flex-none md:max-w-[300px]'>
-          <div className='flex flex-col justify-between h-full'>
+          <div className='flex flex-col justify-start h-full'>
             <div className='text-4xl font-bold'>{project.title}</div>
-            <div className='opacity-50'>@{project.id}</div>
+            <div className='my-8'>
+              <div className='opacity-50'>Share this project with your friends</div>
+              <div className='flex my-2'>
+                <FacebookShareButton className='opacity-70 hover:opacity-100 inline-block mr-2' url={`https://dublin.amazyyy.com/project/${project.id}`} quote={`Check out this project, ${project.title} on DublinThreads.`} hashtag={`#DublinCA #${project.title.replace(' ', '')} #DublinThreads #TriValley`}>
+                  <FacebookIcon size={40} borderRadius='20px' />
+                </FacebookShareButton>
+                <EmailShareButton className='opacity-70 hover:opacity-100 inline-block mr-2' url={`https://dublin.amazyyy.com/project/${project.id}`} subject={`Check out ${project.title}`} body={`Check out this project: ${project.title} on a website I recently found.`}>
+                  <EmailIcon size={40} borderRadius='20px' />
+                </EmailShareButton>
+                <TwitterShareButton className='opacity-70 hover:opacity-100 inline-block mr-2' url={`https://dublin.amazyyy.com/project/${project.id}`} title={project.title} hashtags={['DublinCA', `${project.title.replace(' ', '')}`, 'DublinThreads', 'TriValley']}>
+                  <XIcon size={40} borderRadius='20px' />
+                </TwitterShareButton>
+                <WhatsappShareButton className='opacity-70 hover:opacity-100 inline-block mr-2' url={`https://dublin.amazyyy.com/project/${project.id}`} title={project.title}>
+                  <WhatsappIcon size={40} borderRadius='20px' />
+                </WhatsappShareButton>
+              </div>
+            </div>
           </div>
+          <div className='opacity-50'>@{project.id}</div>
         </div>
         <div className='md:rounded-2xl system-card overflow-scroll bg-white flex p-8 flex-col md:m-2 my-1'>
           {renderDescription(project)}

@@ -17,13 +17,13 @@ export default function Project ({ params }) {
       })
   }, [])
   useEffect(() => {
-    document.title = `${list[0].organizor} - DublinThreads`
+    document.title = `${list[0]?.organizor} - DublinThreads`
     document.description = 'Explore updates and developments in Dublin, California.'
     document.url = 'https://dublin.amazyyy.com/'
     document.siteName = 'DublinThreads'
     document.type = 'website'
     document.locale = 'en_US'
-  }, [])
+  }, [list])
   return (<div className='bg-[#F3F2EE]'>
     <GlobalHeader />
     <div className='flex items-center flex-col h-full bg-[#F3F2EE]'>
