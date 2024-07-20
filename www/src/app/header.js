@@ -1,11 +1,8 @@
 import Link from 'next/link'
-import { useEffect } from 'react'
 import Hotjar from '@hotjar/browser'
 
+Hotjar.init(3595523, 6)
 export default function GlobalHeader () {
-  useEffect(() => {
-    Hotjar.init(3595523, 6)
-  }, [])
 
   return (<header className='z-50 p-2 fixed top-0 text-center'>
     <div className="flex drop-shadow bg-white text-green-900 bg-opacity-30 py-2 px-2 md:py-4 md:px-6 backdrop-filter backdrop-blur rounded-full">
@@ -13,7 +10,7 @@ export default function GlobalHeader () {
       <div className='flex items-center pl-2'>
       <Link href='/'>
         <h1 className="text-green-950 px-2 inline-block text-md md:text-2xl tracking-tighter font-bold hover:opacity-50 mr-2">
-          Dublin<span className='font-light italic'>Thread</span>
+          Dublin<span className='font-light italic'>Threads</span>
         </h1>
         </Link>
       </div>
