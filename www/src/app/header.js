@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import Hotjar from '@hotjar/browser'
-
-Hotjar.init(3595523, 6)
+// import Hotjar from '@hotjar/browser'
+//
+// Hotjar.init(3595523, 6)
 export default function GlobalHeader () {
   return (<header className='z-50 p-2 fixed top-0 text-center'>
     <div className="flex drop-shadow bg-white text-green-900 bg-opacity-30 py-2 px-2 md:py-4 md:px-6 backdrop-filter backdrop-blur rounded-full">
@@ -23,6 +23,12 @@ export default function GlobalHeader () {
         <Link href='/threads?f=highlights'>
           <div className='flex px-[5px] md:px-4 font-semibold hover:opacity-70'>
             Highlights
+          </div>
+        </Link>
+        <Link href='/explorer'>
+          <div className='flex items-center px-[5px] md:px-4 font-semibold hover:opacity-70'>
+            <div className='h-[15px] justify-center text-[8px] bg-teal-900 text-white p-0 leading-[15px]'>NEW</div>
+            <div className='ml-1'>Explorer</div>
           </div>
         </Link>
         {/* <Link href='/threads?f=meetings'> */}
