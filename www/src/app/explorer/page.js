@@ -50,7 +50,7 @@ export default function Threads ({ params, searchParams }) {
 
   return (<>
     <GlobalHeader />
-    <main className="bg-[#F3F2EE] py-24">
+    <main className="py-16">
       <div className='flex flex-col items-center px-4'>
         <div className='flex flex-col items-center text-center text-gray-600 p-4 pt-16'>
           <div className='font-handwriting text-3xl md:text-6xl font-bold text-green-950 mb-4'>
@@ -81,7 +81,7 @@ export default function Threads ({ params, searchParams }) {
               {project.images && project.images.length > 0 && <div>
                 {project.images.slice(0, 5).map((image, index) => (
                   <Link key={`${project.id}-${index}`} href={`/project/${project.id}`} className='hover:opacity-70 inline-block'>
-                    <img src={image.thumbnail} className='shadow-xl bg-white m-[5px] inline-block rounded-xl w-32 h-32' />
+                    <img src={image.thumbnail} className='shadow-xl bg-white m-[5px] inline-block rounded-xl w-36 h-36' />
                   </Link>
                 ))}
               </div>}
