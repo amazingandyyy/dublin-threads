@@ -20,11 +20,11 @@ export default function GlobalHeader () {
             All
           </div>
         </Link>
-        <Link href='/threads?f=highlights'>
-          <div className='flex px-[5px] md:px-4 font-semibold hover:opacity-70'>
-            Highlights
-          </div>
-        </Link>
+        {/* <Link href='/threads?f=highlights'> */}
+        {/*  <div className='flex px-[5px] md:px-4 font-semibold hover:opacity-70'> */}
+        {/*    Highlights */}
+        {/*  </div> */}
+        {/* </Link> */}
         <Link href='/explorer'>
           <div className='flex items-center px-[5px] md:px-4 font-semibold hover:opacity-70'>
             <div className='h-[15px] justify-center text-[8px] bg-teal-900 text-white p-0 leading-[15px]'>NEW</div>

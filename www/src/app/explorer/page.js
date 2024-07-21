@@ -51,7 +51,7 @@ export default function Threads ({ params, searchParams }) {
   return (<>
     <GlobalHeader />
     <main className="bg-[#F3F2EE] py-24">
-      <div className='flex flex-col items-center px-8'>
+      <div className='flex flex-col items-center px-4'>
         <div className='flex flex-col items-center text-center text-gray-600 p-4 pt-16'>
           <div className='font-handwriting text-3xl md:text-6xl font-bold text-green-950 mb-4'>
             Explorer
