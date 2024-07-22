@@ -14,6 +14,11 @@ function getSeconds (date) {
   return seconds
 }
 
+function Image ({ src, className }) {
+  const [show, setShow] = useState(true)
+  return show && <img src={src} className={className} loading='lazy' onError={() => setShow(false)} />
+}
+
 export default function Threads ({ params, searchParams }) {
   const projects = useProjectProfileStore(state => state.profiles)
   const [highlights, setHighlights] = useState([])
@@ -58,8 +63,6 @@ export default function Threads ({ params, searchParams }) {
           </div>
           <div>
             This is an <b>experimental feature</b>. Currently under active development
-            <br/>
-            Many images are broken, I will find time to fix them
           </div>
           <div className='py-2'>
             {['DublinCA', 'California', 'TriValley'].map(i => {
@@ -81,7 +84,7 @@ export default function Threads ({ params, searchParams }) {
               {project.images && project.images.length > 0 && <div>
                 {project.images.slice(0, 5).map((image, index) => (
                   <Link key={`${project.id}-${index}`} href={`/project/${project.id}`} className='hover:opacity-70 inline-block'>
-                    <img src={image.thumbnail} className='shadow-xl bg-white m-[5px] inline-block rounded-xl w-36 h-36' />
+                    <Image src={image.thumbnail} className='shadow-xl bg-white m-[5px] inline-block rounded-xl w-36 h-36' />
                   </Link>
                 ))}
               </div>}
