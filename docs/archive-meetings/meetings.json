@@ -87,7 +87,7 @@
     "date": "07-03-2024",
     "timestamp": 1719990000000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2109",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=2109&doc_id=43883954-4918-11ef-8c72-005056a89546",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2109",
     "agendaPacket": "",
     "orgId": "CityCouncil"
@@ -99,7 +99,7 @@
     "date": "06-25-2024",
     "timestamp": 1719298800000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2105",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=2105&doc_id=4f8467b7-4918-11ef-8c72-005056a89546",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2105",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/7d6646ee-2cd0-11ef-81ef-005056a89546-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1719359726.pdf",
     "orgId": "CityCouncil"
@@ -123,7 +123,7 @@
     "date": "06-18-2024",
     "timestamp": 1718694000000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2101",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=2101&doc_id=8020f77f-4918-11ef-8c72-005056a89546",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2101",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/31f1705b-9567-11ee-a93d-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1718407207.pdf",
     "orgId": "CityCouncil"
