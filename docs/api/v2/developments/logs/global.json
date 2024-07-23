@@ -1,5 +1,58 @@
 [
   {
+    "op": "update",
+    "path": [
+      "projectdetail1741",
+      "details",
+      "Application Type"
+    ],
+    "val": "Vesting Tentative Tract Map and Development Agreement",
+    "oldVal": "Site Development Review Permit, Vesting Tentative Tract Map, and Development Agreement.",
+    "projectId": "projectdetail1741",
+    "timestamp": "1721714400000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1741",
+      "description"
+    ],
+    "val": "The Dublin Commons project is the redevelopment of the Dublin Plaza Shopping Center as part of implementing the Downtown Dublin Preferred Vision. Dublin Commons is a mixed-use project of up to 275,000 SF of retail (consisting of 155,000 SF of new retail and 120,000 SF of existing retail), 535,000 SF of Research and Development (Life Science), 1,510 multifamily residential units and a new Town Square/park. The project entitlements included with this application are a Tentative Tract Map and a Development Agreement.",
+    "oldVal": "The Dublin Commons project is the redevelopment of the Dublin Plaza Shopping Center as part of implementing the Downtown Dublin Preferred Vision. Dublin Commons is a mixed-use project of up to 275,000 SF of retail (consisting of 155,000 SF of new retail and 120,000 SF of existing retail), 535,000 SF of Research and Development (Life Science), 1,510 multifamily residential units and a new Town Square/park. The project entitlements include a Site Development Review Permit, Tentative Tract Map, and a Development Agreement.",
+    "projectId": "projectdetail1741",
+    "timestamp": "1721714400000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Applicant",
+      "name"
+    ],
+    "val": "Doug Chapman, Landsea Homes",
+    "oldVal": "Mark Chamberlain, Landsea Homes",
+    "projectId": "projectdetail1464",
+    "timestamp": "1721714400000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Applicant",
+      "phone"
+    ],
+    "val": "(209) 324-5909",
+    "oldVal": "415-306-1548",
+    "projectId": "projectdetail1464",
+    "timestamp": "1721714400000",
+    "type": "developments:update"
+  },
+  {
     "op": "add",
     "path": [
       "projectdetail1741",

@@ -1198,5 +1198,33 @@
     "projectId": "projectdetail1464",
     "timestamp": "1708628400000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Applicant",
+      "name"
+    ],
+    "val": "Doug Chapman, Landsea Homes",
+    "oldVal": "Mark Chamberlain, Landsea Homes",
+    "projectId": "projectdetail1464",
+    "timestamp": "1721714400000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Applicant",
+      "phone"
+    ],
+    "val": "(209) 324-5909",
+    "oldVal": "415-306-1548",
+    "projectId": "projectdetail1464",
+    "timestamp": "1721714400000",
+    "type": "developments:update"
   }
 ]
