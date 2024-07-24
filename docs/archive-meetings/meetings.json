@@ -22,17 +22,6 @@
     "orgId": "SeniorCenterAdvisoryCommittee"
   },
   {
-    "organizor": "Youth Advisory Committee",
-    "cancelled": false,
-    "name": "Youth Advisory Committee Special Meeting",
-    "date": "07-24-2024",
-    "timestamp": 1721804400000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=603",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/c20be5d8-2a66-11ef-81ef-005056a89546-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1721322485.pdf",
-    "orgId": "YouthAdvisoryCommittee"
-  },
-  {
     "organizor": "Planning Commission",
     "cancelled": false,
     "name": "Planning Commission Regular Meeting",
