@@ -330,5 +330,20 @@
     "projectId": "projectdetail1426",
     "timestamp": "1700589600000",
     "type": "developments:update"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1426",
+      "docs",
+      1
+    ],
+    "val": {
+      "name": "Planning Commission Staff Report 9/12/23",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/082972867051a8b847620b2fbf40d3220.pdf"
+    },
+    "projectId": "projectdetail1426",
+    "timestamp": "1721851200000",
+    "type": "developments:add"
   }
 ]
