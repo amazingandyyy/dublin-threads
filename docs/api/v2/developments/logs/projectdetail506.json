@@ -332,5 +332,18 @@
     "projectId": "projectdetail506",
     "timestamp": "1656420658000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail506",
+      "geolocation",
+      "iconName"
+    ],
+    "val": "home",
+    "oldVal": "building",
+    "projectId": "projectdetail506",
+    "timestamp": "1721851200000",
+    "type": "developments:update"
   }
 ]

@@ -339,8 +339,38 @@
       1
     ],
     "val": {
-      "name": "Planning Commission Staff Report 9/12/23",
+      "name": "Planning Commission Staff Report 9/12/23 (Item 6.2)",
       "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/082972867051a8b847620b2fbf40d3220.pdf"
+    },
+    "projectId": "projectdetail1426",
+    "timestamp": "1721851200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1426",
+      "docs",
+      2
+    ],
+    "val": {
+      "name": "City Council Staff Report 10/3/23 (Item 6.1)",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/867b285bc8c25957e02390557686e5500.pdf"
+    },
+    "projectId": "projectdetail1426",
+    "timestamp": "1721851200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1426",
+      "docs",
+      3
+    ],
+    "val": {
+      "name": "City Council Staff Report 10/17/23 (Item 4.4)",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/8e9ae7cce7ff670ebfa524ea348e1dbd0.pdf"
     },
     "projectId": "projectdetail1426",
     "timestamp": "1721851200000",
