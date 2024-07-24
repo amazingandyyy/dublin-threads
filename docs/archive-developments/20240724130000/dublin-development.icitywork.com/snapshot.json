@@ -612,8 +612,16 @@
         "url": "https://dublin-development.icitywork.com/wp-content/uploads/2021/11/CEQA-Initial-Study-Mitigated-Neg.7.5.23.pdf"
       },
       {
-        "name": "Planning Commission Staff Report 9/12/23",
+        "name": "Planning Commission Staff Report 9/12/23 (Item 6.2)",
         "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/082972867051a8b847620b2fbf40d3220.pdf"
+      },
+      {
+        "name": "City Council Staff Report 10/3/23 (Item 6.1)",
+        "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/867b285bc8c25957e02390557686e5500.pdf"
+      },
+      {
+        "name": "City Council Staff Report 10/17/23 (Item 4.4)",
+        "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/8e9ae7cce7ff670ebfa524ea348e1dbd0.pdf"
       }
     ],
     "status": "Final Action",
@@ -799,7 +807,7 @@
     "geolocation": {
       "lat": 37.7007095,
       "lon": -121.9318894,
-      "iconName": "home",
+      "iconName": "building",
       "title": "Regional Street Senior Affordable Housing"
     }
   },
@@ -1367,7 +1375,7 @@
     "geolocation": {
       "lat": 37.712896,
       "lon": -121.836068,
-      "iconName": "building",
+      "iconName": "home",
       "title": "Francis Ranch (East Ranch)"
     }
   },
@@ -1505,7 +1513,7 @@
     "geolocation": {
       "lat": 37.701316,
       "lon": -121.935041,
-      "iconName": "building",
+      "iconName": "dot",
       "title": "BASIS Independent School (Corrie Center)"
     }
   },
@@ -1603,7 +1611,7 @@
     "geolocation": {
       "lat": 37.711036,
       "lon": -121.905749,
-      "iconName": "building",
+      "iconName": "home",
       "title": "Boulevard (Dublin Crossing) – Phase 4 & 5"
     }
   },
@@ -1667,7 +1675,7 @@
     "geolocation": {
       "lat": 37.706516,
       "lon": -121.898762,
-      "iconName": "building",
+      "iconName": "home",
       "title": "Boulevard (Dublin Crossing) – Phase 1"
     }
   },
@@ -1739,7 +1747,7 @@
     "geolocation": {
       "lat": 37.707185,
       "lon": -121.902171,
-      "iconName": "building",
+      "iconName": "home",
       "title": "Boulevard (Dublin Crossing) Phase 2 & 3"
     }
   }
