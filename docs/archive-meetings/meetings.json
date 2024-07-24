@@ -1,5 +1,16 @@
 [
   {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "08-13-2024",
+    "timestamp": 1723532400000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "PlanningCommission"
+  },
+  {
     "organizor": "Senior Center Advisory Committee",
     "cancelled": false,
     "name": "Senior Center Advisory Committee",
@@ -20,6 +31,18 @@
     "video": "",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/c20be5d8-2a66-11ef-81ef-005056a89546-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1721322485.pdf",
     "orgId": "YouthAdvisoryCommittee"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "07-23-2024",
+    "timestamp": 1721718000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2120",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2120",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3353a9a8-6170-41c7-97ce-035ac83fd427-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1721256583.pdf",
+    "orgId": "PlanningCommission"
   },
   {
     "organizor": "City Council",
