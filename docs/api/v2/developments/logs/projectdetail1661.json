@@ -196,5 +196,30 @@
     "projectId": "projectdetail1661",
     "timestamp": "1721311200000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1661",
+      "title"
+    ],
+    "val": "Dublin Place North",
+    "oldVal": "Downtown Hines North",
+    "projectId": "projectdetail1661",
+    "timestamp": "1722268800000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1661",
+      "geolocation",
+      "title"
+    ],
+    "val": "Dublin Place North",
+    "oldVal": "Downtown Hines North",
+    "projectId": "projectdetail1661",
+    "timestamp": "1722268800000",
+    "type": "developments:update"
   }
 ]
