@@ -2,6 +2,19 @@
   {
     "op": "update",
     "path": [
+      "projectdetail1741",
+      "details",
+      "Project Area"
+    ],
+    "val": "Approx. 28 acres",
+    "oldVal": "Approx. 28 acres acres",
+    "projectId": "projectdetail1741",
+    "timestamp": "1722466800000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
       "projectdetail1661",
       "title"
     ],
