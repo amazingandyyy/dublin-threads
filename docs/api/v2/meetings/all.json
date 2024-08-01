@@ -12,18 +12,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "Senior Center Advisory Committee",
-    "cancelled": false,
-    "name": "Senior Center Advisory Committee",
-    "date": "08-01-2024",
-    "timestamp": 1722495600000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=513",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/992fff35-93c1-11ee-a93d-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1721415528.pdf",
-    "orgId": "SeniorCenterAdvisoryCommittee",
-    "type": "meeting"
-  },
-  {
     "organizor": "Planning Commission",
     "cancelled": false,
     "name": "Planning Commission Regular Meeting",
