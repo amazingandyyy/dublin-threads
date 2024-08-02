@@ -11,6 +11,17 @@
     "orgId": "PlanningCommission"
   },
   {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": true,
+    "name": "Heritage and Cultural Arts Commission Cancellation Notice",
+    "date": "08-08-2024",
+    "timestamp": 1723100400000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=609",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "HeritageandCulturalArtsCommission"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": false,
     "name": "Planning Commission Regular Meeting",
