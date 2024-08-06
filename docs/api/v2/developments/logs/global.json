@@ -3,6 +3,34 @@
     "op": "update",
     "path": [
       "projectdetail1741",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/Dublin-Commons-Site-Plan-August-2024-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/Site-Plan.jpg",
+    "projectId": "projectdetail1741",
+    "timestamp": "1722956400000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1741",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/Dublin-Commons-Site-Plan-August-2024-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/Site-Plan.jpg",
+    "projectId": "projectdetail1741",
+    "timestamp": "1722956400000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1741",
       "details",
       "Project Area"
     ],
