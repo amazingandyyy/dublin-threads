@@ -1,5 +1,35 @@
 [
   {
+    "op": "add",
+    "path": [
+      "projectdetail1741",
+      "docs",
+      1
+    ],
+    "val": {
+      "name": "Community Meeting August 7 & 8, 2024 Presentation",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/Dublin-Commons-Community-Meeting-August-7-8-Presentation.pdf"
+    },
+    "projectId": "projectdetail1741",
+    "timestamp": "1723071600000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1741",
+      "docs",
+      2
+    ],
+    "val": {
+      "name": "Planning Commission August 13, 2024 Staff Report & Agenda",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/f25ea74c13f8e9c706ac20b10cdca3f30.pdf"
+    },
+    "projectId": "projectdetail1741",
+    "timestamp": "1723071600000",
+    "type": "developments:add"
+  },
+  {
     "op": "update",
     "path": [
       "projectdetail1741",
