@@ -14,18 +14,6 @@
   {
     "organizor": "Youth Advisory Committee",
     "cancelled": false,
-    "name": "Youth Advisory Committee",
-    "date": "08-14-2024",
-    "timestamp": 1723618800000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=584",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/0bbd9764-bbb8-11ee-8fe8-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1723073276.pdf",
-    "orgId": "YouthAdvisoryCommittee",
-    "type": "meeting"
-  },
-  {
-    "organizor": "Youth Advisory Committee",
-    "cancelled": false,
     "name": "Youth Advisory Committee Special Meeting",
     "date": "07-24-2024",
     "timestamp": 1721804400000,
