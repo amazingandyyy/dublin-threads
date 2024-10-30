@@ -1,5 +1,17 @@
 [
   {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission Special Meeting",
+    "date": "11-12-2024",
+    "timestamp": 1731398400000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "HumanServicesCommission",
+    "type": "meeting"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": false,
     "name": "Planning Commission Regular Meeting",
@@ -9,6 +21,18 @@
     "video": "",
     "agendaPacket": "",
     "orgId": "PlanningCommission",
+    "type": "meeting"
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": "11-07-2024",
+    "timestamp": 1730966400000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=514",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/99336b75-93c1-11ee-a93d-0050569183fa-2c2816d6-a723-442a-b84e-a5291bd99692-1730329204.pdf",
+    "orgId": "SeniorCenterAdvisoryCommittee",
     "type": "meeting"
   },
   {
