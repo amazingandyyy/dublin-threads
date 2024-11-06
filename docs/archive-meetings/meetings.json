@@ -12,8 +12,8 @@
   },
   {
     "organizor": "Planning Commission",
-    "cancelled": false,
-    "name": "Planning Commission Regular Meeting",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
     "date": "11-12-2024",
     "timestamp": 1731398400000,
     "agenda": "",
