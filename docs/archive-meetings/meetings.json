@@ -16,7 +16,7 @@
     "name": "Planning Commission Cancelled",
     "date": "11-12-2024",
     "timestamp": 1731398400000,
-    "agenda": "",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=569",
     "video": "",
     "agendaPacket": "",
     "orgId": "PlanningCommission"
@@ -31,6 +31,18 @@
     "video": "",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/99336b75-93c1-11ee-a93d-0050569183fa-2c2816d6-a723-442a-b84e-a5291bd99692-1730329204.pdf",
     "orgId": "SeniorCenterAdvisoryCommittee"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "11-05-2024",
+    "timestamp": 1730793600000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2177",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2177",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/320c394b-9567-11ee-a93d-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1730847652.pdf",
+    "orgId": "CityCouncil"
   },
   {
     "organizor": "Planning Commission",
