@@ -1,5 +1,17 @@
 [
   {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission",
+    "date": "11-14-2024",
+    "timestamp": 1731571200000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=495",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/ddf5b464-825e-11ee-852f-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1731004450.pdf",
+    "orgId": "HeritageandCulturalArtsCommission",
+    "type": "meeting"
+  },
+  {
     "organizor": "Human Services Commission",
     "cancelled": false,
     "name": "Human Services Commission Special Meeting",
@@ -21,18 +33,6 @@
     "video": "",
     "agendaPacket": "",
     "orgId": "PlanningCommission",
-    "type": "meeting"
-  },
-  {
-    "organizor": "Senior Center Advisory Committee",
-    "cancelled": false,
-    "name": "Senior Center Advisory Committee",
-    "date": "11-07-2024",
-    "timestamp": 1730966400000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=514",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/99336b75-93c1-11ee-a93d-0050569183fa-2c2816d6-a723-442a-b84e-a5291bd99692-1730329204.pdf",
-    "orgId": "SeniorCenterAdvisoryCommittee",
     "type": "meeting"
   },
   {
