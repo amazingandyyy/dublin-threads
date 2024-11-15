@@ -17,9 +17,9 @@
     "name": "City Council Regular Meeting",
     "date": "11-19-2024",
     "timestamp": 1732003200000,
-    "agenda": "",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=539",
     "video": "",
-    "agendaPacket": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/320f02af-9567-11ee-a93d-0050569183fa-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1731692916.pdf",
     "orgId": "CityCouncil",
     "type": "meeting"
   },
