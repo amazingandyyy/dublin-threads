@@ -11,6 +11,17 @@
     "orgId": "PlanningCommission"
   },
   {
+    "organizor": "",
+    "cancelled": false,
+    "name": "DUSD/Dublin Liaison Committee",
+    "date": "11-21-2024",
+    "timestamp": 1732176000000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": ""
+  },
+  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
