@@ -11,6 +11,18 @@
     "orgId": "PlanningCommission"
   },
   {
+    "organizor": "City Council Liaison Committees",
+    "cancelled": false,
+    "name": "DUSD/Dublin Liaison Committee",
+    "date": "11-21-2024",
+    "timestamp": 1732176000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2191",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2191",
+    "agendaPacket": "",
+    "orgId": "CityCouncilLiaisonCommittees"
+  },
+  {
     "organizor": "Human Services Commission",
     "cancelled": false,
     "name": "Human Services Commission",
