@@ -12,6 +12,19 @@
     "type": "meeting"
   },
   {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission",
+    "date": "11-21-2024",
+    "timestamp": 1732176000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2187",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2187",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/0ce20f16-b972-11ee-8fe8-0050569183fa-2c2816d6-a723-442a-b84e-a5291bd99692-1731979663.pdf",
+    "orgId": "HumanServicesCommission",
+    "type": "meeting"
+  },
+  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
