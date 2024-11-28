@@ -1,5 +1,17 @@
 [
   {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "12-03-2024",
+    "timestamp": 1733212800000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=540",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/32120e4c-9567-11ee-a93d-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1732754639.pdf",
+    "orgId": "CityCouncil",
+    "type": "meeting"
+  },
+  {
     "organizor": "City Council Liaison Committees",
     "cancelled": false,
     "name": "DUSD/Dublin Liaison Committee",
