@@ -1,5 +1,16 @@
 [
   {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "01-14-2025",
+    "timestamp": 1736841600000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "CityCouncil"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": true,
     "name": "Planning Commission Cancelled",
