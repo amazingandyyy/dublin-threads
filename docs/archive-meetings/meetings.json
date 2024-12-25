@@ -11,17 +11,6 @@
     "orgId": "CityCouncil"
   },
   {
-    "organizor": "Planning Commission",
-    "cancelled": true,
-    "name": "Planning Commission Cancelled",
-    "date": "12-24-2024",
-    "timestamp": 1735027200000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=572",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "PlanningCommission"
-  },
-  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
