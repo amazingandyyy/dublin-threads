@@ -211,5 +211,114 @@
     "projectId": "projectdetail1741",
     "timestamp": "1723071600000",
     "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1741",
+      "details",
+      "Planning Application #"
+    ],
+    "val": "PLPA-2024-00047 and PLPA-004036-2024",
+    "oldVal": "PLPA-2024-00047",
+    "projectId": "projectdetail1741",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1741",
+      "details",
+      "Application Type"
+    ],
+    "val": "Vesting Tentative Tract Map and Development and Community Benefit Program Agreement / Site Development Review Permit and Heritage Tree Removal Permit",
+    "oldVal": "Vesting Tentative Tract Map and Development Agreement",
+    "projectId": "projectdetail1741",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1741",
+      "details",
+      "Applicant",
+      "phone"
+    ],
+    "val": "415-982-6200",
+    "oldVal": "n/a",
+    "projectId": "projectdetail1741",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1741",
+      "docs",
+      3
+    ],
+    "val": {
+      "name": "City Council August 20, 2024 Agenda & Staff Report",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/bb10193a60e0fbaf7a33a4da7859f5d90.pdf"
+    },
+    "projectId": "projectdetail1741",
+    "timestamp": "1735797600000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1741",
+      "docs",
+      4
+    ],
+    "val": {
+      "name": "City Council September 3, 2024 Agenda & Staff Report",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/9ffa5cd5a80f9904d4e6e32f03a72d710.pdf"
+    },
+    "projectId": "projectdetail1741",
+    "timestamp": "1735797600000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1741",
+      "docs",
+      5
+    ],
+    "val": {
+      "name": "Planning Commission September 10, 2024 Agenda & Staff Report",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/6f62d7565229c3dce3dd0e1f3d1515740.pdf"
+    },
+    "projectId": "projectdetail1741",
+    "timestamp": "1735797600000",
+    "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1741",
+      "status"
+    ],
+    "val": "Pubic Hearing",
+    "oldVal": "Application Under Review",
+    "projectId": "projectdetail1741",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1741",
+      "description"
+    ],
+    "val": "The Dublin Commons project is the redevelopment of the Dublin Place Shopping Center as part of implementing the Downtown Dublin Preferred Vision. Dublin Commons is a mixed-use project of up to 275,000 SF of retail (consisting of 155,000 SF of new retail and 120,000 SF of existing retail), 535,000 SF of Research and Development (Life Science), 1,510 multifamily residential units and a new Town Square/park. The project entitlements included are a Vesting Tentative Tract Map and a Development and Community Benefit Program Agreement (Application No. PLPA-2024-00047), Site Development Review Permit (PLPA-004036-2024) and Heritage Tree Removal Permit (PLOC-004052-2024).",
+    "oldVal": "The Dublin Commons project is the redevelopment of the Dublin Plaza Shopping Center as part of implementing the Downtown Dublin Preferred Vision. Dublin Commons is a mixed-use project of up to 275,000 SF of retail (consisting of 155,000 SF of new retail and 120,000 SF of existing retail), 535,000 SF of Research and Development (Life Science), 1,510 multifamily residential units and a new Town Square/park. The project entitlements included with this application are a Tentative Tract Map and a Development Agreement.",
+    "projectId": "projectdetail1741",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
   }
 ]

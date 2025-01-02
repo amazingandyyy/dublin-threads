@@ -375,5 +375,33 @@
     "projectId": "projectdetail1426",
     "timestamp": "1721851200000",
     "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1426",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Gaspare Annibale - Senior Planner",
+    "oldVal": "Jeff Baker - Community Development Director",
+    "projectId": "projectdetail1426",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1426",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "gaspare.annibale@dublin.ca.gov",
+    "oldVal": "jeff.baker@dublin.ca.gov",
+    "projectId": "projectdetail1426",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
   }
 ]

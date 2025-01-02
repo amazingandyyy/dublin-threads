@@ -1003,5 +1003,228 @@
     "projectId": "projectdetail1508",
     "timestamp": "1719874800000",
     "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1508",
+      "details",
+      "Building Area"
+    ],
+    "val": "125,532 square feet",
+    "oldVal": "125,304 square feet",
+    "projectId": "projectdetail1508",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1508",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Gaspare Annibale - Senior Planner",
+    "oldVal": "Gaspare Annibale - Associate Planner",
+    "projectId": "projectdetail1508",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1508",
+      "docs",
+      2
+    ],
+    "val": {
+      "name": "City Council Agenda & Staff Report September 17, 2024",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/City-Council-Agenda-Staff-Report-September-17-2024.pdf"
+    },
+    "projectId": "projectdetail1508",
+    "timestamp": "1735797600000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1508",
+      "docs",
+      3
+    ],
+    "val": {
+      "name": "City Council Agenda & Staff Report October 1, 2024",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/City-Council-Agenda-Staff-Report-October-1-2024.pdf"
+    },
+    "projectId": "projectdetail1508",
+    "timestamp": "1735797600000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1508",
+      "docs",
+      4
+    ],
+    "val": {
+      "name": "NOD Filed",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/NOD-Filed.pdf"
+    },
+    "projectId": "projectdetail1508",
+    "timestamp": "1735797600000",
+    "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1508",
+      "status"
+    ],
+    "val": "Final Action",
+    "oldVal": "Pubic Hearing",
+    "projectId": "projectdetail1508",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1508",
+      "description"
+    ],
+    "val": "Overton Moore Properties proposes to redevelop a 8.81 acre site located at 11711 Dublin Boulevard. The project would demolish an existing 62,715 square-foot research and development building and construct a new 125,532 square-foot light industrial, advanced manufacturing and life sciences building with 217 parking stalls and related site improvements. Requested approvals include a Planned Development Rezone with a related Stage 1 and Stage 2 Development Plan, Site Development Review Permit and Heritage Tree Removal Permit.",
+    "oldVal": "Overton Moore Properties proposes to redevelop a 8.81 acre site located at 11711 Dublin Boulevard. The project would demolish an existing 62,715 square-foot research and development building and construct a new 125,304 square-foot light industrial, advanced manufacturing and life sciences building with 217 parking stalls and related site improvements. Requested approvals include a Planned Development Rezone with a related Stage 1 and Stage 2 Development Plan, Site Development Review Permit and Heritage Tree Removal Permit.",
+    "projectId": "projectdetail1508",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1508",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Updated-rendering-1-fence-option-3-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-2024-02-13-100541.png",
+    "projectId": "projectdetail1508",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1508",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Updated-rendering-1-fence-option-3-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-2024-02-13-100541-150x150.png",
+    "projectId": "projectdetail1508",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1508",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Updated-Perspective-4-Rendering_updated-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-2024-02-13-114643.png",
+    "projectId": "projectdetail1508",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1508",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Updated-Perspective-4-Rendering_updated-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-2024-02-13-114643-150x150.png",
+    "projectId": "projectdetail1508",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1508",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Updated-5-Rendering-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-2024-02-13-101231.png",
+    "projectId": "projectdetail1508",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1508",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Updated-5-Rendering-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-2024-02-13-101231-150x150.png",
+    "projectId": "projectdetail1508",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1508",
+      "images",
+      3,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-2024-08-30-115655.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-2024-02-13-100733.png",
+    "projectId": "projectdetail1508",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1508",
+      "images",
+      3,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-2024-08-30-115655-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-2024-02-13-100733-150x150.png",
+    "projectId": "projectdetail1508",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1508",
+      "images",
+      4
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-2024-08-26-102517.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-2024-08-26-102517-150x150.png"
+    },
+    "projectId": "projectdetail1508",
+    "timestamp": "1735797600000",
+    "type": "developments:add"
   }
 ]

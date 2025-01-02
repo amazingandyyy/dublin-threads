@@ -348,5 +348,61 @@
     "projectId": "projectdetail1513",
     "timestamp": "1675188073000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1513",
+      "details",
+      "Applicant",
+      "name"
+    ],
+    "val": "Yo Han Lee",
+    "oldVal": "Jae Yong Kwak",
+    "projectId": "projectdetail1513",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1513",
+      "details",
+      "Applicant",
+      "address"
+    ],
+    "val": "300 Chubb Ave., Lyndhurst, NJ 07071",
+    "oldVal": "11966 Washington Boulevard, Whittier, CA 90606",
+    "projectId": "projectdetail1513",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1513",
+      "details",
+      "Applicant",
+      "phone"
+    ],
+    "val": "(201) 507-9900 ext. 2909",
+    "oldVal": "(562) 318-3977",
+    "projectId": "projectdetail1513",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1513",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Gaspare Annibale - Senior Planner",
+    "oldVal": "Gaspare Annibale - Associate Planner",
+    "projectId": "projectdetail1513",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
   }
 ]

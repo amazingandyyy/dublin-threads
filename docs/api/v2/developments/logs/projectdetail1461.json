@@ -291,5 +291,45 @@
     "projectId": "projectdetail1461",
     "timestamp": "1709305200000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Amy Million - Principal Planner",
+    "oldVal": "Allison Schuster - Assistant Planner",
+    "projectId": "projectdetail1461",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "amy.million@dublin.ca.gov",
+    "oldVal": "allison.schuster@dublin.ca.gov",
+    "projectId": "projectdetail1461",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "description"
+    ],
+    "val": "Site Development Review Permit for the remodel of the existing McDonald’s restaurant including a 597 square foot addition and a second drive-thru lane.",
+    "oldVal": "Site Development Review Permit for the remodel of the existing McDonald’s restaurant including a 650 square foot addition and a second drive-thru lane.",
+    "projectId": "projectdetail1461",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
   }
 ]

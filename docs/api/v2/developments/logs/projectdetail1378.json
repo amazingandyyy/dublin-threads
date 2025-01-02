@@ -111,5 +111,20 @@
     "projectId": "projectdetail1378",
     "timestamp": "1689109200000",
     "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1378",
+      "images",
+      1
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/VTM-scaled.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/04/VTM-150x150.jpg"
+    },
+    "projectId": "projectdetail1378",
+    "timestamp": "1735797600000",
+    "type": "developments:add"
   }
 ]

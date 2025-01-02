@@ -598,5 +598,31 @@
     "projectId": "projectdetail1068",
     "timestamp": "1721851200000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Gaspare Annibale - Senior Planner",
+    "oldVal": "Gaspare Annibale - Associate Planner",
+    "projectId": "projectdetail1068",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "description"
+    ],
+    "val": "The property owner, Jerry Hunt of VP RPG Dublin, LLC, submitted an application on behalf of BASIS Independent School to operate a private school serving up to 800 middle and high school students, construct façade improvements to the existing 75,831 square foot office building which will be converted to a school, and construct a 9,134 square foot gymnasium building, outdoor recreational play field, trash enclosure, and associated site improvements. Requested approvals include a Conditional Use Permit and Site Development Review Permit.",
+    "oldVal": "The property owner, Jerry Hunt of VP RPG Dublin, LLC, submitted an application on behalf of BASIS Independent School to operate a private school serving up to 800 middle and high school students, construct façade improvements to the existing 81,985 square foot office building which will be converted to a school, and construct a 9,134 square foot gymnasium building, outdoor recreational play field, trash enclosure, and associated site improvements. Requested approvals include a Conditional Use Permit and Site Development Review Permit.",
+    "projectId": "projectdetail1068",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
   }
 ]

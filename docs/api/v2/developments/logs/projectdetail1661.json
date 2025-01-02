@@ -221,5 +221,229 @@
     "projectId": "projectdetail1661",
     "timestamp": "1722268800000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1661",
+      "details",
+      "Planning Application #"
+    ],
+    "val": "PLPA-2023-00018 and PLPA-004017-2024",
+    "oldVal": "PLPA-2023-00018",
+    "projectId": "projectdetail1661",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1661",
+      "docs",
+      1
+    ],
+    "val": {
+      "name": "City Council August 20, 2024 Agenda & Staff Report",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/bb10193a60e0fbaf7a33a4da7859f5d90.pdf"
+    },
+    "projectId": "projectdetail1661",
+    "timestamp": "1735797600000",
+    "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1661",
+      "status"
+    ],
+    "val": "Final Action",
+    "oldVal": "Pubic Hearing",
+    "projectId": "projectdetail1661",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1661",
+      "description"
+    ],
+    "val": "The Dublin Place North project is a Site Development Review Permit for the demolition of the two existing commercial buildings totaling approximately 28,000 square feet and construction of a new 33,000 square foot multi-tenant commercial building.",
+    "oldVal": "Demolition of the two existing commercial buildings totaling approximately 28,000 square feet and construction of a new 33,000 square foot multi-tenant commercial building.",
+    "projectId": "projectdetail1661",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1661",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Site-Plan.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Elevations.jpg",
+    "projectId": "projectdetail1661",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1661",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Site-Plan-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Elevations-150x150.jpg",
+    "projectId": "projectdetail1661",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1661",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_8-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Elevation2-scaled.jpg",
+    "projectId": "projectdetail1661",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1661",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_8-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Elevation2-150x150.jpg",
+    "projectId": "projectdetail1661",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1661",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_9-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Elevation3-scaled.jpg",
+    "projectId": "projectdetail1661",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1661",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_9-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Elevation3-150x150.jpg",
+    "projectId": "projectdetail1661",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1661",
+      "images",
+      3,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_7-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Site-Plan-1-scaled.jpg",
+    "projectId": "projectdetail1661",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1661",
+      "images",
+      3,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_7-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Site-Plan-1-150x150.jpg",
+    "projectId": "projectdetail1661",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1661",
+      "images",
+      4
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_6-scaled.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_6-150x150.jpg"
+    },
+    "projectId": "projectdetail1661",
+    "timestamp": "1735797600000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1661",
+      "images",
+      5
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_5-scaled.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_5-150x150.jpg"
+    },
+    "projectId": "projectdetail1661",
+    "timestamp": "1735797600000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1661",
+      "images",
+      6
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_4-scaled.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_4-150x150.jpg"
+    },
+    "projectId": "projectdetail1661",
+    "timestamp": "1735797600000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1661",
+      "images",
+      7
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_3-scaled.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_3-150x150.jpg"
+    },
+    "projectId": "projectdetail1661",
+    "timestamp": "1735797600000",
+    "type": "developments:add"
   }
 ]

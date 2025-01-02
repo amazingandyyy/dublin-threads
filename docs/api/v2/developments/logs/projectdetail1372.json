@@ -400,5 +400,19 @@
     "projectId": "projectdetail1372",
     "timestamp": "1679857046000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1372",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Gaspare Annibale - Senior Planner",
+    "oldVal": "Gaspare Annibale - Associate Planner",
+    "projectId": "projectdetail1372",
+    "timestamp": "1735797600000",
+    "type": "developments:update"
   }
 ]
