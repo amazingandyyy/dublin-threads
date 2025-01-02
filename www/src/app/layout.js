@@ -59,7 +59,7 @@ export default function RootLayout ({ children }) {
         <meta name="msapplication-TileColor" content="#0D8100" />
         <meta name="msapplication-config" content="https://dublin.amazyyy.com/icons/browserconfig.xml" />
       </Head>
-      <body>
+      <body className="antialiased">
         {children}
       </body>
     </html>

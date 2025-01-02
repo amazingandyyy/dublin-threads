@@ -1,5 +1,5 @@
 'use client'
-import { Fragment, useEffect, useState } from 'react'
+import { Fragment, useEffect, useState, useRef } from 'react'
 import AddPost from './add'
 import UpdatePost from './update'
 import MeetingPost from './meeting'
@@ -40,30 +40,91 @@ function Post ({ data }) {
 
 export default function Thread ({ thread, unit = 'updates', global = false }) {
   const [loading, setLoading] = useState(true)
+  const [loadingMore, setLoadingMore] = useState(false)
+  const loadMoreRef = useRef(null)
+  const threadList = useGlobalThreadListStore(state => state.list)
+  const totalItems = useGlobalThreadListStore(state => state.originalList.length)
 
   useEffect(() => {
     if (thread.length > 0) setLoading(false)
   }, [thread])
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      async (entries) => {
+        const first = entries[0]
+        if (first.isIntersecting && !loadingMore && threadList.length < totalItems) {
+          setLoadingMore(true)
+          try {
+            const hasMore = useGlobalThreadListStore.getState().loadMore()
+            if (!hasMore) {
+              observer.disconnect()
+            }
+          } finally {
+            setLoadingMore(false)
+          }
+        }
+      },
+      { threshold: 0.1 }
+    )
+
+    const currentRef = loadMoreRef.current
+    if (currentRef) {
+      observer.observe(currentRef)
+    }
+
+    return () => {
+      if (currentRef) {
+        observer.unobserve(currentRef)
+      }
+    }
+  }, [loadingMore, threadList.length, totalItems])
 
   const onSearch = _.debounce((e) => {
     const newList = useGlobalThreadListStore.getState().applyFilter(e.target.value)
     useGlobalThreadListStore.getState().update(newList)
   }, 100)
 
+  const hasMore = threadList.length < totalItems
+
   return (
-    <div>
-        <div className='flex flex-col hidden'>
-          {global && <input className='flex-auto bg-white rounded-xl p-2 pl-4' placeholder='Search for projects or meetings' name='global-search' onChange={onSearch}/>}
-          <div className='text-sm opacity-70 mt-2 px-2 mx-auto rounded-xl'>{loading ? (<span className='animate-pulse'>...</span>) : (<span>{thread.length}</span>)} {unit}</div>
+    <div className='container mx-auto px-4 py-6'>
+      <div className='flex flex-col mb-8'>
+        {global && (
+          <div className='max-w-2xl mx-auto w-full mb-6'>
+            <input
+              className='w-full bg-white rounded-xl px-6 py-3 shadow-sm border border-gray-200 focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all duration-200 outline-none'
+              placeholder='Search for projects or meetings...'
+              name='global-search'
+              onChange={onSearch}
+            />
+          </div>
+        )}
+        <div className='text-center text-gray-600 text-sm font-medium'>
+          {loading
+            ? <span className='animate-pulse'>Loading...</span>
+            : <span>{threadList.length} of {totalItems} {unit}</span>
+          }
         </div>
-        <>
-          {loading && <PostPlaceholder />}
-        </>
-        <div className='w-full flex flex-col items-center'>
-          {thread.length > 0 && thread.map((post, i) =>
-            <Post key={i} data={post} />
-          )}
-        </div>
+      </div>
+
+      {loading && <PostPlaceholder />}
+
+      <div className='w-full flex flex-col items-center'>
+        {threadList.map((post, i) =>
+          <Post key={`${post.projectId}-${i}`} data={post} />
+        )}
+        {hasMore && !loading && (
+          <div
+            ref={loadMoreRef}
+            className='w-full py-8 flex justify-center'
+          >
+            <div className={`text-gray-500 ${loadingMore ? 'animate-pulse' : ''}`}>
+              {loadingMore ? 'Loading more...' : 'Scroll to load more'}
+            </div>
+          </div>
+        )}
+      </div>
     </div>
   )
 }

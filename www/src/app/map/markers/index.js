@@ -49,28 +49,25 @@ const ICONS = {
 
 }
 
-function PinMarker (props) {
-  return (<div {...props} className={`pin-001 ${props.type}`} data-tooltip-id={props.data?.id} data-tooltip-content={props.data?.title}>
-    <button className='button-inner'>
-      <div className='pin-001-wrapper'>
-        <div className='pin-001-wrapper-item'/>
-        <div className='pin-001-wrapper-item-wrapper'>
-          {/* {props.image && <Image src={props.image} />} */}
-          {ICONS[props.iconName]}
+function PinMarker ({ iconName, type, data, ...rest }) {
+  return (
+    <div
+      {...rest}
+      className={`pin-001 ${type || ''}`}
+      data-tooltip-id={data?.id}
+      data-tooltip-content={data?.title}
+    >
+      <button className='button-inner'>
+        <div className='pin-001-wrapper'>
+          <div className='pin-001-wrapper-item'/>
+          <div className='pin-001-wrapper-item-wrapper'>
+            {ICONS[iconName]}
+          </div>
+          <div className='pin-001-item-2' />
         </div>
-        <div className='pin-001-item-2' />
-      </div>
-    </button>
-    {/* <Tooltip style={{ zIndex: '99', display: 'inline-block', boxShadow: '0px 0px 10px #DCDCDC', backgroundColor: 'white', borderRadius: '10px', color: 'black' }} id={props.data?.id} place='top' render={({ content, activeAnchor }) => ( */}
-    {/*    <div className='flex flex-col items-center text-sm'> */}
-    {/*      {props.data?.images.length} images and {props.data?.threads.length} updates since {props.data?.details['Application Submittal Date']} */}
-    {/*      <div className='flex flex-row'> */}
-    {/*        {props.data?.images.length && props.data?.images.slice(0, 3).map(i => <Image key={i.thumbnail} className='m-1 rounded' alt='' src={i.thumbnail} />)} */}
-    {/*      </div> */}
-    {/*     </div> */}
-    {/* )} */}
-    {/* /> */}
-  </div>)
+      </button>
+    </div>
+  )
 }
 
 export { PinMarker }

@@ -43,35 +43,49 @@ function PostBody ({ data }) {
   }
 }
 
-export default function ({ data }) {
+export default function AddPost ({ data }) {
   const isNewPost = Boolean(data.val.title)
   if (!isNewPost) {
-    return <PostCard>
-      <Header data={data} />
-      <PostBody data={data} />
-      <Bottom data={data} />
-    </PostCard>
+    return (
+      <PostCard>
+        <Header data={data} />
+        <PostBody data={data} />
+        <Bottom data={data} />
+      </PostCard>
+    )
   }
 
   const imgs = data.val.images || []
-  return <PostCard>
-    <Header data={data} />
-    <div className='flex flex-col items-center'>
-      <div className='flex p-4 rounded-full bg-white m-4 w-16 h-16 shadow-2xl'>
-        <CakeIcon className='text-yellow-500' />
+  return (
+    <PostCard>
+      <Header data={data} />
+      <div className='flex flex-col items-center py-8'>
+        <div className='flex items-center justify-center p-4 rounded-full bg-gradient-to-br from-yellow-50 to-yellow-100 w-20 h-20 shadow-lg mb-4'>
+          <CakeIcon className='w-12 h-12 text-yellow-500' />
+        </div>
+        <h2 className='text-2xl font-bold text-gray-800 mb-2'>New Project Launched!</h2>
       </div>
-      <p className='inline font-bold'>New Project launched!</p>
-      {/* <p className='inline font-bold'>New Project launched! {hoorayEmoji(String(data.val.title).length)}</p> */}
-      {/* {data.val.images?.length > 0 && <p className='pl-2 inline'>with {data.val.images?.length} photos</p>} */}
-    </div>
-    <div className='py-4 md:max-w-full inlin-block break-words'>
-      {data.val.description}
-    </div>
-    <div className='mt-2 overflow-x-hidden md:max-w-full'>
-      {imgs.map((img, i) => <div key={`${i}${img.original}`} className='inline-block w-full'>
-        <Image className='rounded-3xl border-4' src={img.original} style={{ width: '100%' }} alt='' />
-      </div>)}
-    </div>
-    <Bottom data={data} />
-  </PostCard>
+      
+      <div className='prose prose-green max-w-none'>
+        <p className='text-gray-600 leading-relaxed'>{data.val.description}</p>
+      </div>
+
+      {imgs.length > 0 && (
+        <div className='mt-8 space-y-6'>
+          {imgs.map((img, i) => (
+            <div key={`${i}${img.original}`} className='overflow-hidden rounded-2xl shadow-lg'>
+              <Image
+                className='w-full h-auto transform hover:scale-105 transition-transform duration-300'
+                src={img.original}
+                alt='Project image'
+                style={{ width: '100%' }}
+              />
+            </div>
+          ))}
+        </div>
+      )}
+
+      <Bottom data={data} />
+    </PostCard>
+  )
 }

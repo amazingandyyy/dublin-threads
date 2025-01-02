@@ -1,6 +1,6 @@
 import Header from '../header'
 import Bottom from '../bottom'
-import { PostCard, PostImages, PostDocs } from '../templates'
+import { PostImages, PostDocs, PostCard } from '../templates'
 
 // function mainEmoji (n) {
 //   const d = ['📣', '🤩']
@@ -25,30 +25,69 @@ function postBody (data) {
       case 'details':
         switch (data.path[2]) {
           case 'Project Planner':
-            return (<p>Updated <span>{data.path[2]}{'\'s'} {data.path[3]}</span> from <span className='opacity-50 line-through break-words'>{data.oldVal}</span> to <i className='break-words'>{data.val}</i></p>)
+            return (
+              <div className='text-gray-700'>
+                Updated <span className='font-medium'>{data.path[2]}&apos;s {data.path[3]}</span> from{' '}
+                <span className='line-through text-gray-400'>{data.oldVal}</span> to{' '}
+                <span className='text-green-700 font-medium'>{data.val}</span>
+              </div>
+            )
           default:
-            return (<p>Updated <span>{data.path[2]}</span> from <span className='opacity-50 line-through break-words'>{data.oldVal}</span> to <i className='break-words'>{data.val}</i></p>)
+            return (
+              <div className='text-gray-700'>
+                Updated <span className='font-medium'>{data.path[2]}</span> from{' '}
+                <span className='line-through text-gray-400'>{data.oldVal}</span> to{' '}
+                <span className='text-green-700 font-medium'>{data.val}</span>
+              </div>
+            )
         }
       case 'title':
-        return (<p>Changed <span>{data.path[1]}</span> from <span className='opacity-50 line-through break-words'>{data.oldVal}</span> to <i className='break-words'>{data.val}</i>.</p>)
+        return (
+          <div className='text-gray-700'>
+            Changed <span className='font-medium'>{data.path[1]}</span> from{' '}
+            <span className='line-through text-gray-400'>{data.oldVal}</span> to{' '}
+            <span className='text-green-700 font-medium'>{data.val}</span>
+          </div>
+        )
       case 'status':
-        return (<p>Moved <span>{data.path[1]}</span> from <span className='opacity-50 line-through break-words'>{data.oldVal}</span> to <i className='break-words'>{data.val}</i>.</p>)
+        return (
+          <div className='text-gray-700'>
+            Moved <span className='font-medium'>{data.path[1]}</span> from{' '}
+            <span className='line-through text-gray-400'>{data.oldVal}</span> to{' '}
+            <span className='text-green-700 font-medium'>{data.val}</span>
+          </div>
+        )
       case 'images':
         if (data.path[3] === 'original') {
-          return (<div>
-            <PostImages data={data} original={data.val} />
-          </div>)
-        } else {
-          return false
+          return (
+            <div className='mt-4'>
+              <PostImages data={data} original={data.val} />
+            </div>
+          )
         }
+        return false
       case 'location':
-        return (<p>Changed <span>location</span> from <span className='opacity-50 line-through break-words'>{data.oldVal}</span> to <i className='break-words'>{data.val}</i></p>)
+        return (
+          <div className='text-gray-700'>
+            Changed <span className='font-medium'>location</span> from{' '}
+            <span className='line-through text-gray-400'>{data.oldVal}</span> to{' '}
+            <span className='text-green-700 font-medium'>{data.val}</span>
+          </div>
+        )
       case 'geolocation':
         return false
       case 'description':
-        return (<p>{data.val}</p>)
+        return (
+          <div className='prose prose-green max-w-none'>
+            <p className='text-gray-600 leading-relaxed'>{data.val}</p>
+          </div>
+        )
       case 'docs':
-        return (<PostDocs data={data} url={data.val} />)
+        return (
+          <div className='mt-4'>
+            <PostDocs data={data} url={data.val} />
+          </div>
+        )
       default:
         return false
     }
@@ -56,9 +95,12 @@ function postBody (data) {
   return false
 }
 
-export default function ({ data }) {
-  if (data.path[0] !== 'location' || data.path[0] !== 'geolocation' || data.path[2] === 'thumbnail') {
-    return (<PostWrapper data={data} />)
-  }
-  return <></>
+export default function UpdatePost ({ data }) {
+  return (
+    <PostCard>
+      <Header data={data} />
+      <div className='mt-4'>{postBody(data)}</div>
+      <Bottom data={data} />
+    </PostCard>
+  )
 }

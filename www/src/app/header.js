@@ -3,58 +3,38 @@ import Link from 'next/link'
 //
 // Hotjar.init(3595523, 6)
 export default function GlobalHeader () {
-  return (<header className='z-50 p-2 fixed top-0 text-center'>
-    <div className="flex drop-shadow bg-white text-green-900 bg-opacity-30 py-2 px-2 md:py-4 md:px-6 backdrop-filter backdrop-blur rounded-full">
-    <div className='flex'>
-      <div className='flex items-center pl-2'>
-      <Link href='/'>
-        <h1 className="text-green-950 px-2 inline-block text-md md:text-2xl tracking-tighter font-bold hover:opacity-50 mr-2">
-          Dublin<span className='font-light italic'>Threads</span>
-        </h1>
-        </Link>
-      </div>
-      {/* <div className='grow' /> */}
-      <div className='flex items-center text-sm md:text-lg'>
-        <Link href='/threads'>
-          <div className='flex px-[5px] md:px-4 font-semibold hover:opacity-70'>
-            All
+  return (
+    <header className='z-50 fixed top-0 left-0 right-0 px-4 py-3'>
+      <nav className="max-w-7xl mx-auto">
+        <div className="flex items-center justify-between bg-white/90 shadow-sm backdrop-blur-md py-2.5 px-4 rounded-2xl">
+          <div className='flex items-center'>
+            <Link href='/' className="group">
+              <h1 className="text-green-950 text-lg md:text-2xl tracking-tight font-bold group-hover:opacity-80 transition-opacity">
+                Dublin<span className='font-normal italic'>Threads</span>
+              </h1>
+            </Link>
           </div>
-        </Link>
-        {/* <Link href='/threads?f=highlights'> */}
-        {/*  <div className='flex px-[5px] md:px-4 font-semibold hover:opacity-70'> */}
-        {/*    Highlights */}
-        {/*  </div> */}
-        {/* </Link> */}
-        <Link href='/explorer'>
-          <div className='flex items-center px-[5px] md:px-4 font-semibold hover:opacity-70'>
-            <div className='h-[15px] justify-center text-[8px] bg-teal-900 text-white p-0 leading-[15px]'>NEW</div>
-            <div className='ml-1'>Explorer</div>
+
+          <div className='flex items-center space-x-1 md:space-x-2'>
+            <Link href='/threads'>
+              <div className='px-3 md:px-4 py-1.5 text-sm md:text-base font-medium text-gray-700 rounded-lg hover:bg-gray-50 hover:text-green-800 transition-all duration-200'>
+                All
+              </div>
+            </Link>
+            <Link href='/explorer'>
+              <div className='px-3 md:px-4 py-1.5 text-sm md:text-base font-medium text-gray-700 rounded-lg hover:bg-gray-50 hover:text-green-800 transition-all duration-200 flex items-center'>
+                <span className='px-1.5 py-0.5 text-[9px] font-semibold bg-teal-900 text-white rounded'>NEW</span>
+                <span className='ml-1.5'>Explorer</span>
+              </div>
+            </Link>
+            <Link href='/map'>
+              <div className='px-3 md:px-4 py-1.5 text-sm md:text-base font-medium text-gray-700 rounded-lg hover:bg-gray-50 hover:text-green-800 transition-all duration-200'>
+                Map
+              </div>
+            </Link>
           </div>
-        </Link>
-        {/* <Link href='/threads?f=meetings'> */}
-        {/*  <div className='flex px-[5px] md:px-4 font-semibold hover:opacity-70'> */}
-        {/*    Meetings */}
-        {/*  </div> */}
-        {/* </Link> */}
-        <Link href='/map'>
-          <div className='flex px-[5px] md:px-4 font-semibold hover:opacity-70'>
-            Map
-          </div>
-        </Link>
-        <div className='flex sm:px-1 md:px-2'>
-        {/* <a target='_blank' href='https://github.com/amazingandyyy/dublin' className='opacity-40 flex hover:opacity-60' rel="noreferrer">
-          <Image
-            src="/images/github-icon.svg"
-            alt="Dublin CA Green Logo"
-            className='inline-block'
-            width={24}
-            height={24}
-            priority
-          />
-        </a> */}
         </div>
-      </div>
-    </div>
-  </div>
-</header>)
+      </nav>
+    </header>
+  )
 }

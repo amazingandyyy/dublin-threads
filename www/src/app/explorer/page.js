@@ -55,43 +55,66 @@ export default function Threads ({ params, searchParams }) {
 
   return (<>
     <GlobalHeader />
-    <main className="py-16">
-      <div className='flex flex-col items-center px-4'>
-        <div className='flex flex-col items-center text-center text-gray-600 p-4 pt-16'>
-          <div className='font-handwriting text-3xl md:text-6xl font-bold text-green-950 mb-4'>
+    <main className="min-h-screen bg-gradient-to-b from-white to-green-50">
+      <div className='container mx-auto px-4 py-16'>
+        <div className='flex flex-col items-center text-center space-y-6 mb-16'>
+          <h1 className='font-handwriting text-4xl md:text-7xl font-bold text-green-950 tracking-wide'>
             Explorer
-          </div>
-          <div>
-            This is an <b>experimental feature</b>. Currently under active development
-          </div>
-          <div className='py-2'>
-            {['DublinCA', 'California', 'TriValley'].map(i => {
-              return <span key={i} className='py-1 px-2 bg-green-300 m-1 rounded-full text-sm font-bold text-green-900 bg-opacity-40'>#{i}</span>
-            })}
+          </h1>
+          <p className='text-gray-600 text-lg max-w-2xl'>
+            This is an <span className='font-medium text-green-800'>experimental feature</span>. Currently under active development
+          </p>
+          <div className='flex flex-wrap justify-center gap-2 py-4'>
+            {['DublinCA', 'California', 'TriValley'].map(i => (
+              <span
+                key={i}
+                className='py-1.5 px-4 bg-green-100 rounded-full text-sm font-medium text-green-800
+                          transition-all duration-300 hover:bg-green-200 hover:scale-105'
+              >
+                #{i}
+              </span>
+            ))}
           </div>
         </div>
-        {/* <div className='pb-12 flex flex-col items-center'> */}
-        {/*  <h1 className='text-3xl font-bold pb-4'>Explorer v0</h1> */}
-        {/*  <div className='bg-green-50 rounded-full px-4 py-2 italic mb-2'>Many images are currently <b>broken</b>, I will find time to fix them.</div> */}
-        {/*  <div className='bg-green-50 rounded-full px-4 py-2 italic mb-2'>Under <b>active</b> development</div> */}
-        {/* </div> */}
-        {highlights.map((project) => {
-          return <div key={project.id} className='pb-8 w-full md:max-w-3xl'>
-            <Link href={`/project/${project.id}`} className='hover:opacity-70 flex flex-row justify-between'>
-              <span className='font-semibold text-xl text-green-950'>{project.title}</span> <small className='text-gray-400'>{project.details['Application Submittal Date']}</small>
-            </Link>
-            <div className='flex flex-row'>
-              {project.images && project.images.length > 0 && <div>
-                {project.images.slice(0, 5).map((image, index) => (
-                  <Link key={`${project.id}-${index}`} href={`/project/${project.id}`} className='hover:opacity-70 inline-block'>
-                    <Image src={image.thumbnail} className='shadow-xl bg-white m-[5px] inline-block rounded-xl w-36 h-36' />
-                  </Link>
-                ))}
-              </div>}
+        <div className='grid gap-8 md:gap-12'>
+          {highlights.map((project) => (
+            <div
+              key={project.id}
+              className='bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 p-6'
+            >
+              <Link
+                href={`/project/${project.id}`}
+                className='group flex flex-col md:flex-row justify-between items-start md:items-center gap-2 mb-4'
+              >
+                <h2 className='font-semibold text-xl text-green-950 group-hover:text-green-700 transition-colors duration-300'>
+                  {project.title}
+                </h2>
+                <time className='text-sm text-gray-400'>
+                  {project.details['Application Submittal Date']}
+                </time>
+              </Link>
+              {project.images && project.images.length > 0 && (
+                <div className='flex flex-wrap gap-2'>
+                  {project.images.slice(0, 5).map((image, index) => (
+                    <Link
+                      key={`${project.id}-${index}`}
+                      href={`/project/${project.id}`}
+                      className='block transition-transform duration-300 hover:scale-105'
+                    >
+                      <Image
+                        src={image.thumbnail}
+                        className='rounded-xl w-32 h-32 object-cover shadow-sm hover:shadow-md transition-shadow duration-300'
+                      />
+                    </Link>
+                  ))}
+                </div>
+              )}
             </div>
-          </div>
-        })}
-        more to come...
+          ))}
+        </div>
+        <div className='text-center text-gray-500 mt-12 italic'>
+          more to come...
+        </div>
       </div>
     </main>
   </>)

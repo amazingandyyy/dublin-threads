@@ -26,7 +26,13 @@ const PostDocs = ({ data, url = '' }) => {
 }
 
 function PostCard ({ children }) {
-  return (<div className='bg-white bg-opacity-0 md:rounded-xl p-4 system-card w-full'>{children}</div>)
+  return (
+    <div className='w-full max-w-3xl mx-auto mb-6'>
+      <div className='bg-white shadow-sm hover:shadow-md transition-shadow duration-200 rounded-2xl p-8 border border-gray-100'>
+        {children}
+      </div>
+    </div>
+  )
 }
 
 export {

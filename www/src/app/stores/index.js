@@ -1,25 +1,39 @@
 import { create } from 'zustand'
 import { subscribeWithSelector } from 'zustand/middleware'
 import rdiff from 'recursive-diff'
-import _ from 'lodash'
 
 const useThreadStore = create((set, get) => ({
   thread: [],
   update: (data) => {
     const profiles = {}
     const indivisuals = {}
-    data.forEach((post) => {
-      indivisuals[post.projectId] = indivisuals[post.projectId] ? [...indivisuals[post.projectId], post].sort((a, b) => b.timestamp - a.timestamp) : [post]
-      if (post.op === 'add' && Boolean(post.val.title)) {
-        profiles[post.projectId] = post.val
-      }
+    const batchSize = 10
+    for (let i = 0; i < data.length; i += batchSize) {
+      const batch = data.slice(i, i + batchSize)
+      batch.forEach((post) => {
+        if (!indivisuals[post.projectId]) {
+          indivisuals[post.projectId] = []
+        }
+        indivisuals[post.projectId].push(post)
+        if (post.op === 'add' && Boolean(post.val.title)) {
+          profiles[post.projectId] = post.val
+        }
+      })
+    }
+
+    Object.keys(indivisuals).forEach(key => {
+      indivisuals[key].sort((a, b) => b.timestamp - a.timestamp)
     })
+
     Object.keys(profiles).forEach((k) => {
       profiles[k].threads = indivisuals[k]
     })
+
     useProjectProfileStore.getState().update(profiles)
     useMapStore.getState().update(Object.values(profiles))
-    set({ thread: data })
+    const existingThread = get().thread
+    const newThread = existingThread.length > 0 ? [...existingThread, ...data] : data
+    set({ thread: newThread })
   }
 }))
 
@@ -51,34 +65,60 @@ const useGlobalThreadListStore = create(
   subscribeWithSelector((set, get) => ({
     list: [],
     originalList: [],
+    pageSize: 50,
+    currentPage: 1,
     init: (list) => {
-      set({ list, originalList: list })
+      const initialItems = list.slice(0, 50)
+      set({
+        list: initialItems,
+        originalList: list,
+        currentPage: 1
+      })
+    },
+    loadMore: () => {
+      const nextPage = get().currentPage + 1
+      const start = (nextPage - 1) * get().pageSize
+      const end = start + get().pageSize
+      const newItems = get().originalList.slice(start, end)
+
+      if (newItems.length === 0) return false
+
+      requestAnimationFrame(() => {
+        set(state => ({
+          list: [...state.list, ...newItems],
+          currentPage: nextPage
+        }))
+      })
+
+      return true
     },
     update: (list) => {
-      console.log('new list', list.length)
-      set({ list })
+      const initialItems = list.slice(0, 50)
+      set({
+        list: initialItems,
+        originalList: list,
+        currentPage: 1
+      })
     },
     applyFilter: (string) => {
-      let newList = []
       if (string.length === 0) {
-        console.log('reset', get().originalList.length)
-        newList = get().originalList
-      } else {
-        const str = string.split(' ').join('.*')
-        const re = new RegExp(`.*${str}.*`, 'ig')
-        const list = get().originalList
-        newList = _.filter(list, (o) => {
-          if (o.organizor) return re.test(o.organizor)
-          const projectKeys = _.findKey(useProjectProfileStore.getState().profiles, (i) => {
-            return re.test(i.title)
-          }) || []
-          return projectKeys?.includes(o.projectId)
-        })
+        return get().originalList.slice(0, 50)
       }
-      return newList
+
+      const str = string.split(' ').join('.*')
+      const re = new RegExp(`.*${str}.*`, 'ig')
+      const profiles = useProjectProfileStore.getState().profiles
+
+      return get().originalList
+        .filter(o => {
+          if (o.organizor) return re.test(o.organizor)
+          return Object.keys(profiles).some(key =>
+            profiles[key].title && re.test(profiles[key].title) && key === o.projectId
+          )
+        })
+        .slice(0, 50)
     }
-  })
-  )
+  }))
 )
 
 export { useMeetingsStore, useThreadStore, useProjectProfileStore, useMapStore, useGlobalThreadListStore }
