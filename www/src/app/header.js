@@ -26,14 +26,17 @@ export default function GlobalHeader () {
             </Link>
             <Link href="/explorer">
               <div className="px-3 md:px-4 py-1.5 text-sm md:text-base font-medium text-gray-700 rounded-lg hover:bg-gray-50 hover:text-green-800 transition-all duration-200 flex items-center">
+                <span className="px-1.5 py-0 text-[9px] font-semibold bg-teal-900 text-white rounded">
+                  NEW
+                </span>
                 <span className="ml-1.5">Explorer</span>
               </div>
             </Link>
-            <Link href="/map">
+            {/* <Link href="/map">
               <div className="px-3 md:px-4 py-1.5 text-sm md:text-base font-medium text-gray-700 rounded-lg hover:bg-gray-50 hover:text-green-800 transition-all duration-200">
                 Map
               </div>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </nav>
