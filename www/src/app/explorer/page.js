@@ -6,7 +6,7 @@ import { useProjectProfileStore, useThreadStore } from '@/stores'
 import GlobalHeader from '@/header'
 import { fetchDevelopments } from '@/utils'
 import Link from 'next/link'
-import { MapIcon, ListBulletIcon, StarIcon, ShareIcon, ChatBubbleLeftIcon } from '@heroicons/react/24/outline'
+import { MapIcon, ListBulletIcon, StarIcon, ShareIcon, ChatBubbleLeftIcon, ChartBarIcon } from '@heroicons/react/24/outline'
 import { StarIcon as StarIconSolid } from '@heroicons/react/24/solid'
 import {
   FacebookShareButton,
@@ -52,6 +52,7 @@ export default function Threads ({ params, searchParams }) {
     byType: {},
     byMonth: {}
   })
+  const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
     // Get Mapbox token
@@ -69,6 +70,11 @@ export default function Threads ({ params, searchParams }) {
       .then(data => {
         console.log('fetching developments event', data[0])
         useThreadStore.getState().update(data)
+        setIsLoading(false)
+      })
+      .catch(error => {
+        console.error('Error fetching data:', error)
+        setIsLoading(false)
       })
   }, [])
 
@@ -103,7 +109,6 @@ export default function Threads ({ params, searchParams }) {
     filtered.sort((a, b) => {
       const aFollowed = followedProjects.includes(a.id)
       const bFollowed = followedProjects.includes(b.id)
-      
       switch (sortBy) {
         case 'title':
           return a.title.localeCompare(b.title)
@@ -116,7 +121,7 @@ export default function Threads ({ params, searchParams }) {
           return bFollowed ? 1 : -1
         case 'date':
         default:
-          return getSeconds(b.details['Application Submittal Date']) - getSeconds(a.details['Application Submittal Date'])
+      return getSeconds(b.details['Application Submittal Date']) - getSeconds(a.details['Application Submittal Date'])
       }
     })
 
@@ -144,8 +149,16 @@ export default function Threads ({ params, searchParams }) {
   const renderMap = () => {
     if (!mapToken) return null
 
+    const statusColors = {
+      'Pre-Application': 'bg-emerald-500',
+      'Application Under Review': 'bg-blue-500',
+      'Planning Application Submitted': 'bg-yellow-500',
+      'Final Action': 'bg-purple-500',
+      'Public Hearing': 'bg-red-500'
+    }
+
     return (
-      <div className="w-full h-[600px] rounded-xl overflow-hidden shadow-sm">
+      <div className="relative w-full h-[calc(100vh-200px)] rounded-xl overflow-hidden bg-white">
         <Map
           {...viewState}
           onMove={evt => setViewState(evt.viewState)}
@@ -159,20 +172,45 @@ export default function Threads ({ params, searchParams }) {
                 key={project.id}
                 longitude={project.geolocation.lon}
                 latitude={project.geolocation.lat}
-                anchor="bottom"
+                anchor="center"
               >
                 <Link href={`/project/${project.id}`}>
-                  <div className="flex flex-col items-center">
-                    <div className="px-3 py-1 bg-green-500 text-white rounded-full text-sm font-medium shadow-lg hover:bg-green-600 transition-all duration-300">
-                      {project.title}
+                  <div className="relative group">
+                    <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-1 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10">
+                      <div className="bg-white rounded-lg py-1.5 px-2.5 shadow-lg min-w-[120px]">
+                        <p className="text-xs font-medium text-gray-900 line-clamp-2">{project.title}</p>
+                        {project.status && (
+                          <p className="text-[10px] text-gray-500 mt-0.5">{project.status}</p>
+                        )}
+                      </div>
                     </div>
-                    <div className="w-1 h-4 bg-green-500"></div>
+                    <div className={`w-3 h-3 rounded-full ${
+                      project.status === 'Pre-Application' ? 'bg-emerald-500' :
+                      project.status === 'Application Under Review' ? 'bg-blue-500' :
+                      project.status === 'Planning Application Submitted' ? 'bg-yellow-500' :
+                      project.status === 'Final Action' ? 'bg-purple-500' :
+                      project.status === 'Public Hearing' ? 'bg-red-500' :
+                      'bg-gray-400'
+                    } ring-2 ring-white shadow-md hover:scale-150 transition-transform duration-300`} />
                   </div>
                 </Link>
               </Marker>
             )
           ))}
         </Map>
+
+        {/* Legend */}
+        <div className="absolute top-4 right-4 bg-white rounded-lg shadow-lg py-2 px-3">
+          <h4 className="text-xs font-medium text-gray-900 mb-1.5">Status Colors</h4>
+          <div className="space-y-1.5">
+            {Object.entries(statusColors).map(([status, color]) => (
+              <div key={status} className="flex items-center gap-1.5">
+                <div className={`w-2 h-2 rounded-full ${color}`} />
+                <span className="text-[10px] text-gray-600">{status}</span>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     )
   }
@@ -257,277 +295,320 @@ export default function Threads ({ params, searchParams }) {
     </div>
   )
 
-  return (<>
-    <GlobalHeader />
-    {shareProject && <SharePopup project={shareProject} onClose={() => setShareProject(null)} />}
-    <main className="min-h-screen bg-gradient-to-b from-white to-green-50">
-      <div className='container mx-auto px-3 sm:px-4 py-8 sm:py-16'>
-        <div className='flex flex-col items-center mt-12 text-center space-y-4 sm:space-y-6 mb-8 sm:mb-16'>
-          <h1 className='font-handwriting text-3xl sm:text-4xl md:text-7xl font-bold text-green-950 tracking-wide'>
-            Explorer
-          </h1>
-          
-          {/* Statistics Overview */}
-          <div className="w-full max-w-4xl bg-white rounded-2xl p-6 shadow-sm">
-            <h2 className="text-xl font-semibold mb-4">Project Statistics</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <StatCard title="Total Projects" value={stats.total} />
-              <StatCard
-                title="Under Construction"
-                value={stats.byStatus['Under Construction'] || 0}
-                color="blue"
-              />
-              <StatCard
-                title="Recently Added"
-                value={stats.byMonth[Object.keys(stats.byMonth).sort().pop()] || 0}
-                color="purple"
-              />
-              <StatCard
-                title="Being Followed"
-                value={followedProjects.length}
-                color="yellow"
-              />
-            </div>
-            
-            {/* Status Distribution */}
-            <div className="mt-6">
-              <h3 className="text-sm font-medium text-gray-600 mb-2">Status Distribution</h3>
-              <div className="flex h-4 rounded-full overflow-hidden">
-                {Object.entries(stats.byStatus).map(([status, count], index) => {
-                  const colors = ['bg-green-500', 'bg-blue-500', 'bg-yellow-500', 'bg-purple-500', 'bg-red-500']
-                  const percentage = (count / stats.total) * 100
-                  return (
-                    <div
-                      key={status}
-                      className={`${colors[index % colors.length]} relative group cursor-help`}
-                      style={{ width: `${percentage}%` }}
-                    >
-                      <div className="opacity-0 group-hover:opacity-100 absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white text-xs rounded py-1 px-2 whitespace-nowrap">
-                        {status}: {count} ({percentage.toFixed(1)}%)
-                      </div>
-                    </div>
-                  )
-                })}
-              </div>
-            </div>
-          </div>
-
-          <p className='text-gray-600 text-base sm:text-lg max-w-2xl px-2'>
-            This is an <span className='font-medium text-green-800'>experimental feature</span>. Currently under active development
-          </p>
-          
-          {/* Search and Filter Section */}
-          <div className="w-full max-w-4xl">
-            <div className="flex flex-col sm:flex-row gap-4 mb-6">
-              <div className="flex-1">
-                <input
-                  type="text"
-                  placeholder="Search projects..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full px-4 py-2 rounded-lg border border-green-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
-                />
-              </div>
-              <div className="flex gap-2 flex-wrap sm:flex-nowrap">
-                <select
-                  value={statusFilter}
-                  onChange={(e) => setStatusFilter(e.target.value)}
-                  className="px-4 py-2 rounded-lg border border-green-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent bg-white"
-                >
-                  <option value="">All Statuses</option>
-                  {Object.keys(stats.byStatus)
-                    .sort()
-                    .map(status => (
-                      <option key={status} value={status}>
-                        {status}
-                      </option>
-                    ))
-                  }
-                </select>
-                <select
-                  value={sortBy}
-                  onChange={(e) => setSortBy(e.target.value)}
-                  className="px-4 py-2 rounded-lg border border-green-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent bg-white"
-                >
-                  <option value="date">Sort by Date</option>
-                  <option value="title">Sort by Title</option>
-                  <option value="status">Sort by Status</option>
-                  <option value="followed">Followed First</option>
-                </select>
-              </div>
-            </div>
-
-            {/* View Toggle */}
-            <div className="flex justify-center gap-2 mb-6">
-              <button
-                onClick={() => setViewMode('list')}
-                className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-all duration-300 ${
-                  viewMode === 'list'
-                    ? 'bg-green-500 text-white'
-                    : 'bg-white text-green-800 hover:bg-green-100'
-                }`}
-              >
-                <ListBulletIcon className="w-5 h-5" />
-                List View
-              </button>
-              <button
-                onClick={() => setViewMode('map')}
-                className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-all duration-300 ${
-                  viewMode === 'map'
-                    ? 'bg-green-500 text-white'
-                    : 'bg-white text-green-800 hover:bg-green-100'
-                }`}
-              >
-                <MapIcon className="w-5 h-5" />
-                Map View
-              </button>
-            </div>
-          </div>
+  const LoadingState = () => (
+    <div className="w-full max-w-4xl mx-auto">
+      <div className="animate-pulse space-y-8">
+        <div className="h-8 bg-gray-200 rounded-lg w-3/4 mx-auto"></div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          {[...Array(4)].map((_, i) => (
+            <div key={i} className="bg-gray-200 rounded-xl p-6 h-24"></div>
+          ))}
         </div>
-
-        {viewMode === 'map' ? (
-          renderMap()
-        ) : (
-          <div className='grid gap-4 sm:gap-8 md:gap-12'>
-            {highlights.map((project) => (
-              <div
-                key={project.id}
-                className='bg-white rounded-xl sm:rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 p-4 sm:p-6'
-              >
-                <div className="flex justify-between items-start mb-3">
-                  <Link
-                    href={`/project/${project.id}`}
-                    className='group flex flex-col sm:flex-row justify-between items-start sm:items-center gap-1 sm:gap-2'
-                  >
-                    <div className="flex flex-col">
-                      <h2 className='font-semibold text-lg sm:text-xl text-green-950 group-hover:text-green-700 transition-colors duration-300 line-clamp-2'>
-                        {project.title}
-                      </h2>
-                      <div className="flex flex-wrap gap-2 mt-2">
-                        {project.status && (
-                          <span className="px-2 py-1 bg-green-100 text-green-800 text-xs rounded-full">
-                            {project.status}
-                          </span>
-                        )}
-                        {project.details['Application Type'] && (
-                          <span className="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">
-                            {project.details['Application Type']}
-                          </span>
-                        )}
-                        {project.details['General Plan Land Use'] && (
-                          <span className="px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded-full">
-                            {project.details['General Plan Land Use']}
-                          </span>
-                        )}
-                      </div>
-                      {project.description && (
-                        <p className="text-gray-600 text-sm mt-2 line-clamp-2">
-                          {project.description}
-                        </p>
-                      )}
-                    </div>
-                    <div className="flex flex-col items-end gap-2">
-                      <time className='text-xs sm:text-sm text-gray-400 shrink-0'>
-                        {project.details['Application Submittal Date']}
-                      </time>
-                      {project.location && (
-                        <div className="text-xs text-gray-500 flex items-center gap-1">
-                          <MapIcon className="w-4 h-4" />
-                          {project.location}
-                        </div>
-                      )}
-                    </div>
-                  </Link>
-                  <div className="flex items-center gap-2">
-                    <button
-                      onClick={() => setShareProject(project)}
-                      className="p-2 rounded-full hover:bg-green-50 transition-colors duration-300"
-                    >
-                      <ShareIcon className="w-6 h-6 text-gray-400 hover:text-green-600" />
-                    </button>
-                    <button
-                      onClick={() => toggleFollow(project.id)}
-                      className="p-2 rounded-full hover:bg-green-50 transition-colors duration-300"
-                    >
-                      {followedProjects.includes(project.id)
-                        ? (
-                          <StarIconSolid className="w-6 h-6 text-yellow-400" />
-                        ) : (
-                          <StarIcon className="w-6 h-6 text-gray-400 hover:text-yellow-400" />
-                        )
-                      }
-                    </button>
-                  </div>
-                </div>
-
-                {/* Progress Timeline */}
-                <div className="mt-4 mb-6">
-                  <div className="flex justify-between mb-2 text-xs text-gray-500">
-                    <span>Application</span>
-                    <span>Review</span>
-                    <span>Approval</span>
-                    <span>Construction</span>
-                    <span>Complete</span>
-                  </div>
-                  <div className="relative h-2 bg-gray-200 rounded-full overflow-hidden">
-                    <div
-                      className="absolute h-full bg-green-500 rounded-full transition-all duration-500"
-                      style={{
-                        width: (() => {
-                          const status = project.status?.toLowerCase() || ''
-                          if (status.includes('complete')) return '100%'
-                          if (status.includes('construction')) return '75%'
-                          if (status.includes('approve')) return '50%'
-                          if (status.includes('review') || status.includes('pending')) return '25%'
-                          if (status.includes('submit') || status.includes('application')) return '10%'
-                          return '0%'
-                        })()
-                      }}
-                    />
-                  </div>
-                </div>
-
-                <div className="flex items-center justify-between mt-4">
-                  <div className="flex items-center gap-4">
-                    {project.threads?.length > 0 && (
-                      <div className="flex items-center gap-1 text-gray-500">
-                        <ChatBubbleLeftIcon className="w-5 h-5" />
-                        <span className="text-sm">{project.threads.length} updates</span>
-                      </div>
-                    )}
-                  </div>
-                  <Link
-                    href={`/project/${project.id}#comments`}
-                    className="text-green-600 text-sm hover:text-green-700 transition-colors duration-300"
-                  >
-                    View Discussion →
-                  </Link>
-                </div>
-
-                {project.images && project.images.length > 0 && (
-                  <div className='flex flex-wrap gap-1.5 sm:gap-2'>
-                    {project.images.slice(0, 5).map((image, index) => (
-                      <Link
-                        key={`${project.id}-${index}`}
-                        href={`/project/${project.id}`}
-                        className='block transition-transform duration-300 hover:scale-105'
-                      >
-                        <Image
-                          src={image.thumbnail}
-                          className='rounded-lg sm:rounded-xl w-24 sm:w-32 h-24 sm:h-32 object-cover shadow-sm hover:shadow-md transition-shadow duration-300'
-                        />
-                      </Link>
-                    ))}
-                  </div>
-                )}
-              </div>
-            ))}
-          </div>
-        )}
-        <div className='text-center text-gray-500 mt-8 sm:mt-12 italic text-sm sm:text-base'>
-          more to come...
+        <div className="space-y-4">
+          {[...Array(3)].map((_, i) => (
+            <div key={i} className="bg-gray-200 rounded-xl p-6 h-48"></div>
+          ))}
         </div>
       </div>
+    </div>
+  )
+
+  const EmptyState = () => (
+    <div className="text-center py-12">
+      <ChartBarIcon className="w-16 h-16 text-gray-300 mx-auto mb-4" />
+      <h3 className="text-lg font-medium text-gray-900 mb-2">No Projects Found</h3>
+      <p className="text-gray-500">Try adjusting your filters or search terms</p>
+    </div>
+  )
+
+  return (
+    <>
+      <GlobalHeader />
+      {shareProject && <SharePopup project={shareProject} onClose={() => setShareProject(null)} />}
+      <main className="pt-16 h-full bg-gray-100">
+        <div className="container mx-auto px-3 sm:px-4 py-8">
+          <div className="flex flex-col items-center mt-12 text-center space-y-6 mb-12">
+            <h1 className="font-handwriting text-3xl sm:text-4xl md:text-7xl font-bold text-green-950 tracking-wide">
+              Explorer
+            </h1>
+
+            {/* Statistics Overview */}
+            <div className="w-full max-w-4xl">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
+                <div className="text-center p-3 bg-white/60 backdrop-blur-sm rounded-lg">
+                  <p className="text-2xl sm:text-3xl font-bold text-green-600">{stats.total}</p>
+                  <h3 className="text-xs sm:text-sm text-gray-600 mt-1">Total Projects</h3>
+                </div>
+                <div className="text-center p-3 bg-white/60 backdrop-blur-sm rounded-lg">
+                  <p className="text-2xl sm:text-3xl font-bold text-blue-600">{stats.byStatus['Under Construction'] || 0}</p>
+                  <h3 className="text-xs sm:text-sm text-gray-600 mt-1">Under Construction</h3>
+                </div>
+                <div className="text-center p-3 bg-white/60 backdrop-blur-sm rounded-lg">
+                  <p className="text-2xl sm:text-3xl font-bold text-purple-600">{stats.byMonth[Object.keys(stats.byMonth).sort().pop()] || 0}</p>
+                  <h3 className="text-xs sm:text-sm text-gray-600 mt-1">Recently Added</h3>
+                </div>
+                <div className="text-center p-3 bg-white/60 backdrop-blur-sm rounded-lg">
+                  <p className="text-2xl sm:text-3xl font-bold text-yellow-600">{followedProjects.length}</p>
+                  <h3 className="text-xs sm:text-sm text-gray-600 mt-1">Being Followed</h3>
+                </div>
+              </div>
+
+              {/* Status Distribution */}
+              <div className="mt-6 bg-white/60 backdrop-blur-sm rounded-lg p-4">
+                <h3 className="text-sm font-medium text-gray-800 mb-4">Status Distribution</h3>
+                <div className="relative pt-2 pb-2">
+                  {/* Distribution Bar */}
+                  <div className="relative h-2 bg-gray-200/70 rounded-full overflow-hidden">
+                    <div className="absolute inset-0 flex">
+                      {[
+                        { status: 'Application Under Review', color: 'bg-blue-500' },
+                        { status: 'Pre-Application', color: 'bg-green-500' },
+                        { status: 'Planning Application Submitted', color: 'bg-yellow-500' },
+                        { status: 'Final Action', color: 'bg-purple-500' },
+                        { status: 'Public Hearing', color: 'bg-red-500' },
+                        { status: 'Unknown', color: 'bg-gray-500' }
+                      ].map((item) => {
+                        const count = stats.byStatus[item.status] || 0
+                        const percentage = (count / stats.total) * 100
+                        return (
+                          <div
+                            key={item.status}
+                            className={`relative h-full ${item.color} group cursor-pointer transition-all duration-300 hover:brightness-110`}
+                            style={{ width: `${percentage}%` }}
+                            onClick={() => setStatusFilter(statusFilter === item.status ? '' : item.status)}
+                          >
+                            <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10 transform -translate-y-1 group-hover:translate-y-0">
+                              <div className="bg-gray-900/95 backdrop-blur-sm text-white rounded-lg py-2 px-3 shadow-xl">
+                                <div className="font-medium text-xs mb-0.5">{item.status}</div>
+                                <div className="text-[10px] text-gray-300 font-medium">
+                                  {count} projects ({percentage.toFixed(1)}%)
+                                </div>
+                                <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 translate-y-1/2 rotate-45 w-2 h-2 bg-gray-900/95"></div>
+                              </div>
+                            </div>
+                          </div>
+                        )
+                      })}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Search and Controls */}
+            <div className="w-full max-w-4xl flex flex-col lg:flex-row lg:items-center gap-3">
+              <div className="relative flex-1">
+                <div className="absolute inset-y-0 left-3 flex items-center pointer-events-none">
+                  <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                </div>
+                <input
+                  type="text"
+                  placeholder="Search projects by title, description..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="w-full pl-10 pr-4 py-2.5 rounded-lg bg-white/60 backdrop-blur-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent text-sm"
+                />
+              </div>
+              <div className="flex gap-3">
+                <div className="relative flex-1 lg:w-48">
+                  <select
+                    value={statusFilter}
+                    onChange={(e) => setStatusFilter(e.target.value)}
+                    className="w-full pl-4 pr-8 py-2.5 rounded-lg bg-white/60 backdrop-blur-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent appearance-none cursor-pointer text-sm"
+                  >
+                    <option value="">All Statuses</option>
+                    {Object.keys(stats.byStatus).sort().map(status => (
+                      <option key={status} value={status}>{status}</option>
+                    ))}
+                  </select>
+                  <div className="absolute inset-y-0 right-3 flex items-center pointer-events-none">
+                    <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </div>
+                </div>
+                <div className="relative flex-1 lg:w-48">
+                  <select
+                    value={sortBy}
+                    onChange={(e) => setSortBy(e.target.value)}
+                    className="w-full pl-4 pr-8 py-2.5 rounded-lg bg-white/60 backdrop-blur-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent appearance-none cursor-pointer text-sm"
+                  >
+                    <option value="date">Sort by Date</option>
+                    <option value="title">Sort by Title</option>
+                    <option value="status">Sort by Status</option>
+                    <option value="followed">Followed First</option>
+                  </select>
+                  <div className="absolute inset-y-0 right-3 flex items-center pointer-events-none">
+                    <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div className="flex gap-2">
+                <button
+                  onClick={() => setViewMode('list')}
+                  className={`flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg transition-all duration-300 ${
+                    viewMode === 'list'
+                      ? 'bg-green-500 text-white'
+                      : 'bg-white/60 backdrop-blur-sm text-gray-600 hover:bg-white/80'
+                  }`}
+                >
+                  <ListBulletIcon className="w-4 h-4" />
+                  <span className="text-sm font-medium">List</span>
+                </button>
+                <button
+                  onClick={() => setViewMode('map')}
+                  className={`flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg transition-all duration-300 ${
+                    viewMode === 'map'
+                      ? 'bg-green-500 text-white'
+                      : 'bg-white/60 backdrop-blur-sm text-gray-600 hover:bg-white/80'
+                  }`}
+                >
+                  <MapIcon className="w-4 h-4" />
+                  <span className="text-sm font-medium">Map</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          {isLoading ? (
+            <LoadingState />
+          ) : highlights.length === 0 ? (
+            <EmptyState />
+          ) : viewMode === 'map' ? (
+            <div className="w-full max-w-4xl mx-auto">
+              {renderMap()}
+            </div>
+          ) : (
+            <div className="w-full max-w-4xl mx-auto">
+              <div className="grid gap-4">
+          {highlights.map((project) => (
+            <div
+              key={project.id}
+                    className="group bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 p-4 sm:p-6 border border-gray-100 hover:border-green-200"
+            >
+                    <div className="flex flex-col sm:flex-row justify-between items-start gap-3">
+              <Link
+                href={`/project/${project.id}`}
+                        className="group flex-1"
+              >
+                        <div className="flex flex-col">
+                          <h2 className="font-semibold text-lg text-gray-900 group-hover:text-green-700 transition-colors duration-300 line-clamp-2">
+                  {project.title}
+                </h2>
+                          <div className="flex flex-wrap gap-2 mt-2">
+                            {project.status && (
+                              <span className="px-2 py-1 bg-green-100 text-green-800 text-xs rounded-full">
+                                {project.status}
+                              </span>
+                            )}
+                            {project.details['Application Type'] && (
+                              <span className="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">
+                                {project.details['Application Type']}
+                              </span>
+                            )}
+                          </div>
+                          {project.description && (
+                            <p className="text-gray-600 text-sm mt-2 line-clamp-2 group-hover:text-gray-900 transition-colors duration-300">
+                              {project.description}
+                            </p>
+                          )}
+                        </div>
+              </Link>
+                      <div className="flex items-center gap-2 self-start">
+                        <button
+                          onClick={() => setShareProject(project)}
+                          className="p-2 rounded-full hover:bg-green-50 transition-colors duration-300"
+                        >
+                          <ShareIcon className="w-5 h-5 text-gray-400 hover:text-green-600" />
+                        </button>
+                        <button
+                          onClick={() => toggleFollow(project.id)}
+                          className="p-2 rounded-full hover:bg-green-50 transition-colors duration-300"
+                        >
+                          {followedProjects.includes(project.id) ? (
+                            <StarIconSolid className="w-5 h-5 text-yellow-400" />
+                          ) : (
+                            <StarIcon className="w-5 h-5 text-gray-400 hover:text-yellow-400" />
+                          )}
+                        </button>
+                      </div>
+                    </div>
+
+                    {/* Progress Timeline */}
+                    <div className="mt-4">
+                      <div className="flex justify-between mb-2 text-[10px] sm:text-xs font-medium text-gray-500">
+                        <span>Pre-Application</span>
+                        <span>Under Review</span>
+                        <span>Submitted</span>
+                        <span>Public Hearing</span>
+                        <span>Final Action</span>
+                      </div>
+                      <div className="relative h-2 bg-gray-100 rounded-full overflow-hidden">
+                        <div
+                          className="absolute h-full bg-gradient-to-r from-green-500 to-green-600 rounded-full transition-all duration-500"
+                          style={{
+                            width: (() => {
+                              const status = project.status || ''
+                              if (status === 'Final Action') return '100%'
+                              if (status === 'Public Hearing') return '80%'
+                              if (status === 'Planning Application Submitted') return '60%'
+                              if (status === 'Application Under Review') return '40%'
+                              if (status === 'Pre-Application') return '20%'
+                              return '0%'
+                            })()
+                          }}
+                        />
+                      </div>
+                    </div>
+
+              {project.images && project.images.length > 0 && (
+                      <div className="flex gap-2 mt-4 overflow-x-auto pb-2">
+                  {project.images.slice(0, 5).map((image, index) => (
+                    <Link
+                      key={`${project.id}-${index}`}
+                      href={`/project/${project.id}`}
+                            className="shrink-0 transition-transform duration-300 hover:scale-105"
+                    >
+                      <Image
+                        src={image.thumbnail}
+                              className="rounded-lg w-20 sm:w-24 h-20 sm:h-24 object-cover shadow-sm hover:shadow-md transition-shadow duration-300"
+                      />
+                    </Link>
+                  ))}
+                </div>
+              )}
+
+                    <div className="flex items-center justify-between mt-4">
+                      <div className="flex items-center gap-4">
+                        {project.threads?.length > 0 && (
+                          <div className="flex items-center gap-1 text-gray-500">
+                            <ChatBubbleLeftIcon className="w-4 h-4" />
+                            <span className="text-xs">{project.threads.length} updates</span>
+                          </div>
+                        )}
+                        <time className="text-xs text-gray-400">
+                          {project.details['Application Submittal Date']}
+                        </time>
+                      </div>
+                      <Link
+                        href={`/project/${project.id}#comments`}
+                        className="text-green-600 text-xs sm:text-sm hover:text-green-700 transition-colors duration-300"
+                      >
+                        View Discussion →
+                      </Link>
+                    </div>
+            </div>
+          ))}
+        </div>
+            </div>
+          )}
+
+      </div>
     </main>
-  </>)
+    </>
+  )
 }
