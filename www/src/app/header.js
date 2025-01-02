@@ -41,5 +41,5 @@ export default function GlobalHeader () {
         </div>
       </nav>
     </header>
-  );
+  )
 }

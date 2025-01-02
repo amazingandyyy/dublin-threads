@@ -847,7 +847,7 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
                     ))}
                   </div>
                 </>
-              )
+                )
               : null
             }
           </div>
