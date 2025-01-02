@@ -27,6 +27,7 @@
         "import/no-anonymous-default-export": 0,
         "no-dupe-keys": 0,
         "@next/next/no-img-element": 0,
-        "no-tabs": 0
+        "no-tabs": 0,
+        "no-trailing-spaces": 0
     }
 }
