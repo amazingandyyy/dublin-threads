@@ -249,24 +249,16 @@ const StatusProgress = ({ status }) => {
 
   const progress = getProgress()
 
-  // Helper to determine if a status is completed
-  const isCompleted = (index) => {
-    return index <= statusOrder[status]
-  }
-
   // Get color for each status
   const getStatusColor = (index) => {
     const colors = {
       active: {
-        bg: 'bg-gradient-to-r from-blue-500 via-emerald-500 to-orange-500',
         text: 'text-emerald-700'
       },
       completed: {
-        bg: 'bg-emerald-500',
         text: 'text-emerald-600'
       },
       upcoming: {
-        bg: 'bg-gray-200',
         text: 'text-gray-400'
       }
     }
@@ -282,42 +274,27 @@ const StatusProgress = ({ status }) => {
       {/* Status Points and Line */}
       <div className="relative">
         {/* Base Line */}
-        <div className="absolute top-2 left-0 right-0 h-0.5 bg-gray-100"></div>
+        <div className="absolute top-0 left-0 right-0 h-2 bg-gray-100 rounded-full"></div>
         
         {/* Progress Line */}
         <div 
-          className="absolute top-2 left-0 h-0.5 bg-gradient-to-r from-blue-500 via-emerald-500 to-orange-500 transition-all duration-1000 ease-out"
+          className="absolute top-0 left-0 h-2 bg-gradient-to-r from-blue-500 via-emerald-500 to-orange-500 rounded-full transition-all duration-1000 ease-out"
           style={{ width: `${progress}%` }}
         />
 
-        {/* Status Points */}
-        <div className="flex justify-between relative">
+        {/* Status Labels */}
+        <div className="flex justify-between relative pt-6">
           {statuses.map((s, i) => {
             const colors = getStatusColor(i)
-            const isCurrentStatus = statusOrder[status] === i
             
             return (
               <div 
                 key={s}
                 className="flex flex-col items-center"
               >
-                {/* Status Dot */}
-                <div 
-                  className={`w-4 h-4 rounded-full ${colors.bg} ring-[3px] ring-white shadow-sm transition-all duration-300 ${
-                    isCurrentStatus ? 'scale-110' : ''
-                  }`}
-                >
-                  {isCompleted(i) && (
-                    <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent rounded-full" />
-                  )}
-                </div>
-                
-                {/* Status Label */}
-                <div className="mt-3 text-center">
-                  <span className={`text-[11px] font-medium whitespace-nowrap transition-colors duration-300 ${colors.text}`}>
-                    {s}
-                  </span>
-                </div>
+                <span className={`text-[11px] font-medium whitespace-nowrap transition-colors duration-300 ${colors.text}`}>
+                  {s}
+                </span>
               </div>
             )
           })}
