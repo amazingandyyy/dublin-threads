@@ -136,6 +136,43 @@ function Post ({ data }) {
   }
 }
 
+function TimelineNav ({ dates, activeDate, onDateClick, groupedThreads }) {
+  return (
+    <div className='hidden lg:block fixed right-8 top-1/2 -translate-y-1/2 z-30'>
+      <div className='bg-white/80 backdrop-blur-sm rounded-2xl shadow-sm border border-gray-100 p-2'>
+        <div className='flex flex-col gap-2'>
+          {dates.map((date) => {
+            const isActive = date === activeDate
+            const updateCount = groupedThreads[date]?.length || 0
+            return (
+              <button
+                key={date}
+                onClick={() => onDateClick(date)}
+                className='group relative flex items-center'
+              >
+                <div className={`
+                  absolute right-full mr-3 px-3 py-1.5 rounded-lg bg-gray-800 text-white text-sm
+                  opacity-0 group-hover:opacity-100 transition-opacity duration-200
+                  pointer-events-none whitespace-nowrap flex items-center gap-2
+                `}>
+                  <span>{date}</span>
+                  <span className='px-1.5 py-0.5 bg-gray-700 rounded text-xs font-medium'>
+                    {updateCount} {updateCount === 1 ? 'update' : 'updates'}
+                  </span>
+                </div>
+                <div className={`
+                  w-2 h-2 rounded-full transition-all duration-200
+                  ${isActive ? 'bg-gray-800 scale-125' : 'bg-gray-300 group-hover:bg-gray-400'}
+                `} />
+              </button>
+            )
+          })}
+        </div>
+      </div>
+    </div>
+  )
+}
+
 export default function Thread ({ thread, unit = 'updates', global = false }) {
   const [loading, setLoading] = useState(true)
   const [loadingMore, setLoadingMore] = useState(false)
@@ -144,6 +181,7 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
   const threadList = useGlobalThreadListStore(state => state.list)
   const totalItems = useGlobalThreadListStore(state => state.originalList.length)
   const [stickyHeaderRefs] = useState(new Map())
+  const [activeDate, setActiveDate] = useState(null)
 
   // Filter and group updates by date
   const groupedThreads = useMemo(() => {
@@ -225,19 +263,33 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
 
   const filterConfig = {
     all: {
-      label: 'All Updates',
+      label: (
+        <div className='flex items-center gap-2'>
+          Threads
+          <span className='px-1.5 py-0.5 bg-green-500 text-white text-xs rounded-full font-medium'>
+            New
+          </span>
+        </div>
+      ),
       icon: PencilSquareIcon,
       activeClass: 'bg-gray-900 text-white ring-1 ring-gray-900',
       defaultClass: 'bg-white text-gray-600 hover:text-gray-900 ring-1 ring-gray-200 hover:ring-gray-300'
     },
     meeting: {
-      label: 'Meetings',
+      label: (
+        <div className='flex items-center gap-2'>
+          Meetings
+          <span className='px-1.5 py-0.5 bg-purple-100 text-purple-700 text-xs rounded-full font-medium'>
+            Upcoming
+          </span>
+        </div>
+      ),
       icon: CalendarIcon,
       activeClass: 'bg-purple-600 text-white ring-1 ring-purple-600',
       defaultClass: 'bg-white text-gray-600 hover:text-purple-600 ring-1 ring-gray-200 hover:ring-purple-200'
     },
     image: {
-      label: 'Images',
+      label: 'Renderings',
       icon: CameraIcon,
       activeClass: 'bg-blue-600 text-white ring-1 ring-blue-600',
       defaultClass: 'bg-white text-gray-600 hover:text-blue-600 ring-1 ring-gray-200 hover:ring-blue-200'
@@ -249,7 +301,7 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
       defaultClass: 'bg-white text-gray-600 hover:text-amber-600 ring-1 ring-gray-200 hover:ring-amber-200'
     },
     status: {
-      label: 'Status Changes',
+      label: 'Status',
       icon: ArrowPathIcon,
       activeClass: 'bg-rose-600 text-white ring-1 ring-rose-600',
       defaultClass: 'bg-white text-gray-600 hover:text-rose-600 ring-1 ring-gray-200 hover:ring-rose-200'
@@ -290,8 +342,23 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
     return () => observer.disconnect()
   }, [stickyHeaderRefs])
 
+  const scrollToDate = (date) => {
+    setActiveDate(date)
+    const element = document.getElementById(`date-${date}`)
+    if (element) {
+      const offset = element.getBoundingClientRect().top + window.pageYOffset - 100
+      window.scrollTo({ top: offset, behavior: 'smooth' })
+    }
+  }
+
   return (
     <div className='container mx-auto px-4 py-4'>
+      <TimelineNav 
+        dates={Object.keys(groupedThreads)} 
+        activeDate={activeDate}
+        onDateClick={scrollToDate}
+        groupedThreads={groupedThreads}
+      />
       <div className='flex flex-col mb-4'>
         {global && (
           <>
@@ -306,27 +373,59 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
                 onChange={onSearch}
               />
             </div>
-            <div className='max-w-2xl mx-auto w-full mb-4'>
-              <div className='flex flex-wrap gap-1.5 justify-center'>
-                {Object.entries(filterConfig).map(([key, config]) => {
-                  const Icon = config.icon
-                  const isActive = activeFilter === key
-                  return (
-                    <button
-                      key={key}
-                      onClick={() => setActiveFilter(key)}
-                      className={`
-                        px-4 py-2 rounded-xl text-sm font-medium 
-                        transition-all duration-200 flex items-center gap-2 shadow-sm
-                        ${isActive ? config.activeClass : config.defaultClass}
-                        ${isActive ? '' : 'hover:bg-gray-50 hover:border-gray-300'}
-                      `}
-                    >
-                      <Icon className={`w-4 h-4 ${isActive ? 'text-white' : 'text-gray-400'}`} />
-                      {config.label}
-                    </button>
-                  )
-                })}
+            <div className='max-w-2xl mx-auto w-full mb-6'>
+              <div className='flex flex-col gap-4'>
+                <div className='flex flex-wrap gap-2 justify-center'>
+                  {Object.entries(filterConfig).map(([key, config]) => {
+                    const Icon = config.icon
+                    const isActive = activeFilter === key
+                    const count = threadList.filter(post => {
+                      const category = post.type === 'meeting'
+                        ? 'meeting'
+                        : post.path?.[1] === 'images'
+                          ? 'image'
+                          : post.path?.[1] === 'docs'
+                            ? 'document'
+                            : post.path?.[1] === 'status'
+                              ? 'status'
+                              : post.path?.[1] === 'details'
+                                ? 'detail'
+                                : 'other'
+                      return category === key
+                    }).length
+
+                    return (
+                      <button
+                        key={key}
+                        onClick={() => setActiveFilter(key)}
+                        className={`
+                          px-4 py-2 rounded-xl text-sm font-medium 
+                          transition-all duration-200 flex items-center gap-2 shadow-sm
+                          ${isActive ? config.activeClass : config.defaultClass}
+                          ${isActive ? '' : 'hover:bg-gray-50 hover:ring-2'}
+                        `}
+                      >
+                        <Icon className={`w-4 h-4 ${isActive ? 'text-white' : 'text-gray-400'}`} />
+                        <div className='flex items-center gap-2'>
+                          {config.label}
+                          {key !== 'all' && (
+                            <span className={`
+                              px-1.5 py-0.5 rounded-full text-xs font-medium
+                              ${isActive ? 'bg-white/20 text-white' : 'bg-gray-100 text-gray-500'}
+                            `}>
+                              {count}
+                            </span>
+                          )}
+                        </div>
+                      </button>
+                    )
+                  })}
+                </div>
+                <div className='flex items-center gap-2 justify-center text-xs text-gray-500'>
+                  <span>Filter by type</span>
+                  <span>•</span>
+                  <span>{Object.values(groupedThreads).flat().length} of {totalItems} updates</span>
+                </div>
               </div>
             </div>
           </>
@@ -343,9 +442,23 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
 
       <div className='w-full flex flex-col items-center'>
         {Object.entries(groupedThreads).map(([date, posts]) => (
-          <div key={date} className='w-full max-w-2xl mb-6'>
+          <div key={date} id={`date-${date}`} className='w-full max-w-2xl mb-6'>
             <div
-              ref={el => el && stickyHeaderRefs.set(date, el)}
+              ref={el => {
+                el && stickyHeaderRefs.set(date, el)
+                if (el) {
+                  const observer = new IntersectionObserver(
+                    ([entry]) => {
+                      if (entry.isIntersecting) {
+                        setActiveDate(date)
+                      }
+                    },
+                    { threshold: 1 }
+                  )
+                  observer.observe(el)
+                  return () => observer.disconnect()
+                }
+              }}
               className='sticky top-[4.5rem] z-20'
             >
               <div className='relative'>
