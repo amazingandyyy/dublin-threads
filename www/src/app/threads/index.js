@@ -1,6 +1,6 @@
 'use client'
 import { Fragment, useEffect, useState, useRef, useMemo } from 'react'
-import { useGlobalThreadListStore } from '@/stores'
+import { useGlobalThreadListStore, useProjectProfileStore } from '@/stores'
 import _ from 'lodash'
 import {
   CameraIcon,
@@ -236,6 +236,7 @@ const TextDiff = ({ oldText, newText }) => {
 }
 
 function Post ({ data }) {
+  const profiles = useProjectProfileStore(state => state.profiles)
   const CardWrapper = ({ children }) => (
     <div className='bg-white rounded-xl border border-gray-100'>
       <div className='px-6 py-5'>
@@ -295,7 +296,7 @@ function Post ({ data }) {
                 href={`/project/${data.projectId}`}
                 className='hover:text-blue-600 transition-colors duration-200 flex items-center gap-2 group/link'
               >
-                Dublin Commons
+                {profiles[data.projectId]?.title || 'Unknown Project'}
                 {data.projectId && (
                   <span className='text-xs font-normal text-gray-500 bg-gray-50 px-2 py-0.5 rounded-md border border-gray-100/50 group-hover/link:bg-blue-50 group-hover/link:text-blue-600 group-hover/link:border-blue-100/50 transition-all duration-200'>
                     Project Details
@@ -712,163 +713,165 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
   }
 
   return (
-    <div className='container mx-auto px-4 py-4'>
-      <TimelineNav
-        dates={Object.keys(groupedThreads)}
-        activeDate={activeDate}
-        onDateClick={scrollToDate}
-        groupedThreads={groupedThreads}
-      />
-      <div className='flex flex-col mb-4'>
-        {global && (
-          <>
-            <div className='max-w-2xl mx-auto w-full mb-4 relative'>
-              <div className='absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none'>
-                <MagnifyingGlassIcon className='h-5 w-5 text-gray-400' />
-              </div>
-              <input
-                className='w-full bg-white rounded-2xl pl-10 pr-6 py-3.5 shadow-sm border border-gray-200 focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all duration-200 outline-none placeholder:text-gray-400'
-                placeholder='Search for projects or meetings...'
-                name='global-search'
-                onChange={onSearch}
-              />
-            </div>
-            <div className='max-w-2xl mx-auto w-full mb-6'>
-              <div className='flex flex-col gap-4'>
-                <div className='flex flex-wrap gap-2 justify-center'>
-                  {Object.entries(filterConfig).map(([key, config]) => {
-                    const Icon = config.icon
-                    const isActive = activeFilter === key
-                    const count = threadList.filter(post => {
-                      const category = post.type === 'meeting'
-                        ? 'meeting'
-                        : post.path?.[1] === 'images'
-                          ? 'image'
-                          : post.path?.[1] === 'docs'
-                            ? 'document'
-                            : post.path?.[1] === 'status'
-                              ? 'status'
-                              : post.path?.[1] === 'details'
-                                ? 'detail'
-                                : 'other'
-                      return category === key
-                    }).length
-
-                    return (
-                      <button
-                        key={key}
-                        onClick={() => setActiveFilter(key)}
-                        className={`
-                          px-4 py-2.5 rounded-xl text-sm font-medium 
-                          transition-all duration-200 flex items-center gap-2.5 shadow-sm
-                          ${isActive ? config.activeClass : config.defaultClass}
-                          ${isActive ? '' : 'hover:bg-gray-50 hover:ring-2'}
-                        `}
-                      >
-                        <Icon className={`w-4 h-4 ${isActive ? 'text-white' : 'text-gray-400'}`} />
-                        <div className='flex items-center gap-2'>
-                          {config.label}
-                          {key !== 'all' && (
-                            <span className={`
-                              px-2 py-0.5 rounded-full text-xs font-medium
-                              ${isActive ? 'bg-white/20 text-white' : 'bg-gray-100 text-gray-500'}
-                            `}>
-                              {count}
-                            </span>
-                          )}
-                        </div>
-                      </button>
-                    )
-                  })}
+    <div>
+      <div className='container mx-auto px-4 py-4'>
+        <TimelineNav
+          dates={Object.keys(groupedThreads)}
+          activeDate={activeDate}
+          onDateClick={scrollToDate}
+          groupedThreads={groupedThreads}
+        />
+        <div className='flex flex-col mb-4'>
+          {global && (
+            <>
+              <div className='max-w-2xl mx-auto w-full mb-4 relative'>
+                <div className='absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none'>
+                  <MagnifyingGlassIcon className='h-5 w-5 text-gray-400' />
                 </div>
-                <div className='flex items-center gap-2 justify-center text-xs text-gray-500'>
-                  <span>Filter by type</span>
-                  <span>•</span>
-                  <span>{Object.values(groupedThreads).flat().length} of {totalItems} updates</span>
-                </div>
+                <input
+                  className='w-full bg-white rounded-2xl pl-10 pr-6 py-3.5 shadow-sm border border-gray-200 focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all duration-200 outline-none placeholder:text-gray-400'
+                  placeholder='Search for projects or meetings...'
+                  name='global-search'
+                  onChange={onSearch}
+                />
               </div>
-            </div>
-          </>
-        )}
-        <div className='text-center text-gray-600 text-sm font-medium'>
-          {loading
-            ? <span className='animate-pulse'>Loading...</span>
-            : <span>{Object.values(groupedThreads).flat().length} of {totalItems} {unit}</span>
-          }
-        </div>
-      </div>
+              <div className='max-w-2xl mx-auto w-full mb-6'>
+                <div className='flex flex-col gap-4'>
+                  <div className='flex flex-wrap gap-2 justify-center'>
+                    {Object.entries(filterConfig).map(([key, config]) => {
+                      const Icon = config.icon
+                      const isActive = activeFilter === key
+                      const count = threadList.filter(post => {
+                        const category = post.type === 'meeting'
+                          ? 'meeting'
+                          : post.path?.[1] === 'images'
+                            ? 'image'
+                            : post.path?.[1] === 'docs'
+                              ? 'document'
+                              : post.path?.[1] === 'status'
+                                ? 'status'
+                                : post.path?.[1] === 'details'
+                                  ? 'detail'
+                                  : 'other'
+                        return category === key
+                      }).length
 
-      {loading && <PostPlaceholder />}
-
-      <div className='w-full flex flex-col items-center'>
-        {Object.entries(groupedThreads).map(([date, posts]) => (
-          <div key={date} id={`date-${date}`} className='w-full max-w-2xl mb-6'>
-            {posts.length > 0 
-              ? (
-                <>
-                  <div
-                    ref={el => {
-                      el && stickyHeaderRefs.set(date, el)
-                      if (el) {
-                        const observer = new IntersectionObserver(
-                          ([entry]) => {
-                            if (entry.isIntersecting) {
-                              setActiveDate(date)
-                            }
-                          },
-                          { threshold: 1 }
-                        )
-                        observer.observe(el)
-                        return () => observer.disconnect()
-                      }
-                    }}
-                    className='sticky top-[4.5rem] z-20'
-                  >
-                    <div className='relative'>
-                      <div className='absolute inset-x-0 h-full bg-white/95 backdrop-blur-md'></div>
-                      <div className='relative max-w-2xl mx-auto py-3.5'>
-                        <div className='flex items-center justify-between px-6'>
-                          <div className='flex items-center gap-3'>
-                            <div className='w-1.5 h-1.5 rounded-full bg-gray-400'></div>
-                            <div className='text-sm font-semibold text-gray-700'>
-                              {date}
-                            </div>
+                      return (
+                        <button
+                          key={key}
+                          onClick={() => setActiveFilter(key)}
+                          className={`
+                            px-4 py-2.5 rounded-xl text-sm font-medium 
+                            transition-all duration-200 flex items-center gap-2.5 shadow-sm
+                            ${isActive ? config.activeClass : config.defaultClass}
+                            ${isActive ? '' : 'hover:bg-gray-50 hover:ring-2'}
+                          `}
+                        >
+                          <Icon className={`w-4 h-4 ${isActive ? 'text-white' : 'text-gray-400'}`} />
+                          <div className='flex items-center gap-2'>
+                            {config.label}
+                            {key !== 'all' && (
+                              <span className={`
+                                px-2 py-0.5 rounded-full text-xs font-medium
+                                ${isActive ? 'bg-white/20 text-white' : 'bg-gray-100 text-gray-500'}
+                              `}>
+                                {count}
+                              </span>
+                            )}
                           </div>
-                          <div className='text-xs font-medium px-3 py-1.5 bg-gray-100 text-gray-500 rounded-full ring-1 ring-gray-200/50'>
-                            {posts.length} updates
+                        </button>
+                      )
+                    })}
+                  </div>
+                  <div className='flex items-center gap-2 justify-center text-xs text-gray-500'>
+                    <span>Filter by type</span>
+                    <span>•</span>
+                    <span>{Object.values(groupedThreads).flat().length} of {totalItems} updates</span>
+                  </div>
+                </div>
+              </div>
+            </>
+          )}
+          <div className='text-center text-gray-600 text-sm font-medium'>
+            {loading
+              ? <span className='animate-pulse'>Loading...</span>
+              : <span>{Object.values(groupedThreads).flat().length} of {totalItems} {unit}</span>
+            }
+          </div>
+        </div>
+
+        {loading && <PostPlaceholder />}
+
+        <div className='w-full flex flex-col items-center'>
+          {Object.entries(groupedThreads).map(([date, posts]) => (
+            <div key={date} id={`date-${date}`} className='w-full max-w-2xl mb-6'>
+              {posts.length > 0 
+                ? (
+                  <>
+                    <div
+                      ref={el => {
+                        el && stickyHeaderRefs.set(date, el)
+                        if (el) {
+                          const observer = new IntersectionObserver(
+                            ([entry]) => {
+                              if (entry.isIntersecting) {
+                                setActiveDate(date)
+                              }
+                            },
+                            { threshold: 1 }
+                          )
+                          observer.observe(el)
+                          return () => observer.disconnect()
+                        }
+                      }}
+                      className='sticky top-[4.5rem] z-20'
+                    >
+                      <div className='relative'>
+                        <div className='absolute inset-x-0 h-full bg-white/95 backdrop-blur-md'></div>
+                        <div className='relative max-w-2xl mx-auto py-3.5'>
+                          <div className='flex items-center justify-between px-6'>
+                            <div className='flex items-center gap-3'>
+                              <div className='w-1.5 h-1.5 rounded-full bg-gray-400'></div>
+                              <div className='text-sm font-semibold text-gray-700'>
+                                {date}
+                              </div>
+                            </div>
+                            <div className='text-xs font-medium px-3 py-1.5 bg-gray-100 text-gray-500 rounded-full ring-1 ring-gray-200/50'>
+                              {posts.length} updates
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div className='space-y-4 relative mt-3 px-0'>
-                    {posts.map((post, i) => (
-                      <Post key={`${post.projectId}-${i}`} data={post} />
-                    ))}
-                  </div>
-                </>
-                )
-              : null
-            }
-          </div>
-        ))}
-        {Object.values(groupedThreads).flat().length === 0 && !loading && (
-          <div className='flex flex-col items-center justify-center py-12 px-4'>
-            <div className='text-sm text-gray-500 text-center'>
-              No updates found for this time period
+                    <div className='space-y-4 relative mt-3 px-0'>
+                      {posts.map((post, i) => (
+                        <Post key={`${post.projectId}-${i}`} data={post} />
+                      ))}
+                    </div>
+                  </>
+                  )
+                : null
+              }
             </div>
-          </div>
-        )}
-        {hasMore && !loading && (
-          <div
-            ref={loadMoreRef}
-            className='w-full max-w-2xl py-8 flex justify-center px-6'
-          >
-            <div className={`text-gray-500 ${loadingMore ? 'animate-pulse' : ''} py-4 px-6 bg-gray-50/50 rounded-full`}>
-              {loadingMore ? 'Loading more...' : 'Scroll to load more'}
+          ))}
+          {Object.values(groupedThreads).flat().length === 0 && !loading && (
+            <div className='flex flex-col items-center justify-center py-12 px-4'>
+              <div className='text-sm text-gray-500 text-center'>
+                No updates found for this time period
+              </div>
             </div>
-          </div>
-        )}
+          )}
+          {hasMore && !loading && (
+            <div
+              ref={loadMoreRef}
+              className='w-full max-w-2xl py-8 flex justify-center px-6'
+            >
+              <div className={`text-gray-500 ${loadingMore ? 'animate-pulse' : ''} py-4 px-6 bg-gray-50/50 rounded-full`}>
+                {loadingMore ? 'Loading more...' : 'Scroll to load more'}
+              </div>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   )

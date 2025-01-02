@@ -67,7 +67,7 @@ export default function Threads () {
   return (
     <>
       <GlobalHeader />
-      <main className='pt-16 h-full bg-gray-100'>
+      <main className='min-h-screen bg-[#F3F2EE]'>
         <div className='flex flex-col items-center text-center text-gray-600 p-4 pt-16'>
           <div className='font-handwriting text-3xl md:text-6xl font-bold text-green-950 mb-4'>
             A Thread for <span>Dublin, CA</span>

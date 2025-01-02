@@ -8,10 +8,11 @@ import {
 } from 'lucide-react'
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
-import { useProjectProfileStore, useThreadStore } from '@/stores'
+import { useProjectProfileStore, useThreadStore, useGlobalThreadListStore } from '@/stores'
 import { fetchDevelopments, timeSince } from '@/utils'
 import Map, { Marker } from 'react-map-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
+import Thread from '../../../app/threads'
 import {
   FacebookShareButton,
   TwitterShareButton,
@@ -22,139 +23,6 @@ import {
   WhatsappIcon,
   EmailIcon
 } from 'react-share'
-
-const TimelineEvent = ({ event }) => {
-  const getIcon = () => {
-    switch (event.type) {
-      case 'submit':
-        return <FileText className="w-4 h-4 text-emerald-500" />
-      case 'status':
-        return <Clock className="w-4 h-4 text-blue-500" />
-      case 'detail':
-        return <Building2 className="w-4 h-4 text-purple-500" />
-      case 'description':
-        return <FileText className="w-4 h-4 text-orange-500" />
-      default:
-        return <Clock className="w-4 h-4 text-gray-500" />
-    }
-  }
-
-  const getEventColor = () => {
-    switch (event.type) {
-      case 'submit':
-        return 'bg-emerald-50 text-emerald-700'
-      case 'status':
-        return 'bg-blue-50 text-blue-700'
-      case 'detail':
-        return 'bg-purple-50 text-purple-700'
-      case 'description':
-        return 'bg-orange-50 text-orange-700'
-      default:
-        return 'bg-gray-50 text-gray-700'
-    }
-  }
-
-  const getIconBackground = () => {
-    switch (event.type) {
-      case 'submit':
-        return 'bg-emerald-50'
-      case 'status':
-        return 'bg-blue-50'
-      case 'detail':
-        return 'bg-purple-50'
-      case 'description':
-        return 'bg-orange-50'
-      default:
-        return 'bg-gray-50'
-    }
-  }
-
-  return (
-    <div className="relative pl-12 mb-8 last:mb-0 animate-in fade-in slide-in-from-left-1 duration-500">
-      <div className={`absolute left-0 w-8 h-8 rounded-xl ${getIconBackground()} p-2 ring-1 ring-gray-200 shadow-sm`}>
-        {getIcon()}
-      </div>
-      
-      <div className="bg-gradient-to-br from-white to-gray-50/80 rounded-2xl p-6 sm:p-8 border border-gray-200/80">
-        <div className="flex flex-wrap items-center gap-2 mb-4">
-          <time className="text-sm text-gray-500 tabular-nums">
-            {new Date(event.timestamp).toLocaleDateString('en-US', {
-              year: 'numeric',
-              month: 'short',
-              day: 'numeric'
-            })}
-          </time>
-          <span className={`px-3 py-1 text-xs font-medium rounded-full ${getEventColor()}`}>
-            {event.type.charAt(0).toUpperCase() + event.type.slice(1)}
-          </span>
-        </div>
-        <h3 className="text-lg font-semibold text-gray-900 mb-4">{event.title}</h3>
-        
-        {event.type === 'description' && (
-          <div className="mt-6 space-y-4 bg-gray-50 rounded-xl p-6">
-            <div className="space-y-3">
-              <div className="flex items-start gap-3">
-                <div className="flex-shrink-0 w-24">
-                  <span className="text-xs font-medium text-gray-500 uppercase tracking-wider">Previous</span>
-                </div>
-                <div className="text-sm text-gray-600">{event.oldValue || 'Not set'}</div>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="flex-shrink-0 w-24">
-                  <span className="text-xs font-medium text-gray-500 uppercase tracking-wider">New</span>
-                </div>
-                <div className="text-sm font-medium text-emerald-600">{event.newValue}</div>
-              </div>
-            </div>
-          </div>
-        )}
-        
-        {event.type === 'detail' && (
-          <div className="mt-6 space-y-6">
-            {event.changes.map((change, idx) => (
-              <div key={idx} className="bg-gray-50 rounded-xl p-6">
-                <div className="text-sm font-medium text-gray-700 mb-4">{change.field}</div>
-                <div className="space-y-3">
-                  <div className="flex items-start gap-3">
-                    <div className="flex-shrink-0 w-24">
-                      <span className="text-xs font-medium text-gray-500 uppercase tracking-wider">Previous</span>
-                    </div>
-                    <div className="text-sm text-gray-600">{change.oldValue || 'Not set'}</div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <div className="flex-shrink-0 w-24">
-                      <span className="text-xs font-medium text-gray-500 uppercase tracking-wider">New</span>
-                    </div>
-                    <div className="text-sm font-medium text-emerald-600">{change.newValue}</div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        )}
-        
-        {event.type === 'status' && (
-          <div className="mt-6 bg-gray-50 rounded-xl p-6">
-            <div className="space-y-3">
-              <div className="flex items-start gap-3">
-                <div className="flex-shrink-0 w-24">
-                  <span className="text-xs font-medium text-gray-500 uppercase tracking-wider">Previous</span>
-                </div>
-                <div className="text-sm text-gray-600">{event.oldValue || 'Not set'}</div>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="flex-shrink-0 w-24">
-                  <span className="text-xs font-medium text-gray-500 uppercase tracking-wider">New</span>
-                </div>
-                <div className="text-sm font-medium text-emerald-600">{event.newValue}</div>
-              </div>
-            </div>
-          </div>
-        )}
-      </div>
-    </div>
-  )
-}
 
 const InfoTooltip = ({ text }) => (
   <div className="group relative inline-block ml-1">
@@ -194,10 +62,10 @@ const CardHeader = ({ icon: Icon, title, color = 'emerald' }) => (
   </div>
 )
 
-const Card = ({ children, className = '', noPadding = false }) => (
-  <div className={`bg-gradient-to-br from-white to-gray-50/80 rounded-2xl border border-gray-200/80 ${
-    noPadding ? '' : 'p-8'
-  } ${className}`}>
+const Card = ({ children, className = '' }) => (
+  <div
+    className={`bg-white rounded-2xl border border-gray-200/80 p-8 ${className}`}
+  >
     {children}
   </div>
 )
@@ -234,8 +102,9 @@ const StatusProgress = ({ status }) => {
   const statusOrder = {
     Submitted: 0,
     'Under Review': 1,
-    'Pubic Hearing': 2,
+    'Pubic Hearing': 2, // this is intended typo, keep it, don't fix it
     'Public Hearing': 2,
+    'Final Action': 3,
     Approved: 3,
     'In Progress': 4,
     Completed: 5
@@ -345,9 +214,12 @@ export default function Project ({ params }) {
       .then(res => res.json())
       .then(data => {
         useThreadStore.getState().update(data)
+        // Filter threads for this project and update global thread list
+        const projectThreads = data.filter(item => item.projectId === params.projectId)
+        useGlobalThreadListStore.getState().init(projectThreads)
         setLoading(false)
       })
-  }, [])
+  }, [params.projectId])
 
   useProjectProfileStore.subscribe(() => {
     setProject(useProjectProfileStore.getState().current(params.projectId))
@@ -408,81 +280,13 @@ export default function Project ({ params }) {
 
   const shareUrl = `https://dublin.amazyyy.com/project/${id}`
 
-  const processTimelineEvents = (project) => {
-    const events = []
-
-    // Add initial submission
-    events.push({
-      type: 'submit',
-      title: 'Project Submitted',
-      timestamp: standardDate.getTime(),
-      description: `Planning Application #${details['Planning Application #']} submitted`
-    })
-
-    // Process all operations from the project logs
-    if (project.threads) {
-      project.threads.forEach(thread => {
-        const timestamp = parseInt(thread.timestamp)
-        
-        if (thread.op === 'update') {
-          const updateType = thread.path?.[1]
-          
-          switch (updateType) {
-            case 'status':
-              events.push({
-                type: 'status',
-                title: 'Status Updated',
-                timestamp,
-                oldValue: thread.oldVal,
-                newValue: thread.val
-              })
-              break
-              
-            case 'description':
-              events.push({
-                type: 'description',
-                title: 'Description Updated',
-                timestamp,
-                oldValue: thread.oldVal,
-                newValue: thread.val
-              })
-              break
-              
-            case 'details':
-              events.push({
-                type: 'detail',
-                title: 'Project Details Updated',
-                timestamp,
-                changes: [{
-                  field: thread.path[2],
-                  oldValue: thread.oldVal,
-                  newValue: thread.val
-                }]
-              })
-              break
-          }
-        }
-      })
-    }
-
-    // Sort by timestamp (newest first)
-    return events.sort((a, b) => b.timestamp - a.timestamp)
-  }
-
   const renderTimeline = () => {
-    const events = processTimelineEvents(project)
-    
     return (
-      <div className="space-y-8 animate-fadeIn">
-        <Card>
+      <div className="space-y-8 animate-fadeIn bg-[#F3F2EE]">
+        <Card className="bg-white">
           <CardHeader icon={Clock} title="Project Timeline" />
-          <div className="p-8">
-            <div className="relative">
-              <div className="absolute left-4 top-0 bottom-0 w-px bg-gray-200"></div>
-              {events.map((event, index) => (
-                <TimelineEvent key={index} event={event} />
-              ))}
-            </div>
+          <div>
+            <Thread thread={threads} unit="updates" global={false} />
           </div>
         </Card>
       </div>
