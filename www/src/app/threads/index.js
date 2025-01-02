@@ -378,6 +378,7 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
   const [loading, setLoading] = useState(true)
   const [loadingMore, setLoadingMore] = useState(false)
   const [activeFilter, setActiveFilter] = useState('all')
+  const [showAnnouncement, setShowAnnouncement] = useState(true)
   const loadMoreRef = useRef(null)
   const threadList = useGlobalThreadListStore(state => state.list)
   const totalItems = useGlobalThreadListStore(state => state.originalList.length)
@@ -549,6 +550,47 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
 
   return (
     <div className='container mx-auto px-4 py-4'>
+      {showAnnouncement && (
+        <div className='max-w-2xl mx-auto w-full mb-6 group'>
+          <div className='bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-white via-green-50/10 to-emerald-50/5 rounded-2xl border border-green-100/20 overflow-hidden backdrop-blur-xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] ring-1 ring-green-100/20 hover:ring-green-200/30 transition-all duration-700 ease-in-out hover:shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:-translate-y-0.5'>
+            <div className='px-8 py-7 relative'>
+              <button 
+                onClick={() => setShowAnnouncement(false)}
+                className='absolute top-4 right-4 text-green-400/50 hover:text-green-500 p-1.5 hover:bg-white/80 rounded-full transition-all duration-300 hover:shadow-md hover:scale-105 active:scale-95'
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
+                  <path fillRule="evenodd" d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z" clipRule="evenodd" />
+                </svg>
+              </button>
+              <div className='flex flex-col items-center text-center'>
+                <div className='text-xl font-bold tracking-wide text-green-800/80 mb-4 flex items-center gap-3 group-hover:scale-[1.01] transition-transform duration-700'>
+                  <span className='text-2xl animate-[pulse_2s_ease-in-out_infinite]'>✨</span>
+                  <span className='bg-clip-text text-transparent bg-gradient-to-r from-green-700/90 via-emerald-600/90 to-green-700/90 hover:from-green-600/90 hover:to-emerald-700/90 transition-all duration-700'>
+                    Happy New Year 2025!
+                  </span>
+                  <span className='text-2xl animate-[pulse_2s_ease-in-out_infinite] delay-1000'>✨</span>
+                </div>
+                <div className='space-y-4 text-green-700/80 text-sm'>
+                  <p className='leading-relaxed tracking-wide font-medium'>
+                    As a Dublin resident, I&apos;m excited to share that Dublin Threads is getting a revamp! 
+                    Feel free to chat with me using the button in the bottom right corner. 💬
+                  </p>
+                  <div className='pt-3 flex flex-wrap items-center justify-center gap-3 text-xs'>
+                    <span className='group/badge px-4 py-2 bg-gradient-to-br from-white to-green-50/60 rounded-full text-green-700/90 font-medium ring-1 ring-green-100/20 shadow-sm hover:shadow-md hover:scale-[1.02] transition-all duration-500 ease-in-out'>
+                      <span className='inline-flex items-center gap-1'>
+                        Made with <span className='text-red-400 group-hover/badge:scale-110 transition-transform duration-500'>❤️</span> in Dublin
+                      </span>
+                    </span>
+                    <span className='px-4 py-2 bg-gradient-to-br from-white to-green-50/60 rounded-full text-green-700/90 font-medium ring-1 ring-green-100/20 shadow-sm hover:shadow-md hover:scale-[1.02] transition-all duration-500 ease-in-out'>
+                      Community Driven
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
       <TimelineNav
         dates={Object.keys(groupedThreads)}
         activeDate={activeDate}
