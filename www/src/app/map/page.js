@@ -115,7 +115,7 @@ export default function MapPage ({ params, searchParams }) {
               />
             </Source>
 
-            <div className='absolute bottom-4 right-4 flex flex-col gap-2'>
+            <div className='absolute top-20 right-4 flex flex-col gap-2'>
               <GeolocateControl
                 positionOptions={{ enableHighAccuracy: true }}
                 trackUserLocation={true}
@@ -124,7 +124,9 @@ export default function MapPage ({ params, searchParams }) {
               />
               <NavigationControl />
             </div>
-            <ScaleControl />
+            <div className='absolute bottom-4 left-4'>
+              <ScaleControl />
+            </div>
           </Map>
         </div>
       </main>

@@ -1,25 +1,25 @@
 import Header from '../header'
 import Bottom from '../bottom'
-import { PostImages, PostDocs, PostCard } from '../templates'
-
-// function mainEmoji (n) {
-//   const d = ['📣', '🤩']
-//   return d[n % d.length + 0]
-// }
-
-function PostWrapper ({ data }) {
-  const body = postBody(data)
-  if (body) {
-    return (<PostCard>
-      <Header data={data} />
-        {body}
-      <Bottom data={data} />
-    </PostCard>)
-  }
-  return <></>
-}
+import { PostImages, PostDocs } from '../templates'
 
 function postBody (data) {
+  // For image updates, only show if it's the original image update and has valid content
+  if (data.path?.[1] === 'images') {
+    // Only show the first image update in a batch
+    const isFirstImageUpdate = data.path?.[2] === '0' || !data.path?.[2]
+    const isOriginalImage = data.path?.[3] === 'original'
+    const hasValidImage = Boolean(data.val)
+
+    if (isFirstImageUpdate && isOriginalImage && hasValidImage) {
+      const imageComponent = <PostImages data={data} original={data.val} />
+      // Only return if the image component renders successfully
+      if (imageComponent) {
+        return imageComponent
+      }
+    }
+    return null
+  }
+
   if (typeof data.val === 'string') {
     switch (data.path[1]) {
       case 'details':
@@ -57,15 +57,6 @@ function postBody (data) {
             <span className='text-green-700 font-medium'>{data.val}</span>
           </div>
         )
-      case 'images':
-        if (data.path[3] === 'original') {
-          return (
-            <div className='mt-4'>
-              <PostImages data={data} original={data.val} />
-            </div>
-          )
-        }
-        return false
       case 'location':
         return (
           <div className='text-gray-700'>
@@ -75,7 +66,7 @@ function postBody (data) {
           </div>
         )
       case 'geolocation':
-        return false
+        return null
       case 'description':
         return (
           <div className='prose prose-green max-w-none'>
@@ -83,24 +74,24 @@ function postBody (data) {
           </div>
         )
       case 'docs':
-        return (
-          <div className='mt-4'>
-            <PostDocs data={data} url={data.val} />
-          </div>
-        )
+        return <PostDocs data={data} url={data.val} />
       default:
-        return false
+        return null
     }
   }
-  return false
+  return null
 }
 
 export default function UpdatePost ({ data }) {
+  const body = postBody(data)
+  // Don't render anything if there's no content
+  if (!body) return null
+
   return (
-    <PostCard>
+    <div className='flex flex-col space-y-4'>
       <Header data={data} />
-      <div className='mt-4'>{postBody(data)}</div>
+      {body}
       <Bottom data={data} />
-    </PostCard>
+    </div>
   )
 }
