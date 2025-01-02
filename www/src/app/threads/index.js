@@ -11,13 +11,11 @@ import {
   MagnifyingGlassIcon,
   ArrowTopRightOnSquareIcon
 } from '@heroicons/react/24/outline'
+import { diffWords } from 'diff'
 
 // Utility function to validate post content
-const isValidPost = (post) => {
+const isValidPost = (post, threadList = []) => {
   if (!post) return false
-
-  // Skip thumbnail updates
-  if (post.path?.[1] === 'thumbnail') return false
 
   if (post.op === 'add' && post.path?.[1] === 'docs') {
     return !!post.val?.url && !!post.val?.name // Validate document has required fields
@@ -25,14 +23,28 @@ const isValidPost = (post) => {
 
   if (post.op === 'update') {
     const updateType = post.path?.[1]
-    const fieldName = post.path?.[2]
 
     // Validate that we have both old and new values for updates
     if (!post.val) return false
 
     // Special case for Planning Application updates
-    if (updateType === 'details' && fieldName === 'Planning Application #') {
+    if (updateType === 'details' && post.path?.[2] === 'Planning Application #') {
       return true
+    }
+
+    // Handle image updates
+    if (updateType === 'images') {
+      const imageType = post.path?.[3] // 'original' or 'thumbnail'
+      
+      if (imageType === 'thumbnail') {
+        // Skip thumbnail updates - we'll show the original image update instead
+        return false
+      }
+      
+      if (imageType === 'original') {
+        // Show the original image update
+        return true
+      }
     }
 
     // Validate regular updates
@@ -40,7 +52,6 @@ const isValidPost = (post) => {
       case 'status':
       case 'description':
       case 'details':
-      case 'images': // Only keep high quality image updates
         return true
       default:
         return false
@@ -48,6 +59,33 @@ const isValidPost = (post) => {
   }
 
   return false
+}
+
+// Utility function to render inline diff
+const InlineDiff = ({ oldText, newText }) => {
+  const parts = diffWords(oldText || '', newText || '')
+  
+  return (
+    <div className="font-mono text-sm">
+      {parts.map((part, i) => {
+        if (part.added) {
+          return (
+            <span key={i} className="bg-emerald-50 text-emerald-700 px-0.5 mx-0.5 rounded border border-emerald-100">
+              {part.value}
+            </span>
+          )
+        }
+        if (part.removed) {
+          return (
+            <span key={i} className="bg-rose-50 text-rose-700 px-0.5 mx-0.5 line-through rounded border border-rose-100">
+              {part.value}
+            </span>
+          )
+        }
+        return <span key={i}>{part.value}</span>
+      })}
+    </div>
+  )
 }
 
 function PostPlaceholder () {
@@ -179,162 +217,59 @@ function Post ({ data }) {
     )
   }
 
-  const renderStatusUpdate = () => {
+  const renderStatusUpdate = ({ oldVal, val }) => {
     return (
       <div className='flex flex-col'>
         <div className='text-sm text-gray-600 mb-3'>
           Updated the project status
         </div>
         <div className='flex items-center gap-4'>
-          <div className='flex-1 px-4 py-3 bg-gradient-to-br from-gray-50 to-transparent border border-gray-100/50 rounded-lg shadow-sm'>
+          <div className='flex-1 px-4 py-3 bg-gray-50 rounded-xl'>
             <div className='text-xs text-gray-500 mb-1.5'>Previous status</div>
-            <div className='text-sm text-gray-600'>{data.oldVal}</div>
+            <div className='text-sm text-gray-600'>{oldVal}</div>
           </div>
           <div className='w-8 h-8 bg-rose-100/75 rounded-lg flex items-center justify-center flex-shrink-0 shadow-sm border border-rose-100/50'>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 text-rose-600">
               <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z" clipRule="evenodd" />
             </svg>
           </div>
-          <div className='flex-1 px-4 py-3 bg-gradient-to-br from-rose-50 to-transparent border border-rose-100/50 rounded-lg shadow-sm'>
+          <div className='flex-1 px-4 py-3 bg-gradient-to-br from-rose-50 to-transparent rounded-xl border border-rose-100/50'>
             <div className='text-xs text-rose-500 mb-1.5'>New status</div>
-            <div className='text-sm text-rose-600 font-medium'>{data.val}</div>
+            <div className='text-sm text-rose-600 font-medium'>{val}</div>
           </div>
         </div>
       </div>
     )
   }
 
-  const renderDescriptionUpdate = () => {
-    // Function to create inline diff visualization
-    const createInlineDiffView = (oldText, newText) => {
-      if (!oldText || !newText) return oldText || newText
-
-      const words1 = oldText.split(' ')
-      const words2 = newText.split(' ')
-      let i = 0
-      let j = 0
-      const result = []
-      
-      while (i < words1.length || j < words2.length) {
-        if (i < words1.length && j < words2.length && words1[i] === words2[j]) {
-          result.push({ text: words1[i], type: 'same' })
-          i++
-          j++
-        } else {
-          // Look ahead to find the next matching word
-          let matchFound = false
-          const lookAhead = 3 // Maximum words to look ahead
-          
-          // Try to find removed words
-          for (let k = 0; k < lookAhead && i + k < words1.length; k++) {
-            const matchInNew = words2.slice(j).indexOf(words1[i + k])
-            if (matchInNew !== -1) {
-              // Add removed words before the match
-              for (let l = 0; l < k; l++) {
-                result.push({ text: words1[i + l], type: 'removed' })
-              }
-              // Add added words before the match
-              for (let l = 0; l < matchInNew; l++) {
-                result.push({ text: words2[j + l], type: 'added' })
-              }
-              i += k
-              j += matchInNew
-              matchFound = true
-              break
-            }
-          }
-          
-          if (!matchFound) {
-            if (i < words1.length) {
-              result.push({ text: words1[i], type: 'removed' })
-              i++
-            }
-            if (j < words2.length) {
-              result.push({ text: words2[j], type: 'added' })
-              j++
-            }
-          }
-        }
-      }
-      
-      return result.map(w => {
-        switch (w.type) {
-          case 'removed':
-            return `<span class="bg-red-50 text-red-700 line-through px-1 mx-0.5 rounded">${w.text}</span>`
-          case 'added':
-            return `<span class="bg-green-50 text-green-700 px-1 mx-0.5 rounded">${w.text}</span>`
-          default:
-            return w.text
-        }
-      }).join(' ')
-    }
-
-    const inlineDiff = createInlineDiffView(data.oldVal, data.val)
-
+  const renderDescriptionUpdate = ({ oldVal, val }) => {
     return (
       <div className='flex flex-col'>
         <div className='text-sm text-gray-600 mb-3'>
           Updated the project description
         </div>
-        <div className='space-y-3'>
-          <div className='px-4 py-3 bg-gradient-to-br from-gray-50 to-transparent border border-gray-100 rounded-lg'>
-            <div className='text-xs text-gray-500 mb-2'>Changes</div>
-            <div 
-              className='text-sm text-gray-700 leading-relaxed'
-              dangerouslySetInnerHTML={{ __html: inlineDiff }}
-            />
-          </div>
-          <div className='flex items-center gap-4 px-4 py-2 bg-gray-50/50 rounded-lg'>
-            <div className='flex items-center gap-2'>
-              <div className='w-3 h-3 bg-red-50 border border-red-200 rounded'></div>
-              <span className='text-xs text-gray-500'>Removed text</span>
-            </div>
-            <div className='flex items-center gap-2'>
-              <div className='w-3 h-3 bg-green-50 border border-green-200 rounded'></div>
-              <span className='text-xs text-gray-500'>Added text</span>
-            </div>
-          </div>
+        <div className='px-4 py-3 bg-gray-50 rounded-xl'>
+          <InlineDiff oldText={oldVal} newText={val} />
         </div>
       </div>
     )
   }
 
-  const renderDetailUpdate = () => {
-    const fieldName = data.path[2]
-    
-    // Function to create inline diff for single values
-    const createInlineValueDiff = (oldVal, newVal) => {
-      if (oldVal === newVal) {
-        return newVal
-      }
-      return `<span class="bg-red-50 text-red-700 line-through px-1 mx-0.5 rounded">${oldVal || 'Not set'}</span> <span class="bg-green-50 text-green-700 px-1 mx-0.5 rounded">${newVal}</span>`
-    }
-
-    const inlineDiff = createInlineValueDiff(data.oldVal, data.val)
-
+  const renderDetailUpdate = ({ path, oldVal, val }) => {
+    const fieldName = path[2]
     return (
       <div className='flex flex-col'>
         <div className='text-sm text-gray-600 mb-3'>
           Updated {fieldName.toLowerCase()}
         </div>
-        <div className='px-4 py-3 bg-gradient-to-br from-gray-50 to-transparent border border-gray-100 rounded-lg'>
-          <div className='text-xs text-gray-500 mb-2'>Changes</div>
-          <div 
-            className='text-sm text-gray-700'
-            dangerouslySetInnerHTML={{ __html: inlineDiff }}
-          />
+        <div className='px-4 py-3 bg-gray-50 rounded-xl'>
+          <InlineDiff oldText={oldVal || 'Not set'} newText={val} />
         </div>
       </div>
     )
   }
 
   const renderImageUpdate = () => {
-    // Skip if this is a thumbnail update
-    if (data.path?.includes('thumbnail')) return null
-    
-    // Skip if the value contains thumbnail data
-    if (typeof data.val === 'object' && data.val?.thumbnail) return null
-
     return (
       <div className='flex flex-col'>
         <div className='text-sm text-gray-600 mb-3'>
@@ -365,28 +300,17 @@ function Post ({ data }) {
 
       // Handle special cases first
       if (updateType === 'details' && fieldName === 'Planning Application #') {
-        return (
-          <div className='flex flex-col'>
-            <div className='text-sm text-gray-900 mb-1.5'>
-              Updated Planning Application #
-            </div>
-            <div className='flex items-center gap-2 text-sm'>
-              <span className='text-gray-500 line-through'>{data.oldVal}</span>
-              <span className='text-gray-400'>→</span>
-              <span className='text-gray-900 font-medium'>{data.val}</span>
-            </div>
-          </div>
-        )
+        return renderDetailUpdate(data)
       }
 
       // Handle regular updates
       switch (updateType) {
         case 'status':
-          return renderStatusUpdate()
+          return renderStatusUpdate(data)
         case 'description':
-          return renderDescriptionUpdate()
+          return renderDescriptionUpdate(data)
         case 'details':
-          return renderDetailUpdate()
+          return renderDetailUpdate(data)
         case 'images':
           return renderImageUpdate()
         default:
@@ -396,10 +320,8 @@ function Post ({ data }) {
               <div className='text-sm text-gray-900 mb-1.5'>
                 Updated {updateType}
               </div>
-              <div className='flex items-center gap-2 text-sm'>
-                <span className='text-gray-500 line-through'>{data.oldVal || 'Not set'}</span>
-                <span className='text-gray-400'>→</span>
-                <span className='text-gray-900 font-medium'>{data.val}</span>
+              <div className='px-4 py-3 bg-gray-50 rounded-xl'>
+                <InlineDiff oldText={data.oldVal || 'Not set'} newText={data.val} />
               </div>
             </div>
           )
@@ -473,22 +395,7 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
 
   // Filter and group updates by date
   const groupedThreads = useMemo(() => {
-    // Keep track of image updates to prevent duplicates
-    const seenImages = new Set()
-
     const filteredList = threadList.filter(post => {
-      // Skip all thumbnail-related updates
-      if (post.path?.[1] === 'thumbnail') return false
-      if (post.path?.[2] === 'thumbnail') return false
-      if (post.val?.thumbnail) return false
-
-      // For image updates, prevent duplicates by tracking the image URL
-      if (post.path?.[1] === 'images') {
-        // Skip if we've seen this image URL before
-        if (seenImages.has(post.val)) return false
-        seenImages.add(post.val)
-      }
-
       if (activeFilter === 'all') return true
       const category = post.path?.[1] === 'images'
         ? 'image'
@@ -512,7 +419,7 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
       })
 
       // Only add posts that have valid content
-      if (isValidPost(post)) {
+      if (isValidPost(post, threadList)) {
         if (!acc[dateKey]) {
           acc[dateKey] = []
         }
@@ -741,50 +648,53 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
       <div className='w-full flex flex-col items-center'>
         {Object.entries(groupedThreads).map(([date, posts]) => (
           <div key={date} id={`date-${date}`} className='w-full max-w-2xl mb-6'>
-            {posts.length > 0 ? (
-              <>
-                <div
-                  ref={el => {
-                    el && stickyHeaderRefs.set(date, el)
-                    if (el) {
-                      const observer = new IntersectionObserver(
-                        ([entry]) => {
-                          if (entry.isIntersecting) {
-                            setActiveDate(date)
-                          }
-                        },
-                        { threshold: 1 }
-                      )
-                      observer.observe(el)
-                      return () => observer.disconnect()
-                    }
-                  }}
-                  className='sticky top-[4.5rem] z-20'
-                >
-                  <div className='relative'>
-                    <div className='absolute inset-x-0 h-full bg-white/95 backdrop-blur-md'></div>
-                    <div className='relative max-w-2xl mx-auto py-3.5'>
-                      <div className='flex items-center justify-between px-6'>
-                        <div className='flex items-center gap-3'>
-                          <div className='w-1.5 h-1.5 rounded-full bg-gray-400'></div>
-                          <div className='text-sm font-semibold text-gray-700'>
-                            {date}
+            {posts.length > 0 
+              ? (
+                <>
+                  <div
+                    ref={el => {
+                      el && stickyHeaderRefs.set(date, el)
+                      if (el) {
+                        const observer = new IntersectionObserver(
+                          ([entry]) => {
+                            if (entry.isIntersecting) {
+                              setActiveDate(date)
+                            }
+                          },
+                          { threshold: 1 }
+                        )
+                        observer.observe(el)
+                        return () => observer.disconnect()
+                      }
+                    }}
+                    className='sticky top-[4.5rem] z-20'
+                  >
+                    <div className='relative'>
+                      <div className='absolute inset-x-0 h-full bg-white/95 backdrop-blur-md'></div>
+                      <div className='relative max-w-2xl mx-auto py-3.5'>
+                        <div className='flex items-center justify-between px-6'>
+                          <div className='flex items-center gap-3'>
+                            <div className='w-1.5 h-1.5 rounded-full bg-gray-400'></div>
+                            <div className='text-sm font-semibold text-gray-700'>
+                              {date}
+                            </div>
                           </div>
-                        </div>
-                        <div className='text-xs font-medium px-3 py-1.5 bg-gray-100 text-gray-500 rounded-full ring-1 ring-gray-200/50'>
-                          {posts.length} updates
+                          <div className='text-xs font-medium px-3 py-1.5 bg-gray-100 text-gray-500 rounded-full ring-1 ring-gray-200/50'>
+                            {posts.length} updates
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div className='space-y-4 relative mt-3 px-0'>
-                  {posts.map((post, i) => (
-                    <Post key={`${post.projectId}-${i}`} data={post} />
-                  ))}
-                </div>
-              </>
-            ) : null}
+                  <div className='space-y-4 relative mt-3 px-0'>
+                    {posts.map((post, i) => (
+                      <Post key={`${post.projectId}-${i}`} data={post} />
+                    ))}
+                  </div>
+                </>
+              )
+              : null
+            }
           </div>
         ))}
         {Object.values(groupedThreads).flat().length === 0 && !loading && (
