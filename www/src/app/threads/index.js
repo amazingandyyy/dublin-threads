@@ -11,7 +11,6 @@ import {
   MagnifyingGlassIcon,
   ArrowTopRightOnSquareIcon
 } from '@heroicons/react/24/outline'
-import { diffWords } from 'diff'
 
 // Utility function to validate post content
 const isValidPost = (post, threadList = []) => {
@@ -61,29 +60,65 @@ const isValidPost = (post, threadList = []) => {
   return false
 }
 
-// Utility function to render inline diff
-const InlineDiff = ({ oldText, newText }) => {
-  const parts = diffWords(oldText || '', newText || '')
-  
+const formatPhoneNumber = (str) => {
+  // Clean input string
+  const cleaned = ('' + str).replace(/\D/g, '')
+  // Check if it's a phone number
+  if (cleaned.length === 10) {
+    return `(${cleaned.slice(0, 3)}) ${cleaned.slice(3, 6)}-${cleaned.slice(6)}`
+  }
+  return str
+}
+
+const formatNumber = (str) => {
+  // If it looks like a measurement (has numbers followed by text)
+  if (/^\d+(\.\d+)?\s*[a-zA-Z\s]+$/.test(str.trim())) {
+    const [num, ...units] = str.trim().split(/(\s+)/)
+    return `${Number(num).toLocaleString()}${units.join('')}`
+  }
+  // If it's just a number
+  if (/^\d+$/.test(str.trim())) {
+    return Number(str).toLocaleString()
+  }
+  return str
+}
+
+const ValueChange = ({ oldText, newText, type = 'text' }) => {
+  const processText = (text) => {
+    if (type === 'phone') return formatPhoneNumber(text)
+    if (type === 'measurement') return formatNumber(text)
+    return text
+  }
+
+  const oldValue = processText(oldText || '')
+  const newValue = processText(newText || '')
+
+  if (type === 'title') {
+    return (
+      <div className="space-y-2">
+        <div className="flex items-center gap-2">
+          <span className="text-gray-600">{oldValue}</span>
+          <span className="text-gray-400">→</span>
+          <span className="text-gray-900 font-medium">{newValue}</span>
+        </div>
+      </div>
+    )
+  }
+
   return (
-    <div className="font-mono text-sm">
-      {parts.map((part, i) => {
-        if (part.added) {
-          return (
-            <span key={i} className="bg-emerald-50 text-emerald-700 px-0.5 mx-0.5 rounded border border-emerald-100">
-              {part.value}
-            </span>
-          )
-        }
-        if (part.removed) {
-          return (
-            <span key={i} className="bg-rose-50 text-rose-700 px-0.5 mx-0.5 line-through rounded border border-rose-100">
-              {part.value}
-            </span>
-          )
-        }
-        return <span key={i}>{part.value}</span>
-      })}
+    <div className="space-y-2">
+      <div className="flex items-baseline gap-4">
+        <div className="w-24 flex-shrink-0">
+          <span className="text-xs font-medium text-gray-400 uppercase tracking-wider">Previous</span>
+        </div>
+        <div className="text-gray-600">{oldValue || 'Not set'}</div>
+      </div>
+      <div className="flex items-baseline gap-4">
+        <div className="w-24 flex-shrink-0">
+          <span className="text-xs font-medium text-gray-400 uppercase tracking-wider">New</span>
+        </div>
+        <div className="text-gray-900 font-medium">{newValue}</div>
+      </div>
     </div>
   )
 }
@@ -107,6 +142,99 @@ function PostPlaceholder () {
   </div>
 }
 
+const findDifferences = (oldText, newText) => {
+  // Split into sentences, preserving spaces and punctuation
+  const splitSentences = (text) => {
+    // Match sentence endings (.!?) followed by space or end of string
+    // Also handle special cases like "e.g.", "i.e.", numbers with decimals
+    const sentences = text.split(/(?<=[.!?])(?=\s|$)(?<!Mr)(?<!Mrs)(?<!Ms)(?<!Dr)(?<!etc)(?<!vs)(?<!fig)(?<!e\.g)(?<!i\.e)(?<!\s[A-Z])(?<!\d)/)
+    return sentences.map(s => s.trim()).filter(s => s.length > 0)
+  }
+
+  const sentences1 = splitSentences(oldText || '')
+  const sentences2 = splitSentences(newText || '')
+  
+  let i = 0
+  let j = 0
+  const result = []
+  
+  while (i < sentences1.length || j < sentences2.length) {
+    if (i >= sentences1.length) {
+      // Rest of sentences2 are additions
+      result.push({ type: 'added', text: sentences2.slice(j).join(' ') })
+      break
+    }
+    if (j >= sentences2.length) {
+      // Rest of sentences1 are deletions
+      result.push({ type: 'removed', text: sentences1.slice(i).join(' ') })
+      break
+    }
+    
+    if (sentences1[i] === sentences2[j]) {
+      // Sentences match
+      result.push({ type: 'unchanged', text: sentences1[i] })
+      i++
+      j++
+      continue
+    }
+    
+    // Look ahead to find next match
+    let matchFound = false
+    for (let look = 1; look < 3; look++) {
+      if (sentences1[i + look] === sentences2[j]) {
+        // Found match in sentences1, everything before is removed
+        result.push({ type: 'removed', text: sentences1.slice(i, i + look).join(' ') })
+        i += look
+        matchFound = true
+        break
+      }
+      if (sentences1[i] === sentences2[j + look]) {
+        // Found match in sentences2, everything before is added
+        result.push({ type: 'added', text: sentences2.slice(j, j + look).join(' ') })
+        j += look
+        matchFound = true
+        break
+      }
+    }
+    
+    if (!matchFound) {
+      // No match found, treat current sentences as replacement
+      result.push({ type: 'removed', text: sentences1[i] })
+      result.push({ type: 'added', text: sentences2[j] })
+      i++
+      j++
+    }
+  }
+  
+  return result
+}
+
+const TextDiff = ({ oldText, newText }) => {
+  const differences = findDifferences(oldText || '', newText || '')
+  
+  return (
+    <div className="text-sm leading-relaxed text-gray-600">
+      {differences.map((diff, i) => {
+        if (diff.type === 'added') {
+          return (
+            <span key={i} className="bg-emerald-50/50 text-emerald-600 mx-[1px]">
+              {diff.text}
+            </span>
+          )
+        }
+        if (diff.type === 'removed') {
+          return (
+            <span key={i} className="bg-rose-50/50 text-rose-500/90 mx-[1px] line-through decoration-rose-300/50">
+              {diff.text}
+            </span>
+          )
+        }
+        return <span key={i}>{diff.text}</span>
+      })}
+    </div>
+  )
+}
+
 function Post ({ data }) {
   const CardWrapper = ({ children }) => (
     <div className='bg-white rounded-xl border border-gray-100'>
@@ -126,7 +254,7 @@ function Post ({ data }) {
 
     const getUpdateIcon = () => {
       if (data.op === 'add' && data.path?.[1] === 'docs') {
-        return <div className='w-10 h-10 bg-gradient-to-br from-amber-50 to-amber-100/50 rounded-lg flex items-center justify-center flex-shrink-0 border border-amber-100/50 shadow-sm'>
+        return <div className='w-10 h-10 bg-gradient-to-br from-amber-50 to-amber-100/50 rounded-xl flex items-center justify-center flex-shrink-0 border border-amber-100/50'>
           <DocumentIcon className='w-5 h-5 text-amber-600' />
         </div>
       }
@@ -134,24 +262,24 @@ function Post ({ data }) {
         const updateType = data.path?.[1]
         switch (updateType) {
           case 'status':
-            return <div className='w-10 h-10 bg-gradient-to-br from-rose-50 to-rose-100/50 rounded-lg flex items-center justify-center flex-shrink-0 border border-rose-100/50 shadow-sm'>
+            return <div className='w-10 h-10 bg-gradient-to-br from-rose-50 to-rose-100/50 rounded-xl flex items-center justify-center flex-shrink-0 border border-rose-100/50'>
               <ArrowPathIcon className='w-5 h-5 text-rose-600' />
             </div>
           case 'description':
-            return <div className='w-10 h-10 bg-gradient-to-br from-gray-50 to-gray-100/50 rounded-lg flex items-center justify-center flex-shrink-0 border border-gray-200/50 shadow-sm'>
-              <PencilSquareIcon className='w-5 h-5 text-gray-600' />
+            return <div className='w-10 h-10 bg-gradient-to-br from-blue-50 to-blue-100/50 rounded-xl flex items-center justify-center flex-shrink-0 border border-blue-100/50'>
+              <PencilSquareIcon className='w-5 h-5 text-blue-600' />
             </div>
           case 'details':
-            return <div className='w-10 h-10 bg-gradient-to-br from-emerald-50 to-emerald-100/50 rounded-lg flex items-center justify-center flex-shrink-0 border border-emerald-100/50 shadow-sm'>
+            return <div className='w-10 h-10 bg-gradient-to-br from-emerald-50 to-emerald-100/50 rounded-xl flex items-center justify-center flex-shrink-0 border border-emerald-100/50'>
               <InformationCircleIcon className='w-5 h-5 text-emerald-600' />
             </div>
           case 'images':
-            return <div className='w-10 h-10 bg-gradient-to-br from-blue-50 to-blue-100/50 rounded-lg flex items-center justify-center flex-shrink-0 border border-blue-100/50 shadow-sm'>
-              <CameraIcon className='w-5 h-5 text-blue-600' />
+            return <div className='w-10 h-10 bg-gradient-to-br from-indigo-50 to-indigo-100/50 rounded-xl flex items-center justify-center flex-shrink-0 border border-indigo-100/50'>
+              <CameraIcon className='w-5 h-5 text-indigo-600' />
             </div>
           default:
-            return <div className='w-10 h-10 bg-gradient-to-br from-emerald-50 to-emerald-100/50 rounded-lg flex items-center justify-center flex-shrink-0 border border-emerald-100/50 shadow-sm'>
-              <PencilSquareIcon className='w-5 h-5 text-emerald-600' />
+            return <div className='w-10 h-10 bg-gradient-to-br from-gray-50 to-gray-100/50 rounded-xl flex items-center justify-center flex-shrink-0 border border-gray-200/50'>
+              <PencilSquareIcon className='w-5 h-5 text-gray-600' />
             </div>
         }
       }
@@ -162,15 +290,15 @@ function Post ({ data }) {
         <div className='flex items-center gap-4'>
           {getUpdateIcon()}
           <div className='flex flex-col'>
-            <div className='text-sm font-semibold text-gray-900 flex items-center gap-2'>
+            <div className='text-sm font-medium text-gray-900 flex items-center gap-2'>
               <a
                 href={`/project/${data.projectId}`}
                 className='hover:text-blue-600 transition-colors duration-200 flex items-center gap-2 group/link'
               >
                 Dublin Commons
                 {data.projectId && (
-                  <span className='text-xs font-medium text-gray-500 bg-gray-50 px-2 py-0.5 rounded-md border border-gray-100/50 group-hover/link:bg-blue-50 group-hover/link:text-blue-600 group-hover/link:border-blue-100/50 transition-all duration-200'>
-                    #{data.projectId}
+                  <span className='text-xs font-normal text-gray-500 bg-gray-50 px-2 py-0.5 rounded-md border border-gray-100/50 group-hover/link:bg-blue-50 group-hover/link:text-blue-600 group-hover/link:border-blue-100/50 transition-all duration-200'>
+                    Project Details
                   </span>
                 )}
                 <ArrowTopRightOnSquareIcon className='w-3.5 h-3.5 opacity-0 group-hover/link:opacity-100 transition-opacity' />
@@ -190,25 +318,25 @@ function Post ({ data }) {
     return (
       <div className='flex flex-col'>
         <div className='text-sm text-gray-600 mb-3'>
-          Added a new document to the project
+          New document added
         </div>
-        <div className='bg-gradient-to-br from-amber-50/50 to-transparent border border-amber-100/50 rounded-lg overflow-hidden hover:border-amber-200/50 transition-all duration-200 shadow-sm'>
+        <div className='bg-white rounded-xl overflow-hidden border border-gray-100/75 shadow-sm hover:border-amber-200/50 hover:shadow-md transition-all duration-200'>
           <a
             href={docInfo.url}
             target="_blank"
             rel="noopener noreferrer"
-            className='flex items-start gap-3 p-4 group'
+            className='flex items-start gap-4 p-5 group'
           >
-            <div className='bg-amber-100/75 p-2.5 rounded-lg flex-shrink-0 shadow-sm'>
-              <DocumentIcon className='w-5 h-5 text-amber-600' />
+            <div className='bg-gradient-to-br from-amber-50 to-amber-100/50 p-3 rounded-xl flex-shrink-0 border border-amber-100/50 group-hover:scale-105 transition-transform duration-200'>
+              <DocumentIcon className='w-6 h-6 text-amber-600' />
             </div>
             <div className='flex-grow min-w-0'>
               <div className='text-sm font-medium text-gray-900 group-hover:text-amber-600 transition-colors duration-200 line-clamp-2'>
                 {docInfo.name}
               </div>
-              <div className='text-xs text-gray-500 mt-1.5 flex items-center gap-1.5'>
+              <div className='text-xs text-gray-500 mt-2 flex items-center gap-1.5'>
                 <ArrowTopRightOnSquareIcon className='w-3.5 h-3.5' />
-                View document
+                <span className='group-hover:text-amber-600 transition-colors duration-200'>Open document</span>
               </div>
             </div>
           </a>
@@ -221,21 +349,21 @@ function Post ({ data }) {
     return (
       <div className='flex flex-col'>
         <div className='text-sm text-gray-600 mb-3'>
-          Updated the project status
+          Status changed
         </div>
-        <div className='flex items-center gap-4'>
-          <div className='flex-1 px-4 py-3 bg-gray-50 rounded-xl'>
-            <div className='text-xs text-gray-500 mb-1.5'>Previous status</div>
+        <div className='flex items-center gap-3'>
+          <div className='flex-1 px-5 py-4 bg-white rounded-xl border border-gray-100/75 shadow-sm'>
+            <div className='text-xs text-gray-400 uppercase tracking-wider font-medium mb-1'>From</div>
             <div className='text-sm text-gray-600'>{oldVal}</div>
           </div>
-          <div className='w-8 h-8 bg-rose-100/75 rounded-lg flex items-center justify-center flex-shrink-0 shadow-sm border border-rose-100/50'>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 text-rose-600">
+          <div className='w-8 h-8 bg-white rounded-full flex items-center justify-center flex-shrink-0 shadow-sm border border-gray-100/75'>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 text-gray-400">
               <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z" clipRule="evenodd" />
             </svg>
           </div>
-          <div className='flex-1 px-4 py-3 bg-gradient-to-br from-rose-50 to-transparent rounded-xl border border-rose-100/50'>
-            <div className='text-xs text-rose-500 mb-1.5'>New status</div>
-            <div className='text-sm text-rose-600 font-medium'>{val}</div>
+          <div className='flex-1 px-5 py-4 bg-white rounded-xl border border-gray-100/75 shadow-sm'>
+            <div className='text-xs text-gray-400 uppercase tracking-wider font-medium mb-1'>To</div>
+            <div className='text-sm text-gray-900 font-medium'>{val}</div>
           </div>
         </div>
       </div>
@@ -246,10 +374,19 @@ function Post ({ data }) {
     return (
       <div className='flex flex-col'>
         <div className='text-sm text-gray-600 mb-3'>
-          Updated the project description
+          Updated description
         </div>
-        <div className='px-4 py-3 bg-gray-50 rounded-xl'>
-          <InlineDiff oldText={oldVal} newText={val} />
+        <div className='px-6 py-4 bg-white rounded-xl border border-gray-100/75 shadow-sm'>
+          <div className='mb-3 flex items-center gap-4'>
+            <div className='flex items-center gap-4 text-xs'>
+              <div className='flex items-center gap-1.5'>
+                <span className='text-emerald-600 font-medium'>Added</span>
+                <span className='text-gray-400'>•</span>
+                <span className='text-rose-600 font-medium'>Removed</span>
+              </div>
+            </div>
+          </div>
+          <TextDiff oldText={oldVal} newText={val} />
         </div>
       </div>
     )
@@ -257,13 +394,24 @@ function Post ({ data }) {
 
   const renderDetailUpdate = ({ path, oldVal, val }) => {
     const fieldName = path[2]
+    const getUpdateType = () => {
+      if (fieldName.toLowerCase().includes('phone')) return 'phone'
+      if (/area|square|sq\.?\s*ft\.?|feet/i.test(fieldName)) return 'measurement'
+      if (/name|title|position/i.test(fieldName)) return 'title'
+      return 'text'
+    }
+
     return (
       <div className='flex flex-col'>
         <div className='text-sm text-gray-600 mb-3'>
           Updated {fieldName.toLowerCase()}
         </div>
-        <div className='px-4 py-3 bg-gray-50 rounded-xl'>
-          <InlineDiff oldText={oldVal || 'Not set'} newText={val} />
+        <div className='px-6 py-4 bg-white rounded-xl border border-gray-100/75 shadow-sm'>
+          <ValueChange 
+            oldText={oldVal || 'Not set'} 
+            newText={val} 
+            type={getUpdateType()}
+          />
         </div>
       </div>
     )
@@ -273,15 +421,22 @@ function Post ({ data }) {
     return (
       <div className='flex flex-col'>
         <div className='text-sm text-gray-600 mb-3'>
-          Added a new project photo
+          New project photo
         </div>
-        <div className='relative aspect-[3/2] bg-gradient-to-br from-gray-100 to-gray-50 rounded-xl overflow-hidden group border border-gray-100 group-hover:border-gray-200'>
-          <img
-            src={data.val}
-            alt="Project photo"
-            className='absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105'
-          />
-          <div className='absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
+        <div className='bg-white rounded-xl overflow-hidden border border-gray-100/75 shadow-sm hover:shadow-md transition-all duration-200'>
+          <div className='relative aspect-[3/2] bg-gradient-to-br from-gray-100 to-gray-50 group'>
+            <img
+              src={data.val}
+              alt="Project photo"
+              className='absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.02]'
+            />
+            <div className='absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
+          </div>
+          <div className='px-5 py-3 border-t border-gray-100/75'>
+            <div className='text-xs text-gray-500 flex items-center gap-1.5'>
+              <span>Click to view full size</span>
+            </div>
+          </div>
         </div>
       </div>
     )
@@ -317,11 +472,11 @@ function Post ({ data }) {
           // For any unhandled update types, show a generic update message
           return (
             <div className='flex flex-col'>
-              <div className='text-sm text-gray-900 mb-1.5'>
+              <div className='text-sm text-gray-600 mb-3'>
                 Updated {updateType}
               </div>
-              <div className='px-4 py-3 bg-gray-50 rounded-xl'>
-                <InlineDiff oldText={data.oldVal || 'Not set'} newText={data.val} />
+              <div className='px-6 py-4 bg-white rounded-xl border border-gray-100/75 shadow-sm'>
+                <ValueChange oldText={data.oldVal || 'Not set'} newText={data.val} />
               </div>
             </div>
           )
