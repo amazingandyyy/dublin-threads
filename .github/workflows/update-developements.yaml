@@ -14,10 +14,10 @@ jobs:
     name: snapshot&json(developments)
     runs-on: ubuntu-latest
     steps:
-      - name: use node 17
+      - name: use node 18
         uses: actions/setup-node@v1
         with:
-          node-version: 17.x
+          node-version: 18.x
 
       - uses: actions/checkout@v3
       - name: set timezone to America/Los_Angeles
