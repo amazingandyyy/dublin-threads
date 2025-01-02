@@ -1,6 +1,6 @@
 'use client'
 import { useEffect } from 'react'
-import { fetchDevelopments, fetchMeetings } from '@/utils'
+import { fetchDevelopments, fetchMeetings } from '@/utils/index'
 import { useThreadStore, useMeetingsStore } from '@/stores'
 import Threads from '@/threads/page'
 

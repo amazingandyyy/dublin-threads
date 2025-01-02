@@ -68,7 +68,7 @@ function PostPlaceholder () {
 
 function Post ({ data }) {
   const CardWrapper = ({ children }) => (
-    <div className='bg-white rounded-xl border border-gray-100 hover:border-gray-200 transition-all duration-200 hover:bg-gray-50/50 group'>
+    <div className='bg-white rounded-xl border border-gray-100'>
       <div className='px-6 py-5'>
         {children}
       </div>
@@ -188,7 +188,9 @@ function Post ({ data }) {
             <div className='text-sm text-gray-600'>{data.oldVal}</div>
           </div>
           <div className='w-8 h-8 bg-rose-100/75 rounded-lg flex items-center justify-center flex-shrink-0 shadow-sm border border-rose-100/50'>
-            <ArrowPathIcon className='w-4 h-4 text-rose-600' />
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 text-rose-600">
+              <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z" clipRule="evenodd" />
+            </svg>
           </div>
           <div className='flex-1 px-4 py-3 bg-gradient-to-br from-rose-50 to-transparent border border-rose-100/50 rounded-lg shadow-sm'>
             <div className='text-xs text-rose-500 mb-1.5'>New status</div>
@@ -232,7 +234,9 @@ function Post ({ data }) {
             <div className='text-sm text-gray-600'>{data.oldVal || 'Not set'}</div>
           </div>
           <div className='w-8 h-8 bg-emerald-100 rounded-full flex items-center justify-center flex-shrink-0'>
-            <ArrowPathIcon className='w-4 h-4 text-emerald-600' />
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 text-emerald-600">
+              <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z" clipRule="evenodd" />
+            </svg>
           </div>
           <div className='flex-1 px-3 py-2.5 bg-gradient-to-br from-emerald-50 to-transparent border border-emerald-100 rounded-lg'>
             <div className='text-xs text-emerald-500 mb-1'>New value</div>
