@@ -56,19 +56,19 @@ export default function Threads ({ params, searchParams }) {
   return (<>
     <GlobalHeader />
     <main className="min-h-screen bg-gradient-to-b from-white to-green-50">
-      <div className='container mx-auto px-4 py-16'>
-        <div className='flex flex-col items-center text-center space-y-6 mb-16'>
-          <h1 className='font-handwriting text-4xl md:text-7xl font-bold text-green-950 tracking-wide'>
+      <div className='container mx-auto px-3 sm:px-4 py-8 sm:py-16'>
+        <div className='flex flex-col items-center mt-12 text-center space-y-4 sm:space-y-6 mb-8 sm:mb-16'>
+          <h1 className='font-handwriting text-3xl sm:text-4xl md:text-7xl font-bold text-green-950 tracking-wide'>
             Explorer
           </h1>
-          <p className='text-gray-600 text-lg max-w-2xl'>
+          <p className='text-gray-600 text-base sm:text-lg max-w-2xl px-2'>
             This is an <span className='font-medium text-green-800'>experimental feature</span>. Currently under active development
           </p>
-          <div className='flex flex-wrap justify-center gap-2 py-4'>
+          <div className='flex flex-wrap justify-center gap-1.5 sm:gap-2 py-3 sm:py-4'>
             {['DublinCA', 'California', 'TriValley'].map(i => (
               <span
                 key={i}
-                className='py-1.5 px-4 bg-green-100 rounded-full text-sm font-medium text-green-800
+                className='py-1 sm:py-1.5 px-3 sm:px-4 bg-green-100 rounded-full text-xs sm:text-sm font-medium text-green-800
                           transition-all duration-300 hover:bg-green-200 hover:scale-105'
               >
                 #{i}
@@ -76,25 +76,25 @@ export default function Threads ({ params, searchParams }) {
             ))}
           </div>
         </div>
-        <div className='grid gap-8 md:gap-12'>
+        <div className='grid gap-4 sm:gap-8 md:gap-12'>
           {highlights.map((project) => (
             <div
               key={project.id}
-              className='bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 p-6'
+              className='bg-white rounded-xl sm:rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 p-4 sm:p-6'
             >
               <Link
                 href={`/project/${project.id}`}
-                className='group flex flex-col md:flex-row justify-between items-start md:items-center gap-2 mb-4'
+                className='group flex flex-col sm:flex-row justify-between items-start sm:items-center gap-1 sm:gap-2 mb-3 sm:mb-4'
               >
-                <h2 className='font-semibold text-xl text-green-950 group-hover:text-green-700 transition-colors duration-300'>
+                <h2 className='font-semibold text-lg sm:text-xl text-green-950 group-hover:text-green-700 transition-colors duration-300 line-clamp-2'>
                   {project.title}
                 </h2>
-                <time className='text-sm text-gray-400'>
+                <time className='text-xs sm:text-sm text-gray-400 shrink-0'>
                   {project.details['Application Submittal Date']}
                 </time>
               </Link>
               {project.images && project.images.length > 0 && (
-                <div className='flex flex-wrap gap-2'>
+                <div className='flex flex-wrap gap-1.5 sm:gap-2'>
                   {project.images.slice(0, 5).map((image, index) => (
                     <Link
                       key={`${project.id}-${index}`}
@@ -103,7 +103,7 @@ export default function Threads ({ params, searchParams }) {
                     >
                       <Image
                         src={image.thumbnail}
-                        className='rounded-xl w-32 h-32 object-cover shadow-sm hover:shadow-md transition-shadow duration-300'
+                        className='rounded-lg sm:rounded-xl w-24 sm:w-32 h-24 sm:h-32 object-cover shadow-sm hover:shadow-md transition-shadow duration-300'
                       />
                     </Link>
                   ))}
@@ -112,7 +112,7 @@ export default function Threads ({ params, searchParams }) {
             </div>
           ))}
         </div>
-        <div className='text-center text-gray-500 mt-12 italic'>
+        <div className='text-center text-gray-500 mt-8 sm:mt-12 italic text-sm sm:text-base'>
           more to come...
         </div>
       </div>
