@@ -117,6 +117,7 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
   const loadMoreRef = useRef(null)
   const threadList = useGlobalThreadListStore(state => state.list)
   const totalItems = useGlobalThreadListStore(state => state.originalList.length)
+  const [stickyHeaderRefs] = useState(new Map())
 
   // Filter and group updates by date
   const groupedThreads = useMemo(() => {
@@ -158,20 +159,25 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
   useEffect(() => {
     const observer = new IntersectionObserver(
       async (entries) => {
-        const first = entries[0]
-        if (first.isIntersecting && !loadingMore && threadList.length < totalItems) {
+        const target = entries[0]
+        if (target.isIntersecting && !loadingMore && threadList.length < totalItems) {
           setLoadingMore(true)
           try {
             const hasMore = useGlobalThreadListStore.getState().loadMore()
             if (!hasMore) {
               observer.disconnect()
             }
+          } catch (error) {
+            console.error('Error loading more items:', error)
           } finally {
             setLoadingMore(false)
           }
         }
       },
-      { threshold: 0.1 }
+      { 
+        threshold: 0.1,
+        rootMargin: '50px'
+      }
     )
 
     const currentRef = loadMoreRef.current
@@ -232,6 +238,32 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
 
   const hasMore = threadList.length < totalItems
 
+  // Setup intersection observer for sticky headers
+  useEffect(() => {
+    const observerOptions = {
+      threshold: [0, 1],
+      rootMargin: '-1px 0px 0px 0px'
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        const header = entry.target
+        if (entry.intersectionRatio < 1) {
+          header.classList.add('shadow')
+        } else {
+          header.classList.remove('shadow')
+        }
+      })
+    }, observerOptions)
+
+    // Observe all sticky headers
+    stickyHeaderRefs.forEach(ref => {
+      if (ref) observer.observe(ref)
+    })
+
+    return () => observer.disconnect()
+  }, [stickyHeaderRefs])
+
   return (
     <div className='container mx-auto px-4 py-4'>
       <div className='flex flex-col mb-4'>
@@ -286,10 +318,28 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
       <div className='w-full flex flex-col items-center'>
         {Object.entries(groupedThreads).map(([date, posts]) => (
           <div key={date} className='w-full max-w-2xl mb-4'>
-            <div className='text-sm font-medium text-gray-400 mb-3 sticky top-[4.5rem] bg-white bg-opacity-95 backdrop-blur-sm px-4 py-2 rounded-lg shadow-sm z-10'>
-              {date}
+            <div 
+              ref={el => el && stickyHeaderRefs.set(date, el)}
+              className='sticky top-[4.5rem] z-20'
+            >
+              <div className='relative'>
+                <div className='absolute inset-x-0 h-full bg-white/95 backdrop-blur-md'></div>
+                <div className='relative max-w-2xl mx-auto py-3'>
+                  <div className='flex items-center justify-between px-6'>
+                    <div className='flex items-center gap-2'>
+                      <div className='w-1.5 h-1.5 rounded-full bg-gray-300'></div>
+                      <div className='text-sm font-medium text-gray-600'>
+                        {date}
+                      </div>
+                    </div>
+                    <div className='text-xs text-gray-400 font-medium'>
+                      {posts.length} updates
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className='space-y-3'>
+            <div className='space-y-3 relative mt-2 px-0'>
               {posts.map((post, i) => (
                 <Post key={`${post.projectId}-${i}`} data={post} />
               ))}
@@ -299,9 +349,9 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
         {hasMore && !loading && (
           <div
             ref={loadMoreRef}
-            className='w-full py-6 flex justify-center'
+            className='w-full max-w-2xl py-8 flex justify-center px-6'
           >
-            <div className={`text-gray-500 ${loadingMore ? 'animate-pulse' : ''}`}>
+            <div className={`text-gray-500 ${loadingMore ? 'animate-pulse' : ''} py-4`}>
               {loadingMore ? 'Loading more...' : 'Scroll to load more'}
             </div>
           </div>

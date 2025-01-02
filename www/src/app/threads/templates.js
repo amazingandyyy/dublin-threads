@@ -16,20 +16,22 @@ const PostImages = ({ data, original = '', thumbnail = '' }) => {
   }
   if (!isValidUrl) return null
 
-  // Check if it's a duplicate update (has same URL as thumbnail)
-  if (thumbnail && src === thumbnail) return null
+  // Skip thumbnail updates
+  if (data.path?.[3] === 'thumbnail') return null
 
   return (
-    <div className='flex flex-col gap-3'>
-      <div className='overflow-hidden rounded-lg border border-gray-100'>
+    <div className='flex flex-col'>
+      <div className='overflow-hidden rounded-lg mt-2'>
         <Image
-          className='w-full h-auto object-cover'
+          className='w-full h-auto object-cover hover:scale-[1.02] transition-transform duration-300'
           src={src}
           alt='Project update image'
         />
       </div>
-      <div className='text-sm text-gray-500'>
-        Added new project image
+      <div className='flex items-center gap-2 mt-4'>
+        <div className='px-2.5 py-1 bg-green-50 text-green-700 rounded-md text-sm font-medium'>
+          {data.op === 'add' ? '+ Added new image' : '↻ Updated image'}
+        </div>
       </div>
     </div>
   )
@@ -46,10 +48,13 @@ const PostDocs = ({ data, url = '' }) => {
   return (
     <div className='w-full'>
       <div className='flex flex-col gap-2'>
+        <div className='px-2.5 py-1 bg-blue-50 text-blue-700 rounded-md text-sm font-medium inline-flex items-center w-fit'>
+          {data.op === 'add' ? '+ Added new document' : '↻ Updated document'}
+        </div>
         <a
           href={url}
           target='_blank'
-          className='group flex items-center gap-3 py-2'
+          className='group flex items-center gap-3 py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors duration-200'
           rel="noreferrer"
         >
           <div className='flex-shrink-0'>
@@ -73,8 +78,8 @@ function PostCard ({ children }) {
   if (!children) return null
 
   return (
-    <div className='w-full max-w-3xl mx-auto mb-3'>
-      <div className='bg-white transition-shadow duration-200 rounded-lg p-5'>
+    <div className='w-full max-w-3xl mx-auto mb-4'>
+      <div className='bg-white shadow-sm hover:shadow-md transition-shadow duration-200 rounded-xl p-6'>
         {children}
       </div>
     </div>
