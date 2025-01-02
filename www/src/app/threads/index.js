@@ -16,6 +16,9 @@ import {
 const isValidPost = (post) => {
   if (!post) return false
 
+  // Skip thumbnail updates
+  if (post.path?.[1] === 'thumbnail') return false
+
   if (post.op === 'add' && post.path?.[1] === 'docs') {
     return !!post.val?.url && !!post.val?.name // Validate document has required fields
   }
@@ -37,7 +40,7 @@ const isValidPost = (post) => {
       case 'status':
       case 'description':
       case 'details':
-      case 'images':
+      case 'images': // Only keep high quality image updates
         return true
       default:
         return false
@@ -202,19 +205,94 @@ function Post ({ data }) {
   }
 
   const renderDescriptionUpdate = () => {
+    // Function to create inline diff visualization
+    const createInlineDiffView = (oldText, newText) => {
+      if (!oldText || !newText) return oldText || newText
+
+      const words1 = oldText.split(' ')
+      const words2 = newText.split(' ')
+      let i = 0
+      let j = 0
+      const result = []
+      
+      while (i < words1.length || j < words2.length) {
+        if (i < words1.length && j < words2.length && words1[i] === words2[j]) {
+          result.push({ text: words1[i], type: 'same' })
+          i++
+          j++
+        } else {
+          // Look ahead to find the next matching word
+          let matchFound = false
+          const lookAhead = 3 // Maximum words to look ahead
+          
+          // Try to find removed words
+          for (let k = 0; k < lookAhead && i + k < words1.length; k++) {
+            const matchInNew = words2.slice(j).indexOf(words1[i + k])
+            if (matchInNew !== -1) {
+              // Add removed words before the match
+              for (let l = 0; l < k; l++) {
+                result.push({ text: words1[i + l], type: 'removed' })
+              }
+              // Add added words before the match
+              for (let l = 0; l < matchInNew; l++) {
+                result.push({ text: words2[j + l], type: 'added' })
+              }
+              i += k
+              j += matchInNew
+              matchFound = true
+              break
+            }
+          }
+          
+          if (!matchFound) {
+            if (i < words1.length) {
+              result.push({ text: words1[i], type: 'removed' })
+              i++
+            }
+            if (j < words2.length) {
+              result.push({ text: words2[j], type: 'added' })
+              j++
+            }
+          }
+        }
+      }
+      
+      return result.map(w => {
+        switch (w.type) {
+          case 'removed':
+            return `<span class="bg-red-50 text-red-700 line-through px-1 mx-0.5 rounded">${w.text}</span>`
+          case 'added':
+            return `<span class="bg-green-50 text-green-700 px-1 mx-0.5 rounded">${w.text}</span>`
+          default:
+            return w.text
+        }
+      }).join(' ')
+    }
+
+    const inlineDiff = createInlineDiffView(data.oldVal, data.val)
+
     return (
       <div className='flex flex-col'>
         <div className='text-sm text-gray-600 mb-3'>
           Updated the project description
         </div>
         <div className='space-y-3'>
-          <div className='px-3 py-2.5 bg-gradient-to-br from-gray-50 to-transparent border border-gray-100 rounded-lg'>
-            <div className='text-xs text-gray-500 mb-1'>Previous description</div>
-            <div className='text-sm text-gray-600'>{data.oldVal}</div>
+          <div className='px-4 py-3 bg-gradient-to-br from-gray-50 to-transparent border border-gray-100 rounded-lg'>
+            <div className='text-xs text-gray-500 mb-2'>Changes</div>
+            <div 
+              className='text-sm text-gray-700 leading-relaxed'
+              dangerouslySetInnerHTML={{ __html: inlineDiff }}
+            />
           </div>
-          <div className='px-3 py-2.5 bg-gradient-to-br from-emerald-50 to-transparent border border-emerald-100 rounded-lg'>
-            <div className='text-xs text-emerald-500 mb-1'>New description</div>
-            <div className='text-sm text-gray-900'>{data.val}</div>
+          <div className='flex items-center gap-4 px-4 py-2 bg-gray-50/50 rounded-lg'>
+            <div className='flex items-center gap-2'>
+              <div className='w-3 h-3 bg-red-50 border border-red-200 rounded'></div>
+              <span className='text-xs text-gray-500'>Removed text</span>
+            </div>
+            <div className='flex items-center gap-2'>
+              <div className='w-3 h-3 bg-green-50 border border-green-200 rounded'></div>
+              <span className='text-xs text-gray-500'>Added text</span>
+            </div>
           </div>
         </div>
       </div>
@@ -223,31 +301,40 @@ function Post ({ data }) {
 
   const renderDetailUpdate = () => {
     const fieldName = data.path[2]
+    
+    // Function to create inline diff for single values
+    const createInlineValueDiff = (oldVal, newVal) => {
+      if (oldVal === newVal) {
+        return newVal
+      }
+      return `<span class="bg-red-50 text-red-700 line-through px-1 mx-0.5 rounded">${oldVal || 'Not set'}</span> <span class="bg-green-50 text-green-700 px-1 mx-0.5 rounded">${newVal}</span>`
+    }
+
+    const inlineDiff = createInlineValueDiff(data.oldVal, data.val)
+
     return (
       <div className='flex flex-col'>
         <div className='text-sm text-gray-600 mb-3'>
           Updated {fieldName.toLowerCase()}
         </div>
-        <div className='flex items-center gap-3'>
-          <div className='flex-1 px-3 py-2.5 bg-gradient-to-br from-gray-50 to-transparent border border-gray-100 rounded-lg'>
-            <div className='text-xs text-gray-500 mb-1'>Previous value</div>
-            <div className='text-sm text-gray-600'>{data.oldVal || 'Not set'}</div>
-          </div>
-          <div className='w-8 h-8 bg-emerald-100 rounded-full flex items-center justify-center flex-shrink-0'>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 text-emerald-600">
-              <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z" clipRule="evenodd" />
-            </svg>
-          </div>
-          <div className='flex-1 px-3 py-2.5 bg-gradient-to-br from-emerald-50 to-transparent border border-emerald-100 rounded-lg'>
-            <div className='text-xs text-emerald-500 mb-1'>New value</div>
-            <div className='text-sm text-emerald-600 font-medium'>{data.val}</div>
-          </div>
+        <div className='px-4 py-3 bg-gradient-to-br from-gray-50 to-transparent border border-gray-100 rounded-lg'>
+          <div className='text-xs text-gray-500 mb-2'>Changes</div>
+          <div 
+            className='text-sm text-gray-700'
+            dangerouslySetInnerHTML={{ __html: inlineDiff }}
+          />
         </div>
       </div>
     )
   }
 
   const renderImageUpdate = () => {
+    // Skip if this is a thumbnail update
+    if (data.path?.includes('thumbnail')) return null
+    
+    // Skip if the value contains thumbnail data
+    if (typeof data.val === 'object' && data.val?.thumbnail) return null
+
     return (
       <div className='flex flex-col'>
         <div className='text-sm text-gray-600 mb-3'>
@@ -378,7 +465,6 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
   const [loading, setLoading] = useState(true)
   const [loadingMore, setLoadingMore] = useState(false)
   const [activeFilter, setActiveFilter] = useState('all')
-  const [showAnnouncement, setShowAnnouncement] = useState(true)
   const loadMoreRef = useRef(null)
   const threadList = useGlobalThreadListStore(state => state.list)
   const totalItems = useGlobalThreadListStore(state => state.originalList.length)
@@ -387,7 +473,22 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
 
   // Filter and group updates by date
   const groupedThreads = useMemo(() => {
+    // Keep track of image updates to prevent duplicates
+    const seenImages = new Set()
+
     const filteredList = threadList.filter(post => {
+      // Skip all thumbnail-related updates
+      if (post.path?.[1] === 'thumbnail') return false
+      if (post.path?.[2] === 'thumbnail') return false
+      if (post.val?.thumbnail) return false
+
+      // For image updates, prevent duplicates by tracking the image URL
+      if (post.path?.[1] === 'images') {
+        // Skip if we've seen this image URL before
+        if (seenImages.has(post.val)) return false
+        seenImages.add(post.val)
+      }
+
       if (activeFilter === 'all') return true
       const category = post.path?.[1] === 'images'
         ? 'image'
@@ -550,47 +651,6 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
 
   return (
     <div className='container mx-auto px-4 py-4'>
-      {showAnnouncement && (
-        <div className='max-w-2xl mx-auto w-full mb-6 group'>
-          <div className='bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-white via-green-50/10 to-emerald-50/5 rounded-2xl border border-green-100/20 overflow-hidden backdrop-blur-xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] ring-1 ring-green-100/20 hover:ring-green-200/30 transition-all duration-700 ease-in-out hover:shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:-translate-y-0.5'>
-            <div className='px-8 py-7 relative'>
-              <button 
-                onClick={() => setShowAnnouncement(false)}
-                className='absolute top-4 right-4 text-green-400/50 hover:text-green-500 p-1.5 hover:bg-white/80 rounded-full transition-all duration-300 hover:shadow-md hover:scale-105 active:scale-95'
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
-                  <path fillRule="evenodd" d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z" clipRule="evenodd" />
-                </svg>
-              </button>
-              <div className='flex flex-col items-center text-center'>
-                <div className='text-xl font-bold tracking-wide text-green-800/80 mb-4 flex items-center gap-3 group-hover:scale-[1.01] transition-transform duration-700'>
-                  <span className='text-2xl animate-[pulse_2s_ease-in-out_infinite]'>✨</span>
-                  <span className='bg-clip-text text-transparent bg-gradient-to-r from-green-700/90 via-emerald-600/90 to-green-700/90 hover:from-green-600/90 hover:to-emerald-700/90 transition-all duration-700'>
-                    Happy New Year 2025!
-                  </span>
-                  <span className='text-2xl animate-[pulse_2s_ease-in-out_infinite] delay-1000'>✨</span>
-                </div>
-                <div className='space-y-4 text-green-700/80 text-sm'>
-                  <p className='leading-relaxed tracking-wide font-medium'>
-                    As a Dublin resident, I&apos;m excited to share that Dublin Threads is getting a revamp! 
-                    Feel free to chat with me using the button in the bottom right corner. 💬
-                  </p>
-                  <div className='pt-3 flex flex-wrap items-center justify-center gap-3 text-xs'>
-                    <span className='group/badge px-4 py-2 bg-gradient-to-br from-white to-green-50/60 rounded-full text-green-700/90 font-medium ring-1 ring-green-100/20 shadow-sm hover:shadow-md hover:scale-[1.02] transition-all duration-500 ease-in-out'>
-                      <span className='inline-flex items-center gap-1'>
-                        Made with <span className='text-red-400 group-hover/badge:scale-110 transition-transform duration-500'>❤️</span> in Dublin
-                      </span>
-                    </span>
-                    <span className='px-4 py-2 bg-gradient-to-br from-white to-green-50/60 rounded-full text-green-700/90 font-medium ring-1 ring-green-100/20 shadow-sm hover:shadow-md hover:scale-[1.02] transition-all duration-500 ease-in-out'>
-                      Community Driven
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
       <TimelineNav
         dates={Object.keys(groupedThreads)}
         activeDate={activeDate}
