@@ -48,28 +48,45 @@ function Post ({ data }) {
     const iconClasses = 'w-4 h-4'
     const getIconColor = (category) => {
       switch (category) {
-        case 'meeting': return 'text-purple-500'
-        case 'image': return 'text-blue-500'
-        case 'document': return 'text-yellow-500'
-        case 'status': return 'text-red-500'
-        case 'detail': return 'text-green-500'
-        default: return 'text-gray-500'
+        case 'meeting': return 'text-purple-600'
+        case 'image': return 'text-blue-600'
+        case 'document': return 'text-amber-600'
+        case 'status': return 'text-rose-600'
+        case 'detail': return 'text-emerald-600'
+        default: return 'text-gray-600'
       }
     }
 
+    const getBgColor = (category) => {
+      switch (category) {
+        case 'meeting': return 'bg-purple-50'
+        case 'image': return 'bg-blue-50'
+        case 'document': return 'bg-amber-50'
+        case 'status': return 'bg-rose-50'
+        case 'detail': return 'bg-emerald-50'
+        default: return 'bg-gray-50'
+      }
+    }
+
+    const iconWithBg = (Icon) => (
+      <div className={`${getBgColor(category)} p-1.5 rounded-lg`}>
+        <Icon className={`${iconClasses} ${getIconColor(category)}`} />
+      </div>
+    )
+
     switch (category) {
       case 'meeting':
-        return <CalendarIcon className={`${iconClasses} ${getIconColor(category)}`} />
+        return iconWithBg(CalendarIcon)
       case 'image':
-        return <CameraIcon className={`${iconClasses} ${getIconColor(category)}`} />
+        return iconWithBg(CameraIcon)
       case 'document':
-        return <DocumentIcon className={`${iconClasses} ${getIconColor(category)}`} />
+        return iconWithBg(DocumentIcon)
       case 'status':
-        return <ArrowPathIcon className={`${iconClasses} ${getIconColor(category)}`} />
+        return iconWithBg(ArrowPathIcon)
       case 'detail':
-        return <InformationCircleIcon className={`${iconClasses} ${getIconColor(category)}`} />
+        return iconWithBg(InformationCircleIcon)
       default:
-        return <PencilSquareIcon className={`${iconClasses} ${getIconColor(category)}`} />
+        return iconWithBg(PencilSquareIcon)
     }
   }
 
@@ -77,9 +94,9 @@ function Post ({ data }) {
   const icon = getCategoryIcon(category)
 
   const CardWrapper = ({ children }) => (
-    <div className='bg-white rounded-lg shadow-sm hover:shadow transition-all duration-200'>
-      <div className='p-4'>
-        <div className='flex flex-col space-y-2'>
+    <div className='bg-white rounded-2xl shadow-sm hover:shadow-md border border-gray-100/50 transition-all duration-200'>
+      <div className='px-6 py-4'>
+        <div className='flex flex-col space-y-3'>
           {children}
         </div>
       </div>
@@ -89,9 +106,18 @@ function Post ({ data }) {
   const renderPost = (PostComponent) => (
     <div className='group'>
       <CardWrapper>
-        <div className='flex items-center gap-2 text-gray-500 text-xs font-medium'>
-          {icon}
-          <span className='capitalize'>{category}</span>
+        <div className='flex items-center justify-between'>
+          <div className='flex items-center gap-2 text-gray-600 text-xs font-medium'>
+            {icon}
+            <span className='capitalize tracking-wide'>{category}</span>
+          </div>
+          <div className='text-xs text-gray-400'>
+            {new Date(Number(data.timestamp)).toLocaleTimeString('en-US', {
+              hour: 'numeric',
+              minute: '2-digit',
+              hour12: true
+            })}
+          </div>
         </div>
         <PostComponent data={data} />
       </CardWrapper>
@@ -174,7 +200,7 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
           }
         }
       },
-      { 
+      {
         threshold: 0.1,
         rootMargin: '50px'
       }
@@ -201,38 +227,38 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
     all: {
       label: 'All Updates',
       icon: PencilSquareIcon,
-      activeClass: 'bg-gray-900 text-white',
-      defaultClass: 'bg-white text-gray-600 border border-gray-200'
+      activeClass: 'bg-gray-900 text-white ring-1 ring-gray-900',
+      defaultClass: 'bg-white text-gray-600 hover:text-gray-900 ring-1 ring-gray-200 hover:ring-gray-300'
     },
     meeting: {
       label: 'Meetings',
       icon: CalendarIcon,
-      activeClass: 'bg-gray-800 text-white',
-      defaultClass: 'bg-white text-gray-600 border border-gray-200'
+      activeClass: 'bg-purple-600 text-white ring-1 ring-purple-600',
+      defaultClass: 'bg-white text-gray-600 hover:text-purple-600 ring-1 ring-gray-200 hover:ring-purple-200'
     },
     image: {
       label: 'Images',
       icon: CameraIcon,
-      activeClass: 'bg-gray-800 text-white',
-      defaultClass: 'bg-white text-gray-600 border border-gray-200'
+      activeClass: 'bg-blue-600 text-white ring-1 ring-blue-600',
+      defaultClass: 'bg-white text-gray-600 hover:text-blue-600 ring-1 ring-gray-200 hover:ring-blue-200'
     },
     document: {
       label: 'Documents',
       icon: DocumentIcon,
-      activeClass: 'bg-gray-800 text-white',
-      defaultClass: 'bg-white text-gray-600 border border-gray-200'
+      activeClass: 'bg-amber-600 text-white ring-1 ring-amber-600',
+      defaultClass: 'bg-white text-gray-600 hover:text-amber-600 ring-1 ring-gray-200 hover:ring-amber-200'
     },
     status: {
       label: 'Status Changes',
       icon: ArrowPathIcon,
-      activeClass: 'bg-gray-800 text-white',
-      defaultClass: 'bg-white text-gray-600 border border-gray-200'
+      activeClass: 'bg-rose-600 text-white ring-1 ring-rose-600',
+      defaultClass: 'bg-white text-gray-600 hover:text-rose-600 ring-1 ring-gray-200 hover:ring-rose-200'
     },
     detail: {
       label: 'Details',
       icon: InformationCircleIcon,
-      activeClass: 'bg-gray-800 text-white',
-      defaultClass: 'bg-white text-gray-600 border border-gray-200'
+      activeClass: 'bg-emerald-600 text-white ring-1 ring-emerald-600',
+      defaultClass: 'bg-white text-gray-600 hover:text-emerald-600 ring-1 ring-gray-200 hover:ring-emerald-200'
     }
   }
 
@@ -274,7 +300,7 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
                 <MagnifyingGlassIcon className='h-5 w-5 text-gray-400' />
               </div>
               <input
-                className='w-full bg-white rounded-lg pl-10 pr-6 py-3 shadow-sm border border-gray-200 focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all duration-200 outline-none'
+                className='w-full bg-white rounded-2xl pl-10 pr-6 py-3 shadow-sm border border-gray-200 focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all duration-200 outline-none'
                 placeholder='Search for projects or meetings...'
                 name='global-search'
                 onChange={onSearch}
@@ -290,7 +316,7 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
                       key={key}
                       onClick={() => setActiveFilter(key)}
                       className={`
-                        px-3 py-1.5 rounded-md text-sm font-medium 
+                        px-4 py-2 rounded-xl text-sm font-medium 
                         transition-all duration-200 flex items-center gap-2 shadow-sm
                         ${isActive ? config.activeClass : config.defaultClass}
                         ${isActive ? '' : 'hover:bg-gray-50 hover:border-gray-300'}
@@ -317,8 +343,8 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
 
       <div className='w-full flex flex-col items-center'>
         {Object.entries(groupedThreads).map(([date, posts]) => (
-          <div key={date} className='w-full max-w-2xl mb-4'>
-            <div 
+          <div key={date} className='w-full max-w-2xl mb-6'>
+            <div
               ref={el => el && stickyHeaderRefs.set(date, el)}
               className='sticky top-[4.5rem] z-20'
             >
@@ -326,20 +352,20 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
                 <div className='absolute inset-x-0 h-full bg-white/95 backdrop-blur-md'></div>
                 <div className='relative max-w-2xl mx-auto py-3'>
                   <div className='flex items-center justify-between px-6'>
-                    <div className='flex items-center gap-2'>
-                      <div className='w-1.5 h-1.5 rounded-full bg-gray-300'></div>
-                      <div className='text-sm font-medium text-gray-600'>
+                    <div className='flex items-center gap-3'>
+                      <div className='w-1 h-1 rounded-full bg-gray-400'></div>
+                      <div className='text-sm font-medium text-gray-700'>
                         {date}
                       </div>
                     </div>
-                    <div className='text-xs text-gray-400 font-medium'>
+                    <div className='text-xs font-medium px-2.5 py-1 bg-gray-100 text-gray-500 rounded-full ring-1 ring-gray-200/50'>
                       {posts.length} updates
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className='space-y-3 relative mt-2 px-0'>
+            <div className='space-y-4 relative mt-3 px-0'>
               {posts.map((post, i) => (
                 <Post key={`${post.projectId}-${i}`} data={post} />
               ))}
@@ -351,7 +377,7 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
             ref={loadMoreRef}
             className='w-full max-w-2xl py-8 flex justify-center px-6'
           >
-            <div className={`text-gray-500 ${loadingMore ? 'animate-pulse' : ''} py-4`}>
+            <div className={`text-gray-500 ${loadingMore ? 'animate-pulse' : ''} py-4 px-6 bg-gray-50/50 rounded-full`}>
               {loadingMore ? 'Loading more...' : 'Scroll to load more'}
             </div>
           </div>

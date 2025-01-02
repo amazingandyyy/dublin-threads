@@ -65,7 +65,7 @@ export default function AddPost ({ data }) {
         </div>
         <h2 className='text-2xl font-bold text-gray-800 mb-2'>New Project Launched!</h2>
       </div>
-      
+
       <div className='prose prose-green max-w-none'>
         <p className='text-gray-600 leading-relaxed'>{data.val.description}</p>
       </div>

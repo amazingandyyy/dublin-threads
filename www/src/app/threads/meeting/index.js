@@ -61,19 +61,19 @@ export default function MeetingPost ({ data }) {
           )}
         </div>
       </div>
-      
+
       <div className='mt-6'>
         <div className='text-xl font-bold flex items-center gap-2'>
           🗣️ <span className={data.cancelled ? 'line-through text-gray-400' : ''}>
             {data.date} {data.name}
           </span>
         </div>
-        
+
         {!data.cancelled && isUpComing && renderAddToCalendar(data)}
-        
+
         <div className='mt-4 space-y-2'>
           {data.agenda && (
-            <a href={data.agenda} target='_blank' rel='noreferrer' 
+            <a href={data.agenda} target='_blank' rel='noreferrer'
                className='block text-green-700 hover:text-green-900 transition-colors duration-200'>
               📄 View Agenda
             </a>
@@ -98,7 +98,7 @@ export default function MeetingPost ({ data }) {
           )}
         </div>
       </div>
-      
+
       <div className='flex mt-6 pt-4 border-t border-gray-100 text-green-600 text-sm space-x-2'>
         <div>#{data.orgId}</div>
         <div>#meeting</div>
