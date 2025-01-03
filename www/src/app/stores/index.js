@@ -101,22 +101,28 @@ const useGlobalThreadListStore = create(
       })
     },
     applyFilter: (string) => {
-      if (string.length === 0) {
-        return get().originalList.slice(0, 50)
+      if (!string || string.length === 0) {
+        return get().originalList
       }
 
-      const str = string.split(' ').join('.*')
-      const re = new RegExp(`.*${str}.*`, 'ig')
+      const searchTerms = string.toLowerCase().split(/\s+/).filter(Boolean)
       const profiles = useProjectProfileStore.getState().profiles
 
-      return get().originalList
-        .filter(o => {
-          if (o.organizor) return re.test(o.organizor)
-          return Object.keys(profiles).some(key =>
-            profiles[key].title && re.test(profiles[key].title) && key === o.projectId
-          )
-        })
-        .slice(0, 50)
+      return get().originalList.filter(o => {
+        // For meetings/events
+        if (o.organizor) {
+          return searchTerms.every(term => o.organizor.toLowerCase().includes(term))
+        }
+
+        // For projects
+        const project = profiles[o.projectId]
+        if (!project?.title) return false
+
+        return searchTerms.every(term => 
+          project.title.toLowerCase().includes(term) ||
+          project.description?.toLowerCase().includes(term)
+        )
+      })
     }
   }))
 )

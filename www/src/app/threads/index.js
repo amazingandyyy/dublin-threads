@@ -1,14 +1,12 @@
 'use client'
 import { Fragment, useEffect, useState, useRef, useMemo } from 'react'
 import { useGlobalThreadListStore, useProjectProfileStore } from '@/stores'
-import _ from 'lodash'
 import {
   CameraIcon,
   DocumentIcon,
   ArrowPathIcon,
   InformationCircleIcon,
   PencilSquareIcon,
-  MagnifyingGlassIcon,
   ArrowTopRightOnSquareIcon
 } from '@heroicons/react/24/outline'
 
@@ -630,11 +628,6 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
     }
   }, [loadingMore, threadList.length, totalItems])
 
-  const onSearch = _.debounce((e) => {
-    const newList = useGlobalThreadListStore.getState().applyFilter(e.target.value)
-    useGlobalThreadListStore.getState().update(newList)
-  }, 100)
-
   const filterConfig = {
     all: {
       label: (
@@ -714,7 +707,7 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
 
   return (
     <div>
-      <div className='container mx-auto px-4 py-4'>
+      <div className='container mx-auto px-4 py-0'>
         <TimelineNav
           dates={Object.keys(groupedThreads)}
           activeDate={activeDate}
@@ -723,74 +716,61 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
         />
         <div className='flex flex-col mb-4'>
           {global && (
-            <>
-              <div className='max-w-2xl mx-auto w-full mb-4 relative'>
-                <div className='absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none'>
-                  <MagnifyingGlassIcon className='h-5 w-5 text-gray-400' />
-                </div>
-                <input
-                  className='w-full bg-white rounded-2xl pl-10 pr-6 py-3.5 shadow-sm border border-gray-200 focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all duration-200 outline-none placeholder:text-gray-400'
-                  placeholder='Search for projects or meetings...'
-                  name='global-search'
-                  onChange={onSearch}
-                />
-              </div>
-              <div className='max-w-2xl mx-auto w-full mb-6'>
-                <div className='flex flex-col gap-4'>
-                  <div className='flex flex-wrap gap-2 justify-center'>
-                    {Object.entries(filterConfig).map(([key, config]) => {
-                      const Icon = config.icon
-                      const isActive = activeFilter === key
-                      const count = threadList.filter(post => {
-                        const category = post.type === 'meeting'
-                          ? 'meeting'
-                          : post.path?.[1] === 'images'
-                            ? 'image'
-                            : post.path?.[1] === 'docs'
-                              ? 'document'
-                              : post.path?.[1] === 'status'
-                                ? 'status'
-                                : post.path?.[1] === 'details'
-                                  ? 'detail'
-                                  : 'other'
-                        return category === key
-                      }).length
+            <div className='max-w-2xl mx-auto w-full mb-6'>
+              <div className='flex flex-col gap-4'>
+                <div className='flex flex-wrap gap-2 justify-center'>
+                  {Object.entries(filterConfig).map(([key, config]) => {
+                    const Icon = config.icon
+                    const isActive = activeFilter === key
+                    const count = threadList.filter(post => {
+                      const category = post.type === 'meeting'
+                        ? 'meeting'
+                        : post.path?.[1] === 'images'
+                          ? 'image'
+                          : post.path?.[1] === 'docs'
+                            ? 'document'
+                            : post.path?.[1] === 'status'
+                              ? 'status'
+                              : post.path?.[1] === 'details'
+                                ? 'detail'
+                                : 'other'
+                      return category === key
+                    }).length
 
-                      return (
-                        <button
-                          key={key}
-                          onClick={() => setActiveFilter(key)}
-                          className={`
-                            px-4 py-2.5 rounded-xl text-sm font-medium 
-                            transition-all duration-200 flex items-center gap-2.5 shadow-sm
-                            ${isActive ? config.activeClass : config.defaultClass}
-                            ${isActive ? '' : 'hover:bg-gray-50 hover:ring-2'}
-                          `}
-                        >
-                          <Icon className={`w-4 h-4 ${isActive ? 'text-white' : 'text-gray-400'}`} />
-                          <div className='flex items-center gap-2'>
-                            {config.label}
-                            {key !== 'all' && (
-                              <span className={`
-                                px-2 py-0.5 rounded-full text-xs font-medium
-                                ${isActive ? 'bg-white/20 text-white' : 'bg-gray-100 text-gray-500'}
-                              `}>
-                                {count}
-                              </span>
-                            )}
-                          </div>
-                        </button>
-                      )
-                    })}
-                  </div>
-                  <div className='flex items-center gap-2 justify-center text-xs text-gray-500'>
-                    <span>Filter by type</span>
-                    <span>•</span>
-                    <span>{Object.values(groupedThreads).flat().length} of {totalItems} updates</span>
-                  </div>
+                    return (
+                      <button
+                        key={key}
+                        onClick={() => setActiveFilter(key)}
+                        className={`
+                          px-4 py-2.5 rounded-xl text-sm font-medium 
+                          transition-all duration-200 flex items-center gap-2.5 shadow-sm
+                          ${isActive ? config.activeClass : config.defaultClass}
+                          ${isActive ? '' : 'hover:bg-gray-50 hover:ring-2'}
+                        `}
+                      >
+                        <Icon className={`w-4 h-4 ${isActive ? 'text-white' : 'text-gray-400'}`} />
+                        <div className='flex items-center gap-2'>
+                          {config.label}
+                          {key !== 'all' && (
+                            <span className={`
+                              px-2 py-0.5 rounded-full text-xs font-medium
+                              ${isActive ? 'bg-white/20 text-white' : 'bg-gray-100 text-gray-500'}
+                            `}>
+                              {count}
+                            </span>
+                          )}
+                        </div>
+                      </button>
+                    )
+                  })}
+                </div>
+                <div className='flex items-center gap-2 justify-center text-xs text-gray-500'>
+                  <span>Filter by type</span>
+                  <span>•</span>
+                  <span>{Object.values(groupedThreads).flat().length} of {totalItems} updates</span>
                 </div>
               </div>
-            </>
+            </div>
           )}
           <div className='text-center text-gray-600 text-sm font-medium'>
             {loading

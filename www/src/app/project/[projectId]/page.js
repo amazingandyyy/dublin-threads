@@ -405,7 +405,7 @@ export default function Project ({ params }) {
           </div>
 
           {/* Navigation Tabs */}
-          <div className="sticky top-[72px] z-40 -mx-4 px-4 bg-[#F3F2EE]">
+          <div className="sticky top-[72px] z-40 -mx-4 px-4 bg-none">
             <div className="bg-white rounded-2xl border border-gray-200/80 shadow-sm overflow-hidden">
               <div className="flex flex-col sm:flex-row">
                 <button
