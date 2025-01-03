@@ -62,13 +62,13 @@ const CardHeader = ({ icon: Icon, title, color = 'emerald' }) => (
   </div>
 )
 
-const Card = ({ children, className = '' }) => (
+const Card = ({ children, className = "" }) => (
   <div
-    className={`bg-white rounded-2xl border border-gray-200/80 p-8 ${className}`}
+    className={`bg-white rounded-2xl border border-gray-200/80 sm:p-8 p-4 ${className}`}
   >
     {children}
   </div>
-)
+);
 
 const InfoBlock = ({ icon: Icon, label, value, subtext }) => (
   <div className="flex items-start gap-3 p-4 rounded-xl bg-gradient-to-br from-gray-50/80 to-white border border-gray-200/50">
@@ -345,7 +345,9 @@ export default function Project ({ params }) {
                   <div className="text-2xl font-bold text-gray-900">
                     {timeSince(submittalSeconds)}
                   </div>
-                  <div className="text-sm text-gray-500">ago on {submittalDate}</div>
+                  <div className="text-sm text-gray-500">
+                    ago on {submittalDate}
+                  </div>
                 </div>
 
                 <div className="p-6 text-center">
@@ -364,7 +366,7 @@ export default function Project ({ params }) {
                     <span>Latest Update</span>
                   </div>
                   <div className="text-2xl font-bold text-gray-900">
-                    {threads[0] ? timeSince(threads[0].timestamp) : 'N/A'}
+                    {threads[0] ? timeSince(threads[0].timestamp) : "N/A"}
                   </div>
                   <div className="text-sm text-gray-500">ago</div>
                 </div>
@@ -404,89 +406,27 @@ export default function Project ({ params }) {
             </div>
           </div>
 
-          {/* Navigation Tabs */}
-          <div className="sticky top-[72px] z-40 -mx-4 px-4 bg-none">
-            <div className="bg-white rounded-2xl border border-gray-200/80 shadow-sm overflow-hidden">
-              <div className="flex flex-col sm:flex-row">
-                <button
-                  onClick={() => setActiveTab('overview')}
-                  className={`flex-1 px-6 py-4 text-sm font-medium transition-all duration-300 ${
-                    activeTab === 'overview'
-                      ? 'text-gray-900 bg-gradient-to-br from-gray-50 to-white shadow-sm'
-                      : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50/50'
-                  }`}
-                >
-                  <div className="flex items-center justify-center gap-2">
-                    <FileText className={`w-4 h-4 transition-colors duration-300 ${
-                      activeTab === 'overview' ? 'text-gray-900' : 'text-gray-400'
-                    }`} />
-                    Overview
-                  </div>
-                </button>
-                <button
-                  onClick={() => setActiveTab('timeline')}
-                  className={`flex-1 px-6 py-4 text-sm font-medium ${
-                    activeTab === 'timeline'
-                      ? 'text-gray-900 bg-gray-50'
-                      : 'text-gray-600'
-                  }`}
-                >
-                  <div className="flex items-center justify-center gap-2">
-                    <Clock className={`w-4 h-4 ${
-                      activeTab === 'timeline' ? 'text-gray-900' : 'text-gray-400'
-                    }`} />
-                    Timeline
-                  </div>
-                </button>
-                <button
-                  onClick={() => setActiveTab('contact')}
-                  className={`flex-1 px-6 py-4 text-sm font-medium ${
-                    activeTab === 'contact'
-                      ? 'text-gray-900 bg-gray-50'
-                      : 'text-gray-600'
-                  }`}
-                >
-                  <div className="flex items-center justify-center gap-2">
-                    <Users className={`w-4 h-4 ${
-                      activeTab === 'contact' ? 'text-gray-900' : 'text-gray-400'
-                    }`} />
-                    Contact & Docs
-                  </div>
-                </button>
-                <button
-                  onClick={() => setActiveTab('discussions')}
-                  className={`flex-1 px-6 py-4 text-sm font-medium ${
-                    activeTab === 'discussions'
-                      ? 'text-gray-900 bg-gray-50'
-                      : 'text-gray-600'
-                  }`}
-                >
-                  <div className="flex items-center justify-center gap-2">
-                    <MessageSquare className={`w-4 h-4 ${
-                      activeTab === 'discussions' ? 'text-gray-900' : 'text-gray-400'
-                    }`} />
-                    Discussions
-                  </div>
-                </button>
-              </div>
-            </div>
-          </div>
-
           {/* Content */}
           <div className="transition-all duration-300 space-y-8">
-            {activeTab === 'overview' && renderOverviewTab()}
-            {activeTab === 'timeline' && renderTimeline()}
-            {activeTab === 'contact' && renderContactTab()}
-            {activeTab === 'discussions' && (
+            {renderOverviewTab()}
+            {renderContactTab()}
+            {
               <div className="space-y-8 animate-fadeIn">
                 <Card>
-                  <CardHeader icon={MessageSquare} title="Community Discussions" />
-                  <div className="px-8 pb-8">
+                  <CardHeader
+                    icon={MessageSquare}
+                    title="Community Discussions"
+                  />
+                  <div className="pb-8">
                     <div className="mb-6">
-                      <p className="text-gray-600">Join the conversation about this development project. Share your thoughts, ask questions, and connect with other community members.</p>
+                      <p className="text-gray-600">
+                        Join the conversation about this development project.
+                        Share your thoughts, ask questions, and connect with
+                        other community members.
+                      </p>
                     </div>
                     <div className="bg-gray-50 rounded-xl p-6 border border-gray-200/80">
-                      <DisqusComments 
+                      <DisqusComments
                         id={id}
                         title={title}
                         url={`https://dublin.amazyyy.com/project/${id}`}
@@ -495,12 +435,13 @@ export default function Project ({ params }) {
                   </div>
                 </Card>
               </div>
-            )}
+            }
+            {renderTimeline()}
           </div>
         </main>
       </div>
     </div>
-  )
+  );
 
   const renderOverviewTab = () => (
     <div className="space-y-8 animate-fadeIn">
@@ -583,7 +524,7 @@ export default function Project ({ params }) {
               {geolocation?.lat && geolocation?.lon 
                 ? (
                   <>
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className="grid grid-cols-2 gap-4 pb-2">
                       <div className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors group">
                         <p className="text-sm text-gray-500 group-hover:text-gray-600">Latitude</p>
                         <p className="font-medium text-gray-900 group-hover:text-emerald-600">{geolocation.lat.toFixed(6)}°</p>
