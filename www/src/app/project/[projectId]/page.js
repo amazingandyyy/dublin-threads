@@ -26,8 +26,8 @@ import {
 
 const InfoTooltip = ({ text }) => (
   <div className="group relative inline-block ml-1">
-    <div className="w-4 h-4 rounded-full bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center text-gray-400 text-xs cursor-help shadow-sm">?</div>
-    <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-48 p-2 bg-gray-900/95 backdrop-blur-sm text-white text-xs rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+    <div className="w-3.5 sm:w-4 h-3.5 sm:h-4 rounded-full bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center text-gray-400 text-[10px] sm:text-xs cursor-help shadow-sm">?</div>
+    <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-40 sm:w-48 p-2 bg-gray-900/95 backdrop-blur-sm text-white text-[10px] sm:text-xs rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
       {text}
       <div className="absolute top-full left-1/2 -translate-x-1/2 -mt-1 border-4 border-transparent border-t-gray-900/95"></div>
     </div>
@@ -37,34 +37,34 @@ const InfoTooltip = ({ text }) => (
 const MetricCard = ({ icon: Icon, label, value, tooltip }) => {
   return (
     <Card>
-      <div className="flex items-center gap-3 mb-6">
-        <div className="p-2.5 bg-gradient-to-br from-gray-50 to-gray-100/80 rounded-xl shadow-[0_2px_3px_-1px_rgba(0,0,0,0.1),0_1px_0_0_rgba(25,28,33,0.02),0_0_0_1px_rgba(25,28,33,0.08)]">
-          <Icon className="w-5 h-5 text-gray-700" />
+      <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
+        <div className="p-2 sm:p-2.5 bg-gradient-to-br from-gray-50 to-gray-100/80 rounded-lg sm:rounded-xl shadow-[0_2px_3px_-1px_rgba(0,0,0,0.1),0_1px_0_0_rgba(25,28,33,0.02),0_0_0_1px_rgba(25,28,33,0.08)]">
+          <Icon className="w-4 h-4 sm:w-5 sm:h-5 text-gray-700" />
         </div>
         <div className="flex items-center">
-          <h3 className="font-medium text-gray-700">{label}</h3>
+          <h3 className="text-sm sm:text-base font-medium text-gray-700">{label}</h3>
           {tooltip && <InfoTooltip text={tooltip} />}
         </div>
       </div>
-      <p className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-900 to-gray-600 animate-in fade-in slide-in-from-bottom-1 duration-500">{value}</p>
+      <p className="text-xl sm:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-900 to-gray-600 animate-in fade-in slide-in-from-bottom-1 duration-500">{value}</p>
     </Card>
   )
 }
 
 const CardHeader = ({ icon: Icon, title, color = 'emerald' }) => (
-  <div className="-mx-8 -mt-8 mb-8 p-8 border-b border-gray-100">
-    <div className="flex items-center gap-3">
-      <div className={`p-2.5 bg-gradient-to-br from-${color}-50 to-${color}-100/50 rounded-xl shadow-[0_2px_3px_-1px_rgba(0,0,0,0.1),0_1px_0_0_rgba(25,28,33,0.02),0_0_0_1px_rgba(25,28,33,0.08)]`}>
-        <Icon className={`w-5 h-5 text-${color}-600`} />
+  <div className="mb-6 sm:mb-8 py-4 pl-0">
+    <div className="flex items-center gap-2 sm:gap-3">
+      <div className={`p-2 sm:p-2.5 bg-gradient-to-br from-${color}-50 to-${color}-100/50 rounded-xl shadow-[0_2px_3px_-1px_rgba(0,0,0,0.1),0_1px_0_0_rgba(25,28,33,0.02),0_0_0_1px_rgba(25,28,33,0.08)]`}>
+        <Icon className={`w-4 h-4 sm:w-5 sm:h-5 text-${color}-600`} />
       </div>
-      <h2 className="text-xl font-semibold text-gray-900">{title}</h2>
+      <h2 className="text-lg sm:text-xl font-semibold text-gray-900">{title}</h2>
     </div>
   </div>
 )
 
 const Card = ({ children, className = '' }) => (
   <div
-    className={`bg-white rounded-2xl border border-gray-200/80 sm:p-8 p-4 ${className}`}
+    className={`bg-white rounded-none sm:rounded-xl border border-gray-200/80 py-4 px-2 sm:p-8 ${className}`}
   >
     {children}
   </div>
@@ -303,10 +303,10 @@ export default function Project ({ params }) {
       </div>
 
       <GlobalHeader />
-      <div className="container mx-auto px-4 py-6 sm:py-8 md:py-12">
+      <div className="container mx-auto sm:px-4 px-0 sm:py-6 sm:py-8 md:py-12">
         <main className="max-w-[1400px] mx-auto space-y-8">
           {/* Hero Section */}
-          <div className="bg-white rounded-2xl shadow-sm overflow-hidden">
+          <div className="bg-white sm:rounded-xl rounded-none shadow-sm overflow-hidden">
             <div className="relative h-[250px] sm:h-[300px] md:h-[400px] overflow-hidden">
               {images[0] && (
                 <Image
@@ -425,7 +425,7 @@ export default function Project ({ params }) {
                         other community members.
                       </p>
                     </div>
-                    <div className="bg-gray-50 rounded-xl p-6 border border-gray-200/80">
+                    <div className="bg-gray-50 rounded-none sm:rounded-xl p-6 border border-gray-200/80">
                       <DisqusComments
                         id={id}
                         title={title}
@@ -702,7 +702,7 @@ export default function Project ({ params }) {
               href={`tel:${details.Applicant.phone}`}
               className="flex items-center gap-3 p-4 rounded-xl bg-gradient-to-br from-emerald-50/50 to-white border border-emerald-200/50 transition-all duration-300 transform active:scale-[0.98]"
             >
-              <div className="p-2.5 bg-gradient-to-br from-white to-emerald-50/30 rounded-xl shadow-[0_2px_3px_-1px_rgba(0,0,0,0.1),0_1px_0_0_rgba(25,28,33,0.02),0_0_0_1px_rgba(25,28,33,0.08)]">
+              <div className="p-2.5 bg-gradient-to-br from-white to-emerald-50/30 rounded-none sm:rounded-xl shadow-[0_2px_3px_-1px_rgba(0,0,0,0.1),0_1px_0_0_rgba(25,28,33,0.02),0_0_0_1px_rgba(25,28,33,0.08)]">
                 <Phone className="w-5 h-5 text-emerald-600" />
               </div>
               <div>
@@ -757,7 +757,7 @@ export default function Project ({ params }) {
       {docs.length > 0 && (
         <Card>
           <CardHeader icon={FileText} title="Documents" color="orange" />
-          <div className="px-8 pb-8">
+          <div className="pb-8">
             <div className="grid grid-cols-1 gap-3">
               {docs.map((doc) => (
                 <a
