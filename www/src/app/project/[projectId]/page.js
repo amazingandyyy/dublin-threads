@@ -62,13 +62,13 @@ const CardHeader = ({ icon: Icon, title, color = 'emerald' }) => (
   </div>
 )
 
-const Card = ({ children, className = "" }) => (
+const Card = ({ children, className = '' }) => (
   <div
     className={`bg-white rounded-2xl border border-gray-200/80 sm:p-8 p-4 ${className}`}
   >
     {children}
   </div>
-);
+)
 
 const InfoBlock = ({ icon: Icon, label, value, subtext }) => (
   <div className="flex items-start gap-3 p-4 rounded-xl bg-gradient-to-br from-gray-50/80 to-white border border-gray-200/50">
@@ -207,7 +207,7 @@ const DisqusComments = ({ id, title, url }) => {
 export default function Project ({ params }) {
   const [project, setProject] = useState(null)
   const [loading, setLoading] = useState(true)
-  const [activeTab, setActiveTab] = useState('overview')
+  // const [activeTab, setActiveTab] = useState('overview')
 
   useEffect(() => {
     fetchDevelopments('/logs/global.json')
@@ -366,7 +366,7 @@ export default function Project ({ params }) {
                     <span>Latest Update</span>
                   </div>
                   <div className="text-2xl font-bold text-gray-900">
-                    {threads[0] ? timeSince(threads[0].timestamp) : "N/A"}
+                    {threads[0] ? timeSince(threads[0].timestamp) : 'N/A'}
                   </div>
                   <div className="text-sm text-gray-500">ago</div>
                 </div>
@@ -441,7 +441,7 @@ export default function Project ({ params }) {
         </main>
       </div>
     </div>
-  );
+  )
 
   const renderOverviewTab = () => (
     <div className="space-y-8 animate-fadeIn">

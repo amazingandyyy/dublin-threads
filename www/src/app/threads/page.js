@@ -75,7 +75,7 @@ export default function Threads () {
           <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
         </div>
 
-        <div className="container mx-auto px-4 py-8">
+        <div className="container mx-auto px-4 sm:py-8 py-0">
           <div className='flex flex-col items-center text-center text-gray-600 p-4 pt-20'>
             <div className='font-handwriting text-3xl md:text-6xl font-bold text-green-950 mb-4'>
               A Thread for <span>Dublin, CA</span>
