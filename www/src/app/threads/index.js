@@ -1,6 +1,7 @@
 'use client'
 import { Fragment, useEffect, useState, useRef, useMemo } from 'react'
 import { useGlobalThreadListStore, useProjectProfileStore } from '@/stores'
+import { timeSince } from '@/utils'
 import {
   CameraIcon,
   DocumentIcon,
@@ -9,6 +10,7 @@ import {
   PencilSquareIcon,
   ArrowTopRightOnSquareIcon
 } from '@heroicons/react/24/outline'
+import Link from 'next/link'
 
 // Utility function to validate post content
 const isValidPost = (post, threadList = []) => {
@@ -91,31 +93,15 @@ const ValueChange = ({ oldText, newText, type = 'text' }) => {
   const oldValue = processText(oldText || '')
   const newValue = processText(newText || '')
 
-  if (type === 'title') {
-    return (
-      <div className="space-y-2">
-        <div className="flex items-center gap-2">
-          <span className="text-gray-600">{oldValue}</span>
-          <span className="text-gray-400">→</span>
-          <span className="text-gray-900 font-medium">{newValue}</span>
-        </div>
-      </div>
-    )
-  }
-
   return (
-    <div className="space-y-2">
-      <div className="flex items-baseline gap-4">
-        <div className="w-24 flex-shrink-0">
-          <span className="text-xs font-medium text-gray-400 uppercase tracking-wider">Previous</span>
-        </div>
-        <div className="text-gray-600">{oldValue || 'Not set'}</div>
+    <div className="flex flex-col gap-4">
+      <div className="flex flex-col">
+        <span className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1.5">Previous</span>
+        <div className="text-xs sm:text-sm text-gray-600">{oldValue || 'Not set'}</div>
       </div>
-      <div className="flex items-baseline gap-4">
-        <div className="w-24 flex-shrink-0">
-          <span className="text-xs font-medium text-gray-400 uppercase tracking-wider">New</span>
-        </div>
-        <div className="text-gray-900 font-medium">{newValue}</div>
+      <div className="flex flex-col">
+        <span className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1.5">New</span>
+        <div className="text-xs sm:text-sm text-gray-900 font-medium">{newValue}</div>
       </div>
     </div>
   )
@@ -236,77 +222,37 @@ const TextDiff = ({ oldText, newText }) => {
 function Post ({ data }) {
   const profiles = useProjectProfileStore(state => state.profiles)
   const CardWrapper = ({ children }) => (
-    <div className='bg-white rounded-xl border border-gray-100'>
-      <div className='px-6 py-5'>
+    <div className='bg-white rounded-none sm:rounded-xl border-y sm:border border-gray-100'>
+      <div className='px-3 sm:px-4 py-3 sm:py-4'>
         {children}
       </div>
     </div>
   )
 
   const renderMetadata = () => {
-    const timestamp = new Date(Number(data.timestamp))
-    const timeString = timestamp.toLocaleTimeString('en-US', {
-      hour: 'numeric',
-      minute: '2-digit',
-      hour12: true
-    })
-
-    const getUpdateIcon = () => {
-      if (data.op === 'add' && data.path?.[1] === 'docs') {
-        return <div className='w-10 h-10 bg-gradient-to-br from-amber-50 to-amber-100/50 rounded-xl flex items-center justify-center flex-shrink-0 border border-amber-100/50'>
-          <DocumentIcon className='w-5 h-5 text-amber-600' />
-        </div>
-      }
-      if (data.op === 'update') {
-        const updateType = data.path?.[1]
-        switch (updateType) {
-          case 'status':
-            return <div className='w-10 h-10 bg-gradient-to-br from-rose-50 to-rose-100/50 rounded-xl flex items-center justify-center flex-shrink-0 border border-rose-100/50'>
-              <ArrowPathIcon className='w-5 h-5 text-rose-600' />
-            </div>
-          case 'description':
-            return <div className='w-10 h-10 bg-gradient-to-br from-blue-50 to-blue-100/50 rounded-xl flex items-center justify-center flex-shrink-0 border border-blue-100/50'>
-              <PencilSquareIcon className='w-5 h-5 text-blue-600' />
-            </div>
-          case 'details':
-            return <div className='w-10 h-10 bg-gradient-to-br from-emerald-50 to-emerald-100/50 rounded-xl flex items-center justify-center flex-shrink-0 border border-emerald-100/50'>
-              <InformationCircleIcon className='w-5 h-5 text-emerald-600' />
-            </div>
-          case 'images':
-            return <div className='w-10 h-10 bg-gradient-to-br from-indigo-50 to-indigo-100/50 rounded-xl flex items-center justify-center flex-shrink-0 border border-indigo-100/50'>
-              <CameraIcon className='w-5 h-5 text-indigo-600' />
-            </div>
-          default:
-            return <div className='w-10 h-10 bg-gradient-to-br from-gray-50 to-gray-100/50 rounded-xl flex items-center justify-center flex-shrink-0 border border-gray-200/50'>
-              <PencilSquareIcon className='w-5 h-5 text-gray-600' />
-            </div>
-        }
-      }
-    }
+    const profile = profiles[data.projectId]
+    if (!profile) return null
 
     return (
-      <div className='flex items-center justify-between mb-4'>
-        <div className='flex items-center gap-4'>
-          {getUpdateIcon()}
-          <div className='flex flex-col'>
-            <div className='text-sm font-medium text-gray-900 flex items-center gap-2'>
-              <a
-                href={`/project/${data.projectId}`}
-                className='hover:text-blue-600 transition-colors duration-200 flex items-center gap-2 group/link'
-              >
-                {profiles[data.projectId]?.title || 'Unknown Project'}
-                {data.projectId && (
-                  <span className='text-xs font-normal text-gray-500 bg-gray-50 px-2 py-0.5 rounded-md border border-gray-100/50 group-hover/link:bg-blue-50 group-hover/link:text-blue-600 group-hover/link:border-blue-100/50 transition-all duration-200'>
-                    Project Details
-                  </span>
-                )}
-                <ArrowTopRightOnSquareIcon className='w-3.5 h-3.5 opacity-0 group-hover/link:opacity-100 transition-opacity' />
-              </a>
-            </div>
-            <div className='text-xs text-gray-500 mt-1 flex items-center gap-2'>
-              <span>{timeString}</span>
-            </div>
-          </div>
+      <div className='flex flex-col sm:flex-row sm:items-center justify-between gap-2 sm:gap-4 mb-4'>
+        <div className='flex-1 min-w-0'>
+          <Link
+            href={`/project/${data.projectId}`}
+            className='group inline-flex items-center gap-2'
+          >
+            <h3 className='text-sm sm:text-base font-medium text-gray-900 group-hover:text-green-700 transition-colors duration-200 truncate'>
+              {profile.title}
+            </h3>
+            <ArrowTopRightOnSquareIcon className='w-4 h-4 text-gray-400 group-hover:text-green-600 flex-shrink-0' />
+          </Link>
+          <p className='text-xs text-gray-500 truncate mt-0.5'>
+            {profile.location}
+          </p>
+        </div>
+        <div className='flex items-center gap-2 flex-shrink-0 text-xs sm:text-sm'>
+          <span className='text-gray-500'>
+            {timeSince(data.timestamp)} ago
+          </span>
         </div>
       </div>
     )
@@ -347,22 +293,22 @@ function Post ({ data }) {
   const renderStatusUpdate = ({ oldVal, val }) => {
     return (
       <div className='flex flex-col'>
-        <div className='text-sm text-gray-600 mb-3'>
+        <div className='text-xs sm:text-sm text-gray-600 mb-3'>
           Status changed
         </div>
-        <div className='flex items-center gap-3'>
-          <div className='flex-1 px-5 py-4 bg-white rounded-xl border border-gray-100/75 shadow-sm'>
+        <div className='flex flex-col gap-3'>
+          <div className='flex-1 px-3 sm:px-4 py-2.5 sm:py-3 bg-white rounded-xl border border-gray-100/75 shadow-sm'>
             <div className='text-xs text-gray-400 uppercase tracking-wider font-medium mb-1'>From</div>
-            <div className='text-sm text-gray-600'>{oldVal}</div>
+            <div className='text-xs sm:text-sm text-gray-600 break-words'>{oldVal}</div>
           </div>
-          <div className='w-8 h-8 bg-white rounded-full flex items-center justify-center flex-shrink-0 shadow-sm border border-gray-100/75'>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 text-gray-400">
+          <div className='flex justify-center text-gray-400'>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 transform rotate-90">
               <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z" clipRule="evenodd" />
             </svg>
           </div>
-          <div className='flex-1 px-5 py-4 bg-white rounded-xl border border-gray-100/75 shadow-sm'>
+          <div className='flex-1 px-3 sm:px-4 py-2.5 sm:py-3 bg-white rounded-xl border border-gray-100/75 shadow-sm'>
             <div className='text-xs text-gray-400 uppercase tracking-wider font-medium mb-1'>To</div>
-            <div className='text-sm text-gray-900 font-medium'>{val}</div>
+            <div className='text-xs sm:text-sm text-gray-900 font-medium break-words'>{val}</div>
           </div>
         </div>
       </div>
@@ -372,70 +318,45 @@ function Post ({ data }) {
   const renderDescriptionUpdate = ({ oldVal, val }) => {
     return (
       <div className='flex flex-col'>
-        <div className='text-sm text-gray-600 mb-3'>
-          Updated description
+        <div className='text-xs sm:text-sm text-gray-600 mb-3'>
+          Description updated
         </div>
-        <div className='px-6 py-4 bg-white rounded-xl border border-gray-100/75 shadow-sm'>
-          <div className='mb-3 flex items-center gap-4'>
-            <div className='flex items-center gap-4 text-xs'>
-              <div className='flex items-center gap-1.5'>
-                <span className='text-emerald-600 font-medium'>Added</span>
-                <span className='text-gray-400'>•</span>
-                <span className='text-rose-600 font-medium'>Removed</span>
-              </div>
-            </div>
-          </div>
+        <div className='px-3 sm:px-4 py-2.5 sm:py-3 bg-white rounded-xl border border-gray-100/75 shadow-sm'>
           <TextDiff oldText={oldVal} newText={val} />
         </div>
       </div>
     )
   }
 
-  const renderDetailUpdate = ({ path, oldVal, val }) => {
-    const fieldName = path[2]
-    const getUpdateType = () => {
-      if (fieldName.toLowerCase().includes('phone')) return 'phone'
-      if (/area|square|sq\.?\s*ft\.?|feet/i.test(fieldName)) return 'measurement'
-      if (/name|title|position/i.test(fieldName)) return 'title'
-      return 'text'
-    }
-
+  const renderDetailUpdate = (data) => {
+    const fieldName = data.path[2]
     return (
       <div className='flex flex-col'>
-        <div className='text-sm text-gray-600 mb-3'>
-          Updated {fieldName.toLowerCase()}
+        <div className='text-xs sm:text-sm text-gray-600 mb-3'>
+          Updated {fieldName}
         </div>
-        <div className='px-6 py-4 bg-white rounded-xl border border-gray-100/75 shadow-sm'>
-          <ValueChange 
-            oldText={oldVal || 'Not set'} 
-            newText={val} 
-            type={getUpdateType()}
-          />
+        <div className='px-3 sm:px-4 py-2.5 sm:py-3 bg-white rounded-xl border border-gray-100/75 shadow-sm'>
+          <ValueChange oldText={data.oldVal || 'Not set'} newText={data.val} />
         </div>
       </div>
     )
   }
 
   const renderImageUpdate = () => {
+    const src = data.val?.original
+    if (!src) return null
+
     return (
       <div className='flex flex-col'>
-        <div className='text-sm text-gray-600 mb-3'>
-          New project photo
+        <div className='text-xs sm:text-sm text-gray-600 mb-3'>
+          Added new image
         </div>
-        <div className='bg-white rounded-xl overflow-hidden border border-gray-100/75 shadow-sm hover:shadow-md transition-all duration-200'>
-          <div className='relative aspect-[3/2] bg-gradient-to-br from-gray-100 to-gray-50 group'>
-            <img
-              src={data.val}
-              alt="Project photo"
-              className='absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.02]'
-            />
-            <div className='absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
-          </div>
-          <div className='px-5 py-3 border-t border-gray-100/75'>
-            <div className='text-xs text-gray-500 flex items-center gap-1.5'>
-              <span>Click to view full size</span>
-            </div>
-          </div>
+        <div className='overflow-hidden rounded-xl border border-gray-100/75 shadow-sm'>
+          <img
+            src={src}
+            alt='Project update'
+            className='w-full h-auto object-cover hover:scale-105 transition-transform duration-300'
+          />
         </div>
       </div>
     )
@@ -707,33 +628,34 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
 
   return (
     <div>
-      <div className='container mx-auto px-2 py-0'>
+      <div className="container mx-auto px-0 sm:px-2 py-0">
         <TimelineNav
           dates={Object.keys(groupedThreads)}
           activeDate={activeDate}
           onDateClick={scrollToDate}
           groupedThreads={groupedThreads}
         />
-        <div className='flex flex-col mb-4'>
+        <div className="flex flex-col mb-4">
           {global && (
-            <div className='max-w-2xl mx-auto w-full mb-6'>
-              <div className='flex flex-col gap-4'>
-                <div className='flex flex-wrap gap-2 justify-center'>
+            <div className="max-w-2xl mx-auto w-full mb-6 px-3 sm:px-2">
+              <div className="flex flex-col gap-4">
+                <div className="flex flex-wrap gap-2 justify-center">
                   {Object.entries(filterConfig).map(([key, config]) => {
                     const Icon = config.icon
                     const isActive = activeFilter === key
-                    const count = threadList.filter(post => {
-                      const category = post.type === 'meeting'
-                        ? 'meeting'
-                        : post.path?.[1] === 'images'
-                          ? 'image'
-                          : post.path?.[1] === 'docs'
-                            ? 'document'
-                            : post.path?.[1] === 'status'
-                              ? 'status'
-                              : post.path?.[1] === 'details'
-                                ? 'detail'
-                                : 'other'
+                    const count = threadList.filter((post) => {
+                      const category =
+                        post.type === 'meeting'
+                          ? 'meeting'
+                          : post.path?.[1] === 'images'
+                            ? 'image'
+                            : post.path?.[1] === 'docs'
+                              ? 'document'
+                              : post.path?.[1] === 'status'
+                                ? 'status'
+                                : post.path?.[1] === 'details'
+                                  ? 'detail'
+                                  : 'other'
                       return category === key
                     }).length
 
@@ -742,20 +664,30 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
                         key={key}
                         onClick={() => setActiveFilter(key)}
                         className={`
-                          px-4 py-2.5 rounded-xl text-sm font-medium 
-                          transition-all duration-200 flex items-center gap-2.5 shadow-sm
+                          px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-medium 
+                          transition-all duration-200 flex items-center gap-2 shadow-sm
                           ${isActive ? config.activeClass : config.defaultClass}
                           ${isActive ? '' : 'hover:bg-gray-50 hover:ring-2'}
                         `}
                       >
-                        <Icon className={`w-4 h-4 ${isActive ? 'text-white' : 'text-gray-400'}`} />
-                        <div className='flex items-center gap-2'>
+                        <Icon
+                          className={`w-3.5 h-3.5 sm:w-4 sm:h-4 ${
+                            isActive ? 'text-white' : 'text-gray-400'
+                          }`}
+                        />
+                        <div className="flex items-center gap-2">
                           {config.label}
                           {key !== 'all' && (
-                            <span className={`
-                              px-2 py-0.5 rounded-full text-xs font-medium
-                              ${isActive ? 'bg-white/20 text-white' : 'bg-gray-100 text-gray-500'}
-                            `}>
+                            <span
+                              className={`
+                              px-1.5 sm:px-2 py-0.5 rounded-full text-xs font-medium
+                              ${
+                                isActive
+                                  ? 'bg-white/20 text-white'
+                                  : 'bg-gray-100 text-gray-500'
+                              }
+                            `}
+                            >
                               {count}
                             </span>
                           )}
@@ -764,79 +696,96 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
                     )
                   })}
                 </div>
-                <div className='flex items-center gap-2 justify-center text-xs text-gray-500'>
+                <div className="flex items-center gap-2 justify-center text-xs text-gray-500">
                   <span>Filter by type</span>
                   <span>•</span>
-                  <span>{Object.values(groupedThreads).flat().length} of {totalItems} updates</span>
+                  <span>
+                    {Object.values(groupedThreads).flat().length} of{' '}
+                    {totalItems} updates
+                  </span>
                 </div>
               </div>
             </div>
           )}
-          <div className='text-center text-gray-600 text-sm font-medium'>
+          <div className="text-center text-gray-600 text-sm font-medium px-3 sm:px-0">
             {loading
-              ? <span className='animate-pulse'>Loading...</span>
-              : <span>{Object.values(groupedThreads).flat().length} of {totalItems} {unit}</span>
-            }
+              ? (
+              <span className="animate-pulse">Loading...</span>
+                )
+              : (
+              <span>
+                {Object.values(groupedThreads).flat().length} of {totalItems}{' '}
+                {unit}
+              </span>
+                )}
           </div>
         </div>
 
         {loading && <PostPlaceholder />}
 
-        <div className='w-full flex flex-col items-center'>
+        <div className="w-full flex flex-col items-center">
           {Object.entries(groupedThreads).map(([date, posts]) => (
-            <div key={date} id={`date-${date}`} className='w-full max-w-2xl mb-6'>
-              {posts.length > 0 
+            <div
+              key={date}
+              id={`date-${date}`}
+              className="w-full sm:max-w-2xl mb-4 sm:mb-6"
+            >
+              {posts.length > 0
                 ? (
-                  <>
-                    <div
-                      ref={el => {
-                        el && stickyHeaderRefs.set(date, el)
-                        if (el) {
-                          const observer = new IntersectionObserver(
-                            ([entry]) => {
-                              if (entry.isIntersecting) {
-                                setActiveDate(date)
-                              }
-                            },
-                            { threshold: 1 }
-                          )
-                          observer.observe(el)
-                          return () => observer.disconnect()
-                        }
-                      }}
-                      className='sticky top-[4.5rem] z-20'
-                    >
-                      <div className='relative'>
-                        <div className='absolute inset-x-0 h-full bg-white/95 backdrop-blur-md'></div>
-                        <div className='relative max-w-2xl mx-auto py-3.5'>
-                          <div className='flex items-center justify-between px-6'>
-                            <div className='flex items-center gap-3'>
-                              <div className='w-1.5 h-1.5 rounded-full bg-gray-400'></div>
-                              <div className='text-sm font-semibold text-gray-700'>
-                                {date}
-                              </div>
+                <>
+                  <div
+                    ref={(el) => {
+                      el && stickyHeaderRefs.set(date, el)
+                      if (el) {
+                        const observer = new IntersectionObserver(
+                          ([entry]) => {
+                            if (entry.isIntersecting) {
+                              setActiveDate(date)
+                            }
+                          },
+                          { threshold: 1 }
+                        )
+                        observer.observe(el)
+                        return () => observer.disconnect()
+                      }
+                    }}
+                    className="sticky sm:top-[4.5rem] top-[2rem] z-20"
+                  >
+                    <div className="relative">
+                      <div className="absolute inset-x-0 h-full bg-white/95 backdrop-blur-md"></div>
+                      <div className="relative mx-auto sm:py-3 py-2">
+                        <div className="flex items-center justify-between px-3 sm:px-6">
+                          <div className="flex items-center gap-3">
+                            <div className="w-1.5 h-1.5 rounded-full bg-gray-400"></div>
+                            <div className="text-sm font-semibold text-gray-700">
+                              {date}
                             </div>
-                            <div className='text-xs font-medium px-3 py-1.5 bg-gray-100 text-gray-500 rounded-full ring-1 ring-gray-200/50'>
-                              {posts.length} updates
-                            </div>
+                          </div>
+                          <div className="text-xs font-medium px-3 py-1.5 bg-gray-100 text-gray-500 rounded-full ring-1 ring-gray-200/50">
+                            {posts.length} updates
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className='space-y-4 relative mt-3 px-0'>
-                      {posts.map((post, i) => (
-                        <Post key={`${post.projectId}-${i}`} data={post} />
-                      ))}
-                    </div>
-                  </>
+                  </div>
+                  <div className="space-y-3 sm:space-y-4 relative mt-3">
+                    {posts.map((post, i) => (
+                      <div
+                        key={`${post.projectId}-${i}`}
+                        className="px-0 sm:px-0"
+                      >
+                        <Post data={post} />
+                      </div>
+                    ))}
+                  </div>
+                </>
                   )
-                : null
-              }
+                : null}
             </div>
           ))}
           {Object.values(groupedThreads).flat().length === 0 && !loading && (
-            <div className='flex flex-col items-center justify-center py-12 px-4'>
-              <div className='text-sm text-gray-500 text-center'>
+            <div className="flex flex-col items-center justify-center py-12 px-4">
+              <div className="text-sm text-gray-500 text-center">
                 No updates found for this time period
               </div>
             </div>
@@ -844,9 +793,13 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
           {hasMore && !loading && (
             <div
               ref={loadMoreRef}
-              className='w-full max-w-2xl py-8 flex justify-center px-6'
+              className="w-full sm:max-w-2xl py-8 flex justify-center px-3 sm:px-6"
             >
-              <div className={`text-gray-500 ${loadingMore ? 'animate-pulse' : ''} py-4 px-6 bg-gray-50/50 rounded-full`}>
+              <div
+                className={`text-gray-500 ${
+                  loadingMore ? 'animate-pulse' : ''
+                } py-4 px-6 bg-gray-50/50 rounded-full`}
+              >
                 {loadingMore ? 'Loading more...' : 'Scroll to load more'}
               </div>
             </div>

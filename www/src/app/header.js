@@ -12,39 +12,35 @@ export default function GlobalHeader () {
           <span className="text-white/90">Here&apos;s to another year of keeping Dublin informed! 🌟</span>
         </div>
       </div> */}
-      <header className="z-50 fixed top-1 left-0 right-0 px-4 py-3">
-        <nav className="max-w-7xl mx-auto">
-          <div className="flex items-center justify-between bg-white/60 shadow-sm backdrop-blur-md py-2.5 px-4 rounded-2xl">
-            <div className="flex items-center">
-              <Link href="/" className="group">
-                <h1 className="text-green-950 text-lg md:text-2xl tracking-tight font-bold group-hover:opacity-80 transition-opacity">
-                  Dublin<span className="font-normal italic">Threads</span>
-                </h1>
-              </Link>
-            </div>
+      <header className="z-50 fixed top-0 left-0 right-0">
+        <nav className="w-full bg-white/60 backdrop-blur-md sm:bg-transparent sm:backdrop-blur-none">
+          <div className="sm:max-w-7xl mx-auto sm:px-4 sm:py-2">
+            <div className="flex items-center justify-between bg-transparent sm:bg-white/60 sm:backdrop-blur-md py-2 px-3 sm:py-2.5 sm:px-4 sm:rounded-2xl sm:shadow-sm">
+              <div className="flex items-center flex-shrink-0">
+                <Link href="/" className="group">
+                  <h1 className="text-base sm:text-lg md:text-2xl text-green-950 tracking-tight font-bold group-hover:opacity-80 transition-opacity">
+                    Dublin<span className="font-normal italic">Threads</span>
+                  </h1>
+                </Link>
+              </div>
 
-            <div className="flex items-center space-x-1 md:space-x-2">
-              <Link href="/threads">
-                <div className="px-3 md:px-2 py-1.5 text-sm md:text-base font-medium text-gray-700 rounded-lg hover:bg-gray-50 hover:text-green-800 transition-all duration-200 flex items-center">
-                  {/* <span className="px-1.5 py-0 text-[9px] font-semibold bg-teal-900 text-white rounded">
-                    NEW
-                  </span> */}
-                  <span className="ml-1.5">Updates</span>
-                </div>
-              </Link>
-              <Link href="/explorer">
-                <div className="px-3 md:px-2 py-1.5 text-sm md:text-base font-medium text-gray-700 rounded-lg hover:bg-gray-50 hover:text-green-800 transition-all duration-200 flex items-center">
-                  {/* <span className="px-1.5 py-0 text-[9px] font-semibold bg-teal-900 text-white rounded">
-                    NEW
-                  </span> */}
-                  <span className="ml-1.5">Explorer</span>
-                </div>
-              </Link>
-              <Link href="/about">
-                <div className="px-3 md:px-4 py-1.5 text-sm md:text-base font-medium text-gray-700 rounded-lg hover:bg-gray-50 hover:text-green-800 transition-all duration-200">
-                  About
-                </div>
-              </Link>
+              <div className="flex items-center gap-1 sm:gap-2">
+                <Link href="/threads">
+                  <div className="px-2 sm:px-3 py-1 sm:py-1.5 text-xs sm:text-sm md:text-base font-medium text-gray-700 rounded-lg hover:bg-gray-50 hover:text-green-800 transition-all duration-200 flex items-center whitespace-nowrap">
+                    Updates
+                  </div>
+                </Link>
+                <Link href="/explorer">
+                  <div className="px-2 sm:px-3 py-1 sm:py-1.5 text-xs sm:text-sm md:text-base font-medium text-gray-700 rounded-lg hover:bg-gray-50 hover:text-green-800 transition-all duration-200 flex items-center whitespace-nowrap">
+                    Explorer
+                  </div>
+                </Link>
+                <Link href="/about">
+                  <div className="px-2 sm:px-3 py-1 sm:py-1.5 text-xs sm:text-sm md:text-base font-medium text-gray-700 rounded-lg hover:bg-gray-50 hover:text-green-800 transition-all duration-200 whitespace-nowrap">
+                    About
+                  </div>
+                </Link>
+              </div>
             </div>
           </div>
         </nav>
