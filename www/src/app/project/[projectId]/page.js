@@ -601,7 +601,7 @@ export default function Project ({ params }) {
                       View on Google Maps
                     </LinkButton>
                   </>
-                )
+                  )
                 : (
                   <LinkButton
                     href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${location} Dublin, CA`)}`}
@@ -610,7 +610,7 @@ export default function Project ({ params }) {
                   >
                     View on Google Maps
                   </LinkButton>
-                )}
+                  )}
             </div>
           </div>
           <div className="flex-1">
