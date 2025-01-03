@@ -294,7 +294,14 @@ export default function Project ({ params }) {
   }
 
   const renderHeroSection = () => (
-    <div className="min-h-screen bg-[#F3F2EE] selection:bg-emerald-500/10 selection:text-emerald-900">
+    <div className="min-h-screen bg-[#F3F2EE] selection:bg-emerald-500/10 selection:text-emerald-900 relative">
+      {/* Decorative background elements */}
+      <div className="fixed inset-0 overflow-hidden pointer-events-none">
+        <div className="fixed -top-24 -right-24 w-96 h-96 bg-green-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
+        <div className="fixed -bottom-24 -left-24 w-96 h-96 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
+        <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+      </div>
+
       <GlobalHeader />
       <div className="container mx-auto px-4 py-6 sm:py-8 md:py-12">
         <main className="max-w-[1400px] mx-auto space-y-8">
@@ -567,59 +574,83 @@ export default function Project ({ params }) {
       </div>
 
       {/* Location & Map */}
-      {geolocation && (
-        <Card>
-          <CardHeader icon={MapPin} title="Location" />
-          <div className="flex flex-col md:flex-row gap-8">
-            <div className="flex-1 space-y-6">
-              <div>
-                <p className="text-gray-600 mb-4">{location}</p>
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors group">
-                    <p className="text-sm text-gray-500 group-hover:text-gray-600">Latitude</p>
-                    <p className="font-medium text-gray-900 group-hover:text-emerald-600">{geolocation.lat.toFixed(6)}°</p>
-                  </div>
-                  <div className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors group">
-                    <p className="text-sm text-gray-500 group-hover:text-gray-600">Longitude</p>
-                    <p className="font-medium text-gray-900 group-hover:text-emerald-600">{geolocation.lon.toFixed(6)}°</p>
-                  </div>
-                </div>
-              </div>
-              <LinkButton
-                href={`https://www.google.com/maps/place/${geolocation.lat},${geolocation.lon}`}
-                icon={ExternalLink}
-                color="emerald"
-              >
-                View on Google Maps
-              </LinkButton>
-            </div>
-            <div className="flex-1">
-              <div className="h-[300px] rounded-lg overflow-hidden shadow-md">
-                <Map
-                  mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_TOKEN}
-                  initialViewState={{
-                    longitude: geolocation.lon,
-                    latitude: geolocation.lat,
-                    zoom: 14
-                  }}
-                  style={{ height: '100%' }}
-                  mapStyle="mapbox://styles/amazingandyyy/clkj4hghc005b01r14qvccv1h"
-                >
-                  <Marker longitude={geolocation.lon} latitude={geolocation.lat}>
-                    <div className="flex flex-col items-center transform hover:scale-110 transition-transform">
-                      <div className="flex items-center text-center leading-5 bg-gradient-to-r from-emerald-500 to-emerald-600 shadow-lg text-lg py-1.5 px-4 rounded-full font-semibold text-white">
-                        <MapPin className="h-4 w-4 mr-1" />
-                        <div>{location}</div>
+      <Card>
+        <CardHeader icon={MapPin} title="Location" />
+        <div className="flex flex-col md:flex-row gap-8">
+          <div className="flex-1 space-y-6">
+            <div>
+              <p className="text-gray-600 mb-4">{location}</p>
+              {geolocation?.lat && geolocation?.lon 
+                ? (
+                  <>
+                    <div className="grid grid-cols-2 gap-4">
+                      <div className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors group">
+                        <p className="text-sm text-gray-500 group-hover:text-gray-600">Latitude</p>
+                        <p className="font-medium text-gray-900 group-hover:text-emerald-600">{geolocation.lat.toFixed(6)}°</p>
                       </div>
-                      <div className="bg-gradient-to-r from-emerald-500 to-emerald-600 w-1 h-4"></div>
+                      <div className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors group">
+                        <p className="text-sm text-gray-500 group-hover:text-gray-600">Longitude</p>
+                        <p className="font-medium text-gray-900 group-hover:text-emerald-600">{geolocation.lon.toFixed(6)}°</p>
+                      </div>
                     </div>
-                  </Marker>
-                </Map>
-              </div>
+                    <LinkButton
+                      href={`https://www.google.com/maps/place/${geolocation.lat},${geolocation.lon}`}
+                      icon={ExternalLink}
+                      color="emerald"
+                    >
+                      View on Google Maps
+                    </LinkButton>
+                  </>
+                )
+                : (
+                  <LinkButton
+                    href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${location} Dublin, CA`)}`}
+                    icon={ExternalLink}
+                    color="emerald"
+                  >
+                    View on Google Maps
+                  </LinkButton>
+                )}
             </div>
           </div>
-        </Card>
-      )}
+          <div className="flex-1">
+            {geolocation?.lat && geolocation?.lon
+              ? (
+                <div className="h-[300px] rounded-lg overflow-hidden shadow-md">
+                  <Map
+                    mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_TOKEN}
+                    initialViewState={{
+                      longitude: geolocation.lon,
+                      latitude: geolocation.lat,
+                      zoom: 14
+                    }}
+                    style={{ height: '100%' }}
+                    mapStyle="mapbox://styles/amazingandyyy/clkj4hghc005b01r14qvccv1h"
+                  >
+                    <Marker longitude={geolocation.lon} latitude={geolocation.lat}>
+                      <div className="flex flex-col items-center transform hover:scale-110 transition-transform">
+                        <div className="flex items-center text-center leading-5 bg-gradient-to-r from-emerald-500 to-emerald-600 shadow-lg text-lg py-1.5 px-4 rounded-full font-semibold text-white">
+                          <MapPin className="h-4 w-4 mr-1" />
+                          <div>{location}</div>
+                        </div>
+                        <div className="bg-gradient-to-r from-emerald-500 to-emerald-600 w-1 h-4"></div>
+                      </div>
+                    </Marker>
+                  </Map>
+                </div>
+                )
+              : (
+                <div className="h-[300px] rounded-lg overflow-hidden shadow-md bg-gray-50 flex items-center justify-center">
+                  <div className="text-center">
+                    <MapPin className="w-8 h-8 text-gray-400 mx-auto mb-2" />
+                    <p className="text-gray-500">Map view not available</p>
+                    <p className="text-sm text-gray-400">Coordinates not provided for this location</p>
+                  </div>
+                </div>
+                )}
+          </div>
+        </div>
+      </Card>
 
       {/* Project Images */}
       {images.length > 0 && (

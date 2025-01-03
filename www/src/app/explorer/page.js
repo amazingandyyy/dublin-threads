@@ -506,321 +506,353 @@ export default function Threads ({ params, searchParams }) {
     <>
       <GlobalHeader />
       {shareProject && <SharePopup project={shareProject} onClose={() => setShareProject(null)} />}
-      <main className="pt-16 h-full bg-gray-100">
-        <div className="container mx-auto px-3 sm:px-4 py-8">
-          <div className="flex flex-col items-center mt-12 text-center space-y-6 mb-12">
-            <h1 className="font-handwriting text-3xl sm:text-4xl md:text-7xl font-bold text-green-950 tracking-wide">
-              Explorer
-            </h1>
+      <main className='min-h-screen bg-[#F3F2EE] relative'>
+        {/* Decorative background elements */}
+        <div className="fixed inset-0 overflow-hidden pointer-events-none">
+          <div className="fixed -top-24 -right-24 w-96 h-96 bg-green-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
+          <div className="fixed -bottom-24 -left-24 w-96 h-96 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
+          <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+        </div>
 
-            {/* Statistics Overview */}
-            <div className="w-full max-w-4xl">
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
-                <div className="text-center p-3 bg-white/60 backdrop-blur-sm rounded-lg">
-                  <p className="text-2xl sm:text-3xl font-bold text-green-600">{stats.total}</p>
-                  <h3 className="text-xs sm:text-sm text-gray-600 mt-1">Total Projects</h3>
+        <div className="container mx-auto px-3 sm:px-4 py-8 relative">
+          <div className="flex flex-col items-center mt-12 text-center space-y-8 mb-16">
+            {/* Title Section with decorative elements */}
+            <div className="relative">
+              <h1 className="font-handwriting text-3xl sm:text-4xl md:text-7xl font-bold text-green-950 tracking-wide">
+                Explorer
+              </h1>
+            </div>
+
+            {/* Subtitle with icon */}
+            <div className="flex items-center gap-2 text-gray-600">
+              <MapIcon className="w-5 h-5 text-green-600" />
+              <span className="text-sm sm:text-base">Discover Dublin&apos;s Development Landscape</span>
+            </div>
+
+            {/* Statistics Overview with enhanced layout */}
+            <div className="w-full max-w-4xl space-y-8">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+                <div className="text-center p-6 bg-gradient-to-br from-white/80 to-white/40 backdrop-blur-sm rounded-xl border border-white/50 shadow-sm hover:shadow transition-all duration-300 relative overflow-hidden">
+                  <div className="absolute inset-0 bg-gradient-to-br from-green-500/0 to-green-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <p className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-transparent">{stats.total}</p>
+                  <h3 className="text-xs sm:text-sm text-gray-600 mt-2 font-medium">Total Projects</h3>
                 </div>
-                <div className="text-center p-3 bg-white/60 backdrop-blur-sm rounded-lg">
-                  <p className="text-2xl sm:text-3xl font-bold text-blue-600">{stats.byStatus['Under Construction'] || 0}</p>
-                  <h3 className="text-xs sm:text-sm text-gray-600 mt-1">Under Construction</h3>
+                <div className="text-center p-6 bg-gradient-to-br from-white/80 to-white/40 backdrop-blur-sm rounded-xl border border-white/50 shadow-sm hover:shadow transition-all duration-300 relative overflow-hidden">
+                  <div className="absolute inset-0 bg-gradient-to-br from-blue-500/0 to-blue-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <p className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent">{stats.byStatus['Under Construction'] || 0}</p>
+                  <h3 className="text-xs sm:text-sm text-gray-600 mt-2 font-medium">Under Construction</h3>
                 </div>
-                <div className="text-center p-3 bg-white/60 backdrop-blur-sm rounded-lg">
-                  <p className="text-2xl sm:text-3xl font-bold text-purple-600">{stats.byMonth[Object.keys(stats.byMonth).sort().pop()] || 0}</p>
-                  <h3 className="text-xs sm:text-sm text-gray-600 mt-1">Recently Added</h3>
+                <div className="text-center p-6 bg-gradient-to-br from-white/80 to-white/40 backdrop-blur-sm rounded-xl border border-white/50 shadow-sm hover:shadow transition-all duration-300 relative overflow-hidden">
+                  <div className="absolute inset-0 bg-gradient-to-br from-purple-500/0 to-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <p className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-purple-600 to-purple-400 bg-clip-text text-transparent">{stats.byMonth[Object.keys(stats.byMonth).sort().pop()] || 0}</p>
+                  <h3 className="text-xs sm:text-sm text-gray-600 mt-2 font-medium">Recently Added</h3>
                 </div>
-                <div className="text-center p-3 bg-white/60 backdrop-blur-sm rounded-lg">
-                  <p className="text-2xl sm:text-3xl font-bold text-yellow-600">{followedProjects.length}</p>
-                  <h3 className="text-xs sm:text-sm text-gray-600 mt-1">Being Followed</h3>
+                <div className="text-center p-6 bg-gradient-to-br from-white/80 to-white/40 backdrop-blur-sm rounded-xl border border-white/50 shadow-sm hover:shadow transition-all duration-300 relative overflow-hidden">
+                  <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/0 to-yellow-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <p className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-yellow-600 to-yellow-400 bg-clip-text text-transparent">{followedProjects.length}</p>
+                  <h3 className="text-xs sm:text-sm text-gray-600 mt-2 font-medium">Being Followed</h3>
                 </div>
               </div>
 
-              {/* Status Distribution */}
-              <div className="mt-6 bg-white/60 backdrop-blur-sm rounded-lg p-4">
-                <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-sm font-medium text-gray-800">Status Distribution</h3>
-                  <div className="flex items-center gap-1 text-xs text-gray-500">
-                    <span>Click to filter</span>
-                    <div className="w-4 h-4 rounded-full bg-gray-100 flex items-center justify-center text-gray-400 cursor-help group relative">
-                      ?
-                      <div className="absolute bottom-full right-0 mb-2 w-64 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
-                        <div className="bg-gray-900/95 backdrop-blur-sm text-white rounded-lg p-3 shadow-xl text-left">
-                          <p className="text-xs font-medium mb-2">Project Status Guide:</p>
-                          <div className="space-y-1.5">
-                            <div className="flex items-center gap-2">
-                              <div className="w-2 h-2 rounded-full bg-green-500"></div>
-                              <span>Pre-Application: Initial project proposal</span>
-                            </div>
-                            <div className="flex items-center gap-2">
-                              <div className="w-2 h-2 rounded-full bg-blue-500"></div>
-                              <span>Under Review: Being evaluated</span>
-                            </div>
-                            <div className="flex items-center gap-2">
-                              <div className="w-2 h-2 rounded-full bg-yellow-500"></div>
-                              <span>Submitted: Formal application filed</span>
-                            </div>
-                            <div className="flex items-center gap-2">
-                              <div className="w-2 h-2 rounded-full bg-red-500"></div>
-                              <span>Public Hearing: Community feedback</span>
-                            </div>
-                            <div className="flex items-center gap-2">
-                              <div className="w-2 h-2 rounded-full bg-purple-500"></div>
-                              <span>Final Action: Decision made</span>
+              {/* Status Distribution with enhanced styling */}
+              <div className="mt-8 bg-gradient-to-br from-white/80 to-white/40 backdrop-blur-sm rounded-xl border border-white/50 shadow-sm p-8 relative overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-green-500/5 to-transparent opacity-50"></div>
+                <div className="relative">
+                  <div className="flex items-center justify-between mb-6">
+                    <div className="flex items-center gap-3">
+                      <div className="w-1 h-6 bg-gradient-to-b from-green-500 to-green-600 rounded-full"></div>
+                      <h3 className="text-sm font-medium text-gray-800">Status Distribution</h3>
+                    </div>
+                    <div className="flex items-center gap-1 text-xs text-gray-500">
+                      <span>Click to filter</span>
+                      <div className="w-4 h-4 rounded-full bg-gray-100 flex items-center justify-center text-gray-400 cursor-help group relative">
+                        ?
+                        <div className="absolute bottom-full right-0 mb-2 w-64 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+                          <div className="bg-gray-900/95 backdrop-blur-sm text-white rounded-lg p-3 shadow-xl text-left">
+                            <p className="text-xs font-medium mb-2">Project Status Guide:</p>
+                            <div className="space-y-1.5">
+                              <div className="flex items-center gap-2">
+                                <div className="w-2 h-2 rounded-full bg-green-500"></div>
+                                <span>Pre-Application: Initial project proposal</span>
+                              </div>
+                              <div className="flex items-center gap-2">
+                                <div className="w-2 h-2 rounded-full bg-blue-500"></div>
+                                <span>Under Review: Being evaluated</span>
+                              </div>
+                              <div className="flex items-center gap-2">
+                                <div className="w-2 h-2 rounded-full bg-yellow-500"></div>
+                                <span>Submitted: Formal application filed</span>
+                              </div>
+                              <div className="flex items-center gap-2">
+                                <div className="w-2 h-2 rounded-full bg-red-500"></div>
+                                <span>Public Hearing: Community feedback</span>
+                              </div>
+                              <div className="flex items-center gap-2">
+                                <div className="w-2 h-2 rounded-full bg-purple-500"></div>
+                                <span>Final Action: Decision made</span>
+                              </div>
                             </div>
                           </div>
+                          <div className="absolute right-4 bottom-0 transform translate-y-1/2 rotate-45 w-2 h-2 bg-gray-900/95"></div>
                         </div>
-                        <div className="absolute right-4 bottom-0 transform translate-y-1/2 rotate-45 w-2 h-2 bg-gray-900/95"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="relative pt-2 pb-2">
+                    {/* Distribution Bar */}
+                    <div className="relative h-3 bg-gray-100 rounded-full overflow-hidden shadow-inner">
+                      <div className="absolute inset-0 flex">
+                        {[
+                          { status: 'Application Under Review', color: 'bg-blue-500', description: 'Projects currently being evaluated by the city' },
+                          { status: 'Pre-Application', color: 'bg-green-500', description: 'Initial project proposals before formal submission' },
+                          { status: 'Planning Application Submitted', color: 'bg-yellow-500', description: 'Formal applications filed and awaiting review' },
+                          { status: 'Final Action', color: 'bg-purple-500', description: 'Projects with final decisions made' },
+                          { status: 'Public Hearing', color: 'bg-red-500', description: 'Projects open for community feedback' },
+                          { status: 'Unknown', color: 'bg-gray-500', description: 'Status not specified' }
+                        ].map((item) => {
+                          const count = stats.byStatus[item.status] || 0
+                          const percentage = (count / stats.total) * 100
+                          return (
+                            <div
+                              key={item.status}
+                              className={`relative h-full ${item.color} group cursor-pointer transition-all duration-300 hover:brightness-110`}
+                              style={{ width: `${percentage}%` }}
+                              onClick={() => setStatusFilter(statusFilter === item.status ? '' : item.status)}
+                            >
+                              <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-4 opacity-0 group-hover:opacity-100 transition-all duration-300 z-20 whitespace-nowrap">
+                                <div className="bg-gray-900/95 backdrop-blur-sm text-white rounded-lg py-2.5 px-4 shadow-xl">
+                                  <div className="font-medium text-sm mb-1">{item.status}</div>
+                                  <div className="text-xs text-gray-300 font-medium">
+                                    {count} projects ({percentage.toFixed(1)}%)
+                                  </div>
+                                  <div className="text-xs text-gray-400 mt-1 max-w-[200px] whitespace-normal">
+                                    {item.description}
+                                  </div>
+                                  <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 translate-y-1/2 rotate-45 w-2.5 h-2.5 bg-gray-900/95"></div>
+                                </div>
+                              </div>
+                            </div>
+                          )
+                        })}
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="relative pt-2 pb-2">
-                  {/* Distribution Bar */}
-                  <div className="relative h-2 bg-gray-200/70 rounded-full overflow-hidden">
-                    <div className="absolute inset-0 flex">
-                      {[
-                        { status: 'Application Under Review', color: 'bg-blue-500', description: 'Projects currently being evaluated by the city' },
-                        { status: 'Pre-Application', color: 'bg-green-500', description: 'Initial project proposals before formal submission' },
-                        { status: 'Planning Application Submitted', color: 'bg-yellow-500', description: 'Formal applications filed and awaiting review' },
-                        { status: 'Final Action', color: 'bg-purple-500', description: 'Projects with final decisions made' },
-                        { status: 'Public Hearing', color: 'bg-red-500', description: 'Projects open for community feedback' },
-                        { status: 'Unknown', color: 'bg-gray-500', description: 'Status not specified' }
-                      ].map((item) => {
-                        const count = stats.byStatus[item.status] || 0
-                        const percentage = (count / stats.total) * 100
-                        return (
-                          <div
-                            key={item.status}
-                            className={`relative h-full ${item.color} group cursor-pointer transition-all duration-300 hover:brightness-110`}
-                            style={{ width: `${percentage}%` }}
-                            onClick={() => setStatusFilter(statusFilter === item.status ? '' : item.status)}
-                          >
-                            <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10 transform -translate-y-1 group-hover:translate-y-0">
-                              <div className="bg-gray-900/95 backdrop-blur-sm text-white rounded-lg py-2 px-3 shadow-xl min-w-[200px]">
-                                <div className="font-medium text-xs mb-1">{item.status}</div>
-                                <div className="text-[10px] text-gray-300 font-medium mb-1">
-                                  {count} projects ({percentage.toFixed(1)}%)
-                                </div>
-                                <div className="text-[10px] text-gray-400 leading-tight">
-                                  {item.description}
-                                </div>
-                                <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 translate-y-1/2 rotate-45 w-2 h-2 bg-gray-900/95"></div>
-                              </div>
-                            </div>
-                          </div>
-                        )
-                      })}
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
 
-            {/* Search and Controls */}
-            <div className="w-full max-w-4xl flex flex-col lg:flex-row lg:items-center gap-3">
-              <div className="relative flex-1">
-                <div className="absolute inset-y-0 left-3 flex items-center pointer-events-none">
-                  <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                  </svg>
-                </div>
-                <input
-                  type="text"
-                  placeholder="Search projects by title, description..."
-                  value={searchQuery}
-                  onChange={(e) => handleSearchChange(e.target.value)}
-                  className="w-full pl-10 pr-4 py-2.5 rounded-lg bg-white/60 backdrop-blur-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent text-sm"
-                />
-              </div>
-              <div className="flex gap-3">
-                <div className="relative flex-1 lg:w-48">
-                  <select
-                    value={statusFilter}
-                    onChange={(e) => handleStatusChange(e.target.value)}
-                    className="w-full pl-4 pr-8 py-2.5 rounded-lg bg-white/60 backdrop-blur-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent appearance-none cursor-pointer text-sm"
-                  >
-                    <option value="">All Statuses</option>
-                    {Object.keys(stats.byStatus).sort().map(status => (
-                      <option key={status} value={status}>{status}</option>
-                    ))}
-                  </select>
-                  <div className="absolute inset-y-0 right-3 flex items-center pointer-events-none">
-                    <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+            {/* Search and Controls with enhanced layout */}
+            <div className="w-full max-w-4xl space-y-4">
+              <div className="flex flex-col lg:flex-row lg:items-center gap-4">
+                <div className="relative flex-1">
+                  <div className="absolute inset-y-0 left-3 flex items-center pointer-events-none">
+                    <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                     </svg>
                   </div>
+                  <input
+                    type="text"
+                    placeholder="Search projects by title, description..."
+                    value={searchQuery}
+                    onChange={(e) => handleSearchChange(e.target.value)}
+                    className="w-full pl-12 pr-4 py-3.5 rounded-lg bg-gradient-to-br from-white/80 to-white/40 backdrop-blur-sm border border-white/50 shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent text-sm"
+                  />
                 </div>
-                <div className="relative flex-1 lg:w-48">
-                  <select
-                    value={sortBy}
-                    onChange={(e) => handleSortChange(e.target.value)}
-                    className="w-full pl-4 pr-8 py-2.5 rounded-lg bg-white/60 backdrop-blur-sm border border-gray-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent appearance-none cursor-pointer text-sm"
-                  >
-                    <option value="date">Sort by Date</option>
-                    <option value="title">Sort by Title</option>
-                    <option value="status">Sort by Status</option>
-                    <option value="followed">Followed First</option>
-                  </select>
-                  <div className="absolute inset-y-0 right-3 flex items-center pointer-events-none">
-                    <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
-                    </svg>
+                <div className="flex gap-4 flex-wrap lg:flex-nowrap">
+                  <div className="relative flex-1 lg:w-48 min-w-[160px]">
+                    <select
+                      value={statusFilter}
+                      onChange={(e) => handleStatusChange(e.target.value)}
+                      className="w-full pl-4 pr-8 py-3 rounded-lg bg-gradient-to-br from-white/80 to-white/40 backdrop-blur-sm border border-white/50 shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent appearance-none cursor-pointer text-sm"
+                    >
+                      <option value="">All Statuses</option>
+                      {Object.keys(stats.byStatus).sort().map(status => (
+                        <option key={status} value={status}>{status}</option>
+                      ))}
+                    </select>
+                    <div className="absolute inset-y-0 right-3 flex items-center pointer-events-none">
+                      <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="relative flex-1 lg:w-48 min-w-[160px]">
+                    <select
+                      value={sortBy}
+                      onChange={(e) => handleSortChange(e.target.value)}
+                      className="w-full pl-4 pr-8 py-3 rounded-lg bg-gradient-to-br from-white/80 to-white/40 backdrop-blur-sm border border-white/50 shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent appearance-none cursor-pointer text-sm"
+                    >
+                      <option value="date">Sort by Date</option>
+                      <option value="title">Sort by Title</option>
+                      <option value="status">Sort by Status</option>
+                      <option value="followed">Followed First</option>
+                    </select>
+                    <div className="absolute inset-y-0 right-3 flex items-center pointer-events-none">
+                      <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="flex gap-2">
-                <button
-                  onClick={() => handleViewModeChange('list')}
-                  className={`flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg transition-all duration-300 ${
-                    viewMode === 'list'
-                      ? 'bg-green-500 text-white'
-                      : 'bg-white/60 backdrop-blur-sm text-gray-600 hover:bg-white/80'
-                  }`}
-                >
-                  <ListBulletIcon className="w-4 h-4" />
-                  <span className="text-sm font-medium">List</span>
-                </button>
-                <button
-                  onClick={() => handleViewModeChange('map')}
-                  className={`flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg transition-all duration-300 ${
-                    viewMode === 'map'
-                      ? 'bg-green-500 text-white'
-                      : 'bg-white/60 backdrop-blur-sm text-gray-600 hover:bg-white/80'
-                  }`}
-                >
-                  <MapIcon className="w-4 h-4" />
-                  <span className="text-sm font-medium">Map</span>
-                </button>
+                <div className="flex gap-2">
+                  <button
+                    onClick={() => handleViewModeChange('list')}
+                    className={`flex items-center justify-center gap-2 px-6 py-3 rounded-lg transition-all duration-300 ${
+                      viewMode === 'list'
+                        ? 'bg-gradient-to-r from-green-600 to-green-500 text-white shadow-md hover:shadow-lg'
+                        : 'bg-gradient-to-br from-white/80 to-white/40 backdrop-blur-sm text-gray-600 hover:bg-white/80 border border-white/50'
+                    }`}
+                  >
+                    <ListBulletIcon className="w-4 h-4" />
+                    <span className="text-sm font-medium">List</span>
+                  </button>
+                  <button
+                    onClick={() => handleViewModeChange('map')}
+                    className={`flex items-center justify-center gap-2 px-6 py-3 rounded-lg transition-all duration-300 ${
+                      viewMode === 'map'
+                        ? 'bg-gradient-to-r from-green-600 to-green-500 text-white shadow-md hover:shadow-lg'
+                        : 'bg-gradient-to-br from-white/80 to-white/40 backdrop-blur-sm text-gray-600 hover:bg-white/80 border border-white/50'
+                    }`}
+                  >
+                    <MapIcon className="w-4 h-4" />
+                    <span className="text-sm font-medium">Map</span>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
 
+          {/* Project list with enhanced layout */}
           {isLoading
             ? <LoadingState />
             : highlights.length === 0
               ? <EmptyState />
               : viewMode === 'map'
-                ? <div className="w-full max-w-4xl mx-auto">
+                ? <div className="w-full max-w-[1400px] mx-auto mt-8">
                     {renderMap()}
                   </div>
-                : <div className="w-full max-w-4xl mx-auto">
-                    <div className="grid gap-4">
+                : <div className="w-full max-w-4xl mx-auto mt-8">
+                    <div className="grid gap-6">
                       {highlights.map((project) => (
                         <div
                           key={project.id}
-                          className="group bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 p-4 sm:p-6 border border-gray-100 hover:border-green-200"
+                          className="group bg-gradient-to-br from-white/95 to-white/80 backdrop-blur-sm rounded-xl shadow-sm hover:shadow transition-all duration-300 p-6 border border-white/50 hover:border-green-100 relative overflow-hidden"
                         >
-                          <div className="flex flex-col sm:flex-row justify-between items-start gap-3">
-                            <Link
-                              href={`/project/${project.id}`}
-                              className="group flex-1"
-                            >
-                              <div className="flex flex-col">
-                                <h2 className="font-semibold text-lg text-gray-900 group-hover:text-green-700 transition-colors duration-300 line-clamp-2">
-                                  {project.title}
-                                </h2>
-                                <div className="flex flex-wrap gap-2 mt-2">
-                                  {project.status && (
-                                    <span className="px-2 py-1 bg-green-100 text-green-800 text-xs rounded-full">
-                                      {project.status}
-                                    </span>
-                                  )}
-                                  {project.details['Application Type'] && (
-                                    <span className="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">
-                                      {project.details['Application Type']}
-                                    </span>
-                                  )}
-                                </div>
-                                {project.description && (
-                                  <p className="text-gray-600 text-sm mt-2 line-clamp-2 group-hover:text-gray-900 transition-colors duration-300">
-                                    {project.description}
-                                  </p>
-                                )}
-                              </div>
-                            </Link>
-                            <div className="flex items-center gap-2 self-start">
-                              <button
-                                onClick={() => setShareProject(project)}
-                                className="p-2 rounded-full hover:bg-green-50 transition-colors duration-300"
+                          <div className="absolute inset-0 bg-gradient-to-br from-green-500/0 to-green-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                          <div className="relative">
+                            <div className="flex flex-col sm:flex-row justify-between items-start gap-3">
+                              <Link
+                                href={`/project/${project.id}`}
+                                className="group flex-1"
                               >
-                                <ShareIcon className="w-5 h-5 text-gray-400 hover:text-green-600" />
-                              </button>
-                              <button
-                                onClick={() => toggleFollow(project.id)}
-                                className="p-2 rounded-full hover:bg-green-50 transition-colors duration-300"
-                              >
-                                {followedProjects.includes(project.id)
-                                  ? (
-                                  <StarIconSolid className="w-5 h-5 text-yellow-400" />
-                                    )
-                                  : (
-                                  <StarIcon className="w-5 h-5 text-gray-400 hover:text-yellow-400" />
+                                <div className="flex flex-col">
+                                  <h2 className="font-semibold text-lg text-gray-900 group-hover:text-green-700 transition-colors duration-300 line-clamp-2">
+                                    {project.title}
+                                  </h2>
+                                  <div className="flex flex-wrap gap-2 mt-2">
+                                    {project.status && (
+                                      <span className="px-3 py-1.5 bg-gradient-to-r from-green-100 to-green-50 text-green-800 text-xs rounded-full font-medium border border-green-200/50">
+                                        {project.status}
+                                      </span>
                                     )}
-                              </button>
-                            </div>
-                          </div>
-
-                          {/* Progress Timeline */}
-                          <div className="mt-4">
-                            <div className="flex justify-between mb-2 text-[10px] sm:text-xs font-medium text-gray-500">
-                              <span>Pre-Application</span>
-                              <span>Under Review</span>
-                              <span>Submitted</span>
-                              <span>Public Hearing</span>
-                              <span>Final Action</span>
-                            </div>
-                            <div className="relative h-2 bg-gray-100 rounded-full overflow-hidden">
-                              <div
-                                className="absolute h-full bg-gradient-to-r from-green-500 to-green-600 rounded-full transition-all duration-500"
-                                style={{
-                                  width: (() => {
-                                    const status = project.status || ''
-                                    if (status === 'Final Action') return '100%'
-                                    if (status === 'Public Hearing') return '80%'
-                                    if (status === 'Planning Application Submitted') return '60%'
-                                    if (status === 'Application Under Review') return '40%'
-                                    if (status === 'Pre-Application') return '20%'
-                                    return '0%'
-                                  })()
-                                }}
-                              />
-                            </div>
-                          </div>
-
-                          {project.images && project.images.length > 0 && (
-                            <div className="flex gap-2 mt-4 overflow-x-auto pb-2">
-                              {project.images.slice(0, 5).map((image, index) => (
-                                <Link
-                                  key={`${project.id}-${index}`}
-                                  href={`/project/${project.id}`}
-                                  className="shrink-0 transition-transform duration-300 hover:scale-105"
-                                >
-                                  <Image
-                                    src={image.thumbnail}
-                                    className="rounded-lg w-20 sm:w-24 h-20 sm:h-24 object-cover shadow-sm hover:shadow-md transition-shadow duration-300"
-                                  />
-                                </Link>
-                              ))}
-                            </div>
-                          )}
-
-                          <div className="flex items-center justify-between mt-4">
-                            <div className="flex items-center gap-4">
-                              {project.threads?.length > 0 && (
-                                <div className="flex items-center gap-1 text-gray-500">
-                                  <ChatBubbleLeftIcon className="w-4 h-4" />
-                                  <span className="text-xs">{project.threads.length} updates</span>
+                                    {project.details['Application Type'] && (
+                                      <span className="px-3 py-1.5 bg-gradient-to-r from-blue-100 to-blue-50 text-blue-800 text-xs rounded-full font-medium border border-blue-200/50">
+                                        {project.details['Application Type']}
+                                      </span>
+                                    )}
+                                  </div>
+                                  {project.description && (
+                                    <p className="text-gray-600 text-sm mt-2 line-clamp-2 group-hover:text-gray-900 transition-colors duration-300">
+                                      {project.description}
+                                    </p>
+                                  )}
                                 </div>
-                              )}
-                              <time className="text-xs text-gray-400">
-                                {project.details['Application Submittal Date']}
-                              </time>
+                              </Link>
+                              <div className="flex items-center gap-2 self-start">
+                                <button
+                                  onClick={() => setShareProject(project)}
+                                  className="p-2 rounded-full hover:bg-green-50 transition-colors duration-300"
+                                >
+                                  <ShareIcon className="w-5 h-5 text-gray-400 hover:text-green-600" />
+                                </button>
+                                <button
+                                  onClick={() => toggleFollow(project.id)}
+                                  className="p-2 rounded-full hover:bg-green-50 transition-colors duration-300"
+                                >
+                                  {followedProjects.includes(project.id)
+                                    ? (
+                                    <StarIconSolid className="w-5 h-5 text-yellow-400" />
+                                      )
+                                    : (
+                                    <StarIcon className="w-5 h-5 text-gray-400 hover:text-yellow-400" />
+                                      )}
+                                </button>
+                              </div>
                             </div>
-                            <Link
-                              href={`/project/${project.id}#comments`}
-                              className="text-green-600 text-xs sm:text-sm hover:text-green-700 transition-colors duration-300"
-                            >
-                              View Discussion →
-                            </Link>
+
+                            {/* Progress Timeline */}
+                            <div className="mt-4">
+                              <div className="flex justify-between mb-2 text-[10px] sm:text-xs font-medium text-gray-500">
+                                <span>Pre-Application</span>
+                                <span>Under Review</span>
+                                <span>Submitted</span>
+                                <span>Public Hearing</span>
+                                <span>Final Action</span>
+                              </div>
+                              <div className="relative h-2 bg-gray-100 rounded-full overflow-hidden">
+                                <div
+                                  className="absolute h-full bg-gradient-to-r from-green-500 to-green-600 rounded-full transition-all duration-500"
+                                  style={{
+                                    width: (() => {
+                                      const status = project.status || ''
+                                      if (status === 'Final Action') return '100%'
+                                      if (status === 'Public Hearing') return '80%'
+                                      if (status === 'Planning Application Submitted') return '60%'
+                                      if (status === 'Application Under Review') return '40%'
+                                      if (status === 'Pre-Application') return '20%'
+                                      return '0%'
+                                    })()
+                                  }}
+                                />
+                              </div>
+                            </div>
+
+                            {project.images && project.images.length > 0 && (
+                              <div className="flex gap-2 mt-4 overflow-x-auto pb-2">
+                                {project.images.slice(0, 5).map((image, index) => (
+                                  <Link
+                                    key={`${project.id}-${index}`}
+                                    href={`/project/${project.id}`}
+                                    className="shrink-0 transition-transform duration-300 hover:scale-105"
+                                  >
+                                    <Image
+                                      src={image.thumbnail}
+                                      className="rounded-lg w-20 sm:w-24 h-20 sm:h-24 object-cover shadow-sm hover:shadow-md transition-shadow duration-300"
+                                    />
+                                  </Link>
+                                ))}
+                              </div>
+                            )}
+
+                            <div className="flex items-center justify-between mt-4">
+                              <div className="flex items-center gap-4">
+                                {project.threads?.length > 0 && (
+                                  <div className="flex items-center gap-1 text-gray-500">
+                                    <ChatBubbleLeftIcon className="w-4 h-4" />
+                                    <span className="text-xs">{project.threads.length} updates</span>
+                                  </div>
+                                )}
+                                <time className="text-xs text-gray-400">
+                                  {project.details['Application Submittal Date']}
+                                </time>
+                              </div>
+                              <Link
+                                href={`/project/${project.id}`}
+                                className="text-green-600 text-xs sm:text-sm hover:text-green-700 transietation-colors duration-300"
+                              >
+                                View Details →
+                              </Link>
+                            </div>
                           </div>
                         </div>
                       ))}

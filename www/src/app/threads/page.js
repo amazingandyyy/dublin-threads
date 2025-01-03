@@ -67,27 +67,36 @@ export default function Threads () {
   return (
     <>
       <GlobalHeader />
-      <main className='min-h-screen bg-[#F3F2EE]'>
-        <div className='flex flex-col items-center text-center text-gray-600 p-4 pt-16'>
-          <div className='font-handwriting text-3xl md:text-6xl font-bold text-green-950 mb-4'>
-            A Thread for <span>Dublin, CA</span>
-          </div>
-          <div>
-            Sourced from <a className='italic' href='https://dublin-development.icitywork.com' target='_blank' rel='noreferrer'>Dublin Devlopment Projects Site</a>
-            <br/>
-            Built by the community in Dublin
-          </div>
-          <div className='py-2'>
-            {['DublinCA', 'California', 'TriValley'].map(i => {
-              return <span key={i} className='py-1 px-2 bg-green-300 m-1 rounded-full text-sm font-bold text-green-900 bg-opacity-40'>#{i}</span>
-            })}
-          </div>
-          <div className='text-sm'>
-            Updated every 15 minutes
-          </div>
+      <main className="min-h-screen bg-[#F3F2EE] relative">
+        {/* Decorative background elements */}
+        <div className="fixed inset-0 overflow-hidden pointer-events-none">
+          <div className="fixed -top-24 -right-24 w-96 h-96 bg-green-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
+          <div className="fixed -bottom-24 -left-24 w-96 h-96 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
+          <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
         </div>
-        <div className='w-full md:max-w-[800px] m-auto'>
-          <Thread thread={list} global={true} />
+
+        <div className="container mx-auto px-4 py-8">
+          <div className='flex flex-col items-center text-center text-gray-600 p-4 pt-20'>
+            <div className='font-handwriting text-3xl md:text-6xl font-bold text-green-950 mb-4'>
+              A Thread for <span>Dublin, CA</span>
+            </div>
+            <div>
+              Sourced from <a className='italic' href='https://dublin-development.icitywork.com' target='_blank' rel='noreferrer'>Dublin Devlopment Projects Site</a>
+              <br/>
+              Built by the community in Dublin
+            </div>
+            <div className='py-2'>
+              {['DublinCA', 'California', 'TriValley'].map(i => {
+                return <span key={i} className='py-1 px-2 bg-green-300 m-1 rounded-full text-sm font-bold text-green-900 bg-opacity-40'>#{i}</span>
+              })}
+            </div>
+            <div className='text-sm'>
+              Updated every 15 minutes
+            </div>
+          </div>
+          <div className='w-full md:max-w-[800px] m-auto'>
+            <Thread thread={list} global={true} />
+          </div>
         </div>
       </main>
     </>
