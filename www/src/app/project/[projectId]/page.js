@@ -52,30 +52,30 @@ const MetricCard = ({ icon: Icon, label, value, tooltip }) => {
 }
 
 const CardHeader = ({ icon: Icon, title, color = 'emerald' }) => (
-  <div className="mb-6 sm:mb-8 py-4 pl-0">
+  <div className="mb-4 sm:mb-8 py-2 sm:py-4 pl-0">
     <div className="flex items-center gap-2 sm:gap-3">
       <div className={`p-2 sm:p-2.5 bg-gradient-to-br from-${color}-50 to-${color}-100/50 rounded-xl shadow-[0_2px_3px_-1px_rgba(0,0,0,0.1),0_1px_0_0_rgba(25,28,33,0.02),0_0_0_1px_rgba(25,28,33,0.08)]`}>
         <Icon className={`w-4 h-4 sm:w-5 sm:h-5 text-${color}-600`} />
       </div>
-      <h2 className="text-lg sm:text-xl font-semibold text-gray-900">{title}</h2>
+      <h2 className="text-base sm:text-lg md:text-xl font-semibold text-gray-900">{title}</h2>
     </div>
   </div>
 )
 
 const Card = ({ children, className = '' }) => (
   <div
-    className={`bg-white rounded-none sm:rounded-xl border border-gray-200/80 py-4 px-2 sm:p-8 ${className}`}
+    className={`bg-white rounded-none sm:rounded-xl border border-gray-200/80 py-3 sm:py-4 px-2 sm:p-8 ${className}`}
   >
     {children}
   </div>
 )
 
 const InfoBlock = ({ icon: Icon, label, value, subtext }) => (
-  <div className="flex items-start gap-3 p-4 rounded-xl bg-gradient-to-br from-gray-50/80 to-white border border-gray-200/50">
-    <div className="p-2.5 bg-gradient-to-br from-white to-gray-50 rounded-xl shadow-[0_2px_3px_-1px_rgba(0,0,0,0.1),0_1px_0_0_rgba(25,28,33,0.02),0_0_0_1px_rgba(25,28,33,0.08)]">
+  <div className="flex items-start gap-2 sm:gap-3 p-3 sm:p-4 rounded-xl bg-gradient-to-br from-gray-50/80 to-white border border-gray-200/50">
+    <div className="p-2 sm:p-2.5 bg-gradient-to-br from-white to-gray-50 rounded-xl shadow-[0_2px_3px_-1px_rgba(0,0,0,0.1),0_1px_0_0_rgba(25,28,33,0.02),0_0_0_1px_rgba(25,28,33,0.08)]">
       <Icon className="w-4 h-4 text-gray-600" />
     </div>
-    <div className="space-y-1.5">
+    <div className="space-y-1">
       <p className="text-sm font-medium text-gray-600">{label}</p>
       <p className="font-semibold text-gray-900 animate-in fade-in slide-in-from-left-1 duration-500">{value}</p>
       {subtext && <p className="text-xs text-gray-500">{subtext}</p>}
@@ -147,21 +147,29 @@ const StatusProgress = ({ status }) => {
         
         {/* Progress Line */}
         <div 
-          className="absolute top-0 left-0 h-2 bg-gradient-to-r from-blue-500 via-emerald-500 to-orange-500 rounded-full transition-all duration-1000 ease-out"
+          className="absolute top-0 left-0 h-2 hidden sm:block bg-gradient-to-r from-blue-500 via-emerald-500 to-orange-500 rounded-full transition-all duration-1000 ease-out"
+          style={{ width: `${progress}%` }}
+        />
+        
+        {/* Simple mobile progress line */}
+        <div 
+          className="absolute top-0 left-0 h-2 sm:hidden bg-emerald-500 rounded-full transition-all duration-1000 ease-out"
           style={{ width: `${progress}%` }}
         />
 
         {/* Status Labels */}
-        <div className="flex justify-between relative pt-6">
+        <div className="flex flex-col sm:flex-row justify-between relative pt-6">
           {statuses.map((s, i) => {
             const colors = getStatusColor(i)
+            const isActive = i === statusOrder[status]
             
             return (
               <div 
                 key={s}
-                className="flex flex-col items-center"
+                className={`flex items-center gap-2 mb-3 sm:mb-0 sm:flex-col sm:items-center transition-all duration-300 ${isActive ? 'scale-105' : ''}`}
               >
-                <span className={`text-[11px] font-medium whitespace-nowrap transition-colors duration-300 ${colors.text}`}>
+                <div className={`w-2 h-2 rounded-full ${isActive ? 'bg-emerald-500 ring-4 ring-emerald-100' : i < statusOrder[status] ? 'bg-emerald-400' : 'bg-gray-300'}`} />
+                <span className={`text-[11px] sm:text-xs font-medium whitespace-nowrap transition-colors duration-300 ${colors.text}`}>
                   {s}
                 </span>
               </div>
@@ -407,25 +415,25 @@ export default function Project ({ params }) {
           </div>
 
           {/* Content */}
-          <div className="transition-all duration-300 space-y-8">
+          <div className="transition-all duration-300 space-y-4 sm:space-y-8">
             {renderOverviewTab()}
             {renderContactTab()}
             {
-              <div className="space-y-8 animate-fadeIn">
+              <div className="space-y-4 sm:space-y-8 animate-fadeIn">
                 <Card>
                   <CardHeader
                     icon={MessageSquare}
                     title="Community Discussions"
                   />
-                  <div className="pb-8">
-                    <div className="mb-6">
+                  <div className="pb-4 sm:pb-8">
+                    <div className="mb-4 sm:mb-6">
                       <p className="text-gray-600">
                         Join the conversation about this development project.
                         Share your thoughts, ask questions, and connect with
                         other community members.
                       </p>
                     </div>
-                    <div className="bg-gray-50 rounded-none sm:rounded-xl p-6 border border-gray-200/80">
+                    <div className="bg-gray-50 rounded-none sm:rounded-xl p-4 sm:p-6 border border-gray-200/80">
                       <DisqusComments
                         id={id}
                         title={title}
@@ -493,7 +501,7 @@ export default function Project ({ params }) {
       </Card>
 
       {/* Key Metrics */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-2 sm:gap-6">
         <MetricCard
           icon={Building}
           label="Project Area"
@@ -517,8 +525,8 @@ export default function Project ({ params }) {
       {/* Location & Map */}
       <Card>
         <CardHeader icon={MapPin} title="Location" />
-        <div className="flex flex-col md:flex-row gap-8">
-          <div className="flex-1 space-y-6">
+        <div className="flex flex-col md:flex-row gap-4 sm:gap-8">
+          <div className="flex-1 space-y-4 sm:space-y-6">
             <div>
               <p className="text-gray-600 mb-4">{location}</p>
               {geolocation?.lat && geolocation?.lon 
@@ -597,10 +605,10 @@ export default function Project ({ params }) {
       {images.length > 0 && (
         <Card>
           <CardHeader icon={ImageIcon} title="Project Images" />
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
             {images.map((image, index) => (
               <div key={index} className="group relative">
-                <div className="aspect-video relative rounded-lg overflow-hidden shadow-md">
+                <div className="aspect-[4/3] sm:aspect-video relative rounded-lg overflow-hidden shadow-md">
                   <Image
                     src={image.original}
                     alt={`Project image ${index + 1}`}
