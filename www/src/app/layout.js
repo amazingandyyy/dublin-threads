@@ -84,7 +84,7 @@ export default function RootLayout ({ children }) {
           content="https://dublin.amazyyy.com/icons/browserconfig.xml"
         />
       </Head>
-      <body className="antialiased pt-8 bg-[#F3F2EE]">
+      <body className="antialiased pt-12 sm:pt-8 bg-[#F3F2EE]">
         {children}
       </body>
     </html>

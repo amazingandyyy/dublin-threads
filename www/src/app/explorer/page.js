@@ -245,8 +245,8 @@ export default function Threads ({ params, searchParams }) {
 
           {/* Layer Controls */}
           <div className={`
-            absolute ${isFullscreen ? 'top-20' : 'top-4'} left-4 
-            bg-white/95 backdrop-blur-sm rounded-lg shadow-lg 
+            absolute ${isFullscreen ? 'top-24' : 'top-6'} left-4 
+            bg-white/40 backdrop-blur-md rounded-lg shadow-lg 
             p-4 space-y-3 transition-all duration-300
           `}>
             <div className="flex items-center justify-between">
@@ -367,8 +367,8 @@ export default function Threads ({ params, searchParams }) {
 
         {/* Legend */}
         <div className={`
-          absolute ${isFullscreen ? 'top-20' : 'top-4'} right-4 
-          bg-white/95 backdrop-blur-sm rounded-lg shadow-lg 
+          absolute ${isFullscreen ? 'top-24' : 'top-6'} right-4 
+          bg-white/40 backdrop-blur-md rounded-lg shadow-lg 
           py-3 px-4 transition-all duration-300
         `}>
           <div className="flex items-center justify-between mb-2.5">
@@ -392,7 +392,7 @@ export default function Threads ({ params, searchParams }) {
           <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 md:hidden">
             <button
               onClick={() => setIsFullscreen(false)}
-              className="bg-white/95 backdrop-blur-sm text-gray-700 px-6 py-3 rounded-full shadow-lg font-medium text-sm hover:bg-white transition-colors duration-300 flex items-center gap-2"
+              className="bg-white/40 backdrop-blur-md text-gray-700 px-6 py-3 rounded-full shadow-lg font-medium text-sm hover:bg-white transition-colors duration-300 flex items-center gap-2"
             >
               <ArrowsPointingInIcon className="w-4 h-4" />
               Exit Fullscreen

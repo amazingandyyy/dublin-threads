@@ -438,9 +438,9 @@ function Post ({ data }) {
 
 function TimelineNav ({ dates, activeDate, onDateClick, groupedThreads }) {
   return (
-    <div className='hidden lg:block fixed right-8 top-1/2 -translate-y-1/2 z-30'>
-      <div className='bg-white/80 backdrop-blur-sm rounded-2xl shadow-sm border border-gray-100 p-2'>
-        <div className='flex flex-col gap-2'>
+    <div className='hidden lg:block fixed right-8 top-1/2 -translate-y-1/2 z-40'>
+      <div className='bg-white/40 backdrop-blur-md rounded-2xl shadow-sm border border-gray-100/50 p-2.5'>
+        <div className='flex flex-col gap-2.5'>
           {dates.map((date) => {
             const isActive = date === activeDate
             const updateCount = groupedThreads[date]?.length || 0
@@ -451,12 +451,12 @@ function TimelineNav ({ dates, activeDate, onDateClick, groupedThreads }) {
                 className='group relative flex items-center'
               >
                 <div className={`
-                  absolute right-full mr-3 px-3 py-1.5 rounded-lg bg-gray-800 text-white text-sm
+                  absolute right-full mr-3 px-3 py-1.5 rounded-lg bg-gray-800/90 text-white text-sm
                   opacity-0 group-hover:opacity-100 transition-opacity duration-200
-                  pointer-events-none whitespace-nowrap flex items-center gap-2
+                  pointer-events-none whitespace-nowrap flex items-center gap-2 backdrop-blur-sm
                 `}>
                   <span>{date}</span>
-                  <span className='px-1.5 py-0.5 bg-gray-700 rounded text-xs font-medium'>
+                  <span className='px-1.5 py-0.5 bg-gray-700/90 rounded text-xs font-medium'>
                     {updateCount} {updateCount === 1 ? 'update' : 'updates'}
                   </span>
                 </div>
@@ -770,26 +770,26 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
                         return () => observer.disconnect()
                       }
                     }}
-                    className="sticky sm:top-[4.5rem] top-[2rem] z-20"
+                    className="sticky sm:top-[4rem] top-[4.5rem] z-20"
                   >
                     <div className="relative">
-                      <div className="absolute inset-x-0 h-full bg-white/95 backdrop-blur-md"></div>
-                      <div className="relative mx-auto sm:py-3 py-2">
-                        <div className="flex items-center justify-between px-3 sm:px-6">
+                      <div className="absolute inset-x-0 h-full bg-white/80 backdrop-blur-2xl"></div>
+                      <div className="relative mx-auto sm:py-3 py-3">
+                        <div className="flex items-center justify-between px-4 sm:px-6">
                           <div className="flex items-center gap-3">
                             <div className="w-1.5 h-1.5 rounded-full bg-gray-400"></div>
                             <div className="text-sm font-semibold text-gray-700">
                               {date}
                             </div>
                           </div>
-                          <div className="text-xs font-medium px-3 py-1.5 bg-gray-100 text-gray-500 rounded-full ring-1 ring-gray-200/50">
+                          <div className="text-xs font-medium px-3 py-1.5 bg-gray-100/80 text-gray-500 rounded-full ring-1 ring-gray-200/50">
                             {posts.length} updates
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="space-y-3 sm:space-y-4 relative mt-3">
+                  <div className="space-y-4 sm:space-y-4 relative mt-4">
                     {posts.map((post, i) => (
                       <div
                         key={`${post.projectId}-${i}`}
