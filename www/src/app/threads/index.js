@@ -11,10 +11,14 @@ import {
   ArrowTopRightOnSquareIcon
 } from '@heroicons/react/24/outline'
 import Link from 'next/link'
+import CommunityPost from './CommunityPost'
 
 // Utility function to validate post content
 const isValidPost = (post, threadList = []) => {
   if (!post) return false
+
+  // Handle community posts
+  if (post.type === 'post') return true
 
   if (post.op === 'add' && post.path?.[1] === 'docs') {
     return !!post.val?.url && !!post.val?.name // Validate document has required fields
@@ -226,6 +230,11 @@ const TextDiff = ({ oldText, newText }) => {
 }
 
 function Post ({ data }) {
+  // If it's a community post, render the CommunityPost component
+  if (data.type === 'post') {
+    return <CommunityPost data={data} />
+  }
+
   const profiles = useProjectProfileStore(state => state.profiles)
   const CardWrapper = ({ children }) => (
     <div className='bg-white rounded-none sm:rounded-xl border-y sm:border border-gray-100'>

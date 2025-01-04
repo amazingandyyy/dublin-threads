@@ -1,85 +1,101 @@
-import { ChatBubbleLeftIcon, NewspaperIcon, LinkIcon } from '@heroicons/react/24/outline'
+'use client'
 import { timeSince } from '../utils'
+import { LinkIcon } from '@heroicons/react/24/outline'
 
-export default function CommunityPost ({ post }) {
-  const { content, type, author, externalLink, createdAt, imageUrls } = post
+export default function CommunityPost ({ data }) {
+  const { content, postType, author, externalLink, createdAt, imageUrls, preview } = data
+
+  // For news posts, extract title and description from content
+  const newsContent = postType === 'news' ? content.split('\n').filter(Boolean) : []
+  const newsTitle = newsContent[0]
+  const newsDescription = newsContent[1]
 
   return (
-    <div className="bg-white rounded-lg shadow-sm p-4 mb-4">
-      {/* Post Type Badge */}
-      <div className="flex items-center gap-2 mb-3">
-        <div 
-          className={`flex items-center gap-1.5 text-xs font-medium px-2 py-1 rounded-full
-            ${type === 'news'
-              ? 'bg-blue-50 text-blue-700'
-              : 'bg-green-50 text-green-700'
-            }`}
-        >
-          {type === 'news' 
-            ? (
-              <>
-                <NewspaperIcon className="w-3.5 h-3.5" />
-                News
-              </>
-              ) 
-            : (
-              <>
-                <ChatBubbleLeftIcon className="w-3.5 h-3.5" />
-                Opinion
-              </>
-              )}
+    <div className='bg-white rounded-none sm:rounded-xl border-y sm:border border-gray-100'>
+      <div className='px-3 sm:px-4 py-3 sm:py-4'>
+        {/* Post Header */}
+        <div className='flex items-center justify-between gap-2 mb-3'>
+          <div className='flex items-center gap-2'>
+            <span className='text-sm font-medium text-gray-900'>{author}</span>
+            <span className='text-xs text-gray-500'>•</span>
+            <span className='text-xs text-gray-500'>{timeSince(createdAt)} ago</span>
+          </div>
+          <div className='flex items-center gap-2'>
+            <span className={`text-xs font-medium px-2 py-1 rounded-md ${
+              postType === 'news' 
+                ? 'bg-blue-50 text-blue-600'
+                : 'bg-green-50 text-green-600'
+            }`}>
+              {postType === 'news' ? 'News' : 'Opinion'}
+            </span>
+          </div>
         </div>
-      </div>
 
-      {/* Post Content */}
-      <div className="space-y-3">
-        {/* Images */}
-        {imageUrls?.length > 0 && (
-          <div className="aspect-video w-full bg-gray-100 relative overflow-hidden rounded-lg">
-            <img 
-              src={imageUrls[0]} 
-              alt={content}
-              className="absolute inset-0 w-full h-full object-cover"
-            />
+        {/* Opinion Content - Show before preview */}
+        {postType === 'personal_opinion' && (
+          <div className='text-gray-800 whitespace-pre-wrap mb-4'>{content}</div>
+        )}
+
+        {/* Link Preview - for both news and opinion posts */}
+        {externalLink && (
+          <div className='mb-4'>
+            {/* For news posts, use the extracted title/description */}
+            {postType === 'news' ? (
+              <>
+                {imageUrls?.length > 0 && (
+                  <div className='aspect-video w-full bg-gray-100 relative overflow-hidden rounded-lg mb-3'>
+                    <img
+                      src={imageUrls[0]}
+                      alt={newsTitle}
+                      className='absolute inset-0 w-full h-full object-cover'
+                    />
+                  </div>
+                )}
+                <h3 className='font-medium text-gray-900 mb-2'>{newsTitle}</h3>
+                {newsDescription && (
+                  <p className='text-sm text-gray-600 mb-2'>{newsDescription}</p>
+                )}
+              </>
+            ) : preview ? (
+              // For opinion posts with preview data
+              <>
+                {preview.image && (
+                  <div className='aspect-video w-full bg-gray-100 relative overflow-hidden rounded-lg mb-3'>
+                    <img
+                      src={preview.image}
+                      alt={preview.title || 'Link preview'}
+                      className='absolute inset-0 w-full h-full object-cover'
+                    />
+                  </div>
+                )}
+                {preview.title && (
+                  <h3 className='font-medium text-gray-900 mb-2'>{preview.title}</h3>
+                )}
+                {preview.description && (
+                  <p className='text-sm text-gray-600 mb-2'>{preview.description}</p>
+                )}
+              </>
+            ) : null}
+
+            {/* Source Link */}
+            <a 
+              href={externalLink}
+              target='_blank'
+              rel='noopener noreferrer'
+              className='inline-flex items-center gap-1.5 text-sm text-blue-600 hover:text-blue-700'
+            >
+              <LinkIcon className='w-4 h-4' />
+              <span className='underline underline-offset-2'>
+                {postType === 'news' ? 'Source' : 'Reference'}
+              </span>
+            </a>
           </div>
         )}
 
-        {/* Text Content */}
-        <div className="text-gray-800">
-          {content}
-        </div>
-
-        {/* External Link */}
-        {externalLink && (
-          <a
-            href={externalLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={`inline-flex items-center gap-1.5 text-sm group
-              ${type === 'news'
-                ? 'text-blue-600 hover:text-blue-700'
-                : 'text-green-600 hover:text-green-700'
-              }`}
-          >
-            <LinkIcon className="w-4 h-4" />
-            <span className="underline underline-offset-2">
-              {type === 'news' ? 'Source' : 'Reference'}
-            </span>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5">
-              <path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd" />
-            </svg>
-          </a>
+        {/* News Content - Show content for news posts if no preview */}
+        {postType === 'news' && !externalLink && (
+          <div className='text-gray-800 whitespace-pre-wrap'>{content}</div>
         )}
-      </div>
-
-      {/* Post Metadata */}
-      <div className="flex items-center justify-between text-sm text-gray-500 mt-4">
-        <div>
-          Posted by <span className="font-medium text-gray-700">{author}</span>
-        </div>
-        <div>
-          {timeSince(createdAt)}
-        </div>
       </div>
     </div>
   )

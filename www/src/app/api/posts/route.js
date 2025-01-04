@@ -6,16 +6,29 @@ const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
 )
 
+export async function GET () {
+  try {
+    const { data, error } = await supabase
+      .from('posts')
+      .select('*')
+      .eq('active', true)
+      .order('created_at', { ascending: false })
+
+    if (error) throw error
+
+    return NextResponse.json(data)
+  } catch (error) {
+    console.error('Error fetching posts:', error)
+    return NextResponse.json({ error: 'Failed to fetch posts' }, { status: 500 })
+  }
+}
+
 export async function POST (req) {
   try {
     const { content, type, author = 'community member', externalLink = null, preview = null } = await req.json()
 
     if (!content) {
       return NextResponse.json({ error: 'Content is required' }, { status: 400 })
-    }
-
-    if (!type || !['personal_opinion', 'news'].includes(type)) {
-      return NextResponse.json({ error: 'Valid type is required' }, { status: 400 })
     }
 
     if (type === 'news' && !externalLink) {
@@ -26,18 +39,18 @@ export async function POST (req) {
       return NextResponse.json({ error: 'External link must be a valid URL starting with http:// or https://' }, { status: 400 })
     }
 
-    // Extract image URL from preview if available
-    const imageUrls = preview?.image ? [preview.image] : null
-
     const { data, error } = await supabase
       .from('posts')
-      .insert([{
-        content,
-        type,
-        author,
-        external_link: externalLink,
-        image_urls: imageUrls
-      }])
+      .insert([
+        {
+          content,
+          type,
+          author,
+          external_link: externalLink,
+          preview,
+          active: true
+        }
+      ])
       .select()
       .single()
 

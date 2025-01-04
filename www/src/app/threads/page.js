@@ -3,7 +3,7 @@ import Thread from './index'
 import GlobalHeader from '../header'
 import CreatePost from './CreatePost'
 import { useGlobalThreadListStore, useMeetingsStore, useThreadStore } from '@/stores'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { useSearchParams } from 'next/navigation'
 import { fetchDevelopments, fetchMeetings } from '@/utils'
 
@@ -12,6 +12,7 @@ export default function Threads () {
   const meetings = useMeetingsStore(state => state.meetings)
   const list = useGlobalThreadListStore(state => state.list)
   const searchParams = useSearchParams()
+  const [posts, setPosts] = useState([])
 
   useEffect(() => {
     document.title = 'Threads - DublinThreads'
@@ -35,6 +36,11 @@ export default function Threads () {
         const developmentsRes = await fetchDevelopments('/logs/global.json?page=1&limit=50')
         const developmentsData = await developmentsRes.json()
         useThreadStore.getState().update(developmentsData)
+
+        // Fetch posts
+        const postsRes = await fetch('/api/posts')
+        const postsData = await postsRes.json()
+        setPosts(postsData)
       } catch (error) {
         console.error('Error fetching initial data:', error)
       }
@@ -58,12 +64,39 @@ export default function Threads () {
         return false
       })
     } else {
-      // Combine and sort only the loaded items
-      l = [...thread, ...meetings].sort((a, b) => b.timestamp - a.timestamp)
+      // Convert posts to match thread format
+      const formattedPosts = posts.map(post => {
+        // Clean and parse image_urls
+        let imageUrls = []
+        if (post.image_urls) {
+          try {
+            // Remove escaped quotes and clean the string
+            const cleanImageUrls = post.image_urls.replace(/\\"/g, '"')
+            imageUrls = JSON.parse(cleanImageUrls)
+          } catch (e) {
+            console.error('Error parsing image_urls:', e)
+          }
+        }
+
+        return {
+          id: post.id,
+          timestamp: new Date(post.created_at).getTime(),
+          type: 'post',
+          content: post.content,
+          author: post.author,
+          externalLink: post.external_link,
+          imageUrls,
+          postType: post.type,
+          createdAt: post.created_at
+        }
+      })
+
+      // Combine and sort all items
+      l = [...thread, ...meetings, ...formattedPosts].sort((a, b) => b.timestamp - a.timestamp)
     }
 
     useGlobalThreadListStore.getState().init(l)
-  }, [thread, meetings, searchParams])
+  }, [thread, meetings, posts, searchParams])
 
   return (
     <>
@@ -104,7 +137,7 @@ export default function Threads () {
                 </p>
               </div>
               <div className="p-4">
-                <CreatePost />
+                <CreatePost onPostCreated={(newPost) => setPosts(prev => [newPost, ...prev])} />
               </div>
             </div>
             <Thread thread={list} global={true} />

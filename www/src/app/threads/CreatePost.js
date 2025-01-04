@@ -158,50 +158,50 @@ export default function CreatePost ({ onPostCreated }) {
       <div className="flex gap-3 p-1.5">
         <button
           type="button"
-          onClick={() => handleTypeSwitch("personal_opinion")}
+          onClick={() => handleTypeSwitch('personal_opinion')}
           className={`flex-1 flex items-center justify-center gap-2 px-4 py-3 rounded-lg text-sm font-medium transition-all duration-300 group relative overflow-hidden
             ${
-              type === "personal_opinion"
-                ? "bg-gradient-to-br from-green-50 via-emerald-50 to-green-100 text-green-600 shadow-md shadow-green-100"
-                : "bg-gray-50 text-gray-500 hover:text-green-600 hover:shadow-sm hover:bg-gradient-to-br hover:from-green-50/50 hover:to-emerald-50/50"
+              type === 'personal_opinion'
+                ? 'bg-gradient-to-br from-green-50 via-emerald-50 to-green-100 text-green-600 shadow-md shadow-green-100'
+                : 'bg-gray-50 text-gray-500 hover:text-green-600 hover:shadow-sm hover:bg-gradient-to-br hover:from-green-50/50 hover:to-emerald-50/50'
             }`}
         >
           <div
             className={`absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-from)_10%,_transparent_70%)] from-green-100/80 opacity-0 transition-opacity duration-300 ${
-              type === "personal_opinion"
-                ? "opacity-100"
-                : "group-hover:opacity-60"
+              type === 'personal_opinion'
+                ? 'opacity-100'
+                : 'group-hover:opacity-60'
             }`}
           />
           <ChatBubbleLeftIcon
             className={`w-4 h-4 transition-all duration-300 ${
-              type === "personal_opinion"
-                ? "scale-110 text-green-500"
-                : "group-hover:scale-110"
+              type === 'personal_opinion'
+                ? 'scale-110 text-green-500'
+                : 'group-hover:scale-110'
             }`}
           />
           <span className="relative">Opinion</span>
         </button>
         <button
           type="button"
-          onClick={() => handleTypeSwitch("news")}
+          onClick={() => handleTypeSwitch('news')}
           className={`flex-1 flex items-center justify-center gap-2 px-4 py-3 rounded-lg text-sm font-medium transition-all duration-300 group relative overflow-hidden
             ${
-              type === "news"
-                ? "bg-gradient-to-br from-blue-50 via-sky-50 to-blue-100 text-blue-600 shadow-md shadow-blue-100"
-                : "bg-gray-50 text-gray-500 hover:text-blue-600 hover:shadow-sm hover:bg-gradient-to-br hover:from-blue-50/50 hover:to-sky-50/50"
+              type === 'news'
+                ? 'bg-gradient-to-br from-blue-50 via-sky-50 to-blue-100 text-blue-600 shadow-md shadow-blue-100'
+                : 'bg-gray-50 text-gray-500 hover:text-blue-600 hover:shadow-sm hover:bg-gradient-to-br hover:from-blue-50/50 hover:to-sky-50/50'
             }`}
         >
           <div
             className={`absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-from)_10%,_transparent_70%)] from-blue-100/80 opacity-0 transition-opacity duration-300 ${
-              type === "news" ? "opacity-100" : "group-hover:opacity-60"
+              type === 'news' ? 'opacity-100' : 'group-hover:opacity-60'
             }`}
           />
           <NewspaperIcon
             className={`w-4 h-4 transition-all duration-300 ${
-              type === "news"
-                ? "scale-110 text-blue-500"
-                : "group-hover:scale-110"
+              type === 'news'
+                ? 'scale-110 text-blue-500'
+                : 'group-hover:scale-110'
             }`}
           />
           <span className="relative">News/Link</span>
@@ -209,7 +209,7 @@ export default function CreatePost ({ onPostCreated }) {
       </div>
 
       {/* Content Input - Only show for personal opinion */}
-      {type === "personal_opinion" && (
+      {type === 'personal_opinion' && (
         <div className="relative group">
           <textarea
             value={content}
@@ -226,8 +226,8 @@ export default function CreatePost ({ onPostCreated }) {
       <div>
         <div className="flex items-center gap-2 text-xs text-gray-500 mb-2 ml-1">
           <LinkIcon className="w-3.5 h-3.5" />
-          {type === "news" ? "URL" : "Reference Link (optional)"}
-          {type === "news" && <span className="text-red-500">*</span>}
+          {type === 'news' ? 'URL' : 'Reference Link (optional)'}
+          {type === 'news' && <span className="text-red-500">*</span>}
         </div>
         <div className="relative group">
           <input
@@ -236,15 +236,15 @@ export default function CreatePost ({ onPostCreated }) {
             onChange={(e) => setExternalLink(e.target.value)}
             className={`w-full px-4 py-3 border rounded-lg text-sm focus:outline-none focus:ring-[3px] transition-all duration-300 bg-white/50 backdrop-blur-sm shadow-sm
               ${
-                error && type === "news" && (!externalLink || duplicatePost)
-                  ? "border-red-300 focus:ring-red-500/10 focus:border-red-500/50"
-                  : type === "news"
-                  ? "border-gray-200 focus:ring-blue-500/10 focus:border-blue-500/50"
-                  : "border-gray-200 focus:ring-green-500/10 focus:border-green-500/50"
+                error && type === 'news' && (!externalLink || duplicatePost)
+                  ? 'border-red-300 focus:ring-red-500/10 focus:border-red-500/50'
+                  : type === 'news'
+                  ? 'border-gray-200 focus:ring-blue-500/10 focus:border-blue-500/50'
+                  : 'border-gray-200 focus:ring-green-500/10 focus:border-green-500/50'
               }`}
             placeholder="https://..."
             pattern="https?://.*"
-            required={type === "news"}
+            required={type === 'news'}
           />
           <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-blue-500/3 to-blue-600/3 opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-500" />
         </div>
@@ -282,7 +282,7 @@ export default function CreatePost ({ onPostCreated }) {
               <div className="aspect-video w-full bg-gray-100 relative overflow-hidden">
                 <img
                   src={preview.image}
-                  alt={preview.title || "Article preview"}
+                  alt={preview.title || 'Article preview'}
                   className="absolute inset-0 w-full h-full object-cover"
                 />
               </div>
@@ -297,7 +297,13 @@ export default function CreatePost ({ onPostCreated }) {
                 </p>
               )}
               <div className="mt-2 text-xs text-gray-400 truncate">
-                {new URL(externalLink).hostname}
+                {externalLink && (() => {
+                  try {
+                    return new URL(externalLink).hostname
+                  } catch (e) {
+                    return 'Invalid URL'
+                  }
+                })()}
               </div>
             </div>
           </div>
@@ -327,20 +333,20 @@ export default function CreatePost ({ onPostCreated }) {
           disabled={
             isSubmitting ||
             !content ||
-            (type === "news" && (!externalLink || duplicatePost))
+            (type === 'news' && (!externalLink || duplicatePost))
           }
           className={`px-8 py-3 rounded-lg text-sm font-semibold tracking-wide transition-all duration-300 transform hover:scale-[1.02] active:scale-[0.98]
             ${
               isSubmitting ||
               !content ||
-              (type === "news" && (!externalLink || duplicatePost))
-                ? "bg-gray-100 text-gray-400 cursor-not-allowed"
-                : type === "news"
-                ? "bg-gradient-to-r from-blue-500 via-blue-600 to-blue-500 text-white hover:shadow-lg hover:shadow-blue-500/25"
-                : "bg-gradient-to-r from-green-500 via-green-600 to-green-500 text-white hover:shadow-lg hover:shadow-green-500/25"
+              (type === 'news' && (!externalLink || duplicatePost))
+                ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                : type === 'news'
+                ? 'bg-gradient-to-r from-blue-500 via-blue-600 to-blue-500 text-white hover:shadow-lg hover:shadow-blue-500/25'
+                : 'bg-gradient-to-r from-green-500 via-green-600 to-green-500 text-white hover:shadow-lg hover:shadow-green-500/25'
             }`}
         >
-          {isSubmitting ? "Sharing..." : "Share!"}
+          {isSubmitting ? 'Sharing...' : 'Share!'}
         </button>
       </div>
 
@@ -351,5 +357,5 @@ export default function CreatePost ({ onPostCreated }) {
         </div>
       )}
     </form>
-  );
+  )
 } 
