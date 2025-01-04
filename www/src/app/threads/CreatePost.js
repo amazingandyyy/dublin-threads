@@ -112,6 +112,15 @@ export default function CreatePost ({ onPostCreated }) {
       return
     }
 
+    // Add word count validation for opinion posts
+    if (type === 'personal_opinion') {
+      const wordCount = content.trim().split(/\s+/).filter(word => word.length > 0).length
+      if (wordCount < 10 || wordCount > 150) {
+        setError(`Opinion must be between 10 and 150 words. Current: ${wordCount} words.`)
+        return
+      }
+    }
+
     setIsSubmitting(true)
     setError(null)
 
@@ -218,11 +227,29 @@ export default function CreatePost ({ onPostCreated }) {
           <textarea
             value={content}
             onChange={(e) => setContent(e.target.value)}
-            className="w-full px-4 py-3.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-[3px] focus:ring-green-500/10 focus:border-green-500/50 transition-all duration-300 min-h-[120px] resize-none bg-white/50 backdrop-blur-sm shadow-sm"
-            placeholder="Share your thoughts..."
+            className="w-full px-4 py-3.5 border border-gray-200 rounded-lg focus:outline-none focus:ring-[3px] focus:ring-green-500/10 focus:border-green-500/50 transition-all duration-300 min-h-[120px] resize-none bg-white/50 backdrop-blur-sm shadow-sm pb-8"
+            placeholder="What do you think about this? Share your perspective... (10-150 words)"
             required
           />
           <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-green-500/3 to-blue-500/3 opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-500" />
+          <div className={`absolute right-4 bottom-3 text-sm font-medium ${
+            (() => {
+              const wordCount = content.trim().split(/\s+/).filter(word => word.length > 0).length
+              if (wordCount === 0) return 'text-gray-400'
+              if (wordCount < 10) return 'text-red-500'
+              if (wordCount > 150) return 'text-red-500'
+              return 'text-gray-500'
+            })()
+          }`}>
+            {content.trim().split(/\s+/).filter(word => word.length > 0).length} / 150 words
+            {(() => {
+              const wordCount = content.trim().split(/\s+/).filter(word => word.length > 0).length
+              if (wordCount === 0) return ' (min 10)'
+              if (wordCount < 10) return ' (need ' + (10 - wordCount) + ' more)'
+              if (wordCount > 150) return ' (too long)'
+              return ''
+            })()}
+          </div>
         </div>
       )}
 
@@ -366,13 +393,21 @@ export default function CreatePost ({ onPostCreated }) {
           disabled={
             isSubmitting ||
             !content ||
-            (type === 'news' && (!externalLink || duplicatePost))
+            (type === 'news' && (!externalLink || duplicatePost)) ||
+            (type === 'personal_opinion' && (() => {
+              const wordCount = content.trim().split(/\s+/).filter(word => word.length > 0).length
+              return wordCount < 10 || wordCount > 150
+            })())
           }
           className={`px-8 py-3 rounded-lg text-sm font-semibold tracking-wide transition-all duration-300 transform hover:scale-[1.02] active:scale-[0.98]
             ${
               isSubmitting ||
               !content ||
-              (type === 'news' && (!externalLink || duplicatePost))
+              (type === 'news' && (!externalLink || duplicatePost)) ||
+              (type === 'personal_opinion' && (() => {
+                const wordCount = content.trim().split(/\s+/).filter(word => word.length > 0).length
+                return wordCount < 10 || wordCount > 150
+              })())
                 ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
                 : type === 'news'
                 ? 'bg-gradient-to-r from-blue-500 via-blue-600 to-blue-500 text-white hover:shadow-lg hover:shadow-blue-500/25'

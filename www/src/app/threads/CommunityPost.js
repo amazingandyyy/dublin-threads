@@ -67,7 +67,8 @@ export default function CommunityPost ({ data, onCommentAdded }) {
 
   const handleSubmitComment = async (e) => {
     e.preventDefault()
-    if (!commentText.trim() || isSubmitting) return
+    const wordCount = commentText.trim().split(/\s+/).filter(word => word.length > 0).length
+    if (!commentText.trim() || isSubmitting || wordCount < 10 || wordCount > 150) return
 
     setIsSubmitting(true)
     try {
@@ -246,13 +247,15 @@ export default function CommunityPost ({ data, onCommentAdded }) {
               <ChatBubbleLeftIcon className='w-4 h-4 text-gray-400' />
               {localComments.length} Opinion{localComments.length > 1 ? 's' : ''}
             </div>
-            <button
-              onClick={() => setIsCommenting(!isCommenting)}
-              className='inline-flex items-center gap-1.5 text-sm text-green-600 hover:text-green-700 font-medium group'
-            >
-              <ChatBubbleLeftIcon className='w-4 h-4 transition-transform group-hover:-translate-y-0.5' />
-              Add opinion
-            </button>
+            {postType === 'news' && (
+              <button
+                onClick={() => setIsCommenting(!isCommenting)}
+                className='inline-flex items-center gap-1.5 text-sm text-green-600 hover:text-green-700 font-medium group'
+              >
+                <ChatBubbleLeftIcon className='w-4 h-4 transition-transform group-hover:-translate-y-0.5' />
+                Add opinion
+              </button>
+            )}
           </div>
 
           {isCommenting && (
@@ -270,10 +273,29 @@ export default function CommunityPost ({ data, onCommentAdded }) {
               <textarea
                 value={commentText}
                 onChange={(e) => setCommentText(e.target.value)}
-                placeholder="What do you think about this? Share your perspective..."
-                className='w-full px-3 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 text-[15px] leading-relaxed min-h-[100px] resize-none'
+                placeholder="What do you think about this? Share your perspective... (10-150 words)"
+                className='w-full px-3 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 text-[15px] leading-relaxed min-h-[100px] resize-none pb-6'
                 disabled={isSubmitting}
               />
+              <div className="relative">
+                <div className={`absolute right-2 -top-6 text-[11px] ${
+                  (() => {
+                    const wordCount = commentText.trim().split(/\s+/).filter(word => word.length > 0).length
+                    if (wordCount === 0) return 'text-gray-400'
+                    if (wordCount < 10) return 'text-amber-600/80'
+                    if (wordCount > 150) return 'text-amber-600/80'
+                    return 'text-gray-400'
+                  })()
+                }`}>
+                  {(() => {
+                    const wordCount = commentText.trim().split(/\s+/).filter(word => word.length > 0).length
+                    if (wordCount === 0) return '0/150 words (min 10)'
+                    if (wordCount < 10) return `${wordCount}/150 words (${10 - wordCount} more needed)`
+                    if (wordCount > 150) return `${wordCount}/150 words (${wordCount - 150} over limit)`
+                    return `${wordCount}/150 words`
+                  })()}
+                </div>
+              </div>
               <div className='flex justify-end gap-2 mt-2'>
                 <button
                   type="button"
@@ -290,7 +312,10 @@ export default function CommunityPost ({ data, onCommentAdded }) {
                 <button
                   type="submit"
                   className='inline-flex items-center gap-1.5 px-4 py-1.5 text-sm font-medium text-white bg-green-600 rounded-md hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200'
-                  disabled={!commentText.trim() || isSubmitting}
+                  disabled={!commentText.trim() || isSubmitting || (() => {
+                    const wordCount = commentText.trim().split(/\s+/).filter(word => word.length > 0).length
+                    return wordCount < 10 || wordCount > 150
+                  })()}
                 >
                   <ChatBubbleLeftIcon className='w-4 h-4' />
                   {isSubmitting ? 'Sharing...' : 'Share!'}
@@ -324,6 +349,11 @@ export default function CommunityPost ({ data, onCommentAdded }) {
               </div>
               ))}
           </div>
+          {localComments.length > 0 && (
+            <div className='mt-4 text-[11px] text-gray-400/80 text-center px-4'>
+              Opinions expressed by community members do not reflect the views of this website
+            </div>
+          )}
         </div>
       </div>
     </div>
