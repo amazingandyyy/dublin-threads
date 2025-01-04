@@ -88,11 +88,13 @@ export default function Threads () {
           // If it's a news post or a standalone opinion, add it directly
           acc.push({
             ...post,
-            comments: formattedPosts.filter(p => 
-              p.postType === 'personal_opinion' && 
-              p.externalLink === post.externalLink &&
-              p.id !== post.id
-            )
+            comments: formattedPosts
+              .filter(p => 
+                p.postType === 'personal_opinion' && 
+                p.externalLink === post.externalLink &&
+                p.id !== post.id
+              )
+              .sort((a, b) => b.timestamp - a.timestamp) // Sort comments by timestamp, newer first
           })
         } else if (post.postType === 'personal_opinion') {
           // Only add opinions that don't have a corresponding news post
@@ -116,6 +118,34 @@ export default function Threads () {
 
     useGlobalThreadListStore.getState().init(l)
   }, [thread, meetings, posts, searchParams])
+
+  const handleCommentAdded = (newComment, parentPost) => {
+    setPosts(currentPosts => {
+      const updatedPosts = currentPosts.map(post => {
+        if (post.id === parentPost.id) {
+          return {
+            ...post,
+            comments: [...(post.comments || []), newComment]
+          }
+        }
+        return post
+      })
+      return updatedPosts
+    })
+
+    // Update the global thread list store
+    const currentList = useGlobalThreadListStore.getState().list
+    const updatedList = currentList.map(item => {
+      if (item.id === parentPost.id) {
+        return {
+          ...item,
+          comments: [...(item.comments || []), newComment]
+        }
+      }
+      return item
+    })
+    useGlobalThreadListStore.getState().init(updatedList)
+  }
 
   return (
     <>
@@ -159,7 +189,11 @@ export default function Threads () {
                 <CreatePost onPostCreated={(newPost) => setPosts(prev => [newPost, ...prev])} />
               </div>
             </div>
-            <Thread thread={list} global={true} />
+            <Thread 
+              thread={list} 
+              global={true} 
+              onCommentAdded={handleCommentAdded}
+            />
           </div>
         </div>
       </main>

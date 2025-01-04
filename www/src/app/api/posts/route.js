@@ -25,7 +25,7 @@ export async function GET () {
 
 export async function POST (req) {
   try {
-    const { content, type, author = 'community member', externalLink = null, preview = null, imageUrls = [] } = await req.json()
+    const { content, type, author = 'anonymous', externalLink = null, preview = null, imageUrls = [] } = await req.json()
 
     console.log('Received request data:', { content, type, author, externalLink, preview, imageUrls })
 
@@ -47,7 +47,6 @@ export async function POST (req) {
       type, // Keep original type (news/opinion)
       author,
       external_link: externalLink,
-      preview,
       image_urls: Array.isArray(imageUrls) ? imageUrls : imageUrls ? [imageUrls] : [],
       active: true
     }
@@ -77,11 +76,21 @@ export async function DELETE (req) {
   try {
     const { searchParams } = new URL(req.url)
     const id = searchParams.get('id')
+    const body = await req.json()
+    const { password } = body
 
     if (!id) {
       return NextResponse.json(
         { error: 'Post ID is required' },
         { status: 400 }
+      )
+    }
+
+    // Verify admin password
+    if (password !== 'yes') {
+      return NextResponse.json(
+        { error: 'Invalid password' },
+        { status: 401 }
       )
     }
 

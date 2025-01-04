@@ -231,10 +231,10 @@ const TextDiff = ({ oldText, newText }) => {
   )
 }
 
-function Post ({ data }) {
+function Post ({ data, onCommentAdded }) {
   // If it's a community post, render the CommunityPost component
   if (data.type === 'post') {
-    return <CommunityPost data={data} />
+    return <CommunityPost data={data} onCommentAdded={onCommentAdded} />
   }
 
   const profiles = useProjectProfileStore(state => state.profiles)
@@ -484,7 +484,7 @@ function TimelineNav ({ dates, activeDate, onDateClick, groupedThreads }) {
   )
 }
 
-export default function Thread ({ thread, unit = 'updates', global = false }) {
+export default function Thread ({ thread = [], global = false, onCommentAdded }) {
   const [loading, setLoading] = useState(true)
   const [loadingMore, setLoadingMore] = useState(false)
   const [activeFilter, setActiveFilter] = useState('all')
@@ -821,7 +821,7 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
                         key={`${post.projectId}-${i}`}
                         className="px-0 sm:px-0"
                       >
-                        <Post data={post} />
+                        <Post data={post} onCommentAdded={(comment) => onCommentAdded?.(comment, post)} />
                       </div>
                     ))}
                   </div>
