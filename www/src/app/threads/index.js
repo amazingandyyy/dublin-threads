@@ -3,7 +3,7 @@ import { Fragment, useEffect, useState, useRef, useMemo } from 'react'
 import { useGlobalThreadListStore, useProjectProfileStore } from '@/stores'
 import { timeSince } from '@/utils'
 import {
-  CameraIcon,
+  PhotoIcon,
   DocumentIcon,
   ArrowPathIcon,
   InformationCircleIcon,
@@ -41,8 +41,14 @@ const isValidPost = (post, threadList = []) => {
       }
       
       if (imageType === 'original') {
-        // Show the original image update
-        return true
+        // For image updates, validate the URL
+        try {
+          // eslint-disable-next-line no-unused-vars
+          const _ = new URL(post.val)
+          return true
+        } catch {
+          return false
+        }
       }
     }
 
@@ -343,8 +349,17 @@ function Post ({ data }) {
   }
 
   const renderImageUpdate = () => {
-    const src = data.val?.original
+    // Handle both direct URL and object with original property
+    const src = typeof data.val === 'string' ? data.val : data.val?.original
     if (!src) return null
+
+    // Validate URL
+    try {
+      // eslint-disable-next-line no-unused-vars
+      const _ = new URL(src)
+    } catch {
+      return null
+    }
 
     return (
       <div className='flex flex-col'>
@@ -564,8 +579,8 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
       defaultClass: 'bg-white text-gray-600 hover:text-gray-900 ring-1 ring-gray-200 hover:ring-gray-300'
     },
     image: {
-      label: 'Photos',
-      icon: CameraIcon,
+      label: 'Images',
+      icon: PhotoIcon,
       activeClass: 'bg-blue-600 text-white ring-1 ring-blue-600',
       defaultClass: 'bg-white text-gray-600 hover:text-blue-600 ring-1 ring-gray-200 hover:ring-blue-200'
     },
@@ -644,18 +659,33 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
                     const Icon = config.icon
                     const isActive = activeFilter === key
                     const count = threadList.filter((post) => {
+                      if (key === 'all') return true
+                      
+                      // For images, validate URL in addition to checking type
+                      if (post.path?.[1] === 'images') {
+                        if (post.path?.[3] === 'thumbnail') return false
+                        if (post.path?.[3] === 'original') {
+                          try {
+                            // eslint-disable-next-line no-unused-vars
+                            const _ = new URL(post.val)
+                            return key === 'image'
+                          } catch {
+                            return false
+                          }
+                        }
+                        return false
+                      }
+
                       const category =
                         post.type === 'meeting'
                           ? 'meeting'
-                          : post.path?.[1] === 'images'
-                            ? 'image'
-                            : post.path?.[1] === 'docs'
-                              ? 'document'
-                              : post.path?.[1] === 'status'
-                                ? 'status'
-                                : post.path?.[1] === 'details'
-                                  ? 'detail'
-                                  : 'other'
+                          : post.path?.[1] === 'docs'
+                            ? 'document'
+                            : post.path?.[1] === 'status'
+                              ? 'status'
+                              : post.path?.[1] === 'details'
+                                ? 'detail'
+                                : 'other'
                       return category === key
                     }).length
 
@@ -708,16 +738,7 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
             </div>
           )}
           <div className="text-center text-gray-600 text-sm font-medium px-3 sm:px-0">
-            {loading
-              ? (
-              <span className="animate-pulse">Loading...</span>
-                )
-              : (
-              <span>
-                {Object.values(groupedThreads).flat().length} of {totalItems}{' '}
-                {unit}
-              </span>
-                )}
+            {loading && <span className="animate-pulse">Loading...</span>}
           </div>
         </div>
 
