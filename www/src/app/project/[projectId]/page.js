@@ -7,7 +7,7 @@ import {
   Building, Scale, Car, Globe2, ImageIcon, MessageSquare
 } from 'lucide-react'
 import Image from 'next/image'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useProjectProfileStore, useThreadStore, useGlobalThreadListStore } from '@/stores'
 import { fetchDevelopments, timeSince } from '@/utils'
 import Map, { Marker } from 'react-map-gl'
@@ -212,10 +212,81 @@ const DisqusComments = ({ id, title, url }) => {
   return <div id="disqus_thread" className="min-h-[300px] px-4" />
 }
 
+const NavItem = ({ label, active, onClick, icon: Icon }) => (
+  <button
+    onClick={onClick}
+    className={`
+      relative px-4 py-2.5 text-sm font-medium transition-all duration-300 
+      ${active 
+        ? 'text-emerald-700' 
+        : 'text-gray-500 hover:text-gray-800'
+      }
+      group flex items-center gap-2
+    `}
+  >
+    <div className={`
+      absolute inset-x-0 bottom-0 h-0.5 transition-all duration-300
+      ${active 
+        ? 'bg-gradient-to-r from-emerald-500 to-emerald-400 w-full' 
+        : 'w-0 group-hover:w-full bg-gray-200'
+      }
+    `}/>
+    <span className="relative">
+      {label}
+    </span>
+  </button>
+)
+
 export default function Project ({ params }) {
   const [project, setProject] = useState(null)
   const [loading, setLoading] = useState(true)
-  // const [activeTab, setActiveTab] = useState('overview')
+  const [activeSection, setActiveSection] = useState('overview')
+  
+  const overviewRef = useRef(null)
+  const locationRef = useRef(null)
+  const imagesRef = useRef(null)
+  const plannerRef = useRef(null)
+  const applicantRef = useRef(null)
+  const documentsRef = useRef(null)
+  const discussionsRef = useRef(null)
+  const timelineRef = useRef(null)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY + 100 // Offset for the sticky header
+
+      const refs = [
+        { id: 'overview', ref: overviewRef },
+        { id: 'location', ref: locationRef },
+        { id: 'images', ref: imagesRef },
+        { id: 'planner', ref: plannerRef },
+        { id: 'applicant', ref: applicantRef },
+        { id: 'documents', ref: documentsRef },
+        { id: 'discussions', ref: discussionsRef },
+        { id: 'timeline', ref: timelineRef }
+      ]
+
+      for (let i = refs.length - 1; i >= 0; i--) {
+        const { id, ref } = refs[i]
+        if (ref.current && ref.current.offsetTop <= scrollPosition) {
+          setActiveSection(id)
+          break
+        }
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
+  const scrollToSection = (sectionRef, sectionId) => {
+    if (sectionRef.current) {
+      const yOffset = -80 // Offset for sticky header
+      const y = sectionRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset
+      window.scrollTo({ top: y, behavior: 'smooth' })
+      setActiveSection(sectionId)
+    }
+  }
 
   useEffect(() => {
     fetchDevelopments('/logs/global.json')
@@ -414,37 +485,215 @@ export default function Project ({ params }) {
             </div>
           </div>
 
-          {/* Content */}
-          <div className="transition-all duration-300 space-y-4 sm:space-y-8">
-            {renderOverviewTab()}
-            {renderContactTab()}
-            {
-              <div className="space-y-4 sm:space-y-8 animate-fadeIn">
-                <Card>
-                  <CardHeader
-                    icon={MessageSquare}
-                    title="Community Discussions"
-                  />
-                  <div className="pb-4 sm:pb-8">
-                    <div className="mb-4 sm:mb-6">
-                      <p className="text-gray-600">
-                        Join the conversation about this development project.
-                        Share your thoughts, ask questions, and connect with
-                        other community members.
-                      </p>
-                    </div>
-                    <div className="bg-gray-50 rounded-none sm:rounded-xl p-4 sm:p-6 border border-gray-200/80">
-                      <DisqusComments
-                        id={id}
-                        title={title}
-                        url={`https://dublin.amazyyy.com/project/${id}`}
+          {/* Navigation */}
+          <div className="sticky sm:top-[4rem] top-[3.5rem] z-30 sm:-mt-4">
+            <div className="bg-white shadow-sm border-gray-200/80 shadow-sm">
+              <div className="container mx-auto">
+                <div className="overflow-x-auto scrollbar-hide">
+                  <div className="flex items-center gap-1 mx-auto max-w-[1400px] px-4">
+                    <div className="flex items-center">
+                      <NavItem
+                        label="Overview"
+                        active={activeSection === 'overview'}
+                        onClick={() => scrollToSection(overviewRef, 'overview')}
+                      />
+                      <NavItem
+                        label="Location"
+                        active={activeSection === 'location'}
+                        onClick={() => scrollToSection(locationRef, 'location')}
+                      />
+                      {images.length > 0 && (
+                        <NavItem
+                          label="Images"
+                          active={activeSection === 'images'}
+                          onClick={() => scrollToSection(imagesRef, 'images')}
+                        />
+                      )}
+                      <NavItem
+                        label="Planner"
+                        active={activeSection === 'planner'}
+                        onClick={() => scrollToSection(plannerRef, 'planner')}
+                      />
+                      <NavItem
+                        label="Applicant"
+                        active={activeSection === 'applicant'}
+                        onClick={() => scrollToSection(applicantRef, 'applicant')}
+                      />
+                      {docs.length > 0 && (
+                        <NavItem
+                          label="Documents"
+                          active={activeSection === 'documents'}
+                          onClick={() => scrollToSection(documentsRef, 'documents')}
+                        />
+                      )}
+                      <NavItem
+                        label="Discussions"
+                        active={activeSection === 'discussions'}
+                        onClick={() => scrollToSection(discussionsRef, 'discussions')}
+                      />
+                      <NavItem
+                        label="Timeline"
+                        active={activeSection === 'timeline'}
+                        onClick={() => scrollToSection(timelineRef, 'timeline')}
                       />
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+            <div className="h-px bg-gradient-to-r from-emerald-500/5 via-emerald-500/10 to-emerald-500/5"/>
+          </div>
+
+          {/* Content */}
+          <div className="transition-all duration-300 space-y-4 sm:space-y-8">
+            <div ref={overviewRef}>
+              {renderOverviewTab()}
+            </div>
+            <div ref={locationRef}>
+              {/* Location Card */}
+              <Card>
+                <CardHeader icon={MapPin} title="Location" />
+                <div className="flex flex-col md:flex-row gap-4 sm:gap-8">
+                  <div className="flex-1 space-y-4 sm:space-y-6">
+                    <div>
+                      <p className="text-gray-600 mb-4">{location}</p>
+                      {geolocation?.lat && geolocation?.lon 
+                        ? (
+                          <>
+                            <div className="grid grid-cols-2 gap-4 pb-2">
+                              <div className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors group">
+                                <p className="text-sm text-gray-500 group-hover:text-gray-600">Latitude</p>
+                                <p className="font-medium text-gray-900 group-hover:text-emerald-600">{geolocation.lat.toFixed(6)}°</p>
+                              </div>
+                              <div className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors group">
+                                <p className="text-sm text-gray-500 group-hover:text-gray-600">Longitude</p>
+                                <p className="font-medium text-gray-900 group-hover:text-emerald-600">{geolocation.lon.toFixed(6)}°</p>
+                              </div>
+                            </div>
+                            <LinkButton
+                              href={`https://www.google.com/maps/place/${geolocation.lat},${geolocation.lon}`}
+                              icon={ExternalLink}
+                              color="emerald"
+                            >
+                              View on Google Maps
+                            </LinkButton>
+                          </>
+                          )
+                        : (
+                          <LinkButton
+                            href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${location} Dublin, CA`)}`}
+                            icon={ExternalLink}
+                            color="emerald"
+                          >
+                            View on Google Maps
+                          </LinkButton>
+                          )}
+                    </div>
+                  </div>
+                  <div className="flex-1">
+                    {geolocation?.lat && geolocation?.lon
+                      ? (
+                        <div className="h-[300px] rounded-lg overflow-hidden shadow-md">
+                          <Map
+                            mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_TOKEN}
+                            initialViewState={{
+                              longitude: geolocation.lon,
+                              latitude: geolocation.lat,
+                              zoom: 14
+                            }}
+                            style={{ height: '100%' }}
+                            mapStyle="mapbox://styles/amazingandyyy/clkj4hghc005b01r14qvccv1h"
+                          >
+                            <Marker longitude={geolocation.lon} latitude={geolocation.lat}>
+                              <div className="flex flex-col items-center transform hover:scale-110 transition-transform">
+                                <div className="flex items-center text-center leading-5 bg-gradient-to-r from-emerald-500 to-emerald-600 shadow-lg text-lg py-1.5 px-4 rounded-full font-semibold text-white">
+                                  <MapPin className="h-4 w-4 mr-1" />
+                                  <div>{location}</div>
+                                </div>
+                                <div className="bg-gradient-to-r from-emerald-500 to-emerald-600 w-1 h-4"></div>
+                              </div>
+                            </Marker>
+                          </Map>
+                        </div>
+                        )
+                      : (
+                        <div className="h-[300px] rounded-lg overflow-hidden shadow-md bg-gray-50 flex items-center justify-center">
+                          <div className="text-center">
+                            <MapPin className="w-8 h-8 text-gray-400 mx-auto mb-2" />
+                            <p className="text-gray-500">Map view not available</p>
+                            <p className="text-sm text-gray-400">Coordinates not provided for this location</p>
+                          </div>
+                        </div>
+                        )}
+                  </div>
+                </div>
+              </Card>
+            </div>
+            {images.length > 0 && (
+              <div ref={imagesRef}>
+                {/* Project Images Card */}
+                <Card>
+                  <CardHeader icon={ImageIcon} title="Project Images" />
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+                    {images.map((image, index) => (
+                      <div key={index} className="group relative">
+                        <div className="aspect-[4/3] sm:aspect-video relative rounded-lg overflow-hidden shadow-md">
+                          <Image
+                            src={image.original}
+                            alt={`Project image ${index + 1}`}
+                            fill
+                            className="object-cover transition-transform duration-500 group-hover:scale-110"
+                          />
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0 opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div className="absolute bottom-0 left-0 right-0 p-4">
+                              <p className="text-white text-sm font-medium">View {index + 1} of {images.length}</p>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          href={image.original}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="absolute top-4 right-4 w-8 h-8 bg-white/90 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 hover:bg-white hover:scale-110"
+                        >
+                          <ExternalLink className="w-4 h-4 text-gray-600" />
+                        </a>
+                      </div>
+                    ))}
+                  </div>
                 </Card>
               </div>
-            }
-            {renderTimeline()}
+            )}
+            <div ref={plannerRef}>
+              {renderContactTab()}
+            </div>
+            <div ref={discussionsRef}>
+              <Card>
+                <CardHeader
+                  icon={MessageSquare}
+                  title="Community Discussions"
+                />
+                <div className="pb-4 sm:pb-8">
+                  <div className="mb-4 sm:mb-6">
+                    <p className="text-gray-600">
+                      Join the conversation about this development project.
+                      Share your thoughts, ask questions, and connect with
+                      other community members.
+                    </p>
+                  </div>
+                  <div className="bg-gray-50 rounded-none sm:rounded-xl p-4 sm:p-6 border border-gray-200/80">
+                    <DisqusComments
+                      id={id}
+                      title={title}
+                      url={`https://dublin.amazyyy.com/project/${id}`}
+                    />
+                  </div>
+                </div>
+              </Card>
+            </div>
+            <div ref={timelineRef}>
+              {renderTimeline()}
+            </div>
           </div>
         </main>
       </div>
@@ -701,95 +950,99 @@ export default function Project ({ params }) {
       </Card>
 
       {/* Applicant Information */}
-      <Card>
-        <CardHeader icon={Building2} title="Applicant" color="emerald" />
-        <div className="space-y-6">
-          <div className="text-2xl font-bold text-gray-900">{details.Applicant.name}</div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <a 
-              href={`tel:${details.Applicant.phone}`}
-              className="flex items-center gap-3 p-4 rounded-xl bg-gradient-to-br from-emerald-50/50 to-white border border-emerald-200/50 transition-all duration-300 transform active:scale-[0.98]"
-            >
-              <div className="p-2.5 bg-gradient-to-br from-white to-emerald-50/30 rounded-none sm:rounded-xl shadow-[0_2px_3px_-1px_rgba(0,0,0,0.1),0_1px_0_0_rgba(25,28,33,0.02),0_0_0_1px_rgba(25,28,33,0.08)]">
-                <Phone className="w-5 h-5 text-emerald-600" />
-              </div>
-              <div>
-                <p className="text-sm font-medium text-emerald-600">Phone</p>
-                <p className="font-semibold text-gray-900">{details.Applicant.phone}</p>
-              </div>
-            </a>
-            
-            <a 
-              href={`https://www.google.com/maps/place/${details.Applicant.address.split(' ').join('+')}`}
-              className="flex items-center gap-3 p-4 rounded-xl bg-emerald-50/50 border border-emerald-200/50 hover:border-emerald-500/50 hover:bg-emerald-50/80 transition-colors"
-            >
-              <div className="p-2.5 bg-white rounded-xl shadow-[0_2px_3px_-1px_rgba(0,0,0,0.1),0_1px_0_0_rgba(25,28,33,0.02),0_0_0_1px_rgba(25,28,33,0.08)]">
-                <MapPin className="w-5 h-5 text-emerald-600" />
-              </div>
-              <div>
-                <p className="text-sm font-medium text-emerald-600">Address</p>
-                <p className="font-semibold text-gray-900">{details.Applicant.address}</p>
-              </div>
-            </a>
-          </div>
-          <div className="flex gap-3">
-            <a
-              href={`https://www.linkedin.com/search/results/all/?keywords=${encodeURIComponent(details.Applicant.name)}`}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-emerald-600 bg-emerald-50/50 border border-emerald-200/50 rounded-lg hover:border-emerald-500/50 hover:bg-emerald-50/80 transition-colors"
-            >
-              <div className="p-1.5 bg-white rounded-lg shadow-[0_2px_3px_-1px_rgba(0,0,0,0.1),0_1px_0_0_rgba(25,28,33,0.02),0_0_0_1px_rgba(25,28,33,0.08)]">
-                <svg className="w-4 h-4 text-[#0A66C2]" viewBox="0 0 24 24" fill="currentColor"><path d="M20.47,2H3.53A1.45,1.45,0,0,0,2.06,3.43V20.57A1.45,1.45,0,0,0,3.53,22H20.47a1.45,1.45,0,0,0,1.47-1.43V3.43A1.45,1.45,0,0,0,20.47,2ZM8.09,18.74h-3v-9h3ZM6.59,8.48a1.56,1.56,0,1,1,0-3.12,1.57,1.57,0,1,1,0,3.12ZM18.91,18.74h-3V13.91c0-1.38-.49-2.32-1.72-2.32a1.87,1.87,0,0,0-1.75,1.26,2.33,2.33,0,0,0-.11.82v5.07h-3s.05-8.17,0-9h3V11A3.37,3.37,0,0,1,15.46,9.5c2.23,0,3.45,1.46,3.45,4.59Z"/></svg>
-              </div>
-              Find on LinkedIn
-            </a>
-            <a
-              href={`https://www.google.com/search?q=${encodeURIComponent(`${details.Applicant.name} dublin ca`)}`}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-emerald-600 bg-emerald-50/50 border border-emerald-200/50 rounded-lg hover:border-emerald-500/50 hover:bg-emerald-50/80 transition-colors"
-            >
-              <div className="p-1.5 bg-white rounded-lg shadow-[0_2px_3px_-1px_rgba(0,0,0,0.1),0_1px_0_0_rgba(25,28,33,0.02),0_0_0_1px_rgba(25,28,33,0.08)]">
-                <svg className="w-4 h-4" viewBox="0 0 488 512">
-                  <path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" fill="#4285f4"/>
-                </svg>
-              </div>
-              Search on Google
-            </a>
-          </div>
-        </div>
-      </Card>
-
-      {/* Documents */}
-      {docs.length > 0 && (
+      <div ref={applicantRef}>
         <Card>
-          <CardHeader icon={FileText} title="Documents" color="orange" />
-          <div className="pb-8">
-            <div className="grid grid-cols-1 gap-3">
-              {docs.map((doc) => (
-                <a
-                  key={doc.url}
-                  href={doc.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="flex items-center gap-3 p-4 rounded-xl bg-orange-50/50 border border-orange-200/50 hover:border-orange-500/50 hover:bg-orange-50/80 transition-colors"
-                >
-                  <div className="p-2.5 bg-white rounded-xl shadow-[0_2px_3px_-1px_rgba(0,0,0,0.1),0_1px_0_0_rgba(25,28,33,0.02),0_0_0_1px_rgba(25,28,33,0.08)]">
-                    <FileText className="w-5 h-5 text-orange-600" />
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <p className="font-semibold truncate text-gray-900">{doc.name || 'Document'}</p>
-                    <p className="text-sm text-orange-600">Click to view</p>
-                  </div>
-                  <div className="p-2.5 bg-white rounded-xl shadow-[0_2px_3px_-1px_rgba(0,0,0,0.1),0_1px_0_0_rgba(25,28,33,0.02),0_0_0_1px_rgba(25,28,33,0.08)]">
-                    <ExternalLink className="w-4 h-4 text-orange-600" />
-                  </div>
-                </a>
-              ))}
+          <CardHeader icon={Building2} title="Applicant" color="emerald" />
+          <div className="space-y-6">
+            <div className="text-2xl font-bold text-gray-900">{details.Applicant.name}</div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <a 
+                href={`tel:${details.Applicant.phone}`}
+                className="flex items-center gap-3 p-4 rounded-xl bg-gradient-to-br from-emerald-50/50 to-white border border-emerald-200/50 transition-all duration-300 transform active:scale-[0.98]"
+              >
+                <div className="p-2.5 bg-gradient-to-br from-white to-emerald-50/30 rounded-none sm:rounded-xl shadow-[0_2px_3px_-1px_rgba(0,0,0,0.1),0_1px_0_0_rgba(25,28,33,0.02),0_0_0_1px_rgba(25,28,33,0.08)]">
+                  <Phone className="w-5 h-5 text-emerald-600" />
+                </div>
+                <div>
+                  <p className="text-sm font-medium text-emerald-600">Phone</p>
+                  <p className="font-semibold text-gray-900">{details.Applicant.phone}</p>
+                </div>
+              </a>
+              
+              <a 
+                href={`https://www.google.com/maps/place/${details.Applicant.address.split(' ').join('+')}`}
+                className="flex items-center gap-3 p-4 rounded-xl bg-emerald-50/50 border border-emerald-200/50 hover:border-emerald-500/50 hover:bg-emerald-50/80 transition-colors"
+              >
+                <div className="p-2.5 bg-white rounded-xl shadow-[0_2px_3px_-1px_rgba(0,0,0,0.1),0_1px_0_0_rgba(25,28,33,0.02),0_0_0_1px_rgba(25,28,33,0.08)]">
+                  <MapPin className="w-5 h-5 text-emerald-600" />
+                </div>
+                <div>
+                  <p className="text-sm font-medium text-emerald-600">Address</p>
+                  <p className="font-semibold text-gray-900">{details.Applicant.address}</p>
+                </div>
+              </a>
+            </div>
+            <div className="flex gap-3">
+              <a
+                href={`https://www.linkedin.com/search/results/all/?keywords=${encodeURIComponent(details.Applicant.name)}`}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-emerald-600 bg-emerald-50/50 border border-emerald-200/50 rounded-lg hover:border-emerald-500/50 hover:bg-emerald-50/80 transition-colors"
+              >
+                <div className="p-1.5 bg-white rounded-lg shadow-[0_2px_3px_-1px_rgba(0,0,0,0.1),0_1px_0_0_rgba(25,28,33,0.02),0_0_0_1px_rgba(25,28,33,0.08)]">
+                  <svg className="w-4 h-4 text-[#0A66C2]" viewBox="0 0 24 24" fill="currentColor"><path d="M20.47,2H3.53A1.45,1.45,0,0,0,2.06,3.43V20.57A1.45,1.45,0,0,0,3.53,22H20.47a1.45,1.45,0,0,0,1.47-1.43V3.43A1.45,1.45,0,0,0,20.47,2ZM8.09,18.74h-3v-9h3ZM6.59,8.48a1.56,1.56,0,1,1,0-3.12,1.57,1.57,0,1,1,0,3.12ZM18.91,18.74h-3V13.91c0-1.38-.49-2.32-1.72-2.32a1.87,1.87,0,0,0-1.75,1.26,2.33,2.33,0,0,0-.11.82v5.07h-3s.05-8.17,0-9h3V11A3.37,3.37,0,0,1,15.46,9.5c2.23,0,3.45,1.46,3.45,4.59Z"/></svg>
+                </div>
+                Find on LinkedIn
+              </a>
+              <a
+                href={`https://www.google.com/search?q=${encodeURIComponent(`${details.Applicant.name} dublin ca`)}`}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-emerald-600 bg-emerald-50/50 border border-emerald-200/50 rounded-lg hover:border-emerald-500/50 hover:bg-emerald-50/80 transition-colors"
+              >
+                <div className="p-1.5 bg-white rounded-lg shadow-[0_2px_3px_-1px_rgba(0,0,0,0.1),0_1px_0_0_rgba(25,28,33,0.02),0_0_0_1px_rgba(25,28,33,0.08)]">
+                  <svg className="w-4 h-4" viewBox="0 0 488 512">
+                    <path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" fill="#4285f4"/>
+                  </svg>
+                </div>
+                Search on Google
+              </a>
             </div>
           </div>
         </Card>
+      </div>
+
+      {/* Documents */}
+      {docs.length > 0 && (
+        <div ref={documentsRef}>
+          <Card>
+            <CardHeader icon={FileText} title="Documents" color="orange" />
+            <div className="pb-8">
+              <div className="grid grid-cols-1 gap-3">
+                {docs.map((doc) => (
+                  <a
+                    key={doc.url}
+                    href={doc.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center gap-3 p-4 rounded-xl bg-orange-50/50 border border-orange-200/50 hover:border-orange-500/50 hover:bg-orange-50/80 transition-colors"
+                  >
+                    <div className="p-2.5 bg-white rounded-xl shadow-[0_2px_3px_-1px_rgba(0,0,0,0.1),0_1px_0_0_rgba(25,28,33,0.02),0_0_0_1px_rgba(25,28,33,0.08)]">
+                      <FileText className="w-5 h-5 text-orange-600" />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <p className="font-semibold truncate text-gray-900">{doc.name || 'Document'}</p>
+                      <p className="text-sm text-orange-600">Click to view</p>
+                    </div>
+                    <div className="p-2.5 bg-white rounded-xl shadow-[0_2px_3px_-1px_rgba(0,0,0,0.1),0_1px_0_0_rgba(25,28,33,0.02),0_0_0_1px_rgba(25,28,33,0.08)]">
+                      <ExternalLink className="w-4 h-4 text-orange-600" />
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </div>
+          </Card>
+        </div>
       )}
     </div>
   )
