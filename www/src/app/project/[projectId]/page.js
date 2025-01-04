@@ -53,7 +53,7 @@ const MetricCard = ({ icon: Icon, label, value, tooltip }) => {
 }
 
 const CardHeader = ({ icon: Icon, title, color = 'emerald' }) => (
-  <div className="mb-4 sm:mb-8 py-2 sm:py-4 pl-0">
+  <div className="mb-4 py-2 sm:py-4 pl-0">
     <div className="flex items-center gap-2 sm:gap-3">
       <div className={`p-2 sm:p-2.5 bg-gradient-to-br from-${color}-50 to-${color}-100/50 rounded-xl shadow-[0_2px_3px_-1px_rgba(0,0,0,0.1),0_1px_0_0_rgba(25,28,33,0.02),0_0_0_1px_rgba(25,28,33,0.08)]`}>
         <Icon className={`w-4 h-4 sm:w-5 sm:h-5 text-${color}-600`} />
@@ -362,6 +362,7 @@ export default function Project ({ params }) {
   const discussionsRef = useRef(null)
   const timelineRef = useRef(null)
   const newsRef = useRef(null)
+  const specificationsRef = useRef(null)
   const [newsArticles, setNewsArticles] = useState([])
   const [loadingNews, setLoadingNews] = useState(true)
 
@@ -373,10 +374,11 @@ export default function Project ({ params }) {
         { id: 'overview', ref: overviewRef },
         { id: 'location', ref: locationRef },
         { id: 'images', ref: imagesRef },
+        { id: 'news', ref: newsRef },
+        { id: 'specifications', ref: specificationsRef },
         { id: 'planner', ref: plannerRef },
         { id: 'applicant', ref: applicantRef },
         { id: 'documents', ref: documentsRef },
-        { id: 'news', ref: newsRef },
         { id: 'discussions', ref: discussionsRef },
         { id: 'timeline', ref: timelineRef }
       ]
@@ -669,6 +671,20 @@ export default function Project ({ params }) {
                         isNew={true}
                       />
                       <NavItem
+                        label="Discussions"
+                        active={activeSection === "discussions"}
+                        onClick={() =>
+                          scrollToSection(discussionsRef, "discussions")
+                        }
+                      />
+                      <NavItem
+                        label="Specifications"
+                        active={activeSection === "specifications"}
+                        onClick={() =>
+                          scrollToSection(specificationsRef, "specifications")
+                        }
+                      />
+                      <NavItem
                         label="Planner"
                         active={activeSection === "planner"}
                         onClick={() => scrollToSection(plannerRef, "planner")}
@@ -690,13 +706,6 @@ export default function Project ({ params }) {
                           count={docs.length}
                         />
                       )}
-                      <NavItem
-                        label="Discussions"
-                        active={activeSection === "discussions"}
-                        onClick={() =>
-                          scrollToSection(discussionsRef, "discussions")
-                        }
-                      />
                       <NavItem
                         label="Timeline"
                         active={activeSection === "timeline"}
@@ -890,7 +899,7 @@ export default function Project ({ params }) {
                 </div>
               </Card>
             </div>
-            <div ref={plannerRef}>{renderContactTab()}</div>
+
             <div ref={discussionsRef}>
               <Card>
                 <CardHeader
@@ -915,6 +924,81 @@ export default function Project ({ params }) {
                 </div>
               </Card>
             </div>
+
+            {/* Project Specifications */}
+            <div ref={specificationsRef}>
+              <Card>
+                <CardHeader
+                  icon={Building2}
+                  title="Project Specifications"
+                  color="purple"
+                />
+                <div className="space-y-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div className="space-y-4">
+                      <h3 className="text-lg font-semibold text-gray-900">
+                        Application Details
+                      </h3>
+                      <div className="space-y-3">
+                        <InfoBlock
+                          icon={FileText}
+                          label="Application Number"
+                          value="PLPA-2024-00047 and PLPA-004036-2024"
+                          subtext="Submitted on 05/17/2024"
+                        />
+                        <InfoBlock
+                          icon={Globe2}
+                          label="Land Use"
+                          value="DDSP Retail District"
+                          subtext="Zoning classification for development"
+                        />
+                        <InfoBlock
+                          icon={Building2}
+                          label="Specific Plan Area"
+                          value="Downtown Dublin Retail District"
+                          subtext="Development plan zone"
+                        />
+                      </div>
+                    </div>
+                    <div className="space-y-4">
+                      <h3 className="text-lg font-semibold text-gray-900">
+                        Project Metrics
+                      </h3>
+                      <div className="space-y-3">
+                        <InfoBlock
+                          icon={Building}
+                          label="Project Area"
+                          value="Approx. 28 acres"
+                          subtext="Total development area"
+                        />
+                        <InfoBlock
+                          icon={Scale}
+                          label="Floor Area Ratio"
+                          value="N/A"
+                          subtext="Ratio of total floor area to lot size"
+                        />
+                        <InfoBlock
+                          icon={Car}
+                          label="Parking Spaces"
+                          value="N/A"
+                          subtext="Number of parking spaces"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="pt-4">
+                    <InfoBlock
+                      icon={SquareStack}
+                      label="Application Type"
+                      value="Vesting Tentative Tract Map and Development and Community Benefit Program Agreement / Site Development Review Permit and Heritage Tree Removal Permit"
+                      subtext="Type of development application"
+                    />
+                  </div>
+                </div>
+              </Card>
+            </div>
+
+            <div ref={plannerRef}>{renderContactTab()}</div>
             <div ref={timelineRef}>{renderTimeline()}</div>
           </div>
         </main>
@@ -927,184 +1011,8 @@ export default function Project ({ params }) {
       {/* Project Description */}
       <Card>
         <CardHeader icon={FileText} title="Project Overview" />
-        <p className="text-gray-600 leading-relaxed mb-8">{description}</p>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="space-y-4">
-            <h3 className="text-lg font-semibold text-gray-900">
-              Application Details
-            </h3>
-            <div className="space-y-3">
-              <InfoBlock
-                icon={FileText}
-                label="Application Number"
-                value={details['Planning Application #']}
-                subtext={`Submitted on ${submittalDate}`}
-              />
-              <InfoBlock
-                icon={Globe2}
-                label="Land Use"
-                value={details['General Plan Land Use']}
-                subtext="Zoning classification for development"
-              />
-            </div>
-          </div>
-          <div className="space-y-4">
-            <h3 className="text-lg font-semibold text-gray-900">
-              Project Specifications
-            </h3>
-            <div className="space-y-3">
-              <InfoBlock
-                icon={SquareStack}
-                label="Application Type"
-                value={details['Application Type']}
-                subtext="Type of development application"
-              />
-              <InfoBlock
-                icon={Building2}
-                label="Specific Plan Area"
-                value={details['Specific Plan Area']}
-                subtext="Development plan zone"
-              />
-            </div>
-          </div>
-        </div>
+        <p className="text-gray-600 leading-relaxed">{description}</p>
       </Card>
-
-      {/* Key Metrics */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-2 sm:gap-6">
-        <MetricCard
-          icon={Building}
-          label="Project Area"
-          value={details['Project Area']}
-          tooltip="Total development area of the project"
-        />
-        <MetricCard
-          icon={Scale}
-          label="Floor Area Ratio"
-          value={details['Floor Area Ratio'] || 'N/A'}
-          tooltip="Ratio of total floor area to lot size"
-        />
-        <MetricCard
-          icon={Car}
-          label="Parking Spaces"
-          value={details['Parking Provided'] || 'N/A'}
-          tooltip="Number of parking spaces provided"
-        />
-      </div>
-
-      {/* Location & Map */}
-      <Card>
-        <CardHeader icon={MapPin} title="Location" />
-        <div className="flex flex-col md:flex-row gap-4 sm:gap-8">
-          <div className="flex-1 space-y-4 sm:space-y-6">
-            <div>
-              <p className="text-gray-600 mb-4">{location}</p>
-              {geolocation?.lat && geolocation?.lon 
-                ? (
-                  <>
-                    <div className="grid grid-cols-2 gap-4 pb-2">
-                      <div className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors group">
-                        <p className="text-sm text-gray-500 group-hover:text-gray-600">Latitude</p>
-                        <p className="font-medium text-gray-900 group-hover:text-emerald-600">{geolocation.lat.toFixed(6)}°</p>
-                      </div>
-                      <div className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors group">
-                        <p className="text-sm text-gray-500 group-hover:text-gray-600">Longitude</p>
-                        <p className="font-medium text-gray-900 group-hover:text-emerald-600">{geolocation.lon.toFixed(6)}°</p>
-                      </div>
-                    </div>
-                    <LinkButton
-                      href={`https://www.google.com/maps/place/${geolocation.lat},${geolocation.lon}`}
-                      icon={ExternalLink}
-                      color="emerald"
-                    >
-                      View on Google Maps
-                    </LinkButton>
-                  </>
-                  )
-                : (
-                  <LinkButton
-                    href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${location} Dublin, CA`)}`}
-                    icon={ExternalLink}
-                    color="emerald"
-                  >
-                    View on Google Maps
-                  </LinkButton>
-                  )}
-            </div>
-          </div>
-          <div className="flex-1">
-            {geolocation?.lat && geolocation?.lon
-              ? (
-                <div className="h-[300px] rounded-lg overflow-hidden shadow-md">
-                  <Map
-                    mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_TOKEN}
-                    initialViewState={{
-                      longitude: geolocation.lon,
-                      latitude: geolocation.lat,
-                      zoom: 14
-                    }}
-                    style={{ height: '100%' }}
-                    mapStyle="mapbox://styles/amazingandyyy/clkj4hghc005b01r14qvccv1h"
-                  >
-                    <Marker longitude={geolocation.lon} latitude={geolocation.lat}>
-                      <div className="flex flex-col items-center transform hover:scale-110 transition-transform">
-                        <div className="flex items-center text-center leading-5 bg-gradient-to-r from-emerald-500 to-emerald-600 shadow-lg text-lg py-1.5 px-4 rounded-full font-semibold text-white">
-                          <MapPin className="h-4 w-4 mr-1" />
-                          <div>{location}</div>
-                        </div>
-                        <div className="bg-gradient-to-r from-emerald-500 to-emerald-600 w-1 h-4"></div>
-                      </div>
-                    </Marker>
-                  </Map>
-                </div>
-                )
-              : (
-                <div className="h-[300px] rounded-lg overflow-hidden shadow-md bg-gray-50 flex items-center justify-center">
-                  <div className="text-center">
-                    <MapPin className="w-8 h-8 text-gray-400 mx-auto mb-2" />
-                    <p className="text-gray-500">Map view not available</p>
-                    <p className="text-sm text-gray-400">Coordinates not provided for this location</p>
-                  </div>
-                </div>
-                )}
-          </div>
-        </div>
-      </Card>
-
-      {/* Project Images */}
-      {images.length > 0 && (
-        <Card>
-          <CardHeader icon={ImageIcon} title="Project Images" />
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
-            {images.map((image, index) => (
-              <div key={index} className="group relative">
-                <div className="aspect-[4/3] sm:aspect-video relative rounded-lg overflow-hidden shadow-md">
-                  <Image
-                    src={image.original}
-                    alt={`Project image ${index + 1}`}
-                    fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0 opacity-0 group-hover:opacity-100 transition-opacity">
-                    <div className="absolute bottom-0 left-0 right-0 p-4">
-                      <p className="text-white text-sm font-medium">View {index + 1} of {images.length}</p>
-                    </div>
-                  </div>
-                </div>
-                <a
-                  href={image.original}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="absolute top-4 right-4 w-8 h-8 bg-white/90 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 hover:bg-white hover:scale-110"
-                >
-                  <ExternalLink className="w-4 h-4 text-gray-600" />
-                </a>
-              </div>
-            ))}
-          </div>
-        </Card>
-      )}
     </div>
   )
 
