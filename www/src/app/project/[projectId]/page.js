@@ -25,16 +25,6 @@ import {
   EmailIcon
 } from 'react-share'
 
-const InfoTooltip = ({ text }) => (
-  <div className="group relative inline-block ml-1">
-    <div className="w-3.5 sm:w-4 h-3.5 sm:h-4 rounded-full bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center text-gray-400 text-[10px] sm:text-xs cursor-help shadow-sm">?</div>
-    <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-40 sm:w-48 p-2 bg-gray-900/95 backdrop-blur-sm text-white text-[10px] sm:text-xs rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-      {text}
-      <div className="absolute top-full left-1/2 -translate-x-1/2 -mt-1 border-4 border-transparent border-t-gray-900/95"></div>
-    </div>
-  </div>
-)
-
 
 const CardHeader = ({ icon: Icon, title, color = 'emerald' }) => (
   <div className="mb-4 py-2 sm:py-4 pl-0">
