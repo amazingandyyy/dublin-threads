@@ -157,7 +157,7 @@ export default function CreatePost ({ onPostCreated }) {
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
       {/* Post Type Selector */}
-      {/* <div className="flex gap-3 p-1.5">
+      <div className="flex gap-3 p-1.5 hidden">
         <button
           type="button"
           onClick={() => handleTypeSwitch('personal_opinion')}
@@ -208,7 +208,7 @@ export default function CreatePost ({ onPostCreated }) {
           />
           <span className="relative">News/Link</span>
         </button>
-      </div> */}
+      </div>
 
       {/* Content Input - Only show for personal opinion */}
       {type === 'personal_opinion' && (

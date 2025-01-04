@@ -174,7 +174,7 @@ export default function Threads () {
               <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-green-500/0 via-green-500 to-green-500/0"></div>
             </div>
             <div className="flex flex-wrap justify-center gap-1.5 mt-6">
-              {["DublinCA", "California", "TriValley"].map((i) => (
+              {['DublinCA', 'California', 'TriValley'].map((i) => (
                 <span
                   key={i}
                   className="inline-flex items-center py-1 px-2.5 bg-green-100 text-xs sm:text-sm font-medium text-green-800 rounded-md"
@@ -211,5 +211,5 @@ export default function Threads () {
         </div>
       </main>
     </>
-  );
+  )
 }
