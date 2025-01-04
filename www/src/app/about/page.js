@@ -78,33 +78,33 @@ export default function AboutPage () {
                 {/* New Features List */}
                 <div className="space-y-3">
                   <h3 className="text-lg font-semibold text-green-800">New Features Roadmap</h3>
-                  <div className="space-y-2">
-                    <div className="flex items-center gap-2">
-                      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-emerald-100 text-emerald-800">
+                  <div className="space-y-3">
+                    <div className="flex flex-col sm:flex-row gap-2 sm:items-center">
+                      <span className="inline-flex shrink-0 items-center px-3 py-1 rounded-full text-sm font-medium bg-emerald-100 text-emerald-800 w-fit">
                         ✓ Done
                       </span>
                       <span className="text-gray-700">Revamping overall visual experience</span>
                     </div>
-                    <div className="flex items-center gap-2">
-                      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-emerald-100 text-emerald-800">
+                    <div className="flex flex-col sm:flex-row gap-2 sm:items-center">
+                      <span className="inline-flex shrink-0 items-center px-3 py-1 rounded-full text-sm font-medium bg-emerald-100 text-emerald-800 w-fit">
                         ✓ Done
                       </span>
                       <span className="text-gray-700">New Explorer experience</span>
                     </div>
-                    <div className="flex items-center gap-2">
-                      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-emerald-100 text-emerald-800">
+                    <div className="flex flex-col sm:flex-row gap-2 sm:items-center">
+                      <span className="inline-flex shrink-0 items-center px-3 py-1 rounded-full text-sm font-medium bg-emerald-100 text-emerald-800 w-fit">
                         ✓ Done
                       </span>
                       <span className="text-gray-700">Add News to project page</span>
                     </div>
-                    <div className="flex items-center gap-2">
-                      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-                        Coming Soon
+                    <div className="flex flex-col sm:flex-row gap-2 sm:items-center">
+                      <span className="inline-flex shrink-0 items-center px-3 py-1 rounded-full text-sm font-medium bg-emerald-100 text-emerald-800 w-fit">
+                        ✓ Done
                       </span>
                       <span className="text-gray-700">Enable community members to share anonymously</span>
                     </div>
-                    <div className="flex items-center gap-2">
-                      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+                    <div className="flex flex-col sm:flex-row gap-2 sm:items-center">
+                      <span className="inline-flex shrink-0 items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800 w-fit">
                         Coming Soon
                       </span>
                       <span className="text-gray-700">Enable community to create events</span>
