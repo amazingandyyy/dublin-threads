@@ -66,17 +66,8 @@ export default function Threads () {
     } else {
       // Convert posts to match thread format
       const formattedPosts = posts.map(post => {
-        // Clean and parse image_urls
-        let imageUrls = []
-        if (post.image_urls) {
-          try {
-            // Remove escaped quotes and clean the string
-            const cleanImageUrls = post.image_urls.replace(/\\"/g, '"')
-            imageUrls = JSON.parse(cleanImageUrls)
-          } catch (e) {
-            console.error('Error parsing image_urls:', e)
-          }
-        }
+        // Handle image_urls as an array
+        const imageUrls = Array.isArray(post.image_urls) ? post.image_urls : []
 
         return {
           id: post.id,
@@ -91,8 +82,36 @@ export default function Threads () {
         }
       })
 
+      // Group opinions with their news posts
+      const groupedPosts = formattedPosts.reduce((acc, post) => {
+        if (post.postType === 'news' || !post.externalLink) {
+          // If it's a news post or a standalone opinion, add it directly
+          acc.push({
+            ...post,
+            comments: formattedPosts.filter(p => 
+              p.postType === 'personal_opinion' && 
+              p.externalLink === post.externalLink &&
+              p.id !== post.id
+            )
+          })
+        } else if (post.postType === 'personal_opinion') {
+          // Only add opinions that don't have a corresponding news post
+          const hasNewsPost = formattedPosts.some(p => 
+            p.postType === 'news' && 
+            p.externalLink === post.externalLink
+          )
+          if (!hasNewsPost) {
+            acc.push({
+              ...post,
+              comments: []
+            })
+          }
+        }
+        return acc
+      }, [])
+
       // Combine and sort all items
-      l = [...thread, ...meetings, ...formattedPosts].sort((a, b) => b.timestamp - a.timestamp)
+      l = [...thread, ...meetings, ...groupedPosts].sort((a, b) => b.timestamp - a.timestamp)
     }
 
     useGlobalThreadListStore.getState().init(l)
@@ -109,7 +128,7 @@ export default function Threads () {
           <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
         </div>
 
-        <div className="container mx-auto px-4 py-6">
+        <div className="container mx-auto py-6">
           <div className='flex flex-col items-center text-center text-gray-600 pt-12 sm:pt-16'>
             <div className='relative'>
               <div className='font-playfair text-2xl sm:text-3xl md:text-6xl font-bold text-green-950 mb-4 sm:mb-6 px-2'>

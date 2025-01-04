@@ -23,7 +23,18 @@ const fetchDevelopments = (path) => {
 export function timeSince (timestamp) {
   if (!timestamp) return ''
 
-  const date = new Date(timestamp)
+  let date
+  // Handle millisecond timestamps (as string or number)
+  if (String(timestamp).length === 13) {
+    date = new Date(parseInt(timestamp))
+  } else {
+    // Handle date strings
+    date = new Date(timestamp)
+  }
+
+  // Return empty string if date is invalid
+  if (isNaN(date.getTime())) return ''
+
   const now = new Date()
   const seconds = Math.floor((now - date) / 1000)
   const minutes = Math.floor(seconds / 60)
@@ -31,13 +42,13 @@ export function timeSince (timestamp) {
   const days = Math.floor(hours / 24)
 
   if (seconds < 5) return 'just now'
-  if (seconds < 60) return `${seconds} seconds ago`
-  if (minutes === 1) return 'a minute ago'
-  if (minutes < 60) return `${minutes} minutes ago`
-  if (hours === 1) return 'an hour ago'
-  if (hours < 24) return `${hours} hours ago`
+  if (seconds < 60) return `${seconds} seconds`
+  if (minutes === 1) return 'a minute'
+  if (minutes < 60) return `${minutes} minutes`
+  if (hours === 1) return 'an hour'
+  if (hours < 24) return `${hours} hours`
   if (days === 1) return 'yesterday'
-  if (days < 7) return `${days} days ago`
+  if (days < 7) return `${days} days`
   
   // For older dates, show the actual date
   return date.toLocaleDateString('en-US', { 
