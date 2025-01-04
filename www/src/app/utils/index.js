@@ -20,32 +20,39 @@ const fetchDevelopments = (path) => {
   return fetchApi(`${developmentsApiUrl}${path}`)
 }
 
-function timeSince (date) {
-  let seconds = Math.floor((new Date() - date) / 1000)
-  if (seconds < 0) {
-    seconds = Math.floor((date - new Date()) / 1000)
-  }
-  let interval = seconds / 31536000
-  if (interval > 1) {
-    return Math.floor(interval) + ' years'
-  }
-  interval = seconds / 2592000
-  if (interval > 1) {
-    return Math.floor(interval) + ' months'
-  }
-  interval = seconds / 86400
-  if (interval > 1) {
-    return Math.floor(interval) + ' days'
-  }
-  interval = seconds / 3600
-  if (interval > 1) {
-    return Math.floor(interval) + ' hours'
-  }
-  interval = seconds / 60
-  if (interval > 1) {
-    return Math.floor(interval) + ' minutes'
-  }
-  return Math.floor(seconds) + ' seconds'
+export function timeSince (timestamp) {
+  if (!timestamp) return ''
+
+  const date = new Date(timestamp)
+  const now = new Date()
+  const seconds = Math.floor((now - date) / 1000)
+  const minutes = Math.floor(seconds / 60)
+  const hours = Math.floor(minutes / 60)
+  const days = Math.floor(hours / 24)
+
+  if (seconds < 5) return 'just now'
+  if (seconds < 60) return `${seconds} seconds ago`
+  if (minutes === 1) return 'a minute ago'
+  if (minutes < 60) return `${minutes} minutes ago`
+  if (hours === 1) return 'an hour ago'
+  if (hours < 24) return `${hours} hours ago`
+  if (days === 1) return 'yesterday'
+  if (days < 7) return `${days} days ago`
+  
+  // For older dates, show the actual date
+  return date.toLocaleDateString('en-US', { 
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric'
+  })
 }
 
-export { fetchMeetings, fetchDevelopments, timeSince, Image, useArchivedSource }
+export function formatDate (date) {
+  return new Date(date).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  })
+}
+
+export { fetchMeetings, fetchDevelopments, Image, useArchivedSource }

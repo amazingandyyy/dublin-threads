@@ -100,7 +100,7 @@ export default function Threads () {
               <div className="flex items-center justify-center gap-2 bg-gradient-to-r from-green-50 to-blue-50 px-4 py-3 rounded-t-lg border-b border-green-100">
                 <span className="bg-green-600 text-white text-[11px] font-bold px-2 py-0.5 rounded-full tracking-wide animate-pulse">NEW</span>
                 <p className="text-green-800 text-sm font-medium">
-                  You can now share your thoughts about Dublin! ✨ 🍀
+                  You can now share your thoughts publicly/anonymously! ✨ 🍀
                 </p>
               </div>
               <div className="p-4">

@@ -1,62 +1,57 @@
-import { createRouteHandlerClient } from '@supabase/auth-helpers-nextjs'
-import { cookies } from 'next/headers'
 import { NextResponse } from 'next/server'
+import { createClient } from '@supabase/supabase-js'
+
+const supabase = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL,
+  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+)
 
 export async function POST (req) {
   try {
-    const supabase = createRouteHandlerClient({ cookies })
-    const { content, type, author = 'anonymous', externalLink = null } = await req.json()
+    const { content, type, author = 'community member', externalLink = null, preview = null } = await req.json()
 
-    if (!content || !type) {
-      return NextResponse.json(
-        { error: 'Content and type are required' },
-        { status: 400 }
-      )
+    if (!content) {
+      return NextResponse.json({ error: 'Content is required' }, { status: 400 })
     }
 
-    if (!['news', 'personal_opinion'].includes(type)) {
-      return NextResponse.json(
-        { error: 'Type must be either "news" or "personal_opinion"' },
-        { status: 400 }
-      )
+    if (!type || !['personal_opinion', 'news'].includes(type)) {
+      return NextResponse.json({ error: 'Valid type is required' }, { status: 400 })
     }
 
-    // Validate external_link format if provided
+    if (type === 'news' && !externalLink) {
+      return NextResponse.json({ error: 'Source link is required for news posts' }, { status: 400 })
+    }
+
     if (externalLink && !externalLink.match(/^https?:\/\/.+/)) {
-      return NextResponse.json(
-        { error: 'External link must be a valid URL starting with http:// or https://' },
-        { status: 400 }
-      )
+      return NextResponse.json({ error: 'External link must be a valid URL starting with http:// or https://' }, { status: 400 })
     }
+
+    // Extract image URL from preview if available
+    const imageUrls = preview?.image ? [preview.image] : null
 
     const { data, error } = await supabase
       .from('posts')
-      .insert([
-        {
-          content,
-          type,
-          author,
-          external_link: externalLink,
-          created_at: new Date().toISOString()
-        }
-      ])
+      .insert([{
+        content,
+        type,
+        author,
+        external_link: externalLink,
+        image_urls: imageUrls
+      }])
       .select()
+      .single()
 
     if (error) throw error
 
-    return NextResponse.json(data[0])
+    return NextResponse.json(data)
   } catch (error) {
     console.error('Error creating post:', error)
-    return NextResponse.json(
-      { error: 'Internal Server Error' },
-      { status: 500 }
-    )
+    return NextResponse.json({ error: 'Failed to create post' }, { status: 500 })
   }
 }
 
 export async function DELETE (req) {
   try {
-    const supabase = createRouteHandlerClient({ cookies })
     const { searchParams } = new URL(req.url)
     const id = searchParams.get('id')
 
