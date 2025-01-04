@@ -1,6 +1,7 @@
 'use client'
 import Thread from './index'
 import GlobalHeader from '../header'
+import CreatePost from './CreatePost'
 import { useGlobalThreadListStore, useMeetingsStore, useThreadStore } from '@/stores'
 import { useEffect } from 'react'
 import { useSearchParams } from 'next/navigation'
@@ -75,26 +76,25 @@ export default function Threads () {
           <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
         </div>
 
-        <div className="container mx-auto sm:px-4 px-0 py-8">
-          <div className='flex flex-col items-center text-center text-gray-600 p-4 pt-20'>
-            <div className='font-handwriting text-3xl md:text-6xl font-bold text-green-950 mb-4'>
-              A Thread for <span>Dublin, CA</span>
+        <div className="container mx-auto px-4 py-6">
+          <div className='flex flex-col items-center text-center text-gray-600 pt-12 sm:pt-16'>
+            <div className='font-playfair text-2xl sm:text-3xl md:text-6xl font-bold text-green-950 mb-4 sm:mb-6 px-2'>
+              A Thread for <span className="text-green-700">Dublin, CA</span>
             </div>
-            <div>
-              Sourced from <a className='italic' href='https://dublin-development.icitywork.com' target='_blank' rel='noreferrer'>Dublin Devlopment Projects Site</a>
-              <br/>
-              Built by the community in Dublin
-            </div>
-            <div className='py-2'>
+            <div className='py-1 sm:py-2 mb-4 sm:mb-6'>
               {['DublinCA', 'California', 'TriValley'].map(i => {
-                return <span key={i} className='py-1 px-2 bg-green-300 m-1 rounded-full text-sm font-bold text-green-900 bg-opacity-40'>#{i}</span>
+                return <span key={i} className='py-0.5 sm:py-1 px-2 bg-green-300 m-0.5 sm:m-1 rounded-full text-xs sm:text-sm font-bold text-green-900 bg-opacity-40'>#{i}</span>
               })}
-            </div>
-            <div className='text-sm'>
-              Updated every 15 minutes
             </div>
           </div>
           <div className='w-full md:max-w-[800px] m-auto'>
+            <div className="flex items-center justify-center gap-1.5 bg-white/50 backdrop-blur-sm px-3 sm:px-4 py-2 sm:py-2.5 rounded-lg shadow-sm border border-green-100 mb-4 sm:mb-6 mx-2 sm:mx-0">
+              <span className="bg-green-600 text-white text-[10px] sm:text-[11px] font-bold px-1.5 py-0.5 rounded-full tracking-wide">NEW</span>
+              <p className="text-green-800 text-xs sm:text-sm font-medium">
+                You can now share your thoughts about Dublin! ✨ 🍀
+              </p>
+            </div>
+            <CreatePost />
             <Thread thread={list} global={true} />
           </div>
         </div>

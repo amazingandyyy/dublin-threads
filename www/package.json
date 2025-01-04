@@ -7,11 +7,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint --fix ."
+    "lint": "eslint --fix .",
+    "db:link": "npx supabase link --project-ref vobxsrvnsycboqvdapyq",
+    "db:push": "npx supabase db push"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
     "@hotjar/browser": "^1.0.9",
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/supabase-js": "^2.47.10",
     "@types/mapbox-gl": "^2.7.12",
     "add-to-calendar-button-react": "^2.3.1",
     "autoprefixer": "10.4.14",
