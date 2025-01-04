@@ -13,6 +13,7 @@ export default function CreatePost ({ onPostCreated }) {
   const [preview, setPreview] = useState(null)
   const [isLoadingPreview, setIsLoadingPreview] = useState(false)
   const [duplicatePost, setDuplicatePost] = useState(null)
+  const [manualImageUrl, setManualImageUrl] = useState('')
 
   // Clean URL by removing query strings
   const cleanUrl = (url) => {
@@ -116,7 +117,7 @@ export default function CreatePost ({ onPostCreated }) {
 
     try {
       const cleanedUrl = cleanUrl(externalLink)
-      const imageUrls = preview?.image ? [preview.image] : []
+      const imageUrls = preview?.image ? [preview.image] : manualImageUrl ? [manualImageUrl] : []
       const response = await fetch('/api/posts', {
         method: 'POST',
         headers: {
@@ -147,6 +148,7 @@ export default function CreatePost ({ onPostCreated }) {
       setExternalLink('')
       setPreview(null)
       setDuplicatePost(null)
+      setManualImageUrl('')
     } catch (err) {
       setError(err.message)
     } finally {
@@ -280,12 +282,20 @@ export default function CreatePost ({ onPostCreated }) {
 
         {preview && !isLoadingPreview && !duplicatePost && (
           <div className="mt-3 rounded-lg border border-gray-200 overflow-hidden bg-white/50 backdrop-blur-sm">
-            {preview.image && (
+            {(preview.image || manualImageUrl) && (
               <div className="aspect-video w-full bg-gray-100 relative overflow-hidden">
                 <img
-                  src={preview.image}
+                  src={preview.image || manualImageUrl}
                   alt={preview.title || 'Article preview'}
                   className="absolute inset-0 w-full h-full object-cover"
+                  onError={(e) => {
+                    e.target.onerror = null;
+                    e.target.src = '';
+                    if (manualImageUrl) {
+                      setError('Invalid image URL. Please check the URL and try again.');
+                      setManualImageUrl('');
+                    }
+                  }}
                 />
               </div>
             )}
@@ -307,6 +317,27 @@ export default function CreatePost ({ onPostCreated }) {
                   }
                 })()}
               </div>
+            </div>
+          </div>
+        )}
+
+        {/* Manual Image URL Input - Show when preview exists but has no image */}
+        {preview && !preview.image && !isLoadingPreview && !duplicatePost && (
+          <div className="mt-3">
+            <div className="flex items-center gap-2 text-xs text-gray-500 mb-2 ml-1">
+              <LinkIcon className="w-3.5 h-3.5" />
+              Add Image URL (optional)
+            </div>
+            <div className="relative group">
+              <input
+                type="url"
+                value={manualImageUrl}
+                onChange={(e) => setManualImageUrl(e.target.value)}
+                className="w-full px-4 py-3 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-[3px] focus:ring-blue-500/10 focus:border-blue-500/50 transition-all duration-300 bg-white/50 backdrop-blur-sm shadow-sm"
+                placeholder="https://... (image URL)"
+                pattern="https?://.*"
+              />
+              <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-blue-500/3 to-blue-600/3 opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-500" />
             </div>
           </div>
         )}
