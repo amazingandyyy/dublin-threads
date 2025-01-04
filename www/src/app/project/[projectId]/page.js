@@ -213,7 +213,7 @@ const DisqusComments = ({ id, title, url }) => {
   return <div id="disqus_thread" className="min-h-[300px] px-4" />
 }
 
-const NavItem = ({ label, active, onClick, icon: Icon }) => (
+const NavItem = ({ label, active, onClick, icon: Icon, count, isNew }) => (
   <button
     onClick={onClick}
     className={`
@@ -232,8 +232,28 @@ const NavItem = ({ label, active, onClick, icon: Icon }) => (
         : 'w-0 group-hover:w-full bg-gray-200'
       }
     `}/>
-    <span className="relative">
+    <span className="relative flex items-center gap-1.5">
       {label}
+      {isNew && (
+        <span className="relative inline-flex">
+          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-20"></span>
+          <span className="relative inline-flex items-center gap-1 px-1.5 py-0.5 text-[10px] font-bold bg-gradient-to-r from-red-500 to-rose-500 text-white rounded-full leading-none">
+            NEW
+            <span className="inline-flex w-1 h-1 rounded-full bg-white/90 animate-pulse"></span>
+          </span>
+        </span>
+      )}
+      {count !== undefined && (
+        <span className={`
+          px-1.5 py-0.5 text-xs rounded-full 
+          ${active 
+            ? 'bg-emerald-100 text-emerald-700' 
+            : 'bg-gray-100 text-gray-600'
+          }
+        `}>
+          {count}
+        </span>
+      )}
     </span>
   </button>
 )
@@ -244,6 +264,13 @@ const NewsCard = ({ article }) => {
   // Simplified image validation - accept all images but handle errors gracefully
   const hasValidImage = article.urlToImage && !imageError
 
+  // Format the date nicely
+  const formattedDate = new Date(article.publishedAt).toLocaleDateString(undefined, {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric'
+  })
+
   return (
     <a
       href={article.url}
@@ -252,7 +279,8 @@ const NewsCard = ({ article }) => {
       className="group block bg-white rounded-xl border border-gray-200/80 overflow-hidden hover:shadow-lg transition-all duration-300 h-full"
     >
       <div className="aspect-video relative overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100">
-        {hasValidImage ? (
+        {hasValidImage
+          ? (
           <div className="relative w-full h-full">
             <Image
               src={article.urlToImage}
@@ -264,11 +292,13 @@ const NewsCard = ({ article }) => {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0" />
           </div>
-        ) : (
+            )
+          : (
           <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100">
             <Newspaper className="w-8 h-8 text-gray-400" />
           </div>
-        )}
+            )}
+        {/* Source Label */}
         <div className="absolute top-2 right-2 z-10">
           <div className="px-2 py-1 text-[10px] font-medium bg-white/90 backdrop-blur-sm rounded-full text-gray-600 shadow-sm">
             {article.source?.name || 'News Source'}
@@ -276,21 +306,23 @@ const NewsCard = ({ article }) => {
         </div>
       </div>
       <div className="p-4">
+        {/* Date and Source Label */}
+        <div className="flex items-center gap-2 mb-3">
+          <div className="px-2 py-1 text-xs font-medium bg-emerald-50 text-emerald-600 rounded-md">
+            {article.source?.name}
+          </div>
+          <div className="text-xs text-gray-500 flex items-center gap-1.5">
+            <Calendar className="w-3.5 h-3.5" />
+            {formattedDate}
+          </div>
+        </div>
         <h3 className="font-semibold text-gray-900 group-hover:text-emerald-600 transition-colors line-clamp-2 mb-2">
           {article.title}
         </h3>
         <p className="text-sm text-gray-600 line-clamp-2 mb-4 min-h-[2.5rem]">
           {article.description || 'No description available'}
         </p>
-        <div className="flex items-center justify-between text-xs">
-          <div className="flex items-center gap-2 text-gray-500">
-            <Calendar className="w-3.5 h-3.5" />
-            {new Date(article.publishedAt).toLocaleDateString(undefined, {
-              year: 'numeric',
-              month: 'short',
-              day: 'numeric'
-            })}
-          </div>
+        <div className="flex items-center justify-end text-xs">
           <div className="flex items-center gap-1 text-emerald-600 font-medium group-hover:text-emerald-700 transition-colors">
             Read more
             <ArrowUpRight className="w-3 h-3 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
@@ -564,7 +596,7 @@ export default function Project ({ params }) {
                     <span>Latest Update</span>
                   </div>
                   <div className="text-2xl font-bold text-gray-900">
-                    {threads[0] ? timeSince(threads[0].timestamp) : 'N/A'}
+                    {threads[0] ? timeSince(threads[0].timestamp) : "N/A"}
                   </div>
                   <div className="text-sm text-gray-500">ago</div>
                 </div>
@@ -613,66 +645,75 @@ export default function Project ({ params }) {
                     <div className="flex items-center">
                       <NavItem
                         label="Overview"
-                        active={activeSection === 'overview'}
-                        onClick={() => scrollToSection(overviewRef, 'overview')}
+                        active={activeSection === "overview"}
+                        onClick={() => scrollToSection(overviewRef, "overview")}
                       />
                       <NavItem
                         label="Location"
-                        active={activeSection === 'location'}
-                        onClick={() => scrollToSection(locationRef, 'location')}
+                        active={activeSection === "location"}
+                        onClick={() => scrollToSection(locationRef, "location")}
                       />
                       {images.length > 0 && (
                         <NavItem
                           label="Images"
-                          active={activeSection === 'images'}
-                          onClick={() => scrollToSection(imagesRef, 'images')}
+                          active={activeSection === "images"}
+                          onClick={() => scrollToSection(imagesRef, "images")}
+                          count={images.length}
                         />
                       )}
                       <NavItem
+                        label="News"
+                        active={activeSection === "news"}
+                        onClick={() => scrollToSection(newsRef, "news")}
+                        count={newsArticles.length}
+                        isNew={true}
+                      />
+                      <NavItem
                         label="Planner"
-                        active={activeSection === 'planner'}
-                        onClick={() => scrollToSection(plannerRef, 'planner')}
+                        active={activeSection === "planner"}
+                        onClick={() => scrollToSection(plannerRef, "planner")}
                       />
                       <NavItem
                         label="Applicant"
-                        active={activeSection === 'applicant'}
-                        onClick={() => scrollToSection(applicantRef, 'applicant')}
+                        active={activeSection === "applicant"}
+                        onClick={() =>
+                          scrollToSection(applicantRef, "applicant")
+                        }
                       />
                       {docs.length > 0 && (
                         <NavItem
                           label="Documents"
-                          active={activeSection === 'documents'}
-                          onClick={() => scrollToSection(documentsRef, 'documents')}
+                          active={activeSection === "documents"}
+                          onClick={() =>
+                            scrollToSection(documentsRef, "documents")
+                          }
+                          count={docs.length}
                         />
                       )}
                       <NavItem
                         label="Discussions"
-                        active={activeSection === 'discussions'}
-                        onClick={() => scrollToSection(discussionsRef, 'discussions')}
+                        active={activeSection === "discussions"}
+                        onClick={() =>
+                          scrollToSection(discussionsRef, "discussions")
+                        }
                       />
                       <NavItem
                         label="Timeline"
-                        active={activeSection === 'timeline'}
-                        onClick={() => scrollToSection(timelineRef, 'timeline')}
-                      />
-                      <NavItem
-                        label="News"
-                        active={activeSection === 'news'}
-                        onClick={() => scrollToSection(newsRef, 'news')}
+                        active={activeSection === "timeline"}
+                        onClick={() => scrollToSection(timelineRef, "timeline")}
+                        count={threads.length}
                       />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="h-px bg-gradient-to-r from-emerald-500/5 via-emerald-500/10 to-emerald-500/5"/>
+            <div className="h-px bg-gradient-to-r from-emerald-500/5 via-emerald-500/10 to-emerald-500/5" />
           </div>
 
           {/* Content */}
           <div className="transition-all duration-300 space-y-4 sm:space-y-8">
-            <div ref={overviewRef}>
-              {renderOverviewTab()}
-            </div>
+            <div ref={overviewRef}>{renderOverviewTab()}</div>
             <div ref={locationRef}>
               {/* Location Card */}
               <Card>
@@ -681,74 +722,89 @@ export default function Project ({ params }) {
                   <div className="flex-1 space-y-4 sm:space-y-6">
                     <div>
                       <p className="text-gray-600 mb-4">{location}</p>
-                      {geolocation?.lat && geolocation?.lon 
-                        ? (
-                          <>
-                            <div className="grid grid-cols-2 gap-4 pb-2">
-                              <div className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors group">
-                                <p className="text-sm text-gray-500 group-hover:text-gray-600">Latitude</p>
-                                <p className="font-medium text-gray-900 group-hover:text-emerald-600">{geolocation.lat.toFixed(6)}°</p>
-                              </div>
-                              <div className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors group">
-                                <p className="text-sm text-gray-500 group-hover:text-gray-600">Longitude</p>
-                                <p className="font-medium text-gray-900 group-hover:text-emerald-600">{geolocation.lon.toFixed(6)}°</p>
-                              </div>
+                      {geolocation?.lat && geolocation?.lon ? (
+                        <>
+                          <div className="grid grid-cols-2 gap-4 pb-2">
+                            <div className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors group">
+                              <p className="text-sm text-gray-500 group-hover:text-gray-600">
+                                Latitude
+                              </p>
+                              <p className="font-medium text-gray-900 group-hover:text-emerald-600">
+                                {geolocation.lat.toFixed(6)}°
+                              </p>
                             </div>
-                            <LinkButton
-                              href={`https://www.google.com/maps/place/${geolocation.lat},${geolocation.lon}`}
-                              icon={ExternalLink}
-                              color="emerald"
-                            >
-                              View on Google Maps
-                            </LinkButton>
-                          </>
-                          )
-                        : (
+                            <div className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors group">
+                              <p className="text-sm text-gray-500 group-hover:text-gray-600">
+                                Longitude
+                              </p>
+                              <p className="font-medium text-gray-900 group-hover:text-emerald-600">
+                                {geolocation.lon.toFixed(6)}°
+                              </p>
+                            </div>
+                          </div>
                           <LinkButton
-                            href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${location} Dublin, CA`)}`}
+                            href={`https://www.google.com/maps/place/${geolocation.lat},${geolocation.lon}`}
                             icon={ExternalLink}
                             color="emerald"
                           >
                             View on Google Maps
                           </LinkButton>
-                          )}
+                        </>
+                      ) : (
+                        <LinkButton
+                          href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+                            `${location} Dublin, CA`
+                          )}`}
+                          icon={ExternalLink}
+                          color="emerald"
+                        >
+                          View on Google Maps
+                        </LinkButton>
+                      )}
                     </div>
                   </div>
                   <div className="flex-1">
-                    {geolocation?.lat && geolocation?.lon
-                      ? (
-                        <div className="h-[300px] rounded-lg overflow-hidden shadow-md">
-                          <Map
-                            mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_TOKEN}
-                            initialViewState={{
-                              longitude: geolocation.lon,
-                              latitude: geolocation.lat,
-                              zoom: 14
-                            }}
-                            style={{ height: '100%' }}
-                            mapStyle="mapbox://styles/amazingandyyy/clkj4hghc005b01r14qvccv1h"
+                    {geolocation?.lat && geolocation?.lon ? (
+                      <div className="h-[300px] rounded-lg overflow-hidden shadow-md">
+                        <Map
+                          mapboxAccessToken={
+                            process.env.NEXT_PUBLIC_MAPBOX_TOKEN
+                          }
+                          initialViewState={{
+                            longitude: geolocation.lon,
+                            latitude: geolocation.lat,
+                            zoom: 14,
+                          }}
+                          style={{ height: "100%" }}
+                          mapStyle="mapbox://styles/amazingandyyy/clkj4hghc005b01r14qvccv1h"
+                        >
+                          <Marker
+                            longitude={geolocation.lon}
+                            latitude={geolocation.lat}
                           >
-                            <Marker longitude={geolocation.lon} latitude={geolocation.lat}>
-                              <div className="flex flex-col items-center transform hover:scale-110 transition-transform">
-                                <div className="flex items-center text-center leading-5 bg-gradient-to-r from-emerald-500 to-emerald-600 shadow-lg text-lg py-1.5 px-4 rounded-full font-semibold text-white">
-                                  <MapPin className="h-4 w-4 mr-1" />
-                                  <div>{location}</div>
-                                </div>
-                                <div className="bg-gradient-to-r from-emerald-500 to-emerald-600 w-1 h-4"></div>
+                            <div className="flex flex-col items-center transform hover:scale-110 transition-transform">
+                              <div className="flex items-center text-center leading-5 bg-gradient-to-r from-emerald-500 to-emerald-600 shadow-lg text-lg py-1.5 px-4 rounded-full font-semibold text-white">
+                                <MapPin className="h-4 w-4 mr-1" />
+                                <div>{location}</div>
                               </div>
-                            </Marker>
-                          </Map>
+                              <div className="bg-gradient-to-r from-emerald-500 to-emerald-600 w-1 h-4"></div>
+                            </div>
+                          </Marker>
+                        </Map>
+                      </div>
+                    ) : (
+                      <div className="h-[300px] rounded-lg overflow-hidden shadow-md bg-gray-50 flex items-center justify-center">
+                        <div className="text-center">
+                          <MapPin className="w-8 h-8 text-gray-400 mx-auto mb-2" />
+                          <p className="text-gray-500">
+                            Map view not available
+                          </p>
+                          <p className="text-sm text-gray-400">
+                            Coordinates not provided for this location
+                          </p>
                         </div>
-                        )
-                      : (
-                        <div className="h-[300px] rounded-lg overflow-hidden shadow-md bg-gray-50 flex items-center justify-center">
-                          <div className="text-center">
-                            <MapPin className="w-8 h-8 text-gray-400 mx-auto mb-2" />
-                            <p className="text-gray-500">Map view not available</p>
-                            <p className="text-sm text-gray-400">Coordinates not provided for this location</p>
-                          </div>
-                        </div>
-                        )}
+                      </div>
+                    )}
                   </div>
                 </div>
               </Card>
@@ -770,7 +826,9 @@ export default function Project ({ params }) {
                           />
                           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0 opacity-0 group-hover:opacity-100 transition-opacity">
                             <div className="absolute bottom-0 left-0 right-0 p-4">
-                              <p className="text-white text-sm font-medium">View {index + 1} of {images.length}</p>
+                              <p className="text-white text-sm font-medium">
+                                View {index + 1} of {images.length}
+                              </p>
                             </div>
                           </div>
                         </div>
@@ -788,9 +846,51 @@ export default function Project ({ params }) {
                 </Card>
               </div>
             )}
-            <div ref={plannerRef}>
-              {renderContactTab()}
+            <div ref={newsRef}>
+              <Card>
+                <CardHeader
+                  icon={Newspaper}
+                  title="Related News"
+                  color="blue"
+                />
+                <div className="pb-4 sm:pb-8">
+                  <div className="mb-4 sm:mb-6">
+                    <p className="text-gray-600">
+                      Stay informed about news and updates related to this
+                      development project and the surrounding area.
+                    </p>
+                  </div>
+                  {loadingNews ? (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+                      {[...Array(6)].map((_, i) => (
+                        <NewsLoadingSkeleton key={i} />
+                      ))}
+                    </div>
+                  ) : newsArticles.length > 0 ? (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+                      {newsArticles.map((article, index) => (
+                        <NewsCard
+                          key={`${article.url}-${index}`}
+                          article={article}
+                        />
+                      ))}
+                    </div>
+                  ) : (
+                    <div className="text-center py-12 bg-gray-50 rounded-xl border border-gray-200/80">
+                      <Newspaper className="w-12 h-12 text-gray-400 mx-auto mb-4" />
+                      <p className="text-gray-600 font-medium">
+                        No related news articles found
+                      </p>
+                      <p className="text-sm text-gray-500 mt-1">
+                        We couldn't find any recent news articles related to
+                        this project.
+                      </p>
+                    </div>
+                  )}
+                </div>
+              </Card>
             </div>
+            <div ref={plannerRef}>{renderContactTab()}</div>
             <div ref={discussionsRef}>
               <Card>
                 <CardHeader
@@ -801,8 +901,8 @@ export default function Project ({ params }) {
                   <div className="mb-4 sm:mb-6">
                     <p className="text-gray-600">
                       Join the conversation about this development project.
-                      Share your thoughts, ask questions, and connect with
-                      other community members.
+                      Share your thoughts, ask questions, and connect with other
+                      community members.
                     </p>
                   </div>
                   <div className="bg-gray-50 rounded-none sm:rounded-xl p-4 sm:p-6 border border-gray-200/80">
@@ -815,51 +915,12 @@ export default function Project ({ params }) {
                 </div>
               </Card>
             </div>
-            <div ref={timelineRef}>
-              {renderTimeline()}
-            </div>
-            <div ref={newsRef}>
-              <Card>
-                <CardHeader icon={Newspaper} title="Related News" color="blue" />
-                <div className="pb-4 sm:pb-8">
-                  <div className="mb-4 sm:mb-6">
-                    <p className="text-gray-600">
-                      Stay informed about news and updates related to this development project and the surrounding area.
-                    </p>
-                  </div>
-                  {loadingNews
-                    ? (
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-                      {[...Array(6)].map((_, i) => (
-                        <NewsLoadingSkeleton key={i} />
-                      ))}
-                    </div>
-                      )
-                    : newsArticles.length > 0
-                      ? (
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-                      {newsArticles.map((article, index) => (
-                        <NewsCard key={`${article.url}-${index}`} article={article} />
-                      ))}
-                    </div>
-                        )
-                      : (
-                    <div className="text-center py-12 bg-gray-50 rounded-xl border border-gray-200/80">
-                      <Newspaper className="w-12 h-12 text-gray-400 mx-auto mb-4" />
-                      <p className="text-gray-600 font-medium">No related news articles found</p>
-                      <p className="text-sm text-gray-500 mt-1">
-                        We couldn't find any recent news articles related to this project.
-                      </p>
-                    </div>
-                        )}
-                </div>
-              </Card>
-            </div>
+            <div ref={timelineRef}>{renderTimeline()}</div>
           </div>
         </main>
       </div>
     </div>
-  )
+  );
 
   const renderOverviewTab = () => (
     <div className="space-y-8 animate-fadeIn">

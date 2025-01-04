@@ -21,23 +21,8 @@ export async function GET (request) {
       `num=${pageSize}&` +
       'dateRestrict=m12' // Extend to last 12 months
 
-    console.log('🔍 Search URL:', searchUrl)
-
     const response = await fetch(searchUrl)
     const data = await response.json()
-
-    // Enhanced debugging
-    console.log('📰 Google Search Response:', {
-      query,
-      url: searchUrl,
-      status: response.status,
-      statusText: response.statusText,
-      totalResults: data.searchInformation?.totalResults,
-      items: data.items?.length,
-      error: data.error,
-      context: data.context,
-      searchInformation: data.searchInformation
-    })
 
     if (!response.ok) {
       throw new Error(data.error?.message || 'Failed to fetch news')
