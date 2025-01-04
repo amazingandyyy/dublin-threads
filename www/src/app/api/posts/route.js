@@ -25,7 +25,9 @@ export async function GET () {
 
 export async function POST (req) {
   try {
-    const { content, type, author = 'community member', externalLink = null, preview = null } = await req.json()
+    const { content, type, author = 'community member', externalLink = null, preview = null, imageUrls = [] } = await req.json()
+
+    console.log('Received request data:', { content, type, author, externalLink, preview, imageUrls })
 
     if (!content) {
       return NextResponse.json({ error: 'Content is required' }, { status: 400 })
@@ -39,23 +41,31 @@ export async function POST (req) {
       return NextResponse.json({ error: 'External link must be a valid URL starting with http:// or https://' }, { status: 400 })
     }
 
+    // Prepare data for database insert using snake_case
+    const postData = {
+      content,
+      type, // Keep original type (news/opinion)
+      author,
+      external_link: externalLink,
+      preview,
+      image_urls: Array.isArray(imageUrls) ? imageUrls : imageUrls ? [imageUrls] : [],
+      active: true
+    }
+
+    console.log('Creating post with data:', JSON.stringify(postData, null, 2))
+
     const { data, error } = await supabase
       .from('posts')
-      .insert([
-        {
-          content,
-          type,
-          author,
-          external_link: externalLink,
-          preview,
-          active: true
-        }
-      ])
+      .insert([postData])
       .select()
       .single()
 
-    if (error) throw error
+    if (error) {
+      console.error('Supabase error:', error)
+      throw error
+    }
 
+    console.log('Created post:', JSON.stringify(data, null, 2))
     return NextResponse.json(data)
   } catch (error) {
     console.error('Error creating post:', error)

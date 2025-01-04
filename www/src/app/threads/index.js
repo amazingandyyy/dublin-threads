@@ -8,7 +8,9 @@ import {
   ArrowPathIcon,
   InformationCircleIcon,
   PencilSquareIcon,
-  ArrowTopRightOnSquareIcon
+  NewspaperIcon,
+  ArrowTopRightOnSquareIcon,
+  ChatBubbleLeftIcon
 } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import CommunityPost from './CommunityPost'
@@ -587,29 +589,44 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
       activeClass: 'bg-gray-900 text-white ring-1 ring-gray-900',
       defaultClass: 'bg-white text-gray-600 hover:text-gray-900 ring-1 ring-gray-200 hover:ring-gray-300'
     },
+    news: {
+      label: 'News',
+      icon: NewspaperIcon,
+      activeClass: 'bg-blue-600 text-white ring-1 ring-blue-600',
+      defaultClass: 'bg-white text-gray-600 hover:text-blue-600 ring-1 ring-gray-200 hover:ring-blue-200'
+    },
+    opinion: {
+      label: 'Opinion',
+      icon: ChatBubbleLeftIcon,
+      activeClass: 'bg-green-600 text-white ring-1 ring-green-600',
+      defaultClass: 'bg-white text-gray-600 hover:text-green-600 ring-1 ring-gray-200 hover:ring-green-200'
+    },
     image: {
-      label: 'Images',
+      label: 'Development Images',
       icon: PhotoIcon,
       activeClass: 'bg-blue-600 text-white ring-1 ring-blue-600',
       defaultClass: 'bg-white text-gray-600 hover:text-blue-600 ring-1 ring-gray-200 hover:ring-blue-200'
     },
     document: {
-      label: 'Documents',
+      label: 'Development Documents',
       icon: DocumentIcon,
       activeClass: 'bg-amber-600 text-white ring-1 ring-amber-600',
-      defaultClass: 'bg-white text-gray-600 hover:text-amber-600 ring-1 ring-gray-200 hover:ring-amber-200'
+      defaultClass:
+        'bg-white text-gray-600 hover:text-amber-600 ring-1 ring-gray-200 hover:ring-amber-200'
     },
     status: {
-      label: 'Status',
+      label: 'Development Status',
       icon: ArrowPathIcon,
       activeClass: 'bg-rose-600 text-white ring-1 ring-rose-600',
-      defaultClass: 'bg-white text-gray-600 hover:text-rose-600 ring-1 ring-gray-200 hover:ring-rose-200'
+      defaultClass:
+        'bg-white text-gray-600 hover:text-rose-600 ring-1 ring-gray-200 hover:ring-rose-200'
     },
     detail: {
-      label: 'Details',
+      label: 'Development Details',
       icon: InformationCircleIcon,
       activeClass: 'bg-emerald-600 text-white ring-1 ring-emerald-600',
-      defaultClass: 'bg-white text-gray-600 hover:text-emerald-600 ring-1 ring-gray-200 hover:ring-emerald-200'
+      defaultClass:
+        'bg-white text-gray-600 hover:text-emerald-600 ring-1 ring-gray-200 hover:ring-emerald-200'
     }
   }
 

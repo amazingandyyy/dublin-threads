@@ -116,6 +116,7 @@ export default function CreatePost ({ onPostCreated }) {
 
     try {
       const cleanedUrl = cleanUrl(externalLink)
+      const imageUrls = preview?.image ? [preview.image] : []
       const response = await fetch('/api/posts', {
         method: 'POST',
         headers: {
@@ -126,7 +127,8 @@ export default function CreatePost ({ onPostCreated }) {
           type,
           author,
           externalLink: cleanedUrl || null,
-          preview: preview || null
+          preview: preview || null,
+          imageUrls
         })
       })
 
