@@ -289,11 +289,11 @@ export default function CreatePost ({ onPostCreated }) {
                   alt={preview.title || 'Article preview'}
                   className="absolute inset-0 w-full h-full object-cover"
                   onError={(e) => {
-                    e.target.onerror = null;
-                    e.target.src = '';
+                    e.target.onerror = null
+                    e.target.src = ''
                     if (manualImageUrl) {
-                      setError('Invalid image URL. Please check the URL and try again.');
-                      setManualImageUrl('');
+                      setError('Invalid image URL. Please check the URL and try again.')
+                      setManualImageUrl('')
                     }
                   }}
                 />
