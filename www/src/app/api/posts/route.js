@@ -76,12 +76,18 @@ export async function DELETE (req) {
   try {
     const { searchParams } = new URL(req.url)
     const id = searchParams.get('id')
-    const body = await req.json()
-    const { password } = body
-
+    const password = searchParams.get('password')
+    
     if (!id) {
       return NextResponse.json(
         { error: 'Post ID is required' },
+        { status: 400 }
+      )
+    }
+
+    if (!password) {
+      return NextResponse.json(
+        { error: 'Password is required' },
         { status: 400 }
       )
     }
@@ -94,19 +100,31 @@ export async function DELETE (req) {
       )
     }
 
+    // Convert id to number for Supabase
+    const numericId = parseInt(id, 10)
+    if (isNaN(numericId)) {
+      return NextResponse.json(
+        { error: 'Invalid post ID format' },
+        { status: 400 }
+      )
+    }
+
     // Instead of deleting, we'll set active to false
     const { error } = await supabase
       .from('posts')
       .update({ active: false })
-      .eq('id', id)
+      .eq('id', numericId)
 
-    if (error) throw error
+    if (error) {
+      console.error('Supabase error:', error)
+      throw error
+    }
 
     return NextResponse.json({ success: true })
   } catch (error) {
     console.error('Error deactivating post:', error)
     return NextResponse.json(
-      { error: 'Internal Server Error' },
+      { error: error.message || 'Internal Server Error' },
       { status: 500 }
     )
   }

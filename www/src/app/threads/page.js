@@ -68,9 +68,10 @@ export default function Threads () {
       const formattedPosts = posts.map(post => {
         // Handle image_urls as an array
         const imageUrls = Array.isArray(post.image_urls) ? post.image_urls : []
+        const postId = Number(post.id)
 
         return {
-          id: post.id,
+          id: postId,
           timestamp: new Date(post.created_at).getTime(),
           type: 'post',
           content: post.content,
@@ -86,15 +87,21 @@ export default function Threads () {
       const groupedPosts = formattedPosts.reduce((acc, post) => {
         if (post.postType === 'news' || !post.externalLink) {
           // If it's a news post or a standalone opinion, add it directly
+          const comments = formattedPosts
+            .filter(p => 
+              p.postType === 'personal_opinion' && 
+              p.externalLink === post.externalLink &&
+              p.id !== post.id
+            )
+            .sort((a, b) => b.timestamp - a.timestamp) // Sort comments by timestamp, newer first
+            .map(comment => ({
+              ...comment,
+              id: Number(comment.id) // Ensure comment IDs are numbers
+            }))
+
           acc.push({
             ...post,
-            comments: formattedPosts
-              .filter(p => 
-                p.postType === 'personal_opinion' && 
-                p.externalLink === post.externalLink &&
-                p.id !== post.id
-              )
-              .sort((a, b) => b.timestamp - a.timestamp) // Sort comments by timestamp, newer first
+            comments
           })
         } else if (post.postType === 'personal_opinion') {
           // Only add opinions that don't have a corresponding news post
@@ -180,9 +187,9 @@ export default function Threads () {
           <div className='w-full md:max-w-[800px] m-auto mt-8'>
             <div className="bg-white rounded-lg shadow-sm mb-6">
               <div className="flex items-center justify-center gap-2 bg-gradient-to-r from-green-50 to-blue-50 px-4 py-3 rounded-t-lg border-b border-green-100">
-                <span className="bg-green-600 text-white text-[11px] font-bold px-2 py-0.5 rounded-full tracking-wide animate-pulse">NEW</span>
+                <span className="bg-green-600 text-white text-[8px] font-bold px-2 py-0.5 rounded-full tracking-wide animate-pulse">ALPHA</span>
                 <p className="text-green-800 text-sm font-medium">
-                  You can now share your thoughts publicly/anonymously! ✨ 🍀
+                  You can now share links anonymously! 🍀
                 </p>
               </div>
               <div className="p-4">

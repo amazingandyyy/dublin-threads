@@ -796,7 +796,7 @@ export default function Thread ({ thread = [], global = false, onCommentAdded })
                         return () => observer.disconnect()
                       }
                     }}
-                    className="sticky sm:top-[4rem] top-[3rem] z-20"
+                    className="sticky sm:top-[4rem] top-[3.5rem] z-20"
                   >
                     <div className="relative">
                       <div className="absolute inset-x-0 h-full bg-white/90 backdrop-blur-2xl"></div>

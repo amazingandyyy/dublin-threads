@@ -5,6 +5,17 @@ import { useState } from 'react'
 
 export default function CommunityPost ({ data, onCommentAdded }) {
   const { id, content, postType, author, externalLink, createdAt, imageUrls, preview, comments = [] } = data
+  
+  // Ensure ID is a number
+  const postId = Number(id)
+  
+  // Debug log to see the full data structure
+  console.log('CommunityPost data:', {
+    id: postId,
+    type: typeof postId,
+    commentsCount: comments.length
+  })
+
   const [localComments, setLocalComments] = useState(comments)
   const [isCommenting, setIsCommenting] = useState(false)
   const [commentText, setCommentText] = useState('')
@@ -16,24 +27,33 @@ export default function CommunityPost ({ data, onCommentAdded }) {
     if (!password) return
 
     try {
-      const response = await fetch(`/api/posts?id=${commentId || id}`, {
+      // Ensure we're using numeric IDs
+      const targetId = commentId ? Number(commentId) : postId
+      
+      // Validate ID
+      if (isNaN(targetId)) {
+        console.error('Invalid ID:', { commentId, postId, targetId })
+        throw new Error('Invalid ID')
+      }
+
+      const response = await fetch(`/api/posts?id=${targetId}&password=${encodeURIComponent(password)}`, {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ password })
+        }
       })
 
       if (!response.ok) {
-        throw new Error('Failed to delete post')
+        const error = await response.json()
+        throw new Error(error.error || 'Failed to delete post')
       }
 
       if (commentId) {
         // Remove the comment from local state
-        setLocalComments(prev => prev.filter(comment => comment.id !== commentId))
+        setLocalComments(prev => prev.filter(comment => Number(comment.id) !== targetId))
       } else {
         // Remove the post from view
-        const postElement = document.getElementById(`post-${id}`)
+        const postElement = document.getElementById(`post-${postId}`)
         if (postElement) {
           postElement.style.opacity = '0'
           setTimeout(() => postElement.remove(), 300)
@@ -41,7 +61,7 @@ export default function CommunityPost ({ data, onCommentAdded }) {
       }
     } catch (error) {
       console.error('Error deleting post:', error)
-      alert('Failed to delete post')
+      alert(error.message || 'Failed to delete post')
     }
   }
 
@@ -112,7 +132,7 @@ export default function CommunityPost ({ data, onCommentAdded }) {
           </div>
           <div className='flex items-center gap-2'>
             <button
-              onClick={handleDelete}
+              onClick={() => handleDelete()}
               className='p-0.5 text-gray-200'
               title='Delete post (Admin only)'
             >

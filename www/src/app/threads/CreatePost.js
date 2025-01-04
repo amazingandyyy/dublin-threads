@@ -5,7 +5,7 @@ import { timeSince } from '../utils'
 
 export default function CreatePost ({ onPostCreated }) {
   const [content, setContent] = useState('')
-  const [type, setType] = useState('personal_opinion')
+  const [type, setType] = useState('news')
   const [author, setAuthor] = useState('anonymous')
   const [externalLink, setExternalLink] = useState('')
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -142,7 +142,7 @@ export default function CreatePost ({ onPostCreated }) {
 
       // Clear form after successful submission
       setContent('')
-      setType('personal_opinion')
+      setType('news')
       setAuthor('anonymous')
       setExternalLink('')
       setPreview(null)
@@ -157,7 +157,7 @@ export default function CreatePost ({ onPostCreated }) {
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
       {/* Post Type Selector */}
-      <div className="flex gap-3 p-1.5">
+      {/* <div className="flex gap-3 p-1.5">
         <button
           type="button"
           onClick={() => handleTypeSwitch('personal_opinion')}
@@ -208,7 +208,7 @@ export default function CreatePost ({ onPostCreated }) {
           />
           <span className="relative">News/Link</span>
         </button>
-      </div>
+      </div> */}
 
       {/* Content Input - Only show for personal opinion */}
       {type === 'personal_opinion' && (
@@ -228,7 +228,7 @@ export default function CreatePost ({ onPostCreated }) {
       <div>
         <div className="flex items-center gap-2 text-xs text-gray-500 mb-2 ml-1">
           <LinkIcon className="w-3.5 h-3.5" />
-          {type === 'news' ? 'URL' : 'Reference Link (optional)'}
+          {type === 'news' ? 'News URL' : 'Reference Link (optional)'}
           {type === 'news' && <span className="text-red-500">*</span>}
         </div>
         <div className="relative group">
@@ -323,7 +323,7 @@ export default function CreatePost ({ onPostCreated }) {
               type="text"
               value={author}
               onChange={(e) => setAuthor(e.target.value)}
-              className="w-full px-4 py-3 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-[3px] focus:ring-green-500/10 focus:border-green-500/50 transition-all duration-300 bg-white/50 backdrop-blur-sm shadow-sm"
+              className="w-full px-2 py-1 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-[3px] focus:ring-green-500/10 focus:border-green-500/50 transition-all duration-300 bg-white/50 backdrop-blur-sm shadow-sm"
               placeholder="Your name"
             />
             <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-green-500/3 to-blue-500/3 opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-500" />
