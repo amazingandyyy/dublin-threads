@@ -10,7 +10,6 @@ export default function CommunityPost ({ data, onCommentAdded }) {
   const [commentText, setCommentText] = useState('')
   const [authorName, setAuthorName] = useState('anonymous')
   const [isSubmitting, setIsSubmitting] = useState(false)
-  const [isDeleting, setIsDeleting] = useState(false)
 
   const handleDelete = async (commentId = null) => {
     const password = prompt('Enter admin password:')
@@ -60,7 +59,7 @@ export default function CommunityPost ({ data, onCommentAdded }) {
         body: JSON.stringify({
           content: commentText,
           type: 'personal_opinion',
-          externalLink: externalLink,
+          externalLink,
           author: authorName.trim() || 'anonymous'
         })
       })
@@ -114,7 +113,6 @@ export default function CommunityPost ({ data, onCommentAdded }) {
           <div className='flex items-center gap-2'>
             <button
               onClick={handleDelete}
-              disabled={isDeleting}
               className='p-0.5 text-gray-200'
               title='Delete post (Admin only)'
             >
@@ -175,7 +173,7 @@ export default function CommunityPost ({ data, onCommentAdded }) {
                     <p className='text-[15px] text-gray-600 mb-3 leading-relaxed'>{newsDescription}</p>
                   )}
                 </>
-              ) 
+                ) 
               : preview 
                 ? (
                   <>
@@ -198,7 +196,7 @@ export default function CommunityPost ({ data, onCommentAdded }) {
                       <p className='text-[15px] text-gray-600 mb-3 leading-relaxed'>{preview.description}</p>
                     )}
                   </>
-                ) 
+                  ) 
                 : null}
 
             {/* Source Link */}
@@ -304,7 +302,7 @@ export default function CommunityPost ({ data, onCommentAdded }) {
                 </div>
                 <div className='text-gray-800 whitespace-pre-wrap text-[15px] leading-relaxed'>{comment.content}</div>
               </div>
-            ))}
+              ))}
           </div>
         </div>
       </div>
