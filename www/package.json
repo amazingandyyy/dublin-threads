@@ -21,6 +21,7 @@
     "lodash": "^4.17.21",
     "lucide-react": "^0.469.0",
     "mapbox-gl": "^2.15.0",
+    "newsapi": "^2.4.1",
     "next": "^13.4.9",
     "next-seo": "^6.5.0",
     "postcss": "8.4.25",

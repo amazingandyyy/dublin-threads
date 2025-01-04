@@ -4,7 +4,8 @@ import GlobalHeader from '@/header'
 import { 
   MapPin, Building2, FileText, Phone, Mail, Clock,
   CalendarDays, SquareStack, Users, ChevronRight, ExternalLink,
-  Building, Scale, Car, Globe2, ImageIcon, MessageSquare
+  Building, Scale, Car, Globe2, ImageIcon, MessageSquare,
+  Newspaper, Calendar, ArrowUpRight
 } from 'lucide-react'
 import Image from 'next/image'
 import { useState, useEffect, useRef } from 'react'
@@ -237,6 +238,84 @@ const NavItem = ({ label, active, onClick, icon: Icon }) => (
   </button>
 )
 
+const NewsCard = ({ article }) => {
+  const [imageError, setImageError] = useState(false)
+  
+  // Simplified image validation - accept all images but handle errors gracefully
+  const hasValidImage = article.urlToImage && !imageError
+
+  return (
+    <a
+      href={article.url}
+      target="_blank"
+      rel="noreferrer"
+      className="group block bg-white rounded-xl border border-gray-200/80 overflow-hidden hover:shadow-lg transition-all duration-300 h-full"
+    >
+      <div className="aspect-video relative overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100">
+        {hasValidImage ? (
+          <div className="relative w-full h-full">
+            <Image
+              src={article.urlToImage}
+              alt={article.title}
+              fill
+              className="object-cover transition-transform duration-500 group-hover:scale-105"
+              onError={() => setImageError(true)}
+              unoptimized={true}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0" />
+          </div>
+        ) : (
+          <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100">
+            <Newspaper className="w-8 h-8 text-gray-400" />
+          </div>
+        )}
+        <div className="absolute top-2 right-2 z-10">
+          <div className="px-2 py-1 text-[10px] font-medium bg-white/90 backdrop-blur-sm rounded-full text-gray-600 shadow-sm">
+            {article.source?.name || 'News Source'}
+          </div>
+        </div>
+      </div>
+      <div className="p-4">
+        <h3 className="font-semibold text-gray-900 group-hover:text-emerald-600 transition-colors line-clamp-2 mb-2">
+          {article.title}
+        </h3>
+        <p className="text-sm text-gray-600 line-clamp-2 mb-4 min-h-[2.5rem]">
+          {article.description || 'No description available'}
+        </p>
+        <div className="flex items-center justify-between text-xs">
+          <div className="flex items-center gap-2 text-gray-500">
+            <Calendar className="w-3.5 h-3.5" />
+            {new Date(article.publishedAt).toLocaleDateString(undefined, {
+              year: 'numeric',
+              month: 'short',
+              day: 'numeric'
+            })}
+          </div>
+          <div className="flex items-center gap-1 text-emerald-600 font-medium group-hover:text-emerald-700 transition-colors">
+            Read more
+            <ArrowUpRight className="w-3 h-3 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+          </div>
+        </div>
+      </div>
+    </a>
+  )
+}
+
+const NewsLoadingSkeleton = () => (
+  <div className="bg-white rounded-xl border border-gray-200/80 overflow-hidden animate-pulse">
+    <div className="aspect-video bg-gray-100" />
+    <div className="p-4 space-y-3">
+      <div className="h-4 bg-gray-100 rounded w-3/4" />
+      <div className="h-4 bg-gray-100 rounded w-1/2" />
+      <div className="h-16 bg-gray-100 rounded" />
+      <div className="flex justify-between items-center">
+        <div className="h-3 bg-gray-100 rounded w-24" />
+        <div className="h-3 bg-gray-100 rounded w-20" />
+      </div>
+    </div>
+  </div>
+)
+
 export default function Project ({ params }) {
   const [project, setProject] = useState(null)
   const [loading, setLoading] = useState(true)
@@ -250,6 +329,9 @@ export default function Project ({ params }) {
   const documentsRef = useRef(null)
   const discussionsRef = useRef(null)
   const timelineRef = useRef(null)
+  const newsRef = useRef(null)
+  const [newsArticles, setNewsArticles] = useState([])
+  const [loadingNews, setLoadingNews] = useState(true)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -262,6 +344,7 @@ export default function Project ({ params }) {
         { id: 'planner', ref: plannerRef },
         { id: 'applicant', ref: applicantRef },
         { id: 'documents', ref: documentsRef },
+        { id: 'news', ref: newsRef },
         { id: 'discussions', ref: discussionsRef },
         { id: 'timeline', ref: timelineRef }
       ]
@@ -313,6 +396,42 @@ export default function Project ({ params }) {
       document.siteName = 'DublinThreads'
       document.type = 'website'
       document.locale = 'en_US'
+    }
+  }, [project])
+
+  useEffect(() => {
+    if (project) {
+      const fetchNews = async () => {
+        try {
+          setLoadingNews(true)
+          // Just use the project title for the base query, the API will add local context
+          const searchQuery = `"${project.title}"`
+          console.log('🔍 Fetching news with query:', searchQuery)
+          
+          const response = await fetch(
+            `/api/news?q=${encodeURIComponent(searchQuery)}&pageSize=10`
+          )
+          const data = await response.json()
+          
+          console.log('📰 News API Response:', {
+            status: response.status,
+            ok: response.ok,
+            data
+          })
+          
+          if (!response.ok) {
+            throw new Error(data.error || 'Failed to fetch news')
+          }
+          
+          setNewsArticles(data.articles || [])
+        } catch (error) {
+          console.error('❌ Error fetching news:', error)
+          setNewsArticles([])
+        } finally {
+          setLoadingNews(false)
+        }
+      }
+      fetchNews()
     }
   }, [project])
 
@@ -536,6 +655,11 @@ export default function Project ({ params }) {
                         active={activeSection === 'timeline'}
                         onClick={() => scrollToSection(timelineRef, 'timeline')}
                       />
+                      <NavItem
+                        label="News"
+                        active={activeSection === 'news'}
+                        onClick={() => scrollToSection(newsRef, 'news')}
+                      />
                     </div>
                   </div>
                 </div>
@@ -693,6 +817,43 @@ export default function Project ({ params }) {
             </div>
             <div ref={timelineRef}>
               {renderTimeline()}
+            </div>
+            <div ref={newsRef}>
+              <Card>
+                <CardHeader icon={Newspaper} title="Related News" color="blue" />
+                <div className="pb-4 sm:pb-8">
+                  <div className="mb-4 sm:mb-6">
+                    <p className="text-gray-600">
+                      Stay informed about news and updates related to this development project and the surrounding area.
+                    </p>
+                  </div>
+                  {loadingNews
+                    ? (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+                      {[...Array(6)].map((_, i) => (
+                        <NewsLoadingSkeleton key={i} />
+                      ))}
+                    </div>
+                      )
+                    : newsArticles.length > 0
+                      ? (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+                      {newsArticles.map((article, index) => (
+                        <NewsCard key={`${article.url}-${index}`} article={article} />
+                      ))}
+                    </div>
+                        )
+                      : (
+                    <div className="text-center py-12 bg-gray-50 rounded-xl border border-gray-200/80">
+                      <Newspaper className="w-12 h-12 text-gray-400 mx-auto mb-4" />
+                      <p className="text-gray-600 font-medium">No related news articles found</p>
+                      <p className="text-sm text-gray-500 mt-1">
+                        We couldn't find any recent news articles related to this project.
+                      </p>
+                    </div>
+                        )}
+                </div>
+              </Card>
             </div>
           </div>
         </main>
