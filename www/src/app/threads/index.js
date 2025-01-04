@@ -770,10 +770,10 @@ export default function Thread ({ thread, unit = 'updates', global = false }) {
                         return () => observer.disconnect()
                       }
                     }}
-                    className="sticky sm:top-[4rem] top-[4.5rem] z-20"
+                    className="sticky sm:top-[4rem] top-[3rem] z-20"
                   >
                     <div className="relative">
-                      <div className="absolute inset-x-0 h-full bg-white/80 backdrop-blur-2xl"></div>
+                      <div className="absolute inset-x-0 h-full bg-white/90 backdrop-blur-2xl"></div>
                       <div className="relative mx-auto sm:py-3 py-3">
                         <div className="flex items-center justify-between px-4 sm:px-6">
                           <div className="flex items-center gap-3">
