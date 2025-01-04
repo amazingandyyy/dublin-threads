@@ -35,22 +35,6 @@ const InfoTooltip = ({ text }) => (
   </div>
 )
 
-const MetricCard = ({ icon: Icon, label, value, tooltip }) => {
-  return (
-    <Card>
-      <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
-        <div className="p-2 sm:p-2.5 bg-gradient-to-br from-gray-50 to-gray-100/80 rounded-lg sm:rounded-xl shadow-[0_2px_3px_-1px_rgba(0,0,0,0.1),0_1px_0_0_rgba(25,28,33,0.02),0_0_0_1px_rgba(25,28,33,0.08)]">
-          <Icon className="w-4 h-4 sm:w-5 sm:h-5 text-gray-700" />
-        </div>
-        <div className="flex items-center">
-          <h3 className="text-sm sm:text-base font-medium text-gray-700">{label}</h3>
-          {tooltip && <InfoTooltip text={tooltip} />}
-        </div>
-      </div>
-      <p className="text-xl sm:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-900 to-gray-600 animate-in fade-in slide-in-from-bottom-1 duration-500">{value}</p>
-    </Card>
-  )
-}
 
 const CardHeader = ({ icon: Icon, title, color = 'emerald' }) => (
   <div className="mb-4 py-2 sm:py-4 pl-0">
@@ -348,6 +332,19 @@ const NewsLoadingSkeleton = () => (
   </div>
 )
 
+// Add debounce function at the top level
+const debounce = (func, wait) => {
+  let timeout
+  return function executedFunction (...args) {
+    const later = () => {
+      clearTimeout(timeout)
+      func(...args)
+    }
+    clearTimeout(timeout)
+    timeout = setTimeout(later, wait)
+  }
+}
+
 export default function Project ({ params }) {
   const [project, setProject] = useState(null)
   const [loading, setLoading] = useState(true)
@@ -368,7 +365,7 @@ export default function Project ({ params }) {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPosition = window.scrollY + 100 // Offset for the sticky header
+      const scrollPosition = window.scrollY + 100 // Offset for sticky header
 
       const refs = [
         { id: 'overview', ref: overviewRef },
@@ -387,13 +384,24 @@ export default function Project ({ params }) {
         const { id, ref } = refs[i]
         if (ref.current && ref.current.offsetTop <= scrollPosition) {
           setActiveSection(id)
+          // Update URL with section parameter
+          const url = new URL(window.location.href)
+          url.searchParams.set('section', id)
+          window.history.replaceState({}, '', url)
           break
         }
       }
     }
 
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
+    // Create debounced version of scroll handler
+    const debouncedHandleScroll = debounce(handleScroll, 100)
+
+    window.addEventListener('scroll', debouncedHandleScroll)
+    return () => {
+      window.removeEventListener('scroll', debouncedHandleScroll)
+      // Cleanup any pending debounced calls
+      debouncedHandleScroll.cancel?.()
+    }
   }, [])
 
   const scrollToSection = (sectionRef, sectionId) => {
@@ -402,8 +410,37 @@ export default function Project ({ params }) {
       const y = sectionRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset
       window.scrollTo({ top: y, behavior: 'smooth' })
       setActiveSection(sectionId)
+      // Update URL with session parameter
+      const url = new URL(window.location.href)
+      url.searchParams.set('section', sectionId)
+      window.history.replaceState({}, '', url)
     }
   }
+
+  // Handle initial section from URL on mount
+  useEffect(() => {
+    const url = new URL(window.location.href)
+    const section = url.searchParams.get('section')
+    if (section) {
+      const sectionRefs = {
+        overview: overviewRef,
+        location: locationRef,
+        images: imagesRef,
+        news: newsRef,
+        specifications: specificationsRef,
+        planner: plannerRef,
+        applicant: applicantRef,
+        documents: documentsRef,
+        discussions: discussionsRef,
+        timeline: timelineRef
+      }
+      if (sectionRefs[section]) {
+        setTimeout(() => {
+          scrollToSection(sectionRefs[section], section)
+        }, 500) // Small delay to ensure content is loaded
+      }
+    }
+  }, [])
 
   useEffect(() => {
     fetchDevelopments('/logs/global.json')
@@ -598,7 +635,7 @@ export default function Project ({ params }) {
                     <span>Latest Update</span>
                   </div>
                   <div className="text-2xl font-bold text-gray-900">
-                    {threads[0] ? timeSince(threads[0].timestamp) : "N/A"}
+                    {threads[0] ? timeSince(threads[0].timestamp) : 'N/A'}
                   </div>
                   <div className="text-sm text-gray-500">ago</div>
                 </div>
@@ -647,69 +684,69 @@ export default function Project ({ params }) {
                     <div className="flex items-center">
                       <NavItem
                         label="Overview"
-                        active={activeSection === "overview"}
-                        onClick={() => scrollToSection(overviewRef, "overview")}
+                        active={activeSection === 'overview'}
+                        onClick={() => scrollToSection(overviewRef, 'overview')}
                       />
                       <NavItem
                         label="Location"
-                        active={activeSection === "location"}
-                        onClick={() => scrollToSection(locationRef, "location")}
+                        active={activeSection === 'location'}
+                        onClick={() => scrollToSection(locationRef, 'location')}
                       />
                       {images.length > 0 && (
                         <NavItem
                           label="Images"
-                          active={activeSection === "images"}
-                          onClick={() => scrollToSection(imagesRef, "images")}
+                          active={activeSection === 'images'}
+                          onClick={() => scrollToSection(imagesRef, 'images')}
                           count={images.length}
                         />
                       )}
                       <NavItem
                         label="News"
-                        active={activeSection === "news"}
-                        onClick={() => scrollToSection(newsRef, "news")}
+                        active={activeSection === 'news'}
+                        onClick={() => scrollToSection(newsRef, 'news')}
                         count={newsArticles.length}
                         isNew={true}
                       />
                       <NavItem
                         label="Discussions"
-                        active={activeSection === "discussions"}
+                        active={activeSection === 'discussions'}
                         onClick={() =>
-                          scrollToSection(discussionsRef, "discussions")
+                          scrollToSection(discussionsRef, 'discussions')
                         }
                       />
                       <NavItem
                         label="Specifications"
-                        active={activeSection === "specifications"}
+                        active={activeSection === 'specifications'}
                         onClick={() =>
-                          scrollToSection(specificationsRef, "specifications")
+                          scrollToSection(specificationsRef, 'specifications')
                         }
                       />
                       <NavItem
                         label="Planner"
-                        active={activeSection === "planner"}
-                        onClick={() => scrollToSection(plannerRef, "planner")}
+                        active={activeSection === 'planner'}
+                        onClick={() => scrollToSection(plannerRef, 'planner')}
                       />
                       <NavItem
                         label="Applicant"
-                        active={activeSection === "applicant"}
+                        active={activeSection === 'applicant'}
                         onClick={() =>
-                          scrollToSection(applicantRef, "applicant")
+                          scrollToSection(applicantRef, 'applicant')
                         }
                       />
                       {docs.length > 0 && (
                         <NavItem
                           label="Documents"
-                          active={activeSection === "documents"}
+                          active={activeSection === 'documents'}
                           onClick={() =>
-                            scrollToSection(documentsRef, "documents")
+                            scrollToSection(documentsRef, 'documents')
                           }
                           count={docs.length}
                         />
                       )}
                       <NavItem
                         label="Timeline"
-                        active={activeSection === "timeline"}
-                        onClick={() => scrollToSection(timelineRef, "timeline")}
+                        active={activeSection === 'timeline'}
+                        onClick={() => scrollToSection(timelineRef, 'timeline')}
                         count={threads.length}
                       />
                     </div>
@@ -731,7 +768,8 @@ export default function Project ({ params }) {
                   <div className="flex-1 space-y-4 sm:space-y-6">
                     <div>
                       <p className="text-gray-600 mb-4">{location}</p>
-                      {geolocation?.lat && geolocation?.lon ? (
+                      {geolocation?.lat && geolocation?.lon
+                        ? (
                         <>
                           <div className="grid grid-cols-2 gap-4 pb-2">
                             <div className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors group">
@@ -759,7 +797,8 @@ export default function Project ({ params }) {
                             View on Google Maps
                           </LinkButton>
                         </>
-                      ) : (
+                          )
+                        : (
                         <LinkButton
                           href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
                             `${location} Dublin, CA`
@@ -769,11 +808,12 @@ export default function Project ({ params }) {
                         >
                           View on Google Maps
                         </LinkButton>
-                      )}
+                          )}
                     </div>
                   </div>
                   <div className="flex-1">
-                    {geolocation?.lat && geolocation?.lon ? (
+                    {geolocation?.lat && geolocation?.lon
+                      ? (
                       <div className="h-[300px] rounded-lg overflow-hidden shadow-md">
                         <Map
                           mapboxAccessToken={
@@ -782,9 +822,9 @@ export default function Project ({ params }) {
                           initialViewState={{
                             longitude: geolocation.lon,
                             latitude: geolocation.lat,
-                            zoom: 14,
+                            zoom: 14
                           }}
-                          style={{ height: "100%" }}
+                          style={{ height: '100%' }}
                           mapStyle="mapbox://styles/amazingandyyy/clkj4hghc005b01r14qvccv1h"
                         >
                           <Marker
@@ -801,7 +841,8 @@ export default function Project ({ params }) {
                           </Marker>
                         </Map>
                       </div>
-                    ) : (
+                        )
+                      : (
                       <div className="h-[300px] rounded-lg overflow-hidden shadow-md bg-gray-50 flex items-center justify-center">
                         <div className="text-center">
                           <MapPin className="w-8 h-8 text-gray-400 mx-auto mb-2" />
@@ -813,7 +854,7 @@ export default function Project ({ params }) {
                           </p>
                         </div>
                       </div>
-                    )}
+                        )}
                   </div>
                 </div>
               </Card>
@@ -869,13 +910,16 @@ export default function Project ({ params }) {
                       development project and the surrounding area.
                     </p>
                   </div>
-                  {loadingNews ? (
+                  {loadingNews
+                    ? (
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
                       {[...Array(6)].map((_, i) => (
                         <NewsLoadingSkeleton key={i} />
                       ))}
                     </div>
-                  ) : newsArticles.length > 0 ? (
+                      )
+                    : newsArticles.length > 0
+                      ? (
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
                       {newsArticles.map((article, index) => (
                         <NewsCard
@@ -884,7 +928,8 @@ export default function Project ({ params }) {
                         />
                       ))}
                     </div>
-                  ) : (
+                        )
+                      : (
                     <div className="text-center py-12 bg-gray-50 rounded-xl border border-gray-200/80">
                       <Newspaper className="w-12 h-12 text-gray-400 mx-auto mb-4" />
                       <p className="text-gray-600 font-medium">
@@ -895,7 +940,7 @@ export default function Project ({ params }) {
                         this project.
                       </p>
                     </div>
-                  )}
+                        )}
                 </div>
               </Card>
             </div>
@@ -1004,7 +1049,7 @@ export default function Project ({ params }) {
         </main>
       </div>
     </div>
-  );
+  )
 
   const renderOverviewTab = () => (
     <div className="space-y-8 animate-fadeIn">
