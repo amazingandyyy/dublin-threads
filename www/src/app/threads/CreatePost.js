@@ -228,7 +228,7 @@ export default function CreatePost ({ onPostCreated }) {
       <div>
         <div className="flex items-center gap-2 text-xs text-gray-500 mb-2 ml-1">
           <LinkIcon className="w-3.5 h-3.5" />
-          {type === 'news' ? 'News URL' : 'Reference Link (optional)'}
+          {type === 'news' ? 'News/Article URL' : 'Reference Link (optional)'}
           {type === 'news' && <span className="text-red-500">*</span>}
         </div>
         <div className="relative group">

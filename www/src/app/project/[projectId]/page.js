@@ -340,6 +340,11 @@ export default function Project ({ params }) {
   const [loading, setLoading] = useState(true)
   const [activeSection, setActiveSection] = useState('overview')
   
+  // Add scroll to top effect when component mounts
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }, [])
+
   const overviewRef = useRef(null)
   const locationRef = useRef(null)
   const imagesRef = useRef(null)
@@ -890,7 +895,7 @@ export default function Project ({ params }) {
               <Card>
                 <CardHeader
                   icon={Newspaper}
-                  title="Related News"
+                  title="Related Online Articles"
                   color="blue"
                 />
                 <div className="pb-4 sm:pb-8">

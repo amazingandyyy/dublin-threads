@@ -166,44 +166,50 @@ export default function Threads () {
         </div>
 
         <div className="container mx-auto py-6">
-          <div className='flex flex-col items-center text-center text-gray-600 pt-12 sm:pt-16'>
-            <div className='relative'>
-              <div className='font-playfair text-2xl sm:text-3xl md:text-6xl font-bold text-green-950 mb-4 sm:mb-6 px-2'>
+          <div className="flex flex-col items-center text-center text-gray-600 pt-12 sm:pt-16">
+            <div className="relative">
+              <div className="font-playfair text-2xl sm:text-3xl md:text-6xl font-bold text-green-950 mb-4 sm:mb-6 px-2">
                 A Thread for <span className="text-green-600">Dublin, CA</span>
               </div>
               <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-green-500/0 via-green-500 to-green-500/0"></div>
             </div>
-            <div className='flex flex-wrap justify-center gap-1.5 mt-6'>
-              {['DublinCA', 'California', 'TriValley'].map(i => (
-                <span 
-                  key={i} 
-                  className='inline-flex items-center py-1 px-2.5 bg-green-100 text-xs sm:text-sm font-medium text-green-800 rounded-md'
+            <div className="flex flex-wrap justify-center gap-1.5 mt-6">
+              {["DublinCA", "California", "TriValley"].map((i) => (
+                <span
+                  key={i}
+                  className="inline-flex items-center py-1 px-2.5 bg-green-100 text-xs sm:text-sm font-medium text-green-800 rounded-md"
                 >
                   #{i}
                 </span>
               ))}
             </div>
           </div>
-          <div className='w-full md:max-w-[800px] m-auto mt-8'>
+          <div className="w-full max-w-2xl m-auto mt-8">
             <div className="bg-white rounded-lg shadow-sm mb-6">
               <div className="flex items-center justify-center gap-2 bg-gradient-to-r from-green-50 to-blue-50 px-4 py-3 rounded-t-lg border-b border-green-100">
-                <span className="bg-green-600 text-white text-[8px] font-bold px-2 py-0.5 rounded-full tracking-wide animate-pulse">ALPHA</span>
+                <span className="bg-green-600 text-white text-[8px] font-bold px-2 py-0.5 rounded-full tracking-wide animate-pulse">
+                  ALPHA
+                </span>
                 <p className="text-green-800 text-sm font-medium">
-                  You can now share links anonymously! 🍀
+                  You can now contribute anonymously! 🍀
                 </p>
               </div>
               <div className="p-4">
-                <CreatePost onPostCreated={(newPost) => setPosts(prev => [newPost, ...prev])} />
+                <CreatePost
+                  onPostCreated={(newPost) =>
+                    setPosts((prev) => [newPost, ...prev])
+                  }
+                />
               </div>
             </div>
-            <Thread 
-              thread={list} 
-              global={true} 
+            <Thread
+              thread={list}
+              global={true}
               onCommentAdded={handleCommentAdded}
             />
           </div>
         </div>
       </main>
     </>
-  )
+  );
 }

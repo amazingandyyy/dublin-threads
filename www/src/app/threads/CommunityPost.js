@@ -263,7 +263,7 @@ export default function CommunityPost ({ data, onCommentAdded }) {
                   value={authorName}
                   onChange={(e) => setAuthorName(e.target.value || 'anonymous')}
                   placeholder="Your name (optional)"
-                  className='w-full px-3 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 text-[15px]'
+                  className='w-full px-3 py-1 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500 text-[15px]'
                   disabled={isSubmitting}
                 />
               </div>
