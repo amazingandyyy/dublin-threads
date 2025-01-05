@@ -1,5 +1,5 @@
 'use client'
-import { useEffect, useState } from 'react'
+import { useEffect, useState, Suspense } from 'react'
 import Map, { Marker, Source, Layer } from 'react-map-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import { useProjectProfileStore, useThreadStore } from '@/stores'
@@ -33,7 +33,7 @@ function Image ({ src, className }) {
   return show && <img src={src} className={className} loading='lazy' onError={() => setShow(false)} />
 }
 
-export default function Threads ({ params, searchParams }) {
+function ExplorerContent ({ params, searchParams }) {
   const router = useRouter()
   const urlParams = useSearchParams()
   const [searchQuery, setSearchQuery] = useState(urlParams.get('q') || '')
@@ -862,6 +862,17 @@ export default function Threads ({ params, searchParams }) {
 
         </div>
       </main>
+    </>
+  )
+}
+
+export default function Explorer ({ params, searchParams }) {
+  return (
+    <>
+      <GlobalHeader />
+      <Suspense fallback={<div className="container mx-auto py-6 text-center">Loading...</div>}>
+        <ExplorerContent params={params} searchParams={searchParams} />
+      </Suspense>
     </>
   )
 }

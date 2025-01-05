@@ -1,10 +1,9 @@
-import Head from 'next/head'
-
 import Script from 'next/script'
-
 import './globals.scss'
+
 const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_ID
 const CRISP_WEBSITE_ID = process.env.NEXT_PUBLIC_CRISP_WEBSITE_ID
+
 export const metadata = {
   metadataBase: new URL('https://dublin.amazyyy.com'),
   alternates: {
@@ -34,38 +33,8 @@ export const metadata = {
 
 export default function RootLayout ({ children }) {
   return (
-    <html lang="en">
-      <Script
-        strategy="afterInteractive"
-        id="gh4-1"
-        src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-      />
-      <Script
-        strategy="afterInteractive"
-        id="gh4-2"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){
-              dataLayer.push(arguments)
-            }
-            gtag('js', new Date());
-  
-            gtag('config', '${GA_TRACKING_ID}');
-          `
-        }}
-      />
-      <Script
-        strategy="afterInteractive"
-        id="crisp-1"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.$crisp=[];window.CRISP_WEBSITE_ID="${CRISP_WEBSITE_ID}";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
-          `
-        }}
-      />
-
-      <Head>
+    <html lang="en" suppressHydrationWarning>
+      <head>
         <link
           rel="icon"
           type="image/png"
@@ -83,7 +52,36 @@ export default function RootLayout ({ children }) {
           name="msapplication-config"
           content="https://dublin.amazyyy.com/icons/browserconfig.xml"
         />
-      </Head>
+        <Script
+          strategy="beforeInteractive"
+          id="gh4-1"
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+        />
+        <Script
+          strategy="beforeInteractive"
+          id="gh4-2"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){
+                dataLayer.push(arguments)
+              }
+              gtag('js', new Date());
+    
+              gtag('config', '${GA_TRACKING_ID}');
+            `
+          }}
+        />
+        <Script
+          strategy="beforeInteractive"
+          id="crisp-1"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.$crisp=[];window.CRISP_WEBSITE_ID="${CRISP_WEBSITE_ID}";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+            `
+          }}
+        />
+      </head>
       <body className="antialiased pt-12 sm:pt-8 bg-[#F3F2EE]">
         {children}
       </body>

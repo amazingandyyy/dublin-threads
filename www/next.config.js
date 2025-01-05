@@ -11,6 +11,13 @@ const nextConfig = {
       }
     ]
   },
+  compiler: {
+    // Enables the styled-components SWC transform
+    styledComponents: true
+  },
+  experimental: {
+    optimizeCss: true // enables CSS optimization
+  },
   async headers () {
     return [
       {
