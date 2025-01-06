@@ -31,6 +31,329 @@
     "op": "update",
     "path": [
       "projectdetail1656",
+      "docs",
+      0,
+      "name"
+    ],
+    "val": "City Council Meeting, August 20, 2024",
+    "oldVal": "City Council Meeting, July 16, 2024",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      0,
+      "url"
+    ],
+    "val": "https://granicus_production_attachments.s3.amazonaws.com/dublin/bb10193a60e0fbaf7a33a4da7859f5d90.pdf",
+    "oldVal": "https://granicus_production_attachments.s3.amazonaws.com/dublin/cc83c913bbce74baf0520a4cba96f53a0.pdf",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      1,
+      "name"
+    ],
+    "val": "City Council Meeting, July 16, 2024",
+    "oldVal": "Planning Commission Meeting, June 11, 2024",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      1,
+      "url"
+    ],
+    "val": "https://granicus_production_attachments.s3.amazonaws.com/dublin/cc83c913bbce74baf0520a4cba96f53a0.pdf",
+    "oldVal": "https://d3n9y02raazwpg.cloudfront.net/dublin/297b2df1-0c57-4b51-9488-5c4d7c2b4300-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1717632430.pdf",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      2,
+      "name"
+    ],
+    "val": "Planning Commission Meeting, June 11, 2024",
+    "oldVal": "Final Draft Initial Study Addendum, April 8, 2024",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      2,
+      "url"
+    ],
+    "val": "https://d3n9y02raazwpg.cloudfront.net/dublin/297b2df1-0c57-4b51-9488-5c4d7c2b4300-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1717632430.pdf",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/580Fallon_FinalDraftIS-reduced-size.pdf",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      3,
+      "name"
+    ],
+    "val": "Final Draft Initial Study Addendum, April 8, 2024",
+    "oldVal": "Final Local Transportation Analysis April 3, 2024",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      3,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/580Fallon_FinalDraftIS-reduced-size.pdf",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Final-Local-Transporation-Analysis-04032024.pdf",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      4,
+      "name"
+    ],
+    "val": "Final Local Transportation Analysis April 3, 2024",
+    "oldVal": "Community Meeting Presentation Dublin Fallon 580 March 27& 28 and April 3, 2024",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      4,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Final-Local-Transporation-Analysis-04032024.pdf",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Community-Meeting-Presentation-Dublin-Fallon-580-5.pdf",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      5,
+      "name"
+    ],
+    "val": "Community Meeting Presentation Dublin Fallon 580 March 27& 28 and April 3, 2024",
+    "oldVal": "Fallon Village Draft SEIR August-2005",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      5,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Community-Meeting-Presentation-Dublin-Fallon-580-5.pdf",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Fallon-Village-Draft-SEIR-August-2005.pdf",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      6,
+      "name"
+    ],
+    "val": "Fallon Village Draft SEIR August-2005",
+    "oldVal": "Fallon Village Final SEIR November-2005",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      6,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Fallon-Village-Draft-SEIR-August-2005.pdf",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Fallon-Village-Final-SEIR-November-2005.pdf",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      7,
+      "name"
+    ],
+    "val": "Fallon Village Final SEIR November-2005",
+    "oldVal": "Draft East Dublin Properties Stage I Development Plan and Annexation SEIR 2002",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      7,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Fallon-Village-Final-SEIR-November-2005.pdf",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Draft-E-Dublin-Prop-Stage-I-DP-and-Annex-SEIR-2002.pdf",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      8,
+      "name"
+    ],
+    "val": "Draft East Dublin Properties Stage I Development Plan and Annexation SEIR 2002",
+    "oldVal": "Final E Dublin Prop Stage I DP and Annex SEIR 2002",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      8,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Draft-E-Dublin-Prop-Stage-I-DP-and-Annex-SEIR-2002.pdf",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Final-E-Dublin-Prop-Stage-I-DP-and-Annex-SEIR-2002.pdf",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      9,
+      "name"
+    ],
+    "val": "Final E Dublin Prop Stage I DP and Annex SEIR 2002",
+    "oldVal": "Draft Eastern Dublin General Plan Amendment and Specific Plan EIR (1993)",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      9,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Final-E-Dublin-Prop-Stage-I-DP-and-Annex-SEIR-2002.pdf",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Draft-Eastern-Dublin-General-Plan-Amendment-and-Specific-Plan-EIR-1993.pdf",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      10,
+      "name"
+    ],
+    "val": "Draft Eastern Dublin General Plan Amendment and Specific Plan EIR (1993)",
+    "oldVal": "Final Eastern Dublin General Plan Amendment and Specific Plan EIR (1993)",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      10,
+      "url"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Draft-Eastern-Dublin-General-Plan-Amendment-and-Specific-Plan-EIR-1993.pdf",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Final-Eastern-Dublin-General-Plan-Amendment-and-Specific-Plan-EIR-1993.pdf",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1656",
+      "docs",
+      11
+    ],
+    "val": {
+      "name": "Final Eastern Dublin General Plan Amendment and Specific Plan EIR (1993)",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Final-Eastern-Dublin-General-Plan-Amendment-and-Specific-Plan-EIR-1993.pdf"
+    },
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
       "status"
     ],
     "val": "Final Action",
