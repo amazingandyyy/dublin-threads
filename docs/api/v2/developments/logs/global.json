@@ -2,6 +2,46 @@
   {
     "op": "update",
     "path": [
+      "projectdetail1656",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Gaspare Annibale - Senior Planner",
+    "oldVal": "Crystal De Castro - Senior Planner",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "gaspare.annibale@dublin.ca.gov",
+    "oldVal": "crystal.decastro@dublin.ca.gov",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1656",
+      "status"
+    ],
+    "val": "Final Action",
+    "oldVal": "Pubic Hearing",
+    "projectId": "projectdetail1656",
+    "timestamp": "1736193600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
       "projectdetail1741",
       "details",
       "Planning Application #"
