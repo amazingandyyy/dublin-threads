@@ -213,6 +213,18 @@
     "orgId": "YouthAdvisoryCommittee"
   },
   {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission Special Meeting",
+    "date": "11-12-2024",
+    "timestamp": 1731398400000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2216",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2216",
+    "agendaPacket": "",
+    "orgId": "HumanServicesCommission"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": true,
     "name": "Planning Commission Cancelled",
