@@ -1,5 +1,27 @@
 [
   {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "01-28-2025",
+    "timestamp": 1738051200000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "PlanningCommission"
+  },
+  {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission",
+    "date": "01-23-2025",
+    "timestamp": 1737619200000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=675",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/55d93321-a8fa-11ef-ab4b-005056a89546-2c2816d6-a723-442a-b84e-a5291bd99692-1737156930.pdf",
+    "orgId": "HumanServicesCommission"
+  },
+  {
     "organizor": "Parks and Community Services Commission",
     "cancelled": true,
     "name": "Parks and Community Services Commission Cancellation Notice",
