@@ -22,17 +22,6 @@
     "orgId": "HumanServicesCommission"
   },
   {
-    "organizor": "Parks and Community Services Commission",
-    "cancelled": true,
-    "name": "Parks and Community Services Commission Cancellation Notice",
-    "date": "01-20-2025",
-    "timestamp": 1737360000000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=700",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "ParksandCommunityServicesCommission"
-  },
-  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
