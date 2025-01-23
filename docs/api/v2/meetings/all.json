@@ -12,15 +12,15 @@
     "type": "meeting"
   },
   {
-    "organizor": "City Council",
+    "organizor": "",
     "cancelled": false,
-    "name": "City Council Liaison Committees",
+    "name": "Federal and Military Communities Committee",
     "date": "01-27-2025",
     "timestamp": 1737964800000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=704",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=705",
     "video": "",
     "agendaPacket": "",
-    "orgId": "CityCouncil",
+    "orgId": "",
     "type": "meeting"
   },
   {
