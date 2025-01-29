@@ -1,16 +1,5 @@
 [
   {
-    "organizor": "Planning Commission",
-    "cancelled": true,
-    "name": "Planning Commission Cancelled",
-    "date": "01-28-2025",
-    "timestamp": 1738051200000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=623",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "PlanningCommission"
-  },
-  {
     "organizor": "Parks and Community Services Commission",
     "cancelled": false,
     "name": "Parks and Community Services Commission Special Meeting",
