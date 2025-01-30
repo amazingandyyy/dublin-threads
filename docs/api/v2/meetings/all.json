@@ -1,5 +1,17 @@
 [
   {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission Special Meeting",
+    "date": "02-11-2025",
+    "timestamp": 1739260800000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "HumanServicesCommission",
+    "type": "meeting"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": false,
     "name": "Planning Commission Regular Meeting",
