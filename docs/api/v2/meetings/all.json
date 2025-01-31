@@ -24,6 +24,18 @@
     "type": "meeting"
   },
   {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "02-04-2025",
+    "timestamp": 1738656000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=678",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/68ea5436-a929-11ef-ab4b-005056a89546-3024744b-ade7-4818-a498-958db485d49e-1738283779.pdf",
+    "orgId": "CityCouncil",
+    "type": "meeting"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": true,
     "name": "Planning Commission Cancelled",
