@@ -24,6 +24,18 @@
     "type": "meeting"
   },
   {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": "02-06-2025",
+    "timestamp": 1738828800000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=515",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/99386c62-93c1-11ee-a93d-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1738604244.pdf",
+    "orgId": "SeniorCenterAdvisoryCommittee",
+    "type": "meeting"
+  },
+  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
