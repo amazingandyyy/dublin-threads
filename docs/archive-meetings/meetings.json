@@ -12,11 +12,11 @@
   },
   {
     "organizor": "Planning Commission",
-    "cancelled": false,
-    "name": "Planning Commission Regular Meeting",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
     "date": "02-11-2025",
     "timestamp": 1739260800000,
-    "agenda": "",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=612",
     "video": "",
     "agendaPacket": "",
     "orgId": "PlanningCommission"
@@ -41,6 +41,18 @@
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=714",
     "video": "",
     "agendaPacket": "",
+    "orgId": "CityCouncil"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "02-04-2025",
+    "timestamp": 1738656000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2241",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2241",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/68ea5436-a929-11ef-ab4b-005056a89546-3ec776ac-28f5-441e-9fb3-bd0bb17e1822-1738711301.pdf",
     "orgId": "CityCouncil"
   },
   {
