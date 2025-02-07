@@ -2,6 +2,161 @@
   {
     "op": "update",
     "path": [
+      "projectdetail1068",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-085728.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Rendering-1-scaled.jpg",
+    "projectId": "projectdetail1068",
+    "timestamp": "1738947600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-085728-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Rendering-1-150x150.jpg",
+    "projectId": "projectdetail1068",
+    "timestamp": "1738947600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-085742.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Renderings-2-scaled.jpg",
+    "projectId": "projectdetail1068",
+    "timestamp": "1738947600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-085742-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Renderings-2-150x150.jpg",
+    "projectId": "projectdetail1068",
+    "timestamp": "1738947600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_1-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Renderings-3_Page_3-scaled.jpg",
+    "projectId": "projectdetail1068",
+    "timestamp": "1738947600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_1-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Exterior-Renderings-3_Page_3-150x150.jpg",
+    "projectId": "projectdetail1068",
+    "timestamp": "1738947600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "images",
+      3,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_2-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_1-scaled.jpg",
+    "projectId": "projectdetail1068",
+    "timestamp": "1738947600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "images",
+      3,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_2-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_1-150x150.jpg",
+    "projectId": "projectdetail1068",
+    "timestamp": "1738947600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "images",
+      4,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Basis-Site-Plan.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_2-scaled.jpg",
+    "projectId": "projectdetail1068",
+    "timestamp": "1738947600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1068",
+      "images",
+      4,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Basis-Site-Plan-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Proposed-Elevations_Page_2-150x150.jpg",
+    "projectId": "projectdetail1068",
+    "timestamp": "1738947600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1068",
+      "images",
+      5
+    ],
+    "oldVal": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Basis-Site-Plan.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Basis-Site-Plan-150x150.jpg"
+    },
+    "projectId": "projectdetail1068",
+    "timestamp": "1738947600000",
+    "type": "developments:delete"
+  },
+  {
+    "op": "update",
+    "path": [
       "projectdetail1656",
       "details",
       "Project Planner",
