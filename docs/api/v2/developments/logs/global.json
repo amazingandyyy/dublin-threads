@@ -3,6 +3,264 @@
     "op": "update",
     "path": [
       "projectdetail1781",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092729.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2024-10-08-113621.png",
+    "projectId": "projectdetail1781",
+    "timestamp": "1738951200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1781",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092729-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2024-10-08-113621-150x150.png",
+    "projectId": "projectdetail1781",
+    "timestamp": "1738951200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1781",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092623.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2024-10-08-113826.png",
+    "projectId": "projectdetail1781",
+    "timestamp": "1738951200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1781",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092623-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2024-10-08-113826-150x150.png",
+    "projectId": "projectdetail1781",
+    "timestamp": "1738951200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1781",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092710.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2024-10-08-113853.png",
+    "projectId": "projectdetail1781",
+    "timestamp": "1738951200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1781",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092710-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2024-10-08-113853-150x150.png",
+    "projectId": "projectdetail1781",
+    "timestamp": "1738951200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1781",
+      "images",
+      3,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092609.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2024-10-08-113910.png",
+    "projectId": "projectdetail1781",
+    "timestamp": "1738951200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1781",
+      "images",
+      3,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092609-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2024-10-08-113910-150x150.png",
+    "projectId": "projectdetail1781",
+    "timestamp": "1738951200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1781",
+      "images",
+      4,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092538.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2024-10-08-113925.png",
+    "projectId": "projectdetail1781",
+    "timestamp": "1738951200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1781",
+      "images",
+      4,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092538-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2024-10-08-113925-150x150.png",
+    "projectId": "projectdetail1781",
+    "timestamp": "1738951200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1781",
+      "images",
+      5,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092642.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2024-10-08-114109.png",
+    "projectId": "projectdetail1781",
+    "timestamp": "1738951200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1781",
+      "images",
+      5,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092642-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2024-10-08-114109-150x150.png",
+    "projectId": "projectdetail1781",
+    "timestamp": "1738951200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1781",
+      "images",
+      6
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092505.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092505-150x150.png"
+    },
+    "projectId": "projectdetail1781",
+    "timestamp": "1738951200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1781",
+      "images",
+      7
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-094004.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-094004-150x150.png"
+    },
+    "projectId": "projectdetail1781",
+    "timestamp": "1738951200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1781",
+      "images",
+      8
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092931.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092931-150x150.png"
+    },
+    "projectId": "projectdetail1781",
+    "timestamp": "1738951200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1781",
+      "images",
+      9
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-093026.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-093026-150x150.png"
+    },
+    "projectId": "projectdetail1781",
+    "timestamp": "1738951200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1781",
+      "images",
+      10
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-093109.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-093109-150x150.png"
+    },
+    "projectId": "projectdetail1781",
+    "timestamp": "1738951200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1781",
+      "images",
+      11
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-093149.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-093149-150x150.png"
+    },
+    "projectId": "projectdetail1781",
+    "timestamp": "1738951200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1781",
       "details",
       "Parking Provided"
     ],
