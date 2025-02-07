@@ -70,5 +70,30 @@
     "projectId": "projectdetail1781",
     "timestamp": "1735797600000",
     "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1781",
+      "details",
+      "Parking Provided"
+    ],
+    "val": "307 parking spaces",
+    "oldVal": "313 parking spaces",
+    "projectId": "projectdetail1781",
+    "timestamp": "1738947600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1781",
+      "description"
+    ],
+    "val": "Development of two four-story hotels with 123 and 114 hotel rooms respectively, a 10,178 square-foot restaurant/retail building, 307 parking stalls and related site improvements. The application includes a Site Development Review Permit and Tentative Map.",
+    "oldVal": "Development of two four-story hotels with 123 and 114 hotel rooms respectively, a 10,141 square-foot restaurant/retail building, 313 parking stalls and related site improvements. The application includes a Site Development Review Permit and Tentative Map.",
+    "projectId": "projectdetail1781",
+    "timestamp": "1738947600000",
+    "type": "developments:update"
   }
 ]
