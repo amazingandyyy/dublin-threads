@@ -206,7 +206,7 @@
     "timestamp": 1733990400000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2204",
     "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=2204&doc_id=006c5047-cf9e-11ef-a9e2-005056a89546",
-    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2204",
+    "video": "",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/ddf7d616-825e-11ee-852f-0050569183fa-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1734378614.pdf",
     "orgId": "HeritageandCulturalArtsCommission"
   },
@@ -1226,7 +1226,7 @@
     "timestamp": 1706774400000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2000",
     "minutes": "",
-    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2000",
+    "video": "",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/f84c4eeb-8d6f-11ee-a93d-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1706231828.pdf",
     "orgId": "SeniorCenterAdvisoryCommittee"
   },
@@ -1802,7 +1802,7 @@
     "timestamp": 1691046000000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2003",
     "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=2003&doc_id=8ad3c733-cc30-11ee-8fe8-0050569183fa",
-    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2003",
+    "video": "",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/b386c525-9c13-11ed-96ab-0050569183fa-6355a73f-9511-4412-8fa1-01d99a02375c-1690410698.pdf",
     "orgId": "SeniorCenterAdvisoryCommittee"
   },
@@ -2126,7 +2126,7 @@
     "timestamp": 1681801200000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1820",
     "minutes": "",
-    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1820",
+    "video": "",
     "agendaPacket": "",
     "orgId": "CityCouncil"
   },
@@ -3170,7 +3170,7 @@
     "timestamp": 1655708400000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1599",
     "minutes": "",
-    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1599",
+    "video": "",
     "agendaPacket": "",
     "orgId": "ParksandCommunityServicesCommission"
   },
@@ -3194,7 +3194,7 @@
     "timestamp": 1654758000000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1597",
     "minutes": "",
-    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1597",
+    "video": "",
     "agendaPacket": "",
     "orgId": "HeritageandCulturalArtsCommission"
   },
@@ -3230,7 +3230,7 @@
     "timestamp": 1654153200000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1583",
     "minutes": "",
-    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1583",
+    "video": "",
     "agendaPacket": "",
     "orgId": "SeniorCenterAdvisoryCommittee"
   },
@@ -3470,7 +3470,7 @@
     "timestamp": 1647932400000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2240",
     "minutes": "",
-    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2240",
+    "video": "",
     "agendaPacket": "",
     "orgId": "PlanningCommission"
   },
@@ -3554,7 +3554,7 @@
     "timestamp": 1646294400000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1563",
     "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1563&doc_id=2e020e4a-c67e-11ec-a5da-0050569183fa",
-    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1563",
+    "video": "",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/b10ff24a-5923-11ec-85e3-0050569183fa-6b462e6a-466e-4934-8a58-4ed897bf4ad2-1646182004.pdf",
     "orgId": "SeniorCenterAdvisoryCommittee"
   },
@@ -3794,7 +3794,7 @@
     "timestamp": 1641456000000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1426",
     "minutes": "",
-    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1426",
+    "video": "",
     "agendaPacket": "",
     "orgId": "SeniorCenterAdvisoryCommittee"
   },
@@ -4010,7 +4010,7 @@
     "timestamp": 1636009200000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1363",
     "minutes": "",
-    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1363",
+    "video": "",
     "agendaPacket": "",
     "orgId": "SeniorCenterAdvisoryCommittee"
   },
@@ -4130,7 +4130,7 @@
     "timestamp": 1633590000000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1332",
     "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=1332&doc_id=39f8f1d2-47c8-11ec-a798-0050569183fa",
-    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1332",
+    "video": "",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/4c4668c9-940a-11eb-8549-0050569183fa-333b0bc2-f23a-429e-987a-9c43d6c22575-1633127391.pdf",
     "orgId": "SeniorCenterAdvisoryCommittee"
   },
@@ -4418,7 +4418,7 @@
     "timestamp": 1625122800000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=1384",
     "minutes": "",
-    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=1384",
+    "video": "",
     "agendaPacket": "",
     "orgId": "SeniorCenterAdvisoryCommittee"
   },
@@ -4550,7 +4550,7 @@
     "timestamp": 1622012400000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=135",
     "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=135&doc_id=f35a767d-d92c-11eb-9c7a-0050569183fa",
-    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=135",
+    "video": "",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/33fe0ea8-a483-11eb-8549-0050569183fa-5da36f24-a0e4-4bae-aef6-f71f177bd6ce-1621631740.pdf",
     "orgId": "YouthAdvisoryCommittee"
   },
