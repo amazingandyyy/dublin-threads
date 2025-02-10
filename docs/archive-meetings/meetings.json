@@ -44,17 +44,6 @@
     "orgId": "PlanningCommission"
   },
   {
-    "organizor": "",
-    "cancelled": false,
-    "name": "Finance and Investment Committee",
-    "date": "02-10-2025",
-    "timestamp": 1739174400000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=716",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": ""
-  },
-  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
