@@ -22,6 +22,18 @@
     "orgId": "YouthAdvisoryCommittee"
   },
   {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "Joint Special Meeting of the Dublin City Council, Planning Commission, Parks and Community Services Commission, Human Services Commission, Heritage and Cultural Arts Commission, and Senior Center Advisory Committee - AB 1234 Ethics Training",
+    "date": "02-11-2025",
+    "timestamp": 1739260800000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2242",
+    "minutes": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "CityCouncil"
+  },
+  {
     "organizor": "Human Services Commission",
     "cancelled": false,
     "name": "Human Services Commission Special Meeting",
