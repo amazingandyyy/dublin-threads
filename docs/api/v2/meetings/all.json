@@ -48,18 +48,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "Heritage and Cultural Arts Commission",
-    "cancelled": true,
-    "name": "Heritage and Cultural Arts Commission Cancellation Notice",
-    "date": "02-13-2025",
-    "timestamp": 1739433600000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=715",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "HeritageandCulturalArtsCommission",
-    "type": "meeting"
-  },
-  {
     "organizor": "Youth Advisory Committee",
     "cancelled": false,
     "name": "Youth Advisory Committee",
