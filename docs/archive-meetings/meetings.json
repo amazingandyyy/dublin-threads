@@ -22,6 +22,17 @@
     "orgId": ""
   },
   {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "02-18-2025",
+    "timestamp": 1739865600000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "CityCouncil"
+  },
+  {
     "organizor": "Parks and Community Services Commission",
     "cancelled": true,
     "name": "Parks and Community Services Commission Cancellation Notice",
