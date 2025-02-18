@@ -49,19 +49,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "City Council",
-    "cancelled": false,
-    "name": "Joint Special Meeting of the Dublin City Council, Planning Commission, Parks and Community Services Commission, Human Services Commission, Heritage and Cultural Arts Commission, and Senior Center Advisory Committee - AB 1234 Ethics Training",
-    "date": "02-11-2025",
-    "timestamp": 1739260800000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2242",
-    "minutes": "",
-    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2242",
-    "agendaPacket": "",
-    "orgId": "CityCouncil",
-    "type": "meeting"
-  },
-  {
     "organizor": "Planning Commission",
     "cancelled": true,
     "name": "Planning Commission Cancelled",
@@ -72,6 +59,32 @@
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2244",
     "agendaPacket": "",
     "orgId": "PlanningCommission",
+    "type": "meeting"
+  },
+  {
+    "organizor": "Finance and Investment Committee",
+    "cancelled": false,
+    "name": "Finance and Investment Committee",
+    "date": "02-10-2025",
+    "timestamp": 1739174400000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2248",
+    "minutes": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "FinanceandInvestmentCommittee",
+    "type": "meeting"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "Joint Special Meeting of the Dublin City Council, Planning Commission, Parks and Community Services Commission, Human Services Commission, Heritage and Cultural Arts Commission, and Senior Center Advisory Committee - AB 1234 Ethics Training",
+    "date": "02-06-2025",
+    "timestamp": 1738828800000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2242",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2242",
+    "agendaPacket": "",
+    "orgId": "CityCouncil",
     "type": "meeting"
   },
   {
@@ -98,6 +111,19 @@
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2239",
     "agendaPacket": "",
     "orgId": "PlanningCommission",
+    "type": "meeting"
+  },
+  {
+    "organizor": "Federal and Military Communities Committee",
+    "cancelled": false,
+    "name": "Federal and Military Communities Committee",
+    "date": "01-27-2025",
+    "timestamp": 1737964800000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2243",
+    "minutes": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "FederalandMilitaryCommunitiesCommittee",
     "type": "meeting"
   },
   {
