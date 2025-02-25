@@ -12,18 +12,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "Parks and Community Services Commission",
-    "cancelled": false,
-    "name": "Parks and Community Services Commission Special Meeting",
-    "date": "02-24-2025",
-    "timestamp": 1740384000000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=703",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/5b5fdcb7-b65a-11ef-ab4b-005056a89546-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1740097123.pdf",
-    "orgId": "ParksandCommunityServicesCommission",
-    "type": "meeting"
-  },
-  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
