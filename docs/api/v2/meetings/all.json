@@ -38,6 +38,19 @@
     "type": "meeting"
   },
   {
+    "organizor": "Economic Development Committee",
+    "cancelled": false,
+    "name": "Economic Development Committee",
+    "date": "02-18-2025",
+    "timestamp": 1739865600000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2251",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2251",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/7eed5263-e01b-11ef-a9e2-005056a89546-8cd0ef6a-5619-49ac-aa28-2fb473020075-1739401094.pdf",
+    "orgId": "EconomicDevelopmentCommittee",
+    "type": "meeting"
+  },
+  {
     "organizor": "Parks and Community Services Commission",
     "cancelled": true,
     "name": "Parks and Community Services Commission Cancellation Notice",
