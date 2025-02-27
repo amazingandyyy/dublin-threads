@@ -161,7 +161,7 @@
     "date": "01-27-2025",
     "timestamp": 1737964800000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2237",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=2237&doc_id=0e6f351f-f4a1-11ef-ab6a-005056a89546",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2237",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/0bbb3170-b65a-11ef-ab4b-005056a89546-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1737587466.pdf",
     "orgId": "ParksandCommunityServicesCommission"
