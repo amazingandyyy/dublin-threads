@@ -331,5 +331,61 @@
     "projectId": "projectdetail1461",
     "timestamp": "1735797600000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Applicant",
+      "name"
+    ],
+    "val": "Adam Brandenburg , Project Manager for McDonald's",
+    "oldVal": "Robert Yagusesky, Project Manager for McDonald's",
+    "projectId": "projectdetail1461",
+    "timestamp": "1741024800000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Applicant",
+      "phone"
+    ],
+    "val": "509.643.6416",
+    "oldVal": "206.348.4374",
+    "projectId": "projectdetail1461",
+    "timestamp": "1741024800000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Shane Fields - Assistant Planner",
+    "oldVal": "Amy Million - Principal Planner",
+    "projectId": "projectdetail1461",
+    "timestamp": "1741024800000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "shane.fields@dublin.ca.gov",
+    "oldVal": "amy.million@dublin.ca.gov",
+    "projectId": "projectdetail1461",
+    "timestamp": "1741024800000",
+    "type": "developments:update"
   }
 ]

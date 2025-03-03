@@ -403,5 +403,19 @@
     "projectId": "projectdetail486",
     "timestamp": "1721851200000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail486",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Amy Million - Assistant Community Development Director",
+    "oldVal": "Amy Million - Principal Planner",
+    "projectId": "projectdetail486",
+    "timestamp": "1741024800000",
+    "type": "developments:update"
   }
 ]

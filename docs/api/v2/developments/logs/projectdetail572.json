@@ -231,5 +231,64 @@
     "projectId": "projectdetail572",
     "timestamp": "1684710307000",
     "type": "developments:update"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail572"
+    ],
+    "oldVal": {
+      "id": "projectdetail572",
+      "title": "Avalon West (St. Patrick Way)",
+      "details": {
+        "Planning Application #": "PLPA-2017-00069",
+        "Application Type": "Site Development Review and Vesting Tentative Map",
+        "Application Submittal Date": "12/21/2017",
+        "General Plan Land Use": "Downtown Dublin - Transit Oriented District",
+        "Specific Plan Area": "Downtown Dublin Specific Plan",
+        "Zoning": "Downtown Dublin Zoning District - DDZD",
+        "Project Area": "8.53 acres",
+        "Stories/Height": "5 stories / 57 feet",
+        "Parking Provided": "781 parking spaces",
+        "Applicant": {
+          "name": "Avalon Bay Communities, Joe Kirchofer",
+          "address": "455 Market Street, Ste 1650 SF, CA 94105",
+          "phone": "415-284-9080"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Principal Planner",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "6700 Golden Gate Drive",
+      "docs": [
+        {
+          "name": "March 27, 2018 Planning Commission Staff Report",
+          "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1270&Inline=True"
+        },
+        {
+          "name": "May 1, 2018 City Council Staff Report",
+          "url": "http://www.dublin.ca.gov/ArchiveCenter/ViewFile/Item/856"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Site Development Review to demolish an existing 200,000 square foot warehouse and construct a 499 unit residential apartment complex.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Single-Image_Page_1.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/08/Single-Image_Page_1-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.7011193,
+        "lon": -121.9306746,
+        "iconName": "building",
+        "title": "Avalon West (St. Patrick Way)"
+      }
+    },
+    "projectId": "projectdetail572",
+    "timestamp": "1741024800000",
+    "type": "developments:delete"
   }
 ]

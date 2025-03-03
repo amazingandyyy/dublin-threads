@@ -396,5 +396,33 @@
     "projectId": "projectdetail1340",
     "timestamp": "1679857046000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1340",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Amy Million - Assistant Community Development Director",
+    "oldVal": "Allison Schuster - Assistant Planner",
+    "projectId": "projectdetail1340",
+    "timestamp": "1741024800000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1340",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "amy.million@dublin.ca.gov",
+    "oldVal": "allison.schuster@dublin.ca.gov",
+    "projectId": "projectdetail1340",
+    "timestamp": "1741024800000",
+    "type": "developments:update"
   }
 ]
