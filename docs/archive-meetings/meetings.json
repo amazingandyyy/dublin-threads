@@ -1,5 +1,16 @@
 [
   {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission",
+    "date": "03-13-2025",
+    "timestamp": 1741849200000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=653",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3dd3ffcb-a82a-11ef-ab4b-005056a89546-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1741374316.pdf",
+    "orgId": "HeritageandCulturalArtsCommission"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": true,
     "name": "Planning Commission Cancelled",
@@ -81,6 +92,18 @@
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2252",
     "agendaPacket": "",
     "orgId": "ParksandCommunityServicesCommission"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": true,
+    "name": "Heritage and Cultural Arts Commission Cancellation Notice",
+    "date": "02-13-2025",
+    "timestamp": 1739433600000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2269",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2269",
+    "agendaPacket": "",
+    "orgId": "HeritageandCulturalArtsCommission"
   },
   {
     "organizor": "Youth Advisory Committee",
