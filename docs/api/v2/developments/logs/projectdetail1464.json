@@ -1240,5 +1240,33 @@
     "projectId": "projectdetail1464",
     "timestamp": "1741024800000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Applicant",
+      "name"
+    ],
+    "val": "Mitu Walia, Landsea Homes",
+    "oldVal": "Doug Chapman, Landsea Homes",
+    "projectId": "projectdetail1464",
+    "timestamp": "1741392000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Applicant",
+      "phone"
+    ],
+    "val": "925-414-6806",
+    "oldVal": "(209) 324-5909",
+    "projectId": "projectdetail1464",
+    "timestamp": "1741392000000",
+    "type": "developments:update"
   }
 ]
