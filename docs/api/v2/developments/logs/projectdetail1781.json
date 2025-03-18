@@ -353,5 +353,31 @@
     "projectId": "projectdetail1781",
     "timestamp": "1738951200000",
     "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1781",
+      "geolocation",
+      "lat"
+    ],
+    "val": 37.703504,
+    "oldVal": null,
+    "projectId": "projectdetail1781",
+    "timestamp": "1742320800000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1781",
+      "geolocation",
+      "lon"
+    ],
+    "val": -121.861125,
+    "oldVal": null,
+    "projectId": "projectdetail1781",
+    "timestamp": "1742320800000",
+    "type": "developments:update"
   }
 ]
