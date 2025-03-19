@@ -1,5 +1,31 @@
 [
   {
+    "op": "update",
+    "path": [
+      "projectdetail1812",
+      "geolocation",
+      "lat"
+    ],
+    "val": 37.708593,
+    "oldVal": null,
+    "projectId": "projectdetail1812",
+    "timestamp": "1742414400000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1812",
+      "geolocation",
+      "lon"
+    ],
+    "val": -121.839681,
+    "oldVal": null,
+    "projectId": "projectdetail1812",
+    "timestamp": "1742414400000",
+    "type": "developments:update"
+  },
+  {
     "op": "add",
     "path": [
       "projectdetail1812"
