@@ -3,6 +3,18 @@
     "op": "update",
     "path": [
       "projectdetail1812",
+      "description"
+    ],
+    "val": "Development of 110 three-story townhome units with private two-car garages and related site improvements (Tract 8667 Parcel 8). The application includes a Site Development Review Permit.",
+    "oldVal": "Development of 110 three-story townhome units with private 2-car garages and related site improvements (Tract 8667 Parcel 8). The application includes a Site Development Review Permit.",
+    "projectId": "projectdetail1812",
+    "timestamp": "1742414400000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1812",
       "geolocation",
       "lat"
     ],
@@ -24,6 +36,58 @@
     "projectId": "projectdetail1812",
     "timestamp": "1742414400000",
     "type": "developments:update"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1816"
+    ],
+    "val": {
+      "id": "projectdetail1816",
+      "title": "Dublin Fallon 580 Residential (Tract 8666 Parcel 7)",
+      "details": {
+        "Planning Application #": "PLPA-004144-2025",
+        "Application Type": "Site Development Review Permit",
+        "Application Submittal Date": "03/19/2025",
+        "General Plan Land Use": "Medium/High Density Residential",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development",
+        "Project Area": "6.56 acres",
+        "Applicant": {
+          "name": "Wooi See",
+          "address": "2800 Post Oak Blvd., Suite 5115, Houston, TX 77056",
+          "phone": "405-714-2117"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "3457 Croak Road",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "Development of 128 three-story townhome units with private two-car garages and related site improvements (Tract 8666 Parcel 7). The application includes a Site Development Review Permit.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-03-19-130940.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-03-19-130940-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-03-19-130950.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-03-19-130950-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.708067,
+        "lon": -121.843769,
+        "iconName": "dot",
+        "title": "Dublin Fallon 580 Residential (Tract 8666 Parcel 7)"
+      }
+    },
+    "projectId": "projectdetail1816",
+    "timestamp": "1742414400000",
+    "type": "developments:add"
   },
   {
     "op": "add",
