@@ -1,0 +1,54 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1812"
+    ],
+    "val": {
+      "id": "projectdetail1812",
+      "title": "Dublin Fallon 580 Residential (Tract 8667 Parcel 8)",
+      "details": {
+        "Planning Application #": "PLPA-004145-2025",
+        "Application Type": "Site Development Review Permit",
+        "Application Submittal Date": "03/19/2025",
+        "General Plan Land Use": "Medium/High Density Residential",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development",
+        "Project Area": "7.12 acres",
+        "Applicant": {
+          "name": "Wooi See",
+          "address": "2800 Post Oak Blvd., Suite 5115, Houston, TX 77056",
+          "phone": "405-714-2117"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "3457 Croak Road",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "Development of 110 three-story townhome units with private 2-car garages and related site improvements (Tract 8667 Parcel 8). The application includes a Site Development Review Permit.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-03-19-124314.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-03-19-124314-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-03-19-124328.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-03-19-124328-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": null,
+        "lon": null,
+        "iconName": "dot",
+        "title": "Dublin Fallon 580 Residential (Tract 8667 Parcel 8)"
+      }
+    },
+    "projectId": "projectdetail1812",
+    "timestamp": "1742410800000",
+    "type": "developments:add"
+  }
+]
