@@ -11,6 +11,17 @@
     "orgId": "YouthAdvisoryCommittee"
   },
   {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission",
+    "date": "03-27-2025",
+    "timestamp": 1743058800000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "HumanServicesCommission"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": false,
     "name": "Planning Commission Regular Meeting",
