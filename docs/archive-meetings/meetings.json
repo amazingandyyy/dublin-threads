@@ -11,6 +11,17 @@
     "orgId": "YouthAdvisoryCommittee"
   },
   {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "04-08-2025",
+    "timestamp": 1744095600000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "PlanningCommission"
+  },
+  {
     "organizor": "Human Services Commission",
     "cancelled": false,
     "name": "Human Services Commission",
@@ -20,6 +31,18 @@
     "video": "",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/6ecae2af-a8fa-11ef-ab4b-005056a89546-2c2816d6-a723-442a-b84e-a5291bd99692-1742849026.pdf",
     "orgId": "HumanServicesCommission"
+  },
+  {
+    "organizor": "Planning Commission",
+    "cancelled": false,
+    "name": "Planning Commission Regular Meeting",
+    "date": "03-25-2025",
+    "timestamp": 1742886000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2281",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2281",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/7ded3320-9246-11ef-ab4b-005056a89546-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1742420785.pdf",
+    "orgId": "PlanningCommission"
   },
   {
     "organizor": "City Council",
