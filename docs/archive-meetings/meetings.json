@@ -22,6 +22,17 @@
     "orgId": "PlanningCommission"
   },
   {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": "03-29-2025",
+    "timestamp": 1743231600000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=721",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "CityCouncil"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": false,
     "name": "Planning Commission Regular Meeting",
