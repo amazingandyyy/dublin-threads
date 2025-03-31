@@ -36,6 +36,19 @@
     "type": "meeting"
   },
   {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Special Meeting",
+    "date": "03-29-2025",
+    "timestamp": 1743231600000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2287",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2287",
+    "agendaPacket": "",
+    "orgId": "CityCouncil",
+    "type": "meeting"
+  },
+  {
     "organizor": "Human Services Commission",
     "cancelled": false,
     "name": "Human Services Commission",
