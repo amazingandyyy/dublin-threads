@@ -504,5 +504,17 @@
     "projectId": "projectdetail1421",
     "timestamp": "1735797600000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1421",
+      "description"
+    ],
+    "val": "South Bay Partners proposes to develop a community care facility on a 5.74-acre site located at 5751 Arnold Road. The proposed project consists of a two story 140-unit licensed residential care facility for the elderly, including 102 assisted living units, 38 memory care units and a total of 173 beds. Common space amenity areas, and associated site, frontage and landscape improvements are also proposed. Requested approvals include a Planned Development Rezone with a related Stage 1 and Stage 2 Development Plan and a Site Development Review Permit.",
+    "oldVal": "South Bay Partners proposes to develop a community care facility on a 5.74-acre site located at 5751 Arnold Road. The proposed project consists of a two story 152-unit licensed residential care facility for the elderly, including 114 assisted living units, 38 memory care units and a total of 174 beds. Common space amenity areas, and associated site, frontage and landscape improvements are also proposed. Requested approvals include a Planned Development Rezone with a related Stage 1 and Stage 2 Development Plan and a Site Development Review Permit.",
+    "projectId": "projectdetail1421",
+    "timestamp": "1743717600000",
+    "type": "developments:update"
   }
 ]
