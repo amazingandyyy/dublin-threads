@@ -12,6 +12,18 @@
     "type": "meeting"
   },
   {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": true,
+    "name": "Youth Advisory Committee Cancellation Notice",
+    "date": "04-09-2025",
+    "timestamp": 1744182000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=720",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "YouthAdvisoryCommittee",
+    "type": "meeting"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": true,
     "name": "Planning Commission Cancelled",
