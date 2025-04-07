@@ -11,6 +11,17 @@
     "orgId": "YouthAdvisoryCommittee"
   },
   {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission",
+    "date": "04-10-2025",
+    "timestamp": 1744268400000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=654",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3ddc1045-a82a-11ef-ab4b-005056a89546-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1744044654.pdf",
+    "orgId": "HeritageandCulturalArtsCommission"
+  },
+  {
     "organizor": "Youth Advisory Committee",
     "cancelled": true,
     "name": "Youth Advisory Committee Cancellation Notice",
