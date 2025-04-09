@@ -36,18 +36,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "Planning Commission",
-    "cancelled": true,
-    "name": "Planning Commission Cancelled",
-    "date": "04-08-2025",
-    "timestamp": 1744095600000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=614",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "PlanningCommission",
-    "type": "meeting"
-  },
-  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
