@@ -22,6 +22,17 @@
     "orgId": "YouthAdvisoryCommittee"
   },
   {
+    "organizor": "",
+    "cancelled": false,
+    "name": "Economic Development Committee",
+    "date": "04-15-2025",
+    "timestamp": 1744700400000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": ""
+  },
+  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
