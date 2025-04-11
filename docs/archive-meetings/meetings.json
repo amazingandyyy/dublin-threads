@@ -44,6 +44,17 @@
     "orgId": "CityCouncil"
   },
   {
+    "organizor": "",
+    "cancelled": false,
+    "name": "Finance and Investment Committee",
+    "date": "04-14-2025",
+    "timestamp": 1744614000000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": ""
+  },
+  {
     "organizor": "Heritage and Cultural Arts Commission",
     "cancelled": false,
     "name": "Heritage and Cultural Arts Commission",
