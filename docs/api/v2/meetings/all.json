@@ -24,6 +24,32 @@
     "type": "meeting"
   },
   {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "04-15-2025",
+    "timestamp": 1744700400000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2304",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2304",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/68f9988b-a929-11ef-ab4b-005056a89546-3024744b-ade7-4818-a498-958db485d49e-1744756325.pdf",
+    "orgId": "CityCouncil",
+    "type": "meeting"
+  },
+  {
+    "organizor": "Economic Development Committee",
+    "cancelled": false,
+    "name": "Economic Development Committee",
+    "date": "04-15-2025",
+    "timestamp": 1744700400000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2306",
+    "minutes": "",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/9f3fc14e-e01b-11ef-a9e2-005056a89546-8cd0ef6a-5619-49ac-aa28-2fb473020075-1744387733.pdf",
+    "orgId": "EconomicDevelopmentCommittee",
+    "type": "meeting"
+  },
+  {
     "organizor": "Finance and Investment Committee",
     "cancelled": false,
     "name": "Finance and Investment Committee",
