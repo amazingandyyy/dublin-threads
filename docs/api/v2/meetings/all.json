@@ -24,18 +24,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "",
-    "cancelled": false,
-    "name": "Economic Development Committee",
-    "date": "04-15-2025",
-    "timestamp": 1744700400000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=709",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/9f3fc14e-e01b-11ef-a9e2-005056a89546-8cd0ef6a-5619-49ac-aa28-2fb473020075-1744387733.pdf",
-    "orgId": "",
-    "type": "meeting"
-  },
-  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
