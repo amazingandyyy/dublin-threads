@@ -12,6 +12,18 @@
     "type": "meeting"
   },
   {
+    "organizor": "",
+    "cancelled": false,
+    "name": "Federal and Military Communities Committee",
+    "date": "04-21-2025",
+    "timestamp": 1745218800000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "",
+    "type": "meeting"
+  },
+  {
     "organizor": "Youth Advisory Committee",
     "cancelled": false,
     "name": "Youth Advisory Committee Special Meeting",
