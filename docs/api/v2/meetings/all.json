@@ -24,6 +24,19 @@
     "type": "meeting"
   },
   {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Parks and Community Services Commission",
+    "date": "04-21-2025",
+    "timestamp": 1745218800000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2309",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2309",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/684841cd-a82a-11ef-ab4b-005056a89546-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1745341749.pdf",
+    "orgId": "ParksandCommunityServicesCommission",
+    "type": "meeting"
+  },
+  {
     "organizor": "Youth Advisory Committee",
     "cancelled": false,
     "name": "Youth Advisory Committee Special Meeting",
