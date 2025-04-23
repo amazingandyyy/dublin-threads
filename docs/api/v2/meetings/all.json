@@ -12,6 +12,19 @@
     "type": "meeting"
   },
   {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council - Notice of State of the City Address",
+    "date": "04-23-2025",
+    "timestamp": 1745391600000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2314",
+    "minutes": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "CityCouncil",
+    "type": "meeting"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": false,
     "name": "Planning Commission Regular Meeting",
