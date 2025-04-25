@@ -11,6 +11,17 @@
     "orgId": "PlanningCommission"
   },
   {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": "05-01-2025",
+    "timestamp": 1746082800000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=516",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "SeniorCenterAdvisoryCommittee"
+  },
+  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council - Notice of State of the City Address",
