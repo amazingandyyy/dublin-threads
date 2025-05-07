@@ -771,5 +771,131 @@
     "projectId": "projectdetail1189",
     "timestamp": "1735797600000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1189",
+      "description"
+    ],
+    "val": "Development of 165.5-acre site consisting of a 573-unit residential project within six neighborhoods, two neighborhood parks totaling 11.5 acres, and a two-acre Semi-Public Site. The proposed development includes five architecture styles: Traditional Farmhouse, Modern Farmhouse, Contemporary Cottage, Contemporary Prairie, and Craftsman as shown in the project plans. The two-acre Semi-Public site has been identified where in partnership with Trumark Homes and Eden Housing, Sunflower Hill will co-develop 77 units of very low/low-income affordable rental housing for people with intellectual and developmental disabilities.",
+    "oldVal": "The Applicant, Trumark Homes, LLC, filed applications for the development of 165.5-acre site with a 573-unit residential project within six neighborhoods, two neighborhood parks 11.5 acres, and a two-acre Semi-Public Site. The proposed development includes four architecture styles: Traditional Farmhouse, Modern Farmhouse, California Revival, and Contemporary, as shown in the project plans. The design and use of the Semi-Public site has not been determined.",
+    "projectId": "projectdetail1189",
+    "timestamp": "1746648000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1189",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/bicycle-circulation-plan-scaled.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/NH-Plan-scaled.jpg",
+    "projectId": "projectdetail1189",
+    "timestamp": "1746648000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1189",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/bicycle-circulation-plan-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/NH-Plan-150x150.jpg",
+    "projectId": "projectdetail1189",
+    "timestamp": "1746648000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1189",
+      "images",
+      3,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide5-e1595876823559.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/bicycle-circulation-plan-scaled.jpg",
+    "projectId": "projectdetail1189",
+    "timestamp": "1746648000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1189",
+      "images",
+      3,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide5-e1595876823559-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/bicycle-circulation-plan-150x150.jpg",
+    "projectId": "projectdetail1189",
+    "timestamp": "1746648000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1189",
+      "images",
+      4,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide6-e1595876941485.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide5-e1595876823559.jpg",
+    "projectId": "projectdetail1189",
+    "timestamp": "1746648000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1189",
+      "images",
+      4,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide6-e1595876941485-150x150.jpg",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide5-e1595876823559-150x150.jpg",
+    "projectId": "projectdetail1189",
+    "timestamp": "1746648000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1189",
+      "images",
+      5
+    ],
+    "oldVal": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide6-e1595876941485.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/Slide6-e1595876941485-150x150.jpg"
+    },
+    "projectId": "projectdetail1189",
+    "timestamp": "1746648000000",
+    "type": "developments:delete"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1189",
+      "images",
+      6
+    ],
+    "oldVal": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/N6-3-story.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2019/10/N6-3-story-150x150.jpg"
+    },
+    "projectId": "projectdetail1189",
+    "timestamp": "1746648000000",
+    "type": "developments:delete"
   }
 ]
