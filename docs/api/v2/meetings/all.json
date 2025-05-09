@@ -36,18 +36,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "Heritage and Cultural Arts Commission",
-    "cancelled": false,
-    "name": "Heritage and Cultural Arts Commission",
-    "date": "05-08-2025",
-    "timestamp": 1746687600000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=655",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3de2ff80-a82a-11ef-ab4b-005056a89546-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1746484729.pdf",
-    "orgId": "HeritageandCulturalArtsCommission",
-    "type": "meeting"
-  },
-  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
