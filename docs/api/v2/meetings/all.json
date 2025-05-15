@@ -12,6 +12,18 @@
     "type": "meeting"
   },
   {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "05-20-2025",
+    "timestamp": 1747724400000,
+    "agenda": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "CityCouncil",
+    "type": "meeting"
+  },
+  {
     "organizor": "Parks and Community Services Commission",
     "cancelled": true,
     "name": "Parks and Community Services Commission Cancellation Notice",
