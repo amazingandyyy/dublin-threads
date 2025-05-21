@@ -22,6 +22,18 @@
     "orgId": ""
   },
   {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "05-20-2025",
+    "timestamp": 1747724400000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2325",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2325",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/68fea298-a929-11ef-ab4b-005056a89546-3024744b-ade7-4818-a498-958db485d49e-1747781405.pdf",
+    "orgId": "CityCouncil"
+  },
+  {
     "organizor": "Youth Advisory Committee",
     "cancelled": false,
     "name": "Youth Advisory Committee",
