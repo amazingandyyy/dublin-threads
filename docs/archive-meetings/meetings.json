@@ -11,17 +11,6 @@
     "orgId": "PlanningCommission"
   },
   {
-    "organizor": "",
-    "cancelled": false,
-    "name": "DUSD/Dublin Liaison Committee",
-    "date": "05-22-2025",
-    "timestamp": 1747897200000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=729",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": ""
-  },
-  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
