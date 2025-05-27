@@ -108,7 +108,7 @@
     "date": "05-06-2025",
     "timestamp": 1746514800000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2316",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=2316&doc_id=03353327-3b17-11f0-856f-005056a89546",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2316",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/68fc2217-a929-11ef-ab4b-005056a89546-3024744b-ade7-4818-a498-958db485d49e-1746576329.pdf",
     "orgId": "CityCouncil",
