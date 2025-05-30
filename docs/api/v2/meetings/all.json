@@ -12,6 +12,19 @@
     "type": "meeting"
   },
   {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission Special Meeting",
+    "date": "05-29-2025",
+    "timestamp": 1748502000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2338",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2338",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/eaedee83-2c2b-11f0-856f-005056a89546-2c2816d6-a723-442a-b84e-a5291bd99692-1748471878.pdf",
+    "orgId": "HumanServicesCommission",
+    "type": "meeting"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": false,
     "name": "Planning Commission Regular Meeting",
