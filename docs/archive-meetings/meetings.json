@@ -11,6 +11,28 @@
     "orgId": "PlanningCommission"
   },
   {
+    "organizor": "Geologic Hazard Abatement District",
+    "cancelled": false,
+    "name": "Joint Geologic Hazard Abatement District Meeting",
+    "date": "06-03-2025",
+    "timestamp": 1748934000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=717",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/4d82e6b1-f88e-11ef-ab6a-005056a89546-3024744b-ade7-4818-a498-958db485d49e-1748628122.pdf",
+    "orgId": "GeologicHazardAbatementDistrict"
+  },
+  {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "06-03-2025",
+    "timestamp": 1748934000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=686",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/6901c584-a929-11ef-ab4b-005056a89546-3024744b-ade7-4818-a498-958db485d49e-1748627975.pdf",
+    "orgId": "CityCouncil"
+  },
+  {
     "organizor": "Human Services Commission",
     "cancelled": false,
     "name": "Human Services Commission Special Meeting",
