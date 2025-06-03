@@ -36,6 +36,19 @@
     "type": "meeting"
   },
   {
+    "organizor": "Finance and Investment Committee",
+    "cancelled": false,
+    "name": "Finance and Investment Committee Special Meeting",
+    "date": "06-02-2025",
+    "timestamp": 1748847600000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2339",
+    "minutes": "",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/7c94db2d-3ccb-11f0-856f-005056a89546-3024744b-ade7-4818-a498-958db485d49e-1748700191.pdf",
+    "orgId": "FinanceandInvestmentCommittee",
+    "type": "meeting"
+  },
+  {
     "organizor": "Human Services Commission",
     "cancelled": false,
     "name": "Human Services Commission Special Meeting",
