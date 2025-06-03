@@ -387,5 +387,17 @@
     "projectId": "projectdetail1461",
     "timestamp": "1741024800000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "description"
+    ],
+    "val": "Site Development Review Permit for the remodel of the existing McDonald’s restaurant including a 597 square foot addition and a second drive-through lane.",
+    "oldVal": "Site Development Review Permit for the remodel of the existing McDonald’s restaurant including a 597 square foot addition and a second drive-thru lane.",
+    "projectId": "projectdetail1461",
+    "timestamp": "1748988000000",
+    "type": "developments:update"
   }
 ]

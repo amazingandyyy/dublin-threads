@@ -1,5 +1,29 @@
 [
   {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "description"
+    ],
+    "val": "Site Development Review Permit for the remodel of the existing McDonald’s restaurant including a 597 square foot addition and a second drive-through lane.",
+    "oldVal": "Site Development Review Permit for the remodel of the existing McDonald’s restaurant including a 597 square foot addition and a second drive-thru lane.",
+    "projectId": "projectdetail1461",
+    "timestamp": "1748988000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1402",
+      "description"
+    ],
+    "val": "Eden Housing proposes to develop a 1.32-acre site located at 6541-6543 Regional Street within the Downtown Dublin Specific Plan Transit-Oriented District and within walking distance of the West Dublin/Pleasanton BART Station. The Regional Street Senior Affordable Housing project consists of 113 units of housing to serve low and very low-income seniors and includes amenity space and parking.",
+    "oldVal": "Eden Housing proposes to develop a 1.32-acre site located at 6541-6543 Regional Street within the Downtown Dublin Specific Plan Transit-Oriented District and walking distance of the West Dublin/Pleasanton BART Station. The Regional Senior Affordable Housing project consists of 113 units of housing to serve low- and very low-income seniors and includes amenity space and parking.",
+    "projectId": "projectdetail1402",
+    "timestamp": "1748988000000",
+    "type": "developments:update"
+  },
+  {
     "op": "delete",
     "path": [
       "projectdetail1372"
