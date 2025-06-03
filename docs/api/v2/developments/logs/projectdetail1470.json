@@ -194,5 +194,17 @@
     "projectId": "projectdetail1470",
     "timestamp": "1735797600000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1470",
+      "description"
+    ],
+    "val": "Development of a new 3,574 square-foot self-service car wash located on the southwest corner of Dublin Boulevard and Kaiser Road. The project requires a Planned Development Stage 1 and Stage 2 amendment, Site Development Review Permit and Conditional Use Permit.",
+    "oldVal": "A new 3,574 square foot self-service car wash located on the southwest corner of Dublin Boulevard and Kaiser Road. The project requires a Planned Development Stage 1 and Stage 2 amendment, Site Development Review Permit and Conditional Use Permit.",
+    "projectId": "projectdetail1470",
+    "timestamp": "1748991600000",
+    "type": "developments:update"
   }
 ]
