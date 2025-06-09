@@ -429,9 +429,9 @@
         </div>
         <div class="gas_links">
           <a href="//dublin.granicus.com/ViewPublisherRSS.php?view_id=1&amp;mode=agendas">Agenda</a>
-          <a href="//dublin.granicus.com/ViewPublisherRSS.php?view_id=1&amp;mode=minutes">Minutes</a>
-          <a href="//dublin.granicus.com/ViewPublisherRSS.php?view_id=1&amp;mode=podcast">Podcast</a>
-          <a href="//dublin.granicus.com/ViewPublisherRSS.php?view_id=1&amp;mode=vpodcast">Video Podcast</a>
+          <a href="//dublin.granicus.com/ViewPublisherRSS.php?view_id=1&amp;mode=minutes" style="border: 0px none;">Minutes</a>
+          <a href="//dublin.granicus.com/ViewPublisherRSS.php?view_id=1&amp;mode=podcast" style="display: none; border: 0px none;">Podcast</a>
+          <a href="//dublin.granicus.com/ViewPublisherRSS.php?view_id=1&amp;mode=vpodcast" style="display: none;">Video Podcast</a>
         </div>
       </div>
       <div class="gas_basicSearch">
@@ -442,7 +442,7 @@
             <input type="hidden" name="types[Vote,Motion]" value="on">
             <input type="hidden" name="types[Caption]" value="on">
           <label for="gas_keywords" class="gas_title">Search Archives:</label>
-          <input title="Enter Keywords here" type="text" id="gas_keywords" name="allwords" value="" maxlength="255">
+          <input title="Enter Keywords here" type="text" id="gas_keywords" name="allwords" value="" maxlength="255" class="default">
           &nbsp;<button type="submit" value="Search" class="gas_searchButton">Search</button>
           <a class="gas_toggleSearch gas_advanced" href="javascript:void(0);">Advanced Search</a>
         </form>
@@ -481,7 +481,7 @@
           <div class="gas_row">
             <label for="gas_allwords">All these words:</label>
             <div class="gas_input">
-              <input title="Enter keywords, ordinance or resolution" type="text" id="gas_allwords" name="allwords" maxlength="255" value="">
+              <input title="Enter keywords, ordinance or resolution" type="text" id="gas_allwords" name="allwords" maxlength="255" value="" class="default">
             </div>
           </div>
           <div class="gas_row">
@@ -509,9 +509,9 @@
           <div class="gas_row">
             <label for="gas_date1">Date Range:</label>
             <div class="gas_input gas_mini">
-              <input aria-label="Start date" class="gas_date gas_dateRange" type="text" id="gas_date1" name="startdate" value="">
+              <input aria-label="Start date" class="gas_date gas_dateRange hasDatepicker" type="text" id="gas_date1" name="startdate" value="">
               <span><label for="gas_date2">through</label></span>
-              <input aria-label="End date" class="gas_date gas_dateRange" type="text" id="gas_date2" name="enddate" value="">
+              <input aria-label="End date" class="gas_date gas_dateRange hasDatepicker" type="text" id="gas_date2" name="enddate" value="">
             </div>
           </div>
           <div class="gas_action">
@@ -14147,4 +14147,4 @@
     </script>
   
 
-</body></html>
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all ui-helper-hidden-accessible"></div></body></html>
