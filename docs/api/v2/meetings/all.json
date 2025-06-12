@@ -36,18 +36,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "Youth Advisory Committee",
-    "cancelled": false,
-    "name": "Youth Advisory Committee",
-    "date": "06-11-2025",
-    "timestamp": 1749625200000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=644",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/1cee6c16-a766-11ef-ab4b-005056a89546-aca45bd2-f249-4a58-951f-572f36d317a3-1749251013.pdf",
-    "orgId": "YouthAdvisoryCommittee",
-    "type": "meeting"
-  },
-  {
     "organizor": "Planning Commission",
     "cancelled": true,
     "name": "Planning Commission Cancelled",
