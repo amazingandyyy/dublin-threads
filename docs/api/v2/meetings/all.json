@@ -12,6 +12,18 @@
     "type": "meeting"
   },
   {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "06-17-2025",
+    "timestamp": 1750143600000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=687",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/69041c87-a929-11ef-ab4b-005056a89546-3024744b-ade7-4818-a498-958db485d49e-1749777615.pdf",
+    "orgId": "CityCouncil",
+    "type": "meeting"
+  },
+  {
     "organizor": "Parks and Community Services Commission",
     "cancelled": true,
     "name": "Parks and Community Services Commission Cancellation Notice",
