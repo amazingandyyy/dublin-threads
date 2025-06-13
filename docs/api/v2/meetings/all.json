@@ -48,6 +48,19 @@
     "type": "meeting"
   },
   {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission",
+    "date": "06-12-2025",
+    "timestamp": 1749711600000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2353",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2353",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3de77f21-a82a-11ef-ab4b-005056a89546-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1749247470.pdf",
+    "orgId": "HeritageandCulturalArtsCommission",
+    "type": "meeting"
+  },
+  {
     "organizor": "Youth Advisory Committee",
     "cancelled": false,
     "name": "Youth Advisory Committee",
