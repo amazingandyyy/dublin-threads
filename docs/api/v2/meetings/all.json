@@ -36,18 +36,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "Parks and Community Services Commission",
-    "cancelled": true,
-    "name": "Parks and Community Services Commission Cancellation Notice",
-    "date": "06-16-2025",
-    "timestamp": 1750057200000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=731",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "ParksandCommunityServicesCommission",
-    "type": "meeting"
-  },
-  {
     "organizor": "Heritage and Cultural Arts Commission",
     "cancelled": false,
     "name": "Heritage and Cultural Arts Commission",
