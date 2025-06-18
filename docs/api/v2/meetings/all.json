@@ -1,14 +1,27 @@
 [
   {
     "organizor": "Planning Commission",
-    "cancelled": false,
-    "name": "Planning Commission Regular Meeting",
+    "cancelled": true,
+    "name": "Planning Commission Cancelled",
     "date": "06-24-2025",
     "timestamp": 1750748400000,
     "agenda": "",
     "video": "",
     "agendaPacket": "",
     "orgId": "PlanningCommission",
+    "type": "meeting"
+  },
+  {
+    "organizor": "Economic Development Committee",
+    "cancelled": true,
+    "name": "Economic Development Committee Cancellation Notice",
+    "date": "06-17-2025",
+    "timestamp": 1750143600000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2356",
+    "minutes": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "EconomicDevelopmentCommittee",
     "type": "meeting"
   },
   {
