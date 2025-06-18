@@ -11,17 +11,6 @@
     "orgId": "PlanningCommission"
   },
   {
-    "organizor": "",
-    "cancelled": true,
-    "name": "Economic Development Committee Cancellation Notice",
-    "date": "06-17-2025",
-    "timestamp": 1750143600000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=732",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": ""
-  },
-  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
