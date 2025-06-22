@@ -1,5 +1,65 @@
 [
   {
+    "op": "delete",
+    "path": [
+      "projectdetail1387"
+    ],
+    "oldVal": {
+      "id": "projectdetail1387",
+      "title": "Dublin Transit Center Parking Garage",
+      "details": {
+        "Planning Application #": "n/a",
+        "Application Type": "n/a",
+        "Application Submittal Date": "05/19/2021",
+        "General Plan Land Use": "Campus Office",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "PD Ordinance No. 21-02",
+        "Project Area": "2.46 acres",
+        "Building Area": "179,000 square feet",
+        "Stories/Height": "5 stories",
+        "Parking Provided": "516 parking spaces",
+        "Applicant": {
+          "name": "County of Alameda General Services Agency",
+          "address": "1401 Lakeside Drive, Suite 800, Oakland, CA 94612",
+          "phone": "510-208-9590"
+        },
+        "Project Planner": {
+          "name": "Bernadette Delgado - Medical Capital Program Manager, County of Alameda General Services Agency",
+          "phone": "(510) 208-9700",
+          "email": ""
+        }
+      },
+      "location": "Campus Drive",
+      "docs": [
+        {
+          "name": "Environmental Document: Alameda County Board of Supervisors June 4, 2019 Agenda",
+          "url": "http://www.acgov.org/board/bos_calendar/documents/DocsAgendaReg_06_04_19/GENERAL%20ADMINISTRATION/Regular%20Calendar/GSA_Supervisor%20Haggerty_280699.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "The proposed Dublin Transit Center Parking Garage Project near the Dublin/Pleasanton BART station will have a capacity for over 500 parking spaces for Tri-Valley area commuters, including priority vanpool parking and Electric Vehicle (EV) charging stations. The project promote and increase BART ridership and to advance the Dublin/Pleasanton BART Capacity Improvement and Congestion Reduction Program. Alameda County’s General Services Agency will be responsible for day-to-day management of garage design and construction. For additional information on this project contact:",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/05/Dublin-Parking-Case-Study-1_Page_1.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/05/Dublin-Parking-Case-Study-1_Page_1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2021/05/Dublin-Parking-Case-Study-1_Page_2.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2021/05/Dublin-Parking-Case-Study-1_Page_2-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.70377,
+        "lon": -121.896196,
+        "iconName": "dot",
+        "title": "Dublin Transit Center Parking Garage"
+      }
+    },
+    "projectId": "projectdetail1387",
+    "timestamp": "1750622400000",
+    "type": "developments:delete"
+  },
+  {
     "op": "update",
     "path": [
       "projectdetail1470",
