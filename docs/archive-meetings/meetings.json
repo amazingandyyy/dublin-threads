@@ -1,5 +1,17 @@
 [
   {
+    "organizor": "Economic Development Committee",
+    "cancelled": false,
+    "name": "Economic Development Committee Special Meeting",
+    "date": "06-24-2025",
+    "timestamp": 1750748400000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2358",
+    "minutes": "",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/9f442a7e-e01b-11ef-a9e2-005056a89546-8cd0ef6a-5619-49ac-aa28-2fb473020075-1750183465.pdf",
+    "orgId": "EconomicDevelopmentCommittee"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": true,
     "name": "Planning Commission Cancelled",
@@ -9,6 +21,18 @@
     "video": "",
     "agendaPacket": "",
     "orgId": "PlanningCommission"
+  },
+  {
+    "organizor": "City Council Liaison Committees",
+    "cancelled": false,
+    "name": "DSRSD/Dublin Liaison Committee Meeting",
+    "date": "06-23-2025",
+    "timestamp": 1750662000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2359",
+    "minutes": "",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "CityCouncilLiaisonCommittees"
   },
   {
     "organizor": "City Council",
