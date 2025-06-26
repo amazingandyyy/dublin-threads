@@ -965,7 +965,7 @@
     "date": "11-07-2024",
     "timestamp": 1730966400000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2233",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=2233&doc_id=edef72cb-52bc-11f0-b7f5-005056a89546",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2233",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/99336b75-93c1-11ee-a93d-0050569183fa-2c2816d6-a723-442a-b84e-a5291bd99692-1730329204.pdf",
     "orgId": "SeniorCenterAdvisoryCommittee"
