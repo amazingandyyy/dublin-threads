@@ -1,5 +1,233 @@
 [
   {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "title"
+    ],
+    "val": "McDonald’s Restaurant Rebuild",
+    "oldVal": "McDonald’s Remodel",
+    "projectId": "projectdetail1461",
+    "timestamp": "1751994000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Planning Application #"
+    ],
+    "val": "PLPA-004220-2025",
+    "oldVal": "PLPA-2022-00006",
+    "projectId": "projectdetail1461",
+    "timestamp": "1751994000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Application Submittal Date"
+    ],
+    "val": "07/08/2025",
+    "oldVal": "03/02/2022",
+    "projectId": "projectdetail1461",
+    "timestamp": "1751994000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Building Area"
+    ],
+    "val": "4,394 square feet",
+    "oldVal": "3,795 square feet",
+    "projectId": "projectdetail1461",
+    "timestamp": "1751994000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Foor Area Ratio"
+    ],
+    "val": ".11 FAR",
+    "oldVal": ".08 FAR",
+    "projectId": "projectdetail1461",
+    "timestamp": "1751994000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Parking Provided"
+    ],
+    "val": "20 parking spaces",
+    "oldVal": "32 parking spaces",
+    "projectId": "projectdetail1461",
+    "timestamp": "1751994000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Applicant",
+      "name"
+    ],
+    "val": "Adam Brandenburg, Project Manager for McDonald's",
+    "oldVal": "Adam Brandenburg , Project Manager for McDonald's",
+    "projectId": "projectdetail1461",
+    "timestamp": "1751994000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Applicant",
+      "phone"
+    ],
+    "val": "(509) 643-6416",
+    "oldVal": "509.643.6416",
+    "projectId": "projectdetail1461",
+    "timestamp": "1751994000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Kristie Wheeler - Special Projects Manager",
+    "oldVal": "Shane Fields - Assistant Planner",
+    "projectId": "projectdetail1461",
+    "timestamp": "1751994000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "kristie.wheeler@dublin.ca.gov",
+    "oldVal": "shane.fields@dublin.ca.gov",
+    "projectId": "projectdetail1461",
+    "timestamp": "1751994000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "status"
+    ],
+    "val": "Pre-Application",
+    "oldVal": "Application Under Review",
+    "projectId": "projectdetail1461",
+    "timestamp": "1751994000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "description"
+    ],
+    "val": "Site Development Review Permit to allow demolition of an existing McDonald’s restaurant and construction of a new 4,394-square-foot restaurant building, drive-through, trash enclosure and site improvements.",
+    "oldVal": "Site Development Review Permit for the remodel of the existing McDonald’s restaurant including a 597 square foot addition and a second drive-through lane.",
+    "projectId": "projectdetail1461",
+    "timestamp": "1751994000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/7-McDonalds-_Planning-Set-8.pdf",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Pages-from-40272-Dublin-CA-Planning_2023.09.29-scaled.jpg",
+    "projectId": "projectdetail1461",
+    "timestamp": "1751994000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Pages-from-40272-Dublin-CA-Planning_2023.09.29-150x150.jpg",
+    "projectId": "projectdetail1461",
+    "timestamp": "1751994000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1461",
+      "images",
+      1
+    ],
+    "oldVal": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Pages-from-40272-Dublin-CA-Planning_2023.09.29-2-scaled.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Pages-from-40272-Dublin-CA-Planning_2023.09.29-2-150x150.jpg"
+    },
+    "projectId": "projectdetail1461",
+    "timestamp": "1751994000000",
+    "type": "developments:delete"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1461",
+      "images",
+      2
+    ],
+    "oldVal": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/mcD-site-plan-scaled.jpg",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/mcD-site-plan-150x150.jpg"
+    },
+    "projectId": "projectdetail1461",
+    "timestamp": "1751994000000",
+    "type": "developments:delete"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1461",
+      "geolocation",
+      "title"
+    ],
+    "val": "McDonald’s Restaurant Rebuild",
+    "oldVal": "McDonald’s Remodel",
+    "projectId": "projectdetail1461",
+    "timestamp": "1751994000000",
+    "type": "developments:update"
+  },
+  {
     "op": "delete",
     "path": [
       "projectdetail1387"
