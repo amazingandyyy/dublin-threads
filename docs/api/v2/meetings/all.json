@@ -187,7 +187,7 @@
     "date": "05-27-2025",
     "timestamp": 1748329200000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2335",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=2335&doc_id=1779ae12-5da4-11f0-b7f5-005056a89546",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2335",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/7df41335-9246-11ef-ab4b-005056a89546-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1748380288.pdf",
     "orgId": "PlanningCommission",
