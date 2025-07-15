@@ -1,5 +1,17 @@
 [
   {
+    "organizor": "",
+    "cancelled": true,
+    "name": "Federal and Military Communities Committee Cancellation Notice",
+    "date": "07-21-2025",
+    "timestamp": 1753081200000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=735",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "",
+    "type": "meeting"
+  },
+  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
