@@ -12,6 +12,18 @@
     "type": "meeting"
   },
   {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "07-15-2025",
+    "timestamp": 1752562800000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=689",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/690912bf-a929-11ef-ab4b-005056a89546-68461a92-7951-4f6a-b822-ac18b81da690-1752618616.pdf",
+    "orgId": "CityCouncil",
+    "type": "meeting"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": false,
     "name": "Planning Commission Regular Meeting",
@@ -7432,18 +7444,6 @@
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=901",
     "agendaPacket": "",
     "orgId": "HeritageandCulturalArtsCommission",
-    "type": "meeting"
-  },
-  {
-    "organizor": "City Council",
-    "cancelled": false,
-    "name": "City Council Regular Meeting",
-    "date": null,
-    "timestamp": 0,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=689",
-    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&event_id=689','player','toolbar=no,directories=no,status=yes,scrollbars=no,resizable=yes,menubar=no')",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/690912bf-a929-11ef-ab4b-005056a89546-68461a92-7951-4f6a-b822-ac18b81da690-1752618616.pdf",
-    "orgId": "CityCouncil",
     "type": "meeting"
   }
 ]
