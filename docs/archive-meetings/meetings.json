@@ -11,6 +11,17 @@
     "orgId": "PlanningCommission"
   },
   {
+    "organizor": "",
+    "cancelled": false,
+    "name": "Finance and Investment Committee",
+    "date": "08-05-2025",
+    "timestamp": 1754377200000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=736",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": ""
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": true,
     "name": "Planning Commission Cancelled",
