@@ -6,3 +6,5 @@ package-lock.json
 .idea
 /dublin-development.icitywork.com/
 .env.*
+.vercel
+.env*
