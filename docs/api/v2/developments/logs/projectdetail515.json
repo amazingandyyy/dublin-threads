@@ -286,5 +286,62 @@
     "projectId": "projectdetail515",
     "timestamp": "1741024800000",
     "type": "developments:update"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail515"
+    ],
+    "oldVal": {
+      "id": "projectdetail515",
+      "title": "Boulevard (Dublin Crossing) – Phase 4 & 5",
+      "details": {
+        "Planning Application #": "PLPA-2016-00064",
+        "Application Type": "Site Development Review Permit and Vesting Tentative Tract Map",
+        "Application Submittal Date": "12/05/2016",
+        "General Plan Land Use": "Dublin Crossing Specific Plan",
+        "Specific Plan Area": "Dublin Crossing Specific Plan",
+        "Zoning": "DCPD",
+        "Project Area": "40 acres",
+        "Applicant": {
+          "name": "Mandi Misasi, Brookfield Residential",
+          "address": "12657 Alcosta Blvd. Ste 250, San Ramon CA 94563",
+          "phone": "925-743-8000"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Assistant Community Development Director",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "Dublin Boulevard",
+      "docs": [
+        {
+          "name": "April 10, 2018 Planning Commission Staff Report",
+          "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1278&Inline=True"
+        },
+        {
+          "name": "May 8, 2018 Planning Commission Staff Report",
+          "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1287&Inline=True"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Phases 4 and 5 of the Boulevard project include 510 units and landscape improvements.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.711036,
+        "lon": -121.905749,
+        "iconName": "home",
+        "title": "Boulevard (Dublin Crossing) – Phase 4 & 5"
+      }
+    },
+    "projectId": "projectdetail515",
+    "timestamp": "1787515200000",
+    "type": "developments:delete"
   }
 ]

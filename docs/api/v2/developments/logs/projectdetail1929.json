@@ -1,0 +1,62 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1929"
+    ],
+    "val": {
+      "id": "projectdetail1929",
+      "title": "Dublin Collision Center",
+      "details": {
+        "Planning Application #": "PLPA-004314-2025",
+        "Application Type": "Site Development Review Permit",
+        "Application Submittal Date": "12/16/2025",
+        "General Plan Land Use": "Retail/Office and Automotive",
+        "Specific Plan Area": "General Plan",
+        "Zoning": "General Commercial (C-2)",
+        "Project Area": "4 acres",
+        "Building Area": "43,000 square feet",
+        "Stories/Height": "1 story / 29 feet",
+        "Parking Provided": "232 parking spaces",
+        "Applicant": {
+          "name": "CVP – Dublin TSLA, LLC",
+          "address": "2188 SW Park Place Suite 100, Portland OR 97205",
+          "phone": "503 228-2100"
+        },
+        "Project Planner": {
+          "name": "Jennifer Byous - Planning Manager",
+          "phone": "(925) 833-6610",
+          "email": "jennifer.byous@dublin.ca.gov"
+        }
+      },
+      "location": "6450 Dublin Court",
+      "docs": [
+        {
+          "name": "June 23, 2026 Planning Commission Agenda & Staff Report",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2025/12/June-23-2026-planning-commission-agenda.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Background",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/12/Screenshot-2025-12-16-elevations-scaled.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/12/Screenshot-2025-12-16-elevations-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/12/Screenshot-2025-12-16-site-plan-scaled.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/12/Screenshot-2025-12-16-site-plan-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.702768,
+        "lon": -121.911255,
+        "iconName": "dot",
+        "title": "Dublin Collision Center"
+      }
+    },
+    "projectId": "projectdetail1929",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
+  }
+]

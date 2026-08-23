@@ -140,5 +140,33 @@
     "projectId": "projectdetail1378",
     "timestamp": "1741024800000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1378",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Radha Hayagreev - Principal Planner",
+    "oldVal": "Amy Million - Assistant Community Development Director",
+    "projectId": "projectdetail1378",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1378",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "radha.hayagreev@dublin.ca.gov",
+    "oldVal": "amy.million@dublin.ca.gov",
+    "projectId": "projectdetail1378",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
   }
 ]

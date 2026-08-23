@@ -1268,5 +1268,78 @@
     "projectId": "projectdetail1464",
     "timestamp": "1741392000000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Radha Hayagreev - Principal Planner",
+    "oldVal": "Amy Million - Assistant Community Development Director",
+    "projectId": "projectdetail1464",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "radha.hayagreev@dublin.ca.gov",
+    "oldVal": "amy.million@dublin.ca.gov",
+    "projectId": "projectdetail1464",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      3
+    ],
+    "val": {
+      "name": "Planning Commission Agenda & Staff Report May 26, 2026",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/30cfecb265fd80a33d646b293b930eb00.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      4
+    ],
+    "val": {
+      "name": "City council Agenda & Staff Report June 16, 2026",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/a8760ccb0fde4ed676c2f1734c09d6aa0.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      5
+    ],
+    "val": {
+      "name": "City Council Agenda & Staff Report July 21, 2026",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/2b8ce3c44d842b3721ab1f5445a785e30.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
   }
 ]

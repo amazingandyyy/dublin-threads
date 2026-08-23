@@ -807,5 +807,94 @@
     "projectId": "projectdetail1068",
     "timestamp": "1738947600000",
     "type": "developments:add"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1068"
+    ],
+    "oldVal": {
+      "id": "projectdetail1068",
+      "title": "BASIS Independent School (Corrie Center)",
+      "details": {
+        "Planning Application #": "PLPA-2023-00011",
+        "Application Type": "Conditional Use Permit and Site Development Review",
+        "Application Submittal Date": "08/05/2022",
+        "General Plan Land Use": "Downtown Dublin - Transit Oriented District",
+        "Specific Plan Area": "Downtown Dublin Specific Plan",
+        "Zoning": "Downtown Dublin Zoning District - DDZD",
+        "Project Area": "3.72 acres",
+        "Applicant": {
+          "name": "Jerry Hunt, Rubicon Property Group",
+          "address": "1840 San Miguel Drive, Ste. 206, Walnut Creek, CA 94596",
+          "phone": "925-980-7875"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "7950 Dublin Boulevard",
+      "docs": [
+        {
+          "name": "PC Staff Report – Basis School",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/PC-Staff-Report-Basis-School.pdf"
+        },
+        {
+          "name": "Attachment 1 – Resolution BASIS Independent School PLPA2023-00011",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Attachment-1-Resolution-BASIS-Independent-School-PLPA2023-00011.pdf"
+        },
+        {
+          "name": "Attachment – 4 Traffic Impact Study prepared by W-Trans, dated March 21, 2023",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Attachment-4-Traffic-Impact-Study-prepared-by-W-Trans-dated-March-21-2023.pdf"
+        },
+        {
+          "name": "Attachment 3 – BASIS Independent School Traffic and Parking Management Plan",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Attachment-3-BASIS-Independent-School-Traffic-and-Parking-Management-Plan.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "The property owner, Jerry Hunt of VP RPG Dublin, LLC, submitted an application on behalf of BASIS Independent School to operate a private school serving up to 800 middle and high school students, construct façade improvements to the existing 75,831 square foot office building which will be converted to a school, and construct a 9,134 square foot gymnasium building, outdoor recreational play field, trash enclosure, and associated site improvements. Requested approvals include a Conditional Use Permit and Site Development Review Permit.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-085728.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-085728-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-085742.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-085742-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-090309.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-090309-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-091312.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-091312-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-091326.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-091326-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-091409.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-091409-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-090543.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-090543-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.701316,
+        "lon": -121.935041,
+        "iconName": "dot",
+        "title": "BASIS Independent School (Corrie Center)"
+      }
+    },
+    "projectId": "projectdetail1068",
+    "timestamp": "1787515200000",
+    "type": "developments:delete"
   }
 ]

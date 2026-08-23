@@ -1,0 +1,86 @@
+[
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1879"
+    ],
+    "val": {
+      "id": "projectdetail1879",
+      "title": "Dublin Fallon 580 Commercial (Tract 8663 Parcels 1 & 3)",
+      "details": {
+        "Planning Application #": "PLPA-004287-2025",
+        "Application Type": "Planned Development Stage 2, Tentative Parcel Map and Site Development Review Permit",
+        "Application Submittal Date": "10/06/2025",
+        "General Plan Land Use": "General Commercial/Campus Office",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development (ORD. 05-24)",
+        "Project Area": "Phase 1A - 9.22 acres",
+        "Building Area": "Phase 1A - 53,066 square feet",
+        "Foor Area Ratio": "0.13 FAR",
+        "Stories/Height": "1 story / 34 feet",
+        "Parking Provided": "267 parking spaces",
+        "Applicant": {
+          "name": "Wooi See",
+          "address": "2800 Post Oak Blvd., Suite 5115, Houston, TX 77056",
+          "phone": "405-714-2117"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "3410 Croak Road",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "Planned Development Stage 2 and Tentative Parcel Map for Parcels 1 and 3 of Tract 8663, and a Site Development Review Permit for Phase 1A of Parcel 1 of Tract 8663.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221312.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221312-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221728.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221728-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221627.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221627-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221713.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221713-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221218.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221218-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221524.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221524-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221552.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221552-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-222019.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-222019-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-222956.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-222956-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.70400468393008,
+        "lon": -121.8463325379868,
+        "iconName": "dot",
+        "title": "Dublin Fallon 580 Commercial (Tract 8663 Parcels 1 & 3)"
+      }
+    },
+    "projectId": "projectdetail1879",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
+  }
+]

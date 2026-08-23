@@ -196,5 +196,17 @@
     "projectId": "projectdetail1402",
     "timestamp": "1748988000000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1402",
+      "location"
+    ],
+    "val": "7750 St. Patrick Way",
+    "oldVal": "6541 Regional Street",
+    "projectId": "projectdetail1402",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
   }
 ]

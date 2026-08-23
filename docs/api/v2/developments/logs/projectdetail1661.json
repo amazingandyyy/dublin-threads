@@ -459,5 +459,94 @@
     "projectId": "projectdetail1661",
     "timestamp": "1741024800000",
     "type": "developments:update"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1661"
+    ],
+    "oldVal": {
+      "id": "projectdetail1661",
+      "title": "Dublin Place North",
+      "details": {
+        "Planning Application #": "PLPA-2023-00018 and PLPA-004017-2024",
+        "Application Type": "Site Development Review Permit",
+        "Application Submittal Date": "05/16/2023",
+        "General Plan Land Use": "Downtown Dublin Retail",
+        "Specific Plan Area": "Downtown Dublin",
+        "Zoning": "Downtown Dublin Retail",
+        "Project Area": "3.8 acres",
+        "Building Area": "33,000 square feet",
+        "Foor Area Ratio": ".20 FAR",
+        "Stories/Height": "1 story / 26.5 feet",
+        "Parking Provided": "161 parking spaces",
+        "Applicant": {
+          "name": "Mario Tjia, Hines Interests LP",
+          "address": "101 California Street, Ste. 1000, San Francisco, CA 94111",
+          "phone": "4159826200"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Assistant Community Development Director",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "7200 Amador Plaza Road",
+      "docs": [
+        {
+          "name": "Planning Commission July 23, 2024 Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/02444723943c486bb335a006ad1f6cf20.pdf"
+        },
+        {
+          "name": "City Council August 20, 2024 Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/bb10193a60e0fbaf7a33a4da7859f5d90.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "The Dublin Place North project is a Site Development Review Permit for the demolition of the two existing commercial buildings totaling approximately 28,000 square feet and construction of a new 33,000 square foot multi-tenant commercial building.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Site-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_8-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_8-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_9-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_9-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_7-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_7-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_6-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_6-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_5-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_5-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_4-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_4-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_3-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_3-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.70851,
+        "lon": -121.931,
+        "iconName": "dot",
+        "title": "Dublin Place North"
+      }
+    },
+    "projectId": "projectdetail1661",
+    "timestamp": "1787515200000",
+    "type": "developments:delete"
   }
 ]

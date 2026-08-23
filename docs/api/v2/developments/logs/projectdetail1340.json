@@ -424,5 +424,75 @@
     "projectId": "projectdetail1340",
     "timestamp": "1741024800000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1340",
+      "details",
+      "Applicant",
+      "name"
+    ],
+    "val": "Jason Reyes, Selina Kyle LLC",
+    "oldVal": "Steven Ring, Fulcrum Real Estate &amp; Development Inc.",
+    "projectId": "projectdetail1340",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1340",
+      "details",
+      "Applicant",
+      "address"
+    ],
+    "val": "4960 Allison Pkwy Ste F, Vacaville, CA 95688",
+    "oldVal": "475 Gate 5 Road, Suite 316, Sausalito CA 94965",
+    "projectId": "projectdetail1340",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1340",
+      "details",
+      "Applicant",
+      "phone"
+    ],
+    "val": "707-685-6827",
+    "oldVal": "415-985-8606",
+    "projectId": "projectdetail1340",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1340",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Radha Hayagreev - Principal Planner",
+    "oldVal": "Amy Million - Assistant Community Development Director",
+    "projectId": "projectdetail1340",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1340",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "radha.hayagreev@dublin.ca.gov",
+    "oldVal": "amy.million@dublin.ca.gov",
+    "projectId": "projectdetail1340",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
   }
 ]

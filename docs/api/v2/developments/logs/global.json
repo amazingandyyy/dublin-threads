@@ -2,6 +2,1802 @@
   {
     "op": "update",
     "path": [
+      "projectdetail1841",
+      "details",
+      "Project Area"
+    ],
+    "val": "1.9 acres",
+    "oldVal": "1.88 acres",
+    "projectId": "projectdetail1841",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1841",
+      "docs",
+      0
+    ],
+    "val": {
+      "name": "Sunflower Hill at Grace Pointe Community Meeting Presentation November 12 & 13, 2025",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/Sunflower-Hill-at-Grace-Pointe-Community-Meeting-Presentation-November-12-13-2025-1.pdf"
+    },
+    "projectId": "projectdetail1841",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1841",
+      "docs",
+      1
+    ],
+    "val": {
+      "name": "Planning Commission Agenda & Staff Report December 9, 2025",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/Planning-Commission-Agenda-Staff-Report-December-9-2025.pdf"
+    },
+    "projectId": "projectdetail1841",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1841",
+      "docs",
+      2
+    ],
+    "val": {
+      "name": "NOD_SunflowerHill Grace Pointe_Dec15_2025",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/NOD_SunflowerHill-Grace-Pointe_Dec15_2025.pdf"
+    },
+    "projectId": "projectdetail1841",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1841",
+      "status"
+    ],
+    "val": "Final Action",
+    "oldVal": "Application Under Review",
+    "projectId": "projectdetail1841",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1841",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/Screenshot-2025-11-26-151440-1.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/aerial-scaled.jpg",
+    "projectId": "projectdetail1841",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1841",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/Screenshot-2025-11-26-151440-1-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/aerial-150x150.jpg",
+    "projectId": "projectdetail1841",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1841",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/Screenshot-2025-11-26-151459-1.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/GP-Site-Plan-scaled.jpg",
+    "projectId": "projectdetail1841",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1841",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/Screenshot-2025-11-26-151459-1-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/GP-Site-Plan-150x150.jpg",
+    "projectId": "projectdetail1841",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1841",
+      "images",
+      2
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/Screenshot-2025-11-26-151450.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/Screenshot-2025-11-26-151450-150x150.png"
+    },
+    "projectId": "projectdetail1841",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1841",
+      "images",
+      3
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/Screenshot-2025-11-26-151513.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/Screenshot-2025-11-26-151513-150x150.png"
+    },
+    "projectId": "projectdetail1841",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1841",
+      "images",
+      4
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/Screenshot-2025-11-26-151529.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/Screenshot-2025-11-26-151529-150x150.png"
+    },
+    "projectId": "projectdetail1841",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1841",
+      "images",
+      5
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/Screenshot-2025-11-26-151543.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/Screenshot-2025-11-26-151543-150x150.png"
+    },
+    "projectId": "projectdetail1841",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1841",
+      "images",
+      6
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/Screenshot-2025-11-26-151553.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/Screenshot-2025-11-26-151553-150x150.png"
+    },
+    "projectId": "projectdetail1841",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1841",
+      "images",
+      7
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/Screenshot-2025-11-26-151612.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/Screenshot-2025-11-26-151612-150x150.png"
+    },
+    "projectId": "projectdetail1841",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1841",
+      "images",
+      8
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/Screenshot-2025-11-26-151629.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/07/Screenshot-2025-11-26-151629-150x150.png"
+    },
+    "projectId": "projectdetail1841",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1816",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-08-17-093822.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-07-29-092623.png",
+    "projectId": "projectdetail1816",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1816",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-08-17-093822-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-07-29-092623-150x150.png",
+    "projectId": "projectdetail1816",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1816",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-08-17-093837.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-07-29-092647.png",
+    "projectId": "projectdetail1816",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1816",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-08-17-093837-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-07-29-092647-150x150.png",
+    "projectId": "projectdetail1816",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1816",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-08-17-093850.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-07-29-092746.png",
+    "projectId": "projectdetail1816",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1816",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-08-17-093850-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-07-29-092746-150x150.png",
+    "projectId": "projectdetail1816",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1816",
+      "images",
+      3,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-08-17-093923.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-07-29-093225.png",
+    "projectId": "projectdetail1816",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1816",
+      "images",
+      3,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-08-17-093923-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-07-29-093225-150x150.png",
+    "projectId": "projectdetail1816",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1816",
+      "images",
+      4,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-08-17-093949.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-07-29-092934.png",
+    "projectId": "projectdetail1816",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1816",
+      "images",
+      4,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-08-17-093949-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-07-29-092934-150x150.png",
+    "projectId": "projectdetail1816",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1816",
+      "images",
+      5
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-08-17-094010.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-08-17-094010-150x150.png"
+    },
+    "projectId": "projectdetail1816",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1812",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-08-17-102034.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-06-02-173813.png",
+    "projectId": "projectdetail1812",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1812",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-08-17-102034-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-06-02-173813-150x150.png",
+    "projectId": "projectdetail1812",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1812",
+      "images",
+      1,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-08-17-102100.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-06-02-173825.png",
+    "projectId": "projectdetail1812",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1812",
+      "images",
+      1,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-08-17-102100-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-06-02-173825-150x150.png",
+    "projectId": "projectdetail1812",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1812",
+      "images",
+      2,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-08-17-102302.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-06-02-173835.png",
+    "projectId": "projectdetail1812",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1812",
+      "images",
+      2,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-08-17-102302-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-06-02-173835-150x150.png",
+    "projectId": "projectdetail1812",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1812",
+      "images",
+      3,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-08-17-102511.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-06-02-173918.png",
+    "projectId": "projectdetail1812",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1812",
+      "images",
+      3,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-08-17-102511-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-06-02-173918-150x150.png",
+    "projectId": "projectdetail1812",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1812",
+      "images",
+      4,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-08-17-102603.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-06-02-173927.png",
+    "projectId": "projectdetail1812",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1812",
+      "images",
+      4,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-08-17-102603-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2025-06-02-173927-150x150.png",
+    "projectId": "projectdetail1812",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1781"
+    ],
+    "oldVal": {
+      "id": "projectdetail1781",
+      "title": "Tru & Element Hotels and Restaurant/Retail Building",
+      "details": {
+        "Planning Application #": "PLPA-004031-2024",
+        "Application Type": "Site Development Review Permit and Tentative Map",
+        "Application Submittal Date": "08/22/2024",
+        "General Plan Land Use": "Medical/Commercial",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development",
+        "Project Area": "5.75 acres acres",
+        "Building Area": "113,062 square feet",
+        "Foor Area Ratio": "0.45 FAR",
+        "Stories/Height": "4 stories / 60 feet",
+        "Parking Provided": "307 parking spaces",
+        "Applicant": {
+          "name": "Venkata Mannava",
+          "address": "7079 Emerson Lane, San Ramon, CA 94582",
+          "phone": "(510)-386-4072"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "3800 Kaiser Road",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "Development of two four-story hotels with 123 and 114 hotel rooms respectively, a 10,178 square-foot restaurant/retail building, 307 parking stalls and related site improvements. The application includes a Site Development Review Permit and Tentative Map.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092729.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092729-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092623.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092623-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092710.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092710-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092609.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092609-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092538.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092538-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092642.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092642-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092505.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092505-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-094004.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-094004-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092931.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-092931-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-093026.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-093026-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-093109.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-093109-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-093149.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/10/Screenshot-2025-02-07-093149-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.703504,
+        "lon": -121.861125,
+        "iconName": "dot",
+        "title": "Tru & Element Hotels and Restaurant/Retail Building"
+      }
+    },
+    "projectId": "projectdetail1781",
+    "timestamp": "1787515200000",
+    "type": "developments:delete"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1741",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Jennifer Byous - Planning Manager",
+    "oldVal": "Amy Million - Assistant Community Development Director",
+    "projectId": "projectdetail1741",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1741",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "jennifer.byous@dublin.ca.gov",
+    "oldVal": "amy.million@dublin.ca.gov",
+    "projectId": "projectdetail1741",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1741",
+      "status"
+    ],
+    "val": "Application Under Review",
+    "oldVal": "Pubic Hearing",
+    "projectId": "projectdetail1741",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1685",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Radha Hayagreev - Principal Planner",
+    "oldVal": "Amy Million - Assistant Community Development Director",
+    "projectId": "projectdetail1685",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1685",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "radha.hayagreev@dublin.ca.gov",
+    "oldVal": "amy.million@dublin.ca.gov",
+    "projectId": "projectdetail1685",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1661"
+    ],
+    "oldVal": {
+      "id": "projectdetail1661",
+      "title": "Dublin Place North",
+      "details": {
+        "Planning Application #": "PLPA-2023-00018 and PLPA-004017-2024",
+        "Application Type": "Site Development Review Permit",
+        "Application Submittal Date": "05/16/2023",
+        "General Plan Land Use": "Downtown Dublin Retail",
+        "Specific Plan Area": "Downtown Dublin",
+        "Zoning": "Downtown Dublin Retail",
+        "Project Area": "3.8 acres",
+        "Building Area": "33,000 square feet",
+        "Foor Area Ratio": ".20 FAR",
+        "Stories/Height": "1 story / 26.5 feet",
+        "Parking Provided": "161 parking spaces",
+        "Applicant": {
+          "name": "Mario Tjia, Hines Interests LP",
+          "address": "101 California Street, Ste. 1000, San Francisco, CA 94111",
+          "phone": "4159826200"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Assistant Community Development Director",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "7200 Amador Plaza Road",
+      "docs": [
+        {
+          "name": "Planning Commission July 23, 2024 Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/02444723943c486bb335a006ad1f6cf20.pdf"
+        },
+        {
+          "name": "City Council August 20, 2024 Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/bb10193a60e0fbaf7a33a4da7859f5d90.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "The Dublin Place North project is a Site Development Review Permit for the demolition of the two existing commercial buildings totaling approximately 28,000 square feet and construction of a new 33,000 square foot multi-tenant commercial building.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Site-Plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_8-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_8-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_9-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_9-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_7-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_7-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_6-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_6-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_5-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_5-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_4-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_4-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_3-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Attachment-3-Exhibit-B-to-Resolution-Applicants-Revisions-to-Project-Plans_Page_3-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.70851,
+        "lon": -121.931,
+        "iconName": "dot",
+        "title": "Dublin Place North"
+      }
+    },
+    "projectId": "projectdetail1661",
+    "timestamp": "1787515200000",
+    "type": "developments:delete"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1513"
+    ],
+    "oldVal": {
+      "id": "projectdetail1513",
+      "title": "H Mart Supermarket",
+      "details": {
+        "Planning Application #": "PLPA-2022-00033",
+        "Application Type": "Site Development Review Permit",
+        "Application Submittal Date": "09/26/2022",
+        "General Plan Land Use": "Downtown Dublin - Transit-Oriented District",
+        "Specific Plan Area": "Downtown Dublin - Transit-Oriented District",
+        "Zoning": "Downtown Dublin Zoning District",
+        "Project Area": "10.51 acres",
+        "Building Area": "143,329 square feet",
+        "Foor Area Ratio": "0.31 FAR",
+        "Stories/Height": "1 story / 32 feet",
+        "Parking Provided": "484 parking spaces",
+        "Applicant": {
+          "name": "Yo Han Lee",
+          "address": "300 Chubb Ave., Lyndhurst, NJ 07071",
+          "phone": "(201) 507-9900 ext. 2909"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "7884 Dublin Boulevard",
+      "docs": [
+        {
+          "name": "Planning Commission December 13, 2022 Agenda and Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/f345a8ac673614b016fb57471cd7c5af0.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "H Mart proposes an expansion to an existing 27,237 square foot commercial tenant space to construct an 8,552 square foot addition for a food hall, 3,187 square foot outdoor seating area with play area, façade modifications, new trash enclosure and related site improvements at 7884 Dublin Boulevard, and repaint the existing warehouse building at 6600 Golden Gate Drive for additional cold storage.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Elevations-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-144.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Screenshot-144-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Site-Plan.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/06/Site-Plan-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.70268,
+        "lon": -121.93042,
+        "iconName": "dot",
+        "title": "H Mart Supermarket"
+      }
+    },
+    "projectId": "projectdetail1513",
+    "timestamp": "1787515200000",
+    "type": "developments:delete"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1470"
+    ],
+    "oldVal": {
+      "id": "projectdetail1470",
+      "title": "Nissan Commercial Car Wash",
+      "details": {
+        "Planning Application #": "PLPA-2022-00003",
+        "Application Type": "Planned Development Amendment, Site Development Review Permit and Conditional Use Permit",
+        "Application Submittal Date": "02/18/2022",
+        "General Plan Land Use": "Medical Campus/Commercial",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development Ordinance No. 03-19",
+        "Project Area": "1 acres",
+        "Building Area": "3574 square feet",
+        "Foor Area Ratio": ".08 FAR",
+        "Stories/Height": "1 story / 30 feet",
+        "Applicant": {
+          "name": "Guy Houston",
+          "address": "n/a",
+          "phone": "925-4678-5839"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "3200 Dublin Boulevard",
+      "docs": [
+        {
+          "name": "City Council May 17, 2022 Special Meeting Agenda & Staff Report",
+          "url": "https://d3n9y02raazwpg.cloudfront.net/dublin/75bf016c-ca4c-11ec-bbb4-0050569183fa-3024744b-ade7-4818-a498-958db485d49e-1652304363.pdf"
+        },
+        {
+          "name": "Community Meeting Presentation August 24 & 25, 2022",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/04/Car-Wash-Community-Meeting-Presentation.pdf"
+        },
+        {
+          "name": "Planning Commission September 27, 2022 Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/39bb3853b5361f050b40673f2aad3c270.pdf"
+        },
+        {
+          "name": "City Council October 18, 2022 Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/e1669a28ac2027dd12ec40d757df28d50.pdf"
+        },
+        {
+          "name": "City Council November 1, 2022 Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/d9ece6b16490b798610c458ed92246950.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Development of a new 3,574 square-foot self-service car wash located on the southwest corner of Dublin Boulevard and Kaiser Road. The project requires a Planned Development Stage 1 and Stage 2 amendment, Site Development Review Permit and Conditional Use Permit.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/04/Elevations-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/04/Elevations-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/04/site-plan_Page_2-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/04/site-plan_Page_2-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.704131,
+        "lon": -121.860405,
+        "iconName": "dot",
+        "title": "Nissan Commercial Car Wash"
+      }
+    },
+    "projectId": "projectdetail1470",
+    "timestamp": "1787515200000",
+    "type": "developments:delete"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Radha Hayagreev - Principal Planner",
+    "oldVal": "Amy Million - Assistant Community Development Director",
+    "projectId": "projectdetail1464",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "radha.hayagreev@dublin.ca.gov",
+    "oldVal": "amy.million@dublin.ca.gov",
+    "projectId": "projectdetail1464",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      3
+    ],
+    "val": {
+      "name": "Planning Commission Agenda & Staff Report May 26, 2026",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/30cfecb265fd80a33d646b293b930eb00.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      4
+    ],
+    "val": {
+      "name": "City council Agenda & Staff Report June 16, 2026",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/a8760ccb0fde4ed676c2f1734c09d6aa0.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1464",
+      "docs",
+      5
+    ],
+    "val": {
+      "name": "City Council Agenda & Staff Report July 21, 2026",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/2b8ce3c44d842b3721ab1f5445a785e30.pdf"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1402",
+      "location"
+    ],
+    "val": "7750 St. Patrick Way",
+    "oldVal": "6541 Regional Street",
+    "projectId": "projectdetail1402",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1380",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Radha Hayagreev - Principal Planner",
+    "oldVal": "Amy Million - Assistant Community Development Director",
+    "projectId": "projectdetail1380",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1380",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "radha.hayagreev@dublin.ca.gov",
+    "oldVal": "amy.million@dublin.ca.gov",
+    "projectId": "projectdetail1380",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1380",
+      "docs",
+      2,
+      "name"
+    ],
+    "val": "City Council Agenda & Staff Report February 21, 2023",
+    "oldVal": "City Council Staff Agenda & Staff Report February 21, 2023",
+    "projectId": "projectdetail1380",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1380",
+      "docs",
+      3
+    ],
+    "val": {
+      "name": "City Council Agenda & Staff Report July 21, 2026",
+      "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/2b8ce3c44d842b3721ab1f5445a785e30.pdf"
+    },
+    "projectId": "projectdetail1380",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1380",
+      "description"
+    ],
+    "val": "Development of an affordable housing project consisting of 300 affordable units to be built in two buildings of 136 units and 164 units, ground floor retail, amenity space, and parking. The project requires a Site Development Review Permit, Lot Line Adjustment, Community Benefit Agreement and Affordable Housing Agreement.",
+    "oldVal": "Development of an affordable housing project consisting of 300 affordable units to be built in two phases1 of 136 units and 164 units, , ground floor retail, amenity space, and parking. The project requires a Site Development Review Permit, Lot Line Adjustment, Community Benefit Agreement and Affordable Housing Agreement.",
+    "projectId": "projectdetail1380",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1378",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Radha Hayagreev - Principal Planner",
+    "oldVal": "Amy Million - Assistant Community Development Director",
+    "projectId": "projectdetail1378",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1378",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "radha.hayagreev@dublin.ca.gov",
+    "oldVal": "amy.million@dublin.ca.gov",
+    "projectId": "projectdetail1378",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1348",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Radha Hayagreev - Principal Planner",
+    "oldVal": "Amy Million - Assistant Community Development Director",
+    "projectId": "projectdetail1348",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1348",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "radha.hayagreev@dublin.ca.gov",
+    "oldVal": "amy.million@dublin.ca.gov",
+    "projectId": "projectdetail1348",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1340",
+      "details",
+      "Applicant",
+      "name"
+    ],
+    "val": "Jason Reyes, Selina Kyle LLC",
+    "oldVal": "Steven Ring, Fulcrum Real Estate &amp; Development Inc.",
+    "projectId": "projectdetail1340",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1340",
+      "details",
+      "Applicant",
+      "address"
+    ],
+    "val": "4960 Allison Pkwy Ste F, Vacaville, CA 95688",
+    "oldVal": "475 Gate 5 Road, Suite 316, Sausalito CA 94965",
+    "projectId": "projectdetail1340",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1340",
+      "details",
+      "Applicant",
+      "phone"
+    ],
+    "val": "707-685-6827",
+    "oldVal": "415-985-8606",
+    "projectId": "projectdetail1340",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1340",
+      "details",
+      "Project Planner",
+      "name"
+    ],
+    "val": "Radha Hayagreev - Principal Planner",
+    "oldVal": "Amy Million - Assistant Community Development Director",
+    "projectId": "projectdetail1340",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1340",
+      "details",
+      "Project Planner",
+      "email"
+    ],
+    "val": "radha.hayagreev@dublin.ca.gov",
+    "oldVal": "amy.million@dublin.ca.gov",
+    "projectId": "projectdetail1340",
+    "timestamp": "1787515200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1068"
+    ],
+    "oldVal": {
+      "id": "projectdetail1068",
+      "title": "BASIS Independent School (Corrie Center)",
+      "details": {
+        "Planning Application #": "PLPA-2023-00011",
+        "Application Type": "Conditional Use Permit and Site Development Review",
+        "Application Submittal Date": "08/05/2022",
+        "General Plan Land Use": "Downtown Dublin - Transit Oriented District",
+        "Specific Plan Area": "Downtown Dublin Specific Plan",
+        "Zoning": "Downtown Dublin Zoning District - DDZD",
+        "Project Area": "3.72 acres",
+        "Applicant": {
+          "name": "Jerry Hunt, Rubicon Property Group",
+          "address": "1840 San Miguel Drive, Ste. 206, Walnut Creek, CA 94596",
+          "phone": "925-980-7875"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "7950 Dublin Boulevard",
+      "docs": [
+        {
+          "name": "PC Staff Report – Basis School",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/PC-Staff-Report-Basis-School.pdf"
+        },
+        {
+          "name": "Attachment 1 – Resolution BASIS Independent School PLPA2023-00011",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Attachment-1-Resolution-BASIS-Independent-School-PLPA2023-00011.pdf"
+        },
+        {
+          "name": "Attachment – 4 Traffic Impact Study prepared by W-Trans, dated March 21, 2023",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Attachment-4-Traffic-Impact-Study-prepared-by-W-Trans-dated-March-21-2023.pdf"
+        },
+        {
+          "name": "Attachment 3 – BASIS Independent School Traffic and Parking Management Plan",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Attachment-3-BASIS-Independent-School-Traffic-and-Parking-Management-Plan.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "The property owner, Jerry Hunt of VP RPG Dublin, LLC, submitted an application on behalf of BASIS Independent School to operate a private school serving up to 800 middle and high school students, construct façade improvements to the existing 75,831 square foot office building which will be converted to a school, and construct a 9,134 square foot gymnasium building, outdoor recreational play field, trash enclosure, and associated site improvements. Requested approvals include a Conditional Use Permit and Site Development Review Permit.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-085728.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-085728-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-085742.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-085742-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-090309.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-090309-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-091312.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-091312-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-091326.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-091326-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-091409.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-091409-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-090543.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2018/12/Screenshot-2025-02-07-090543-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.701316,
+        "lon": -121.935041,
+        "iconName": "dot",
+        "title": "BASIS Independent School (Corrie Center)"
+      }
+    },
+    "projectId": "projectdetail1068",
+    "timestamp": "1787515200000",
+    "type": "developments:delete"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail515"
+    ],
+    "oldVal": {
+      "id": "projectdetail515",
+      "title": "Boulevard (Dublin Crossing) – Phase 4 & 5",
+      "details": {
+        "Planning Application #": "PLPA-2016-00064",
+        "Application Type": "Site Development Review Permit and Vesting Tentative Tract Map",
+        "Application Submittal Date": "12/05/2016",
+        "General Plan Land Use": "Dublin Crossing Specific Plan",
+        "Specific Plan Area": "Dublin Crossing Specific Plan",
+        "Zoning": "DCPD",
+        "Project Area": "40 acres",
+        "Applicant": {
+          "name": "Mandi Misasi, Brookfield Residential",
+          "address": "12657 Alcosta Blvd. Ste 250, San Ramon CA 94563",
+          "phone": "925-743-8000"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Assistant Community Development Director",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "Dublin Boulevard",
+      "docs": [
+        {
+          "name": "April 10, 2018 Planning Commission Staff Report",
+          "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1278&Inline=True"
+        },
+        {
+          "name": "May 8, 2018 Planning Commission Staff Report",
+          "url": "http://dublinca.iqm2.com/Citizens/FileOpen.aspx?Type=1&ID=1287&Inline=True"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Phases 4 and 5 of the Boulevard project include 510 units and landscape improvements.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/4-5-site-plan-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.711036,
+        "lon": -121.905749,
+        "iconName": "home",
+        "title": "Boulevard (Dublin Crossing) – Phase 4 & 5"
+      }
+    },
+    "projectId": "projectdetail515",
+    "timestamp": "1787515200000",
+    "type": "developments:delete"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail506"
+    ],
+    "oldVal": {
+      "id": "projectdetail506",
+      "title": "Boulevard (Dublin Crossing) – Phase 1",
+      "details": {
+        "Planning Application #": "PLPA 2015-00062",
+        "Application Type": "Site Development Review Permit / Vesting Tentative Tract Map",
+        "Application Submittal Date": "12/16/2015",
+        "General Plan Land Use": "Dublin Crossing Specific Plan",
+        "Specific Plan Area": "Dublin Crossing Specific Plan",
+        "Zoning": "DCPD",
+        "Project Area": "28.34 acres acres",
+        "Applicant": {
+          "name": "Mandi Misasi, Brookfield Residential",
+          "address": "12657 Alcosta Blvd. Ste 250, San Ramon CA 94563",
+          "phone": "925-743-8000"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Assistant Community Development Director",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "Dublin Boulevard",
+      "docs": [
+        {
+          "name": "Planning Commission Staff Report 05.24.16",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-05.24.16-Complete.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report 06.14.16",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-061416-Complete.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Phase1 of the Boulevard project include 453 units and landscape improvements. Design review for the first six residential neighborhoods (Phases 1A and 1B) were approved by the Planning Commission on June 14, 2016.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/Phase-1-site-plan-2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1B-site-plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-e1491494954887-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/01/rendering-2-e1491494978631-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.706516,
+        "lon": -121.898762,
+        "iconName": "home",
+        "title": "Boulevard (Dublin Crossing) – Phase 1"
+      }
+    },
+    "projectId": "projectdetail506",
+    "timestamp": "1787515200000",
+    "type": "developments:delete"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail486"
+    ],
+    "oldVal": {
+      "id": "projectdetail486",
+      "title": "Boulevard (Dublin Crossing) Phase 2 & 3",
+      "details": {
+        "Planning Application #": "PA 08-049, PLPA-2016-00057",
+        "Application Type": "Site Development Review Permit and Vesting Tentative Tract Map",
+        "Application Submittal Date": "09/14/2016",
+        "General Plan Land Use": "Dublin Crossing Specific Plan",
+        "Specific Plan Area": "Dublin Crossing Specific Plan",
+        "Zoning": "Dublin Crossing Planned Development",
+        "Project Area": "54.5 acres",
+        "Applicant": {
+          "name": "Mandi Misasi, Brookfield Residential",
+          "address": "12657 Alcosta Blvd. Ste 250, San Ramon CA 94563",
+          "phone": "925-743-8000"
+        },
+        "Project Planner": {
+          "name": "Amy Million - Assistant Community Development Director",
+          "phone": "(925) 833-6610",
+          "email": "amy.million@dublin.ca.gov"
+        }
+      },
+      "location": "1 Dublin Boulevard",
+      "docs": [
+        {
+          "name": "Planning Commission Staff Report 04.11.17 Study Session",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/PC-SR-041117-Complete.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report 04.11.17 Attach. 1 (Part 1)",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Attachmet-1-SDR-Booklet-2_3_-Part-ONE.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report 04.11.17 Attach. 1 (Part 2)",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Attachment-1-SDR-Booklet-2_3_Part-TWO.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report 04.11.17 Attach. 1 (Part 3)",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/1-SDR-Booklet-2_3_-Part-THREE.pdf"
+        },
+        {
+          "name": "Planning Commission Staff Report 04.11.17 Attach. 2",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/2.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Multi-phased development comprised of up to 1,995 residential units, up to 200,000 square feet of commercial uses, 35 acres of public parkland, a 12-acre elementary school site and related infrastructure. The overall project specific plan (Dublin Crossing Specific Plan) was approved in 2013. Together, Phases 2 and 3 propose a total of 795 units in 12 neighborhoods. Phase 2 is comprised of 508 units on approximately 36.25 acres and Phase 3 is comprised of 283 units on approximately 18.22 acres. The Planning Commission held two study sessions on April 11 and April 25 to review Phases 2 and 3.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Phase-23-site-plan-2-e1491496490762.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Phase-23-site-plan-2-e1491496490762-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Rendering-e1491495239305.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/Rendering-e1491495239305-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/NH-10-e1491496106660.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/NH-10-e1491496106660-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/rec-center-e1491496119223.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2017/04/rec-center-e1491496119223-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.707185,
+        "lon": -121.902171,
+        "iconName": "home",
+        "title": "Boulevard (Dublin Crossing) Phase 2 & 3"
+      }
+    },
+    "projectId": "projectdetail486",
+    "timestamp": "1787515200000",
+    "type": "developments:delete"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1949"
+    ],
+    "val": {
+      "id": "projectdetail1949",
+      "title": "Eden at Francis Ranch",
+      "details": {
+        "Planning Application #": "PLPA-004432-2026",
+        "Application Type": "Site Development Review Permit, Planned Development Stage 2 and State Density Bonus Law",
+        "Application Submittal Date": "02/03/2026",
+        "General Plan Land Use": "Public/Semi-Public",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development (ORD. 32-05)",
+        "Project Area": "2.05 acres",
+        "Building Area": "95,723 square feet",
+        "Foor Area Ratio": "1.07 FAR",
+        "Stories/Height": "4 stories / 48 feet",
+        "Parking Provided": "80 parking spaces",
+        "Applicant": {
+          "name": "Eden Housing",
+          "address": "22645 Grand Street Hayward, CA 94541",
+          "phone": "(510) 331-6329"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "Central Parkway and Byrne Street",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "Eden at Francis Ranch is a 78-unit apartment community consisting of 77 affordable housing units—including 20 units reserved for households with intellectual and developmental disabilities—and one manager’s unit. The project includes a four-story apartment building, indoor and outdoor activity areas and associated site improvements. The application includes a Site Development Review Permit, a Planned Development Stage 2 Development Plan, and a request under State Density Bonus Law.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-08-18-123854.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-08-18-123854-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-08-18-123913.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-08-18-123913-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-08-18-124157.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-08-18-124157-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-08-18-124011.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-08-18-124011-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-08-18-123955.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-08-18-123955-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-08-18-124023.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-08-18-124023-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-08-18-124035.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-08-18-124035-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-08-18-124053.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-08-18-124053-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-08-18-124108.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-08-18-124108-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-08-18-124123.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-08-18-124123-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-08-18-124210.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-08-18-124210-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.70954655713383,
+        "lon": -121.83798540097051,
+        "iconName": "dot",
+        "title": "Eden at Francis Ranch"
+      }
+    },
+    "projectId": "projectdetail1949",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1947"
+    ],
+    "val": {
+      "id": "projectdetail1947",
+      "title": "Schaefer Ranch Unit 3 & Unit 1 Lot 70",
+      "details": {
+        "Planning Application #": "PLPA-004375-2026",
+        "Application Type": "Conditional Use Permit, Site Development Review Permit, Lot Line Adjustment",
+        "Application Submittal Date": "03/14/2026",
+        "General Plan Land Use": "Single Family Residential",
+        "Specific Plan Area": "None",
+        "Zoning": "Planned Development Ordinance 06-16",
+        "Project Area": "7.35 acres",
+        "Applicant": {
+          "name": "Roe Williams, Discovery Builders",
+          "address": "5099 Commercial Circle Suite 100, Concord CA 94520",
+          "phone": "925-766-6406"
+        },
+        "Project Planner": {
+          "name": "Shane Fields - Assistant Planner",
+          "phone": "(925) 833-6610",
+          "email": "shane.fields@dublin.ca.gov"
+        }
+      },
+      "location": "Schaefer Way",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "Discover Builders, Inc. is requesting approval for 19 single family homes within Schaefer Ranch. 18 homes are located on a 7-acre site at the western terminus of Dublin Boulevard and one home (Lot 70) is located on the western edge of Ridgeline Place. This project was previously approved in 2016 with the majority of the site improvements completed in 2018. Since that time, the Site Development Review Permit approval has since expired. The requested entitlements include a Site Development Review Permit, Lot Line Adjustment and Condition Use Permit which include minor modifications to the architectural standards.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/03/DevelopmentPageScreenshot.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/03/DevelopmentPageScreenshot-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/03/AllBuildingsRepresentations.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/03/AllBuildingsRepresentations-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/03/Building2.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/03/Building2-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/03/Building3.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/03/Building3-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.70506743316111,
+        "lon": -121.98522227680323,
+        "iconName": "dot",
+        "title": "Schaefer Ranch Unit 3 & Unit 1 Lot 70"
+      }
+    },
+    "projectId": "projectdetail1947",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1929"
+    ],
+    "val": {
+      "id": "projectdetail1929",
+      "title": "Dublin Collision Center",
+      "details": {
+        "Planning Application #": "PLPA-004314-2025",
+        "Application Type": "Site Development Review Permit",
+        "Application Submittal Date": "12/16/2025",
+        "General Plan Land Use": "Retail/Office and Automotive",
+        "Specific Plan Area": "General Plan",
+        "Zoning": "General Commercial (C-2)",
+        "Project Area": "4 acres",
+        "Building Area": "43,000 square feet",
+        "Stories/Height": "1 story / 29 feet",
+        "Parking Provided": "232 parking spaces",
+        "Applicant": {
+          "name": "CVP – Dublin TSLA, LLC",
+          "address": "2188 SW Park Place Suite 100, Portland OR 97205",
+          "phone": "503 228-2100"
+        },
+        "Project Planner": {
+          "name": "Jennifer Byous - Planning Manager",
+          "phone": "(925) 833-6610",
+          "email": "jennifer.byous@dublin.ca.gov"
+        }
+      },
+      "location": "6450 Dublin Court",
+      "docs": [
+        {
+          "name": "June 23, 2026 Planning Commission Agenda & Staff Report",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2025/12/June-23-2026-planning-commission-agenda.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Background",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/12/Screenshot-2025-12-16-elevations-scaled.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/12/Screenshot-2025-12-16-elevations-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/12/Screenshot-2025-12-16-site-plan-scaled.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/12/Screenshot-2025-12-16-site-plan-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.702768,
+        "lon": -121.911255,
+        "iconName": "dot",
+        "title": "Dublin Collision Center"
+      }
+    },
+    "projectId": "projectdetail1929",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1879"
+    ],
+    "val": {
+      "id": "projectdetail1879",
+      "title": "Dublin Fallon 580 Commercial (Tract 8663 Parcels 1 & 3)",
+      "details": {
+        "Planning Application #": "PLPA-004287-2025",
+        "Application Type": "Planned Development Stage 2, Tentative Parcel Map and Site Development Review Permit",
+        "Application Submittal Date": "10/06/2025",
+        "General Plan Land Use": "General Commercial/Campus Office",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development (ORD. 05-24)",
+        "Project Area": "Phase 1A - 9.22 acres",
+        "Building Area": "Phase 1A - 53,066 square feet",
+        "Foor Area Ratio": "0.13 FAR",
+        "Stories/Height": "1 story / 34 feet",
+        "Parking Provided": "267 parking spaces",
+        "Applicant": {
+          "name": "Wooi See",
+          "address": "2800 Post Oak Blvd., Suite 5115, Houston, TX 77056",
+          "phone": "405-714-2117"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "3410 Croak Road",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "Planned Development Stage 2 and Tentative Parcel Map for Parcels 1 and 3 of Tract 8663, and a Site Development Review Permit for Phase 1A of Parcel 1 of Tract 8663.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221312.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221312-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221728.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221728-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221627.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221627-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221713.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221713-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221218.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221218-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221524.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221524-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221552.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-221552-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-222019.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-222019-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-222956.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-03-23-222956-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.70400468393008,
+        "lon": -121.8463325379868,
+        "iconName": "dot",
+        "title": "Dublin Fallon 580 Commercial (Tract 8663 Parcels 1 & 3)"
+      }
+    },
+    "projectId": "projectdetail1879",
+    "timestamp": "1787515200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
       "projectdetail1816",
       "images",
       0,
