@@ -8,9 +8,7 @@ import {
   ArrowPathIcon,
   InformationCircleIcon,
   PencilSquareIcon,
-  NewspaperIcon,
-  ArrowTopRightOnSquareIcon,
-  ChatBubbleLeftIcon
+  ArrowTopRightOnSquareIcon
 } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import CommunityPost from './CommunityPost'
@@ -588,18 +586,6 @@ export default function Thread ({ thread = [], global = false, onCommentAdded })
       icon: PencilSquareIcon,
       activeClass: 'bg-gray-900 text-white ring-1 ring-gray-900',
       defaultClass: 'bg-white text-gray-600 hover:text-gray-900 ring-1 ring-gray-200 hover:ring-gray-300'
-    },
-    news: {
-      label: 'News',
-      icon: NewspaperIcon,
-      activeClass: 'bg-blue-600 text-white ring-1 ring-blue-600',
-      defaultClass: 'bg-white text-gray-600 hover:text-blue-600 ring-1 ring-gray-200 hover:ring-blue-200'
-    },
-    opinion: {
-      label: 'Opinion',
-      icon: ChatBubbleLeftIcon,
-      activeClass: 'bg-green-600 text-white ring-1 ring-green-600',
-      defaultClass: 'bg-white text-gray-600 hover:text-green-600 ring-1 ring-gray-200 hover:ring-green-200'
     },
     image: {
       label: 'Development Images',
