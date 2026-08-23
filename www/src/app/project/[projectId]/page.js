@@ -10,7 +10,7 @@ import {
 import Image from 'next/image'
 import { useState, useEffect, useRef } from 'react'
 import { useProjectProfileStore, useThreadStore, useGlobalThreadListStore } from '@/stores'
-import { fetchDevelopments, timeSince } from '@/utils'
+import { fetchDevelopments, timeSince, MAP_STYLE } from '@/utils'
 import Map, { Marker } from 'react-map-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import Thread from '../../../app/threads'
@@ -820,7 +820,7 @@ export default function Project ({ params }) {
                             zoom: 14
                           }}
                           style={{ height: '100%' }}
-                          mapStyle="mapbox://styles/amazingandyyy/clkj4hghc005b01r14qvccv1h"
+                          mapStyle={MAP_STYLE}
                         >
                           <Marker
                             longitude={geolocation.lon}

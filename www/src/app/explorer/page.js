@@ -4,7 +4,7 @@ import Map, { Marker, Source, Layer } from 'react-map-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import { useProjectProfileStore, useThreadStore } from '@/stores'
 import GlobalHeader from '@/header'
-import { fetchDevelopments } from '@/utils'
+import { fetchDevelopments, MAP_STYLE } from '@/utils'
 import Link from 'next/link'
 import { MapIcon, ListBulletIcon, StarIcon, ShareIcon, ChatBubbleLeftIcon, ChartBarIcon, ArrowsPointingInIcon, ArrowsPointingOutIcon } from '@heroicons/react/24/outline'
 import { StarIcon as StarIconSolid } from '@heroicons/react/24/solid'
@@ -218,7 +218,7 @@ function ExplorerContent ({ params, searchParams }) {
           onMove={evt => setViewState(evt.viewState)}
           mapboxAccessToken={mapToken}
           style={{ width: '100%', height: '100%' }}
-          mapStyle={mapLayers.satellite ? 'mapbox://styles/mapbox/satellite-streets-v12' : 'mapbox://styles/amazingandyyy/clkj4hghc005b01r14qvccv1h'}
+          mapStyle={mapLayers.satellite ? 'mapbox://styles/mapbox/satellite-streets-v12' : MAP_STYLE}
         >
           {/* Fullscreen Toggle */}
           <div className="absolute top-4 right-16 bg-white rounded-lg shadow-lg">
@@ -371,19 +371,46 @@ function ExplorerContent ({ params, searchParams }) {
           bg-white/40 backdrop-blur-md rounded-lg shadow-lg 
           py-3 px-4 transition-all duration-300
         `}>
-          <div className="flex items-center justify-between mb-2.5">
+          <div className="flex items-center justify-between gap-3 mb-2.5">
             <h4 className="text-sm font-medium text-gray-900">Status Colors</h4>
-            <div className="h-5 w-5 rounded-full bg-green-500/10 flex items-center justify-center">
-              <ChartBarIcon className="w-3 h-3 text-green-600" />
-            </div>
+            {statusFilter
+              ? (
+                <button
+                  type="button"
+                  onClick={() => handleStatusChange('')}
+                  className="text-xs font-medium text-green-700 hover:text-green-900 underline underline-offset-2 transition-colors duration-200"
+                >
+                  Reset
+                </button>
+                )
+              : (
+                <div className="h-5 w-5 rounded-full bg-green-500/10 flex items-center justify-center">
+                  <ChartBarIcon className="w-3 h-3 text-green-600" />
+                </div>
+                )}
           </div>
           <div className="space-y-2">
-            {Object.entries(statusColors).map(([status, color]) => (
-              <div key={status} className="flex items-center gap-2 group cursor-pointer" onClick={() => setStatusFilter(status)}>
-                <div className={`w-2.5 h-2.5 rounded-full ${color} ring-2 ring-white shadow-sm group-hover:scale-110 transition-transform duration-300`} />
-                <span className="text-sm text-gray-600 group-hover:text-gray-900 transition-colors duration-300">{status}</span>
-              </div>
-            ))}
+            {Object.entries(statusColors).map(([status, color]) => {
+              const isActive = statusFilter.toLowerCase() === status.toLowerCase()
+              // Clicking the already-active status clears the filter, so the
+              // legend doubles as its own untoggle.
+              return (
+                <button
+                  key={status}
+                  type="button"
+                  aria-pressed={isActive}
+                  onClick={() => handleStatusChange(isActive ? '' : status)}
+                  className={`
+                    flex items-center gap-2 group w-full text-left
+                    transition-opacity duration-200
+                    ${statusFilter && !isActive ? 'opacity-40 hover:opacity-70' : 'opacity-100'}
+                  `}
+                >
+                  <div className={`w-2.5 h-2.5 rounded-full ${color} ring-2 ${isActive ? 'ring-green-600' : 'ring-white'} shadow-sm group-hover:scale-110 transition-transform duration-300`} />
+                  <span className={`text-sm transition-colors duration-300 ${isActive ? 'text-gray-900 font-medium' : 'text-gray-600 group-hover:text-gray-900'}`}>{status}</span>
+                </button>
+              )
+            })}
           </div>
         </div>
 

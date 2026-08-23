@@ -7,7 +7,7 @@ import { useMapStore, useThreadStore } from '@/stores'
 import GlobalHeader from '@/header'
 import { PinMarker } from './markers'
 import Link from 'next/link'
-import { fetchDevelopments } from '@/utils'
+import { fetchDevelopments, MAP_STYLE } from '@/utils'
 
 export default function MapPage ({ params, searchParams }) {
   const locations = useMapStore(state => state.locations)
@@ -76,7 +76,7 @@ export default function MapPage ({ params, searchParams }) {
             onZoom={evt => setZoom(evt.viewState.zoom)}
             mapboxAccessToken={mapToken}
             style={{ borderRadius: '0px' }}
-            mapStyle="mapbox://styles/amazingandyyy/clkj4hghc005b01r14qvccv1h"
+            mapStyle={MAP_STYLE}
             interactiveLayerIds={['dublin-boundary-line', 'dublin-boundary-fill']}
           >
             {locations.map((location) => (

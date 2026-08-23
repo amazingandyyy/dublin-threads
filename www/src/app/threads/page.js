@@ -7,6 +7,12 @@ import { useEffect, useState, Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
 import { fetchDevelopments, fetchMeetings } from '@/utils'
 
+// The Supabase project behind community posts is deactivated, so /api/posts
+// answers 500 and the contribute form has nowhere to write. Both are paused
+// until it is revived -- flip this back to true then, and the fetch and the
+// CreatePost form come back together.
+const COMMUNITY_POSTS_ENABLED = false
+
 function ThreadsContent() {
   const thread = useThreadStore(state => state.thread)
   const meetings = useMeetingsStore(state => state.meetings)
@@ -38,9 +44,19 @@ function ThreadsContent() {
         useThreadStore.getState().update(developmentsData)
 
         // Fetch posts
-        const postsRes = await fetch('/api/posts')
-        const postsData = await postsRes.json()
-        setPosts(postsData)
+        if (COMMUNITY_POSTS_ENABLED) {
+          const postsRes = await fetch('/api/posts')
+          const postsData = await postsRes.json()
+          // /api/posts answers with an error object rather than an array when
+          // Supabase is unreachable, and a 500 still resolves here. Without this
+          // guard that object reaches posts.map() below and crashes the page.
+          if (Array.isArray(postsData)) {
+            setPosts(postsData)
+          } else {
+            console.error('Unexpected /api/posts response:', postsData)
+            setPosts([])
+          }
+        }
       } catch (error) {
         console.error('Error fetching initial data:', error)
       }
@@ -175,23 +191,25 @@ function ThreadsContent() {
         </div>
       </div>
       <div className="w-full max-w-2xl m-auto mt-8">
-        <div className="bg-white rounded-lg shadow-sm mb-6">
-          <div className="flex items-center justify-center gap-2 bg-gradient-to-r from-green-50 to-blue-50 px-4 py-3 rounded-t-lg border-b border-green-100">
-            <span className="bg-green-600 text-white text-[8px] font-bold px-2 py-0.5 rounded-full tracking-wide animate-pulse">
-              ALPHA
-            </span>
-            <p className="text-green-800 text-sm font-medium">
-              You can now contribute anonymously! 🍀
-            </p>
+        {COMMUNITY_POSTS_ENABLED && (
+          <div className="bg-white rounded-lg shadow-sm mb-6">
+            <div className="flex items-center justify-center gap-2 bg-gradient-to-r from-green-50 to-blue-50 px-4 py-3 rounded-t-lg border-b border-green-100">
+              <span className="bg-green-600 text-white text-[8px] font-bold px-2 py-0.5 rounded-full tracking-wide animate-pulse">
+                ALPHA
+              </span>
+              <p className="text-green-800 text-sm font-medium">
+                You can now contribute anonymously! 🍀
+              </p>
+            </div>
+            <div className="p-4">
+              <CreatePost
+                onPostCreated={(newPost) =>
+                  setPosts((prev) => [newPost, ...prev])
+                }
+              />
+            </div>
           </div>
-          <div className="p-4">
-            <CreatePost
-              onPostCreated={(newPost) =>
-                setPosts((prev) => [newPost, ...prev])
-              }
-            />
-          </div>
-        </div>
+        )}
         <Thread
           thread={list}
           global={true}
