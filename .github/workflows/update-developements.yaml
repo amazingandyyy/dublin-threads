@@ -53,4 +53,16 @@ jobs:
           git add -A
           echo $current
           git commit -m 'feat(developments): snapshot and json' -m "$current"
-          git push
+          # These workflows share a cron and all commit to main, so pushes race.
+          # Rebase onto whatever landed first and retry before giving up.
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push; then
+              echo "pushed on attempt $i"
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            echo "push attempt $i failed, retrying in 5s..."
+            sleep 5
+          done
+          echo "push failed after 5 attempts"
+          exit 1
