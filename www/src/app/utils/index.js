@@ -66,11 +66,10 @@ export function formatDate (date) {
   })
 }
 
-// The custom Studio style mapbox://styles/amazingandyyy/clkj4hghc005b01r14qvccv1h
-// declares "mapbox:sdk-support" of js 3.0.0, but this app pins mapbox-gl 2.15, so
-// its tiles never paint -- markers and attribution still render, which makes it
-// look like a blank map rather than an error. The stock style declares no SDK
-// floor. Point this back at the custom style once mapbox-gl is on 3.x.
-export const MAP_STYLE = 'mapbox://styles/mapbox/streets-v12'
+// Vector basemaps render blank in this app -- streets-v12 and the custom Studio
+// style both paint only their background layer, while markers and attribution
+// still draw, so it reads as an empty map. Satellite is raster imagery and is
+// unaffected, so it is the basemap until the vector rendering issue is found.
+export const MAP_STYLE = 'mapbox://styles/mapbox/satellite-streets-v12'
 
 export { fetchMeetings, fetchDevelopments, Image, useArchivedSource }

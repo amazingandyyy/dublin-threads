@@ -57,11 +57,6 @@ function ExplorerContent ({ params, searchParams }) {
     byMonth: {}
   })
   const [isLoading, setIsLoading] = useState(true)
-  const [mapLayers, setMapLayers] = useState({
-    satellite: false,
-    traffic: false,
-    zoning: false
-  })
   const [isFullscreen, setIsFullscreen] = useState(false)
 
   // Update URL when filters change
@@ -218,7 +213,7 @@ function ExplorerContent ({ params, searchParams }) {
           onMove={evt => setViewState(evt.viewState)}
           mapboxAccessToken={mapToken}
           style={{ width: '100%', height: '100%' }}
-          mapStyle={mapLayers.satellite ? 'mapbox://styles/mapbox/satellite-streets-v12' : MAP_STYLE}
+          mapStyle={MAP_STYLE}
         >
           {/* Fullscreen Toggle */}
           <div className="absolute top-4 right-16 bg-white rounded-lg shadow-lg">
@@ -242,68 +237,6 @@ function ExplorerContent ({ params, searchParams }) {
                   )}
             </button>
           </div>
-
-          {/* Layer Controls */}
-          <div className={`
-            absolute ${isFullscreen ? 'top-24' : 'top-6'} left-4 
-            bg-white/40 backdrop-blur-md rounded-lg shadow-lg 
-            p-4 space-y-3 transition-all duration-300
-          `}>
-            <div className="flex items-center justify-between">
-              <h4 className="text-sm font-medium text-gray-900">Map Layers</h4>
-              <div className="h-5 w-5 rounded-full bg-green-500/10 flex items-center justify-center">
-                <MapIcon className="w-3 h-3 text-green-600" />
-              </div>
-            </div>
-            <div className="space-y-2.5">
-              <label className="flex items-center gap-2.5 cursor-pointer group">
-                <input
-                  type="checkbox"
-                  checked={mapLayers.satellite}
-                  onChange={e => setMapLayers(prev => ({ ...prev, satellite: e.target.checked }))}
-                  className="rounded text-green-500 focus:ring-green-500 cursor-pointer"
-                />
-                <span className="text-sm text-gray-600 group-hover:text-gray-900 transition-colors duration-300">Satellite View</span>
-              </label>
-              <label className="flex items-center gap-2.5 cursor-pointer group">
-                <input
-                  type="checkbox"
-                  checked={mapLayers.traffic}
-                  onChange={e => setMapLayers(prev => ({ ...prev, traffic: e.target.checked }))}
-                  className="rounded text-green-500 focus:ring-green-500 cursor-pointer"
-                />
-                <span className="text-sm text-gray-600 group-hover:text-gray-900 transition-colors duration-300">Traffic Layer</span>
-              </label>
-            </div>
-          </div>
-
-          {/* Traffic Layer */}
-          {mapLayers.traffic && (
-            <Source
-              id="traffic"
-              type="vector"
-              url="mapbox://mapbox.mapbox-traffic-v1"
-            >
-              <Layer
-                id="traffic-layer"
-                type="line"
-                source="traffic"
-                source-layer="traffic"
-                paint={{
-                  'line-width': 2,
-                  'line-color': [
-                    'match',
-                    ['get', 'congestion'],
-                    'low', '#4CAF50',
-                    'moderate', '#FFC107',
-                    'heavy', '#F44336',
-                    'severe', '#B71C1C',
-                    '#000000'
-                  ]
-                }}
-              />
-            </Source>
-          )}
 
           {/* Dublin Boundary */}
           <Source id="dublin-boundary" type="geojson" data={dublinBoundary}>
