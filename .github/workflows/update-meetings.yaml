@@ -14,11 +14,11 @@ jobs:
     name: snapshot&json(meetings)
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: use node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 18.x
+          node-version: 22.x
 
       - name: set timezone to America/Los_Angeles
         uses: szenius/set-timezone@v1.2
@@ -30,7 +30,7 @@ jobs:
 
       - name: install node dependencies
         working-directory: ./worker
-        run: npm install
+        run: npm ci
 
       - name: Install playwright browsers
         working-directory: ./worker

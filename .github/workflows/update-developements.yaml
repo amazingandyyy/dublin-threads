@@ -14,12 +14,12 @@ jobs:
     name: snapshot&json(developments)
     runs-on: ubuntu-latest
     steps:
-      - name: use node 18
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v4
+      - name: use node
+        uses: actions/setup-node@v4
         with:
-          node-version: 18.x
+          node-version: 22.x
 
-      - uses: actions/checkout@v3
       - name: set timezone to America/Los_Angeles
         uses: szenius/set-timezone@v1.2
         with:
@@ -30,7 +30,7 @@ jobs:
 
       - name: install node dependencies
         working-directory: ./worker
-        run: npm install
+        run: npm ci
 
       - name: take a snapshot&json
         working-directory: ./worker/developments
