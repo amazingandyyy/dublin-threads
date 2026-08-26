@@ -2,6 +2,18 @@
   {
     "op": "update",
     "path": [
+      "projectdetail1189",
+      "description"
+    ],
+    "val": "Development of 165.5-acre site consisting of a 573-unit residential project within six neighborhoods, two neighborhood parks totaling 11.5 acres, and a two-acre Semi-Public Site. The proposed development includes five architecture styles: Traditional Farmhouse, Modern Farmhouse, Contemporary Cottage, Contemporary Prairie, and Craftsman as shown in the project plans. The two-acre Public/Semi-Public site is proposed to be developed by Eden Housing, in partnership with Sunflower Hill, as a 78-unit apartment community. The project would include 77 affordable housing units, of which 20 would be reserved for households with intellectual and developmental disabilities, as well as one on-site manager’s unit.",
+    "oldVal": "Development of 165.5-acre site consisting of a 573-unit residential project within six neighborhoods, two neighborhood parks totaling 11.5 acres, and a two-acre Semi-Public Site. The proposed development includes five architecture styles: Traditional Farmhouse, Modern Farmhouse, Contemporary Cottage, Contemporary Prairie, and Craftsman as shown in the project plans. The two-acre Semi-Public site has been identified where in partnership with Trumark Homes and Eden Housing, Sunflower Hill will co-develop 77 units of very low/low-income affordable rental housing for people with intellectual and developmental disabilities.",
+    "projectId": "projectdetail1189",
+    "timestamp": "1787774400000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
       "projectdetail1841",
       "details",
       "Project Area"
