@@ -12,6 +12,31 @@
     "type": "meeting"
   },
   {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council on 2026-08-27 2:00 PM - Granicus Testing",
+    "date": "08-27-2026",
+    "timestamp": 1787814000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=907",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "CityCouncil",
+    "type": "meeting"
+  },
+  {
+    "organizor": "Parks and Community Services Commission",
+    "cancelled": false,
+    "name": "Joint PCSC and HSC Commissions Special Meeting",
+    "date": "08-26-2026",
+    "timestamp": 1787727600000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2634",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2634",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/97e699f8-9b4d-11f1-bb61-005056a89546-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1787674203.pdf",
+    "orgId": "ParksandCommunityServicesCommission",
+    "type": "meeting"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": false,
     "name": "Planning Commission Special Meeting",
@@ -226,7 +251,7 @@
     "date": "06-23-2026",
     "timestamp": 1782198000000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2611",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=2611&doc_id=9011b8cc-a241-11f1-a028-005056a89546",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2611",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/9ab325e5-d467-11f0-bb28-005056a89546-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1781886214.pdf",
     "orgId": "PlanningCommission",
