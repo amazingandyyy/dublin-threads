@@ -12,18 +12,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "City Council",
-    "cancelled": false,
-    "name": "City Council on 2026-08-27 2:00 PM - Granicus Testing",
-    "date": "08-27-2026",
-    "timestamp": 1787814000000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=907",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "CityCouncil",
-    "type": "meeting"
-  },
-  {
     "organizor": "Parks and Community Services Commission",
     "cancelled": false,
     "name": "Joint PCSC and HSC Commissions Special Meeting",
