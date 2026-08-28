@@ -1,5 +1,32 @@
 [
   {
+    "op": "add",
+    "path": [
+      "projectdetail1949",
+      "docs",
+      0
+    ],
+    "val": {
+      "name": "Eden at Francis Ranch Community Meeting Presentation August 26 & 27, 2026",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Eden-at-Francis-Ranch-Community-Meeting-Presentation-August-26-27-2026.pdf"
+    },
+    "projectId": "projectdetail1949",
+    "timestamp": "1787954400000",
+    "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1949",
+      "description"
+    ],
+    "val": "Eden at Francis Ranch is a 78-unit apartment community consisting of 77 affordable housing units—including 20 units reserved for households with intellectual and developmental disabilities—and one manager’s unit. The project includes a four-story apartment building, indoor and outdoor activity areas and associated site improvements. The application includes a Site Development Review Permit, a Planned Development Stage 2 Development Plan, and a State Density Bonus Law application for requested concessions/waivers.",
+    "oldVal": "Eden at Francis Ranch is a 78-unit apartment community consisting of 77 affordable housing units—including 20 units reserved for households with intellectual and developmental disabilities—and one manager’s unit. The project includes a four-story apartment building, indoor and outdoor activity areas and associated site improvements. The application includes a Site Development Review Permit, a Planned Development Stage 2 Development Plan, and a request under State Density Bonus Law.",
+    "projectId": "projectdetail1949",
+    "timestamp": "1787954400000",
+    "type": "developments:update"
+  },
+  {
     "op": "update",
     "path": [
       "projectdetail1189",
