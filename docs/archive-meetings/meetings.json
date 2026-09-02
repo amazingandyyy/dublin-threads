@@ -11,28 +11,6 @@
     "orgId": "PlanningCommission"
   },
   {
-    "organizor": "",
-    "cancelled": false,
-    "name": "Finance and Investment Committee",
-    "date": "09-01-2026",
-    "timestamp": 1788246000000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=851",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/67a6106c-f183-11f0-bb28-005056a89546-2aa686d9-32bb-4680-b483-65fbfbd56815-1787954604.pdf",
-    "orgId": ""
-  },
-  {
-    "organizor": "",
-    "cancelled": true,
-    "name": "Finance and Investment Committee Cancellation Notice",
-    "date": "09-01-2026",
-    "timestamp": 1788246000000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=908",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": ""
-  },
-  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
@@ -40,7 +18,7 @@
     "timestamp": 1788246000000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=797",
     "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3f846549-c4b8-11f0-a7da-005056a89546-3024744b-ade7-4818-a498-958db485d49e-1787945562.pdf",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3f846549-c4b8-11f0-a7da-005056a89546-4c1e7fda-78a9-4226-83cf-0667e9f307f2-1788307087.pdf",
     "orgId": "CityCouncil"
   },
   {
