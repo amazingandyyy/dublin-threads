@@ -12,18 +12,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "City Council",
-    "cancelled": false,
-    "name": "City Council Regular Meeting",
-    "date": "09-01-2026",
-    "timestamp": 1788246000000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=797",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3f846549-c4b8-11f0-a7da-005056a89546-4c1e7fda-78a9-4226-83cf-0667e9f307f2-1788307087.pdf",
-    "orgId": "CityCouncil",
-    "type": "meeting"
-  },
-  {
     "organizor": "Parks and Community Services Commission",
     "cancelled": false,
     "name": "Joint PCSC and HSC Commissions Special Meeting",
