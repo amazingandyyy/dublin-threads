@@ -616,7 +616,7 @@
     "date": "04-07-2026",
     "timestamp": 1775545200000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2561",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=2561&doc_id=244ee7fe-a7e8-11f1-a183-005056a89546",
     "video": "",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/db9f5f33-f182-11f0-bb28-005056a89546-3024744b-ade7-4818-a498-958db485d49e-1775264625.pdf",
     "orgId": "FinanceandInvestmentCommittee"
