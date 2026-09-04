@@ -1341,5 +1341,49 @@
     "projectId": "projectdetail1464",
     "timestamp": "1787515200000",
     "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Applicant",
+      "name"
+    ],
+    "val": "Adam Lind, Risewell Homes",
+    "oldVal": "Mitu Walia, Landsea Homes",
+    "projectId": "projectdetail1464",
+    "timestamp": "1788480000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Applicant",
+      "phone"
+    ],
+    "val": "209-499-3996",
+    "oldVal": "925-414-6806",
+    "projectId": "projectdetail1464",
+    "timestamp": "1788480000000",
+    "type": "developments:update"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1464",
+      "details",
+      "Project Planner"
+    ],
+    "oldVal": {
+      "name": "Radha Hayagreev - Principal Planner",
+      "phone": "(925) 833-6610",
+      "email": "radha.hayagreev@dublin.ca.gov"
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1788480000000",
+    "type": "developments:delete"
   }
 ]

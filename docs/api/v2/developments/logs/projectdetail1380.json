@@ -312,5 +312,21 @@
     "projectId": "projectdetail1380",
     "timestamp": "1787515200000",
     "type": "developments:update"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1380",
+      "details",
+      "Project Planner"
+    ],
+    "oldVal": {
+      "name": "Radha Hayagreev - Principal Planner",
+      "phone": "(925) 833-6610",
+      "email": "radha.hayagreev@dublin.ca.gov"
+    },
+    "projectId": "projectdetail1380",
+    "timestamp": "1788480000000",
+    "type": "developments:delete"
   }
 ]
