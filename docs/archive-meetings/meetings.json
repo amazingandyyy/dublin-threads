@@ -22,17 +22,6 @@
     "orgId": "YouthAdvisoryCommittee"
   },
   {
-    "organizor": "Planning Commission",
-    "cancelled": true,
-    "name": "Planning Commission Cancelled",
-    "date": "09-08-2026",
-    "timestamp": 1788850800000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=814",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "PlanningCommission"
-  },
-  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
