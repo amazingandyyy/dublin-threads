@@ -12,6 +12,18 @@
     "type": "meeting"
   },
   {
+    "organizor": "City Council",
+    "cancelled": false,
+    "name": "City Council Regular Meeting",
+    "date": "09-15-2026",
+    "timestamp": 1789455600000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=798",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3f868666-c4b8-11f0-a7da-005056a89546-3024744b-ade7-4818-a498-958db485d49e-1789070599.pdf",
+    "orgId": "CityCouncil",
+    "type": "meeting"
+  },
+  {
     "organizor": "Heritage and Cultural Arts Commission",
     "cancelled": false,
     "name": "Heritage and Cultural Arts Commission",
