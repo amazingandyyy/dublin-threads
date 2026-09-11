@@ -58,5 +58,17 @@
     "projectId": "projectdetail1947",
     "timestamp": "1787515200000",
     "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1947",
+      "description"
+    ],
+    "val": "Background",
+    "oldVal": "Discover Builders, Inc. is requesting approval for 19 single family homes within Schaefer Ranch. 18 homes are located on a 7-acre site at the western terminus of Dublin Boulevard and one home (Lot 70) is located on the western edge of Ridgeline Place. This project was previously approved in 2016 with the majority of the site improvements completed in 2018. Since that time, the Site Development Review Permit approval has since expired. The requested entitlements include a Site Development Review Permit, Lot Line Adjustment and Condition Use Permit which include minor modifications to the architectural standards.",
+    "projectId": "projectdetail1947",
+    "timestamp": "1789149600000",
+    "type": "developments:update"
   }
 ]

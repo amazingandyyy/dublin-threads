@@ -117,5 +117,17 @@
     "projectId": "projectdetail1949",
     "timestamp": "1787954400000",
     "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1949",
+      "description"
+    ],
+    "val": "Background",
+    "oldVal": "Eden at Francis Ranch is a 78-unit apartment community consisting of 77 affordable housing units—including 20 units reserved for households with intellectual and developmental disabilities—and one manager’s unit. The project includes a four-story apartment building, indoor and outdoor activity areas and associated site improvements. The application includes a Site Development Review Permit, a Planned Development Stage 2 Development Plan, and a State Density Bonus Law application for requested concessions/waivers.",
+    "projectId": "projectdetail1949",
+    "timestamp": "1789149600000",
+    "type": "developments:update"
   }
 ]

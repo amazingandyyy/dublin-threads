@@ -2,6 +2,30 @@
   {
     "op": "update",
     "path": [
+      "projectdetail1949",
+      "description"
+    ],
+    "val": "Background",
+    "oldVal": "Eden at Francis Ranch is a 78-unit apartment community consisting of 77 affordable housing units—including 20 units reserved for households with intellectual and developmental disabilities—and one manager’s unit. The project includes a four-story apartment building, indoor and outdoor activity areas and associated site improvements. The application includes a Site Development Review Permit, a Planned Development Stage 2 Development Plan, and a State Density Bonus Law application for requested concessions/waivers.",
+    "projectId": "projectdetail1949",
+    "timestamp": "1789149600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1947",
+      "description"
+    ],
+    "val": "Background",
+    "oldVal": "Discover Builders, Inc. is requesting approval for 19 single family homes within Schaefer Ranch. 18 homes are located on a 7-acre site at the western terminus of Dublin Boulevard and one home (Lot 70) is located on the western edge of Ridgeline Place. This project was previously approved in 2016 with the majority of the site improvements completed in 2018. Since that time, the Site Development Review Permit approval has since expired. The requested entitlements include a Site Development Review Permit, Lot Line Adjustment and Condition Use Permit which include minor modifications to the architectural standards.",
+    "projectId": "projectdetail1947",
+    "timestamp": "1789149600000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
       "projectdetail1816",
       "images",
       0,
