@@ -283,5 +283,17 @@
     "projectId": "projectdetail1841",
     "timestamp": "1787515200000",
     "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1841",
+      "details",
+      "Building Area"
+    ],
+    "val": "67,504 square feet",
+    "projectId": "projectdetail1841",
+    "timestamp": "1789423200000",
+    "type": "developments:add"
   }
 ]

@@ -1,5 +1,41 @@
 [
   {
+    "op": "add",
+    "path": [
+      "projectdetail1841",
+      "details",
+      "Building Area"
+    ],
+    "val": "67,504 square feet",
+    "projectId": "projectdetail1841",
+    "timestamp": "1789423200000",
+    "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1816",
+      "description"
+    ],
+    "val": "Development of 128 three-story townhome units with private two-car garages, guest parking, private and common open space areas, landscaping, and associated site improvements (Tract 8666 Parcel 7). The application includes a Site Development Review Permit.",
+    "oldVal": "Development of 128 three-story townhome units with private two-car garages and related site improvements (Tract 8666 Parcel 7). The application includes a Site Development Review Permit.",
+    "projectId": "projectdetail1816",
+    "timestamp": "1789423200000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1812",
+      "description"
+    ],
+    "val": "Development of 110 three-story townhome units with private two-car garages, guest parking, private and common open space areas, landscaping, and associated site improvements (Tract 8667 Parcel 8). The application includes a Site Development Review Permit.",
+    "oldVal": "Development of 110 three-story townhome units with private two-car garages and related site improvements (Tract 8667 Parcel 8). The application includes a Site Development Review Permit.",
+    "projectId": "projectdetail1812",
+    "timestamp": "1789423200000",
+    "type": "developments:update"
+  },
+  {
     "op": "update",
     "path": [
       "projectdetail1949",
