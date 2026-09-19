@@ -365,7 +365,130 @@
     
     <div id="GranicusMainViewContent">             <!-- "If not Searching" do the following: -->
 
-                
+                      <script type="text/javascript" src="//dublin.granicus.com/gqueryplugins/ui/granicus.ui.js"></script>
+<link href="//dublin.granicus.com/gqueryplugins/ui/gquery.ui.css" rel="stylesheet" media="screen" type="text/css">
+<script type="text/javascript" src="//dublin.granicus.com/gqueryplugins/ui/gquery.ui.js"></script>
+<script type="text/javascript" src="//dublin.granicus.com/gqueryplugins/defaultText/gquery.defaultText.js"></script>
+<script type="text/javascript" src="//dublin.granicus.com/gqueryplugins/validate/gquery.form.validate.js"></script>
+<link href="//dublin.granicus.com/gqueryplugins/pagination/pagination.css" rel="stylesheet" media="screen" type="text/css">
+<script type="text/javascript" src="//dublin.granicus.com/gqueryplugins/pagination/granicus.pagination.js"></script>
+<link href="//dublin.granicus.com/css/search.css" rel="stylesheet" media="screen" type="text/css">
+<script type="text/javascript" src="//dublin.granicus.com/js/granicus.search.js"></script>
+    <div class="gas_basic search-form" id="unified_searchForm" data-past-meeting-source="clip" data-advanced-search-enabled="1" data-search-rss-enabled="1">
+      <div class="gas_rss" style="display:block">
+        <div class="gas_header">
+          <div class="gas_text">RSS feeds <img alt="RSS Icon" src="//dublin.granicus.com/images/icons/rss_icon.gif"></div>
+        </div>
+        <div class="gas_links">
+          <a href="//dublin.granicus.com/ViewPublisherRSS.php?view_id=1&amp;mode=agendas">Agenda</a>
+          <a href="//dublin.granicus.com/ViewPublisherRSS.php?view_id=1&amp;mode=minutes" style="border: 0px;">Minutes</a>
+          <a href="//dublin.granicus.com/ViewPublisherRSS.php?view_id=1&amp;mode=podcast" style="display: none; border: 0px;">Podcast</a>
+          <a href="//dublin.granicus.com/ViewPublisherRSS.php?view_id=1&amp;mode=vpodcast" style="display: none;">Video Podcast</a>
+        </div>
+      </div>
+      <div class="gas_basicSearch">
+        <form action="//dublin.granicus.com/ViewSearchResults.php" method="get" role="search" aria-label="Search meetings">
+          <input type="hidden" name="view_id" value="1">
+          <input type="hidden" name="types[Clip]" value="on"><input type="hidden" name="types[AgendaItem]" value="on"><input type="hidden" name="types[AttachmentItem]" value="on">
+            <input type="hidden" name="types[Note]" value="on">
+            <input type="hidden" name="types[Vote,Motion]" value="on">
+            <input type="hidden" name="types[Caption]" value="on">
+          <label for="gas_keywords" class="gas_title">Search:</label>
+          <input title="Enter Keywords here" type="text" id="gas_keywords" class="search-keywords default" name="keywords" value="" maxlength="255">
+          &nbsp;<button type="submit" value="Search" class="gas_searchButton">Search</button>
+          <a class="gas_toggleSearch gas_advanced" href="javascript:void(0);" aria-expanded="false" aria-controls="unified_advancedSection" style="display:none">Advanced Search</a>
+          <fieldset class="unified_scopeSelector">
+            <legend>Search scope</legend>
+            <label for="unified_scope_upcoming">
+              <input type="radio" id="unified_scope_upcoming" name="search_scope" value="upcoming" checked="">
+              Upcoming Events
+            </label>
+            <label for="unified_scope_past">
+              <input type="radio" id="unified_scope_past" name="search_scope" value="past">
+              Available Archives
+            </label>
+          </fieldset>
+        </form>
+      </div>
+      <div class="gas_advancedSearch" id="unified_advancedSection" aria-live="polite">
+        <form action="//dublin.granicus.com/ViewSearchResults.php" method="get" id="gas_searchFormAdvanced" class="search-form-advanced">
+        <input type="hidden" name="view_id" value="1">
+        <input type="hidden" name="search_scope" value="past">
+        <fieldset class="unified_typeCheckboxes">
+          <legend>Search types</legend>
+          <div class="gas_options">
+            <p class="gas_title">Search:</p>
+            <div class="gas_option" style="display:inline">
+              <input style="display:inline" id="granicus-inc-clip" type="checkbox" name="types[Clip]">
+              <label for="granicus-inc-clip">Name &amp; Description</label>
+            </div>
+            <div class="gas_option" style="display:inline">
+              <input style="display:inline" id="granicus-inc-agenda" type="checkbox" name="types[AgendaItem]">
+              <label for="granicus-inc-agenda">Agenda Items</label>
+            </div>
+            <div class="gas_option" style="display:inline">
+              <input style="display:inline" id="granicus-inc-attachment" type="checkbox" name="types[AttachmentItem]">
+              <label for="granicus-inc-attachment">Attachment Items</label>
+            </div>
+            <div class="gas_option" style="display:inline">
+              <input style="display:inline" id="granicus-inc-notes" class="search-checkbox-notes" type="checkbox" name="types[Note]">
+              <label for="granicus-inc-notes">Notes</label>
+            </div>
+            <div class="gas_option" style="display:inline">
+              <input style="display:inline" id="granicus-inc-actions" class="search-checkbox-actions" type="checkbox" name="types[Vote,Motion]">
+              <label for="granicus-inc-actions">Motions/Votes</label>
+            </div>
+            <div class="gas_option" style="display:inline">
+              <input style="display:inline" id="granicus-inc-captions" class="search-checkbox-captions" type="checkbox" name="types[Caption]">
+              <label for="granicus-inc-captions">Captions</label>
+            </div>
+          </div>
+        </fieldset>
+
+          <div class="gas_row">
+            <label for="gas_allwords">All these words:</label>
+            <div class="gas_input">
+              <input title="Enter keywords, ordinance or resolution" type="text" id="gas_allwords" class="search-allwords default" name="allwords" maxlength="255" value="">
+            </div>
+          </div>
+          <div class="gas_row">
+            <label for="phrase">This exact phrase:</label>
+            <div class="gas_input">
+              <input type="text" id="phrase" name="phrase" maxlength="255" value="">
+            </div>
+          </div>
+          <div class="gas_row">
+            <label for="unified_orwords_1">One or more of these words:</label>
+            <div class="gas_input gas_mini">
+              <input type="text" id="unified_orwords_1" name="orwords[]" maxlength="255" value="">
+              <span>or</span>
+              <input type="text" id="unified_orwords_2" aria-label="optional second word" name="orwords[]" maxlength="255" value="">
+              <span>or</span>
+              <input type="text" id="unified_orwords_3" aria-label="optional third word" name="orwords[]" maxlength="255" value="">
+            </div>
+          </div>
+          <div class="gas_row">
+            <label for="excludewords">But none of these words:</label>
+            <div class="gas_input">
+              <input type="text" id="excludewords" maxlength="255" name="excludewords" value="">
+            </div>
+          </div>
+          <div class="gas_row">
+            <label for="gas_date1">Date Range:</label>
+            <div class="gas_input gas_mini">
+              <input aria-label="Start date" class="gas_date gas_dateRange search-date-from hasDatepicker" type="text" id="gas_date1" name="startdate" value="">
+              <span><label for="gas_date2">through</label></span>
+              <input aria-label="End date" class="gas_date gas_dateRange search-date-to hasDatepicker" type="text" id="gas_date2" name="enddate" value="">
+            </div>
+          </div>
+          <div class="gas_action">
+            &nbsp;<button type="submit" value="Search" class="gas_searchButton">Search</button>
+            <a class="gas_toggleSearch gas_basic" href="javascript:void(0);">Return to basic search</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  
         <!-- Upcoming and In Progress Events listing table -->
                   <h2>Upcoming Events</h2>
 <table cellspacing="0" class="listingTable" summary="This table lists the details of, and links to view the Video and Documents related to Upcoming and In Progress Events as published by Dublin, CA.  There is one item per table row.">
@@ -408,120 +531,7 @@
                 </h2>
 
         <!-- Advanced Search and RSS Links -->
-                    <div>
-    <br>
-            <script type="text/javascript" src="//dublin.granicus.com/gqueryplugins/ui/granicus.ui.js"></script>
-<link href="//dublin.granicus.com/gqueryplugins/ui/gquery.ui.css" rel="stylesheet" media="screen" type="text/css">
-<script type="text/javascript" src="//dublin.granicus.com/gqueryplugins/ui/gquery.ui.js"></script>
-<script type="text/javascript" src="//dublin.granicus.com/gqueryplugins/defaultText/gquery.defaultText.js"></script>
-<script type="text/javascript" src="//dublin.granicus.com/gqueryplugins/validate/gquery.form.validate.js"></script>
-<link href="//dublin.granicus.com/gqueryplugins/pagination/pagination.css" rel="stylesheet" media="screen" type="text/css">
-<script type="text/javascript" src="//dublin.granicus.com/gqueryplugins/pagination/granicus.pagination.js"></script>
-<link href="//dublin.granicus.com/css/search.css" rel="stylesheet" media="screen" type="text/css">
-<script type="text/javascript" src="//dublin.granicus.com/js/granicus.search.js"></script>
-    <div class="gas_basic search-form" id="gas_searchForm">
-      <div class="gas_rss" style="display:block">
-        <div class="gas_header">
-          <div class="gas_text">RSS feeds <img alt="RSS Icon" src="//dublin.granicus.com/images/icons/rss_icon.gif"></div>
-
-        </div>
-        <div class="gas_links">
-          <a href="//dublin.granicus.com/ViewPublisherRSS.php?view_id=1&amp;mode=agendas">Agenda</a>
-          <a href="//dublin.granicus.com/ViewPublisherRSS.php?view_id=1&amp;mode=minutes" style="border: 0px;">Minutes</a>
-          <a href="//dublin.granicus.com/ViewPublisherRSS.php?view_id=1&amp;mode=podcast" style="display: none; border: 0px;">Podcast</a>
-          <a href="//dublin.granicus.com/ViewPublisherRSS.php?view_id=1&amp;mode=vpodcast" style="display: none;">Video Podcast</a>
-        </div>
-      </div>
-      <div class="gas_basicSearch">
-        <form action="//dublin.granicus.com/ViewSearchResults.php" method="get">
-		      <input type="hidden" name="view_id" value="1">
-          <input type="hidden" name="types[Clip]" value="on"><input type="hidden" name="types[AgendaItem]" value="on"><input type="hidden" name="types[AttachmentItem]" value="on">
-            <input type="hidden" name="types[Note]" value="on">
-            <input type="hidden" name="types[Vote,Motion]" value="on">
-            <input type="hidden" name="types[Caption]" value="on">
-          <label for="gas_keywords" class="gas_title">Search Archives:</label>
-          <input title="Enter Keywords here" type="text" id="gas_keywords" class="search-keywords default" name="allwords" value="" maxlength="255">
-          &nbsp;<button type="submit" value="Search" class="gas_searchButton">Search</button>
-          <a class="gas_toggleSearch gas_advanced" href="javascript:void(0);">Advanced Search</a>
-        </form>
-      </div>
-      <div class="gas_advancedSearch">
-		<form action="//dublin.granicus.com/ViewSearchResults.php" method="get" id="gas_searchFormAdvanced" class="search-form-advanced">
-		<input type="hidden" name="view_id" value="1">
-        <div class="gas_options">
-        <p class="gas_title">Search:</p>
-          <div class="gas_option" style="display:inline">
-            <input style="display:inline" id="granicus-inc-clip" type="checkbox" name="types[Clip]">
-            <label for="granicus-inc-clip">Name &amp; Description</label>
-          </div>
-          <div class="gas_option" style="display:inline">
-            <input style="display:inline" id="granicus-inc-agenda" type="checkbox" name="types[AgendaItem]">
-            <label for="granicus-inc-agenda">Agenda Items</label>
-          </div>
-          <div class="gas_option" style="display:inline">
-            <input style="display:inline" id="granicus-inc-attachment" type="checkbox" name="types[AttachmentItem]">
-            <label for="granicus-inc-attachment">Attachment Items</label>
-          </div>
-          <div class="gas_option" style="display:inline">
-            <input style="display:inline" id="granicus-inc-notes" class="search-checkbox-notes" type="checkbox" name="types[Note]">
-            <label for="granicus-inc-notes">Notes</label>
-          </div>
-          <div class="gas_option" style="display:inline">
-            <input style="display:inline" id="granicus-inc-actions" class="search-checkbox-actions" type="checkbox" name="types[Vote,Motion]">
-            <label for="granicus-inc-actions">Motions/Votes</label>
-          </div>
-          <div class="gas_option" name="captions" style="display:inline">
-            <input style="display:inline" id="granicus-inc-captions" class="search-checkbox-captions" type="checkbox" name="types[Caption]">
-            <label for="granicus-inc-captions">Captions</label>
-          </div>
-        </div>
-
-          <div class="gas_row">
-            <label for="gas_allwords">All these words:</label>
-            <div class="gas_input">
-              <input title="Enter keywords, ordinance or resolution" type="text" id="gas_allwords" class="search-allwords default" name="allwords" maxlength="255" value="">
-            </div>
-          </div>
-          <div class="gas_row">
-            <label for="phrase">This exact phrase:</label>
-            <div class="gas_input">
-              <input type="text" id="phrase" name="phrase" maxlength="255" value="">
-            </div>
-          </div>
-          <div class="gas_row">
-            <label for="orwords">One or more of these words:</label>
-            <div class="gas_input gas_mini">
-              <input type="text" id="orwords" name="orwords[]" maxlength="255" value="">
-              <span>or</span>
-              <input type="text" aria-label="optional second word" id="orwords" name="orwords[]" maxlength="255" value="">
-              <span>or</span>
-              <input type="text" aria-label="optional third word" id="orwords" name="orwords[]" maxlength="255" value="">
-            </div>
-          </div>
-          <div class="gas_row">
-            <label for="excludewords">But none of these words:</label>
-            <div class="gas_input">
-              <input type="text" id="excludewords" maxlength="255" name="excludewords" value="">
-            </div>
-          </div>
-          <div class="gas_row">
-            <label for="gas_date1">Date Range:</label>
-            <div class="gas_input gas_mini">
-              <input aria-label="Start date" class="gas_date gas_dateRange search-date-from hasDatepicker" type="text" id="gas_date1" name="startdate" value="">
-              <span><label for="gas_date2">through</label></span>
-              <input aria-label="End date" class="gas_date gas_dateRange search-date-to hasDatepicker" type="text" id="gas_date2" name="enddate" value="">
-            </div>
-          </div>
-          <div class="gas_action">
-            &nbsp;<button type="submit" value="Search" class="gas_searchButton">Search</button>
-            <a class="gas_toggleSearch gas_basic" href="javascript:void(0);">Return to basic search</a>
-          </div>
-        </form>
-      </div>
-    </div>
-        <br>
-</div>
-                <!-- End search and RSS links -->
+                                        <!-- End search and RSS links -->
 
           <div class="archive">
 
