@@ -1,5 +1,48 @@
 [
   {
+    "op": "add",
+    "path": [
+      "projectdetail1947",
+      "docs",
+      0
+    ],
+    "val": {
+      "name": "Schaefer Ranch Community Outreach Presentation",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2026/03/Schaefer-Ranch-Community-Outreach-Presentation.pdf"
+    },
+    "projectId": "projectdetail1947",
+    "timestamp": "1790632800000",
+    "type": "developments:add"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1947",
+      "images",
+      0,
+      "original"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2026/03/MasterPlotPlan_9.28.2026-scaled.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2026/03/DevelopmentPageScreenshot.png",
+    "projectId": "projectdetail1947",
+    "timestamp": "1790632800000",
+    "type": "developments:update"
+  },
+  {
+    "op": "update",
+    "path": [
+      "projectdetail1947",
+      "images",
+      0,
+      "thumbnail"
+    ],
+    "val": "https://dublin-development.icitywork.com/wp-content/uploads/2026/03/MasterPlotPlan_9.28.2026-150x150.png",
+    "oldVal": "https://dublin-development.icitywork.com/wp-content/uploads/2026/03/DevelopmentPageScreenshot-150x150.png",
+    "projectId": "projectdetail1947",
+    "timestamp": "1790632800000",
+    "type": "developments:update"
+  },
+  {
     "op": "update",
     "path": [
       "projectdetail1656",
