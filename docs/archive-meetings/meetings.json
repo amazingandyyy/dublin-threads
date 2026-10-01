@@ -11,6 +11,17 @@
     "orgId": "PlanningCommission"
   },
   {
+    "organizor": "",
+    "cancelled": true,
+    "name": "Finance and Investment Committee Cancellation Notice",
+    "date": "10-06-2026",
+    "timestamp": 1791270000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=852",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": ""
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": true,
     "name": "Planning Commission Cancelled",
