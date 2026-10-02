@@ -1,5 +1,17 @@
 [
   {
+    "organizor": "",
+    "cancelled": true,
+    "name": "Federal and Military Communities Committee Cancellation Notice",
+    "date": "10-19-2026",
+    "timestamp": 1792393200000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=910",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": "",
+    "type": "meeting"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": false,
     "name": "Planning Commission Regular Meeting",
