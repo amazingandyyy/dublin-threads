@@ -626,5 +626,35 @@
     "projectId": "projectdetail1816",
     "timestamp": "1789423200000",
     "type": "developments:update"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1816",
+      "docs",
+      0
+    ],
+    "val": {
+      "name": "Dublin Fallon 580 Residential (Parcels 7 & 8) Community Meeting Presentation September 30 and October 1, 2026",
+      "url": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Dublin-Fallon-580-Residential-Parcels-7-8-Community-Meeting-Presentation-September-30-and-October-1-2026.pdf"
+    },
+    "projectId": "projectdetail1816",
+    "timestamp": "1790964000000",
+    "type": "developments:add"
+  },
+  {
+    "op": "add",
+    "path": [
+      "projectdetail1816",
+      "images",
+      6
+    ],
+    "val": {
+      "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-10-02-094043.png",
+      "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-10-02-094043-150x150.png"
+    },
+    "projectId": "projectdetail1816",
+    "timestamp": "1790964000000",
+    "type": "developments:add"
   }
 ]
