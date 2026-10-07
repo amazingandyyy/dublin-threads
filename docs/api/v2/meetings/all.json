@@ -36,18 +36,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "",
-    "cancelled": true,
-    "name": "Finance and Investment Committee Cancellation Notice",
-    "date": "10-06-2026",
-    "timestamp": 1791270000000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=852",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "",
-    "type": "meeting"
-  },
-  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
@@ -55,7 +43,7 @@
     "timestamp": 1791270000000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=799",
     "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3f88a2c3-c4b8-11f0-a7da-005056a89546-3024744b-ade7-4818-a498-958db485d49e-1790901872.pdf",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3f88a2c3-c4b8-11f0-a7da-005056a89546-4c1e7fda-78a9-4226-83cf-0667e9f307f2-1791330630.pdf",
     "orgId": "CityCouncil",
     "type": "meeting"
   },
