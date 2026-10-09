@@ -627,5 +627,57 @@
     "projectId": "projectdetail1461",
     "timestamp": "1751994000000",
     "type": "developments:update"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1461"
+    ],
+    "oldVal": {
+      "id": "projectdetail1461",
+      "title": "McDonald’s Restaurant Rebuild",
+      "details": {
+        "Planning Application #": "PLPA-004220-2025",
+        "Application Type": "Site Development Review",
+        "Application Submittal Date": "07/08/2025",
+        "General Plan Land Use": "Downtown Dublin - Village Parkway District",
+        "Specific Plan Area": "Downtown Dublin Specific Plan",
+        "Zoning": "DDZD",
+        "Project Area": ".87 acres",
+        "Building Area": "4,394 square feet",
+        "Foor Area Ratio": ".11 FAR",
+        "Stories/Height": "1 story / 19.5 feet",
+        "Parking Provided": "20 parking spaces",
+        "Applicant": {
+          "name": "Adam Brandenburg, Project Manager for McDonald's",
+          "address": "2999 Oak Road, Suite, 900, Walnut Creek, CA 95497",
+          "phone": "(509) 643-6416"
+        },
+        "Project Planner": {
+          "name": "Kristie Wheeler - Special Projects Manager",
+          "phone": "(925) 833-6610",
+          "email": "kristie.wheeler@dublin.ca.gov"
+        }
+      },
+      "location": "7145 Dublin Boulevard",
+      "docs": [],
+      "status": "Pre-Application",
+      "description": "Site Development Review Permit to allow demolition of an existing McDonald’s restaurant and construction of a new 4,394-square-foot restaurant building, drive-through, trash enclosure and site improvements.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Screenshot-2025-07-08-103943.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/Screenshot-2025-07-08-103943-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.7061459,
+        "lon": -121.9244778,
+        "iconName": "dot",
+        "title": "McDonald’s Restaurant Rebuild"
+      }
+    },
+    "projectId": "projectdetail1461",
+    "timestamp": "1791529200000",
+    "type": "developments:delete"
   }
 ]

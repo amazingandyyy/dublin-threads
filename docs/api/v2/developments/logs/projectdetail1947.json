@@ -113,5 +113,70 @@
     "projectId": "projectdetail1947",
     "timestamp": "1790632800000",
     "type": "developments:update"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1947"
+    ],
+    "oldVal": {
+      "id": "projectdetail1947",
+      "title": "Schaefer Ranch Unit 3 & Unit 1 Lot 70",
+      "details": {
+        "Planning Application #": "PLPA-004375-2026",
+        "Application Type": "Conditional Use Permit, Site Development Review Permit, Lot Line Adjustment",
+        "Application Submittal Date": "03/14/2026",
+        "General Plan Land Use": "Single Family Residential",
+        "Specific Plan Area": "None",
+        "Zoning": "Planned Development Ordinance 06-16",
+        "Project Area": "7.35 acres",
+        "Applicant": {
+          "name": "Roe Williams, Discovery Builders",
+          "address": "5099 Commercial Circle Suite 100, Concord CA 94520",
+          "phone": "925-766-6406"
+        },
+        "Project Planner": {
+          "name": "Shane Fields - Assistant Planner",
+          "phone": "(925) 833-6610",
+          "email": "shane.fields@dublin.ca.gov"
+        }
+      },
+      "location": "Schaefer Way",
+      "docs": [
+        {
+          "name": "Schaefer Ranch Community Outreach Presentation",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2026/03/Schaefer-Ranch-Community-Outreach-Presentation.pdf"
+        }
+      ],
+      "status": "Application Under Review",
+      "description": "Background",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/03/MasterPlotPlan_9.28.2026-scaled.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/03/MasterPlotPlan_9.28.2026-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/03/AllBuildingsRepresentations.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/03/AllBuildingsRepresentations-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/03/Building2.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/03/Building2-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/03/Building3.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/03/Building3-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.70506743316111,
+        "lon": -121.98522227680323,
+        "iconName": "dot",
+        "title": "Schaefer Ranch Unit 3 & Unit 1 Lot 70"
+      }
+    },
+    "projectId": "projectdetail1947",
+    "timestamp": "1791529200000",
+    "type": "developments:delete"
   }
 ]

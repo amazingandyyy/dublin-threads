@@ -1385,5 +1385,101 @@
     "projectId": "projectdetail1464",
     "timestamp": "1788480000000",
     "type": "developments:delete"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1464"
+    ],
+    "oldVal": {
+      "id": "projectdetail1464",
+      "title": "The Dublin Centre “The DC” (SCS Property)",
+      "details": {
+        "Planning Application #": "PLPA-2023-00029",
+        "Application Type": "Site Development Review Permit and Tentative Tract Map(s)",
+        "Application Submittal Date": "09/21/2023",
+        "General Plan Land Use": "General Commercial, Public/Semi-Public, Medium Density Residential, Medium-High Density Residential and Public/Park Recreation",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development Ordinance No. 14-22",
+        "Project Area": "54.4 acres",
+        "Applicant": {
+          "name": "Adam Lind, Risewell Homes",
+          "address": "3130 Crow Canyon Place, Ste. 325, San Ramon, CA 94583",
+          "phone": "209-499-3996"
+        }
+      },
+      "location": "Tassajara Road",
+      "docs": [
+        {
+          "name": "Planning Commission Study Session Agenda & Staff Report December 12, 2023",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/508aae261667f8f51e88d96e50f44f310.pdf"
+        },
+        {
+          "name": "The Dublin Centre Community Meeting Presentation January 17 & 18, 2024",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/The-Dublin-Centre-Community-Meeting.pdf"
+        },
+        {
+          "name": "Planning Commission Agenda & Staff Report February 13, 2024",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/43743a6a6d1dcf0299a11ad504ac1bbd0.pdf"
+        },
+        {
+          "name": "Planning Commission Agenda & Staff Report May 26, 2026",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/30cfecb265fd80a33d646b293b930eb00.pdf"
+        },
+        {
+          "name": "City council Agenda & Staff Report June 16, 2026",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/a8760ccb0fde4ed676c2f1734c09d6aa0.pdf"
+        },
+        {
+          "name": "City Council Agenda & Staff Report July 21, 2026",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/2b8ce3c44d842b3721ab1f5445a785e30.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "The Dublin Centre project is an application for a Site Development Review Permit and Tentative Tract Map(s) for a mixed-use development which includes 500 residential units, approximately 38,000 square feet of retail commercial uses, a public park and a community center. The Dublin Centre project is located on the 54-acres of the SCS property north of Dublin Boulevard. The project is divided into 3 Planning Areas (PA). PA- 2 is block between Dublin Boulevard and Central Parkway, PA-3 is the block between Central Parkway and Gleason Road and PA-4 is the small area north of Gleason Road. The project also includes the request for approval of the off-site/frontage improvements for PA-1 which is the block south of Dublin Boulevard. No development of PA-1 is proposed as part of this application.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/DC-Site-Plan-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/DC-Site-Plan-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/shophouses-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/shophouses-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/finnian-square-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/finnian-square-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/PA4-Streetview-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/PA4-Streetview-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/PA3-streetview-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/PA3-streetview-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/PA3-ADU-streetview-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/PA3-ADU-streetview-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/PA3-ADU-streetview-rear-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/PA3-ADU-streetview-rear-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/PA3-townhomes-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2022/03/PA3-townhomes-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.7080747,
+        "lon": -121.8699708,
+        "iconName": "dot",
+        "title": "The Dublin Centre “The DC” (SCS Property)"
+      }
+    },
+    "projectId": "projectdetail1464",
+    "timestamp": "1791529200000",
+    "type": "developments:delete"
   }
 ]

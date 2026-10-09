@@ -346,5 +346,89 @@
     "projectId": "projectdetail1879",
     "timestamp": "1789758000000",
     "type": "developments:update"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1879"
+    ],
+    "oldVal": {
+      "id": "projectdetail1879",
+      "title": "Dublin Fallon 580 Commercial (Tract 8663 Parcels 1 & 3)",
+      "details": {
+        "Planning Application #": "PLPA-004287-2025",
+        "Application Type": "Planned Development Stage 2, Tentative Parcel Map and Site Development Review Permit",
+        "Application Submittal Date": "10/06/2025",
+        "General Plan Land Use": "General Commercial/Campus Office",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development (ORD. 05-24)",
+        "Project Area": "Phase 1A - 9.22 acres",
+        "Building Area": "Phase 1A - 53,066 square feet",
+        "Foor Area Ratio": "0.13 FAR",
+        "Stories/Height": "1 story / 34 feet",
+        "Parking Provided": "267 parking spaces",
+        "Applicant": {
+          "name": "Wooi See",
+          "address": "2800 Post Oak Blvd., Suite 5115, Houston, TX 77056",
+          "phone": "405-714-2117"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "3410 Croak Road",
+      "docs": [],
+      "status": "Application Under Review",
+      "description": "Planned Development Stage 2 and Tentative Parcel Map for Parcels 1 and 3 of Tract 8663, and a Site Development Review (SDR) Permit for Phase 1A of Parcel 1 of Tract 8663. The Planned Development Stage 2 would establish development regulations and architectural and landscape standards for Parcels 1 and 3. The Tentative Parcel Map would subdivide Parcel 1 into 13 parcels and Parcel 3 into two parcels. The Site Development Review Permit would allow development of Phase 1A on a portion of Parcel 1, consisting of a neighborhood retail shopping center with approximately 49,000 square feet of commercial space, including a new bank, retail tenants, and restaurant uses.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-09-18-100152.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-09-18-100152-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-09-18-095518.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-09-18-095518-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-09-18-095607.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-09-18-095607-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-09-18-095800.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-09-18-095800-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-09-18-094723.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-09-18-094723-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-09-18-094858.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-09-18-094858-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-09-18-095025.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-09-18-095025-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-09-18-095202.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-09-18-095202-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-09-18-095241.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/10/Screenshot-2026-09-18-095241-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.70400468393008,
+        "lon": -121.8463325379868,
+        "iconName": "dot",
+        "title": "Dublin Fallon 580 Commercial (Tract 8663 Parcels 1 & 3)"
+      }
+    },
+    "projectId": "projectdetail1879",
+    "timestamp": "1791529200000",
+    "type": "developments:delete"
   }
 ]

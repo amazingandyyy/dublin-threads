@@ -783,5 +783,78 @@
     "projectId": "projectdetail1816",
     "timestamp": "1791316800000",
     "type": "developments:delete"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1816"
+    ],
+    "oldVal": {
+      "id": "projectdetail1816",
+      "title": "Dublin Fallon 580 Residential (Tract 8666 Parcel 7)",
+      "details": {
+        "Planning Application #": "PLPA-004144-2025",
+        "Application Type": "Site Development Review Permit",
+        "Application Submittal Date": "03/19/2025",
+        "General Plan Land Use": "Medium/High Density Residential",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development",
+        "Project Area": "6.56 acres",
+        "Applicant": {
+          "name": "Wooi See",
+          "address": "2800 Post Oak Blvd., Suite 5115, Houston, TX 77056",
+          "phone": "405-714-2117"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "3457 Croak Road",
+      "docs": [
+        {
+          "name": "Dublin Fallon 580 Residential (Parcels 7 & 8) Community Meeting Presentation September 30 and October 1, 2026",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Dublin-Fallon-580-Residential-Parcels-7-8-Community-Meeting-Presentation-September-30-and-October-1-2026.pdf"
+        }
+      ],
+      "status": "Application Under Review",
+      "description": "Development of 128 three-story townhome units with private two-car garages, guest parking, private and common open space areas, landscaping, and associated site improvements (Tract 8666 Parcel 7). The application includes a Site Development Review Permit.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-09-08-151243.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-09-08-151243-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-09-08-151201.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-09-08-151201-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-09-08-151409.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-09-08-151409-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-09-08-151421.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-09-08-151421-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-10-02-094043.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-10-02-094043-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-09-08-151319.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2025/03/Screenshot-2026-09-08-151319-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.708067,
+        "lon": -121.843769,
+        "iconName": "dot",
+        "title": "Dublin Fallon 580 Residential (Tract 8666 Parcel 7)"
+      }
+    },
+    "projectId": "projectdetail1816",
+    "timestamp": "1791529200000",
+    "type": "developments:delete"
   }
 ]

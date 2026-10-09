@@ -374,5 +374,108 @@
     "projectId": "projectdetail1741",
     "timestamp": "1787515200000",
     "type": "developments:update"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1741"
+    ],
+    "oldVal": {
+      "id": "projectdetail1741",
+      "title": "Dublin Commons",
+      "details": {
+        "Planning Application #": "PLPA-2024-00047 and PLPA-004036-2024",
+        "Application Type": "Vesting Tentative Tract Map and Development and Community Benefit Program Agreement / Site Development Review Permit and Heritage Tree Removal Permit",
+        "Application Submittal Date": "05/17/2024",
+        "General Plan Land Use": "DDSP Retail District",
+        "Specific Plan Area": "Downtown Dublin Retail District",
+        "Zoning": "DDSP",
+        "Project Area": "Approx. 28 acres",
+        "Building Area": "810,000 square feet",
+        "Stories/Height": "8 stories / 90 feet",
+        "Applicant": {
+          "name": "Mario Tjia, Director Hines Interests, LP",
+          "address": "101 California Street, Ste. 100 San Francisco, CA 94111",
+          "phone": "415-982-6200"
+        },
+        "Project Planner": {
+          "name": "Jennifer Byous - Planning Manager",
+          "phone": "(925) 833-6610",
+          "email": "jennifer.byous@dublin.ca.gov"
+        }
+      },
+      "location": "7575 Dublin Boulevard",
+      "docs": [
+        {
+          "name": "City Council July 16, 2024 Staff Report & Agenda",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/fecb96ad24aaeac415d73dd08a603a0d0.pdf"
+        },
+        {
+          "name": "Community Meeting August 7 & 8, 2024 Presentation",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/Dublin-Commons-Community-Meeting-August-7-8-Presentation.pdf"
+        },
+        {
+          "name": "Planning Commission August 13, 2024 Staff Report & Agenda",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/f25ea74c13f8e9c706ac20b10cdca3f30.pdf"
+        },
+        {
+          "name": "City Council August 20, 2024 Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/bb10193a60e0fbaf7a33a4da7859f5d90.pdf"
+        },
+        {
+          "name": "City Council September 3, 2024 Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/9ffa5cd5a80f9904d4e6e32f03a72d710.pdf"
+        },
+        {
+          "name": "Planning Commission September 10, 2024 Agenda & Staff Report",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/6f62d7565229c3dce3dd0e1f3d1515740.pdf"
+        }
+      ],
+      "status": "Application Under Review",
+      "description": "The Dublin Commons project is the redevelopment of the Dublin Place Shopping Center as part of implementing the Downtown Dublin Preferred Vision. Dublin Commons is a mixed-use project of up to 275,000 SF of retail (consisting of 155,000 SF of new retail and 120,000 SF of existing retail), 535,000 SF of Research and Development (Life Science), 1,510 multifamily residential units and a new Town Square/park. The project entitlements included are a Vesting Tentative Tract Map and a Development and Community Benefit Program Agreement (Application No. PLPA-2024-00047), Site Development Review Permit (PLPA-004036-2024) and Heritage Tree Removal Permit (PLOC-004052-2024).",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/Town-Square-B-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/Town-Square-B-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/Dublin-Commons-Site-Plan-August-2024-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/Dublin-Commons-Site-Plan-August-2024-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/Town-Square-A-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/Town-Square-A-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/GGD-Extension-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/GGD-Extension-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/E3-E2-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/E3-E2-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/E3--scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/E3--150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/D1-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/D1-150x150.jpg"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/A-scaled.jpg",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2024/05/A-150x150.jpg"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.7055304,
+        "lon": -121.929789,
+        "iconName": "dot",
+        "title": "Dublin Commons"
+      }
+    },
+    "projectId": "projectdetail1741",
+    "timestamp": "1791529200000",
+    "type": "developments:delete"
   }
 ]

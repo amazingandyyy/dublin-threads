@@ -517,5 +517,106 @@
     "projectId": "projectdetail1949",
     "timestamp": "1790964000000",
     "type": "developments:add"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1949"
+    ],
+    "oldVal": {
+      "id": "projectdetail1949",
+      "title": "Eden at Francis Ranch",
+      "details": {
+        "Planning Application #": "PLPA-004497-2026",
+        "Application Type": "SB330 Preliminary Application",
+        "Application Submittal Date": "09/25/2026",
+        "General Plan Land Use": "Public/Semi-Public",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Planned Development (ORD. 32-05)",
+        "Project Area": "2.05 acres",
+        "Building Area": "95,723 square feet",
+        "Foor Area Ratio": "1.07 FAR",
+        "Stories/Height": "4 stories / 50 feet",
+        "Parking Provided": "81 parking spaces",
+        "Applicant": {
+          "name": "Eden Housing",
+          "address": "22645 Grand Street Hayward, CA 94541",
+          "phone": "(510) 331-6329"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "Central Parkway and Byrne Street",
+      "docs": [
+        {
+          "name": "Eden at Francis Ranch Community Meeting Presentation August 26 & 27, 2026",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Eden-at-Francis-Ranch-Community-Meeting-Presentation-August-26-27-2026.pdf"
+        }
+      ],
+      "status": "Application Under Review",
+      "description": "Background",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-100135.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-100135-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-100740.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-100740-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-101356.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-101356-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-100823.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-100823-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-100846.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-100846-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-100906.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-100906-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-100925.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-100925-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-100950.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-100950-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-101003.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-101003-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-101047.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-101047-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-101309.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-101309-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-101338.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2026/06/Screenshot-2026-10-02-101338-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.70954655713383,
+        "lon": -121.83798540097051,
+        "iconName": "dot",
+        "title": "Eden at Francis Ranch"
+      }
+    },
+    "projectId": "projectdetail1949",
+    "timestamp": "1791529200000",
+    "type": "developments:delete"
   }
 ]

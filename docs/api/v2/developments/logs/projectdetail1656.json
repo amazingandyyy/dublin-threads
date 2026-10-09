@@ -1576,5 +1576,110 @@
     "projectId": "projectdetail1656",
     "timestamp": "1790384400000",
     "type": "developments:update"
+  },
+  {
+    "op": "delete",
+    "path": [
+      "projectdetail1656"
+    ],
+    "oldVal": {
+      "id": "projectdetail1656",
+      "title": "Dublin Fallon 580",
+      "details": {
+        "Planning Application #": "PLPA-2023-00033",
+        "Application Type": "General Plan/Specific Plan Amendment. Planned Development Rezone with a Stage 1 Development Plan Amendment and a Stage 2 Development Plan, Vesting Tentative Tract Maps, and Development Agreement",
+        "Application Submittal Date": "10/16/2023",
+        "General Plan Land Use": "General Commercial/ Campus Office (GC/CO), Open Space (OS), Parks/Public Recreation (P/PR), Public/Semi-Public (P/SP), and Medium High Density Residential (MH)",
+        "Specific Plan Area": "Eastern Dublin Specific Plan",
+        "Zoning": "Ordinance No. 32-05 and Ordinance No. 13-08",
+        "Project Area": "192 acres",
+        "Applicant": {
+          "name": "Wooi See, GH PacVest, Inc",
+          "address": "2800 Post Oak Blvd, Ste 5115, Houston TX 77056",
+          "phone": "832-397-6506"
+        },
+        "Project Planner": {
+          "name": "Gaspare Annibale - Senior Planner",
+          "phone": "(925) 833-6610",
+          "email": "gaspare.annibale@dublin.ca.gov"
+        }
+      },
+      "location": "Croak Road",
+      "docs": [
+        {
+          "name": "City Council Meeting, August 20, 2024",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/bb10193a60e0fbaf7a33a4da7859f5d90.pdf"
+        },
+        {
+          "name": "City Council Meeting, July 16, 2024",
+          "url": "https://granicus_production_attachments.s3.amazonaws.com/dublin/cc83c913bbce74baf0520a4cba96f53a0.pdf"
+        },
+        {
+          "name": "Planning Commission Meeting, June 11, 2024",
+          "url": "https://d3n9y02raazwpg.cloudfront.net/dublin/297b2df1-0c57-4b51-9488-5c4d7c2b4300-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1717632430.pdf"
+        },
+        {
+          "name": "Final Draft Initial Study Addendum, April 8, 2024",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/580Fallon_FinalDraftIS-reduced-size.pdf"
+        },
+        {
+          "name": "Final Local Transportation Analysis April 3, 2024",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Final-Local-Transporation-Analysis-04032024.pdf"
+        },
+        {
+          "name": "Community Meeting Presentation Dublin Fallon 580 March 27& 28 and April 3, 2024",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Community-Meeting-Presentation-Dublin-Fallon-580-5.pdf"
+        },
+        {
+          "name": "Fallon Village Draft SEIR August-2005",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Fallon-Village-Draft-SEIR-August-2005.pdf"
+        },
+        {
+          "name": "Fallon Village Final SEIR November-2005",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Fallon-Village-Final-SEIR-November-2005.pdf"
+        },
+        {
+          "name": "Draft East Dublin Properties Stage I Development Plan and Annexation SEIR 2002",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Draft-E-Dublin-Prop-Stage-I-DP-and-Annex-SEIR-2002.pdf"
+        },
+        {
+          "name": "Final E Dublin Prop Stage I DP and Annex SEIR 2002",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Final-E-Dublin-Prop-Stage-I-DP-and-Annex-SEIR-2002.pdf"
+        },
+        {
+          "name": "Draft Eastern Dublin General Plan Amendment and Specific Plan EIR (1993)",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Draft-Eastern-Dublin-General-Plan-Amendment-and-Specific-Plan-EIR-1993.pdf"
+        },
+        {
+          "name": "Final Eastern Dublin General Plan Amendment and Specific Plan EIR (1993)",
+          "url": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Final-Eastern-Dublin-General-Plan-Amendment-and-Specific-Plan-EIR-1993.pdf"
+        }
+      ],
+      "status": "Final Action",
+      "description": "Dublin Fallon 580 project proposes the subdivision of 192 acres into 11 parcels to accommodate future commercial, campus office, multi-family residential, open space, community park, and nature park uses. The project would allow up to 3,299,670 square feet of commercial and campus office use and up to 238 multi-family homes.",
+      "images": [
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Dublin-Fallon-pages-from-all-tentative-tract-maps.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Dublin-Fallon-pages-from-all-tentative-tract-maps-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Tract-8666-021524.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Tract-8666-021524-150x150.png"
+        },
+        {
+          "original": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Tract-8667-021424.png",
+          "thumbnail": "https://dublin-development.icitywork.com/wp-content/uploads/2023/05/Tract-8667-021424-150x150.png"
+        }
+      ],
+      "geolocation": {
+        "lat": 37.70771,
+        "lon": -121.847664,
+        "iconName": "dot",
+        "title": "Dublin Fallon 580"
+      }
+    },
+    "projectId": "projectdetail1656",
+    "timestamp": "1791529200000",
+    "type": "developments:delete"
   }
 ]
