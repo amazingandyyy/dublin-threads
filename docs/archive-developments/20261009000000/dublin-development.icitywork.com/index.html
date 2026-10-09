@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Development Projects</title>
+    <!-- id matched by lib/favicon.js's FAVICON_ID — without it, this static
+         tag never gets removed when a tenant favicon is set, and browsers
+         keep showing this one instead of switching to the new <link>. -->
+    <link id="pe-tenant-favicon" rel="icon" type="image/svg+xml" href="/logo-icon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Google Maps SDK (googleMapsProvider.js) + its tile/icon assets — only
+         fetched by map-enabled tenants, but the connection can warm up
+         immediately regardless, before the app even knows which tenant this
+         is. No crossorigin: unlike the font files above, the SDK script and
+         map tiles aren't fetched in CORS mode. -->
+    <link rel="preconnect" href="https://maps.googleapis.com" />
+    <link rel="preconnect" href="https://maps.gstatic.com" />
+    <!-- Michroma is the marketing/public-site display font; Inter is the
+         admin console's readable UI font (see .admin-shell in main.css);
+         Lora/Work Sans are for the login page's brand styling (matches
+         www.icitywork.io's type pairing). -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Michroma&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/assets/index-D8u-NIaL.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-C_jrce8p.css">
+  
+    <meta name="description" content="Explore City of Dublin&#39;s projects — track status, budgets, timelines, and locations." />
+    <link rel="canonical" href="https://icitywork.io/dublin-development" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Development Projects" />
+    <meta property="og:description" content="Explore City of Dublin&#39;s projects — track status, budgets, timelines, and locations." />
+    <meta property="og:url" content="https://icitywork.io/dublin-development" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:image" content="https://icitywork.io/uploads/tenants/6a9e7592b87a684d8ebf453a/branding/8f59f83e-9e12-452f-95b6-e135130b0cb7.webp" />
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
