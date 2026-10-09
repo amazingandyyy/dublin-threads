@@ -36,6 +36,31 @@
     "type": "meeting"
   },
   {
+    "organizor": "",
+    "cancelled": false,
+    "name": "Federal and Military Communities Committee Special Meeting",
+    "date": "10-12-2026",
+    "timestamp": 1791788400000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=858",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/44e79149-f191-11f0-bb28-005056a89546-2aa686d9-32bb-4680-b483-65fbfbd56815-1791560424.pdf",
+    "orgId": "",
+    "type": "meeting"
+  },
+  {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission",
+    "date": "10-08-2026",
+    "timestamp": 1791442800000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2647",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2647",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/c6b7aef7-b441-11f0-8df7-005056a89546-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1791562983.pdf",
+    "orgId": "HeritageandCulturalArtsCommission",
+    "type": "meeting"
+  },
+  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "City Council Regular Meeting",
