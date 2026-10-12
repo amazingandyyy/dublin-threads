@@ -33,15 +33,16 @@
     "orgId": "PlanningCommission"
   },
   {
-    "organizor": "",
+    "organizor": "Federal and Military Communities Committee",
     "cancelled": false,
     "name": "Federal and Military Communities Committee Special Meeting",
     "date": "10-12-2026",
     "timestamp": 1791788400000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=858",
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2651",
+    "minutes": "",
     "video": "",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/44e79149-f191-11f0-bb28-005056a89546-2aa686d9-32bb-4680-b483-65fbfbd56815-1791560424.pdf",
-    "orgId": ""
+    "orgId": "FederalandMilitaryCommunitiesCommittee"
   },
   {
     "organizor": "Heritage and Cultural Arts Commission",
@@ -242,7 +243,7 @@
     "date": "08-18-2026",
     "timestamp": 1787036400000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2629",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=2629&doc_id=a5421483-c692-11f1-89ef-005056a84798",
     "video": "",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3f60d567-f183-11f0-bb28-005056a89546-2aa686d9-32bb-4680-b483-65fbfbd56815-1786736583.pdf",
     "orgId": "FinanceandInvestmentCommittee"
@@ -390,18 +391,6 @@
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2611",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/9ab325e5-d467-11f0-bb28-005056a89546-ab7ea741-4587-411e-82f1-bcf7b0ec0e28-1781886214.pdf",
     "orgId": "PlanningCommission"
-  },
-  {
-    "organizor": "Federal and Military Communities Committee",
-    "cancelled": false,
-    "name": "Federal and Military Communities Committee",
-    "date": "06-17-2026",
-    "timestamp": 1781679600000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2608",
-    "minutes": "",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/f545d200-f190-11f0-bb28-005056a89546-2aa686d9-32bb-4680-b483-65fbfbd56815-1776371517.pdf",
-    "orgId": "FederalandMilitaryCommunitiesCommittee"
   },
   {
     "organizor": "Finance and Investment Committee",
@@ -654,6 +643,18 @@
     "video": "",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/1f73315f-ebff-11f0-bb28-005056a89546-3024744b-ade7-4818-a498-958db485d49e-1776386983.pdf",
     "orgId": "EconomicDevelopmentCommittee"
+  },
+  {
+    "organizor": "Federal and Military Communities Committee",
+    "cancelled": false,
+    "name": "Federal and Military Communities Committee",
+    "date": "04-20-2026",
+    "timestamp": 1776668400000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2608",
+    "minutes": "",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/f545d200-f190-11f0-bb28-005056a89546-2aa686d9-32bb-4680-b483-65fbfbd56815-1776371517.pdf",
+    "orgId": "FederalandMilitaryCommunitiesCommittee"
   },
   {
     "organizor": "Parks and Community Services Commission",
