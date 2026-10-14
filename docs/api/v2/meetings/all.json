@@ -24,18 +24,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "Planning Commission",
-    "cancelled": true,
-    "name": "Planning Commission Cancelled",
-    "date": "10-13-2026",
-    "timestamp": 1791874800000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=815",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "PlanningCommission",
-    "type": "meeting"
-  },
-  {
     "organizor": "Federal and Military Communities Committee",
     "cancelled": false,
     "name": "Federal and Military Communities Committee Special Meeting",
