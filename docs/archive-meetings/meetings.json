@@ -11,17 +11,6 @@
     "orgId": "PlanningCommission"
   },
   {
-    "organizor": "",
-    "cancelled": false,
-    "name": "Economic Development Committee",
-    "date": "10-20-2026",
-    "timestamp": 1792479600000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=838",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/6e0cc0e1-ebff-11f0-bb28-005056a89546-2aa686d9-32bb-4680-b483-65fbfbd56815-1792108143.pdf",
-    "orgId": ""
-  },
-  {
     "organizor": "Parks and Community Services Commission",
     "cancelled": false,
     "name": "Parks and Community Services Commission",
