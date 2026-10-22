@@ -11,6 +11,17 @@
     "orgId": "PlanningCommission"
   },
   {
+    "organizor": "",
+    "cancelled": false,
+    "name": "DSRSD/Dublin Liaison Committee Meeting",
+    "date": "10-26-2026",
+    "timestamp": 1792998000000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=911",
+    "video": "",
+    "agendaPacket": "",
+    "orgId": ""
+  },
+  {
     "organizor": "Parks and Community Services Commission",
     "cancelled": false,
     "name": "Parks and Community Services Commission",
@@ -77,7 +88,7 @@
     "date": "10-06-2026",
     "timestamp": 1791270000000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2645",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=2645&doc_id=7c9c626e-ce3e-11f1-89ef-005056a84798",
     "video": "",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3f88a2c3-c4b8-11f0-a7da-005056a89546-4c1e7fda-78a9-4226-83cf-0667e9f307f2-1791330630.pdf",
     "orgId": "CityCouncil"
@@ -137,7 +148,7 @@
     "date": "09-09-2026",
     "timestamp": 1788937200000,
     "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2640",
-    "minutes": "",
+    "minutes": "https://dublin.granicus.com/MinutesViewer.php?view_id=1&clip_id=2640&doc_id=d5fd4aff-ce33-11f1-89ef-005056a84798",
     "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2640",
     "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/0d121858-f25c-11f0-bb28-005056a89546-85b84752-2d4f-4df5-8a4d-4893653bd283-1788557305.pdf",
     "orgId": "YouthAdvisoryCommittee"
