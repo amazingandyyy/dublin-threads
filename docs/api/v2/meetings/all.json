@@ -1,5 +1,17 @@
 [
   {
+    "organizor": "Heritage and Cultural Arts Commission",
+    "cancelled": false,
+    "name": "Heritage and Cultural Arts Commission Special Meeting",
+    "date": "10-28-2026",
+    "timestamp": 1793170800000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=874",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/4676454d-008d-11f1-bb28-005056a89546-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1792702300.pdf",
+    "orgId": "HeritageandCulturalArtsCommission",
+    "type": "meeting"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": false,
     "name": "Planning Commission Regular Meeting",
@@ -362,6 +374,19 @@
     "type": "meeting"
   },
   {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": "08-06-2026",
+    "timestamp": 1785999600000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2664",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2664",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/5730bad3-f010-11f0-bb28-005056a89546-2c2816d6-a723-442a-b84e-a5291bd99692-1785425420.pdf",
+    "orgId": "SeniorCenterAdvisoryCommittee",
+    "type": "meeting"
+  },
+  {
     "organizor": "Planning Commission",
     "cancelled": true,
     "name": "Planning Commission Cancelled",
@@ -658,6 +683,19 @@
     "video": "",
     "agendaPacket": "",
     "orgId": "CityCouncilLiaisonCommittees",
+    "type": "meeting"
+  },
+  {
+    "organizor": "Senior Center Advisory Committee",
+    "cancelled": false,
+    "name": "Senior Center Advisory Committee",
+    "date": "05-07-2026",
+    "timestamp": 1778137200000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&clip_id=2665",
+    "minutes": "",
+    "video": "https://dublin.granicus.com/MediaPlayer.php?view_id=1&clip_id=2665",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/22d17097-f010-11f0-bb28-005056a89546-2c2816d6-a723-442a-b84e-a5291bd99692-1777908633.pdf",
+    "orgId": "SeniorCenterAdvisoryCommittee",
     "type": "meeting"
   },
   {
