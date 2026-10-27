@@ -22,17 +22,6 @@
     "orgId": "PlanningCommission"
   },
   {
-    "organizor": "",
-    "cancelled": false,
-    "name": "DSRSD/Dublin Liaison Committee Meeting",
-    "date": "10-26-2026",
-    "timestamp": 1792998000000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=911",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": ""
-  },
-  {
     "organizor": "Economic Development Committee",
     "cancelled": false,
     "name": "Economic Development Committee",
