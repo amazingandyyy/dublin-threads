@@ -24,18 +24,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "Heritage and Cultural Arts Commission",
-    "cancelled": false,
-    "name": "Heritage and Cultural Arts Commission Special Meeting",
-    "date": "10-28-2026",
-    "timestamp": 1793170800000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=874",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/4676454d-008d-11f1-bb28-005056a89546-9a8fc4a4-f6c3-46a2-a694-06a39833ee7d-1792702300.pdf",
-    "orgId": "HeritageandCulturalArtsCommission",
-    "type": "meeting"
-  },
-  {
     "organizor": "Planning Commission",
     "cancelled": false,
     "name": "Planning Commission Regular Meeting",
