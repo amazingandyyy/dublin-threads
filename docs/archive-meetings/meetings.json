@@ -22,6 +22,17 @@
     "orgId": "SeniorCenterAdvisoryCommittee"
   },
   {
+    "organizor": "",
+    "cancelled": false,
+    "name": "Finance and Investment Committee",
+    "date": "11-03-2026",
+    "timestamp": 1793692800000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=853",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/983061c5-f183-11f0-bb28-005056a89546-2aa686d9-32bb-4680-b483-65fbfbd56815-1793307716.pdf",
+    "orgId": ""
+  },
+  {
     "organizor": "Heritage and Cultural Arts Commission",
     "cancelled": false,
     "name": "Heritage and Cultural Arts Commission Special Meeting",
