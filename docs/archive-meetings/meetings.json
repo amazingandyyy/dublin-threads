@@ -22,17 +22,6 @@
     "orgId": "SeniorCenterAdvisoryCommittee"
   },
   {
-    "organizor": "City Council",
-    "cancelled": false,
-    "name": "City Council on 2026-11-03 5:30 PM - Regular City Council Meeting",
-    "date": "11-03-2026",
-    "timestamp": 1793692800000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=912",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "CityCouncil"
-  },
-  {
     "organizor": "Heritage and Cultural Arts Commission",
     "cancelled": false,
     "name": "Heritage and Cultural Arts Commission Special Meeting",
