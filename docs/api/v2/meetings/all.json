@@ -12,18 +12,6 @@
     "type": "meeting"
   },
   {
-    "organizor": "Planning Commission",
-    "cancelled": false,
-    "name": "Planning Commission on 2026-11-10 7:00 PM - Regular Planning Commission Meeting",
-    "date": "11-10-2026",
-    "timestamp": 1794297600000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=914",
-    "video": "",
-    "agendaPacket": "",
-    "orgId": "PlanningCommission",
-    "type": "meeting"
-  },
-  {
     "organizor": "Heritage and Cultural Arts Commission",
     "cancelled": false,
     "name": "Heritage and Cultural Arts Commission Special Meeting",
