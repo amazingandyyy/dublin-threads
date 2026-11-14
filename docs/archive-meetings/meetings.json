@@ -1,5 +1,27 @@
 [
   {
+    "organizor": "Human Services Commission",
+    "cancelled": false,
+    "name": "Human Services Commission",
+    "date": "11-19-2026",
+    "timestamp": 1795075200000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=782",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3d285d5d-c0bc-11f0-a7da-005056a89546-2c2816d6-a723-442a-b84e-a5291bd99692-1794618444.pdf",
+    "orgId": "HumanServicesCommission"
+  },
+  {
+    "organizor": "Youth Advisory Committee",
+    "cancelled": false,
+    "name": "Youth Advisory Committee Special Meeting",
+    "date": "11-18-2026",
+    "timestamp": 1794988800000,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=913",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/0945cac7-d879-11f1-9c50-005056a84798-85b84752-2d4f-4df5-8a4d-4893653bd283-1794617811.pdf",
+    "orgId": "YouthAdvisoryCommittee"
+  },
+  {
     "organizor": "Parks and Community Services Commission",
     "cancelled": true,
     "name": "Parks and Community Services Commission Cancellation Notice",
