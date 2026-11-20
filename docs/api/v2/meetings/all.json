@@ -1,17 +1,5 @@
 [
   {
-    "organizor": "Human Services Commission",
-    "cancelled": false,
-    "name": "Human Services Commission",
-    "date": "11-19-2026",
-    "timestamp": 1795075200000,
-    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=782",
-    "video": "",
-    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/3d285d5d-c0bc-11f0-a7da-005056a89546-2c2816d6-a723-442a-b84e-a5291bd99692-1794618444.pdf",
-    "orgId": "HumanServicesCommission",
-    "type": "meeting"
-  },
-  {
     "organizor": "Youth Advisory Committee",
     "cancelled": false,
     "name": "Youth Advisory Committee Special Meeting",
