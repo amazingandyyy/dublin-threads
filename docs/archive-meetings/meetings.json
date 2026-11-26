@@ -8772,6 +8772,17 @@
     "orgId": "YouthAdvisoryCommittee"
   },
   {
+    "organizor": "",
+    "cancelled": false,
+    "name": "Name, Finance and Investment Committee",
+    "date": null,
+    "timestamp": 0,
+    "agenda": "https://dublin.granicus.com/AgendaViewer.php?view_id=1&event_id=854",
+    "video": "",
+    "agendaPacket": "https://d3n9y02raazwpg.cloudfront.net/dublin/af29170e-f183-11f0-bb28-005056a89546-2aa686d9-32bb-4680-b483-65fbfbd56815-1795652036.pdf",
+    "orgId": ""
+  },
+  {
     "organizor": "City Council",
     "cancelled": false,
     "name": "Name, City Council on 2026-12-01 7:00 PM - 6:45 PM - Closed Session7:00 PM - Regular City Council Meeting",
